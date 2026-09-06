@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-09-06T09:13:27+09:00",
+ "generatedAt": "2026-09-06T09:16:34+09:00",
  "sites": [
   {
    "id": "hatena_all",
@@ -9,7 +9,7 @@
    "file": "sites/hatena_all.json",
    "count": 42,
    "rev": "0270160e083d",
-   "updatedAt": "2026-09-06T09:13:27+09:00",
+   "updatedAt": "2026-09-06T09:16:34+09:00",
    "allowFullText": true
   }
  ],
