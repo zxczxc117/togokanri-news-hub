@@ -1,7 +1,7 @@
 {
   "id": "hatena_all",
   "name": "はてなブックマーク 総合",
-  "category": "MATOME",
+  "category": "GENERAL",
   "enabled": true,
   "allowFullText": true,
   "maxItems": 60,
