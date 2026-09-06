@@ -95,3 +95,46 @@ def write_index(publish_dir: str, entries: List[Dict[str, Any]]) -> str:
         json.dump(index, f, ensure_ascii=False, indent=1)
         f.write("\n")
     return index["rev"]
+
+def write_images(
+    publish_dir: str,
+    images: Dict[str, Dict[str, str]],
+) -> tuple[bool, int]:
+    payload = {
+        "schemaVersion": SCHEMA_VERSION,
+        "generatedAt": _iso(int(time.time() * 1000)),
+        "count": len(images),
+        "images": {
+            image.get("id", ""): {
+                "mime": image.get("mime", ""),
+                "data": image.get("data", ""),
+            }
+            for image in images.values()
+            if image.get("id")
+        },
+    }
+
+    path = os.path.join(publish_dir, "images.json")
+    os.makedirs(publish_dir, exist_ok=True)
+
+    text = json.dumps(
+        payload,
+        ensure_ascii=False,
+        separators=(",", ":"),
+    ) + "\n"
+
+    old_text = ""
+    if os.path.exists(path):
+        try:
+            with open(path, encoding="utf-8") as f:
+                old_text = f.read()
+        except Exception:
+            pass
+
+    if old_text == text:
+        return False, os.path.getsize(path)
+
+    with open(path, "w", encoding="utf-8", newline="\n") as f:
+        f.write(text)
+
+    return True, len(text.encode("utf-8"))

@@ -13,9 +13,16 @@ from __future__ import annotations
 import re
 from dataclasses import dataclass, field
 from typing import List
+from urllib.parse import urljoin
 from xml.etree import ElementTree
+import warnings
 
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
+
+warnings.filterwarnings(
+    "ignore",
+    category=XMLParsedAsHTMLWarning,
+)
 
 from .normalize import clean_text
 
@@ -33,9 +40,13 @@ class Candidate:
 
 
 _DATE_FORMATS = (
-    "%a, %d %b %Y %H:%M:%S %z", "%a, %d %b %Y %H:%M:%S %Z",
-    "%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%dT%H:%M:%S.%f%z",
-    "%Y-%m-%dT%H:%M:%S", "%Y-%m-%d %H:%M:%S", "%Y-%m-%d",
+    "%a, %d %b %Y %H:%M:%S %z",
+    "%a, %d %b %Y %H:%M:%S %Z",
+    "%Y-%m-%dT%H:%M:%S%z",
+    "%Y-%m-%dT%H:%M:%S.%f%z",
+    "%Y-%m-%dT%H:%M:%S",
+    "%Y-%m-%d %H:%M:%S",
+    "%Y-%m-%d",
 )
 
 
@@ -46,16 +57,21 @@ def parse_date_ms(text: str) -> int:
     t = clean_text(text)
     if not t:
         return 0
+
     t = t.replace("Z", "+0000")
     t = re.sub(r"([+-]\d{2}):(\d{2})$", r"\1\2", t)
+
     for fmt in _DATE_FORMATS:
         try:
             d = dt.datetime.strptime(t, fmt)
             if d.tzinfo is None:
-                d = d.replace(tzinfo=dt.timezone(dt.timedelta(hours=9)))
+                d = d.replace(
+                    tzinfo=dt.timezone(dt.timedelta(hours=9))
+                )
             return int(d.timestamp() * 1000)
         except ValueError:
             continue
+
     return 0
 
 
@@ -65,121 +81,407 @@ def _tag(name: str) -> str:
 
 
 def from_feed(xml_text: str, limit: int) -> List[Candidate]:
-    """RSS2.0 / RDF(RSS1.0) / Atom を1つの関数で読む（アプリ側と同じ考え方）。"""
+    """RSS2.0 / RDF(RSS1.0) / Atom を1つの関数で読む。"""
     out: List[Candidate] = []
+
     try:
-        root = ElementTree.fromstring(xml_text.encode("utf-8", "ignore"))
+        root = ElementTree.fromstring(
+            xml_text.encode("utf-8", "ignore")
+        )
     except ElementTree.ParseError:
         return out
 
     for node in root.iter():
         if _tag(node.tag) not in ("item", "entry"):
             continue
+
         title = link = summary = content = date = image = ""
+
         for child in node:
             name = _tag(child.tag)
             text = (child.text or "").strip()
+
             if name == "title" and not title:
                 title = text
+
             elif name == "link":
                 href = child.attrib.get("href", "")
                 rel = child.attrib.get("rel", "")
+
                 if href and rel in ("", "alternate"):
                     link = href
                 elif text.startswith("http") and not link:
                     link = text
+
             elif name == "guid" and not link and text.startswith("http"):
                 link = text
+
             elif name in ("description", "summary") and not summary:
                 summary = text
+
             elif name in ("encoded", "content") and not content:
                 content = text or ""
+
                 if not content:
                     url = child.attrib.get("url", "")
                     if url and not image:
                         image = url
-            elif name in ("pubdate", "date", "updated", "published") and not date:
+
+            elif name in (
+                "pubdate",
+                "date",
+                "updated",
+                "published",
+            ) and not date:
                 date = text
+
             elif name in ("enclosure", "thumbnail") and not image:
                 image = child.attrib.get("url", "")
+
         if not title or not link:
             continue
+
         if not image:
-            m = re.search(r"""<img[^>]+src=["']([^"']+)["']""", content or summary or "", re.I)
+            m = re.search(
+                r"""<img[^>]+src=["']([^"']+)["']""",
+                content or summary or "",
+                re.I,
+            )
             if m:
                 image = m.group(1)
-        out.append(Candidate(
-            url=link.strip(),
-            title=clean_text(re.sub(r"<[^>]*>", "", title)),
-            summary=clean_text(re.sub(r"<[^>]*>", "", summary))[:400],
-            image_url=image.strip(),
-            published_at=parse_date_ms(date),
-            feed_updated=date,
-            feed_content=content or "",
-        ))
+
+        out.append(
+            Candidate(
+                url=link.strip(),
+                title=clean_text(
+                    re.sub(r"<[^>]*>", "", title)
+                ),
+                summary=clean_text(
+                    re.sub(r"<[^>]*>", "", summary)
+                )[:400],
+                image_url=image.strip(),
+                published_at=parse_date_ms(date),
+                feed_updated=date,
+                feed_content=content or "",
+            )
+        )
+
         if len(out) >= limit:
             break
+
     return out
 
 
-def from_html(html: str, base_url: str, listing: dict, limit: int) -> List[Candidate]:
-    """一覧ページのHTMLから記事リンクを拾う。"""
-    from urllib.parse import urljoin
+def _match_patterns(url: str, patterns: List[str]) -> bool:
+    """URLが指定パターンのいずれかに一致するか。
 
+    設定値は正規表現として扱う。
+    無効な正規表現の場合は文字列一致にフォールバックする。
+    """
+    for pattern in patterns:
+        if not pattern:
+            continue
+
+        try:
+            if re.search(pattern, url):
+                return True
+        except re.error:
+            if pattern in url:
+                return True
+
+    return False
+
+
+def from_html(
+    html: str,
+    base_url: str,
+    listing: dict,
+    limit: int,
+) -> List[Candidate]:
+    """一覧ページのHTMLから記事リンクを拾う。"""
     soup = BeautifulSoup(html, "lxml")
+
     selector = listing.get("linkSelector") or "a"
     attr = listing.get("linkAttr") or "href"
+
     include = listing.get("urlIncludePatterns") or []
     exclude = listing.get("urlExcludePatterns") or []
 
     out: List[Candidate] = []
     seen = set()
-    for a in soup.select(selector):
+
+    try:
+        anchors = soup.select(selector)
+    except Exception:
+        return out
+
+    for a in anchors:
         href = a.get(attr) or ""
+
         if not href:
             continue
+
         url = urljoin(base_url, href.strip())
+
         if not url.startswith(("http://", "https://")):
             continue
-        if include and not any(p in url for p in include):
+
+        # include は「正規表現のどれかに一致」する必要がある
+        if include and not _match_patterns(url, include):
             continue
-        if exclude and any(p in url for p in exclude):
+
+        # exclude は「正規表現のどれかに一致」したら除外
+        if exclude and _match_patterns(url, exclude):
             continue
+
         if url in seen:
             continue
+
         seen.add(url)
-        out.append(Candidate(url=url, title=clean_text(a.get_text(" ", strip=True))[:200]))
+
+        out.append(
+            Candidate(
+                url=url,
+                title=clean_text(
+                    a.get_text(" ", strip=True)
+                )[:200],
+            )
+        )
+
         if len(out) >= limit:
             break
+
     return out
 
 
-def collect(fetcher, site, limit: int, state) -> tuple[List[Candidate], List[str]]:
-    """設定の listing.urls をすべて読み、記事URLの候補を返す。"""
+def collect(
+    fetcher,
+    site,
+    limit: int,
+    state,
+) -> tuple[List[Candidate], List[str]]:
+    """設定された一覧を読み、記事URLの候補を返す。
+
+    RSS:
+        listing.urls をそのまま取得。
+
+    HTML + pagination:
+        startPage から順番にページを取得し、
+        limit 件の候補が集まったら終了する。
+
+        ただし通常運用では、ページ1が Not Modified の場合、
+        新しい記事が追加されていないと判断して以降のページを
+        無駄に取得しない。
+    """
     errors: List[str] = []
     listing = site.listing
+
     ltype = listing.get("type", "rss")
     result: List[Candidate] = []
-    for url in listing.get("urls", []):
-        meta = state.listing_meta(url)
-        res = fetcher.get(url, meta.get("etag", ""), meta.get("lastModified", ""))
-        if res.not_modified:
-            # 一覧が更新されていない＝新着なし。記事の再取得もしない。
-            continue
-        if not res.ok:
-            errors.append("%s 一覧取得失敗(%s): %s" % (site.id, res.status, res.error or url))
-            continue
-        state.set_listing_meta(url, res.etag, res.last_modified)
-        if ltype == "rss":
-            result += from_feed(res.text, limit)
+
+    # ------------------------------------------------------------
+    # RSS / Atom / RDF
+    # ------------------------------------------------------------
+    if ltype == "rss":
+        for url in listing.get("urls", []):
+            meta = state.listing_meta(url)
+
+            res = fetcher.get(
+                url,
+                meta.get("etag", ""),
+                meta.get("lastModified", ""),
+            )
+
+            if res.not_modified:
+                continue
+
+            if not res.ok:
+                errors.append(
+                    "%s 一覧取得失敗(%s): %s"
+                    % (
+                        site.id,
+                        res.status,
+                        res.error or url,
+                    )
+                )
+                continue
+
+            state.set_listing_meta(
+                url,
+                res.etag,
+                res.last_modified,
+            )
+
+            result += from_feed(
+                res.text,
+                limit,
+            )
+
+    # ------------------------------------------------------------
+    # HTML
+    # ------------------------------------------------------------
+    else:
+        pagination = listing.get("pagination") or {}
+
+        pagination_enabled = bool(
+            pagination.get("enabled", False)
+        )
+
+        # --------------------------------------------------------
+        # ページネーションなし
+        # --------------------------------------------------------
+        if not pagination_enabled:
+            for url in listing.get("urls", []):
+                meta = state.listing_meta(url)
+
+                res = fetcher.get(
+                    url,
+                    meta.get("etag", ""),
+                    meta.get("lastModified", ""),
+                )
+
+                if res.not_modified:
+                    continue
+
+                if not res.ok:
+                    errors.append(
+                        "%s 一覧取得失敗(%s): %s"
+                        % (
+                            site.id,
+                            res.status,
+                            res.error or url,
+                        )
+                    )
+                    continue
+
+                state.set_listing_meta(
+                    url,
+                    res.etag,
+                    res.last_modified,
+                )
+
+                result += from_html(
+                    res.text,
+                    url,
+                    listing,
+                    limit,
+                )
+
+        # --------------------------------------------------------
+        # ページネーションあり
+        # --------------------------------------------------------
         else:
-            result += from_html(res.text, url, listing, limit)
-    # 同じURLが複数の一覧に出ることがあるので先着順で一意化する
+            urls = listing.get("urls", [])
+
+            if not urls:
+                return [], errors
+
+            base_url = urls[0]
+
+            start_page = int(
+                pagination.get("startPage", 1)
+            )
+
+            max_pages = int(
+                pagination.get("maxPages", 1)
+            )
+
+            next_url_template = (
+                pagination.get("nextUrlTemplate") or ""
+            )
+
+            if max_pages < start_page:
+                max_pages = start_page
+
+            # ページ1は listing.urls のURLを使用。
+            # これにより
+            #   https://itainews.com/
+            # と
+            #   https://itainews.com/?p=1
+            # を二重取得しない。
+            page = start_page
+
+            while page <= max_pages:
+                if len(result) >= limit:
+                    break
+
+                if page == start_page:
+                    url = base_url
+                else:
+                    if not next_url_template:
+                        break
+
+                    url = next_url_template.format(
+                        page=page
+                    )
+
+                meta = state.listing_meta(url)
+
+                res = fetcher.get(
+                    url,
+                    meta.get("etag", ""),
+                    meta.get("lastModified", ""),
+                )
+
+                if res.not_modified:
+                    # ページ1が変わっていないなら、
+                    # 新しい記事が追加された可能性は低い。
+                    #
+                    # 通常の定期実行で過去ページを2196ページ
+                    # 毎回巡回するのを防ぐ。
+                    if page == start_page:
+                        break
+
+                    page += 1
+                    continue
+
+                if not res.ok:
+                    errors.append(
+                        "%s 一覧取得失敗(%s): %s"
+                        % (
+                            site.id,
+                            res.status,
+                            res.error or url,
+                        )
+                    )
+                    break
+
+                state.set_listing_meta(
+                    url,
+                    res.etag,
+                    res.last_modified,
+                )
+
+                page_candidates = from_html(
+                    res.text,
+                    url,
+                    listing,
+                    limit - len(result),
+                )
+
+                result.extend(page_candidates)
+
+                # ページに記事が1件もなかったら、
+                # それより先も存在しない可能性が高い。
+                if not page_candidates:
+                    break
+
+                page += 1
+
+    # ------------------------------------------------------------
+    # 同じURLを一意化
+    # ------------------------------------------------------------
     uniq: List[Candidate] = []
     seen = set()
+
     for c in result:
         if c.url in seen:
             continue
+
         seen.add(c.url)
         uniq.append(c)
-    return uniq[:limit], errors
+
+        if len(uniq) >= limit:
+            break
+
+    return uniq, errors

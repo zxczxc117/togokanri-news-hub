@@ -71,6 +71,17 @@ def trim_blocks(blocks: List[dict], max_chars: int) -> List[dict]:
             continue
         if total + len(text) > max_chars:
             break
-        out.append({"kind": b.get("kind", "P"), "text": text})
+        new_block = {
+            "kind": b.get("kind", "P"),
+            "text": text,
+        }
+
+        if b.get("imageUrls"):
+            new_block["imageUrls"] = b["imageUrls"]
+
+        if b.get("imageIds"):
+            new_block["imageIds"] = b["imageIds"]
+
+        out.append(new_block)
         total += len(text)
     return out

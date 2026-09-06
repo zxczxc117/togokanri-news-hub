@@ -29,9 +29,13 @@ from .extractor import extract
 from .fetcher import Fetcher
 from .listing import collect
 from .normalize import blocks_hash, clean_text, normalize_url, sha, title_key
-from .publisher import site_payload, write_index, write_site
+from .publisher import site_payload, write_images, write_index, write_site
 from .state import SiteState
-
+import base64
+import hashlib
+import mimetypes
+import urllib.request
+from urllib.request import Request, urlopen
 
 def log(msg: str) -> None:
     print("[%s] %s" % (time.strftime("%H:%M:%S"), msg), flush=True)
@@ -45,8 +49,77 @@ def _summary_from_blocks(blocks: List[Dict[str, str]], fallback: str) -> str:
             return b["text"][:400]
     return ""
 
+def _image_id(url: str) -> str:
+    return hashlib.sha256(url.encode("utf-8")).hexdigest()[:16]
 
-def run_site(site, gcfg, fetcher: Fetcher, args) -> Dict[str, Any]:
+
+def _load_image_cache(state_dir: str) -> Dict[str, Dict[str, str]]:
+    path = os.path.join(state_dir, "images.json")
+    if not os.path.exists(path):
+        return {}
+
+    try:
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+        return data.get("images", {})
+    except Exception:
+        return {}
+
+
+def _save_image_cache(
+    state_dir: str,
+    images: Dict[str, Dict[str, str]],
+) -> None:
+    path = os.path.join(state_dir, "images.json")
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+
+    payload = {
+        "schemaVersion": 1,
+        "images": images,
+    }
+
+    with open(path, "w", encoding="utf-8", newline="\n") as f:
+        json.dump(payload, f, ensure_ascii=False, separators=(",", ":"))
+        f.write("\n")
+
+
+def _download_image(url: str) -> Dict[str, str] | None:
+    try:
+        req = Request(
+            url,
+            headers={
+                "User-Agent": "Mozilla/5.0",
+            },
+        )
+
+        with urlopen(req, timeout=20) as res:
+            data = res.read()
+            content_type = res.headers.get_content_type()
+
+        if not content_type.startswith("image/"):
+            guessed, _ = mimetypes.guess_type(url)
+            content_type = guessed or ""
+
+        if not content_type.startswith("image/"):
+            return None
+
+        return {
+            "url": url,
+            "mime": content_type,
+            "data": base64.b64encode(data).decode("ascii"),
+        }
+
+    except Exception as e:
+        log("画像取得失敗: %s: %s" % (url, e))
+        return None
+        
+def run_site(
+    site,
+    gcfg,
+    fetcher: Fetcher,
+    args,
+    image_cache: Dict[str, Dict[str, str]],
+) -> Dict[str, Any]:
     state = SiteState(gcfg.state_dir, site.id)
     max_items = min(site.max_items, int(gcfg.get("maxItemsPerSite", 80)))
     max_new = args.limit if args.limit else int(gcfg.get("maxNewArticlesPerRun", 40))
@@ -55,7 +128,13 @@ def run_site(site, gcfg, fetcher: Fetcher, args) -> Dict[str, Any]:
     recheck_ms = int(gcfg.get("recheckHours", 24)) * 3600 * 1000
     now = int(time.time() * 1000)
 
-    candidates, errors = collect(fetcher, site, max_items, state)
+    # --limit が指定された試験実行では、一覧もその件数まで取得して
+    # ページネーションを確認できるようにする。
+    # 通常運用では max_items 件まで候補を集める。
+    listing_limit = args.limit if args.limit else max_items
+
+    candidates, errors = collect(fetcher, site, listing_limit + args.offset, state)
+    candidates = candidates[args.offset:]
     log("%s: 候補 %d件（一覧の更新なし=%s）" % (site.id, len(candidates), not candidates))
 
     fetched = updated = added = skipped = 0
@@ -119,9 +198,47 @@ def run_site(site, gcfg, fetcher: Fetcher, args) -> Dict[str, Any]:
 
         ex = extract(res.text, cand.url, site.article, body_max)
         blocks = ex.blocks
-        if sum(len(b["text"]) for b in blocks) < body_min:
-            # 本文が薄い（JavaScript組み立て・有料記事など）。見出しと概要だけ配信する。
-            blocks = []
+        if "itainews.com" in cand.url:
+            log("itainews blocks: %s" % json.dumps(blocks, ensure_ascii=False))
+        for block in blocks:
+            image_urls = block.pop("imageUrls", [])
+            if not image_urls:
+                continue
+
+            image_ids = []
+
+            for image_url in image_urls:
+                image_id = _image_id(image_url)
+                image_ids.append(image_id)
+
+                if image_url not in image_cache:
+                    image_data = _download_image(image_url)
+                    if image_data:
+                        image_cache[image_url] = {
+                            "id": image_id,
+                            "url": image_data["url"],
+                            "mime": image_data["mime"],
+                            "data": image_data["data"],
+                        }
+
+            if image_ids:
+                block["imageIds"] = [
+                    image_id
+                    for image_id in image_ids
+                    if any(
+                        image.get("id") == image_id
+                        for image in image_cache.values()
+                    )
+                ]
+
+        # 痛いニュースは専用抽出で
+        # 「記事本文＋5chコメント」を取得するため、
+        # 汎用の本文文字数チェックで結果を破棄しない。
+        if "itainews.com" not in cand.url:
+            if sum(len(b["text"]) for b in blocks) < body_min:
+                # 本文が薄い（JavaScript組み立て・有料記事など）。
+                # 見出しと概要だけ配信する。
+                blocks = []
         title = cand.title or ex.title
         summary = _summary_from_blocks(blocks, clean_text(cand.summary))
         image = cand.image_url or ex.image_url
@@ -150,8 +267,12 @@ def run_site(site, gcfg, fetcher: Fetcher, args) -> Dict[str, Any]:
         state.put_article(key, record)
 
     removed = state.prune(int(gcfg.get("keepDays", 14)), max_items)
-    payload = site_payload(site, state.articles(), bool(gcfg.get("includeBody", True)))
 
+    payload = site_payload(
+        site,
+        state.articles(),
+        bool(gcfg.get("includeBody", True)),
+    )
     written = False
     if not args.dry_run:
         state.save()
@@ -176,6 +297,7 @@ def main(argv: List[str] | None = None) -> int:
     ap.add_argument("--dry-run", action="store_true", help="public/ と state/ を書かない")
     ap.add_argument("--limit", type=int, default=0, help="1サイトの新規取得件数の上限")
     ap.add_argument("--validate", action="store_true", help="設定の検証だけ行う")
+    ap.add_argument("--offset", type=int, default=0, help="候補を先頭から何件飛ばすか")
     args = ap.parse_args(argv)
 
     gcfg = cfgmod.load_global()
@@ -190,6 +312,8 @@ def main(argv: List[str] | None = None) -> int:
         return 0
 
     fetcher = Fetcher(gcfg)
+    image_cache = _load_image_cache(gcfg.state_dir)
+
     entries: List[Dict[str, Any]] = []
     all_errors: List[str] = []
     for site in sites:
@@ -197,7 +321,13 @@ def main(argv: List[str] | None = None) -> int:
             log("%s: enabled=false のため実行しない" % site.id)
             continue
         try:
-            entry = run_site(site, gcfg, fetcher, args)
+            entry = run_site(
+                site,
+                gcfg,
+                fetcher,
+                args,
+                image_cache,
+            )
         except Exception as e:  # noqa: BLE001 1サイトの事故で全体を止めない
             log("%s: 想定外の失敗 %s" % (site.id, e))
             all_errors.append("%s: %s" % (site.id, e))
@@ -205,6 +335,21 @@ def main(argv: List[str] | None = None) -> int:
         all_errors += entry.pop("errors", [])
         entries.append(entry)
 
+    if not args.dry_run:
+        _save_image_cache(gcfg.state_dir, image_cache)
+
+        written, image_bytes = write_images(
+            gcfg.publish_dir,
+            image_cache,
+        )
+
+        log(
+            "images.json: %s %.1f MB"
+            % (
+                "書込" if written else "据置",
+                image_bytes / 1024 / 1024,
+            )
+        )
     if entries and not args.dry_run:
         index_rev = write_index(gcfg.publish_dir, [
             {k: v for k, v in e.items() if k in
