@@ -1,0 +1,55 @@
+{
+  "id": "hatena_all",
+  "name": "はてなブックマーク 総合",
+  "category": "MATOME",
+  "enabled": true,
+  "allowFullText": true,
+  "maxItems": 60,
+  "listing": {
+    "type": "rss",
+    "urls": [
+      "https://b.hatena.ne.jp/hotentry.rss"
+    ],
+    "linkSelector": "",
+    "linkAttr": "href",
+    "urlIncludePatterns": [],
+    "urlExcludePatterns": []
+  },
+  "article": {
+    "titleSelectors": [
+      "h1"
+    ],
+    "bodySelectors": [],
+    "dropSelectors": [
+      "script",
+      "style",
+      "nav",
+      "footer",
+      "aside",
+      ".ad",
+      ".ads",
+      ".banner",
+      ".related",
+      ".recommend",
+      ".ranking",
+      ".share",
+      ".social",
+      ".breadcrumb"
+    ],
+    "imageSelectors": [
+      "meta[property='og:image']",
+      "meta[name='twitter:image']"
+    ],
+    "dateSelectors": [
+      "meta[property='article:published_time']",
+      "time[datetime]"
+    ],
+    "stopAtTexts": [
+      "関連記事",
+      "あわせて読みたい",
+      "おすすめ記事"
+    ],
+    "minParagraphChars": 30
+  },
+  "notes": "同上。個別セレクタは指定しない方が当たる。"
+}

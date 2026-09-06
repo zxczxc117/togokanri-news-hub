@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>サンプルニュース</title>
+    <item>
+      <title>サンプル記事その1</title>
+      <link>https://example.com/news/1</link>
+      <description>これはサンプルの概要文です。テストのためだけに置いています。</description>
+      <pubDate>Tue, 02 Sep 2026 09:00:00 +0900</pubDate>
+      <enclosure url="https://example.com/img/1.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>サンプル記事その2</title>
+      <link>https://example.com/news/2?utm_source=rss</link>
+      <description>2件目の概要です。</description>
+      <pubDate>Tue, 02 Sep 2026 08:00:00 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

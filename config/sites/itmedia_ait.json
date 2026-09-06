@@ -1,0 +1,58 @@
+{
+  "id": "itmedia_ait",
+  "name": "ITmedia AI＋",
+  "category": "TECH",
+  "enabled": true,
+  "allowFullText": true,
+  "maxItems": 80,
+  "listing": {
+    "type": "rss",
+    "urls": [
+      "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml"
+    ],
+    "linkSelector": "",
+    "linkAttr": "href",
+    "urlIncludePatterns": [],
+    "urlExcludePatterns": []
+  },
+  "article": {
+    "titleSelectors": [
+      "h1"
+    ],
+    "bodySelectors": [
+      "#cmsBody",
+      "div.inner",
+      "article"
+    ],
+    "dropSelectors": [
+      "script",
+      "style",
+      "nav",
+      "footer",
+      "aside",
+      ".ad",
+      ".ads",
+      ".banner",
+      ".related",
+      ".recommend",
+      ".ranking",
+      ".share",
+      ".social",
+      ".breadcrumb"
+    ],
+    "imageSelectors": [
+      "meta[property='og:image']",
+      "meta[name='twitter:image']"
+    ],
+    "dateSelectors": [
+      "meta[property='article:published_time']",
+      "time[datetime]"
+    ],
+    "stopAtTexts": [
+      "関連記事",
+      "Copyright"
+    ],
+    "minParagraphChars": 25
+  },
+  "notes": "本文は #cmsBody 配下。ページ分割記事は1ページ目のみ取得する。"
+}

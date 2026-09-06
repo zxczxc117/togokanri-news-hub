@@ -1,0 +1,55 @@
+{
+  "id": "hatena_it",
+  "name": "はてなブックマーク テクノロジー",
+  "category": "TECH",
+  "enabled": true,
+  "allowFullText": true,
+  "maxItems": 60,
+  "listing": {
+    "type": "rss",
+    "urls": [
+      "https://b.hatena.ne.jp/hotentry/it.rss"
+    ],
+    "linkSelector": "",
+    "linkAttr": "href",
+    "urlIncludePatterns": [],
+    "urlExcludePatterns": []
+  },
+  "article": {
+    "titleSelectors": [
+      "h1"
+    ],
+    "bodySelectors": [],
+    "dropSelectors": [
+      "script",
+      "style",
+      "nav",
+      "footer",
+      "aside",
+      ".ad",
+      ".ads",
+      ".banner",
+      ".related",
+      ".recommend",
+      ".ranking",
+      ".share",
+      ".social",
+      ".breadcrumb"
+    ],
+    "imageSelectors": [
+      "meta[property='og:image']",
+      "meta[name='twitter:image']"
+    ],
+    "dateSelectors": [
+      "meta[property='article:published_time']",
+      "time[datetime]"
+    ],
+    "stopAtTexts": [
+      "関連記事",
+      "あわせて読みたい",
+      "おすすめ記事"
+    ],
+    "minParagraphChars": 30
+  },
+  "notes": "アグリゲータ。RSSは抜粋のみでリンク先の媒体が毎回変わるため bodySelectors は空（汎用推定に任せる）。"
+}

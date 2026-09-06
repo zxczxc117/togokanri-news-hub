@@ -1,0 +1,62 @@
+{
+  "id": "example_html",
+  "name": "（ひな型）HTML一覧から拾うサイト",
+  "category": "GENERAL",
+  "enabled": true,
+  "allowFullText": true,
+  "maxItems": 80,
+  "listing": {
+    "type": "html",
+    "urls": [
+      "https://example.com/news/"
+    ],
+    "linkSelector": "ul.newslist a",
+    "linkAttr": "href",
+    "urlIncludePatterns": [
+      "/news/"
+    ],
+    "urlExcludePatterns": [
+      "/tag/",
+      "/author/"
+    ]
+  },
+  "article": {
+    "titleSelectors": [
+      "h1"
+    ],
+    "bodySelectors": [
+      "div.entry-body"
+    ],
+    "dropSelectors": [
+      "script",
+      "style",
+      "nav",
+      "footer",
+      "aside",
+      ".ad",
+      ".ads",
+      ".banner",
+      ".related",
+      ".recommend",
+      ".ranking",
+      ".share",
+      ".social",
+      ".breadcrumb"
+    ],
+    "imageSelectors": [
+      "meta[property='og:image']",
+      "meta[name='twitter:image']"
+    ],
+    "dateSelectors": [
+      "meta[property='article:published_time']",
+      "time[datetime]"
+    ],
+    "stopAtTexts": [
+      "関連記事",
+      "あわせて読みたい",
+      "おすすめ記事"
+    ],
+    "minParagraphChars": 25
+  },
+  "notes": "RSSが無いサイトの写し取り用ひな型。enabled を true にして id/name/URL/セレクタを埋めれば動く。ファイル名の先頭が _ の設定は読み込まれない。"
+}

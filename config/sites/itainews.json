@@ -1,0 +1,59 @@
+{
+  "id": "itainews",
+  "name": "痛いニュース",
+  "category": "MATOME",
+  "enabled": true,
+  "allowFullText": true,
+  "maxItems": 80,
+  "listing": {
+    "type": "rss",
+    "urls": [
+      "https://blog.livedoor.jp/dqnplus/index.rdf"
+    ],
+    "linkSelector": "",
+    "linkAttr": "href",
+    "urlIncludePatterns": [],
+    "urlExcludePatterns": []
+  },
+  "article": {
+    "titleSelectors": [
+      "h1"
+    ],
+    "bodySelectors": [
+      "div.article-body-inner",
+      "div.mainmore",
+      "article"
+    ],
+    "dropSelectors": [
+      "script",
+      "style",
+      "nav",
+      "footer",
+      "aside",
+      ".ad",
+      ".ads",
+      ".banner",
+      ".related",
+      ".recommend",
+      ".ranking",
+      ".share",
+      ".social",
+      ".breadcrumb"
+    ],
+    "imageSelectors": [
+      "meta[property='og:image']",
+      "meta[name='twitter:image']"
+    ],
+    "dateSelectors": [
+      "meta[property='article:published_time']",
+      "time[datetime]"
+    ],
+    "stopAtTexts": [
+      "関連記事",
+      "あわせて読みたい",
+      "おすすめ記事"
+    ],
+    "minParagraphChars": 15
+  },
+  "notes": "livedoor Blog。RDF(RSS1.0)。本文は article-body-inner に入る。"
+}

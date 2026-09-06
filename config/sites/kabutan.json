@@ -1,0 +1,58 @@
+{
+  "id": "kabutan",
+  "name": "株探 市況ニュース",
+  "category": "STOCK",
+  "enabled": true,
+  "allowFullText": true,
+  "maxItems": 80,
+  "listing": {
+    "type": "rss",
+    "urls": [
+      "https://kabutan.jp/news/marketnews/?mode=rss"
+    ],
+    "linkSelector": "",
+    "linkAttr": "href",
+    "urlIncludePatterns": [],
+    "urlExcludePatterns": []
+  },
+  "article": {
+    "titleSelectors": [
+      "h1"
+    ],
+    "bodySelectors": [
+      "#news_contents",
+      ".body"
+    ],
+    "dropSelectors": [
+      "script",
+      "style",
+      "nav",
+      "footer",
+      "aside",
+      ".ad",
+      ".ads",
+      ".banner",
+      ".related",
+      ".recommend",
+      ".ranking",
+      ".share",
+      ".social",
+      ".breadcrumb"
+    ],
+    "imageSelectors": [
+      "meta[property='og:image']",
+      "meta[name='twitter:image']"
+    ],
+    "dateSelectors": [
+      "time",
+      "meta[property='article:published_time']"
+    ],
+    "stopAtTexts": [
+      "関連記事",
+      "あわせて読みたい",
+      "おすすめ記事"
+    ],
+    "minParagraphChars": 25
+  },
+  "notes": ""
+}

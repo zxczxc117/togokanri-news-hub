@@ -1,0 +1,58 @@
+{
+  "id": "yahoo_topics",
+  "name": "Yahoo!ニュース トピックス",
+  "category": "GENERAL",
+  "enabled": true,
+  "allowFullText": false,
+  "maxItems": 60,
+  "listing": {
+    "type": "rss",
+    "urls": [
+      "https://news.yahoo.co.jp/rss/topics/top-picks.xml"
+    ],
+    "linkSelector": "",
+    "linkAttr": "href",
+    "urlIncludePatterns": [],
+    "urlExcludePatterns": []
+  },
+  "article": {
+    "titleSelectors": [
+      "h1"
+    ],
+    "bodySelectors": [
+      "article",
+      ".article_body"
+    ],
+    "dropSelectors": [
+      "script",
+      "style",
+      "nav",
+      "footer",
+      "aside",
+      ".ad",
+      ".ads",
+      ".banner",
+      ".related",
+      ".recommend",
+      ".ranking",
+      ".share",
+      ".social",
+      ".breadcrumb"
+    ],
+    "imageSelectors": [
+      "meta[property='og:image']",
+      "meta[name='twitter:image']"
+    ],
+    "dateSelectors": [
+      "meta[property='article:published_time']",
+      "time[datetime]"
+    ],
+    "stopAtTexts": [
+      "関連記事",
+      "あわせて読みたい",
+      "おすすめ記事"
+    ],
+    "minParagraphChars": 25
+  },
+  "notes": "再配信不可。本文は取得せず見出し・概要のみ。"
+}

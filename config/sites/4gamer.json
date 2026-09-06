@@ -1,0 +1,62 @@
+{
+  "id": "4gamer",
+  "name": "4Gamer.net",
+  "category": "GAME",
+  "enabled": true,
+  "allowFullText": true,
+  "maxItems": 80,
+  "listing": {
+    "type": "rss",
+    "urls": [
+      "https://www.4gamer.net/rss/index.xml"
+    ],
+    "linkSelector": "",
+    "linkAttr": "href",
+    "urlIncludePatterns": [],
+    "urlExcludePatterns": []
+  },
+  "article": {
+    "titleSelectors": [
+      "h1"
+    ],
+    "bodySelectors": [
+      "#maincontents",
+      ".text",
+      ".articleText"
+    ],
+    "dropSelectors": [
+      "script",
+      "style",
+      "nav",
+      "footer",
+      "aside",
+      ".ad",
+      ".ads",
+      ".banner",
+      "#gam",
+      ".pr",
+      ".sponsor",
+      ".related",
+      ".ranking",
+      ".newarticle",
+      ".recommend",
+      ".pickup",
+      ".breadcrumb",
+      ".socialbutton"
+    ],
+    "imageSelectors": [
+      "meta[property='og:image']",
+      "meta[name='twitter:image']"
+    ],
+    "dateSelectors": [
+      "meta[property='article:published_time']",
+      "time[datetime]"
+    ],
+    "stopAtTexts": [
+      "関連記事",
+      "この記事のURL"
+    ],
+    "minParagraphChars": 25
+  },
+  "notes": "広告・関連記事が多いので dropSelectors を厚くしている。"
+}

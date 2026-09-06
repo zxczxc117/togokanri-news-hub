@@ -1,0 +1,58 @@
+{
+  "id": "nhk_main",
+  "name": "NHK 主要ニュース",
+  "category": "GENERAL",
+  "enabled": true,
+  "allowFullText": false,
+  "maxItems": 60,
+  "listing": {
+    "type": "rss",
+    "urls": [
+      "https://www.nhk.or.jp/rss/news/cat0.xml"
+    ],
+    "linkSelector": "",
+    "linkAttr": "href",
+    "urlIncludePatterns": [],
+    "urlExcludePatterns": []
+  },
+  "article": {
+    "titleSelectors": [
+      "h1"
+    ],
+    "bodySelectors": [
+      "article .content--body",
+      "article"
+    ],
+    "dropSelectors": [
+      "script",
+      "style",
+      "nav",
+      "footer",
+      "aside",
+      ".ad",
+      ".ads",
+      ".banner",
+      ".related",
+      ".recommend",
+      ".ranking",
+      ".share",
+      ".social",
+      ".breadcrumb"
+    ],
+    "imageSelectors": [
+      "meta[property='og:image']",
+      "meta[name='twitter:image']"
+    ],
+    "dateSelectors": [
+      "meta[property='article:published_time']",
+      "time[datetime]"
+    ],
+    "stopAtTexts": [
+      "関連記事",
+      "あわせて読みたい",
+      "おすすめ記事"
+    ],
+    "minParagraphChars": 25
+  },
+  "notes": "再配信不可の媒体。allowFullText=false なので本文は配信JSONに含めず、見出し・概要・画像URLのみ配信する。"
+}

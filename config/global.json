@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "publishDir": "public",
+  "stateDir": "state",
+  "userAgent": "TogoKanriNewsHub/1.0 (personal use; +https://github.com/OWNER/togokanri-news-hub)",
+  "requestTimeoutSec": 20,
+  "sleepBetweenRequestsSec": 1.0,
+  "retryCount": 2,
+  "retryBackoffSec": 3,
+  "maxItemsPerSite": 80,
+  "maxNewArticlesPerRun": 40,
+  "recheckHours": 24,
+  "bodyMaxChars": 20000,
+  "bodyMinChars": 200,
+  "keepDays": 14,
+  "includeBody": true,
+  "includeImage": true
+}
