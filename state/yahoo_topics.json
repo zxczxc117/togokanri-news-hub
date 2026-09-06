@@ -1,0 +1,133 @@
+{
+ "articles": {
+  "https://news.yahoo.co.jp/pickup/6594421?source=rss": {
+   "bodyBlocks": [],
+   "checkedAt": 1788685192220,
+   "etag": "",
+   "hash": "c4d73685fa7abca6",
+   "id": "e7c76f21a5e9",
+   "imageUrl": "",
+   "key": "https://news.yahoo.co.jp/pickup/6594421?source=rss",
+   "lastModified": "",
+   "publishedAt": 1788642905000,
+   "summary": "",
+   "title": "玉木宏 柔術世界大会で3位",
+   "updatedAt": 1788685192220,
+   "url": "https://news.yahoo.co.jp/pickup/6594421?source=rss"
+  },
+  "https://news.yahoo.co.jp/pickup/6594425?source=rss": {
+   "bodyBlocks": [],
+   "checkedAt": 1788685192220,
+   "etag": "",
+   "hash": "d03dd1751011450d",
+   "id": "27fc73b984e5",
+   "imageUrl": "",
+   "key": "https://news.yahoo.co.jp/pickup/6594425?source=rss",
+   "lastModified": "",
+   "publishedAt": 1788644829000,
+   "summary": "",
+   "title": "3連単5294万円 中山競馬場は騒然",
+   "updatedAt": 1788685192220,
+   "url": "https://news.yahoo.co.jp/pickup/6594425?source=rss"
+  },
+  "https://news.yahoo.co.jp/pickup/6594432?source=rss": {
+   "bodyBlocks": [],
+   "checkedAt": 1788685192220,
+   "etag": "",
+   "hash": "4a0ef5008e399e05",
+   "id": "25a9db13ffdf",
+   "imageUrl": "",
+   "key": "https://news.yahoo.co.jp/pickup/6594432?source=rss",
+   "lastModified": "",
+   "publishedAt": 1788647131000,
+   "summary": "",
+   "title": "包丁の保有率 20代女性で9割切る",
+   "updatedAt": 1788685192220,
+   "url": "https://news.yahoo.co.jp/pickup/6594432?source=rss"
+  },
+  "https://news.yahoo.co.jp/pickup/6594433?source=rss": {
+   "bodyBlocks": [],
+   "checkedAt": 1788685192220,
+   "etag": "",
+   "hash": "562e91144dcd14c4",
+   "id": "648851664c24",
+   "imageUrl": "",
+   "key": "https://news.yahoo.co.jp/pickup/6594433?source=rss",
+   "lastModified": "",
+   "publishedAt": 1788647865000,
+   "summary": "",
+   "title": "東海や関東 土砂災害など厳重警戒",
+   "updatedAt": 1788685192220,
+   "url": "https://news.yahoo.co.jp/pickup/6594433?source=rss"
+  },
+  "https://news.yahoo.co.jp/pickup/6594436?source=rss": {
+   "bodyBlocks": [],
+   "checkedAt": 1788685192220,
+   "etag": "",
+   "hash": "4a6a5adbbcce87a5",
+   "id": "199642936f36",
+   "imageUrl": "",
+   "key": "https://news.yahoo.co.jp/pickup/6594436?source=rss",
+   "lastModified": "",
+   "publishedAt": 1788648518000,
+   "summary": "",
+   "title": "「殺人ロボ」巡り文書合意 国連",
+   "updatedAt": 1788685192220,
+   "url": "https://news.yahoo.co.jp/pickup/6594436?source=rss"
+  },
+  "https://news.yahoo.co.jp/pickup/6594438?source=rss": {
+   "bodyBlocks": [],
+   "checkedAt": 1788685192220,
+   "etag": "",
+   "hash": "93df809818338df4",
+   "id": "9fe0a6ce4d81",
+   "imageUrl": "",
+   "key": "https://news.yahoo.co.jp/pickup/6594438?source=rss",
+   "lastModified": "",
+   "publishedAt": 1788650562000,
+   "summary": "",
+   "title": "5人死傷のケーキ店 地域で人気",
+   "updatedAt": 1788685192220,
+   "url": "https://news.yahoo.co.jp/pickup/6594438?source=rss"
+  },
+  "https://news.yahoo.co.jp/pickup/6594440?source=rss": {
+   "bodyBlocks": [],
+   "checkedAt": 1788685192220,
+   "etag": "",
+   "hash": "6cc5b81a85369675",
+   "id": "bba5d8ad514b",
+   "imageUrl": "",
+   "key": "https://news.yahoo.co.jp/pickup/6594440?source=rss",
+   "lastModified": "",
+   "publishedAt": 1788651123000,
+   "summary": "",
+   "title": "鈴木P ジブリ風AI画は面白くない",
+   "updatedAt": 1788685192220,
+   "url": "https://news.yahoo.co.jp/pickup/6594440?source=rss"
+  },
+  "https://news.yahoo.co.jp/pickup/6594442?source=rss": {
+   "bodyBlocks": [],
+   "checkedAt": 1788685192220,
+   "etag": "",
+   "hash": "399e2ad2cc986ae0",
+   "id": "2b2b4677656d",
+   "imageUrl": "",
+   "key": "https://news.yahoo.co.jp/pickup/6594442?source=rss",
+   "lastModified": "",
+   "publishedAt": 1788652114000,
+   "summary": "",
+   "title": "金採掘か環境か 過疎の町の決断",
+   "updatedAt": 1788685192220,
+   "url": "https://news.yahoo.co.jp/pickup/6594442?source=rss"
+  }
+ },
+ "listing": {
+  "https://news.yahoo.co.jp/rss/topics/top-picks.xml": {
+   "checkedAt": 1788685193794,
+   "etag": "W/\"bab-xxr+yciuBJNPTXb6Et1Co7Hro6E\"",
+   "lastModified": ""
+  }
+ },
+ "siteId": "yahoo_topics",
+ "updatedAt": 1788685193794
+}
