@@ -2,17 +2,17 @@
  "articles": {
   "https://news.web.nhk/newsweb/na/nd-20260906de48377": {
    "bodyBlocks": [],
-   "checkedAt": 1788692324401,
+   "checkedAt": 1788731885137,
    "etag": "",
-   "hash": "40faf4d4ad7e7ddb",
+   "hash": "4ffa72dcfb167311",
    "id": "b6bb671b5109",
    "imageUrl": "",
    "key": "https://news.web.nhk/newsweb/na/nd-20260906de48377",
    "lastModified": "",
-   "publishedAt": 1788687180000,
-   "summary": "本州の南岸付近にある秋雨前線が北上している影響で、伊豆諸島のほか西日本や東日本の沿岸部でも雨雲が発達しています。\n西日本から東北にかけての太平洋側を中心に広い範囲でこれから大雨となる見込みで、関東と東…",
+   "publishedAt": 1788722076000,
+   "summary": "秋雨前線が北上している影響で、伊豆諸島や関東南部で大雨となり、土砂災害の危険度が非常に高まっています。\n関東と東海、それに東北では線状降水帯が発生するおそれがあり、安全な場所で過ごすようにしてください…",
    "title": "関東 東海 東北 線状降水帯発生の可能性 安全最優先に行動を",
-   "updatedAt": 1788692324401,
+   "updatedAt": 1788731885137,
    "url": "https://news.web.nhk/newsweb/na/nd-20260906de48377"
   },
   "https://news.web.nhk/newsweb/na/nd-20260906de48402": {
@@ -77,17 +77,17 @@
   },
   "https://news.web.nhk/newsweb/na/nd-20260906de48452": {
    "bodyBlocks": [],
-   "checkedAt": 1788701397981,
+   "checkedAt": 1788731885137,
    "etag": "",
-   "hash": "e8393e0b10ced42d",
+   "hash": "cbe1b7bb6ece79da",
    "id": "12fa07dd8381",
    "imageUrl": "",
    "key": "https://news.web.nhk/newsweb/na/nd-20260906de48452",
    "lastModified": "",
-   "publishedAt": 1788697515000,
-   "summary": "太平洋側を中心に広い範囲で大雨が降るおそれがあることを受けて、一部の交通機関にも運休などの影響が出ます。",
-   "title": "【随時更新】大雨交通影響 7日は山手線など本数減 運休区間も",
-   "updatedAt": 1788701397981,
+   "publishedAt": 1788731457000,
+   "summary": "大雨の影響で7日は、新幹線と首都圏の在来線など一部の交通機関で運休が決まっています。",
+   "title": "大雨交通影響 7日は山手線など本数減 運休区間も",
+   "updatedAt": 1788731885137,
    "url": "https://news.web.nhk/newsweb/na/nd-20260906de48452"
   },
   "https://news.web.nhk/newsweb/na/nd-20260906de48460": {
@@ -135,6 +135,21 @@
    "updatedAt": 1788701397981,
    "url": "https://news.web.nhk/newsweb/na/nd-20260906de48513"
   },
+  "https://news.web.nhk/newsweb/na/nd-20260906de48514": {
+   "bodyBlocks": [],
+   "checkedAt": 1788731885137,
+   "etag": "",
+   "hash": "4ab88ec283e12715",
+   "id": "291701ab803c",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260906de48514",
+   "lastModified": "",
+   "publishedAt": 1788730838000,
+   "summary": "決済代行サービスを行う「全東信」が経営破綻し、一部でクレジットカードが使えないなどの影響が広がったことを受けて、経済産業省は決済代行サービスの実態調査を進めていますが、これまでの調査で、大手カード会社…",
+   "title": "全東信問題「決済代行は大手含め利用」 経産省調査",
+   "updatedAt": 1788731885137,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260906de48514"
+  },
   "https://news.web.nhk/newsweb/na/nd-20260906de48517": {
    "bodyBlocks": [],
    "checkedAt": 1788701397981,
@@ -164,15 +179,75 @@
    "title": "東京 神津島村 大島町に土砂災害危険警報",
    "updatedAt": 1788701397981,
    "url": "https://news.web.nhk/newsweb/na/nd-20260906de48532"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260907de48555": {
+   "bodyBlocks": [],
+   "checkedAt": 1788731885137,
+   "etag": "",
+   "hash": "a8b4af6cfcc49c5f",
+   "id": "8b21011faaad",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260907de48555",
+   "lastModified": "",
+   "publishedAt": 1788721631000,
+   "summary": "5日、岐阜県本巣市の店舗兼住宅で3人が死亡した火事で、現場には住人とその同級生合わせて10人が集まっていたとみられることが、警察への取材で分かりました。1人が人を刺してガソリンをまいたという通報があっ…",
+   "title": "3人死亡火事は同級生の集まりで発生か 会社役員関与の可能性も",
+   "updatedAt": 1788731885137,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260907de48555"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260907de48626": {
+   "bodyBlocks": [],
+   "checkedAt": 1788731885137,
+   "etag": "",
+   "hash": "799ca49ee33809c0",
+   "id": "1a83a3dc6d28",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260907de48626",
+   "lastModified": "",
+   "publishedAt": 1788730358000,
+   "summary": "中国外務省は、ネパールとの国境付近で起きた大規模な土石流で大きな被害を受けた、チベット自治区の現場を外国メディアに公開しました。\nロイター通信などが6日配信した映像では、国境検問所があった場所は一帯…",
+   "title": "ネパール土石流 中国がチベット側被災地を外国メディアに公開",
+   "updatedAt": 1788731885137,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260907de48626"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260907de48631": {
+   "bodyBlocks": [],
+   "checkedAt": 1788731885137,
+   "etag": "",
+   "hash": "7d67a21525cafc3f",
+   "id": "6bf8ec37051f",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260907de48631",
+   "lastModified": "",
+   "publishedAt": 1788731576000,
+   "summary": "秋雨前線の影響で東京の伊豆諸島や関東南部では大雨となり、新島村には「レベル5土砂災害特別警報」が発表されています。\n重大な土砂災害がすでに発生している可能性が極めて高い状況で、命が助かる可能性が高い行…",
+   "title": "東京 新島村に土砂災害特別警報 伊豆諸島や関東南部で大雨",
+   "updatedAt": 1788731885137,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260907de48631"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260907de48654": {
+   "bodyBlocks": [],
+   "checkedAt": 1788731885137,
+   "etag": "",
+   "hash": "9a7038562f82066f",
+   "id": "30400834eb32",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260907de48654",
+   "lastModified": "",
+   "publishedAt": 1788730128000,
+   "summary": "ウクライナのゼレンスキー大統領は6日、首都キーウを訪れたアメリカのウィトコフ特使らと会談し、停滞するロシアとの和平交渉について「特使らが交渉のプロセスを再開してくれた」と述べ、事態打開への期待を示しま…",
+   "title": "ゼレンスキー大統領 米特使らと会談「交渉再開させてくれた」",
+   "updatedAt": 1788731885137,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260907de48654"
   }
  },
  "listing": {
   "https://www.nhk.or.jp/rss/news/cat0.xml": {
-   "checkedAt": 1788701399658,
-   "etag": "W/\"5f919f99c38e235cdd1270dc45337148\"",
-   "lastModified": "Sun, 06 Sep 2026 12:53:49 GMT"
+   "checkedAt": 1788731886889,
+   "etag": "W/\"138d7f00a87e1803ab16762c8981fa4d\"",
+   "lastModified": "Sun, 06 Sep 2026 21:53:21 GMT"
   }
  },
  "siteId": "nhk_main",
- "updatedAt": 1788701399658
+ "updatedAt": 1788731886890
 }

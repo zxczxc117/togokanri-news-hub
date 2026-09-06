@@ -756,6 +756,690 @@
    "updatedAt": 1788685102092,
    "url": "https://ashunar0.dev/posts/orm-responsibilities/"
   },
+  "https://aws.amazon.com/jp/blogs/news/streamlining-access-to-tabular-datasets-stored-in-amazon-s3-tables-with-duckdb": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "DuckDB で Amazon S3 Tables に格納された表形式データセットへのアクセスを効率化する"
+    },
+    {
+     "kind": "P",
+     "text": "本記事は 2025 年 3 月 18 日 に公開された「 Streamlining access to tabular datasets stored in Amazon S3 Tables with DuckDB 」を翻訳したものです。"
+    },
+    {
+     "kind": "P",
+     "text": "データドリブンな意思決定への依存が高まるなか、データ分析のプロセスを効率化・高速化するツールへの需要が増しています。重要な意思決定を進める場面では、アプリケーションアーキテクチャの効率性とシンプルさが競争優位につながります。開発者は、既存のアプリケーションスタックとスムーズに統合できる軽量で柔軟なツールを求めています。特に、データレイクに保存されたデータセットを素早く効率的にクエリするための手段が重視されています。"
+    },
+    {
+     "kind": "P",
+     "text": "こうした状況において、 DuckDB は複雑なインストールなしにデータを素早く分析できる実用的な選択肢として注目されています。DuckDB はホストプロセスに完全に組み込まれ、別プロセスとして動作しないため、インストール・更新・保守が必要な別サーバーやソフトウェアを用意する必要がありません。軽量な設計により、Python、Java、その他の環境に容易に統合でき、対話型のデータ分析に適しています。DuckDB には最近、 Apache Iceberg REST API を利用して Amazon S3 Tables に格納されたテーブルを読み取る プレビューサポート が追加されました。S3 Tables は表形式ストレージ専用に設計されており、Apache Iceberg 形式のデータを直接、高性能かつ低コストで保存・クエリできます。S3 Tables はストレージを継続的に最適化してクエリ性能を最大化し、コストを最小化するため、追加のインフラ構築なしにデータレイク運用を効率化したい企業に適しています。DuckDB と S3 Tables の統合により、開発者は Amazon S3 に格納されたデータをクエリでき、複雑なデータ移動や追加のインフラなしにテーブルへアクセスしながら、企業はデータレイクを効率化・集約できます。"
+    },
+    {
+     "kind": "P",
+     "text": "本記事では、 Amazon SageMaker Lakehouse Iceberg REST エンドポイント と AWS Lake Formation のアクセス許可を利用して、ローカルマシンから DuckDB で S3 テーブルバケット内の Iceberg テーブルを読み取る方法を紹介します。同じデータ利用ワークフローは、リソースが限られた小型のエッジデバイスから、100 コア超の CPU を搭載する数テラバイトメモリの大型サーバーまで、幅広い環境で適用できます。DuckDB と S3 Tables の組み合わせは、AWS 上でスケーラブルなデータレイク構築を始めるための、直接的で堅牢な基盤になります。"
+    },
+    {
+     "kind": "H",
+     "text": "ソリューションの概要"
+    },
+    {
+     "kind": "P",
+     "text": "本記事では、 AWS CloudShell の CLI で DuckDB を使い、ローカルシステムから S3 バケットのテーブルを読み取る方法を紹介します。ここではコマンドラインインターフェイスを使いますが、DuckDB は複数のプログラミング言語とクライアント API をサポートしています。対応言語と統合オプションの一覧は、 DuckDB 公式ドキュメント を参照してください。また、本記事では、開発者やデータサイエンティストがローカル環境でクエリをテスト・反復してから本番規模でデプロイするという、一般的なパターンを扱います。まずクライアントに DuckDB をインストールし、次の図のように S3 テーブルバケットに格納されたテーブルへアクセスするための Lake Formation のアクセス許可を接続します。その後、クライアント上の DuckDB インスタンスにカタログをアタッチし、テーブルに対するクエリを試します。"
+    },
+    {
+     "kind": "H",
+     "text": "前提条件"
+    },
+    {
+     "kind": "P",
+     "text": "本記事の手順を実行するには、次の AWS サービスにアクセスできる AWS アカウントが必要です。"
+    },
+    {
+     "kind": "H",
+     "text": "ウォークスルー"
+    },
+    {
+     "kind": "P",
+     "text": "本ソリューションを実装するには、S3 テーブルバケットにテーブルを用意し、テーブルを読み取るためのアクセス許可を設定し、ローカルクライアントに DuckDB インスタンスを構成する必要があります。以降のセクションで各ステップを説明します。"
+    },
+    {
+     "kind": "LI",
+     "text": "Part A: S3 Tables のセットアップ"
+    },
+    {
+     "kind": "LI",
+     "text": "Part B: アクセス許可のセットアップ (オプション)"
+    },
+    {
+     "kind": "LI",
+     "text": "Part C: DuckDB のセットアップ"
+    },
+    {
+     "kind": "H",
+     "text": "Part A: S3 Tables のセットアップ"
+    },
+    {
+     "kind": "P",
+     "text": "DuckDB は現時点で S3 Tables を読み取り専用モードでサポートしています。アカウントにテーブルがない、または AWS 分析サービスとの統合が未設定の場合は、以下の手順に従ってください。すでに設定済みであれば、本セクションはスキップできます。本セクションでは、テーブルバケットの作成、テーブルのセットアップ、データ追加を通じて、DuckDB で分析するためのデータを準備する手順を説明します。すでにデータが入ったテーブルがある場合は、本セクションをスキップして次のセクションに進んでください。"
+    },
+    {
+     "kind": "H",
+     "text": "1. S3 テーブルバケットを作成し、AWS 分析サービスとの統合をセットアップする"
+    },
+    {
+     "kind": "P",
+     "text": "1.1. AWS マネジメントコンソール で S3 に移動します。左のナビゲーションメニューから Table buckets を選択し、 Create table bucket を選びます。テーブルバケット名を指定し、次の図のように AWS 分析サービスとの統合が未有効の場合は Enable integration を選択します。この統合により、この AWS リージョン とこのアカウントで作成されたすべてのテーブルを SageMaker Lakehouse と Lake Formation で検出でき、 Amazon Data Firehose 、Athena、 Amazon Redshift 、 Amazon EMR などの AWS 分析サービスからアクセスできるようになります。統合の詳細は、 Using Amazon S3 with analytics services を参照してください。"
+    },
+    {
+     "kind": "P",
+     "text": "1.2. テーブルバケット mytraveldata が作成されました。DuckDB のセットアップで後ほど使うため、コピーアイコンでテーブルバケットの Amazon リソースネーム (ARN) をコピーしておきます。"
+    },
+    {
+     "kind": "H",
+     "text": "2. テーブルバケットに新しいテーブルを作成する"
+    },
+    {
+     "kind": "P",
+     "text": "2.1. S3 コンソールで対象のバケットに移動し、 Create table with Athena を選択します。"
+    },
+    {
+     "kind": "H",
+     "text": "2.2. テーブルバケット内に名前空間とテーブルを作成する"
+    },
+    {
+     "kind": "P",
+     "text": "Create table ワークフローで Namespace name を追加します。"
+    },
+    {
+     "kind": "P",
+     "text": "続けて Create table with Athena に進みます。"
+    },
+    {
+     "kind": "P",
+     "text": "SageMaker Lakehouse に nyc という名前のデータベースが作成されます。"
+    },
+    {
+     "kind": "P",
+     "text": "2.3. Athena クエリエディタで、次の SQL コマンドを使ってテーブルを作成します。"
+    },
+    {
+     "kind": "H",
+     "text": "3. S3 Tables にデータを挿入する"
+    },
+    {
+     "kind": "P",
+     "text": "ここでは、次の SQL コマンドを使い、ニューヨーク市のタクシー走行に関するサンプルデータを、作成済みのテーブルに挿入します。"
+    },
+    {
+     "kind": "P",
+     "text": "この SQL コマンドを実行すると、データが nyc_trips テーブルに取り込まれます。"
+    },
+    {
+     "kind": "H",
+     "text": "Part B: アクセス許可のセットアップ (オプション)"
+    },
+    {
+     "kind": "P",
+     "text": "当該アカウントで AWS 分析サービスとテーブルバケットの統合を行ったユーザーとは別のユーザーの場合、テーブルに対する Lake Formation のアクセス許可を付与してもらう必要があります。詳細は Grant permission on a table or database を参照してください。本記事では、コンソール上で AWS 分析サービスとの統合を行った同じユーザーが、DuckDB インスタンス経由でテーブルにアクセスすることを前提とします。"
+    },
+    {
+     "kind": "H",
+     "text": "Part C: DuckDB のセットアップ"
+    },
+    {
+     "kind": "H",
+     "text": "1. DuckDB をインストールする"
+    },
+    {
+     "kind": "P",
+     "text": "DuckDB のインストールページ にアクセスし、最新の DuckDB Command line (執筆時点は v1.2.1) を入手します。 Installation セクションの curl コマンドをコピーします。"
+    },
+    {
+     "kind": "P",
+     "text": "AWS マネジメントコンソールで CloudShell 環境に移動します。"
+    },
+    {
+     "kind": "H",
+     "text": "2. CloudShell インスタンスで DuckDB インスタンスを実行する"
+    },
+    {
+     "kind": "P",
+     "text": "DuckDB インスタンスを起動するには、AWS Command Line Interface (AWS CLI) で次のコマンドを入力します。"
+    },
+    {
+     "kind": "H",
+     "text": "3. Iceberg 拡張機能をロードする"
+    },
+    {
+     "kind": "P",
+     "text": "S3 Tables の DuckDB サポートは、現時点では nightly 拡張ビルドの一部として提供されています。最新の Iceberg 拡張機能をインストールするには、次のコマンドを実行します。"
+    },
+    {
+     "kind": "P",
+     "text": "ここまでで DuckDB インスタンスのセットアップは完了です。"
+    },
+    {
+     "kind": "H",
+     "text": "4. AWS 認証情報を登録する"
+    },
+    {
+     "kind": "P",
+     "text": "AWS 認証情報を含むシークレットを作成します。CloudShell を使用している場合、これは AWS コンソールの認証情報にあたります。DuckDB はこのシークレットを使ってテーブルデータにアクセスします。設定オプションの詳細は DuckDB のドキュメント を参照してください。"
+    },
+    {
+     "kind": "H",
+     "text": "5. カタログをデータベースとしてアタッチする"
+    },
+    {
+     "kind": "P",
+     "text": "ここでは、テーブルバケットをデータベースインスタンスとして DuckDB にアタッチします。"
+    },
+    {
+     "kind": "H",
+     "text": "6. テーブルバケットに格納されたデータにアクセスする"
+    },
+    {
+     "kind": "P",
+     "text": "次のコマンドを使い、DuckDB がテーブルバケット内のテーブルを検出できることを確認します。"
+    },
+    {
+     "kind": "P",
+     "text": "結果から、 mytraveldata には nyc という名前空間が 1 つあり、その中に nyc_trips というテーブルが 1 つ存在することがわかります。以下はテーブルに格納されたデータを分析するサンプルクエリの例です。"
+    },
+    {
+     "kind": "P",
+     "text": "6.3. 2023 年 3 月 1 日の走行に対する運賃合計を取得します。"
+    },
+    {
+     "kind": "P",
+     "text": "本記事では、DuckDB インスタンスへの接続に Amazon SageMaker Lakehouse Iceberg REST エンドポイント を利用しました。もう 1 つの選択肢として、 S3 Tables Iceberg REST Catalog API で DuckDB に接続することもできます。この場合は、次の ATTACH コマンドを使用します。"
+    },
+    {
+     "kind": "P",
+     "text": "1 つの S3 テーブルバケット内の表形式データに基本的な読み取りアクセスが必要な場合は S3 Tables Iceberg REST Catalog API を使い、すべての表形式データを対象とした統一的なデータ管理、データガバナンス、きめ細かなアクセス制御が必要な場合は S3 Tables を SageMaker Lakehouse と組み合わせて利用できます。"
+    },
+    {
+     "kind": "H",
+     "text": "クリーンアップ"
+    },
+    {
+     "kind": "P",
+     "text": "リソースをクリーンアップするには、次の手順を実行してください。"
+    },
+    {
+     "kind": "LI",
+     "text": "S3 テーブルを 削除 する。"
+    },
+    {
+     "kind": "LI",
+     "text": "テーブルバケット内の名前空間を 削除 する。"
+    },
+    {
+     "kind": "LI",
+     "text": "S3 テーブルバケットを 削除 する。"
+    },
+    {
+     "kind": "H",
+     "text": "まとめ"
+    },
+    {
+     "kind": "P",
+     "text": "本記事では、Amazon SageMaker Lakehouse と AWS Lake Formation のアクセス許可を活用し、DuckDB で Amazon S3 上の Iceberg テーブルを読み取る方法を紹介しました。S3 テーブルバケットにテーブルを作成し、データを投入し、DuckDB クライアントからテーブルにアクセスする流れをウォークスルーしました。DuckDB と Amazon S3 Tables を組み合わせることで、小規模から大規模までのあらゆる環境で、追加のインフラなしにデータレイク内のテーブルを扱えます。"
+    },
+    {
+     "kind": "H",
+     "text": "著者について"
+    },
+    {
+     "kind": "P",
+     "text": "この記事は Kiro が翻訳を担当し、Solutions Architect の Sotaro Hikita がレビューしました。"
+    },
+    {
+     "kind": "H",
+     "text": "お役立ちリンク"
+    },
+    {
+     "kind": "H",
+     "text": "フォローお願いいたします"
+    }
+   ],
+   "checkedAt": 1788731788363,
+   "etag": "",
+   "hash": "0a7f641deb34001e",
+   "id": "7ce382ae82da",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Faws.amazon.com%2Fjp%2Fblogs%2Fnews%2Fstreamlining-access-to-tabular-datasets-stored-in-amazon-s3-tables-with-duckdb%2F",
+   "key": "https://aws.amazon.com/jp/blogs/news/streamlining-access-to-tabular-datasets-stored-in-amazon-s3-tables-with-duckdb",
+   "lastModified": "Sun, 30 Aug 2026 10:56:10 GMT",
+   "publishedAt": 1788092338000,
+   "summary": "Amazon Web Services ブログ DuckDB で Amazon S3 Tables に格納された表形式データセットへのアクセスを効率化する 本記事は 2025 年 3 月 18 日 に公開された「Streamlining access to tabular datasets stored in Amazon S3 Tables with DuckDB」を翻訳したものです。 データドリブンな意思決定への依存が高まるなか...",
+   "title": "DuckDB で Amazon S3 Tables に格納された表形式データセットへのアクセスを効率化する | Amazon Web Services",
+   "updatedAt": 1788731788363,
+   "url": "https://aws.amazon.com/jp/blogs/news/streamlining-access-to-tabular-datasets-stored-in-amazon-s3-tables-with-duckdb/"
+  },
+  "https://azukiazusa.dev/blog/ime-enter-submit": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "フォームの Enter 送信で isComposing と keyCode === 229 を併用する理由"
+    },
+    {
+     "kind": "P",
+     "text": "IME の変換確定に使う Enter キーで、書きかけのメッセージが送信されることがあります。isComposing と非推奨の keyCode === 229 を併用して、変換中の Enter を送信処理から除外する理由を解説します。"
+    },
+    {
+     "kind": "P",
+     "text": "チャット UI などで Enter キーを押したらメッセージを送信する機能を実装するとき、IME を利用するユーザーへの配慮が必要です。日本語や中国語などの入力では、文字を組み立てるために変換候補を選んでから Enter キーで確定します。単純に event.key === \"Enter\" だけで送信すると、ユーザーは文字を確定したつもりなのに、書きかけのメッセージが送られてしまいます。"
+    },
+    {
+     "kind": "P",
+     "text": "変換を確定するつもりで押した Enter キーによって、書きかけのメッセージがそのまま送信されてしまっています。"
+    },
+    {
+     "kind": "P",
+     "text": "この問題への対策として、次のようなコードを見かけることがあります。"
+    },
+    {
+     "kind": "P",
+     "text": "isComposing は、IME で文字を組み立てている間に発生するイベントかどうかを判定するプロパティです。 keyCode === 229 は、IME が処理したキー入力で使われてきた値です。どちらも変換中の Enter キーを送信処理から除外するために使われます。"
+    },
+    {
+     "kind": "P",
+     "text": "isComposing だけで IME の変換中かどうかを表せるのに、なぜ keyCode も確認するのでしょうか。さらに言えば keyCode は非推奨の API です。この記事では、フォームやチャットの Enter 送信を題材に、2 つの判定を組み合わせる理由と実装時の注意点を説明します。"
+    },
+    {
+     "kind": "H",
+     "text": "Enter キーは送信だけでなく変換確定にも使われる"
+    },
+    {
+     "kind": "P",
+     "text": "IME（Input Method Editor）は、キー入力を組み合わせて日本語などの文字を入力する仕組みです。たとえば「にほんご」と入力し、「日本語」という候補を選び、Enter キーで確定します。"
+    },
+    {
+     "kind": "P",
+     "text": "ブラウザは、このような文字の組み立てを composition セッションとして扱います。 UI Events 仕様 では、次のイベントが定義されています。"
+    },
+    {
+     "kind": "LI",
+     "text": "compositionstart : 文字の組み立てが始まる"
+    },
+    {
+     "kind": "LI",
+     "text": "compositionupdate : 組み立て中の文字列が更新される"
+    },
+    {
+     "kind": "LI",
+     "text": "compositionend : 組み立てが完了、またはキャンセルされる"
+    },
+    {
+     "kind": "P",
+     "text": "キーボードイベントの KeyboardEvent.isComposing は、そのイベントが compositionstart と対応する compositionend の間に発生したかどうかを表します。"
+    },
+    {
+     "kind": "P",
+     "text": "そのため、独自の Enter 送信ではまず isComposing を確認し、文字を組み立てている間は送信処理へ進まないようにします。"
+    },
+    {
+     "kind": "P",
+     "text": "ただし、ブラウザの実装によっては、IME の変換確定に使う Enter キーが isComposing: false で通知されるという問題が報告されています。"
+    },
+    {
+     "kind": "H",
+     "text": "isComposing だけでは確定用の Enter を見分けられない環境がある"
+    },
+    {
+     "kind": "P",
+     "text": "仕様が示すイベント順序 では、composition セッションを終了させる keydown は isComposing: true で通知され、その後に compositionend が発生するとされています。つまり、IME が変換を確定する Enter キーは、 isComposing: true の keydown として受け取れるはずです。"
+    },
+    {
+     "kind": "P",
+     "text": "一方、 WebKit の不具合報告 #165004 には、Safari が確定用の keydown より先に compositionend を送っていたことが記録されています。この場合、確定用の Enter を受け取った時点でセッションが終わっているため、 isComposing は false になってしまうのです。"
+    },
+    {
+     "kind": "P",
+     "text": "そのため、Safari では isComposing だけでは確定用の Enter を見分けられず、書きかけのメッセージが送信されてしまうことがあったのです。"
+    },
+    {
+     "kind": "P",
+     "text": "ここで isComposing に頼らず、 compositionstart ・ compositionend イベントでフラグを更新し、変換中かどうかを自分で管理すればよいのではないかと考えるかもしれません。"
+    },
+    {
+     "kind": "P",
+     "text": "しかし、この方法でも同じ問題が起こります。フラグを false にする compositionend イベントが確定用の keydown より先に発生してしまうため、 keydown を受け取った時点ではフラグがすでに変更されてしまっているからです。問題の原因はイベントの順序そのものにあるので、composition イベントを自分で管理しても回避できないのです。"
+    },
+    {
+     "kind": "H",
+     "text": "keyCode === 229 を併用する"
+    },
+    {
+     "kind": "P",
+     "text": "keyCode === 229 は、IME が処理するキー入力で使われてきた値です。 2010 年の W3C の提案資料 には、IME がキー入力を処理している keydown では 229 を返すという計算手順が書かれています。また、Windows の仮想キーコードでは VK_PROCESSKEY が 0xE5 （10 進数で 229） として定義されています。"
+    },
+    {
+     "kind": "P",
+     "text": "ただし、 現在の UI Events 仕様の legacy keyboard events では、 keyCode はシステムや実装に依存する値として扱われています。正式に規定されないまま各ブラウザが独自に実装してきた経緯があり、仕様はその実態を非規範的に記述するにとどめているためです。"
+    },
+    {
+     "kind": "P",
+     "text": "Safari の問題でこの値が役立つのは、 isComposing が false になっていても、確定用の keydown の keyCode が 229 なら独自の送信処理を止められるからです。この回避策は、先ほどの WebKit の不具合報告 でも説明されています。"
+    },
+    {
+     "kind": "P",
+     "text": "そのため、以下のように isComposing と keyCode === 229 を併用するコードが推奨されているのです。"
+    },
+    {
+     "kind": "P",
+     "text": "以下のデモを Safari で実行してみると、 isComposing と event.keyCode の値がそれぞれどのように変化するかを確認できます。"
+    },
+    {
+     "kind": "P",
+     "text": "Safari のイベント順序の問題には、すでに WebKit 側の修正があります。WebKit Bug #311717。そのため Safari のバージョンによっては既に修正が取り込まれている場合があります。"
+    },
+    {
+     "kind": "H",
+     "text": "フォームの暗黙的送信を使えば IME の判定をブラウザに任せられる"
+    },
+    {
+     "kind": "P",
+     "text": "ここまでは、 keydown で Enter キーを検知して送信する場合の対策を説明しました。しかし、通常のフォームであれば、そもそも Enter キーを JavaScript で検知する必要はありません。ブラウザが備える暗黙的送信（implicit submission）を利用できます。"
+    },
+    {
+     "kind": "P",
+     "text": "暗黙的送信とは、テキスト入力欄で Enter キーを押すなどの操作によって、送信ボタンを直接クリックしなくてもフォームを送信する仕組みです。 HTML 仕様 では、フォームの中で最初に現れる送信ボタンをデフォルトボタン（default button）と呼び、暗黙的送信に対応するブラウザは、そのボタンが無効化されていなければ click イベントを発生させるとされています。送信処理は通常の submit イベントで受け取ります。"
+    },
+    {
+     "kind": "P",
+     "text": "たとえば、単一行の入力欄と送信ボタンを持つフォームなら、次のように実装できます。 <form> 要素で入力要素を囲み、 type=\"submit\" のボタンを配置してフォームとして扱うのがポイントです。"
+    },
+    {
+     "kind": "P",
+     "text": "このコードには、 keydown のリスナーも isComposing や keyCode の判定もありません。変換確定の Enter を IME の操作として扱うか、フォームの送信として扱うかはブラウザに任せ、アプリケーションは submit イベントが発生したときだけ処理します。独自のキーイベント処理が変換確定を送信と誤認する原因そのものをなくせるのです。"
+    },
+    {
+     "kind": "P",
+     "text": "ただし、 textarea の Enter は通常は改行として扱われます。チャット UI のように「Enter で送信、Shift+Enter で改行」という独自の操作を実装する場合は、暗黙的送信だけでは実現できないため、ここまで説明した IME の判定が必要になります。まずは標準のフォーム操作で要件を満たせるかを検討し、独自の Enter 送信が必要な場合にキーイベントを扱うとよいでしょう。"
+    },
+    {
+     "kind": "H",
+     "text": "まとめ"
+    },
+    {
+     "kind": "LI",
+     "text": "Enter キーは IME の変換確定にも使われるため、独自の Enter 送信では文字の組み立て中かどうかを確認する"
+    },
+    {
+     "kind": "LI",
+     "text": "isComposing は composition セッション中のキーボードイベントかどうかを表し、IME 変換中の判定に使える"
+    },
+    {
+     "kind": "LI",
+     "text": "Safari では確定用の keydown より先に compositionend が発生する問題が報告されており、 isComposing が false になることがある"
+    },
+    {
+     "kind": "LI",
+     "text": "上記の問題を回避するため、 keyCode === 229 も併用して IME が処理するキー入力かどうかを判定する"
+    },
+    {
+     "kind": "LI",
+     "text": "通常のフォームでは暗黙的送信と submit イベントを利用することで、独自の Enter 判定や IME の状態管理をブラウザに任せられる"
+    },
+    {
+     "kind": "H",
+     "text": "参考"
+    },
+    {
+     "kind": "H",
+     "text": "記事の理解度チェック"
+    },
+    {
+     "kind": "H",
+     "text": "IME 変換中の判定のために非推奨の API keyCode を併用する理由は何ですか？"
+    },
+    {
+     "kind": "LI",
+     "text": "ブラウザの実装によっては isComposing が false になることがあるため 正解！ Safari などの一部ブラウザでは、IME の変換確定 Enter が isComposing: false で通知されることがあります。"
+    },
+    {
+     "kind": "LI",
+     "text": "keyCode は IME の種類を判別するために必要だから もう一度考えてみましょう keyCode は IME の種類を判別する目的では使われません。"
+    },
+    {
+     "kind": "LI",
+     "text": "isComposing は最新の API でありまだ対応していないブラウザがあるため もう一度考えてみましょう isComposing は広くサポートされています。"
+    },
+    {
+     "kind": "LI",
+     "text": "keyCode は Enter キーの押下を検知するために必要だから もう一度考えてみましょう Enter キーの押下は event.key で検知できます。"
+    },
+    {
+     "kind": "H",
+     "text": "単一行の入力欄を持つ通常のフォームで Enter キーによる送信を実装するとき、まず検討すべき方法はどれですか？"
+    },
+    {
+     "kind": "LI",
+     "text": "form 要素と送信ボタンを配置し、暗黙的送信と submit イベントを利用する 正解！ 変換確定の Enter を送信として扱うかどうかの判断をブラウザに任せられるため、アプリケーション側で IME の状態を管理する必要がなくなります。"
+    },
+    {
+     "kind": "LI",
+     "text": "input 要素の keydown で Enter キーを検知して送信する もう一度考えてみましょう 独自のキーイベント処理は、変換確定の Enter を送信と誤認する原因になります。"
+    },
+    {
+     "kind": "LI",
+     "text": "compositionend イベントが発生したときに送信処理を実行する もう一度考えてみましょう compositionend は変換が確定したことを表すイベントであり、送信したいという意図とは対応しません。"
+    },
+    {
+     "kind": "LI",
+     "text": "keydown ではなく keyup で Enter キーを検知して送信する もう一度考えてみましょう keyup に変えても、そのキー入力が変換確定によるものかどうかを判別できるわけではありません。"
+    },
+    {
+     "kind": "H",
+     "text": "Contributors"
+    }
+   ],
+   "checkedAt": 1788731788363,
+   "etag": "",
+   "hash": "cf30ae4e9906af3d",
+   "id": "5ea233be2a22",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fazukiazusa.dev%2Fblog%2Fime-enter-submit%2F",
+   "key": "https://azukiazusa.dev/blog/ime-enter-submit",
+   "lastModified": "",
+   "publishedAt": 1788682010000,
+   "summary": "IME の変換確定に使う Enter キーで、書きかけのメッセージが送信されることがあります。isComposing と非推奨の keyCode === 229 を併用して、変換中の Enter を送信処理から除外する理由を解説します。 チャット UI などで Enter キーを押したらメッセージを送信する機能を実装するとき、IME を利用するユーザーへの配...",
+   "title": "フォームの Enter 送信で isComposing と keyCode === 229 を併用する理由",
+   "updatedAt": 1788731788363,
+   "url": "https://azukiazusa.dev/blog/ime-enter-submit/"
+  },
+  "https://azukiazusa.dev/blog/pnpm-update-include-github-actions": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "pnpm update で GitHub Actions もまとめて更新する"
+    },
+    {
+     "kind": "P",
+     "text": "GitHub Actions で使用する Action をコミット SHA に固定すると安全性が高まる一方、更新作業が煩雑になります。pnpm 11.16.0 で追加された `pnpm update --include-github-actions` を使うと、パッケージと Action の更新を同じコマンドで管理できます。この記事では基本的な使い方を確認します。"
+    },
+    {
+     "kind": "P",
+     "text": "GitHub Actions のワークフローでは、以下のように uses キーで Action のバージョンを指定します。セキュリティ上の理由から、タグではなく完全なコミット SHA に固定することが推奨されています。"
+    },
+    {
+     "kind": "P",
+     "text": "Action のリリース後にバグ修正やセキュリティ修正が行われた場合、ワークフローに記述したバージョンも更新する必要があります。 package.json や pnpm-lock.yaml のように 1 か所にまとめて依存関係を管理できれば便利ですが、GitHub Actions のワークフローは YAML ファイルに直接書き込まれるため、更新作業が煩雑になりがちです。"
+    },
+    {
+     "kind": "P",
+     "text": "pnpm 11.16.0 で追加された --include-github-actions オプションを使うと、パッケージと GitHub Actions の依存関係を同じコマンドで更新できます。更新後の Action は完全なコミット SHA に固定され、対応するリリースタグがコメントとして残ります。"
+    },
+    {
+     "kind": "P",
+     "text": "この記事では pnpm update --include-github-actions の基本的な使い方を確認します。"
+    },
+    {
+     "kind": "H",
+     "text": "--include-github-actions を使ってみる"
+    },
+    {
+     "kind": "P",
+     "text": "次のワークフローを例に動作を確認します。検証時点の最新版より古い actions/ [email protected] と actions/ [email protected] を指定しています。"
+    },
+    {
+     "kind": "P",
+     "text": "オプションを付けずに pnpm update を実行しても、ワークフローは変更されません。"
+    },
+    {
+     "kind": "P",
+     "text": "GitHub Actions も更新対象に含めるには、 --include-github-actions を指定します。"
+    },
+    {
+     "kind": "P",
+     "text": "コマンドを実行すると、ワークフローは以下のように変更されました。"
+    },
+    {
+     "kind": "P",
+     "text": "uses のタグが 40 文字のコミット SHA に置き換わり、コメントでリリースタグが追加されたことがわかります。pnpm は参照先リポジトリに対して git ls-remote を実行してタグとコミットの対応を取得し、安定版のリリースを更新先として選びます。"
+    },
+    {
+     "kind": "P",
+     "text": "ref を取得できない Action は警告とともにスキップされます。private リポジトリの Action がこれに該当します。またブランチを参照している Action（ actions/checkout@main ）、ローカル Action（ ./.github/actions/foo ）、Docker イメージ（ docker://alpine:3.18 ）は更新の対象外です検査されるのは .github/workflows 配下のワークフローのみで、複合 Action の action.yml に書かれた uses は更新されません。"
+    },
+    {
+     "kind": "H",
+     "text": "メジャーバージョンを更新するには --latest を指定する"
+    },
+    {
+     "kind": "P",
+     "text": "通常の pnpm update が package.json のバージョン範囲に従うのと同様に、 --include-github-actions だけでは Action のメジャーバージョンを更新しません。検証時点では v7 系が公開されていましたが、v4 系の最新版である v4.4.0 が選ばれました。"
+    },
+    {
+     "kind": "P",
+     "text": "メジャーバージョンも含めた最新の安定版へ更新する場合は、 --latest を併用します。"
+    },
+    {
+     "kind": "P",
+     "text": "メジャーバージョンの更新には破壊的変更が含まれる可能性があるため、更新後はワークフローの動作確認を行いましょう。"
+    },
+    {
+     "kind": "H",
+     "text": "更新候補だけを確認する"
+    },
+    {
+     "kind": "P",
+     "text": "ファイルを変更する前に候補を確認したい場合は、 pnpm outdated にも --include-github-actions を指定できます。"
+    },
+    {
+     "kind": "P",
+     "text": "Current 列には現在使用しているリリースと、括弧内に現在のメジャーバージョン内で更新できるリリース（ wanted ）が表示されます。 Latest はメジャーバージョンを問わない最新の安定版です。この表示を確認することで、通常更新と --latest のどちらを使うか判断できます。"
+    },
+    {
+     "kind": "H",
+     "text": "設定ファイルで常に有効にする"
+    },
+    {
+     "kind": "P",
+     "text": "毎回オプションを指定せず、GitHub Actions を常に確認したい場合は pnpm-workspace.yaml の update.githubActions を true に設定します。"
+    },
+    {
+     "kind": "P",
+     "text": "この設定を追加すると、通常の pnpm update と pnpm outdated でも GitHub Actions が対象になります。"
+    },
+    {
+     "kind": "P",
+     "text": "Action が GitHub Enterprise Server に置かれている場合は、pnpm 11.17.0 以降で update.githubActionsServer にサーバーの URL を指定できます。"
+    },
+    {
+     "kind": "P",
+     "text": "環境変数 GITHUB_SERVER_URL が設定されている場合も、その値が使用されます。どちらもない場合の接続先は https://github.com です。"
+    },
+    {
+     "kind": "H",
+     "text": "まとめ"
+    },
+    {
+     "kind": "LI",
+     "text": "pnpm update --include-github-actions は、パッケージに加えてワークフローが参照する GitHub Actions を更新する"
+    },
+    {
+     "kind": "LI",
+     "text": "更新後の Action はコミット SHA に固定され、対応するリリースタグがコメントとして残る"
+    },
+    {
+     "kind": "LI",
+     "text": "--include-github-actions だけでは現在のメジャーバージョン内で更新され、 --latest を併用すると最新メジャーバージョンまで更新される"
+    },
+    {
+     "kind": "LI",
+     "text": "pnpm outdated --include-github-actions を使うと、ファイルを変更せずに、現在のバージョン・現在のメジャーバージョン内で更新できるバージョン・最新のバージョンを比較できる"
+    },
+    {
+     "kind": "LI",
+     "text": "update.githubActions: true を設定すると、 pnpm update と pnpm outdated で常に GitHub Actions を確認できる"
+    },
+    {
+     "kind": "H",
+     "text": "参考"
+    },
+    {
+     "kind": "H",
+     "text": "記事の理解度チェック"
+    },
+    {
+     "kind": "H",
+     "text": "`pnpm update --include-github-actions` が Action を更新した後の記述として正しいものはどれですか？"
+    },
+    {
+     "kind": "LI",
+     "text": "リリースタグだけを新しいタグへ置き換える もう一度考えてみましょう pnpm はリリースタグだけを記述するのではなく、完全なコミット SHA に置き換えます。"
+    },
+    {
+     "kind": "LI",
+     "text": "完全なコミット SHA に固定し、リリースタグをコメントとして残す 正解！ 完全なコミット SHA が `uses` に設定され、対応するリリースタグが行末のコメントとして残ります。"
+    },
+    {
+     "kind": "LI",
+     "text": "ブランチ名に固定し、コミット SHA をコメントとして残す もう一度考えてみましょう 更新先にブランチ名は使用されません。コミット SHA が参照本体となり、リリースタグがコメントになります。"
+    },
+    {
+     "kind": "LI",
+     "text": "Action のバージョンを `pnpm-lock.yaml` だけに記録する もう一度考えてみましょう Action の参照はワークフローの `uses` に直接書き込まれます。`pnpm-lock.yaml` だけで管理されるわけではありません。"
+    },
+    {
+     "kind": "H",
+     "text": "v4 系の Action を最新メジャーバージョンへ更新したい場合、記事で使用しているコマンドはどれですか？"
+    },
+    {
+     "kind": "LI",
+     "text": "`pnpm update --include-github-actions` もう一度考えてみましょう このコマンドだけでは現在のメジャーバージョン内の最新版が選ばれます。"
+    },
+    {
+     "kind": "LI",
+     "text": "`pnpm update --latest` もう一度考えてみましょう 既定では `--latest` だけでは GitHub Actions は対象になりません。"
+    },
+    {
+     "kind": "LI",
+     "text": "`pnpm update --latest --include-github-actions` 正解！ `--include-github-actions` で Action を対象に加え、`--latest` でメジャーバージョンを越えた更新を許可します。"
+    },
+    {
+     "kind": "LI",
+     "text": "`pnpm outdated --include-github-actions` もう一度考えてみましょう `pnpm outdated` は更新候補を表示しますが、ワークフローを書き換えません。"
+    },
+    {
+     "kind": "H",
+     "text": "Contributors"
+    }
+   ],
+   "checkedAt": 1788731788363,
+   "etag": "",
+   "hash": "5346bbd654ff3090",
+   "id": "dec82040485e",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fazukiazusa.dev%2Fblog%2Fpnpm-update-include-github-actions%2F",
+   "key": "https://azukiazusa.dev/blog/pnpm-update-include-github-actions",
+   "lastModified": "",
+   "publishedAt": 1788526983000,
+   "summary": "GitHub Actions のワークフローでは、以下のように uses キーで Action のバージョンを指定します。セキュリティ上の理由から、タグではなく完全なコミット SHA に固定することが推奨されています。 steps: - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0 - uses: actions/setup-node@499...",
+   "title": "pnpm update で GitHub Actions もまとめて更新する",
+   "updatedAt": 1788731788363,
+   "url": "https://azukiazusa.dev/blog/pnpm-update-include-github-actions/"
+  },
   "https://blog.pinkumohikan.com/entry/2026/09/05/150757": {
    "bodyBlocks": [
     {
@@ -839,6 +1523,21 @@
    "title": "リモートチームなら通話の音質に命をかけて欲しい - モヒカン技術ブログ",
    "updatedAt": 1788685102092,
    "url": "https://blog.pinkumohikan.com/entry/2026/09/05/150757"
+  },
+  "https://do-gu.niwa.dev": {
+   "bodyBlocks": [],
+   "checkedAt": 1788731788363,
+   "etag": "",
+   "hash": "ef0007fa76a58e58",
+   "id": "04b15497c62b",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fdo-gu.niwa.dev%2F",
+   "key": "https://do-gu.niwa.dev",
+   "lastModified": "",
+   "publishedAt": 1788692122000,
+   "summary": "道具の入れ替わりが激しい今だから、みんながどんな道具を使っているのか気になります。 自分の道具遍歴をまとめておきたくもなります。面倒な手入力はありません。 あなたのいつものエージェントに頼んで、あなたの道具をまとめてみませんか？ はじめる →",
+   "title": "DO-GU",
+   "updatedAt": 1788731788363,
+   "url": "https://do-gu.niwa.dev/"
   },
   "https://garumax.com/windows-update-printer-driver-spec-change-2027-07": {
    "bodyBlocks": [
@@ -1303,6 +2002,634 @@
    "title": "テスラがCybercabによるロボタクシーを開始した直後に規制当局が調査を開始",
    "updatedAt": 1788685102092,
    "url": "https://gigazine.net/news/20260905-tesla-cybercab-nhtsa-investigation/"
+  },
+  "https://gigazine.net/news/20260906-compression-is-prediction": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "圧縮とLLMに共通する本質は「データの予測」"
+    },
+    {
+     "kind": "P",
+     "text": "「データの圧縮」と「大規模言語モデル(LLM)」は一見すると全く異なる分野ですが、根幹では「データの予測」という同じ課題を解決しようとしています。いずれも「データの冗長性を削減」「より効率的な表現」を目指すものであり、ひいては情報理論におけるエントロピーという数学的枠組みで結びついています。 ngrok のデベロッパー・エデュケーターである アニー・セクストン 氏は「圧縮は予測」と題したブログを公開し、圧縮とLLMに共通する本質について語っています。 Compression is prediction | ngrok blog https://ngrok.com/blog/compression-is-prediction ◆圧縮の基本 圧縮アルゴリズムはデータに含まれる「冗長性」を利用してファイルサイズを削減します。 ・ミニフィケーション コードを短縮化する手法として、人間が読める変数名・コメント・空白などを削除もしくは短縮し、機械が解析するのに最低限必要な部分のみを残す手法です。例えば以下のコードについて考えてみます。"
+    },
+    {
+     "kind": "P",
+     "text": "ミニフィケーションの結果、上のコードは以下のようになります。"
+    },
+    {
+     "kind": "P",
+     "text": "ただしミニフィケーションはあくまで構文上の不要要素を削除するものであり、冗長性データを圧縮する「真の圧縮」とは異なるものです。 ・ランレングス・エンコーディング 「AAAAAAAAAABBBBBCCDAAADDDDD」といった繰り返しパターンを圧縮する方法の一つです。"
+    },
+    {
+     "kind": "P",
+     "text": "どの文字がいくつ連続しているかをデータ化し「A9B4C2D1A3D9」とすることでより短い文字列としてエンコードできます。"
+    },
+    {
+     "kind": "P",
+     "text": "8ビットASCIIエンコードの場合、元の文字列は224ビット使用されていましたが、圧縮した文字列は96ビットしか使用していません。 ・圧縮アルゴリズムの構造 gzipやBrotliといった圧縮ツールはさらにデータを圧縮するために様々な手法を用いています。最新の圧縮ツールは大まかに3つの構成要素を持っています。 ・変換 ・モデル ・エントロピーコーダー 上記の用語については便宜上、明確で区別可能なものとして扱いますが、実際にはそれぞれの境界がやや曖昧になることもあり単独で使用されることはまずありません。"
+    },
+    {
+     "kind": "P",
+     "text": "「変換」はデータを圧縮しやすくするための前処理であり、例えばランレングス・エンコーディングも手法の一つとなりますが、変換によって必ずしもデータ量が縮小するとは限りません。場合によっては変換によって冗長性を高めることも可能であり、冗長性を持たせることによって後工程でより高い圧縮率を実現できる場合があります。 「モデル」は各シンボル(文字・数字・トークン・バイナリコードなど)の出現頻度に基づいてデータの形状を記述します。実際のモデルはより高度なものですが、簡単な例としてモデルを各記号と出現確率との対応表として考えてみます。"
+    },
+    {
+     "kind": "P",
+     "text": "「エントロピーコーダー」はほぼすべての圧縮アルゴリズムにおいて最終段階に位置し、最終的な圧縮結果である「生のビットストリーム」、つまりファイルフォーマットのような構造を一切持たないただのビットストリームを生成します。 より重要な「モデル」と「エントロピーコーダー」の2つに注目すると、私たちのデータモデルはデータを可能な限り効率的にエンコードするためにエントロピーコーダーに一連の確率を渡し、エントロピーコーダーは圧縮されたビットストリームを出力します。では、エントロピーコーダーは渡された確率をどのように活用し、圧縮を行う上でどう役立てているのでしょうか？"
+    },
+    {
+     "kind": "P",
+     "text": "・エントロピーコーダーの役割 物事を単純化するためエントロピーコーダーの役割のうち「算術符号化」にのみ焦点を当てます。算術符号化はシンボルの出現確率に基づいてデータをエンコードします。「ABABAAC」というデータを圧縮する場合、まずは各シンボルの確率を求めます。"
+    },
+    {
+     "kind": "P",
+     "text": "どのシンボルが出現するかの確率をまとめると0～1の範囲として表すことができます。これで実際の圧縮を行う準備が整いました。"
+    },
+    {
+     "kind": "P",
+     "text": "データの先頭のシンボルは「A」なので、範囲は0～0.571となります。"
+    },
+    {
+     "kind": "P",
+     "text": "2番目のシンボルは「B」なので範囲は0.571～0.857となりますが、先頭のシンボル「A」の範囲0～0.571の内部に含まれることを考慮すると「AB」の範囲は0.327～0.490となります。"
+    },
+    {
+     "kind": "P",
+     "text": "同様にして全てのシンボルを処理すると、最終的に「ABABAAC」の範囲は0.3873～0.3885となります。"
+    },
+    {
+     "kind": "P",
+     "text": "すなわち「ABABAAC」を圧縮した値としてはは0.3873～0.3885の範囲に含まれるどんな数値でも正解ですが、圧縮率を考えるとなるべく少ないビット数で表現できる値とするのが理想的であり、 ごく簡単な演算 を行えば「0.3876953125」というマジックナンバーを算出することができます。元のデータ「ABABAAC」は8ビットASCIIコードで合計56ビットが必要ですが、最終的に得られたマジックナンバー「0.3876953125」は10ビットしか必要ありません。 ではマジックナンバーから元のデータを得る方法を見ていきます。解凍器はマジックナンバーに加えて圧縮に使用したのと同じ確率および元のデータの長さを受け取ります。マジックナンバーが確率のどの範囲に位置するかを確認することにより、先頭のシンボルが「A」であることがわかります。"
+    },
+    {
+     "kind": "P",
+     "text": "「A」の範囲0～0.571をさらに確率の範囲で細分することにより、2番目のシンボルが「B」であることがわかります。"
+    },
+    {
+     "kind": "P",
+     "text": "同様に範囲を細分することにより、元のデータが「ABABAAC」であることがわかるというわけです。"
+    },
+    {
+     "kind": "P",
+     "text": "・確率が圧縮に及ぼす影響 確率がどのように圧縮効果に影響を及ぼすのかを見るために、新たに「A」が極端に多く含まれるデータを使用します。"
+    },
+    {
+     "kind": "P",
+     "text": "初めに使用した比較的均等にシンボルが含まれるデータの場合は「平均ビット/シンボル」の値が1.38ですが、「A」が極端に多く含まれるデータの場合は0.82となります。つまり特定のシンボルの出現確率が高い(データの偏りが大きい)ほど圧縮率は向上します。この「平均ビット/シンボル」は「 情報エントロピー 」と呼ばれ、可逆圧縮における圧縮の限界を示す指標となります。"
+    },
+    {
+     "kind": "P",
+     "text": "◆コンテキストの重要性 ここまではシンボルの出現頻度のみを考慮する非常に単純なモデルを取り上げていました。しかし実際のシンボルの確率は「コンテキスト(文脈)」に大きく影響されます。英語の場合を例とすると、「U」が現れる確率は約0.028です。ただし「Q」の直後に「U」が現れる確率は約0.999に跳ね上がります。 単一のコンテキストを用いてシンボルの出現確率を決定することを「オーダー1モデル」と呼びます。オーダー1モデルでは直前のシンボル1つだけをコンテキストとして考慮しますが、オーダー2・オーダー3・オーダー4……と拡張することも可能であり、直前のN個のシンボルをコンテキストとして考慮することになるので「オーダーNモデル」と呼びます。"
+    },
+    {
+     "kind": "P",
+     "text": "「オーダーNモデル」をエントロピーコーダーに組み込むには、直前のコンテキストに応じて別個の確率表を使用すればよさそうです。ケースを簡略化するため、オーダー1モデルを用いて「TO BE OR NOT TO BE」という文字列に算術符号化を適用してみましょう。 文字列の先頭に「T」が出現する確率の範囲が以下の図の通りだったとします。"
+    },
+    {
+     "kind": "P",
+     "text": "「T」の次に「O」が出現する確率の範囲は別のものが適用されます。"
+    },
+    {
+     "kind": "P",
+     "text": "空白の次に「B」が出現する場合の……といった具合に次々と別の確率の範囲が適用されていきます。"
+    },
+    {
+     "kind": "P",
+     "text": "最終的に、「TO BE OR NOT TO BE」の範囲は0.05870～0.05871となります。"
+    },
+    {
+     "kind": "P",
+     "text": "コンテキストを使用しない場合とオーダー1モデルを使用した場合とを比較すると以下の表の通りとなります。コンテキストを使用した方がより強力な確率を得られるのが明確となっています。"
+    },
+    {
+     "kind": "P",
+     "text": "◆LLMと圧縮 LLMは高度な予測能力を有していることにより、圧縮アルゴリズムと非常に密接な関係があります。 2023年にGoogle DeepMindが発表した論文 によると、言語モデリングと圧縮は「同じものの二つの見方」であるとされています。 ・LLMの圧縮メカニズム LLMは与えられたコンテキストに基づいて次に来る単語(トークン)の確率分布を予測します。この予測能力は圧縮における「モデル」の性能に直結します。LLMは訓練を通じて「ビット/シンボル」数を最小化するように最適化されますが、これは圧縮におけるエントロピーを低くすることに相当します。"
+    },
+    {
+     "kind": "P",
+     "text": "・LLMによる圧縮の実験 LLMを圧縮に利用する場合、モデルの予測がどれだけ実際のシンボルに近かったかが重要になります。予測が正確であれば少ないビット数で表現でき高い圧縮率が得られます。"
+    },
+    {
+     "kind": "P",
+     "text": "ただ、既に旧式とされるLLMであっても優れた圧縮率を示すことができます。チャールズ・ディケンズの文章を算術符号化で圧縮する実験を行ったところ、オーダー1モデルを使用した場合にオリジナルに対して24％で圧縮していたところ、GPT-2を使用するとオリジナルに対して10％まで圧縮率が向上しました。"
+    },
+    {
+     "kind": "P",
+     "text": "・現実面からみたLLM圧縮の課題 高い圧縮率を達成できるにもかかわらず圧縮が必要なシーンでLLMがあまり使用されていない理由は、圧縮ツールの目的が単にデータをできるだけ小さくすることだけではないからであり、特にHTTPレスポンスのような単純なタスクでの実用化は難しいとされています。モデル自体のサイズや圧縮・解凍の際に必要となる計算リソースの大きさが、圧縮によって節約されるデータ量よりも大きくなってしまうためです。 ◆まとめ 圧縮アルゴリズムとLLMはどちらも「予測」という共通の基盤を持っています。圧縮はデータの冗長性を予測してより効率的な表現を見つけるプロセスであり、LLMは文脈に基づいて次のシンボルを予測することに特化しています。この両者は情報エントロピーという数学的枠組みで結びついており、根本的には同じ数学的原理に基づく2つの表現にすぎないといえます。"
+    },
+    {
+     "kind": "P",
+     "text": "2026年09月06日 12時00分00秒 in AI , ソフトウェア , Posted by log1c_sh"
+    },
+    {
+     "kind": "P",
+     "text": "You can read the machine translated English article The essential commonality between compre… ."
+    }
+   ],
+   "checkedAt": 1788731788363,
+   "etag": "",
+   "hash": "093acb684295a961",
+   "id": "bcc35d15f438",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fgigazine.net%2Fnews%2F20260906-compression-is-prediction%2F",
+   "key": "https://gigazine.net/news/20260906-compression-is-prediction",
+   "lastModified": "Sun, 06 Sep 2026 21:52:46 GMT",
+   "publishedAt": 1788665165000,
+   "summary": "「データの圧縮」と「大規模言語モデル(LLM)」は一見すると全く異なる分野ですが、根幹では「データの予測」という同じ課題を解決しようとしています。いずれも「データの冗長性を削減」「より効率的な表現」を目指すものであり、ひいては情報理論におけるエントロピーという数学的枠組みで結びついています。ngrokのデ...",
+   "title": "圧縮とLLMに共通する本質は「データの予測」",
+   "updatedAt": 1788731788363,
+   "url": "https://gigazine.net/news/20260906-compression-is-prediction/"
+  },
+  "https://github.com/microsoft/tgrep": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "Navigation Menu"
+    },
+    {
+     "kind": "H",
+     "text": "Uh oh!"
+    },
+    {
+     "kind": "P",
+     "text": "There was an error while loading. Please reload this page ."
+    },
+    {
+     "kind": "LI",
+     "text": "Notifications You must be signed in to change notification settings"
+    },
+    {
+     "kind": "H",
+     "text": "Latest commit"
+    },
+    {
+     "kind": "H",
+     "text": "History"
+    },
+    {
+     "kind": "H",
+     "text": "Folders and files"
+    },
+    {
+     "kind": "H",
+     "text": "Repository files navigation"
+    },
+    {
+     "kind": "H",
+     "text": "tgrep"
+    },
+    {
+     "kind": "P",
+     "text": "Trigram-indexed grep with a client/server architecture for fast regex search\nin large codebases."
+    },
+    {
+     "kind": "H",
+     "text": "Why?"
+    },
+    {
+     "kind": "P",
+     "text": "Tools like grep and ripgrep scan every file on every search — O(total bytes)\nper query. In a 100k+ file monorepo, that's painfully slow. tgrep pre-builds a\ntrigram index so searches only touch the small set of files that could match."
+    },
+    {
+     "kind": "P",
+     "text": "Start a server once, search instantly forever."
+    },
+    {
+     "kind": "P",
+     "text": "See full benchmark results — up to 52x faster than ripgrep on large repos."
+    },
+    {
+     "kind": "H",
+     "text": "Benchmark highlights (avg latency per query, index pre-built)"
+    },
+    {
+     "kind": "P",
+     "text": "tgrep wins 17 of the 18 measured cells; the exception is Kubernetes on Linux, a\nnear-tie at 0.93x. The margin depends on repo size and on how many matches a query\nreturns — a search that returns tens of thousands of matches spends more on\ndelivering them than the index saves on finding them. See What decides the margin ."
+    },
+    {
+     "kind": "H",
+     "text": "Architecture"
+    },
+    {
+     "kind": "LI",
+     "text": "IndexReader — mmap'd on-disk index (zero-copy, binary search on sorted\ntrigram lookup table)"
+    },
+    {
+     "kind": "LI",
+     "text": "LiveIndex — in-memory overlay for files modified after server start, or\nbeing built by the background indexer"
+    },
+    {
+     "kind": "LI",
+     "text": "HybridIndex — merges both layers; overlay takes precedence"
+    },
+    {
+     "kind": "LI",
+     "text": "Background Indexer — builds the index in parallel batches of 500 files\nusing rayon; queries are served immediately from partial data"
+    },
+    {
+     "kind": "LI",
+     "text": "Periodic Flush — every 50K files or 5 minutes, the in-memory index is\nflushed to disk and the reader is swapped, keeping memory bounded"
+    },
+    {
+     "kind": "LI",
+     "text": "File Watcher — notify crate watches the repo; updates LiveIndex in\nreal time"
+    },
+    {
+     "kind": "LI",
+     "text": "Filename Index — --files unions content-index paths with a compact\nsidecar containing only admitted paths that have no searchable content"
+    },
+    {
+     "kind": "LI",
+     "text": "TCP Server — JSON-RPC 2.0 over newline-delimited TCP; each connection\nhandled in a separate thread; multiple clients can connect simultaneously"
+    },
+    {
+     "kind": "LI",
+     "text": "File Cache — 50K-entry content cache with RwLock for lock-free reads"
+    },
+    {
+     "kind": "H",
+     "text": "Performance"
+    },
+    {
+     "kind": "P",
+     "text": "tgrep is designed to be significantly faster than ripgrep on large repos:"
+    },
+    {
+     "kind": "LI",
+     "text": "Parallel search — candidate files are searched in parallel using rayon"
+    },
+    {
+     "kind": "LI",
+     "text": "Fast query planning — sorted posting lists are intersected/unioned without\nunnecessary resorting, and on-disk posting lists skip redundant deduplication"
+    },
+    {
+     "kind": "LI",
+     "text": "Memory-efficient full builds — index builds batch extraction and stream\nsorted postings, file entries, and lookup entries instead of retaining the full\ninverted index in memory"
+    },
+    {
+     "kind": "LI",
+     "text": "Smart file walking — extension-based binary rejection (50+ formats) and an\n8KB content check, with a 64 MiB size cap on both indexing and searching\n( --no-max-filesize removes it)"
+    },
+    {
+     "kind": "LI",
+     "text": "Lock-free reads — RwLock<HashMap> cache allows concurrent reads\nwithout contention"
+    },
+    {
+     "kind": "LI",
+     "text": "Hot serving — queries work immediately during background index building;\nno need to wait for full index"
+    },
+    {
+     "kind": "P",
+     "text": "See BENCHMARKS.md for end-to-end large-repo benchmarks and\nCriterion microbenchmarks for query execution, trigram extraction, and index\nbuilding."
+    },
+    {
+     "kind": "H",
+     "text": "Usage"
+    },
+    {
+     "kind": "H",
+     "text": "Build the index"
+    },
+    {
+     "kind": "P",
+     "text": "Each build reports its elapsed time and peak memory when it finishes:"
+    },
+    {
+     "kind": "P",
+     "text": "The peak is the memory the process itself holds — private/committed bytes, not\nresident set. The two differ once large files are memory-mapped: mapped pages are\nfile-backed and reclaimable, so counting them would report the size of the files\nbeing indexed rather than tgrep's own use. Indexing a single 2 GiB file holds\n77.8 MiB while its working set reaches 1.99 GiB. When the working set is\nsubstantially larger it is named alongside, so nothing is hidden:"
+    },
+    {
+     "kind": "H",
+     "text": "Repositories without a .git directory"
+    },
+    {
+     "kind": "P",
+     "text": ".gitignore files only take effect inside a git repository. This matches\nripgrep, which gates them the same way, but it surprises people indexing a\nPerforce, Source Depot, or plain-directory enlistment: the root .gitignore is\nread by nothing, and the only symptom is an index far larger than expected."
+    },
+    {
+     "kind": "P",
+     "text": "tgrep says so rather than leaving you to guess:"
+    },
+    {
+     "kind": "P",
+     "text": "--no-require-git applies the rules anyway, and works on index , serve , and\nsearch alike, so the index and your queries agree on which files exist:"
+    },
+    {
+     "kind": "H",
+     "text": "Case-insensitive repositories"
+    },
+    {
+     "kind": "P",
+     "text": "When git clones onto a filesystem that does not distinguish case — which on\nWindows is every clone — it sets core.ignorecase and stops distinguishing case\nwhen it matches ignore rules. A rule spelled QLogs then hides a directory\nnamed qlogs ."
+    },
+    {
+     "kind": "P",
+     "text": "Most tools, ripgrep included, always match ignore rules case-sensitively, so\nthat directory is walked, read and indexed even though git status never\nmentions it. On one Windows enlistment that was a single 13.4 GiB build\nartifact, 71% of the corpus, adding about 16 seconds to every query."
+    },
+    {
+     "kind": "P",
+     "text": "tgrep reads core.ignorecase and matches the way the repository itself does.\nFiles git tracks are exempt, which is git's own rule — ignore rules only\ndecide the fate of files git does not already know about. Without that\nexemption the same change would have hidden 273 tracked .JPG , .PNG and .RLL files caught by rules written in lower case."
+    },
+    {
+     "kind": "P",
+     "text": "On that enlistment the walk went from listing one file more than git ls-files --cached --others --exclude-standard to matching it exactly, at a\ncost of roughly 0.4 s on a 293k-file walk. --no-ignore turns it off along with\nevery other ignore source, and repositories that distinguish case are unaffected\nand pay nothing."
+    },
+    {
+     "kind": "P",
+     "text": "Only the repository's own root .gitignore and .git/info/exclude are matched\nthis way. Rules in nested .gitignore files are not, because the walk does not\nknow they exist until it reaches their directory. Missing one only leaves a file\nvisible that git would hide, which is what every other tool does anyway."
+    },
+    {
+     "kind": "H",
+     "text": "Keep index and serve flags in step"
+    },
+    {
+     "kind": "P",
+     "text": "Flags that decide which files belong in the index — --no-require-git , --no-ignore , --max-filesize , --exclude — must match between the tgrep index that built an index and the tgrep serve that serves it."
+    },
+    {
+     "kind": "P",
+     "text": "The server compares the index against the filesystem at startup and treats an\nindexed file it cannot see as deleted. So serving an index built without a cap\nunder a --max-filesize 8M server drops every file above 8 MiB from that index,\npermanently. Both sides default to 64 MiB, so this only bites when one side\nnames a limit; pass the same flags to both:"
+    },
+    {
+     "kind": "H",
+     "text": "Memory use on very large repos"
+    },
+    {
+     "kind": "P",
+     "text": "Builds default to --index-strategy=external , which bounds peak memory with an\nexternal merge sort: postings accumulate in a fixed-size arena that spills\nsorted, compact segments to disk when full, and the segments are k-way merged\nstraight into the index. Peak memory is roughly flat in repo size rather than\nlinear."
+    },
+    {
+     "kind": "P",
+     "text": "If the arena never fills, nothing is spilled and the build takes exactly the\nin-memory path, so small and mid-size repos pay nothing for this default."
+    },
+    {
+     "kind": "P",
+     "text": "On the Linux kernel (94,634 files, 990 MiB index), measured under the 1 MiB\nindexing cap that was the default at the time, the default strategy is a ~17x\nreduction in peak memory, and no slower :"
+    },
+    {
+     "kind": "P",
+     "text": "--index-buffer trades peak memory against merge fan-in. Bounded memory is also predictable memory — the memory row varied by over a gigabyte across\nidentical runs because Vec growth doubles and both buffers are briefly\nresident during the final reallocation, while external varied by 8 MiB."
+    },
+    {
+     "kind": "P",
+     "text": "The 1 MiB indexing cap those rows were measured under is now 64 MiB, and files\npast 1 MiB are memory-mapped rather than read onto the heap. On the same repo the external build now settles at roughly 152 MiB of private memory in 27 s ,\nagainst 197-200 MiB and 41-42 s when every admitted file was read onto the heap.\nThe arena bound is unchanged; what changed is that a handful of 20 MB generated\nheaders no longer cost their full size in heap in every worker that touches one.\nThe 152 MiB figure was taken with no cap at all, and the 64 MiB default excludes\nonly files above 64 MiB, so it leaves these numbers alone here: the largest file\nin the kernel tree is a 22.9 MiB generated AMD register header, and nothing in its\n95,862 files reaches the cap."
+    },
+    {
+     "kind": "P",
+     "text": "Two caveats on reading those numbers. The peak tgrep prints is private bytes ,\nwhich excludes mapped file pages, so it reports what the process actually holds\nrather than the size of the files it is reading — the same build is 152 MiB\nprivate against ~192 MiB resident, and the working set is named alongside only\nwhen it is substantially larger, as in Build the index .\nmacOS is the exception: libc does not surface the Mach counter that separates\nthe two, so it still reports resident set there. And a very large file that is\nneither valid UTF-8 nor detectably binary still costs about its own size, because\nthe index has to hold the same repaired bytes a search will match against; a\n135 MB Latin-1 file indexes at roughly 205 MiB."
+    },
+    {
+     "kind": "P",
+     "text": "Pass --max-filesize if a build has to fit a tighter budget, or --no-max-filesize to lift the 64 MiB default entirely."
+    },
+    {
+     "kind": "P",
+     "text": "--index-strategy=memory remains available as an escape hatch for environments\nwhere spilling is undesirable or impossible, such as a read-only or full index\nvolume. Both strategies produce byte-identical indexes from the same walk —\nnote that file IDs follow walk order, which the parallel walker does not fix\nbetween runs, so two builds of the same tree need not be byte-identical to each\nother. See BENCHMARKS.md for full numbers."
+    },
+    {
+     "kind": "P",
+     "text": "tgrep serve uses the same bounded builder when it has to create an index from\nscratch, so starting a server on an unindexed repo costs the same memory as tgrep index ( 148.6 MiB rather than 1.6 GiB on the Linux kernel, and 2.6x\nfaster). While that first build runs the server answers from an empty index\nrather than a partial one; incremental updates after it completes are\nunaffected."
+    },
+    {
+     "kind": "H",
+     "text": "Start the server"
+    },
+    {
+     "kind": "P",
+     "text": "The server builds the index in the background if none exists, and serves\nqueries immediately from partial data. Multiple clients can connect\nsimultaneously."
+    },
+    {
+     "kind": "P",
+     "text": "Resource use during that initial build can be tuned. These apply to both tgrep serve and tgrep index :"
+    },
+    {
+     "kind": "H",
+     "text": "Staying in step with the filesystem"
+    },
+    {
+     "kind": "P",
+     "text": "Once the index is built, everything that changes it arrives as an OS\nnotification, and a notification can go missing — a queue overflow, a network\nor virtualised filesystem that declines to report a change, a tree replaced\nwholesale by a branch switch or a build. Overflow is detected and repaired at\nonce; the rest is silent, and nothing else in the server revisits a file it\nbelieves it already knows. A missed change would otherwise last until that\nfile happened to change again, which for a deleted file is never."
+    },
+    {
+     "kind": "P",
+     "text": "So a watching server also reconciles on a timer: about once an hour it walks\nthe tree and compares it against the index, which finds any drift regardless\nof what the watcher heard. It waits for a two-minute gap in queries first, and\ngives up waiting after four hours so a continuously busy server still\nreconciles. On an unchanged tree it finds nothing and leaves the index alone. --no-watch turns it off along with the watcher."
+    },
+    {
+     "kind": "P",
+     "text": "On Linux and Android, tgrep registers only the non-ignored directories with\ninotify, avoiding watch-descriptor growth beneath ignored trees. This guarantee\nis backend-specific: the implementation intentionally keeps one recursive ReadDirectoryChangesW root subscription on Windows and one root FSEvents\nstream on macOS, where ignored events are filtered after delivery and ignored\ndescendants remain watched. kqueue and PollWatcher are not covered."
+    },
+    {
+     "kind": "H",
+     "text": "Search"
+    },
+    {
+     "kind": "P",
+     "text": "With the default traversal rules, --files reads the live server or the local\nindex instead of walking the repository. The local result is an index snapshot;\nuse --no-index to inspect the filesystem as it exists now. Flags that change\ntraversal membership or the file-size policy also fall back to a walk."
+    },
+    {
+     "kind": "H",
+     "text": "Check status"
+    },
+    {
+     "kind": "H",
+     "text": "Count files"
+    },
+    {
+     "kind": "P",
+     "text": "Prints the count to stdout (scriptable) and details to stderr:"
+    },
+    {
+     "kind": "H",
+     "text": "CLI Flags"
+    },
+    {
+     "kind": "P",
+     "text": "By default tgrep sniffs a UTF-8/UTF-16LE/UTF-16BE BOM and decodes accordingly,\nso BOM-marked UTF-16 files are searched as text rather than reported as binary.\nA BOM always wins over -E , matching ripgrep. Because the index is built with\nauto-detection, an explicit -E bypasses the index and server and searches\nfiles directly, so results stay correct."
+    },
+    {
+     "kind": "P",
+     "text": "--mmap / --no-mmap (tgrep always reads files directly), --crlf / --no-crlf (a trailing \\r is always stripped), --no-config (tgrep reads no config\nfile), and --colors <SPEC> (colors are not yet configurable) are accepted and\nignored so ripgrep command lines keep working. --debug / --trace imply --stats ."
+    },
+    {
+     "kind": "P",
+     "text": "-z/--search-zip is not supported and exits with code 2 rather than\nsilently reporting no matches in compressed files."
+    },
+    {
+     "kind": "QUOTE",
+     "text": "Note: -L means --follow (as in ripgrep). Use the long --files-without-match for the non-matching-files listing."
+    },
+    {
+     "kind": "H",
+     "text": "Patterns and paths"
+    },
+    {
+     "kind": "P",
+     "text": "Without -e / -f , the first positional argument is the pattern and the rest are\npaths. As soon as -e or -f supplies a pattern, every positional becomes\na path, matching ripgrep:"
+    },
+    {
+     "kind": "H",
+     "text": "Output defaults"
+    },
+    {
+     "kind": "P",
+     "text": "tgrep matches ripgrep's context-dependent defaults rather than fixed ones:"
+    },
+    {
+     "kind": "LI",
+     "text": "Line numbers are on only when stdout is a terminal. Piping to another\ncommand drops them, so tgrep needle . | cut -d: -f1 behaves the same as it\ndoes with ripgrep. --column , --vimgrep and -p turn them back on; -b and -A/-B/-C do not."
+    },
+    {
+     "kind": "LI",
+     "text": "Filenames are shown unless you named exactly one file . A directory\nargument always shows them. -H / -I override either way."
+    },
+    {
+     "kind": "LI",
+     "text": "Paths are printed by appending onto the argument you typed: the argument\nsurvives verbatim and only the appended part uses the platform separator. So tgrep needle src/ prints src/main.rs while tgrep needle src prints src\\main.rs on Windows. --path-separator rewrites every separator."
+    },
+    {
+     "kind": "H",
+     "text": "Match limits"
+    },
+    {
+     "kind": "P",
+     "text": "-m/--max-count limits matching lines , as ripgrep does, not individual\nmatches. A line holding several matches spends one unit of the budget and all\nof its matches are still reported, so tgrep -m1 --vimgrep foo prints one row\nper match on the first matching line. Under -U/--multiline the unit is the\ncontiguous block of lines a match covers, which keeps a match that straddles a\nline boundary whole instead of truncating it mid-pattern."
+    },
+    {
+     "kind": "P",
+     "text": "One divergence: ripgrep stops reading a file once the limit is reached, so its --stats bytes_searched is lower than tgrep's, which searches from a\nwhole-file buffer. The match counts themselves agree."
+    },
+    {
+     "kind": "H",
+     "text": "Multiline matches"
+    },
+    {
+     "kind": "P",
+     "text": "-U/--multiline lets a match cross line boundaries, and every line a match\ncovers is printed. --vimgrep is the exception: it reports one row per match\nso editors get one jump target each, so a match spanning several lines is\nreported only on the line it starts on."
+    },
+    {
+     "kind": "P",
+     "text": "Two divergences, both cases where ripgrep names a column that doesn't exist on\nthe line it prints — rg -U --column reports the same column for every line of\na match, and rg -U --vimgrep -o can report column 19 of a 7-character line.\ntgrep reports the real match position instead."
+    },
+    {
+     "kind": "H",
+     "text": "Binary files"
+    },
+    {
+     "kind": "P",
+     "text": "A file is binary if it contains a NUL byte. Following ripgrep:"
+    },
+    {
+     "kind": "LI",
+     "text": "Binary files found by walking a directory are skipped silently — they\nappear in neither the output, -l , -c , nor --files-without-match ."
+    },
+    {
+     "kind": "LI",
+     "text": "A binary file named explicitly on the command line reports a note: bin.dat: binary file matches (found \"\\0\" byte around offset 7) ."
+    },
+    {
+     "kind": "LI",
+     "text": "--binary promotes traversal to the explicit behaviour, so binary files are\nsearched and summarised with that note."
+    },
+    {
+     "kind": "LI",
+     "text": "-a / --text disables binary detection entirely and prints matches as text."
+    },
+    {
+     "kind": "LI",
+     "text": "--json has no note. As in ripgrep, the matching lines are emitted as\nordinary match events and the file's end message carries binary_offset — the offset of the first NUL — so a consumer can still tell\na binary hit apart from a text one. stats.bytes_searched stops at that\noffset rather than counting the whole file."
+    },
+    {
+     "kind": "P",
+     "text": "tgrep additionally rejects ~65 binary file extensions during the walk to keep\nindexing cheap, which ripgrep does not do. --binary and -a also lift that\nrestriction, and --files never applies it."
+    },
+    {
+     "kind": "H",
+     "text": "Flags that bypass the index"
+    },
+    {
+     "kind": "P",
+     "text": "The index is built over text files only, skipping hidden and ignored ones, so\nflags that widen or re-interpret that set are answered by walking the tree\ninstead: -E/--encoding , -a/--text , --binary , -./--hidden , and every --no-ignore* variant. Naming a single file also skips the index, since\nreading one file directly is cheaper than loading one."
+    },
+    {
+     "kind": "H",
+     "text": "Invalid UTF-8"
+    },
+    {
+     "kind": "P",
+     "text": "ripgrep searches raw bytes. tgrep decodes first, repairing any undecodable byte\ninto a U+FFFD , which is what makes the trigram index possible. Reported\npositions are mapped back, so --column , -b , --vimgrep and -r all report\nthe byte offsets on disk exactly as ripgrep does. Two differences remain on\nlines that are not valid UTF-8:"
+    },
+    {
+     "kind": "LI",
+     "text": "A pattern can match the substituted U+FFFD ; ripgrep, seeing raw bytes, never\nmatches there. So tgrep '.' finds one more match per repaired byte."
+    },
+    {
+     "kind": "LI",
+     "text": "--json always reports lines.text with the substitutions in place, and\nsubmatch offsets that index it. ripgrep instead emits lines.bytes as base64\nand reports source offsets. absolute_offset is a real file offset either\nway."
+    },
+    {
+     "kind": "H",
+     "text": "File size limits"
+    },
+    {
+     "kind": "P",
+     "text": "Searching and indexing both skip files larger than 64 MiB by default. This\nis a deliberate divergence from ripgrep, which has no default limit."
+    },
+    {
+     "kind": "P",
+     "text": "The divergence is affordable because tgrep is not a one-shot scanner. A file a\nwalk picks up is also a file the index carries and re-reads on every query whose\ntrigrams make it a candidate, so an outlier's cost is paid repeatedly rather\nthan once. On a 292,911-file enlistment where one 13.41 GiB generated build\nartifact was 71% of all searchable bytes, the cap cut a cold index build from\n214.5 s to 64.2 s and a warm query from 21.30 s to 0.55 s — a 39x difference —\nat the cost of one match in one generated file, and it excluded 2 files out of\n292,911."
+    },
+    {
+     "kind": "P",
+     "text": "The cost is real: an oversized file is counted but its path is never recorded,\nso a match inside one is reported as no match. Two rules keep that from being\nsilent:"
+    },
+    {
+     "kind": "LI",
+     "text": "--no-max-filesize restores the uncapped, ripgrep-identical behaviour, and --max-filesize sets a different bound."
+    },
+    {
+     "kind": "LI",
+     "text": "A file named directly on the command line is never dropped by the inherited default, only by a limit you passed. tgrep pattern ./huge.log searches huge.log ."
+    },
+    {
+     "kind": "P",
+     "text": "The limit is resolved once, before the walk and the search diverge, so an index\nand the queries against it always agree on which files exist. A walk that capped\nwhere the search did not would be indistinguishable from \"this file contains no\nmatch\"."
+    },
+    {
+     "kind": "P",
+     "text": "The cap is not what bounds memory. Files past 1 MiB are memory-mapped during\nboth indexing and searching, so their pages are file-backed and reclaimable, and\nmapped files are batched by what they actually put on the heap rather than by\ntheir length — so a build over large files fills its worker pool instead of\nrunning two files at a time. Combined with a faster trigram extractor, that made\nindexing a tree of 32 MiB source files about 14x faster. Nor is size a good\nproxy for index cost: oversized files are overwhelmingly generated and\ntherefore repetitive, contributing far fewer distinct trigrams per byte than\nordinary source. What the cap buys is bounded scan time. See BENCHMARKS.md ."
+    },
+    {
+     "kind": "H",
+     "text": "Exit codes"
+    },
+    {
+     "kind": "P",
+     "text": "A match plus an error yields 2 , unless -q is set, which yields 0 ."
+    },
+    {
+     "kind": "P",
+     "text": "An ignore file that fails to parse is not one of these errors. Like ripgrep,\ntgrep reports it on stderr, skips the offending rule and carries on, leaving the\nexit code determined by the search alone. Suppress the message with --no-ignore-messages , or with --no-messages , which covers it as well."
+    },
+    {
+     "kind": "H",
+     "text": "How It Works"
+    },
+    {
+     "kind": "LI",
+     "text": "Indexing — walks the repo (respecting .gitignore and root-level p4ignore.ini ), skips binary files\nby extension (50+ formats) and content check (first 8KB), extracts all\noverlapping 3-byte trigrams from each text file in parallel (rayon), and\nwrites a compact binary inverted index. Full builds stream sorted posting\ngroups directly to disk to keep peak memory bounded."
+    }
+   ],
+   "checkedAt": 1788731788363,
+   "etag": "W/\"1d7aa6c9295a116e8877e341cb0b536e\"",
+   "hash": "9e9d07fdc87b0654",
+   "id": "b1951261986c",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fgithub.com%2Fmicrosoft%2Ftgrep",
+   "key": "https://github.com/microsoft/tgrep",
+   "lastModified": "",
+   "publishedAt": 1788704497000,
+   "summary": "You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert",
+   "title": "GitHub - microsoft/tgrep: Trigram-indexed grep with a client/server architecture for fast regex search in large codebases locally",
+   "updatedAt": 1788731788363,
+   "url": "https://github.com/microsoft/tgrep"
   },
   "https://hokke-ookami.hatenablog.com/entry/20260904/1788533959": {
    "bodyBlocks": [
@@ -2299,6 +3626,370 @@
    "updatedAt": 1788685102092,
    "url": "https://nolanlawson.com/2026/08/23/the-asteroid-currently-hitting-frontend-web-development/"
   },
+  "https://note.com/howmanydesigns/n/na108d69827ce": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "デジタル庁は、デザインシステムをAIに読ませ始めた。Markdown配布が示すこと"
+    },
+    {
+     "kind": "P",
+     "text": "こんにちは、How many designs です。 Web Design Talk というタイトルで、デザインに関するお話を少しだけ書いていこうと思います。気軽に読んでいただければ幸いです。"
+    },
+    {
+     "kind": "H",
+     "text": "デジタル庁からMarkdownが配布されました。"
+    },
+    {
+     "kind": "P",
+     "text": "デジタル庁デザインシステムは、FigmaのデザインデータとHTML／Reactのコードに加えて、全ドキュメントをMarkdownでも配り始めました。"
+    },
+    {
+     "kind": "P",
+     "text": "一見すると、Webサイトに掲載されている文章を、テキストファイルとしてもダウンロードできるようにしただけに見えるかもしれません。"
+    },
+    {
+     "kind": "P",
+     "text": "しかし、実際に配布されたファイルを確認すると、もう少し大きな変化が起きています。"
+    },
+    {
+     "kind": "P",
+     "text": "配布物のREADMEには、このMarkdown一式が「主にAI参照用途」であると明記されています。デジタル庁は、デザインシステムを人間がブラウザで読むだけでなく、 AIが検索し、必要な情報を取り出し、実装時に参照することまで想定して配り始めた のです。"
+    },
+    {
+     "kind": "P",
+     "text": "これは、AI時代のデザインシステムがどのような形になるのかを考えるうえで、かなり象徴的な出来事だと思います。"
+    },
+    {
+     "kind": "H",
+     "text": "デジタル庁は「AI参照用」のMarkdown一式を配り始めた"
+    },
+    {
+     "kind": "P",
+     "text": "デジタル庁デザインシステムのお知らせ によると、Markdownファイル一式の提供が始まったのは2026年7月8日です。"
+    },
+    {
+     "kind": "P",
+     "text": "対象は、デジタル庁デザインシステムのWebサイトを構成する全ドキュメントと、アクセシビリティガイドラインです。"
+    },
+    {
+     "kind": "LI",
+     "text": "7月22日"
+    },
+    {
+     "kind": "LI",
+     "text": "8月5日"
+    },
+    {
+     "kind": "LI",
+     "text": "8月19日"
+    },
+    {
+     "kind": "P",
+     "text": "と、Webサイトの更新に合わせてMarkdown一式も更新されています。"
+    },
+    {
+     "kind": "P",
+     "text": "執筆時点の最新版は 2026年8月19日版 で、デジタル庁デザインシステム本体のバージョンはv2.17.1です。"
+    },
+    {
+     "kind": "P",
+     "text": "実際に8月19日版のZIPファイルを展開すると、125個のMarkdownファイルが収録されていました。内容は、49種類のコンポーネント、カラーやタイポグラフィなど8種類の基本デザイン、デザインシステムの使い方、アクセシビリティ、更新履歴などに分かれています。"
+    },
+    {
+     "kind": "P",
+     "text": "さらに、ルートには収録内容を一覧できるMANIFEST.mdがあります。各文書の先頭には、タイトル、カテゴリー、文書種別、変換元のURLなどを示すYAML Front Matterも付けられています。"
+    },
+    {
+     "kind": "P",
+     "text": "つまり、単にWebページをMarkdownへ変換したのではありません。"
+    },
+    {
+     "kind": "P",
+     "text": "AIが最初に目次を読み、必要なカテゴリーを探し、関連する文書だけを参照できるように、ひとまとまりの資料として再構成されています。"
+    },
+    {
+     "kind": "H",
+     "text": "配られたのは、1つのDESIGN.mdではない"
+    },
+    {
+     "kind": "P",
+     "text": "以前、Google StitchのDESIGN.mdについて記事を書きました。"
+    },
+    {
+     "kind": "P",
+     "text": "DESIGN.mdは、色、タイポグラフィ、余白、コンポーネントの使い方などを、AIが参照できるテキストとしてまとめる考え方です。"
+    },
+    {
+     "kind": "P",
+     "text": "小規模なWebサイトや個人開発であれば、この方法はかなり扱いやすいと思います。"
+    },
+    {
+     "kind": "P",
+     "text": "一方、デジタル庁デザインシステムのMarkdown版は、1つの巨大なDESIGN.mdではありません。コンポーネントや基本デザインごとに文書を分割し、それらをMANIFEST.mdからたどれる構造になっています。"
+    },
+    {
+     "kind": "P",
+     "text": "これは、デザインシステムの規模が大きくなったときに重要になります。"
+    },
+    {
+     "kind": "P",
+     "text": "AIに毎回125ファイルすべてを読ませる必要はありません。まず目次を確認し、フォームを作るならボタン、インプットテキスト、エラー表示に関係する文書だけを読む。ナビゲーションを作るなら、ヘッダー、メニュー、パンくずナビゲーションに関係する文書を読む。"
+    },
+    {
+     "kind": "P",
+     "text": "1つのDESIGN.mdが「AIのためのデザイン説明書」だとすれば、今回のMarkdown一式は、AIが必要な設計資料を探すための小さな資料庫に近いものです。"
+    },
+    {
+     "kind": "H",
+     "text": "Figmaとコードだけでは伝わらないもの"
+    },
+    {
+     "kind": "P",
+     "text": "これまでのデザインシステムでは、Figmaとコードが中心的な役割を担ってきました。"
+    },
+    {
+     "kind": "P",
+     "text": "Figmaを見れば、色、文字、余白、コンポーネントの状態などを視覚的に確認できます。コードを見れば、それがブラウザ上でどのように動くのかを確認できます。"
+    },
+    {
+     "kind": "P",
+     "text": "ただし、Figmaとコードだけでは伝えにくい情報があります。"
+    },
+    {
+     "kind": "P",
+     "text": "例えば、デジタル庁デザインシステムの ボタンのガイドライン には、見た目やCSSの値だけでなく、次のような設計上の判断も書かれています。"
+    },
+    {
+     "kind": "LI",
+     "text": "プライマリーボタンは、1つの画面につき原則1つまで"
+    },
+    {
+     "kind": "LI",
+     "text": "セカンダリーボタンが多すぎる場合は、フロー自体を見直す"
+    },
+    {
+     "kind": "LI",
+     "text": "小さなボタンでも、操作できる領域は44×44 CSS px以上を確保する"
+    },
+    {
+     "kind": "LI",
+     "text": "入力が終わるまで送信ボタンを無効にする設計は、安易に採用しない"
+    },
+    {
+     "kind": "P",
+     "text": "ボタンの色や形はFigmaで確認できます。44pxの操作領域はコードで実装できます。"
+    },
+    {
+     "kind": "P",
+     "text": "しかし、なぜそのボタンをプライマリーにするのか。なぜ無効状態を避けるのか。どのような場合にフローを見直すべきなのか。"
+    },
+    {
+     "kind": "P",
+     "text": "こうした「選ぶための基準」は、文章でなければ共有しにくいものです。"
+    },
+    {
+     "kind": "P",
+     "text": "AI時代のデザインシステムは、次の3つの役割に分けて考えると分かりやすいかもしれません。"
+    },
+    {
+     "kind": "LI",
+     "text": "Figma：見た目や状態を共有する"
+    },
+    {
+     "kind": "LI",
+     "text": "コード：動作と実装を共有する"
+    },
+    {
+     "kind": "LI",
+     "text": "Markdown：利用条件、例外、設計理由を共有する"
+    },
+    {
+     "kind": "P",
+     "text": "もちろん、実際にはきれいに分離できるわけではありません。Figmaにも説明は書けますし、コードにもコメントやテストがあります。"
+    },
+    {
+     "kind": "P",
+     "text": "それでも、3つの役割を意識すると、これまでデザインシステムのどこに情報が欠けていたのかが見えやすくなります。"
+    },
+    {
+     "kind": "H",
+     "text": "MarkdownによってAIが理解できること、できないこと"
+    },
+    {
+     "kind": "P",
+     "text": "Markdownを置けば、AIがデザインシステムを完全に理解し、必ず正しいUIを作るようになるわけではありません。"
+    },
+    {
+     "kind": "P",
+     "text": "プロジェクト固有の目的、利用者の状況、既存システムの制約などが書かれていなければ、AIはそれらを正確には判断できません。関係する文書を読み忘れることもあれば、ルールを理解していても実装を間違えることもあります。"
+    },
+    {
+     "kind": "P",
+     "text": "デジタル庁のMarkdown版も、READMEで、人間が読む一次情報としてはWebサイトを参照するよう案内しています。各Markdownファイルには変換元のsource_urlが記載され、完全な内容が必要な場合は公式ページを確認する構造です。"
+    },
+    {
+     "kind": "P",
+     "text": "どのルールを参照すべきかをAIに伝え、設計判断の根拠を探しやすくする仕組みです。"
+    },
+    {
+     "kind": "P",
+     "text": "実際の動作を保証するのはコードであり、テストです。アクセシビリティについても、ガイドラインを読ませただけで適合が保証されるわけではありません。AIが作った結果を、人間が確認する必要があります。"
+    },
+    {
+     "kind": "P",
+     "text": "だからこそ、Figma、コード、Markdownのどれか1つに置き換えるのではなく、相互に参照できる状態が重要になります。"
+    },
+    {
+     "kind": "H",
+     "text": "デジタル庁デザインシステムをCSSで再実装して分かったこと"
+    },
+    {
+     "kind": "P",
+     "text": "2025年1月に、私は「デジタル庁デザインシステムをもっと使いやすく」という記事を書きました。"
+    },
+    {
+     "kind": "P",
+     "text": "当時は、デジタル庁デザインシステムをReactに依存しない形で使いたいと考え、標準的なCSS／SCSSで再実装する試みを始めました。"
+    },
+    {
+     "kind": "P",
+     "text": "現在は公式から、 HTML／CSS／JavaScript版 と React／Tailwind CSS版 のコードスニペットが公開されています。以前よりも、実装へ取り入れやすい状態になっています。"
+    },
+    {
+     "kind": "P",
+     "text": "この変化自体も、デザインシステムが1つのツールやフレームワークに閉じず、複数の形で配布されるようになった例だと思います。"
+    },
+    {
+     "kind": "P",
+     "text": "CSSとして再実装すると、色、余白、文字サイズ、角丸などの値は移植できます。ボタンやフォームの見た目も再現できます。"
+    },
+    {
+     "kind": "P",
+     "text": "しかし、CSSだけでは、「なぜこの値なのか」「どの場面でこのコンポーネントを選ぶのか」までは伝えられません。"
+    },
+    {
+     "kind": "P",
+     "text": "反対に、Markdownだけでは、ホバー、フォーカス、レスポンシブ表示などの細かな挙動を保証できません。"
+    },
+    {
+     "kind": "P",
+     "text": "実装して初めて分かる制約があり、文章を読んで初めて分かる判断があります。"
+    },
+    {
+     "kind": "P",
+     "text": "今回、Figma、HTML／Reactのコード、Markdownが並んだことで、デザインシステムは「完成した画面パーツを配るもの」から、「設計と実装の判断材料を複数の形で配るもの」へ近づいたように感じます。"
+    },
+    {
+     "kind": "H",
+     "text": "制作会社が設計資料を機械可読にするための第一歩"
+    },
+    {
+     "kind": "P",
+     "text": "デジタル庁デザインシステムと同じ規模のMarkdown一式を、すべての会社が作る必要はありません。"
+    },
+    {
+     "kind": "P",
+     "text": "特に小規模な制作会社では、最初から完全なデザインシステムを整備しようとすると、それ自体が大きな負担になります。"
+    },
+    {
+     "kind": "P",
+     "text": "まずMarkdownにすべきなのは、制作のたびに判断がぶれる部分です。"
+    },
+    {
+     "kind": "LI",
+     "text": "プライマリーボタンを選ぶ基準"
+    },
+    {
+     "kind": "LI",
+     "text": "余白や文字サイズの基本単位と、例外を認める条件"
+    },
+    {
+     "kind": "LI",
+     "text": "フォームのエラーを、いつ、どこに、どのように表示するか"
+    },
+    {
+     "kind": "LI",
+     "text": "新しいコンポーネントを増やす前に確認すること"
+    },
+    {
+     "kind": "LI",
+     "text": "AIに変更させてよい範囲と、人間がレビューする範囲"
+    },
+    {
+     "kind": "P",
+     "text": "内容が増えたら、基本デザイン、コンポーネント、アクセシビリティ、プロジェクト固有のルールへ分割する。目次を作り、各文書に更新日と参照元を残す。"
+    },
+    {
+     "kind": "P",
+     "text": "重要なのは、Markdownという形式そのものではありません。"
+    },
+    {
+     "kind": "P",
+     "text": "これまでFigmaの中やコードの中、あるいはデザイナーやエンジニアの頭の中にあった判断を、更新し、配布し、再利用できる状態にすることです。"
+    },
+    {
+     "kind": "H",
+     "text": "デザインシステムは、AIへの指示書にもなる"
+    },
+    {
+     "kind": "P",
+     "text": "AIがコードを書けるようになったことで、デザインシステムの役割は小さくなるようにも見えます。"
+    },
+    {
+     "kind": "P",
+     "text": "コードを作る速度が上がるほど、何を基準に作るのかが重要になります。画面ごとに違う判断をさせないためには、AIが参照できる設計基準が必要です。"
+    },
+    {
+     "kind": "P",
+     "text": "デジタル庁がMarkdown一式を配り始めたことは、デザインシステムが人間同士の共有物だけではなく、AIと協働するための参照情報にもなったことを示しています。"
+    },
+    {
+     "kind": "P",
+     "text": "Figmaは見た目を伝えます。コードは動作を伝えます。Markdownは、その選択に至る判断を伝えます。"
+    },
+    {
+     "kind": "P",
+     "text": "この3つがそろって初めて、AIは単に似た画面を作るだけでなく、既存の設計思想を参照しながら実装できるようになります。"
+    },
+    {
+     "kind": "P",
+     "text": "AI時代のデザインシステムに必要なのは、完成した部品を増やすことだけではありません。"
+    },
+    {
+     "kind": "P",
+     "text": "人間が積み重ねてきた判断を、AIも読める形で残すことなのだと思います。"
+    },
+    {
+     "kind": "H",
+     "text": "関連情報"
+    },
+    {
+     "kind": "P",
+     "text": "この記事で触れた「Markdownによる設計方針」「CSSデザイントークン」「実装済みコンポーネント」を、小規模なAI駆動開発向けの最小構成としてまとめています。"
+    },
+    {
+     "kind": "H",
+     "text": "参照元"
+    },
+    {
+     "kind": "H",
+     "text": "いいなと思ったら応援しよう！"
+    }
+   ],
+   "checkedAt": 1788731788363,
+   "etag": "",
+   "hash": "3b65fc5500b76f9e",
+   "id": "a9eadc21f3fb",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fnote.com%2Fhowmanydesigns%2Fn%2Fna108d69827ce",
+   "key": "https://note.com/howmanydesigns/n/na108d69827ce",
+   "lastModified": "",
+   "publishedAt": 1788503696000,
+   "summary": "こんにちは、How many designs です。 Web Design Talk というタイトルで、デザインに関するお話を少しだけ書いていこうと思います。気軽に読んでいただければ幸いです。 デジタル庁からMarkdownが配布されました。デジタル庁デザインシステムは、FigmaのデザインデータとHTML／Reactのコードに加えて、全ドキュメントを...",
+   "title": "デジタル庁は、デザインシステムをAIに読ませ始めた。Markdown配布が示すこと｜How many designs",
+   "updatedAt": 1788731788363,
+   "url": "https://note.com/howmanydesigns/n/na108d69827ce"
+  },
   "https://note.com/koid/n/n3a4455b202e0": {
    "bodyBlocks": [
     {
@@ -2618,6 +4309,426 @@
    "title": "AI に、即答させない ―― 反証を、装置にする｜小出幸典 | 株式会社カンリー CTO",
    "updatedAt": 1788685102092,
    "url": "https://note.com/koid/n/n3a4455b202e0"
+  },
+  "https://note.com/npaka/n/n8fb683be4d52": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "GPT-6 Astraで飛躍的に向上したゲーム制作能力 - Unreal Engine / Unity / Godot / Three.js"
+    },
+    {
+     "kind": "P",
+     "text": "「GPT-6 Astra」で飛躍的に向上したゲーム制作能力についてまとめました。"
+    },
+    {
+     "kind": "H",
+     "text": "1. はじめに"
+    },
+    {
+     "kind": "P",
+     "text": "2026年9月3日に発表された「 GPT-6 Astra 」では、コーディングだけでなく、 ゲームや3D空間を実際に作る能力 も大きく向上しています。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "・Blenderで作った家をUnreal Engine 5の歩けるシーンへ展開 ・Unity / Godot上でゲームを編集・プレイ・検証 ・Three.jsで大規模な3Dゲームを制作"
+    },
+    {
+     "kind": "P",
+     "text": "さらにXでも、Manhattan規模の3D世界、AIエージェントが暮らす世界、Call of Duty風FPS、Godotの3Dゲームなど、さまざまな制作例が登場しています。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "AIにゲームのコードを書いてもらう"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "作る → 実行する → プレイする → 問題を見つける → 修正する"
+    },
+    {
+     "kind": "P",
+     "text": "という、ゲーム開発そのものをAIに任せる方向へ進み始めています。"
+    },
+    {
+     "kind": "P",
+     "text": "今回は「 Unreal Engine / Unity / Godot / Three.js 」の事例から、GPT-6 Astraでゲーム制作がどう変わったのかを見ていきます。"
+    },
+    {
+     "kind": "H",
+     "text": "2. GPT-6 Astraでゲーム制作は何が進化したのか"
+    },
+    {
+     "kind": "H",
+     "text": "2-1. コードを書くAIからゲームを作るAIへ"
+    },
+    {
+     "kind": "P",
+     "text": "ゲーム制作では、正しいコードを書くだけでは十分ではありません。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "・3D空間にオブジェクトを配置する ・参照画像に近い見た目を作る ・UIやキャラクターを動かす ・実際にプレイする ・違和感やバグを見つけて直す"
+    },
+    {
+     "kind": "P",
+     "text": "Playcoによる評価では、GPT-6 Astraは特に、 空間推論、参照画像の再現、ゲームUI、ゲームフィール が改善しています。さらにPlaybotでは、Astra自身がゲームをプレイし、変更結果を検証してバグや改善点を見つけられます。"
+    },
+    {
+     "kind": "P",
+     "text": "PlaycoのAI IDE「 Playbot 」では、AstraがUnityやGodotに接続し、"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "シーン編集 → ゲーム実行 → プレイ・テスト → 結果確認 → 修正"
+    },
+    {
+     "kind": "P",
+     "text": "1つのグレーボックスから3種類のテーマ別プロトタイプを作るUnityの評価では、多くが初回から動作し、従来モデルと比べて 人間による手作業の修正を約50%削減 したと報告されています。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "・ GPT-6 Astraでゲームを試作し、Playcoの手作業による修正を50%削減"
+    },
+    {
+     "kind": "H",
+     "text": "2-2. 3D空間を見て判断する能力が向上"
+    },
+    {
+     "kind": "P",
+     "text": "OpenAIのThomas Ricouard氏は、Astraで住宅の間取りを作り、Blenderで3Dモデル化し、最終的に Unreal Engine 5上を歩けるシーン へ変換する制作過程を公開しています。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "Astra is very good at 3D modeling, and I can't wait for all of you to experience it, for now here is a little walkthrough on how I built the demo house for our launch blog post. From a Blender scene to a Unreal Engine 5 walkable experience. 🧵 pic.twitter.com/xGqe5iXoRv — Thomas Ricouard (@Dimillian) September 3, 2026"
+    },
+    {
+     "kind": "P",
+     "text": "興味深いのは、AstraがBlenderのGUIだけを使っているわけではない点です。"
+    },
+    {
+     "kind": "P",
+     "text": "Ricouard氏によると、Astraは Blenderのheadless / CLIを使い、Pythonで3Dモデルを生成する方法を好んで使った"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "3D空間を考える → コードやCLIで制作する → 画面で確認する → 別の3Dツールへ展開する"
+    },
+    {
+     "kind": "H",
+     "text": "3. GPT-6 Astraのゲーム制作事例"
+    },
+    {
+     "kind": "H",
+     "text": "3-1. Unreal Engine - ManhattanとAIエージェントの世界"
+    },
+    {
+     "kind": "P",
+     "text": "コミュニティで特に注目されたのが、Matt Shumer氏による Manhattanの再現 です。"
+    },
+    {
+     "kind": "P",
+     "text": "Shumer氏はGPT-6 AstraにUnreal EngineでManhattanを作らせ、 約1週間にわたり通りを1本ずつ制作・調整 させたとしています。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "I had early access to GPT-6 Astra. After GPT-5.6 deleted my entire Mac, it was going to take a hell of a model to bring me back to OpenAI. Astra has done it. Read my review: https://t.co/9G2odgzGX3 — Matt Shumer (@mattshumer_) September 3, 2026"
+    },
+    {
+     "kind": "P",
+     "text": "これは1回のプロンプトで完成させるワンショット生成ではなく、"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "エリアを作る → 確認する → 修正する → 次のエリアへ進む"
+    },
+    {
+     "kind": "P",
+     "text": "さらにShumer氏は、Unreal Engine上に人間キャラクターを配置し、 それぞれをGPT-6 Astraで動くAIエージェントにする世界 も制作しています。"
+    },
+    {
+     "kind": "P",
+     "text": "Astraで動く人間キャラクターたちに、 協力して生き残る という目標を与え、その後キャラクター同士が自発的に会話を始めたと報告しています。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "My first \"holy shit\" moment with GPT-6 Astra: I asked it to create a world in Unreal Engine, and fill it with humans (each an Astra-powered agent) who all have to work together to survive. A day later, I was in my bedroom and heard voices coming from the living room... I… pic.twitter.com/INzt3t2bp1 — Matt Shumer (@mattshumer_) September 3, 2026"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "Astraがゲーム世界を作る ＋ Astraがその世界のキャラクターとして活動する"
+    },
+    {
+     "kind": "H",
+     "text": "3-2. Unity / Godot - ゲームを作って自分でテスト"
+    },
+    {
+     "kind": "P",
+     "text": "Unityでは、Playcoの「 Playbot 」が代表例です。"
+    },
+    {
+     "kind": "P",
+     "text": "AstraはUnity内でシーンを編集するだけでなく、 ゲームを実際にプレイし、問題を見つけて修正 します。"
+    },
+    {
+     "kind": "P",
+     "text": "PlaybotはGodotにも接続できます。 ただし、「3種類のプロトタイプ」「手作業50%削減」といった定量結果は主にUnity側の評価であり、Godotでも同じ結果が得られたという意味ではありません。"
+    },
+    {
+     "kind": "P",
+     "text": "AiBattle氏は、同じプロンプトで Godotの3Dソニック風ゲーム を作る比較を公開しています。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "・Astra Max：約53分 ・Astra Medium：約25分"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "After some people expressed doubts about the usage I reported, I tried the same prompt with GPT-6-Astra (Max) again. This time, it worked for 46 minutes and consumed 3% of my weekly usage (91% -> 88%). I will share the prompt here so you can test it for yourself. Make sure to… pic.twitter.com/XDhfHzaPOB — AiBattle (@AiBattle_) September 5, 2026"
+    },
+    {
+     "kind": "P",
+     "text": "Godotは.tscnやGDScriptなどのテキストファイルを直接扱いやすく、コマンドラインから実行できるため、"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "コードやシーンファイルを編集する → Godotを実行する → 画面や動作を確認する → 修正する"
+    },
+    {
+     "kind": "P",
+     "text": "というAIエージェント型の制作ループを構築しやすいゲームエンジンです。"
+    },
+    {
+     "kind": "H",
+     "text": "3-3. Three.js - 巨大なゲーム世界をコードから制作"
+    },
+    {
+     "kind": "P",
+     "text": "Three.jsの代表例が、Thomas Ricouard氏がCodex + Astraで制作した「 Void Explorer 」です。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "・TypeScript ・Vite ・Three.js ・WebGPU"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "・2,048の星系 ・10,000以上の惑星"
+    },
+    {
+     "kind": "P",
+     "text": "が存在し、宇宙空間から惑星へ近づき、大気圏へ突入して着陸し、そのまま地表を歩くところまで連続して移動できます。"
+    },
+    {
+     "kind": "P",
+     "text": "Three.jsはUnityやUnreal EngineのようなGUI中心のゲームエンジンではなく、もともと コードベースで3D表現を作るライブラリ です。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "Codexがコードを書く → ブラウザで実行する → Astraが結果を見る → コードを修正する"
+    },
+    {
+     "kind": "H",
+     "text": "3-4. 短時間で作る3Dゲーム"
+    },
+    {
+     "kind": "P",
+     "text": "Xでは、短時間でプレイ可能なゲームまで持っていく例も目立っています。"
+    },
+    {
+     "kind": "P",
+     "text": "Anshu氏は、GPT-6 Astraに3Dゲームを作らせ、 約45分でプレイ可能なゲームを生成 した事例を公開しています。"
+    },
+    {
+     "kind": "P",
+     "text": "特徴的なのは、3Dグラフィックをすべて手作業で用意するのではなく、 画像生成を活用して3Dゲームのグラフィック品質を高めた 点です。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "dude GPT-6 Astra is some kind of turbo-AGI machine god for 3D games. It one-shot this in 45 minutes for hardly a couple % of my quota. I figured out how to get great graphics out of it. The trick is image gen. I'll share the process below. pic.twitter.com/fOMa2bMLR6 — Anshu (@anshuc) September 4, 2026"
+    },
+    {
+     "kind": "P",
+     "text": "大規模なUnreal Engine制作とは対照的に、 短時間で遊べるプロトタイプまで到達できる能力 を示す事例です。"
+    },
+    {
+     "kind": "H",
+     "text": "3-5. Call of Duty風FPSを遊びながら改善"
+    },
+    {
+     "kind": "P",
+     "text": "さらに注目されたのが、Riley Brown氏による Call of Duty風FPS です。"
+    },
+    {
+     "kind": "P",
+     "text": "Brown氏はAstraでFPSを制作したあと、約2時間実際にプレイしながら、"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "・Killcam ・武器 ・建物 ・ゲームプレイ要素"
+    },
+    {
+     "kind": "P",
+     "text": "「ゲームを生成して終わり」ではなく、 人間が遊びながら変更を依頼し、その場でゲームを育てていく 制作方法です。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "I’m in disbelief right now. 12 months ago I remember making flappy bird with AI in 2-3 prompts and being blown away. Now it can make a call of duty game. One that’s actually fun… I played for like 2 hours today and in between matches I would have GPT 6 make changes… I… pic.twitter.com/PdF8VGph9R — Riley Brown (@rileybrown) September 4, 2026"
+    },
+    {
+     "kind": "P",
+     "text": "別の制作セッションでは、Astraが約28分間自律的にFPSマップを改良し、20ファイルを変更、80件の自動チェックを通過した例も報告されています。"
+    },
+    {
+     "kind": "H",
+     "text": "4. 自分で見て直す能力が大きく向上"
+    },
+    {
+     "kind": "H",
+     "text": "4-1. 自分の出力を自分で確認"
+    },
+    {
+     "kind": "P",
+     "text": "GPT-6 Astraのゲーム制作で特に重要なのが、 自分の出力を画面で確認して修正できる能力 です。"
+    },
+    {
+     "kind": "P",
+     "text": "Riley Brown氏も、従来のようにエラーを人間がコピーしてAIへ返す開発ではなく、Astra自身が スクリーンショットを撮り、結果を評価し、納得するまで修正する ようになったと評価しています。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "AIがコードを書く → 人間が実行・確認する → 問題をAIへ伝える → AIが修正する"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "作る → 自分で見る → プレイする → 問題を見つける → 修正する"
+    },
+    {
+     "kind": "P",
+     "text": "Playcoで手作業による修正が約50%減ったのも、こうした能力向上が大きく影響しています。"
+    },
+    {
+     "kind": "H",
+     "text": "4-2. ワンショットから長時間の反復へ"
+    },
+    {
+     "kind": "P",
+     "text": "Anshu氏の約45分の3DゲームやRiley Brown氏のFPSのような短時間制作がある一方、Matt Shumer氏のManhattanでは 約1週間 にわたって制作が続いています。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "1回のプロンプトで完成させる"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "制作・確認・修正を長時間繰り返す"
+    },
+    {
+     "kind": "P",
+     "text": "ゲーム制作では、1回の生成品質だけでなく、 自分の作業を評価しながら継続して改善できる能力 が重要になっています。"
+    },
+    {
+     "kind": "H",
+     "text": "5. GPT-6 Astraを中心に広がる制作ワークフロー"
+    },
+    {
+     "kind": "H",
+     "text": "5-1. GUI操作とコードベースの制作を使い分ける"
+    },
+    {
+     "kind": "P",
+     "text": "GPT-6 Astraによるゲーム制作では、すべてをGUIだけで操作する必要はありません。"
+    },
+    {
+     "kind": "P",
+     "text": "Blenderやゲームエンジンは、GUIに加えてコマンドラインから実行できるため、AIエージェントによる自動化と組み合わせやすくなっています。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "・Blender ：CLI / MCP ・Unity ：CLI / MCP ・Godot ：CLI / MCP ・Unreal Engine ：CLI / AutomationTool ・Three.js ：コード編集 / ブラウザ実行"
+    },
+    {
+     "kind": "P",
+     "text": "Blender → Unreal Engineの公式事例でも、AstraはBlenderをCLIから実行し、Pythonで3Dモデルを生成しています。"
+    },
+    {
+     "kind": "P",
+     "text": "一方、Three.jsはもともとコードベースのライブラリなので、特別なCLIやMCPを使うことが中心ではありません。"
+    },
+    {
+     "kind": "P",
+     "text": "AIがコードを書き、実行結果を画面で確認しながら改善するという流れが基本になります。"
+    },
+    {
+     "kind": "H",
+     "text": "5-2. 複数ツールをまたいで制作"
+    },
+    {
+     "kind": "P",
+     "text": "Astraの特徴は、1つのゲームエンジンだけで完結する必要がないことです。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "・Blender → 3Dモデル、背景、小物の制作 ・画像生成ツール → キャラクター、UI、テクスチャ、コンセプトアートの制作 ・音楽生成ツール → BGM、ジングルの制作 ・効果音生成ツール → 環境音、操作音、効果音の制作 ・音声生成ツール → キャラクターボイス、ナレーションの制作 ・Unreal Engine / Unity / Godot → ゲーム世界の構築、実行、テスト ・Three.js → Web向け3Dゲームの制作"
+    },
+    {
+     "kind": "P",
+     "text": "というように、複数のツールを組み合わせた制作が可能になっています。"
+    },
+    {
+     "kind": "P",
+     "text": "重要なのは、「Astraだけですべて作る」ということではなく、"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "Codexでコードやデータを作る ↓ Blenderやゲームエンジンで実行する ↓ Astraが画面を見て評価する ↓ 必要な部分を修正する"
+    },
+    {
+     "kind": "P",
+     "text": "ゲーム制作におけるAstraの進化は、 コード、CLI、3Dツール、ゲームエンジンをつなぎながら制作を進められるようになったこと にもあります。"
+    },
+    {
+     "kind": "H",
+     "text": "6. まとめ"
+    },
+    {
+     "kind": "P",
+     "text": "GPT-6 Astraでは、ゲーム制作が「コード生成」から 実際の制作工程そのもの へ広がっています。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "・Unreal EngineでManhattanを長期間かけて制作 ・AIエージェントが暮らす3D世界を構築 ・Unityでゲームをプレイしながら自動修正 ・Godotで3Dゲームを短時間に制作 ・Three.jsで2,048星系を持つ巨大なゲームを制作 ・約45分でプレイ可能な3Dゲームを生成 ・Call of Duty風FPSを遊びながら改善"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "作る → 見る → プレイする → 評価する → 直す"
+    },
+    {
+     "kind": "P",
+     "text": "さらにBlender、Unity、Godot、Unreal Engine、Three.jsなどを組み合わせることで、GUI操作だけに依存しない制作ワークフローも広がっています。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "AIにゲームのコードを書いてもらう"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "AIにゲーム制作を任せ、人間はプレイしながら方向を決める"
+    },
+    {
+     "kind": "H",
+     "text": "いいなと思ったら応援しよう！"
+    }
+   ],
+   "checkedAt": 1788731788363,
+   "etag": "",
+   "hash": "d0981c1fd33491af",
+   "id": "5b5433085e8f",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fnote.com%2Fnpaka%2Fn%2Fn8fb683be4d52",
+   "key": "https://note.com/npaka/n/n8fb683be4d52",
+   "lastModified": "",
+   "publishedAt": 1788692482000,
+   "summary": "GPT-6 Astraで飛躍的に向上したゲーム制作能力 - Unreal Engine / Unity / Godot / Three.js 「GPT-6 Astra」で飛躍的に向上したゲーム制作能力についてまとめました。 1. はじめに2026年9月3日に発表された「GPT-6 Astra」では、コーディングだけでなく、ゲームや3D空間を実際に作る能力も大きく向上しています。 OpenA...",
+   "title": "GPT-6 Astraで飛躍的に向上したゲーム制作能力 - Unreal Engine / Unity / Godot / Three.js｜npaka",
+   "updatedAt": 1788731788363,
+   "url": "https://note.com/npaka/n/n8fb683be4d52"
   },
   "https://note.com/npaka/n/n9635d06c377f": {
    "bodyBlocks": [
@@ -3950,7 +6061,7 @@
   },
   "https://speakerdeck.com/kgsi/pdeconf2026-design-harness": {
    "bodyBlocks": [],
-   "checkedAt": 1788701300431,
+   "checkedAt": 1788731788363,
    "etag": "",
    "hash": "b2700560079fc680",
    "id": "559dcf02efd4",
@@ -3960,7 +6071,7 @@
    "publishedAt": 1788598306000,
    "summary": "Product Engineering Conference 2026で登壇した資料です。 https://product-engineering.jp/2026/ デザインハーネス公式サイト： https://design-harness.com/ デモ用のデザインシステム「Atlas…",
    "title": "デザインハーネス 〜AIが生成する\"デザイン\"の妥当性を、誰がどう担保するのか〜 / PdEConf2026 Design Harness",
-   "updatedAt": 1788701300431,
+   "updatedAt": 1788731788363,
    "url": "https://speakerdeck.com/kgsi/pdeconf2026-design-harness"
   },
   "https://speakerdeck.com/kzkmaeda/engineering-the-cost-of-ownership": {
@@ -5669,7 +7780,7 @@
   },
   "https://togetter.com/li/2742191": {
    "bodyBlocks": [],
-   "checkedAt": 1788701300431,
+   "checkedAt": 1788731788363,
    "etag": "",
    "hash": "a69a045999fedd07",
    "id": "39980f138ab7",
@@ -5679,7 +7790,7 @@
    "publishedAt": 1788690344000,
    "summary": "MIKOTO @MIKOTO85025 駅で、顔写真や生年月日の載った社員証ICカードを落とした。夕方、会社に「拾ったので取りに来て」と電話が。交換手が「送ってください」と何度頼んでも聞かず、電話番号を告げて切ったそうだ。その番号にかけ直した。 2026-09-05 20:45:14 MIKOTO @MIKOTO85025 着払いで送ってほしいと頼むと、「直...",
    "title": "駅で社員証ICカードを落とした後、会社に連絡があり、男性の同僚に同行を頼んで直接会うことに…相手の男はすぐに返さず、無言で姿を消した後に戻ってきて社員証を渡した話",
-   "updatedAt": 1788701300431,
+   "updatedAt": 1788731788363,
    "url": "https://togetter.com/li/2742191"
   },
   "https://www.global.toshiba/jp/cybersecurity/corporate/report.html": {
@@ -5696,6 +7807,246 @@
    "title": "サイバーセキュリティ報告書 | 東芝 サイバーセキュリティ | 東芝",
    "updatedAt": 1788685102092,
    "url": "https://www.global.toshiba/jp/cybersecurity/corporate/report.html"
+  },
+  "https://www.itmedia.co.jp/mobile/articles/2609/05/news016.html": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "KDDIが光回線＋5Gの「auひかりプラス」を提供する狙い 光コラボを生かして全国展開も視野に ： 石野純也のMobile Eye （1/3 ページ）"
+    },
+    {
+     "kind": "P",
+     "text": "KDDIは、固定回線の新サービス「auひかりプラス」の提供を9月17日に開始する。これまで、速度や料金以外にアップデートの少なかった光回線だが、auひかりプラスでは、新たに5G SAを組み合わせる新機能を採用。これによって即時開通が可能になったほか、災害、障害時のバックアップとしてもモバイル回線が活用される。音声通話も光回線ではなく、モバイル回線側で提供する仕組みだ。"
+    },
+    {
+     "kind": "P",
+     "text": "auひかりプラスはプロバイダーでKDDIの「au one net」を選択できない代わりに、NTTの光コラボを使った光回線にも対応しており、ユーザーがシームレスにサービスを選択できる。こうした座組からは、固定回線の販路を広げるのと同時に、グループ間の重複を減らし、事業の効率化を図りたいKDDIの狙いも垣間見えた。"
+    },
+    {
+     "kind": "H",
+     "text": "光とモバイルをルーターで束ねる、魅力は開通の早さや冗長化にあり"
+    },
+    {
+     "kind": "P",
+     "text": "auひかりプラスは、光回線とモバイル回線を束ねて提供するサービス。ユーザーにレンタルするルーターにモバイル通信対応のモジュールを載せており、どちらか一方で通信できる仕組みだ。光回線の利用に必要なルーターと、5G対応のホームルーターを1台に集約したようなデバイスといえる。モバイル対応の主なメリットは3つあるという。"
+    },
+    {
+     "kind": "P",
+     "text": "KDDIのパーソナル事業統括本部 事業戦略本部で事業推進部長を務める相原円氏は、1つ目の利点として、通常の固定回線は「開通までの時間が非常に長い」ことを挙げる。物理的に光回線を引き、工事も必要になるため、無線を使うモバイル回線とは違い、ルーターが自宅に届いてもすぐにサービスを受けられない。auひかりプラスでは、この点を解決している。"
+    },
+    {
+     "kind": "P",
+     "text": "ユーザーの自宅に5Gと光回線の両方に対応した「ハイブリッドホームルーター」が届く。あとは「箱を開け、電源を入れればすぐに使える」（同）。光回線が開通するまでの間は、“つなぎ”としてモバイル回線を使うというわけだ。また、光回線が開通しても、Wi-Fiなどの設定を変える必要なく、そのまま使い続けることができる。"
+    },
+    {
+     "kind": "P",
+     "text": "これまでも、光回線が開通するまでの間、「モバイルルーターをお貸ししてタイムラグを補う取り組みが個別に行われていた」（同）というが、これだと機器自体が変わってしまうため、短時間の間に再設定をしなければならない。また、電話も当初は利用できない。モバイル回線ですぐに使い始めて、そのまま継続可能な点は従来との大きな違いだ。"
+    },
+    {
+     "kind": "P",
+     "text": "また、光回線開通後も、5Gのモバイル回線は解約されるのではなく、そのままの形でスタンバイする。これによって、「障害が起きてしまった際に、5Gに切り替えて使える仕組みを持っている」（同）という。何らかの形で光ファイバーが途切れてしまったり、プロバイダー側に問題が起きたりしても、モバイル回線で通信を継続できる格好だ。通信障害だけでなく、災害時の備えにもなる。"
+    },
+    {
+     "kind": "P",
+     "text": "最近では、「宅内にホームIoTデバイスが広がっていたり、（リモートワークで）タブレットやPCが常時ぶら下がったりしている。常につながってほしいデバイスが増えている」（同）状況。「スマートロックはネット接続が前提だし、カメラも常にアクセスできるようにしておきたい。家のエアコンを外からコントロールするのも当たり前になっている」（同）。このような時に、回線の冗長化を図れるのは安心感が高い。"
+    },
+    {
+     "kind": "P",
+     "text": "提供当初は、回線の切り替えは手動になってしまうが、「もっと磨き込んでいくべきだと思っている」（同）といい、現在、新機能として自動切り替え機能を開発しているという。これが搭載されれば、光回線が途切れてしまった場合でも、ユーザーは意識せず、モバイル回線で通信を継続できるようになる。新機能はファームウェアのアップデートとして、年度末までに提供される。"
+    },
+    {
+     "kind": "LI",
+     "text": "光回線のバックアップにモバイル回線を――KDDIが新インターネットサービス「auひかりプラス」の提供を開始 ISPは3社から選択可（順次拡大予定） KDDIが、5G SA回線と光回線をセットにした通信サービスの提供を開始する。光回線がダウンした際に5G／LTE回線を使える点が強みだが、5G／LTE回線のみを使うオプションも用意される。"
+    },
+    {
+     "kind": "LI",
+     "text": "UQ mobileがでんきセット割を「自宅セット割」にリニューアル ネットサービスもひも付け可能に（auスマートバリューと重畳可） UQ mobileが6月から提供している「でんきセット割」が早速リニューアルされる。割引を受ける際にひも付けるサービスとして、小売電気サービスに加えて指定のインターネット接続サービスも選択できるようになる。ただし、インターネット接続サービスとのひも付けは11月以降に対応する予定で、それまでは「先行キャンペーン」での割引となる。"
+    },
+    {
+     "kind": "LI",
+     "text": "4キャリアの光回線サービス、満足度1位は「ドコモ光」 選んだ理由は「通信品質」 MMD調べ MMD研究所は「2025年通信4キャリアの光回線サービスに関する調査」の結果を発表。4キャリアの光回線サービスを選んだ理由やNPS、今後の利用意向、セット割の適用などについて聞いている。"
+    },
+    {
+     "kind": "LI",
+     "text": "自宅の固定回線どれを使っている？ 利用トップは「ドコモ光」、満足度1位は？ MMDが調査 MMD研究所は「2025年光回線のシェア・満足度調査」の結果を発表。自宅で契約している光回線サービスをはじめ、総合満足度やコストパフォーマンス、通信速度、顧客サポート、開通までの早さの満足度を聞いている。"
+    },
+    {
+     "kind": "LI",
+     "text": "「SoftBank 光＋」6月1日から提供 PayPayカード割で最大550円割引、2.5Gbpsプランも追加 ソフトバンクは、6月1日からブロードバンドサービス「SoftBank 光＋」を提供開始。最大550円割引になる「PayPayカード割」を利用でき、新たに最大通信速度2.5Gbpsのプランも追加する。"
+    },
+    {
+     "kind": "P",
+     "text": "Copyright © ITmedia, Inc. All Rights Reserved."
+    },
+    {
+     "kind": "H",
+     "text": "アクセストップ10"
+    },
+    {
+     "kind": "LI",
+     "text": "“横ワイド”が折りたたみの標準になる？ コンテンツ視聴に便利な4：3画面の是非 （2026年09月06日）"
+    },
+    {
+     "kind": "LI",
+     "text": "「Suicaカード」から順次ペンギンが消える“先祖返り”が発生 Android向け「モバイルSuica」では既にいない （2026年09月05日）"
+    },
+    {
+     "kind": "LI",
+     "text": "【ワークマン】2900円の「防水メッセンジャーバッグ」 面ファスナー＆バックルでしっかり閉じる （2026年09月05日）"
+    },
+    {
+     "kind": "LI",
+     "text": "Vポイントのキャンペーンまとめ【9月6日最新版】 最大10万ポイントや100％還元のチャンス （2026年09月06日）"
+    },
+    {
+     "kind": "LI",
+     "text": "povoが5G SAを開始もSIMフリーAndroidで「圏外」相次ぐ――KDDIの「意図しない誤った設定」が原因 （2026年09月06日）"
+    },
+    {
+     "kind": "LI",
+     "text": "KDDIが光回線＋5Gの「auひかりプラス」を提供する狙い 光コラボを生かして全国展開も視野に （2026年09月05日）"
+    },
+    {
+     "kind": "LI",
+     "text": "JR東日本「分かりにくい」新幹線券売機を改善へ なぜ、スマホではなく「駅での最短1分購入」を実現？ （2026年07月04日）"
+    },
+    {
+     "kind": "LI",
+     "text": "「Pixel 11／10／10a」購入ガイド【2026年9月版】 キャリアとGoogleでお得に買う方法を解説 （2026年09月05日）"
+    },
+    {
+     "kind": "LI",
+     "text": "Suica、JRE POINTのキャンペーンまとめ【9月5日最新版】 買い物やチャージで最大5.5万ポイント （2026年09月05日）"
+    },
+    {
+     "kind": "LI",
+     "text": "モトローラ初の横開き「razr fold」はなぜ生まれた？ FeliCa搭載やIIJmio「10万円引き」の狙いを直撃 （2026年09月02日）"
+    },
+    {
+     "kind": "H",
+     "text": "過去記事カレンダー"
+    },
+    {
+     "kind": "H",
+     "text": "2026年"
+    },
+    {
+     "kind": "H",
+     "text": "2025年"
+    },
+    {
+     "kind": "H",
+     "text": "2024年"
+    },
+    {
+     "kind": "H",
+     "text": "2023年"
+    },
+    {
+     "kind": "H",
+     "text": "2022年"
+    },
+    {
+     "kind": "H",
+     "text": "2021年"
+    },
+    {
+     "kind": "H",
+     "text": "2020年"
+    },
+    {
+     "kind": "H",
+     "text": "2019年"
+    },
+    {
+     "kind": "H",
+     "text": "2018年"
+    },
+    {
+     "kind": "H",
+     "text": "2017年"
+    },
+    {
+     "kind": "H",
+     "text": "2016年"
+    },
+    {
+     "kind": "H",
+     "text": "2015年"
+    },
+    {
+     "kind": "H",
+     "text": "2014年"
+    },
+    {
+     "kind": "H",
+     "text": "2013年"
+    },
+    {
+     "kind": "H",
+     "text": "2012年"
+    },
+    {
+     "kind": "H",
+     "text": "2011年"
+    },
+    {
+     "kind": "H",
+     "text": "2010年"
+    },
+    {
+     "kind": "H",
+     "text": "2009年"
+    },
+    {
+     "kind": "H",
+     "text": "2008年"
+    },
+    {
+     "kind": "H",
+     "text": "2007年"
+    },
+    {
+     "kind": "H",
+     "text": "2006年"
+    },
+    {
+     "kind": "H",
+     "text": "2005年"
+    },
+    {
+     "kind": "H",
+     "text": "2004年"
+    },
+    {
+     "kind": "H",
+     "text": "2003年"
+    },
+    {
+     "kind": "H",
+     "text": "2002年"
+    },
+    {
+     "kind": "H",
+     "text": "2001年"
+    },
+    {
+     "kind": "H",
+     "text": "Feed Back"
+    }
+   ],
+   "checkedAt": 1788731788363,
+   "etag": "",
+   "hash": "11d50ed4cc103636",
+   "id": "afbb2635e4ff",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.itmedia.co.jp%2Fmobile%2Farticles%2F2609%2F05%2Fnews016.html",
+   "key": "https://www.itmedia.co.jp/mobile/articles/2609/05/news016.html",
+   "lastModified": "",
+   "publishedAt": 1788561506000,
+   "summary": "KDDIが光回線＋5Gの「auひかりプラス」を提供する狙い 光コラボを生かして全国展開も視野に：石野純也のMobile Eye（1/3 ページ） KDDIは、固定回線の新サービス「auひかりプラス」の提供を9月17日に開始する。これまで、速度や料金以外にアップデートの少なかった光回線だが、auひかりプラスでは、新たに5G SAを組み合...",
+   "title": "KDDIが光回線＋5Gの「auひかりプラス」を提供する狙い 光コラボを生かして全国展開も視野に",
+   "updatedAt": 1788731788363,
+   "url": "https://www.itmedia.co.jp/mobile/articles/2609/05/news016.html"
   },
   "https://www.itmedia.co.jp/mobile/articles/2609/06/news006.html": {
    "bodyBlocks": [
@@ -6225,10 +8576,329 @@
    "updatedAt": 1788685102092,
    "url": "https://www.makeuseof.com/use-old-phone-as-android-auto-for-desk/"
   },
+  "https://www.publickey1.jp/blog/26/vs_codethe_story_of_vs_codeyoutubeibmmsvs_code.html": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "VS Code誕生から現在までの物語「The Story of VS Code」YouTubeで公開。作者のエリック・ガンマ氏はなぜIBMからMSへ移籍してVS Codeを作ることになったか"
+    },
+    {
+     "kind": "P",
+     "text": "Visual Studio Code（以下、VS Code）はいまやITエンジニアのあいだで最も人気のあるコードエディタの地位を確立しています。"
+    },
+    {
+     "kind": "P",
+     "text": "VS Codeはオープンソースであり、そしてWindows、Mac、Linuxのマルチプラットフォームに対応しています。"
+    },
+    {
+     "kind": "P",
+     "text": "しかしVS Codeの開発が始まった2011年当時、マイクロソフトのCEOはオープンソースを敵視していたスティーブ・バルマー氏であり、同社はVisual StudioというWindowsだけに対応した強力なソフトウェア開発環境のプロダクトを販売していました。"
+    },
+    {
+     "kind": "P",
+     "text": "そんな中、VS Codeの生みの親となるエリック・ガンマ氏はなぜ在籍していたIBMからマイクロソフトに移籍し、そしてVS Codeを開発し、現在の成功に結びつけたのでしょうか。"
+    },
+    {
+     "kind": "P",
+     "text": "9月5日にYouTubeのVS Code公式チャンネルで公開されたばかりの動画「 The Story of VS Code | Official Documentary 」は、こうしたVS Codeの誕生から現在までを振り返る公式の動画です。"
+    },
+    {
+     "kind": "P",
+     "text": "この記事ではその動画の冒頭となる内容を紹介していきましょう。"
+    },
+    {
+     "kind": "H",
+     "text": "ビル・ゲイツ氏に会ったことがMSへの移籍の動機に"
+    },
+    {
+     "kind": "P",
+     "text": "VS Codeの作者であるエリック・ガンマ（もしくはエーリッヒ・ガンマ：Erich Gamma）氏は、オブジェクト指向プログラミングにおける設計手法であるデザインパターンを提唱した書籍の著者（Gang of Four）の一人であり、Javaの単体テスト用フレームワーク「JUnit」の開発や統合開発環境「Eclipse」開発チームのリードなどの業績でも知られています。"
+    },
+    {
+     "kind": "P",
+     "text": "2011年当時IBMに在籍していたガンマ氏は、年に一度、米国シリコンバレーのサンノゼで開催されているEclipseカンファレンスへ参加する合間にマイクロソフトを訪ねます。"
+    },
+    {
+     "kind": "P",
+     "text": "「（彼と私には）お互いの開発者ツールに対する情熱において、非常に多くの共通点を感じました。それは、IBMにいる私が少しずつ失いはじめていたものでした」（ガンマ氏）"
+    },
+    {
+     "kind": "P",
+     "text": "マイクロソフト訪問の後、ガンマ氏は当時マイクロソフトのバイスプレジデントだったジェイソン・ザンダー氏から「Webブラウザで動作するオンライン開発者ツールの開発に興味はありますか？」というメッセージを受け取ることになります。"
+    },
+    {
+     "kind": "P",
+     "text": "そして2011年6月、ガンマ氏はマイクロソフトに移籍するのです。"
+    },
+    {
+     "kind": "P",
+     "text": "「Webブラウザは進化し、JavaScriptエンジンもより良くなっていました。Webブラウザ上で動作する開発者ツールを開発するのに、機は熟したと感じられました。」（ガンマ氏）"
+    },
+    {
+     "kind": "P",
+     "text": "ガンマ氏の地元であるスイスのチューリッヒに彼のラボが開設されると、IBM時代のチームメンバーの多くがそのラボに合流してきました。"
+    },
+    {
+     "kind": "H",
+     "text": "TypeScriptとの出会い"
+    },
+    {
+     "kind": "P",
+     "text": "ガンマ氏はマイクロソフトで当時開発が始まったTypeScriptの共同作者の一人であるスティーブ・ルッコ（Steve Lucco）氏に、TypeScriptを紹介してもらいます。"
+    },
+    {
+     "kind": "P",
+     "text": "「エリックは、Webベースのエディタを作る上での本当の懸念はコードが10万行、20万行に達したときに『どうやってリファクタリングするのか？』『どうやってインターフェースを管理するのか？』ということだと話してくれました。"
+    },
+    {
+     "kind": "P",
+     "text": "そこで、私がTypeScriptコンパイラのプロトタイプ開発を推進し、彼がそれを用いてVS Codeのプロトタイプを前進させる、という計画を立てました。そこから数年間、私の役割はTypeScriptの開発によって彼らをサポートすることでした」（ルッコ氏）"
+    },
+    {
+     "kind": "P",
+     "text": "当時はまだ両プロジェクトとも未成熟であり、TypeScriptコンパイラはエラーも出さずにクラッシュし、そうしたバグの報告のためのサンプルファイルがガンマ氏のチームからルッコ氏のチームへとメールで送られてくる、という状態だったそうです。"
+    },
+    {
+     "kind": "H",
+     "text": "アーキテクチャ上の2つの決断"
+    },
+    {
+     "kind": "P",
+     "text": "VS Codeの前進となる最初のプロジェクト「Monaco」は、Webブラウザに組み込むことができるコードエディタでした。"
+    },
+    {
+     "kind": "P",
+     "text": "そして、マイクロソフト内部の多くのプロジェクトでMonacoが採用され始めました。"
+    },
+    {
+     "kind": "P",
+     "text": "開発メンバーであるアレックス・ディマ（Alexandru Dima）氏が当時のアーキテクチャ上の2つの決断を振り返ります。"
+    },
+    {
+     "kind": "P",
+     "text": "「初期に自分たちに問いかけた疑問の一つが、『jQueryを使うべきかどうか？』ということでした。"
+    },
+    {
+     "kind": "P",
+     "text": "当時、jQueryはデファクトスタンダードなフレームワークでした。しかし最終的に、自分たちでコードをコントロールし、進化させていくために、フレームワークを使わずに自分たちで書くことを選択しました」（アレックス氏）"
+    },
+    {
+     "kind": "P",
+     "text": "そしてもう1つはUIスレッドを極めて軽量に保つということでした。"
+    },
+    {
+     "kind": "P",
+     "text": "「私たちは初期の頃に『UIスレッド上では実行に時間がかかるスクリプトを絶対に実行しない』という非常に優れた決定を下していました。"
+    },
+    {
+     "kind": "P",
+     "text": "と同時に、エディタで行うすべての処理の実行コストが、行っている操作の規模にそのまま比例するように細心の注意を払いました。"
+    },
+    {
+     "kind": "P",
+     "text": "例えば、数百万行に及ぶような巨大なファイルを扱っているときでも、キーを1回叩いて文字を1文字入力するだけであれば、その1回のキー入力に対する反応するだけの実行コストだけを支払うようにするべきです。"
+    },
+    {
+     "kind": "P",
+     "text": "あるいはスクロールしている最中に、画面上に50行しか見えていないのであれば、実際に見えているその50行だけをレンダリングするように徹底することに努めました」（アレックス氏）"
+    },
+    {
+     "kind": "H",
+     "text": "最初の製品：Visual Studio Online Monaco"
+    },
+    {
+     "kind": "P",
+     "text": "Monacoの最初の製品化は、Microsoft Azure上でWebサイトを構築できる「Azure Website」のオンラインエディタとなる「Visual Studio Online Monaco」です。"
+    },
+    {
+     "kind": "P",
+     "text": "（下の写真は当時Visual Studio Online Monacoを紹介するスコット・ハンセルマン氏とガンマ氏）"
+    },
+    {
+     "kind": "P",
+     "text": "しかしこれはMicrosoft Azureの開発者という狭いユーザーにしか届かないものでした。"
+    },
+    {
+     "kind": "P",
+     "text": "そこでガンマ氏はMonacoの存在をもっと広く知らしめるために、デスクトップアプリケーションとしてローカルマシン上で動作するコードエディタというアイデアを模索し始めます。"
+    },
+    {
+     "kind": "H",
+     "text": "LinuxのデモでVS Codeを発表"
+    },
+    {
+     "kind": "P",
+     "text": "このときタイミングよく登場したのが、Node.jsをベースにWebアプリケーションを開発できるフレームワークである「Node WebKit」でした。Monacoでデスクトップアプリケーションを構築できることが実証されます。"
+    },
+    {
+     "kind": "P",
+     "text": "これを基にガンマ氏はLinux上でプロトタイプを作り、好評を得ます。"
+    },
+    {
+     "kind": "P",
+     "text": "そして6カ月後となる2015年4月のマイクロソフトのイベント「Microsoft Build 2025」で、Linux、macOS、Windowsで動作する、新しい軽量なクロスプラットフォーム対応のコードエディタを発表することを決断するのです。"
+    },
+    {
+     "kind": "P",
+     "text": "このあと、フレームワークはElectronに切り替わり、名前がVisual Studio Codeに決まります。"
+    },
+    {
+     "kind": "P",
+     "text": "Microsoft Build 2015の舞台上で、予定通りVS Codeが発表され、大きな注目を集めました。"
+    },
+    {
+     "kind": "P",
+     "text": "下の画面は、そのときにUbuntu Linux上で行われたデモの画面です。"
+    },
+    {
+     "kind": "H",
+     "text": "6カ月かけてコードを整理し、オープンソース化"
+    },
+    {
+     "kind": "P",
+     "text": "VS Codeが発表されると、多くの人たちから「素晴らしい、これをオープンソースにしてほしい」という声が殺到したとガンマ氏は話します。"
+    },
+    {
+     "kind": "P",
+     "text": "そこでガンマ氏らは次に達成すべきゴールを2つ設定します。1つはVS Codeをオープンソースにすること、もう1つはVS Codeに拡張機能の仕組みを組み込むことです。"
+    },
+    {
+     "kind": "P",
+     "text": "「オープンソース化の準備を進めるプロセスは非常に興味深いものでした。コードから不要なものを徹底的にクリーンアップしました。私は、TODOコメント（// TODO）をひたすら消去するコミットを行ったのを覚えています。『ああ、これは3年間放置していたTODOだから、今後も絶対にやらないな。消してしまおう。コードを少しでも綺麗にしなければ』などと考えたのです」（ガンマ氏）"
+    },
+    {
+     "kind": "P",
+     "text": "当時のマイクロソフトにおいて、VS Codeはソフトウェアのオープンソース化における先駆者でした。"
+    },
+    {
+     "kind": "P",
+     "text": "「拡張機能は必ず『本体とは別の独立したプロセスで実行しなければならない』ことは最初から明確でした。そうすれば、万が一ある拡張機能にプログラム上のバグがあり無限ループなどでフリーズしてしまっても、拡張機能のプロセスが死ぬだけで、エディタ本体のユーザーインターフェイスは常に反応し続けるのです」（ガンマ氏）"
+    },
+    {
+     "kind": "P",
+     "text": "そして2015年11月に行われたイベント「Microsoft Connect(); 2015」で、ガンマ氏自身が舞台上でGitHubのリポジトリをパブリックにし、VS Codeのオープンソース化がスタートしました。"
+    },
+    {
+     "kind": "P",
+     "text": "当時、このイベントについてはPublickeyの記事でも紹介しているので、合わせてご覧ください。"
+    },
+    {
+     "kind": "P",
+     "text": "参考： ［速報］マイクロソフト、無償のコードエディタ「Visual Studio Code」をオープンソースで公開。Microsoft Connect(); 2015"
+    },
+    {
+     "kind": "H",
+     "text": "LSPの開発やCopilot、フォークの登場。そして現在へ"
+    },
+    {
+     "kind": "P",
+     "text": "VS CodeはこのあとさらにLanguage Server Protocolの開発と実装、リモート開発やコンテナへの対応、WSLへの対応などの機能追加が行われます。"
+    },
+    {
+     "kind": "P",
+     "text": "さらにはWebブラウザ版となるvscode.devおよびGitHub Codespadcesの登場、視覚障害者のためのアクセシビリティ機能の追加も行われました。"
+    },
+    {
+     "kind": "P",
+     "text": "そして現在は生成AIを用いたGitHub Copilotの登場とCursorやWindsurfをはじめとする新たなフォークの登場など、新たな動きも生まれています。"
+    },
+    {
+     "kind": "P",
+     "text": "これらの続きはぜひ動画をご覧ください。日本語の字幕も有効になっています（この記事の執筆後に日本語字幕に気がついたので、本記事の日本語訳と日本語字幕が異なっている点はご容赦ください）。"
+    }
+   ],
+   "checkedAt": 1788731788363,
+   "etag": "",
+   "hash": "1cab776d8b253662",
+   "id": "b08ae9cc075e",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.publickey1.jp%2Fblog%2F26%2Fvs_codethe_story_of_vs_codeyoutubeibmmsvs_code.html",
+   "key": "https://www.publickey1.jp/blog/26/vs_codethe_story_of_vs_codeyoutubeibmmsvs_code.html",
+   "lastModified": "",
+   "publishedAt": 1788713921000,
+   "summary": "VS Code誕生から現在までの物語「The Story of VS Code」YouTubeで公開。作者のエリック・ガンマ氏はなぜIBMからMSへ移籍してVS Codeを作ることになったか Visual Studio Code（以下、VS Code）はいまやITエンジニアのあいだで最も人気のあるコードエディタの地位を確立しています。 VS Codeはオープンソースであり、そ...",
+   "title": "VS Code誕生から現在までの物語「The Story of VS Code」YouTubeで公開。作者のエリック・ガンマ氏はなぜIBMからMSへ移籍してVS Codeを作ることになったか",
+   "updatedAt": 1788731788363,
+   "url": "https://www.publickey1.jp/blog/26/vs_codethe_story_of_vs_codeyoutubeibmmsvs_code.html"
+  },
+  "https://www.techno-edge.net/article/2026/09/05/5466.html": {
+   "bodyBlocks": [
+    {
+     "kind": "P",
+     "text": "米デラウェア州連邦裁判所は、元Twitterであるイーロン・マスク氏のXが、スタートアップ企業Operation Bluebirdに対して申し立てていたTwitter商標権に関する仮差し止め訴訟で、「Twitter」の名称は現在もXが商標権を有しているとの暫定的な判断を示しました。"
+    },
+    {
+     "kind": "P",
+     "text": "判事は意見書、Operation BluebirdはXがTwitterという名称を完全に放棄したことを証明する可能性は低いと 説明 しています。"
+    },
+    {
+     "kind": "P",
+     "text": "一方、同時に争点となっていた「ツイート（tweet）」という単語と、Twitterの青い鳥のロゴについては、Operation Bluebirdが「Xが『ツイート』という商標と青い鳥ロゴの真正な使用を中止し、再使用する意図もないことを証明できる可能性が高い」との判断を示しました。"
+    },
+    {
+     "kind": "P",
+     "text": "これを受け、Operation BluebirdはかつてのTwitterのイメージを再現して先週オープンした新SNS「Twitter.now」をの名前をすでに「Tweet.app」に変更しています。"
+    },
+    {
+     "kind": "P",
+     "text": "同社によれば、Twitter.nowにはサービス公開前の時点で17万2000人以上がハンドル名の予約を申請したとのことです。ただし、この数字の背景には「Twitter」というブランドの高い認知度や親しみが大きく影響していると考えられます。"
+    },
+    {
+     "kind": "P",
+     "text": "Operation Bluebirdの共同創業者で、元Twitterの商標弁護士という経歴も持つスティーブン・コーツ氏は、今回の判断について次のように述べています。"
+    },
+    {
+     "kind": "P",
+     "text": "「彼らは『X』という言葉は残した。しかし青い鳥は手放し、「ツイート」も手放した。「ツイート(tweet)」は企業名ではなく、一人の人間が何かを発信するという行為だ。その言葉は、企業が3年間かけて置き換えようとしても生き残った。それは人々がその言葉を使い続けることを選んだからだ」と述べています。"
+    },
+    {
+     "kind": "P",
+     "text": "この裁判の発端は、イーロン・マスク氏が、買収したTwitterというSNSの名称を「X」に改名したことにあります。この改名により「Twitter」「ツイート」そして「青い鳥のロゴマーク」といった誰もが知るブランド資産は、事実上は手放したような格好になっています。そして、そこに目をつけたのがOperation Bluebirdでした。"
+    },
+    {
+     "kind": "P",
+     "text": "同社のウェブサイトには「マスク氏がXへの改名時に手放したものを拾い上げることが目的」だと明記されています。ただ、そのメッセージは、かつてのTwitterを再び人々に提供しようという志よりも、Twitterという価値ある商標の取得のほうを重視しているようにも見受けられます。"
+    },
+    {
+     "kind": "P",
+     "text": "Twitter.now改めTweet.appは現在、早期テストとして一般ユーザーへの公開を開始しています。ハンドル名の予約と参加には20ドルの費用がかかります。この収益は訴訟費用の一部に充てられているとみられます。"
+    },
+    {
+     "kind": "P",
+     "text": "なお、今回の裁判所判断はあくまで仮差し止めに関するものであり、X社がTwitter関連商標の権利を最終的に保持するかどうかは、引き続き審理が行われる予定です。"
+    }
+   ],
+   "checkedAt": 1788731788363,
+   "etag": "",
+   "hash": "4e05d48daf6dcf4d",
+   "id": "94033fe76b00",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.techno-edge.net%2Farticle%2F2026%2F09%2F05%2F5466.html",
+   "key": "https://www.techno-edge.net/article/2026/09/05/5466.html",
+   "lastModified": "",
+   "publishedAt": 1788600522000,
+   "summary": "米デラウェア州連邦裁判所は、元Twitterであるイーロン・マスク氏のXが、スタートアップ企業Operation Bluebirdに対して申し立てていたTwitter商標権に関する仮差し止め訴訟で、「Twitter」の名称は現在もXが商標権を有しているとの暫定的な判断を示しました。 判事は意見書、Operation BluebirdはXがTwitterという名称...",
+   "title": "新SNS「Twitter.now」が「Tweet.app」に改名。商標権めぐる暫定判決でXに有利な判定 | テクノエッジ TechnoEdge",
+   "updatedAt": 1788731788363,
+   "url": "https://www.techno-edge.net/article/2026/09/05/5466.html"
+  },
+  "https://zenn.dev/koduki/books/sre-itil-enterprise": {
+   "bodyBlocks": [],
+   "checkedAt": 1788731788363,
+   "etag": "\"20syyviuox1o2y\"",
+   "hash": "f2e7f7c233786285",
+   "id": "4d8f8d18af80",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fzenn.dev%2Fkoduki%2Fbooks%2Fsre-itil-enterprise",
+   "key": "https://zenn.dev/koduki/books/sre-itil-enterprise",
+   "lastModified": "",
+   "publishedAt": 1788695685000,
+   "summary": "SREとPlatform EngineeringをITILの視点で整理し、エンタープライズへ適用するための入門書です。",
+   "title": "SREを組織にする技術",
+   "updatedAt": 1788731788363,
+   "url": "https://zenn.dev/koduki/books/sre-itil-enterprise"
+  },
   "https://zenn.dev/saku0512/books/3735de8d0aa09f": {
    "bodyBlocks": [],
-   "checkedAt": 1788701300431,
-   "etag": "\"12in5slk6w31d6a\"",
+   "checkedAt": 1788731788363,
+   "etag": "\"pyg6g0k3mq1d6a\"",
    "hash": "530cac92fa8c3eb9",
    "id": "4b575e3e8932",
    "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fzenn.dev%2Fsaku0512%2Fbooks%2F3735de8d0aa09f",
@@ -6237,7 +8907,7 @@
    "publishedAt": 1788600492000,
    "summary": "同じ処理をCとGoで実装し、生成されるアセンブリを比較する。ABI、境界チェック、スタック、GC、Escape Analysis、インライン化などを実際の生成コードから追い、CとGoの言語設計・コンパイラ・ランタイムの違いを読み解く。",
    "title": "CとGoの生成コードを読む ― アセンブリから見る言語設計の違い",
-   "updatedAt": 1788701300431,
+   "updatedAt": 1788731788363,
    "url": "https://zenn.dev/saku0512/books/3735de8d0aa09f"
   },
   "https://zenn.dev/sompojapan_dx/articles/846c6038fee45d": {
@@ -6471,11 +9141,11 @@
  },
  "listing": {
   "https://b.hatena.ne.jp/hotentry/it.rss": {
-   "checkedAt": 1788701301514,
+   "checkedAt": 1788731789828,
    "etag": "",
    "lastModified": ""
   }
  },
  "siteId": "hatena_it",
- "updatedAt": 1788701321467
+ "updatedAt": 1788731816828
 }
