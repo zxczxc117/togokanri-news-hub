@@ -77,17 +77,17 @@
   },
   "https://news.web.nhk/newsweb/na/nd-20260906de48452": {
    "bodyBlocks": [],
-   "checkedAt": 1788692324401,
+   "checkedAt": 1788701397981,
    "etag": "",
    "hash": "e8393e0b10ced42d",
    "id": "12fa07dd8381",
    "imageUrl": "",
    "key": "https://news.web.nhk/newsweb/na/nd-20260906de48452",
    "lastModified": "",
-   "publishedAt": 1788690005000,
+   "publishedAt": 1788697515000,
    "summary": "太平洋側を中心に広い範囲で大雨が降るおそれがあることを受けて、一部の交通機関にも運休などの影響が出ます。",
    "title": "【随時更新】大雨交通影響 7日は山手線など本数減 運休区間も",
-   "updatedAt": 1788692324401,
+   "updatedAt": 1788701397981,
    "url": "https://news.web.nhk/newsweb/na/nd-20260906de48452"
   },
   "https://news.web.nhk/newsweb/na/nd-20260906de48460": {
@@ -119,15 +119,60 @@
    "title": "大雨影響 7日は臨時休校相次ぐ 東京23区の一部や横浜市など",
    "updatedAt": 1788692324401,
    "url": "https://news.web.nhk/newsweb/na/nd-20260906de48469"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260906de48513": {
+   "bodyBlocks": [],
+   "checkedAt": 1788701397981,
+   "etag": "",
+   "hash": "1b2c259566c51d27",
+   "id": "c8868c0ec5d6",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260906de48513",
+   "lastModified": "",
+   "publishedAt": 1788694200000,
+   "summary": "6日夕方、福岡県岡垣町の漁港で、海に飛び込んで遊んでいた大学生1人が溺れて行方が分からなくなり、海上保安部が捜索しています。",
+   "title": "福岡 漁港で飛び込み大学生1人行方不明",
+   "updatedAt": 1788701397981,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260906de48513"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260906de48517": {
+   "bodyBlocks": [],
+   "checkedAt": 1788701397981,
+   "etag": "",
+   "hash": "42051cb6365baaac",
+   "id": "82c89113e6af",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260906de48517",
+   "lastModified": "",
+   "publishedAt": 1788695220000,
+   "summary": "ICC＝国際刑事裁判所のトップで、アメリカのトランプ政権により制裁が科された赤根智子所長が都内で開かれたイベントでオンラインで講演し、「法の支配に対する違法な脅しに沈黙することは、力による支配を是認す…",
+   "title": "ＩＣＣ赤根所長が講演「法の支配への違法な脅しに沈黙せず」",
+   "updatedAt": 1788701397981,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260906de48517"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260906de48532": {
+   "bodyBlocks": [],
+   "checkedAt": 1788701397981,
+   "etag": "",
+   "hash": "8a67bbf763fdc189",
+   "id": "d52aa2a8f0c0",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260906de48532",
+   "lastModified": "",
+   "publishedAt": 1788699105000,
+   "summary": "気象庁は午後8時44分、東京・伊豆諸島の神津島村に「レベル4土砂災害危険警報」を発表しました。\nまた、午後9時18分、東京・伊豆諸島の大島町に「レベル4土砂災害危険警報」を発表しました。\n土砂災害…",
+   "title": "東京 神津島村 大島町に土砂災害危険警報",
+   "updatedAt": 1788701397981,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260906de48532"
   }
  },
  "listing": {
   "https://www.nhk.or.jp/rss/news/cat0.xml": {
-   "checkedAt": 1788692326221,
-   "etag": "W/\"2bf4ffcc2fb023be9baa9f288431d7fb\"",
-   "lastModified": "Sun, 06 Sep 2026 10:47:54 GMT"
+   "checkedAt": 1788701399658,
+   "etag": "W/\"5f919f99c38e235cdd1270dc45337148\"",
+   "lastModified": "Sun, 06 Sep 2026 12:53:49 GMT"
   }
  },
  "siteId": "nhk_main",
- "updatedAt": 1788692326222
+ "updatedAt": 1788701399658
 }

@@ -840,6 +840,130 @@
    "updatedAt": 1788685102092,
    "url": "https://blog.pinkumohikan.com/entry/2026/09/05/150757"
   },
+  "https://garumax.com/windows-update-printer-driver-spec-change-2027-07": {
+   "bodyBlocks": [
+    {
+     "kind": "P",
+     "text": "リアルなレビューを追求するガジェットメディア！スマホ・格安SIMの話題やセール・お得情報も発信中！"
+    },
+    {
+     "kind": "H",
+     "text": "2027年7月以降、Windows Updateで配信されるプリンタードライバーの仕様が変更される予定"
+    },
+    {
+     "kind": "LI",
+     "text": "投稿日:2026年09月06日"
+    },
+    {
+     "kind": "P",
+     "text": "☪️ LINEMOのSIMが3ヶ月無料、初期費用も契約解除料も無料！今日から衛星通信や海外データ定額も無料"
+    },
+    {
+     "kind": "P",
+     "text": "☪️ 【祭り】ソフバンにMNPでiPhone Airが2年レンタル月額1円！17 Proは月額415円！在庫処分の最終値下げか"
+    },
+    {
+     "kind": "P",
+     "text": "既に2年ほど前からMicrosoft公式サポートページなどで移行が案内されていますが、来年（2027年）7月以降、Windows Update経由で入手できるプリンタードライバーの仕様が従来のものから変更される予定となっています。"
+    },
+    {
+     "kind": "H",
+     "text": "Windows Updateで配信されるプリンタードライバーは「Mopria」規格に対応した共通仕様に変更"
+    },
+    {
+     "kind": "P",
+     "text": "現在、Windows向けにWindows Updateやメーカーサイトなどで配布されているプリンタードライバーはプリンターメーカーが機種別に個別で開発しているものになります。"
+    },
+    {
+     "kind": "P",
+     "text": "この形式の場合、メーカーが独自の機能を容易に実装できるのがメリットとなります。"
+    },
+    {
+     "kind": "P",
+     "text": "一方で、2024年6月に発表された「Copilot+ PC」ブランド立ち上げ以降に急激に普及したARM版Windowsの場合、Intelネイティブのドライバーはエミュレーターが対応していないため動作しない場合があります。"
+    },
+    {
+     "kind": "P",
+     "text": "CPU/SoCごとに対応したものを個別に開発する必要がある関係で、「ARM版Windows 11の動作はサポートしていない」というメーカーも存在していました。"
+    },
+    {
+     "kind": "P",
+     "text": "また、ドライバーの仕様自体もかなり古くなってきてしまったこともあり、2021年3月にリリースされたWindows 10 Version 21H1より「Internet Printing Protocol（IPP）」「Mopria」規格の共通プリンタードライバーを新たに同梱するようになりました。"
+    },
+    {
+     "kind": "P",
+     "text": "2025年1月には従来のプリンタードライバー（「v3」「v4」規格）についてはWindows Update経由では新規公開機能の受付を終了しており、2027年7月1日にはセキュリティアップデートを除くドライバーの更新も原則として許可されなくなる予定です。"
+    },
+    {
+     "kind": "P",
+     "text": "「IPP」「Mopria」規格に対応したプリンターであればメーカーが個別に専用のドライバーをCPU/SoC別に用意する必要が無くなり、独自機能を組み込む必要がある場合も「Print Support Application（PSA）」という仕組みにより、別途Microsoft Store経由でストアアプリとして配信できるようになっています。"
+    },
+    {
+     "kind": "P",
+     "text": "「IPP」「Mopria」ともにCanon、EPSON、Brother等の有名大手プリンターメーカーが共同で開発した規格となるため、Windows 11だけでなくmacOS、Linux、Android、ChromeOS、iOS/iPadOSなどでも専用のドライバーをインストールすることなく利用できるほか、近年販売されているプリンターであれば基本的には対応しています。"
+    },
+    {
+     "kind": "H",
+     "text": "従来のドライバーも引き続きメーカーサイトからダウンロードしてインストールすることが可能"
+    },
+    {
+     "kind": "P",
+     "text": "ただし、これはあくまでWindows Update経由での「新規配信」が終了しただけで、 既に配信されている従来のプリンタードライバーについては、引き続き対応する機器を接続した際にWindows Updateから自動的にダウンロードされます。"
+    },
+    {
+     "kind": "P",
+     "text": "さらに、Microsoftが公式に認証している既存のプリンタードライバーに関しては、「Windows Updateカタログ」WEBサイトから個別にダウンロードした上で手動インストールすることも可能です。"
+    },
+    {
+     "kind": "P",
+     "text": "また、メーカーサイトからも従来のプリンタードライバーや専用ユーティリティをダウンロードしてインストールすることも当面は可能なので、焦って「IPP」「Mopria」規格対応プリンターに乗り換える必要はありません。"
+    },
+    {
+     "kind": "H",
+     "text": "「Windowsの保護印刷モード」を誤って有効化しないよう注意！"
+    },
+    {
+     "kind": "P",
+     "text": "「設定」アプリの[Bluetoothとデバイス] – [プリンターとスキャナー]にてWindows 11 2024 Update（Version 24H2）以降、項目として追加されている「Windows 保護印刷モード」を有効化してしまうと、デフォルトでインストールされている「Microsoft Print to PDF」「OneDrive (Desktop)」も含め、「v3」「v4」規格の古いドライバーがすべて削除されます。"
+    },
+    {
+     "kind": "P",
+     "text": "▼「Windows 保護印刷モード」を有効化すると登録されているすべてのプリンターが削除されてしまうので注意が必要です！↓"
+    },
+    {
+     "kind": "P",
+     "text": "将来的には「IPP」「Mopria」規格に対応するプリンターのみ利用可能という仕様に変更される可能性もありますが、現時点では規定の設定で従来のプリンター、「IPP」「Mopria」規格のプリンター両方追加できる設定になっています。"
+    },
+    {
+     "kind": "P",
+     "text": "▼特に理由がない限り現状「Windows 保護印刷モード」をあえて有効にする必要はありません。↓"
+    },
+    {
+     "kind": "P",
+     "text": "▼なお、「Microsoft Print to PDF」はオプション機能から再度有効化が可能です。↓"
+    },
+    {
+     "kind": "P",
+     "text": "万が一有効にしてしまった場合、OSにインストールされているプリンタードライバー自体はアンインストールされないため、「Windows 保護印刷モード」を無効に切り替えてから改めてプリンターの追加を実行すれば「v3」「v4」規格のプリンタードライバーで動作しているプリンターを再び利用することが可能になります（「OneDrive (Desktop)」についてもこの手順で手動再インストールできます）。 また「Microsoft Print to PDF」についても「設定」の[システム] – [オプション機能] – [オプション機能を表示または編集する]から再インストールすることが可能です。"
+    },
+    {
+     "kind": "P",
+     "text": "Copyright © ガルマックス All Rights Reserved."
+    }
+   ],
+   "checkedAt": 1788701300431,
+   "etag": "",
+   "hash": "18daf1fa57a11432",
+   "id": "c42b46f5ee58",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fgarumax.com%2Fwindows-update-printer-driver-spec-change-2027-07",
+   "key": "https://garumax.com/windows-update-printer-driver-spec-change-2027-07",
+   "lastModified": "",
+   "publishedAt": 1788677334000,
+   "summary": "ホーム > ソフトウェア > Windows > 2027年7月以降、Windows Updateで配信されるプリンタードライバーの仕様が変更される予定 2027年7月以降、Windows Updateで配信されるプリンタードライバーの仕様が変更される予定 投稿日:2026年09月06日 Microsoft コラム・解説・知識 執筆者 : かのあゆ ※ 当メディアのリンクにはア...",
+   "title": "2027年7月以降、Windows Updateで配信されるプリンタードライバーの仕様が変更される予定",
+   "updatedAt": 1788701300431,
+   "url": "https://garumax.com/windows-update-printer-driver-spec-change-2027-07"
+  },
   "https://gigazine.net/news/20260904-google-weathernext-3": {
    "bodyBlocks": [
     {
@@ -883,6 +1007,58 @@
    "title": "GoogleがAI気象モデル「WeatherNext 3」発表、衛星データを直接使ってスパコンの待ち時間を回避し1時間ごとに予報更新",
    "updatedAt": 1788685102092,
    "url": "https://gigazine.net/news/20260904-google-weathernext-3/"
+  },
+  "https://gigazine.net/news/20260904-openai-anthropic-spacexai-down": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "ChatGPT・Claude・Grokがほぼ同時刻にダウン"
+    },
+    {
+     "kind": "P",
+     "text": "2026年9月3日深夜、大手3社のAIサービスがほぼ同時に停止しました。なぜタイミングが重なったのか、理由は明らかになっていません。 ChatGPT, Grok, and Claude all went down at the same time | The Verge https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down Major AI Outage: Grok Trouble Blamed on Outage at Memphis Data Center | PCMag https://www.pcmag.com/news/chatgpt-claude-gemini-and-more-are-all-down-right-now 障害が発生したのは OpenAI のChatGPTと Anthropic のClaude、そして SpaceXAI のGrokです。Grokが2時間ほど早くダウンしていて、その後ChatGPTとClaudeがほぼ同時刻にダウンしました。なお、記事作成時点では解決されています。 障害が発生している間、各社のチャットAIのほかAPIサービス等でも応答不可のエラーが出ていて、アメリカなどでは多くの会社の始業時間と重なったため大混乱に陥りました。 AnthropicのスタッフであるCJ Avilla氏は「インフラの問題により、Claude Code、API、およびclaude.aiで部分的な障害が発生しています」と投稿。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "An infrastructure issue is causing a partial outage across Claude Code, the API, and https://t.co/JQms60I8iw . We're working on it but don't have an ETA yet. We'll post here when that changes, and quickest place for updates is always https://t.co/ZyS6p0rEnb — CJ Avilla (@cjav_dev) September 3, 2026"
+    },
+    {
+     "kind": "P",
+     "text": "SpaceXAIは「メンフィスの計算センターで発生した障害に伴い問題が発生しました」と報告しました。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "We are sorry for the issues you may have experienced with Grok following an outage at our Memphis compute center this morning. We’d also like to apologize to our impacted compute partners. All systems have now been restored and are functioning nominally. — SpaceXAI (@SpaceXAI) September 3, 2026"
+    },
+    {
+     "kind": "P",
+     "text": "OpenAIやAnthropicの障害の原因が、SpaceXAIと同じメンフィスの施設にあったのかどうかは定かではなく、OpenAIとAnthropicからの正式な声明が待たれています。 現代人が頼り切っているAIサービスが一斉にダウンしたことから、「ほんの一瞬、何百万人もの人々が再び頭を使わなければならなくなった」と分析する人もいました。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "and for a brief moment, millions of people had to use their brains again [image or embed] — Paris Marx ( @parismarx.com ) 2026年9月4日 0:37"
+    },
+    {
+     "kind": "P",
+     "text": "2026年09月04日 19時00分00秒 in AI , Posted by log1p_kr"
+    },
+    {
+     "kind": "P",
+     "text": "You can read the machine translated English article ChatGPT, Claude, and Grok all went down … ."
+    }
+   ],
+   "checkedAt": 1788701300431,
+   "etag": "",
+   "hash": "9e258edc02d651f3",
+   "id": "dcc661376b35",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fgigazine.net%2Fnews%2F20260904-openai-anthropic-spacexai-down%2F",
+   "key": "https://gigazine.net/news/20260904-openai-anthropic-spacexai-down",
+   "lastModified": "Sun, 06 Sep 2026 13:03:00 GMT",
+   "publishedAt": 1788516337000,
+   "summary": "2026年9月3日深夜、大手3社のAIサービスがほぼ同時に停止しました。なぜタイミングが重なったのか、理由は明らかになっていません。 ChatGPT, Grok, and Claude all went down at the same time | The Verge https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down Major AI Outa...",
+   "title": "ChatGPT・Claude・Grokがほぼ同時刻にダウン",
+   "updatedAt": 1788701300431,
+   "url": "https://gigazine.net/news/20260904-openai-anthropic-spacexai-down/"
   },
   "https://gigazine.net/news/20260905-docubrowser": {
    "bodyBlocks": [
@@ -1378,6 +1554,94 @@
    "title": "Claude Code の Rules はもう死んでいる - kawasin73のブログ",
    "updatedAt": 1788685102092,
    "url": "https://kawasin73.hatenablog.com/entry/2026/09/05/092056"
+  },
+  "https://ktrmnm.jp/blog/2026-09-05-madoc-intro": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "MarkdownをPDFやHTMLにするツール"
+    },
+    {
+     "kind": "P",
+     "text": "Markdownを入力してPDFやHTMLを出力する madoc というツールを作った。このツールはほぼ完全にAIで作られている。"
+    },
+    {
+     "kind": "H",
+     "text": "使い方"
+    },
+    {
+     "kind": "P",
+     "text": "PDFの組版には Vivliostyle を使っており、目次の生成 ( --toc )、表紙画像の挿入 ( --cover )、CSSでカスタムテーマを指定したりできる。"
+    },
+    {
+     "kind": "P",
+     "text": "複数ファイルからなる文書を結合したいときは、まずパートを以下のようなYAMLファイル ( parts.yaml ) にまとめる。"
+    },
+    {
+     "kind": "LI",
+     "text": "入力: example.md"
+    },
+    {
+     "kind": "LI",
+     "text": "出力: neutralテーマで出力したPDF"
+    },
+    {
+     "kind": "P",
+     "text": "詳しい 導入方法 や CLI はリポジトリを参照。ただ、このツール自体、日頃からコーディングエージェントで作業している人を想定したもので、任意のエージェントにリポジトリごと読ませれば問題なく使えるはず。例えば、社内で使うときは、社内用のデザイントークンを渡して「madoc用のテーマを作って」と指示すれば、リポジトリ内の themes.md などを参照してAIがよしなに作ってくれるのではないだろうか。"
+    },
+    {
+     "kind": "H",
+     "text": "なぜこのようなものを作って公開しているか"
+    },
+    {
+     "kind": "P",
+     "text": "コーディングエージェントで作業していると、いろいろな事情でMarkdownファイルが無数に出てくる。"
+    },
+    {
+     "kind": "P",
+     "text": "Markdownは書きやすいが、ビューアーがないと読みにくいという欠点がある。個人的には mo というビューアーをめちゃくちゃ気に入って使っているが、チームメンバーや、特に非エンジニア系メンバーの手元の環境でMarkdownが読みやすいとは限らない。そこで、他人に共有するときは、もっと「見やすいもの」に変換して渡したい。"
+    },
+    {
+     "kind": "P",
+     "text": "気軽さと見た目の良さのバランスを考えた結果、 ミーティング時の画面共有ではHTMLに変換してブラウザで表示し、他人にファイルとして渡すときはPDFに変換する という方法に落ち着いた。"
+    },
+    {
+     "kind": "P",
+     "text": "Markdownを他の形式に変換するならばPandocやMarpなどの既存ツールがあるものの、見た目がいい感じに制御できるとは限らなかった。そこで、CSSで組版できる Vivliostyle を叩くCLIを作り、自分用やチーム用のデザインテンプレを作って共有できるようにした。 1"
+    },
+    {
+     "kind": "P",
+     "text": "なお、「AIで作業するなら最初からHTMLで作業すればいいじゃん」という 意見 もあるが、個人的にはあまり納得していなかった。HTMLを見やすく作ることをAIに毎回考えさせるのは無駄だし、HTMLは人間が雑に編集するのに向いてない。手元で作業するだけなら好きなビューアーを使えばよいし、たまに共有目的で見やすくしたいなら、既製品のレンダラーがあれば良いだけだと思った。"
+    },
+    {
+     "kind": "P",
+     "text": "ちなみに、 madoc のようにAIで「ポン出し」したソースコードを公開するのは、技術的には全く付加価値がない。しかも、ポン出しを公開したところで、メンテナンスやサポートは正直難しい。置きっぱなし (O) でそのまま (S) にしておくソースコード (S) という意味でOSSではある。ただ、単純な仕事ノウハウや、「なぜそういうものを作りたいと思ったか」というwhyの文脈の共有としては、多少意味があると考えている。"
+    },
+    {
+     "kind": "P",
+     "text": "しかし、GPT-6 Astraは本当に評判が良いですね。高性能モデルが一般提供されていると、本記事のような小手先の仕事術を考える意味とは…？という気持ちにならなくもない。"
+    },
+    {
+     "kind": "H",
+     "text": "Footnotes"
+    },
+    {
+     "kind": "LI",
+     "text": "Vivliostyleを使うというのは前々職時代に教わった知識で、前職でも似たようなものを作ってチーム内に配っていた。今回は自分で使うためにFableにゼロから作らせた。 ↩"
+    }
+   ],
+   "checkedAt": 1788701300431,
+   "etag": "",
+   "hash": "9a22d464e4bfd24f",
+   "id": "1f5ff59f9287",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fktrmnm.jp%2Fblog%2F2026-09-05-madoc-intro%2F",
+   "key": "https://ktrmnm.jp/blog/2026-09-05-madoc-intro",
+   "lastModified": "",
+   "publishedAt": 1788677374000,
+   "summary": "Markdownを入力してPDFやHTMLを出力するmadoc というツールを作った。このツールはほぼ完全にAIで作られている。 MarkdownをHTMLに変換し、画面共有している様子 使い方 madoc html input.md -o output.html でHTMLがレンダリングされ、 madoc pdf input.md -o output.pdf とするとPDFがレンダリングされる。 PDFの組版...",
+   "title": "MarkdownをPDFやHTMLにするツール",
+   "updatedAt": 1788701300431,
+   "url": "https://ktrmnm.jp/blog/2026-09-05-madoc-intro/"
   },
   "https://mq1.dev/entry/u0w-0mgt8ihm": {
    "bodyBlocks": [
@@ -2935,6 +3199,342 @@
    "updatedAt": 1788685102092,
    "url": "https://note.com/npaka/n/n9635d06c377f"
   },
+  "https://note.com/omohibito_moe/n/n643dc02f8c32": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "移住者から見た新潟②1泊2日の最強新潟市内観光モデルルート"
+    },
+    {
+     "kind": "P",
+     "text": "前回「新潟移住のすすめ」というノートを書きました。そこに書いた通り、私は東京から新潟市に移住してきた人間です。 しかし、「新潟って観光するところある?」東京の人と話していると、結構な確率でこの反応をされます。 せっかく来てくれたのに、新潟市内では時間を過ごさずに日帰りで帰ってしまったり、越後湯沢、長岡など他のエリアに寄ってから「ついで」に立ち寄るだけの人も多い。 これが、移住した側から見ると、本当に悔しいです。 寿司・酒蔵・味噌蔵・マルシェ・展望台・日本酒利き酒、全部が新潟駅から徒歩圏に揃っています。 少し足を伸ばせば、彌彦神社・ワイナリー・月岡温泉、そして新潟港から船で佐渡島にも渡れます(佐渡島は私もまだ行けていないので、行ったら別ノートで書きます)。 新潟市内だけでも、1泊2日まるごと楽しめます。 このノートはそのモデルプランです。 特に朱鷺メッセにライブで来る方。新潟駅で降りて「ライブの前後、半日〜1日、何して過ごせばいいんだろう」と検索しても、答えが見つからずに困っている方も多いはず。1日目のプランはそのまま使ってもらえる構成にしてあります。 東京から来た友人に実際に好評だった順に並べました。観光ガイドに載っている店もありますが、ガイドにあまり載っていない動線を重視しています。"
+    },
+    {
+     "kind": "H",
+     "text": "大前提：新潟駅から半径2キロですべて完結する"
+    },
+    {
+     "kind": "P",
+     "text": "上でも書きましたが、新潟駅周辺の半径2キロ圏内に、寿司・酒蔵・味噌蔵・マルシェ・展望台・夜の居酒屋・日本酒利き酒、ぜんぶ徒歩で行ける範囲に入っています。これは東京から来ると本当に異常に感じる密度です。"
+    },
+    {
+     "kind": "P",
+     "text": "1日目は新潟駅2キロ圏内で完結させる。2日目は西蒲区か月岡温泉に足を伸ばす。基本はこのコースをお勧めしています。"
+    },
+    {
+     "kind": "H",
+     "text": "【1日目】新潟駅周辺で完結する1日"
+    },
+    {
+     "kind": "H",
+     "text": "11時〜12時：新幹線で新潟駅到着"
+    },
+    {
+     "kind": "P",
+     "text": "東京駅から上越新幹線で最短約1時間半。お昼前後に着くのが理想です。早めに着いて、まず寿司に向かいます。"
+    },
+    {
+     "kind": "H",
+     "text": "12時〜13時半：ランチは寿司"
+    },
+    {
+     "kind": "P",
+     "text": "ここは選択肢が多すぎて困るところです。私が東京の友人を連れていくときの基準で4軒挙げます。"
+    },
+    {
+     "kind": "H",
+     "text": "選択肢1：弁慶(回転寿司・新潟駅徒歩圏内に2店舗あり)"
+    },
+    {
+     "kind": "P",
+     "text": "新潟といえばの有名回転寿司。回転寿司とは思えないクオリティとコスパで、東京の友人を案内すると一番ハズレがありません。予算3,000〜4,000円。"
+    },
+    {
+     "kind": "P",
+     "text": "ピア万代の中にも店舗があるので、後述する「ピア万代動線」に組み込むなら弁慶がもっとも自然ですが、ものすごく混みます。 先日朱鷺メッセでKing gnuのライブがあった際には90組近い待ち数になっていました。"
+    },
+    {
+     "kind": "H",
+     "text": "選択肢2：せかい鮨(のどぐろ炙り丼)"
+    },
+    {
+     "kind": "P",
+     "text": "のどぐろ炙り丼が有名な人気店。予算4,000〜5,000円。 予約推奨 。週末は予約しないと厳しいです。"
+    },
+    {
+     "kind": "P",
+     "text": "「新潟といえばのどぐろ」を友人に体験してもらいたいなら、ここを予約できた日に新潟駅周辺散策プランを組むのが正解です。"
+    },
+    {
+     "kind": "H",
+     "text": "選択肢3：千代鮨(新潟駅すぐ)"
+    },
+    {
+     "kind": "P",
+     "text": "昭和44年(1969年)創業の老舗で、 食べログ「寿司EAST百名店2025」選出店 。ランチ予算3,000〜4,000円、ディナーはもう少し上がります。"
+    },
+    {
+     "kind": "P",
+     "text": "新潟駅から徒歩数分という立地で、新幹線の発車時刻からの逆算もしやすい。「 せっかく新潟に来たので、ちゃんとした寿司屋でちゃんとした寿司を食べたい 」という友人を連れていくならここです。"
+    },
+    {
+     "kind": "H",
+     "text": "選択肢4：すし魚晴(ランチのみ)"
+    },
+    {
+     "kind": "P",
+     "text": "ランチ営業しかやっていないけれども、カウンターで大将が握る特上寿司を2,000円弱で食べられます。 大将が一人で握っているので注文してから少し待ちますが、ランチで時間が合えばコスパは最強です。"
+    },
+    {
+     "kind": "H",
+     "text": "番外：日本料理 みねを"
+    },
+    {
+     "kind": "P",
+     "text": "すし魚晴の隣にある日本料理店。ランチの日本料理が美味しくてコスパが良いです。「しっかりした和食を食べたい」という友人にはこちらがおすすめです。"
+    },
+    {
+     "kind": "H",
+     "text": "番外：つるまる(お米が美味しい)"
+    },
+    {
+     "kind": "P",
+     "text": "夜は居酒屋ですが、ランチの 「選べるおかずの組み合わせ定食」 が個人的にとても好きです。"
+    },
+    {
+     "kind": "P",
+     "text": "基本のごはんセット(羽釜炊きの新潟県産コシヒカリ+味噌汁+サラダ+漬物)が500円 。そこに200円・300円・400円のおかずを2品以上自由に追加して、自分好みの定食を組み立てる形式です。"
+    },
+    {
+     "kind": "P",
+     "text": "何より、 羽釜で炊いた糸魚川産または岩船産のコシヒカリ そのものが旨い。米どころ新潟に来た友人に「お米のすごさ」を体感してもらうなら、寿司ではなくこちらを選ぶのも手です。"
+    },
+    {
+     "kind": "P",
+     "text": "新潟駅周辺に「駅前総本店」と「けやき通り店」の2店舗あり。夜は新潟50種の地酒飲み放題もあるので、宿泊するなら夜利用も選択肢に入ります。"
+    },
+    {
+     "kind": "H",
+     "text": "14時または15時：今代司酒造で酒蔵見学"
+    },
+    {
+     "kind": "P",
+     "text": "30分ほどの酒蔵見学は説明も丁寧、法被を着て写真も撮れます。新潟駅から徒歩15分で本格的な酒蔵に入れる、というのが東京から来た身にはなかなか衝撃でした。"
+    },
+    {
+     "kind": "P",
+     "text": "酒蔵見学の料金は200円ですが、試飲も付いてくるお得さ。更にプレミアムテイスティングだと1,500円で10種類以上のお酒を一杯ずつ楽しめちゃいます。駅で買うのも良いですが、お土産用の日本酒をここで購入して送ってしまうのもおすすめです。"
+    },
+    {
+     "kind": "H",
+     "text": "15時半〜16時：峰村醸造で味噌のお土産"
+    },
+    {
+     "kind": "P",
+     "text": "今代司酒造から徒歩すぐの場所に味噌蔵「峰村醸造直売店」があり、ここでもお土産が買えます。試食もあります。 ここの越後味噌で作るお味噌汁は絶品です。"
+    },
+    {
+     "kind": "P",
+     "text": "酒蔵と味噌蔵が徒歩圏内、というのも普通に考えると密度が異常です。"
+    },
+    {
+     "kind": "H",
+     "text": "16時〜17時半：ピア万代へ歩いていく"
+    },
+    {
+     "kind": "P",
+     "text": "峰村醸造からピア万代まで、歩いて約1キロ。腹ごなしにちょうどいい距離です。"
+    },
+    {
+     "kind": "P",
+     "text": "ピア万代は「マルシェ」と呼ばれる市場で、寿司屋・海鮮丼屋・浜焼き屋・コーヒー・ドーナツ屋・お魚屋さんなどが集まっています。"
+    },
+    {
+     "kind": "P",
+     "text": "ここで東京の友人に強くおすすめしているのが、観光ガイドにあまり載らない裏ルートです。"
+    },
+    {
+     "kind": "H",
+     "text": "ピア万代裏ルート：パック寿司+浜焼きをベンチで食べる"
+    },
+    {
+     "kind": "P",
+     "text": "先述の弁慶もおすすめですが混んでいることも多い。そこであえて並ばず、 マルシェ内のお魚屋さんで売っているパック寿司を買う 。これがめちゃくちゃ美味しいです。"
+    },
+    {
+     "kind": "P",
+     "text": "そして、お魚屋さんの外で焼いている 浜焼き (牡蠣、イカ焼きなど)を一緒に買って、マルシェの中のベンチで食べる。"
+    },
+    {
+     "kind": "P",
+     "text": "天気がいい日は、外のベンチで日本海の風を感じながら食べるのが本当に気持ちいい。寿司屋に入って3,000〜4,000円使うのもいいですが、この食べ方も含めて新潟だと思っています。"
+    },
+    {
+     "kind": "H",
+     "text": "コーヒーとドーナツ"
+    },
+    {
+     "kind": "P",
+     "text": "ピア万代のコーヒーショップとドーナツ屋さんはめちゃくちゃ美味しいです。歩き疲れたあとの一息にちょうどいい。"
+    },
+    {
+     "kind": "H",
+     "text": "信濃川ウォーターシャトル(土日祝のみ)"
+    },
+    {
+     "kind": "P",
+     "text": "ピア万代のすぐ近くの萬代橋西詰乗り場から、 信濃川ウォーターシャトル に乗れます。"
+    },
+    {
+     "kind": "P",
+     "text": "タイミングが合えば、信濃川から朱鷺メッセや萬代橋を見るのがおすすめです。"
+    },
+    {
+     "kind": "H",
+     "text": "17時半〜18時半：朱鷺メッセ展望台へ"
+    },
+    {
+     "kind": "P",
+     "text": "ピア万代から歩いて約10分、朱鷺メッセの31階に Befcoばかうけ展望室 があります。360度パノラマで、信濃川・萬代橋・日本海・佐渡島・五頭連峰が見え、夕方に行くと、日本海に沈む夕日が絶景です。"
+    },
+    {
+     "kind": "H",
+     "text": "19時〜：夜は新潟浜焼き太郎、または日本酒の店"
+    },
+    {
+     "kind": "H",
+     "text": "新潟浜焼き 太郎"
+    },
+    {
+     "kind": "P",
+     "text": "私のお気に入りです。浜焼きが絶品なのはもちろん、女将さんと大将の人柄が本当にいい。"
+    },
+    {
+     "kind": "H",
+     "text": "よねくらグループの居酒屋(「いかの墨」など)"
+    },
+    {
+     "kind": "P",
+     "text": "新潟駅周辺によねくらグループの居酒屋が複数あります。どこもお料理が美味しい。日本酒の品揃えも豊富。 お通しも豪華なので、ハズレがないです。"
+    },
+    {
+     "kind": "H",
+     "text": "【2日目】西蒲区か月岡温泉、どちらかを選ぶ"
+    },
+    {
+     "kind": "P",
+     "text": "2日目は新潟駅から少し足を伸ばします。私が東京の友人に提案するのは、以下の2択です。"
+    },
+    {
+     "kind": "H",
+     "text": "ルートA：西蒲区(にしかんく)──ぐる〜んバスで彌彦神社・酒蔵・ワイナリー"
+    },
+    {
+     "kind": "P",
+     "text": "新潟市の西部、西蒲区エリアには、新潟の守護神「 彌彦(やひこ)神社 」、複数の酒蔵、ワイナリーが点在しています。"
+    },
+    {
+     "kind": "P",
+     "text": "このエリアを巡るのに、レンタカーを借りなくても回れる便利な手段が「 にしかん観光周遊ぐる〜んバス 」です。"
+    },
+    {
+     "kind": "LI",
+     "text": "カーブドッチワイナリーで昼食とワイン"
+    },
+    {
+     "kind": "LI",
+     "text": "彌彦神社の参拝"
+    },
+    {
+     "kind": "LI",
+     "text": "宝山酒造や笹祝酒造の見学"
+    },
+    {
+     "kind": "LI",
+     "text": "岩室温泉やだいろの湯で日帰り入浴"
+    },
+    {
+     "kind": "P",
+     "text": "新潟駅から西蒲区へは、JRで巻駅まで約30〜40分。そこからぐる〜んバスに乗り換える流れになります。"
+    },
+    {
+     "kind": "H",
+     "text": "ルートB:月岡温泉──「これぞ温泉街」の風情"
+    },
+    {
+     "kind": "P",
+     "text": "もう一つの選択肢が 月岡(つきおか)温泉 。新潟駅からバスで約1時間。「これぞ温泉街」という風情で、温泉饅頭の食べ歩きが楽しめます。"
+    },
+    {
+     "kind": "LI",
+     "text": "レンタカーを借りて、まず豊栄(とよさか)の「 寿し誠(すしせい) 」で回転寿司 異常なまでのコスパと美味しさ。回転寿司のレベルが東京とは違います"
+    },
+    {
+     "kind": "LI",
+     "text": "月岡温泉で日帰り入浴とサウナ"
+    },
+    {
+     "kind": "LI",
+     "text": "温泉街を散策、温泉饅頭を食べて帰る"
+    },
+    {
+     "kind": "P",
+     "text": "レンタカーがあれば自由に動けて楽ですが、月岡温泉までは新潟駅からバスも出ています。"
+    },
+    {
+     "kind": "H",
+     "text": "最後の〆:新潟駅でぽんしゅ館"
+    },
+    {
+     "kind": "P",
+     "text": "西蒲方面に行っても、月岡方面に行っても、最後は新潟駅に戻ってきます。"
+    },
+    {
+     "kind": "P",
+     "text": "戻ってきたら、新幹線の発車時刻まで ぽんしゅ館 で日本酒の飲み比べをして帰る。"
+    },
+    {
+     "kind": "P",
+     "text": "「新潟に来たら絶対これ」と地元の人にも観光客にも言われる場所です。新潟県内の蔵を一気に比較できるので、お土産用の日本酒を選ぶときの目安にもなります。"
+    },
+    {
+     "kind": "P",
+     "text": "夜の最終受付が20:15なので、新幹線の発車時間から逆算してください。最終の利き酒を済ませて新幹線に乗って帰る、これが王道です"
+    },
+    {
+     "kind": "H",
+     "text": "おわりに"
+    },
+    {
+     "kind": "P",
+     "text": "このノートは、東京の友人をアテンドしようと動線を組み立てた結果として書きました。"
+    },
+    {
+     "kind": "P",
+     "text": "数ヶ月住んだだけの移住者の視点なので、まだ知らない店も行っていないエリアも山ほどあります。新潟在住の方で「ここも入れてよ」というお店があれば、ぜひ教えてください。"
+    },
+    {
+     "kind": "P",
+     "text": "ライブで朱鷺メッセやピア万代に来る方も、観光で来る方も、移住を検討中の方も。新潟に来るときは声をかけてくれれば、案内します。"
+    },
+    {
+     "kind": "H",
+     "text": "いいなと思ったら応援しよう！"
+    }
+   ],
+   "checkedAt": 1788701300431,
+   "etag": "",
+   "hash": "a7a2a3e1155c3e39",
+   "id": "cae74fb10add",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fnote.com%2Fomohibito_moe%2Fn%2Fn643dc02f8c32",
+   "key": "https://note.com/omohibito_moe/n/n643dc02f8c32",
+   "lastModified": "",
+   "publishedAt": 1788683499000,
+   "summary": "前回「新潟移住のすすめ」というノートを書きました。そこに書いた通り、私は東京から新潟市に移住してきた人間です。 しかし、「新潟って観光するところある?」東京の人と話していると、結構な確率でこの反応をされます。 せっかく来てくれたのに、新潟市内では時間を過ごさずに日帰りで帰ってしまったり、越後湯沢、長...",
+   "title": "移住者から見た新潟②1泊2日の最強新潟市内観光モデルルート｜金子萌｜介護現場・自治体のDX×AI@日経新聞「向き合う」連載中",
+   "updatedAt": 1788701300431,
+   "url": "https://note.com/omohibito_moe/n/n643dc02f8c32"
+  },
   "https://packagemain.tech/p/gitignore-everything-by-default": {
    "bodyBlocks": [
     {
@@ -3050,6 +3650,21 @@
    "title": ".gitignore everything by default",
    "updatedAt": 1788685102092,
    "url": "https://packagemain.tech/p/gitignore-everything-by-default"
+  },
+  "https://pc.watch.impress.co.jp/docs/news/2138206.html": {
+   "bodyBlocks": [],
+   "checkedAt": 1788701300431,
+   "etag": "",
+   "hash": "9560a969cb0c7bc4",
+   "id": "67d38084bc5b",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fpc.watch.impress.co.jp%2Fdocs%2Fnews%2F2138206.html",
+   "key": "https://pc.watch.impress.co.jp/docs/news/2138206.html",
+   "lastModified": "",
+   "publishedAt": 1788490183000,
+   "summary": "",
+   "title": "AGI能力テストで99.9%、ChatGPTの新モデル「GPT-6 Astra」登場",
+   "updatedAt": 1788701300431,
+   "url": "https://pc.watch.impress.co.jp/docs/news/2138206.html"
   },
   "https://rocketnews24.com/2026/09/06/2798277": {
    "bodyBlocks": [
@@ -3320,7 +3935,7 @@
   },
   "https://speakerdeck.com/cscengineer/unvalued-sre-security-growth-engine": {
    "bodyBlocks": [],
-   "checkedAt": 1788692290101,
+   "checkedAt": 1788701300431,
    "etag": "",
    "hash": "efc8514a21fa64c0",
    "id": "87d73e771b45",
@@ -3330,12 +3945,12 @@
    "publishedAt": 1788655364000,
    "summary": "Product Engineering Conference 2026の登壇資料。 https://product-engineering.jp/2026/ プロポーザル。 https://fortee.jp/pdeconf-2026/proposal/dfcd864d-0512-4de8-a…",
    "title": "なぜSRE・セキュリティは評価されないのか？守りの組織を事業成長エンジンに変えた実践",
-   "updatedAt": 1788692290101,
+   "updatedAt": 1788701300431,
    "url": "https://speakerdeck.com/cscengineer/unvalued-sre-security-growth-engine"
   },
   "https://speakerdeck.com/kgsi/pdeconf2026-design-harness": {
    "bodyBlocks": [],
-   "checkedAt": 1788692290101,
+   "checkedAt": 1788701300431,
    "etag": "",
    "hash": "b2700560079fc680",
    "id": "559dcf02efd4",
@@ -3345,12 +3960,12 @@
    "publishedAt": 1788598306000,
    "summary": "Product Engineering Conference 2026で登壇した資料です。 https://product-engineering.jp/2026/ デザインハーネス公式サイト： https://design-harness.com/ デモ用のデザインシステム「Atlas…",
    "title": "デザインハーネス 〜AIが生成する\"デザイン\"の妥当性を、誰がどう担保するのか〜 / PdEConf2026 Design Harness",
-   "updatedAt": 1788692290101,
+   "updatedAt": 1788701300431,
    "url": "https://speakerdeck.com/kgsi/pdeconf2026-design-harness"
   },
   "https://speakerdeck.com/kzkmaeda/engineering-the-cost-of-ownership": {
    "bodyBlocks": [],
-   "checkedAt": 1788692290101,
+   "checkedAt": 1788701300431,
    "etag": "",
    "hash": "e472b3f492bfb564",
    "id": "41e315f33355",
@@ -3360,7 +3975,7 @@
    "publishedAt": 1788582802000,
    "summary": "[Product Engineering Conference 2026](https://product-engineering.jp/2026/)での登壇資料です。",
    "title": "AI時代に、プロダクトの数だけ積み上がる所有コストをどうエンジニアリングするか / Engineering the Cost of Ownership",
-   "updatedAt": 1788692290101,
+   "updatedAt": 1788701300431,
    "url": "https://speakerdeck.com/kzkmaeda/engineering-the-cost-of-ownership"
   },
   "https://speakerdeck.com/nogu66/ai-ejento-jidai-no-kodo-rebyu-o-sekkei-suru": {
@@ -4165,6 +4780,82 @@
    "updatedAt": 1788692290101,
    "url": "https://syu-m-5151.hatenablog.com/entry/2026/09/04/113629"
   },
+  "https://tech-blog-v2-opal.vercel.app/article/ending-my-career-as-a-frontend-engineer": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "フロントエンドエンジニアとしてのキャリアを終える"
+    },
+    {
+     "kind": "P",
+     "text": "フロントエンドのテックリードで、10月には フロントエンドカンファレンス関西2026 に登壇する。\nそんな人間が何を言っているんだと思われそうだが、フロントエンドエンジニアとしてのキャリアを終えようと思う。"
+    },
+    {
+     "kind": "P",
+     "text": "とはいえ、フロントエンドを全くやらなくなるわけではない。\n仕事では、これまで培ってきた知見をチームに還元し、個人では学習を続ける。\n軸足をフロントエンドから外し、仕事の開発でフロントエンドに関わる割合を自ずと減らしていく、という考えだ。"
+    },
+    {
+     "kind": "P",
+     "text": "React、Next.js、TypeScriptを中心に、リアルタイム配信の実装、LIFF（LINE Front-end Framework）を使ったアプリケーション、複雑なドメインを持つtoB領域、大規模なtoCサービス、テストの導入など特殊なものから普通の画面開発まで一通り経験してきた。\n今では何が来ても、1から設計できてしまう。\nデザインを見れば、脳内で勝手にコンポーネントの分割イメージが湧いてくる。"
+    },
+    {
+     "kind": "P",
+     "text": "できるようになったのは嬉しいことだが、新鮮さは確実に薄れてきた。\nできることを繰り返すよりも、まだできないことに時間を使いたい。"
+    },
+    {
+     "kind": "P",
+     "text": "そもそも、フロントエンド専任というポジション自体が減ってきていると思う。"
+    },
+    {
+     "kind": "P",
+     "text": "画面の実装はAIがかなりの部分を書けるようになり、専任のフロントエンドエンジニアがいなくても開発が回る場面が増えた。\nフロントエンド専任のポジションが残るのは、メガベンチャーや大手のような分業制の会社に絞られてきている。\nスタートアップでフロントエンドだけをやるなら、相当なスペシャリストである必要があるだろう。"
+    },
+    {
+     "kind": "P",
+     "text": "好きで一生その領域をやっていく覚悟があるなら、それはとても良いことだと思う。\nただ、最近のXを見ていると、かつて名を馳せたフロントエンドの猛者たちが、次々とフロントエンドの第一線から離れていっているように見える。\n30代後半からの領域チェンジは簡単ではないので、動くなら早いほうが選択肢は広い。"
+    },
+    {
+     "kind": "P",
+     "text": "フロントエンドの開発ルールはAIエージェント向けのskillとして書き出し、レビューもある程度AIに任せている。\n1月からはSRE領域を担当し、直近はマルチクラウドとバックエンドの開発がメインだ。"
+    },
+    {
+     "kind": "P",
+     "text": "動くなら早いほうがいいと書いたが、自分もギリギリのタイミングだったと思う。\n幸い、全く他の領域をやったことがないとかではなく、一定のクラウドの構築を1からできたり、バックエンド開発も少なからず経験があるのでそこはラッキーだった。"
+    },
+    {
+     "kind": "P",
+     "text": "これからは、バックエンドとクラウドを中心に開発経験を積んでいく。"
+    },
+    {
+     "kind": "P",
+     "text": "フロントエンドを軸から外すとはいえ、フロントエンドの設計からテストまでリードできるエンジニアは、市場にまだ少ない。\nそこにマイクロサービスの開発経験、クラウドの構築、SRE領域を掛け合わせれば、まだまだ唯一無二の存在になれると感じている。"
+    },
+    {
+     "kind": "P",
+     "text": "Next.jsの目まぐるしい変化に食らいついてキャッチアップし続けた経験は、バックエンドやクラウドに移っても同じように生きる。\n変化の速い領域で学び続けるやり方は身についているので、数年すればバックエンド領域でも相当なレベルまで行けると思っている。"
+    },
+    {
+     "kind": "P",
+     "text": "技術的には今も面白い領域なので、コアな部分に入り込んで学習は続けていく。"
+    },
+    {
+     "kind": "P",
+     "text": "いつまでこの職種を続けるかは不明だが、まだ楽しいと思えるので頑張っていきたい。"
+    }
+   ],
+   "checkedAt": 1788701300431,
+   "etag": "",
+   "hash": "0a608a79816f79ad",
+   "id": "acf8580695e8",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Ftech-blog-v2-opal.vercel.app%2Farticle%2Fending-my-career-as-a-frontend-engineer",
+   "key": "https://tech-blog-v2-opal.vercel.app/article/ending-my-career-as-a-frontend-engineer",
+   "lastModified": "",
+   "publishedAt": 1788673871000,
+   "summary": "フロントエンドのテックリードで、10月にはフロントエンドカンファレンス関西2026に登壇する。 そんな人間が何を言っているんだと思われそうだが、フロントエンドエンジニアとしてのキャリアを終えようと思う。 とはいえ、フロントエンドを全くやらなくなるわけではない。 仕事では、これまで培ってきた知見をチームに還...",
+   "title": "フロントエンドエンジニアとしてのキャリアを終える",
+   "updatedAt": 1788701300431,
+   "url": "https://tech-blog-v2-opal.vercel.app/article/ending-my-career-as-a-frontend-engineer"
+  },
   "https://tech-blog.rakus.co.jp/entry/20260903/sdd": {
    "bodyBlocks": [
     {
@@ -4963,7 +5654,7 @@
   },
   "https://togetter.com/li/2741877": {
    "bodyBlocks": [],
-   "checkedAt": 1788692290101,
+   "checkedAt": 1788701300431,
    "etag": "",
    "hash": "2afecf146cb2313b",
    "id": "30fc9c09d81e",
@@ -4973,8 +5664,23 @@
    "publishedAt": 1788628166000,
    "summary": "えまさん（24歳） @emma_1126ya Uber Eats配達員を始めて驚いたのが、配達先のほとんどが安アパートなこと。明らかに金がなさそうな客ばかり。エレベーターがついてないボロアパートも多いので階段の昇り降りが大変。タワマンみたいなとこからしかオーダー入らないと思ってた 2026-09-05 01:50:50",
    "title": "Uber Eats配達員を始めて驚いたのが、配達先のほとんどが安アパートなこと…タワマンみたいなとこからしかオーダー入らないと思ってた",
-   "updatedAt": 1788692290101,
+   "updatedAt": 1788701300431,
    "url": "https://togetter.com/li/2741877"
+  },
+  "https://togetter.com/li/2742191": {
+   "bodyBlocks": [],
+   "checkedAt": 1788701300431,
+   "etag": "",
+   "hash": "a69a045999fedd07",
+   "id": "39980f138ab7",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Ftogetter.com%2Fli%2F2742191",
+   "key": "https://togetter.com/li/2742191",
+   "lastModified": "",
+   "publishedAt": 1788690344000,
+   "summary": "MIKOTO @MIKOTO85025 駅で、顔写真や生年月日の載った社員証ICカードを落とした。夕方、会社に「拾ったので取りに来て」と電話が。交換手が「送ってください」と何度頼んでも聞かず、電話番号を告げて切ったそうだ。その番号にかけ直した。 2026-09-05 20:45:14 MIKOTO @MIKOTO85025 着払いで送ってほしいと頼むと、「直...",
+   "title": "駅で社員証ICカードを落とした後、会社に連絡があり、男性の同僚に同行を頼んで直接会うことに…相手の男はすぐに返さず、無言で姿を消した後に戻ってきて社員証を渡した話",
+   "updatedAt": 1788701300431,
+   "url": "https://togetter.com/li/2742191"
   },
   "https://www.global.toshiba/jp/cybersecurity/corporate/report.html": {
    "bodyBlocks": [],
@@ -4990,6 +5696,254 @@
    "title": "サイバーセキュリティ報告書 | 東芝 サイバーセキュリティ | 東芝",
    "updatedAt": 1788685102092,
    "url": "https://www.global.toshiba/jp/cybersecurity/corporate/report.html"
+  },
+  "https://www.itmedia.co.jp/mobile/articles/2609/06/news006.html": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "“横ワイド”が折りたたみの標準になる？ コンテンツ視聴に便利な4：3画面の是非 ： 山根康宏の海外モバイル探訪記"
+    },
+    {
+     "kind": "P",
+     "text": "折りたたみスマートフォンを投入するメーカーの数が増える中、本体を開くとアスペクト比4：3の横ワイド型になるモデルを、HuaweiやSamsungが相次いで発売しており、さらにAppleも投入する見込みです。中国では既にHuaweiの「Pura X Max」、日本を含む海外ではSamsungの「Galaxy Z Fold8」の人気がそれぞれ高まっており、この新しい形状のモデルは折りたたみスマートフォンの新たな定番として人気を得るかもしれません。"
+    },
+    {
+     "kind": "P",
+     "text": "横ワイド型の折りたたみスマートフォンは、一般的なスマートフォンと比べると、閉じた状態では縦方向の長さが短く、横方向には広い大きさとなっています。一見すると片手では持ちにくいようにも思えますが、例えばGalaxy Z Fold8の重量は約201gで、「折りたたみスマホは重い」というイメージを払拭（ふっしょく）する軽さを誇ります。片手で文字入力したい場合は、機種によってはソフトキーボードを片隅に寄せることもできるので、無理なく使えます。"
+    },
+    {
+     "kind": "P",
+     "text": "また外側の画面で写真を撮影すると、画面いっぱいにプレビューが写るため、撮影により没頭できると感じます。筆者はPura X Maxを当初は動画や写真を「見る」のに便利だろうと思って購入したのですが、気が付けば写真撮影をするカメラスマートフォンとして頻繁に使っています。"
+    },
+    {
+     "kind": "P",
+     "text": "一度この画面での撮影に慣れると、一般的なスマートフォンの撮影中の画面の、左右の黒い部分が気になってしまうほどです。"
+    },
+    {
+     "kind": "P",
+     "text": "写真を表示した際は、本体を開いたときの4：3のアスペクト比で全画面表示が可能です。16：9の動画も上下に多少の黒枠は出るものの、より本体サイズの大きいフォールド型のスマートフォンよりも見やすく感じます。意外なことにアプリの左右の分割表示も、縦方向はやや短いと感じるものの、横に広いため見にくいと感じません。"
+    },
+    {
+     "kind": "P",
+     "text": "ところで、折りたたみスマートフォンの存在意義に関する疑問の1つに、「画面を開く必要があるのか？」というものがあります。確かに、今の一般的なスマートフォンで不便を感じていない人にとって、価格が高く、わざわざ画面を開く操作が必要な折りたたみスマートフォンは無用かもしれません。"
+    },
+    {
+     "kind": "P",
+     "text": "しかし筆者のように、一枚板のスマートフォンでは画面が狭すぎる、2つのアプリをいつも同時に使いたい、といった考えを持つ人にとって、折りたたみスマートフォンは最適解といえるわけです。「開く必要があるのか？」ではなく、「普段は開いたままにしておき、邪魔なときに閉じる」これが筆者の使い方です。"
+    },
+    {
+     "kind": "P",
+     "text": "Appleの参入で折りたたみスマートフォンの購入を検討する人が増えるとみられるため、この「折りたたみはいるか、いらないか」の議論はこれまで以上に活発になるでしょう。"
+    },
+    {
+     "kind": "P",
+     "text": "しかし、実際にはスマートフォンの形状がこれまで「板」一枚だけだったところに、新たに「折りたたみ」という選択肢が増えただけのことです。どちらを選ぶかは、その人のスマートフォンの使い方次第なのです。"
+    },
+    {
+     "kind": "P",
+     "text": "さて、横ワイドという新しい形状の折りたたみスマートフォンは、ここまで説明したように「4：3でコンテンツが見やすい」「折りたたむと意外とコンパクト」「折りたたんでも画面の狭さを感じさせない」などの利点があることから、これまで折りたたみスマートフォンに関心を持たなかった人の興味を引き付ける可能性があります。"
+    },
+    {
+     "kind": "P",
+     "text": "特にAppleの製品は「iPhone以上、iPad以下」という位置付けになることから、この中間のデバイスを求めていたユーザーの心に刺さるでしょう。"
+    },
+    {
+     "kind": "P",
+     "text": "今後、他のメーカーからも横ワイド型の折りたたみスマートフォンが出てくれば、この形状が折りたたみスマートフォンのデファクトスタンダードになるかもしれません。折りたたみスマートフォンが登場してから7年、ようやく一般ユーザーに受け入れられる製品になるかもしれません。"
+    },
+    {
+     "kind": "LI",
+     "text": "“薄型×軽量×高性能カメラ”で勝負する、vivoのフォルダブルフォン「X Fold5」 X Fold5は閉じると6.53型（2748×1172ピクセル、アスペクト比21:9）のディスプレイが使えます。"
+    },
+    {
+     "kind": "LI",
+     "text": "1万円台のAIスマホ「Meizu Note 16」が中国で登場 思いがけない場所で最新スマートフォン「Meizu Note 16」を見ることができました。"
+    },
+    {
+     "kind": "LI",
+     "text": "中国で「小型ハイエンドスマホ」が人気の理由、火付け役はあのメーカー 日本で新たな選択肢になるか 2025年に入り、中国メーカーから6.3型前後の画面サイズを持つ高性能なスマートフォンが続々と登場している。長らく大画面でコンテンツの視聴に優れる機種が主流だった中国でも、少しずつ変化が起こっているようだ。今回は中国市場で存在感を見せる「コンパクトハイエンドスマホ」についてチェックしていこう。"
+    },
+    {
+     "kind": "LI",
+     "text": "Amazonでガジェットを注文したら、日本で使えない“技適なし製品”が届いた 泣き寝入りしかない？ 「昔懐かしのポケベルみたいなモバイルバッテリーが売られている！」――そう思って2台取り寄せたものの、とある問題が発生した。このような場合、Amazon.co.jpでは無条件で返品できるようだ。本当にそうなのか、事の顛末を含め、リポートする。"
+    },
+    {
+     "kind": "H",
+     "text": "関連リンク"
+    },
+    {
+     "kind": "P",
+     "text": "Copyright © ITmedia, Inc. All Rights Reserved."
+    },
+    {
+     "kind": "H",
+     "text": "アクセストップ10"
+    },
+    {
+     "kind": "LI",
+     "text": "「Suicaカード」から順次ペンギンが消える“先祖返り”が発生 Android向け「モバイルSuica」では既にいない （2026年09月05日）"
+    },
+    {
+     "kind": "LI",
+     "text": "【ワークマン】2900円の「防水メッセンジャーバッグ」 面ファスナー＆バックルでしっかり閉じる （2026年09月05日）"
+    },
+    {
+     "kind": "LI",
+     "text": "KDDIが光回線＋5Gの「auひかりプラス」を提供する狙い 光コラボを生かして全国展開も視野に （2026年09月05日）"
+    },
+    {
+     "kind": "LI",
+     "text": "モトローラ初の横開き「razr fold」はなぜ生まれた？ FeliCa搭載やIIJmio「10万円引き」の狙いを直撃 （2026年09月02日）"
+    },
+    {
+     "kind": "LI",
+     "text": "「Pixel 11／10／10a」購入ガイド【2026年9月版】 キャリアとGoogleでお得に買う方法を解説 （2026年09月05日）"
+    },
+    {
+     "kind": "LI",
+     "text": "JR東日本「分かりにくい」新幹線券売機を改善へ なぜ、スマホではなく「駅での最短1分購入」を実現？ （2026年07月04日）"
+    },
+    {
+     "kind": "LI",
+     "text": "“横ワイド”が折りたたみの標準になる？ コンテンツ視聴に便利な4：3画面の是非 （2026年09月06日）"
+    },
+    {
+     "kind": "LI",
+     "text": "WAON POINTやAEON Payのキャンペーンまとめ【9月4日最新版】 ポイント10〜20倍の獲得チャンス多数 （2026年09月04日）"
+    },
+    {
+     "kind": "LI",
+     "text": "光回線のバックアップにモバイル回線を――KDDIが新インターネットサービス「auひかりプラス」の提供を開始 ISPは3社から選択可（順次拡大予定） （2026年09月04日）"
+    },
+    {
+     "kind": "LI",
+     "text": "Suica、JRE POINTのキャンペーンまとめ【9月5日最新版】 買い物やチャージで最大5.5万ポイント （2026年09月05日）"
+    },
+    {
+     "kind": "H",
+     "text": "過去記事カレンダー"
+    },
+    {
+     "kind": "H",
+     "text": "2026年"
+    },
+    {
+     "kind": "H",
+     "text": "2025年"
+    },
+    {
+     "kind": "H",
+     "text": "2024年"
+    },
+    {
+     "kind": "H",
+     "text": "2023年"
+    },
+    {
+     "kind": "H",
+     "text": "2022年"
+    },
+    {
+     "kind": "H",
+     "text": "2021年"
+    },
+    {
+     "kind": "H",
+     "text": "2020年"
+    },
+    {
+     "kind": "H",
+     "text": "2019年"
+    },
+    {
+     "kind": "H",
+     "text": "2018年"
+    },
+    {
+     "kind": "H",
+     "text": "2017年"
+    },
+    {
+     "kind": "H",
+     "text": "2016年"
+    },
+    {
+     "kind": "H",
+     "text": "2015年"
+    },
+    {
+     "kind": "H",
+     "text": "2014年"
+    },
+    {
+     "kind": "H",
+     "text": "2013年"
+    },
+    {
+     "kind": "H",
+     "text": "2012年"
+    },
+    {
+     "kind": "H",
+     "text": "2011年"
+    },
+    {
+     "kind": "H",
+     "text": "2010年"
+    },
+    {
+     "kind": "H",
+     "text": "2009年"
+    },
+    {
+     "kind": "H",
+     "text": "2008年"
+    },
+    {
+     "kind": "H",
+     "text": "2007年"
+    },
+    {
+     "kind": "H",
+     "text": "2006年"
+    },
+    {
+     "kind": "H",
+     "text": "2005年"
+    },
+    {
+     "kind": "H",
+     "text": "2004年"
+    },
+    {
+     "kind": "H",
+     "text": "2003年"
+    },
+    {
+     "kind": "H",
+     "text": "2002年"
+    },
+    {
+     "kind": "H",
+     "text": "2001年"
+    },
+    {
+     "kind": "H",
+     "text": "Feed Back"
+    }
+   ],
+   "checkedAt": 1788701300431,
+   "etag": "",
+   "hash": "b2d8e1f96157d003",
+   "id": "f71996168918",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.itmedia.co.jp%2Fmobile%2Farticles%2F2609%2F06%2Fnews006.html",
+   "key": "https://www.itmedia.co.jp/mobile/articles/2609/06/news006.html",
+   "lastModified": "",
+   "publishedAt": 1788661888000,
+   "summary": "“横ワイド”が折りたたみの標準になる？ コンテンツ視聴に便利な4：3画面の是非：山根康宏の海外モバイル探訪記 折りたたみスマートフォンを投入するメーカーの数が増える中、本体を開くとアスペクト比4：3の横ワイド型になるモデルを、HuaweiやSamsungが相次いで発売しており、さらにAppleも投入する見込みです。中国で...",
+   "title": "“横ワイド”が折りたたみの標準になる？ コンテンツ視聴に便利な4：3画面の是非",
+   "updatedAt": 1788701300431,
+   "url": "https://www.itmedia.co.jp/mobile/articles/2609/06/news006.html"
   },
   "https://www.itmedia.co.jp/news/article/2609/05/2000001200": {
    "bodyBlocks": [
@@ -5271,6 +6225,21 @@
    "updatedAt": 1788685102092,
    "url": "https://www.makeuseof.com/use-old-phone-as-android-auto-for-desk/"
   },
+  "https://zenn.dev/saku0512/books/3735de8d0aa09f": {
+   "bodyBlocks": [],
+   "checkedAt": 1788701300431,
+   "etag": "\"12in5slk6w31d6a\"",
+   "hash": "530cac92fa8c3eb9",
+   "id": "4b575e3e8932",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fzenn.dev%2Fsaku0512%2Fbooks%2F3735de8d0aa09f",
+   "key": "https://zenn.dev/saku0512/books/3735de8d0aa09f",
+   "lastModified": "",
+   "publishedAt": 1788600492000,
+   "summary": "同じ処理をCとGoで実装し、生成されるアセンブリを比較する。ABI、境界チェック、スタック、GC、Escape Analysis、インライン化などを実際の生成コードから追い、CとGoの言語設計・コンパイラ・ランタイムの違いを読み解く。",
+   "title": "CとGoの生成コードを読む ― アセンブリから見る言語設計の違い",
+   "updatedAt": 1788701300431,
+   "url": "https://zenn.dev/saku0512/books/3735de8d0aa09f"
+  },
   "https://zenn.dev/sompojapan_dx/articles/846c6038fee45d": {
    "bodyBlocks": [
     {
@@ -5502,11 +6471,11 @@
  },
  "listing": {
   "https://b.hatena.ne.jp/hotentry/it.rss": {
-   "checkedAt": 1788692291245,
+   "checkedAt": 1788701301514,
    "etag": "",
    "lastModified": ""
   }
  },
  "siteId": "hatena_it",
- "updatedAt": 1788692311028
+ "updatedAt": 1788701321467
 }
