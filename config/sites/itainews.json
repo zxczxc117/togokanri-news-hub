@@ -6,54 +6,61 @@
   "allowFullText": true,
   "maxItems": 80,
   "listing": {
-    "type": "rss",
+    "type": "html",
     "urls": [
-      "https://blog.livedoor.jp/dqnplus/index.rdf"
+      "https://itainews.com/"
     ],
-    "linkSelector": "",
+    "linkSelector": "h3.title.entry-title a",
     "linkAttr": "href",
-    "urlIncludePatterns": [],
-    "urlExcludePatterns": []
+    "urlIncludePatterns": [
+      "^https://itainews\\.com/archives/\\d+\\.html$"
+    ],
+    "urlExcludePatterns": [],
+    "pagination": {
+      "enabled": true,
+      "nextUrlTemplate": "https://itainews.com/?p={page}",
+      "startPage": 1,
+      "maxPages": 2196
+    }
   },
   "article": {
-    "titleSelectors": [
-      "h1"
-    ],
-    "bodySelectors": [
-      "div.article-body-inner",
-      "div.mainmore",
-      "article"
-    ],
-    "dropSelectors": [
-      "script",
-      "style",
-      "nav",
-      "footer",
-      "aside",
-      ".ad",
-      ".ads",
-      ".banner",
-      ".related",
-      ".recommend",
-      ".ranking",
-      ".share",
-      ".social",
-      ".breadcrumb"
-    ],
-    "imageSelectors": [
-      "meta[property='og:image']",
-      "meta[name='twitter:image']"
-    ],
-    "dateSelectors": [
-      "meta[property='article:published_time']",
-      "time[datetime]"
-    ],
-    "stopAtTexts": [
-      "関連記事",
-      "あわせて読みたい",
-      "おすすめ記事"
-    ],
-    "minParagraphChars": 15
+  "titleSelectors": [
+    "h1"
+  ],
+  "bodySelectors": [
+     "#articlebody"
+  ],
+  "dropSelectors": [
+    "script",
+    "style",
+    "nav",
+    "footer",
+    "aside",
+    ".ad",
+    ".ads",
+    ".banner",
+    ".related",
+    ".recommend",
+    ".ranking",
+    ".share",
+    ".social",
+    ".breadcrumb"
+  ],
+  "imageSelectors": [
+    "meta[property='og:image']",
+    "meta[name='twitter:image']"
+  ],
+  "dateSelectors": [
+    "#articlebody .datebody abbr.updated[title]",
+    "meta[property='article:published_time']",
+    "time[datetime]"
+  ],
+  "stopAtTexts": [
+    "関連記事",
+    "あわせて読みたい",
+    "おすすめ記事"
+  ],
+  "minParagraphChars": 15
   },
   "notes": "livedoor Blog。RDF(RSS1.0)。本文は article-body-inner に入る。"
 }
