@@ -1,0 +1,82 @@
+# 1日3回、記事を集めて配信JSONを更新する。
+# 時刻はUTC指定なので日本時間から-9時間して書く（GitHubのcronはUTC固定）。
+#   21:50 UTC = 06:50 JST / 03:20 UTC = 12:20 JST / 10:50 UTC = 19:50 JST
+# GitHub の共有ランナーは混雑時に数分〜十数分遅れて起動する。
+# 「その時刻ちょうど」ではなく「その頃に1回」という精度で運用する前提。
+name: collect-news
+
+on:
+  schedule:
+    - cron: "50 21 * * *"
+    - cron: "20 3 * * *"
+    - cron: "50 10 * * *"
+  workflow_dispatch:
+    inputs:
+      site:
+        description: "対象サイトID（空欄なら全サイト）"
+        required: false
+        default: ""
+      limit:
+        description: "1サイトの新規取得件数の上限（空欄なら global.json の値）"
+        required: false
+        default: ""
+
+# 同時実行を禁じる。2本並ぶと state/ の書き戻しが衝突して push が失敗する。
+concurrency:
+  group: collect-news
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: リポジトリを取得
+        uses: actions/checkout@v4
+
+      - name: Python を用意
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: 依存を入れる
+        run: pip install -r requirements.txt
+
+      - name: 机上検証（設定とセレクタの確認・通信しない）
+        run: python -m collector.selftest
+
+      - name: 収集して配信JSONを更新
+        env:
+          SITE: ${{ github.event.inputs.site }}
+          LIMIT: ${{ github.event.inputs.limit }}
+        run: |
+          ARGS=""
+          if [ -n "$SITE" ]; then ARGS="$ARGS --site $SITE"; fi
+          if [ -n "$LIMIT" ]; then ARGS="$ARGS --limit $LIMIT"; fi
+          python -m collector.main $ARGS | tee run_log.txt
+
+      - name: 変更があればコミットする
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public state
+          if git diff --cached --quiet; then
+            echo "更新なし。コミットしません。"
+          else
+            git commit -m "collect: $(date -u +%Y-%m-%dT%H:%MZ)"
+            # 走行中に他の実行が push していた場合に備えて1回だけ追従する
+            git pull --rebase --autostash || true
+            git push
+          fi
+
+      - name: 実行ログを保存（14日）
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: run-log
+          path: run_log.txt
+          retention-days: 14
