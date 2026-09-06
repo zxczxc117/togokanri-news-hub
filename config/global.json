@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "publishDir": "public",
   "stateDir": "state",
-  "userAgent": "TogoKanriNewsHub/1.0 (personal use; +https://github.com/OWNER/togokanri-news-hub)",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
   "requestTimeoutSec": 20,
   "sleepBetweenRequestsSec": 1.0,
   "retryCount": 2,
