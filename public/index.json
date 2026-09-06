@@ -1,17 +1,117 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-09-06T09:16:34+09:00",
+ "generatedAt": "2026-09-06T10:58:48+09:00",
  "sites": [
+  {
+   "id": "4gamer",
+   "name": "4Gamer.net",
+   "category": "GAME",
+   "file": "sites/4gamer.json",
+   "count": 41,
+   "rev": "2812477767c0",
+   "updatedAt": "2026-09-06T10:56:54+09:00",
+   "allowFullText": true
+  },
+  {
+   "id": "diamond_zai",
+   "name": "ダイヤモンドZAi",
+   "category": "STOCK",
+   "file": "sites/diamond_zai.json",
+   "count": 0,
+   "rev": "ffe679bb831c",
+   "updatedAt": "2026-09-06T10:56:56+09:00",
+   "allowFullText": true
+  },
+  {
+   "id": "famitsu",
+   "name": "ファミ通.com",
+   "category": "GAME",
+   "file": "sites/famitsu.json",
+   "count": 0,
+   "rev": "ffe679bb831c",
+   "updatedAt": "2026-09-06T10:56:57+09:00",
+   "allowFullText": true
+  },
+  {
+   "id": "gihyo",
+   "name": "gihyo.jp",
+   "category": "TECH",
+   "file": "sites/gihyo.json",
+   "count": 44,
+   "rev": "6618272aefd3",
+   "updatedAt": "2026-09-06T10:57:47+09:00",
+   "allowFullText": true
+  },
   {
    "id": "hatena_all",
    "name": "はてなブックマーク 総合",
    "category": "GENERAL",
    "file": "sites/hatena_all.json",
-   "count": 42,
-   "rev": "0270160e083d",
-   "updatedAt": "2026-09-06T09:16:34+09:00",
+   "count": 48,
+   "rev": "d80152adf5bc",
+   "updatedAt": "2026-09-06T10:58:10+09:00",
    "allowFullText": true
+  },
+  {
+   "id": "hatena_it",
+   "name": "はてなブックマーク テクノロジー",
+   "category": "TECH",
+   "file": "sites/hatena_it.json",
+   "count": 33,
+   "rev": "51b8082a7e1a",
+   "updatedAt": "2026-09-06T10:58:31+09:00",
+   "allowFullText": true
+  },
+  {
+   "id": "itainews",
+   "name": "痛いニュース",
+   "category": "MATOME",
+   "file": "sites/itainews.json",
+   "count": 0,
+   "rev": "ffe679bb831c",
+   "updatedAt": "2026-09-06T10:58:41+09:00",
+   "allowFullText": true
+  },
+  {
+   "id": "itmedia_ait",
+   "name": "ITmedia AI＋",
+   "category": "TECH",
+   "file": "sites/itmedia_ait.json",
+   "count": 20,
+   "rev": "38a1b97034ad",
+   "updatedAt": "2026-09-06T10:58:42+09:00",
+   "allowFullText": true
+  },
+  {
+   "id": "kabutan",
+   "name": "株探 市況ニュース",
+   "category": "STOCK",
+   "file": "sites/kabutan.json",
+   "count": 0,
+   "rev": "ffe679bb831c",
+   "updatedAt": "2026-09-06T10:58:44+09:00",
+   "allowFullText": true
+  },
+  {
+   "id": "nhk_main",
+   "name": "NHK 主要ニュース",
+   "category": "GENERAL",
+   "file": "sites/nhk_main.json",
+   "count": 8,
+   "rev": "576d87552197",
+   "updatedAt": "2026-09-06T10:58:46+09:00",
+   "allowFullText": false
+  },
+  {
+   "id": "yahoo_topics",
+   "name": "Yahoo!ニュース トピックス",
+   "category": "GENERAL",
+   "file": "sites/yahoo_topics.json",
+   "count": 15,
+   "rev": "ab124cae353a",
+   "updatedAt": "2026-09-06T10:58:48+09:00",
+   "allowFullText": false
   }
  ],
- "rev": "c76a3c7c3e4f"
+ "rev": "c64fd74edeb9"
 }

@@ -2431,11 +2431,11 @@
  },
  "listing": {
   "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml": {
-   "checkedAt": 1788685160339,
-   "etag": "\"314a-65acc3d6592ba-gzip\"",
-   "lastModified": "Sun, 06 Sep 2026 08:25:10 GMT"
+   "checkedAt": 1788692322883,
+   "etag": "\"314a-65acdea8d2f24-gzip\"",
+   "lastModified": "Sun, 06 Sep 2026 10:25:10 GMT"
   }
  },
  "siteId": "itmedia_ait",
- "updatedAt": 1788685189050
+ "updatedAt": 1788692322884
 }
