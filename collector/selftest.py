@@ -76,8 +76,8 @@ def pipeline_test() -> int:
     }, "(selftest)")
     args = argparse.Namespace(dry_run=False, limit=0)
 
-    first = run_site(site, gcfg, _StubFetcher(), args)
-    second = run_site(site, gcfg, _StubFetcher(), args)
+    first = run_site(site, gcfg, _StubFetcher(), args, {})
+    second = run_site(site, gcfg, _StubFetcher(), args, {})
     print("パイプライン: 1回目 新規%d 更新%d / 2回目 新規%d 更新%d 取得%d"
           % (first["added"], first["updated"], second["added"], second["updated"], second["fetched"]))
     if first["added"] != 2:
