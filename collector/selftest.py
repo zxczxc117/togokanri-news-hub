@@ -74,7 +74,7 @@ def pipeline_test() -> int:
             "stopAtTexts": ["関連記事"], "minParagraphChars": 20,
         },
     }, "(selftest)")
-    args = argparse.Namespace(dry_run=False, limit=0)
+    args = argparse.Namespace(dry_run=False, limit=0, offset=0)
 
     first = run_site(site, gcfg, _StubFetcher(), args, {})
     second = run_site(site, gcfg, _StubFetcher(), args, {})
