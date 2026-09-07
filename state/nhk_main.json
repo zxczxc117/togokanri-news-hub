@@ -212,17 +212,17 @@
   },
   "https://news.web.nhk/newsweb/na/nd-20260907de48631": {
    "bodyBlocks": [],
-   "checkedAt": 1788731885137,
+   "checkedAt": 1788752053651,
    "etag": "",
-   "hash": "7d67a21525cafc3f",
+   "hash": "dbcd2c49f41c6c87",
    "id": "6bf8ec37051f",
    "imageUrl": "",
    "key": "https://news.web.nhk/newsweb/na/nd-20260907de48631",
    "lastModified": "",
-   "publishedAt": 1788731576000,
-   "summary": "秋雨前線の影響で東京の伊豆諸島や関東南部では大雨となり、新島村には「レベル5土砂災害特別警報」が発表されています。\n重大な土砂災害がすでに発生している可能性が極めて高い状況で、命が助かる可能性が高い行…",
-   "title": "東京 新島村に土砂災害特別警報 伊豆諸島や関東南部で大雨",
-   "updatedAt": 1788731885137,
+   "publishedAt": 1788747973000,
+   "summary": "秋雨前線の影響で東京の伊豆諸島や関東南部では大雨となり、新島村には「レベル5土砂災害特別警報」が発表されています。\n新島など伊豆諸島にはその後も発達した雨雲がかかっていて、少しでも安全な場所で過ごすよ…",
+   "title": "東京 新島村に土砂災害特別警報 大雨の範囲は東北にも広がる",
+   "updatedAt": 1788752053651,
    "url": "https://news.web.nhk/newsweb/na/nd-20260907de48631"
   },
   "https://news.web.nhk/newsweb/na/nd-20260907de48654": {
@@ -239,15 +239,105 @@
    "title": "ゼレンスキー大統領 米特使らと会談「交渉再開させてくれた」",
    "updatedAt": 1788731885137,
    "url": "https://news.web.nhk/newsweb/na/nd-20260907de48654"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260907de48698": {
+   "bodyBlocks": [],
+   "checkedAt": 1788752053651,
+   "etag": "",
+   "hash": "eafeb5b16f68d62d",
+   "id": "26f8b1503bf3",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260907de48698",
+   "lastModified": "",
+   "publishedAt": 1788748813000,
+   "summary": "各地で大雨が続いています。こうした中、千葉豪雨では1万台以上の車が浸水被害を受けたという情報もあり、ひとごとではありません。車が浸水したとき、どう対応すればいいのか、まとめました。",
+   "title": "【解説】車が浸水してしまったら…どうすれば?",
+   "updatedAt": 1788752053651,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260907de48698"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260907de48699": {
+   "bodyBlocks": [],
+   "checkedAt": 1788752053651,
+   "etag": "",
+   "hash": "715ace25ab7accd3",
+   "id": "47e06cc4fd36",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260907de48699",
+   "lastModified": "",
+   "publishedAt": 1788748906000,
+   "summary": "7日朝、宇都宮市の東北新幹線の線路内で人と新幹線が接触する人身事故があり、接触した女性はその後、死亡が確認されました。\n東北新幹線は運転を再開していて、警察で身元の確認などを進めています。",
+   "title": "東北新幹線で人身事故 女性死亡 運転見合わせ約2時間半で再開",
+   "updatedAt": 1788752053651,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260907de48699"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260907de48710": {
+   "bodyBlocks": [],
+   "checkedAt": 1788752053651,
+   "etag": "",
+   "hash": "fe73358698b4415b",
+   "id": "655efb2d4915",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260907de48710",
+   "lastModified": "",
+   "publishedAt": 1788750504000,
+   "summary": "JR東日本によりますと、JR埼京線は大雨の影響で一時、運転本数を減らしていたということで、午前8時半すぎ、赤羽駅のホームは電車を待つ利用者であふれていました。",
+   "title": "【動画】赤羽駅が混雑 大雨影響で一時本数減らし運行",
+   "updatedAt": 1788752053651,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260907de48710"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260907de48714": {
+   "bodyBlocks": [],
+   "checkedAt": 1788752053651,
+   "etag": "",
+   "hash": "d3123a580cf92a14",
+   "id": "de78de38b39a",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260907de48714",
+   "lastModified": "",
+   "publishedAt": 1788751297000,
+   "summary": "7日午前、福島県いわき市でアンダーパスが大雨の影響で冠水し、車2台が水につかっているのが見つかりました。\nこのうち1台から1人が救助されましたが、意識がない状態で病院に搬送されました。",
+   "title": "【被害】福島 いわきではアンダーパスで車両浸水 1人意識なし",
+   "updatedAt": 1788752053651,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260907de48714"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260907de48723": {
+   "bodyBlocks": [],
+   "checkedAt": 1788752053651,
+   "etag": "",
+   "hash": "f2349ccf7e2f0005",
+   "id": "6607563a103c",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260907de48723",
+   "lastModified": "",
+   "publishedAt": 1788749478000,
+   "summary": "大リーグ、ドジャースで右腕や首の違和感で欠場が続く大谷翔平選手について、ロバーツ監督は6日、今シーズン中のピッチャーとしての復帰は難しいという考えを示しました。一方で、バッターとしてはこの日で4試合連…",
+   "title": "ドジャース大谷 シーズン中の投手復帰困難 打者で7日復帰期待",
+   "updatedAt": 1788752053651,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260907de48723"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260907de48752": {
+   "bodyBlocks": [],
+   "checkedAt": 1788752053651,
+   "etag": "",
+   "hash": "f1f9bf54f35e8abd",
+   "id": "e97a99541677",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260907de48752",
+   "lastModified": "",
+   "publishedAt": 1788751567000,
+   "summary": "5日、岐阜県本巣市の店舗兼住宅で3人が死亡した火事で、死亡した3人のうち70歳の会社役員は建物の駐車場にとめた車の中で見つかっていたことが、警察への取材でわかりました。\nほかに救助された10人は火事…",
+   "title": "3人死亡火事 会社役員 建物駐車場の車内で見つかる",
+   "updatedAt": 1788752053651,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260907de48752"
   }
  },
  "listing": {
   "https://www.nhk.or.jp/rss/news/cat0.xml": {
-   "checkedAt": 1788731886889,
-   "etag": "W/\"138d7f00a87e1803ab16762c8981fa4d\"",
-   "lastModified": "Sun, 06 Sep 2026 21:53:21 GMT"
+   "checkedAt": 1788752055092,
+   "etag": "W/\"e29904d26d34b8fc4f2ded83d022e3c7\"",
+   "lastModified": "Mon, 07 Sep 2026 03:30:51 GMT"
   }
  },
  "siteId": "nhk_main",
- "updatedAt": 1788731886890
+ "updatedAt": 1788752055093
 }

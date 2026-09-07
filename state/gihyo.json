@@ -5487,11 +5487,11 @@
  },
  "listing": {
   "https://gihyo.jp/feed/rss2": {
-   "checkedAt": 1788731696146,
-   "etag": "W/\"6a9dd540-795d8\"",
-   "lastModified": "Sun, 06 Sep 2026 21:04:00 GMT"
+   "checkedAt": 1788751863033,
+   "etag": "W/\"6a9e29a0-795d8\"",
+   "lastModified": "Mon, 07 Sep 2026 03:04:00 GMT"
   }
  },
  "siteId": "gihyo",
- "updatedAt": 1788731740309
+ "updatedAt": 1788751907277
 }
