@@ -695,7 +695,7 @@
      "text": "今回は前回AIで作った曲がり傘歯車を使って、差動機構を作成してみました。ベアリングと歯車が使えると今回のように作れるものの幅がぐっと広がりますので、ぜひ試してみてください。"
     }
    ],
-   "checkedAt": 1788692217829,
+   "checkedAt": 1788818118952,
    "etag": "",
    "hash": "8fdb32d8521df7b8",
    "id": "b3a00571ee84",
@@ -705,7 +705,7 @@
    "publishedAt": 1787616780000,
    "summary": "前回は傘歯車をAIと協業しつつ作る方法を解説しました。記事の最後では、曲がり傘歯車も作成することができました。そこで今回は差動機構の解説と作成をしてみます。また、少しだけ3DPでベアリングを使う際のコツもお伝えします。",
    "title": "差動機構の仕組みを理解して差動装置をプリントしよう",
-   "updatedAt": 1788692217829,
+   "updatedAt": 1788818118952,
    "url": "https://gihyo.jp/article/2026/08/3dp-jungle-18?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/08/a-call-for-collective-action-on-cyber-defense": {
@@ -1184,10 +1184,6 @@
     },
     {
      "kind": "P",
-     "text": "Introducing Dactyl Dactyl is a vibe coding platform for native iOS and native Android apps. What's interesting about it is the device simulator: we've built a SwiftUI renderer in WASM. This means as you're developing, you get low latency in browser canvas simulation of the app…"
-    },
-    {
-     "kind": "P",
      "text": "DactylはWebブラウザから操作するバイブコーディング プラットフォーム。入力した文章をAIエージェントがネイティブなモバイルアプリに変換する。アプリはSwiftUIでコーディングされており、Macを使用したりXcodeをインストールすることなくアプリ開発ができる。またiOS用と同じSwiftUIコードからWebViewなどのミドルウェアを介さずAndroidのネイティブAPKにコンパイルして実行できる。"
     },
     {
@@ -1209,10 +1205,6 @@
     {
      "kind": "QUOTE",
      "text": "a little car racing game i built pic. twitter. com/ OI8RN3tfbb — Ryan Dahl (@rough__sea) August 24, 2026"
-    },
-    {
-     "kind": "P",
-     "text": "a little car racing game i built pic. twitter. com/ OI8RN3tfbb"
     },
     {
      "kind": "LI",
@@ -1259,9 +1251,9 @@
      "text": "既存のChatGPTサブスクリプションでAIを実行すると、クレジットの消費を抑えることができる"
     }
    ],
-   "checkedAt": 1788684986742,
+   "checkedAt": 1788818118952,
    "etag": "",
-   "hash": "873e8af63ab1e920",
+   "hash": "67be63824aa0b0cd",
    "id": "687584b3613d",
    "imageUrl": "https://gihyo.jp/assets/images/ICON/2026/3007_dactyl.png",
    "key": "https://gihyo.jp/article/2026/08/dactyl",
@@ -1269,7 +1261,7 @@
    "publishedAt": 1787641140000,
    "summary": "Deno開発チームは2026年8月23日、ネイティブのiOS/Androidアプリを開発できるバイブコーディングプラットフォーム「Dactyl」を発表した。",
    "title": "AIと対話してネイティブiOS/Androidアプリをリアルタイムに構築、SwiftUI対応コーディングプラットフォーム「Dactyl」発表",
-   "updatedAt": 1788684986742,
+   "updatedAt": 1788818118952,
    "url": "https://gihyo.jp/article/2026/08/dactyl?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/08/daily-linux-260827": {
@@ -1503,10 +1495,6 @@
      "text": "本稿は第2回の続編に当たりますが、この回からでも読める構成としています。興味を持った方は、本稿の読了後に第2回もぜひご覧ください。"
     },
     {
-     "kind": "LI",
-     "text": "第2回 高校数学から最先端AIまでを 「横断的」 に学ぶ理由—⁠—バラバラでは見えない景色"
-    },
-    {
      "kind": "H",
      "text": "図の読み方"
     },
@@ -1689,15 +1677,11 @@
     {
      "kind": "P",
      "text": "私は両書の 「はじめに」 で、 難しい内容も一歩ずつ山を登るように学び進めることで、個々の知識のつながりや全体像を理解できるようになる と書きました。高校では別々の単元として学ぶ内容が、最先端技術の中で互いに結び付いて働いています。そのつながりを自分で確かめることに、横断的に学ぶ大きな意味があります。分野を横断して思考し、共通点や相違点を発見したり、新たな論点を見出したりする力は、実務に留まらず、生涯を通じて自らを支える大きな力となるはずです。"
-    },
-    {
-     "kind": "LI",
-     "text": "第2回 高校数学から最先端AIまでを 「横断的」 に学ぶ理由—⁠—バラバラでは見えない景色"
     }
    ],
-   "checkedAt": 1788692217829,
+   "checkedAt": 1788818118952,
    "etag": "",
-   "hash": "05ee86d108fb4f45",
+   "hash": "0f5bf007643e8c03",
    "id": "89ca98d10bc5",
    "imageUrl": "https://gihyo.jp/assets/images/article/2026/08/mathematical-thinking-05/mathematical-thinking-05.png",
    "key": "https://gihyo.jp/article/2026/08/mathematical-thinking-05",
@@ -1705,7 +1689,7 @@
    "publishedAt": 1787616720000,
    "summary": "連載第2回で詳しく取り上げたのはベクトル、行列、微分、確率、物理学の5つでした。今回は、残る5つに注目します。",
    "title": "高校数学から最先端AIまでを「横断的」に学ぶ理由(続き) ——最先端AI/ロボティクスの仕組みを数理思考で解き明かす",
-   "updatedAt": 1788692217829,
+   "updatedAt": 1788818118952,
    "url": "https://gihyo.jp/article/2026/08/mathematical-thinking-05?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/08/microduck": {
@@ -2955,7 +2939,7 @@
      "text": "今回は現在開発中のPlamo Linuxのネットワークインストールについて紹介しました。この機能は、インターネット接続環境さえあれば、2GBに満たないUSBメディアからフルセットのPlamo Linux環境を簡単に構築できるので、仮想環境に限らず、少し古めのPCをPlamo Linux化するのに便利なように思います。ご興味ある方は、ぜひPlamo Linuxの増殖活動にご参加ください （笑⁠ ） ⁠。"
     }
    ],
-   "checkedAt": 1788692217829,
+   "checkedAt": 1788818118952,
    "etag": "",
    "hash": "a9d53d6facd870c9",
    "id": "81ae65fa7ffe",
@@ -2965,7 +2949,7 @@
    "publishedAt": 1787626380000,
    "summary": "前回はPlamo LinuxでQEMU/KVM仮想環境を動かすまでを概観、実行例としてネットワークインストール用のisoイメージを使ってみました。今回は、このネットインストール用イメージについて詳しく見てみます。",
    "title": "第67回 仮想環境とPlamo Linuxネットワークインストール",
-   "updatedAt": 1788692217829,
+   "updatedAt": 1788818118952,
    "url": "https://gihyo.jp/article/2026/08/zoku-gansiki-0067?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/aaif-mcp-a2a-briefing": {
@@ -5235,11 +5219,11 @@
  },
  "listing": {
   "https://gihyo.jp/feed/rss2": {
-   "checkedAt": 1788778699356,
-   "etag": "W/\"6a9e7e00-7980b\"",
-   "lastModified": "Mon, 07 Sep 2026 09:04:00 GMT"
+   "checkedAt": 1788818120196,
+   "etag": "W/\"6a9f26c0-7980b\"",
+   "lastModified": "Mon, 07 Sep 2026 21:04:00 GMT"
   }
  },
  "siteId": "gihyo",
- "updatedAt": 1788778749189
+ "updatedAt": 1788818169339
 }

@@ -2,7 +2,7 @@
  "articles": {
   "https://www.4gamer.net/games/002/g100206/20260907027": {
    "bodyBlocks": [],
-   "checkedAt": 1788778628628,
+   "checkedAt": 1788818045815,
    "etag": "",
    "hash": "c0f6b45f2a552cd3",
    "id": "4c88332f8764",
@@ -12,7 +12,7 @@
    "publishedAt": 1788768000000,
    "summary": "フリューは本日，「クライムライト／CRYMELIGHT」の正式体験版を，2026年9月17日10：00よりSteamで配信すると発表した。正式体験版では，ゲーム本編の冒頭から第1章のラストまでをプレイ可能で，ストーリーやバトル，システムを体験できる。プレイ時間は1.5〜3時間程度を想定している。",
    "title": "「クライムライト／CRYMELIGHT」，ゲーム冒頭から第1章ラストまで遊べる正式体験版を9月17日10：00よりSteamで配信",
-   "updatedAt": 1788778628628,
+   "updatedAt": 1788818045815,
    "url": "https://www.4gamer.net/games/002/G100206/20260907027/"
   },
   "https://www.4gamer.net/games/004/g100451/20260904047": {
@@ -32,7 +32,7 @@
   },
   "https://www.4gamer.net/games/007/g100712/20260907015": {
    "bodyBlocks": [],
-   "checkedAt": 1788778628628,
+   "checkedAt": 1788818045815,
    "etag": "",
    "hash": "57dbd2183c1f82cd",
    "id": "98f65c6076a7",
@@ -42,7 +42,7 @@
    "publishedAt": 1788758428000,
    "summary": "福岡県の体験型クリエイティブ施設「BLOOMIN'KIDS」は，「めっちゃカメレオン」の初となる公式リアルイベント「リアルめっちゃカメレオンinONEFUKUOKABLDG.」を，9月23日にONEFUKUOKABLDG.6FSKYLOBBYで開催する。本イベントでは，白いフィギュアを自分で塗って会場に「かくす」，隠された作品を「さがす」体験ができる。",
    "title": "「めっちゃカメレオン」初の公式イベントが9月23日に福岡で開催。白いフィギュアを塗って“かくす”，隠された作品を“さがす”新感覚アクティビティ",
-   "updatedAt": 1788778628628,
+   "updatedAt": 1788818045815,
    "url": "https://www.4gamer.net/games/007/G100712/20260907015/"
   },
   "https://www.4gamer.net/games/008/g100858/20260904049": {
@@ -75,6 +75,36 @@
    "updatedAt": 1788731623664,
    "url": "https://www.4gamer.net/games/009/G100999/20260904043/"
   },
+  "https://www.4gamer.net/games/013/g101368/20260907041": {
+   "bodyBlocks": [],
+   "checkedAt": 1788818045815,
+   "etag": "",
+   "hash": "8e78dce89d743d1a",
+   "id": "e0bd1d971d2d",
+   "imageUrl": "https://www.4gamer.net/games/013/G101368/20260907041/SS/002.jpg",
+   "key": "https://www.4gamer.net/games/013/g101368/20260907041",
+   "lastModified": "",
+   "publishedAt": 1788780409000,
+   "summary": "BlooberTeamは2026年9月4日，BrokenMirrorGamesとAnsharStudiosが開発中の新作タイトル「SAW:Genesis」の第2回クローズドアルファテストを，9月17日から開催すると発表した。現在公式サイトにて参加受付を実施中だ。",
+   "title": "非対称対戦型ホラーゲーム「SAW: Genesis」，第2回クローズドアルファテストを9月17日から開催",
+   "updatedAt": 1788818045815,
+   "url": "https://www.4gamer.net/games/013/G101368/20260907041/"
+  },
+  "https://www.4gamer.net/games/014/g101494/20260907035": {
+   "bodyBlocks": [],
+   "checkedAt": 1788818045815,
+   "etag": "",
+   "hash": "8eb15d8567861382",
+   "id": "39714b1be0ae",
+   "imageUrl": "https://www.4gamer.net/games/014/G101494/20260907035/SS/006.jpg",
+   "key": "https://www.4gamer.net/games/014/g101494/20260907035",
+   "lastModified": "",
+   "publishedAt": 1788793200000,
+   "summary": "講談社クリエイターズラボは2026年9月8日，「ミスモン」をSteamでリリースした。価格は980円（税込）。本作は，神話のモンスター「ミスモン（MythicMonster）」でパーティを編成し，魔王討伐を目指す「ハクスラ×ストラテジーゲーム」だ。",
+   "title": "「ミスモン」がSteamで配信開始。神話のモンスターでパーティを編成し，魔王討伐を目指す「ハクスラ×ストラテジーゲーム」",
+   "updatedAt": 1788818045815,
+   "url": "https://www.4gamer.net/games/014/G101494/20260907035/"
+  },
   "https://www.4gamer.net/games/019/g101928/20260905005": {
    "bodyBlocks": [],
    "checkedAt": 1788731623664,
@@ -105,9 +135,24 @@
    "updatedAt": 1788778628628,
    "url": "https://www.4gamer.net/games/022/G002210/20260905007/"
   },
+  "https://www.4gamer.net/games/022/g102283/20260907039": {
+   "bodyBlocks": [],
+   "checkedAt": 1788818045815,
+   "etag": "",
+   "hash": "bde6888df3891749",
+   "id": "28e74a03fac6",
+   "imageUrl": "https://www.4gamer.net/games/022/G102283/20260907039/SS/001.jpg",
+   "key": "https://www.4gamer.net/games/022/g102283/20260907039",
+   "lastModified": "",
+   "publishedAt": 1788779529000,
+   "summary": "",
+   "title": "「骸骨騎士様、只今異世界へお出掛け中 SKULL BRAVE」の事前登録数が3万件を突破",
+   "updatedAt": 1788818045815,
+   "url": "https://www.4gamer.net/games/022/G102283/20260907039/"
+  },
   "https://www.4gamer.net/games/023/g002318/20260907008": {
    "bodyBlocks": [],
-   "checkedAt": 1788778628628,
+   "checkedAt": 1788818045815,
    "etag": "",
    "hash": "f753d2959b702ae1",
    "id": "1a4632878cef",
@@ -117,12 +162,27 @@
    "publishedAt": 1788751489000,
    "summary": "米国時間2026年9月4日，Razerは，椅子のヘッドレスト部分に取り付けられるクッション型のワイヤレスステレオスピーカー「ClioX」を発表した。ステレオスピーカーとパッシブラジエターを内蔵し，モバイルバッテリーで動作するのが特徴だ。税込直販価格は1万7980円。",
    "title": "椅子のヘッドレストに取り付けるコンパクトなワイヤレススピーカー「Clio X」がRazerから登場",
-   "updatedAt": 1788778628628,
+   "updatedAt": 1788818045815,
    "url": "https://www.4gamer.net/games/023/G002318/20260907008/"
+  },
+  "https://www.4gamer.net/games/030/g103035/20260908002": {
+   "bodyBlocks": [],
+   "checkedAt": 1788818045815,
+   "etag": "",
+   "hash": "bda92181cadf018b",
+   "id": "40d83563985d",
+   "imageUrl": "https://www.4gamer.net/games/030/G103035/20260908002/SS/007.jpg",
+   "key": "https://www.4gamer.net/games/030/g103035/20260908002",
+   "lastModified": "",
+   "publishedAt": 1788800400000,
+   "summary": "DigitalVortexEntertainmentは本日（2026年9月8日），PC用ファーミングシム「TinyEden」をSteamで発売した。本作は，未来都市のアパートで植物を育て，料理や販売をしながら屋内農園を広げていく室内園芸シミュレーションだ。発売前のウィッシュリストは15万件を突破し，注目を集めている。",
+   "title": "窓辺の一鉢から屋上の楽園へ。室内園芸シム「Tiny Eden」がSteamで本日発売。発売直前にはウィッシュリスト15万件を突破した注目作",
+   "updatedAt": 1788818045815,
+   "url": "https://www.4gamer.net/games/030/G103035/20260908002/"
   },
   "https://www.4gamer.net/games/031/g103168/20260907037": {
    "bodyBlocks": [],
-   "checkedAt": 1788778628628,
+   "checkedAt": 1788818045815,
    "etag": "",
    "hash": "07a919f5ff92385a",
    "id": "bd0d8059e54a",
@@ -132,12 +192,12 @@
    "publishedAt": 1788777889000,
    "summary": "ニトロプラスは2026年9月4日，Steam版「PhantomPHANTOMOFINFERNONITROARCHIVE」をリリースした。本作は，2000年にニトロプラスの第1弾作品として発売された「PhantomPHANTOMOFINFERNO」へTVアニメ版の要素を追加したXbox360版を，さらにPCへと移植したバージョンだ。",
    "title": "Steam版「Phantom PHANTOM OF INFERNO NITRO ARCHIVE」が配信開始。まどマギなどで知られる虚淵 玄氏のデビュー作",
-   "updatedAt": 1788778628628,
+   "updatedAt": 1788818045815,
    "url": "https://www.4gamer.net/games/031/G103168/20260907037/"
   },
   "https://www.4gamer.net/games/036/g003691/20260907024": {
    "bodyBlocks": [],
-   "checkedAt": 1788778628628,
+   "checkedAt": 1788818045815,
    "etag": "",
    "hash": "5b932ae05889101e",
    "id": "89524ba54f3e",
@@ -147,7 +207,7 @@
    "publishedAt": 1788764039000,
    "summary": "出展社数や展示面積で過去最高を記録し，世界最大のゲームイベントとして熱狂に包まれた「gamescom2026」が今年も終わった。しかし，その華やかな数字の裏では，未公開データの盗難や大手の慎重姿勢といった課題も浮き彫りとなっていた。",
    "title": "Access Accepted第871回：gamescom 2026，数字上の狂乱と現場の冷や水",
-   "updatedAt": 1788778628628,
+   "updatedAt": 1788818045815,
    "url": "https://www.4gamer.net/games/036/G003691/20260907024/"
   },
   "https://www.4gamer.net/games/038/g003821/20260905006": {
@@ -242,7 +302,7 @@
   },
   "https://www.4gamer.net/games/039/g103973/20260907002": {
    "bodyBlocks": [],
-   "checkedAt": 1788778628628,
+   "checkedAt": 1788818045815,
    "etag": "",
    "hash": "7a5951901bb45796",
    "id": "e7f3dca9d690",
@@ -252,12 +312,12 @@
    "publishedAt": 1788737434000,
    "summary": "Today'sSpecial!は本日（2026年9月7日），PC用ソフト「寿司将棋」のSteamストアページを公開した。相手の寿司を取ったプレイヤーがその代金を支払う，駒取りと所持金管理を組み合わせた変則将棋だ。発売予定時期は2027年3月で，対応言語の欄では日本語を含む20言語にチェックが入っている。",
    "title": "取った寿司の代金は自腹！ 駒取りに“懐事情”が絡む変則将棋「寿司将棋」，Steamページ公開。体験版も公開中",
-   "updatedAt": 1788778628628,
+   "updatedAt": 1788818045815,
    "url": "https://www.4gamer.net/games/039/G103973/20260907002/"
   },
   "https://www.4gamer.net/games/039/g103974/20260907005": {
    "bodyBlocks": [],
-   "checkedAt": 1788778628628,
+   "checkedAt": 1788818045815,
    "etag": "",
    "hash": "1b3084f3349d1ac3",
    "id": "e79dfea6c779",
@@ -267,12 +327,12 @@
    "publishedAt": 1788749121000,
    "summary": "UMINEKOwalKingは本日，PC用ソフト「BLACKOUT〜恐怖写真〜」の体験版の配信をSteamで開始した。本作は，心霊写真をテーマにしたドット絵×心理ホラーアドベンチャーゲームだ。体験版では，2週目終わりまでプレイ可能で，プレイ時間は30分程度。",
    "title": "心霊写真の仕分けをしていくうちに，日常が少しずつ壊れていく。心理ホラーADV「BLACKOUT〜恐怖写真〜」，体験版をSteamで配信開始",
-   "updatedAt": 1788778628628,
+   "updatedAt": 1788818045815,
    "url": "https://www.4gamer.net/games/039/G103974/20260907005/"
   },
   "https://www.4gamer.net/games/039/g103979/20260907026": {
    "bodyBlocks": [],
-   "checkedAt": 1788778628628,
+   "checkedAt": 1788818045815,
    "etag": "",
    "hash": "1288e6c2e85a8ed1",
    "id": "633eea98b5e9",
@@ -282,12 +342,12 @@
    "publishedAt": 1788765063000,
    "summary": "NoShadowとUNSUBSCRIBEは2026年9月5日，新作タイトル「Scavland」をSteamでリリースした。本作は，戦争と謎の霧によって荒廃した土地を舞台とした，トップダウン型のハードコアサバイバルRPGだ。",
    "title": "荒廃した世界で廃墟を漁りながら生きるハードコアサバイバルRPG「Scavland」，早期アクセス版を配信開始",
-   "updatedAt": 1788778628628,
+   "updatedAt": 1788818045815,
    "url": "https://www.4gamer.net/games/039/G103979/20260907026/"
   },
   "https://www.4gamer.net/games/039/g103989/20260907021": {
    "bodyBlocks": [],
-   "checkedAt": 1788778628628,
+   "checkedAt": 1788818045815,
    "etag": "",
    "hash": "617ad042f8bcfb16",
    "id": "7122c2689c71",
@@ -297,12 +357,12 @@
    "publishedAt": 1788762575000,
    "summary": "Agenは，PC向け新作タイトル「棺&#38376;/AncestralMansion」を発表し，Steamストアページを公開した。本作は，父親を見舞うため故郷へ戻った大学生が，先祖代々の屋敷に隠された恐ろしい真実を追う，一人称視点のサイコロジカルホラーアドベンチャーゲームだ。",
    "title": "父の見舞いで帰省した大学生が，先祖代々の屋敷で目を覚ます。脱出を目指しながら一族にまつわる恐ろしい真実へ迫る。サイコホラーADV「棺&#38376; / Ancestral Mansion」発表",
-   "updatedAt": 1788778628628,
+   "updatedAt": 1788818045815,
    "url": "https://www.4gamer.net/games/039/G103989/20260907021/"
   },
   "https://www.4gamer.net/games/039/g103993/20260907025": {
    "bodyBlocks": [],
-   "checkedAt": 1788778628628,
+   "checkedAt": 1788818045815,
    "etag": "",
    "hash": "603c8d810e701cbb",
    "id": "9b83f1f4fbad",
@@ -312,12 +372,12 @@
    "publishedAt": 1788765052000,
    "summary": "RusimituGamesは2026年9月5日，PC用ソフト「アイロンビーズシミュレーター〜借金脱出録」の体験版の配信をSteamで開始した。本作は，アイロンビーズを作って販売し，多額の借金を返済する一人称視点のシミュレーションゲームだ。",
    "title": "アイロンビーズ作品を作って，多額の借金を返済するSLG「アイロンビーズシミュレーター 〜 借金脱出録」，体験版をSteamで配信開始",
-   "updatedAt": 1788778628628,
+   "updatedAt": 1788818045815,
    "url": "https://www.4gamer.net/games/039/G103993/20260907025/"
   },
   "https://www.4gamer.net/games/039/g103998/20260907029": {
    "bodyBlocks": [],
-   "checkedAt": 1788778628628,
+   "checkedAt": 1788818045815,
    "etag": "",
    "hash": "bfe887317fa3cad5",
    "id": "4dd46dec6e75",
@@ -327,12 +387,12 @@
    "publishedAt": 1788768047000,
    "summary": "ドイツのゲーム開発スタジオTwoPixelsUGは，PC向けタイトル「Playrooms」を発表した。本作は，20万個以上のカラーボールを拾ってボールプールへ戻していくシミュレーションゲームだ。ただし，作業場所では不穏な雰囲気が漂っており，常に光のなかで行動しなければならない。",
    "title": "20万個以上のカラーボールをひたすら拾い，ボールプールへ戻していく。誰もいないはずのプレイルームで働く不穏な作業シム「Playrooms」発表，2026年10月にリリース",
-   "updatedAt": 1788778628628,
+   "updatedAt": 1788818045815,
    "url": "https://www.4gamer.net/games/039/G103998/20260907029/"
   },
   "https://www.4gamer.net/games/040/g004099/20260906004": {
    "bodyBlocks": [],
-   "checkedAt": 1788778628628,
+   "checkedAt": 1788818045815,
    "etag": "",
    "hash": "bb2817aa08f6f9b1",
    "id": "55deeed40df9",
@@ -342,12 +402,12 @@
    "publishedAt": 1788732000000,
    "summary": "全国的に9月に突入した2026年8月31日〜9月6日，4Gamerに掲載された記事は324本でした。「gamescom2026」の試遊レポートや，「StateofPlay」で公開された新情報など，いろいろな記事を掲載した4Gameｒと，世界のゲーム業界の破天荒な1週間を，いつものように振り返ってみましょう。",
    "title": "4Gamerの1週間を振り返る「Weekly 4Gamer」，2026年8月31日〜9月6日",
-   "updatedAt": 1788778628628,
+   "updatedAt": 1788818045815,
    "url": "https://www.4gamer.net/games/040/G004099/20260906004/"
   },
   "https://www.4gamer.net/games/040/g104002/20260907032": {
    "bodyBlocks": [],
-   "checkedAt": 1788778628628,
+   "checkedAt": 1788818045815,
    "etag": "",
    "hash": "71fc27ee1a2dea12",
    "id": "beda8d19a44e",
@@ -357,8 +417,53 @@
    "publishedAt": 1788775033000,
    "summary": "HANDSUMは本日，m7kenji氏が手がけるPC用ソフト「ロクジョーヒトマ」のSteamストアページを公開した。本作は，六畳一間に引きこもる主人公「ヒトマ」が部屋の奥に出現した奇妙な地下世界を探索する1bitアクションアドベンチャーゲームだ。",
    "title": "六畳一間に引きこもる主人公が部屋の奥に出現した奇妙な地下世界を探索。1bitアクションADV「ロクジョーヒトマ」，Steamストアページを公開",
-   "updatedAt": 1788778628628,
+   "updatedAt": 1788818045815,
    "url": "https://www.4gamer.net/games/040/G104002/20260907032/"
+  },
+  "https://www.4gamer.net/games/040/g104003/20260907034": {
+   "bodyBlocks": [],
+   "checkedAt": 1788818045815,
+   "etag": "",
+   "hash": "ce6877218c3e4bcc",
+   "id": "39d88bdfcc3b",
+   "imageUrl": "https://www.4gamer.net/games/040/G104003/20260907034/SS/004.jpg",
+   "key": "https://www.4gamer.net/games/040/g104003/20260907034",
+   "lastModified": "",
+   "publishedAt": 1788778936000,
+   "summary": "Toydiumは本日，PC向け新作タイトル「RULESOFRESIDENCE」を発表した。本作は，独裁的な理事長に支配されたマンションを舞台に，管理組合の理事となってルールを定めながら，理想の暮らしを目指す政治シミュレーションゲームだ。",
+   "title": "35年ローンで手に入れたマイホームは，独裁理事長に支配されたマンション。理想の暮らしを実現するため，支配か改革かを選ぶ政治シム「RULES OF RESIDENCE」発表，2027年に発売",
+   "updatedAt": 1788818045815,
+   "url": "https://www.4gamer.net/games/040/G104003/20260907034/"
+  },
+  "https://www.4gamer.net/games/040/g104004/20260907044": {
+   "bodyBlocks": [],
+   "checkedAt": 1788818045815,
+   "etag": "",
+   "hash": "3baf931acf14415f",
+   "id": "45468be69108",
+   "imageUrl": "https://www.4gamer.net/games/040/G104004/20260907044/SS/008.jpg",
+   "key": "https://www.4gamer.net/games/040/g104004/20260907044",
+   "lastModified": "",
+   "publishedAt": 1788782891000,
+   "summary": "AkuparaGamesは本日（2026年9月7日），新作タイトル「Bonespire」を発表した。本作は，魔法の塔に住まう魔法使いとなって，アーティファクトの鍛造やポーションの調合などをしながら，眼下に広がる冒険と謎に満ちた世界を観察するシミュレーションゲームだ。",
+   "title": "魔法の塔の主となって地上世界に干渉するシミュレーションゲーム「Bonespire」が発表に",
+   "updatedAt": 1788818045815,
+   "url": "https://www.4gamer.net/games/040/G104004/20260907044/"
+  },
+  "https://www.4gamer.net/games/040/g104005/20260908003": {
+   "bodyBlocks": [],
+   "checkedAt": 1788818045815,
+   "etag": "",
+   "hash": "63959bb0bcff6036",
+   "id": "57f02e33c210",
+   "imageUrl": "https://www.4gamer.net/games/040/G104005/20260908003/SS/007.jpg",
+   "key": "https://www.4gamer.net/games/040/g104005/20260908003",
+   "lastModified": "",
+   "publishedAt": 1788802335000,
+   "summary": "KadenaEntertainmentは，協力型ボードゲーム「TangledYarns-ACooperativeStandAgainstaCosmicHorror」のKickstarterキャンペーンを開催している。目標額は5000ドルで，本稿執筆時点では3万4000ドルを超える支援を集めている。キャンペーン期間は10月1日まで。",
+   "title": "羊たちが宇宙的恐怖に挑む！ 協力ボードゲーム「Tangled Yarns」，クラファンで目標の6倍超もの支援を獲得。日本語ルールブックも公開済み",
+   "updatedAt": 1788818045815,
+   "url": "https://www.4gamer.net/games/040/G104005/20260908003/"
   },
   "https://www.4gamer.net/games/172/g017216/20260904051": {
    "bodyBlocks": [],
@@ -392,7 +497,7 @@
   },
   "https://www.4gamer.net/games/369/g036904/20260907028": {
    "bodyBlocks": [],
-   "checkedAt": 1788778628628,
+   "checkedAt": 1788818045815,
    "etag": "",
    "hash": "2be095d3fd5ab99a",
    "id": "fa2234e68cac",
@@ -402,7 +507,7 @@
    "publishedAt": 1788769065000,
    "summary": "任天堂は2026年9月7日，映像「フェーちゃんねる2026.9.7」を公開し，「ファイアーエムブレムヒーローズ」の最新情報を発表した。今回は，「ファイアーエムブレム万紫千紅」よりカイ，セオドラら4名の英雄をラインナップした召喚イベントを9月8日16：00に開始することや，キャンペーンが明らかにされた。",
    "title": "「ファイアーエムブレム ヒーローズ」，新作「FE万紫千紅」のカイ，セオドラら新英雄が9月8日に参戦。キャンペーン情報も発表",
-   "updatedAt": 1788778628628,
+   "updatedAt": 1788818045815,
    "url": "https://www.4gamer.net/games/369/G036904/20260907028/"
   },
   "https://www.4gamer.net/games/390/g039084/20260905008": {
@@ -465,9 +570,24 @@
    "updatedAt": 1788751789035,
    "url": "https://www.4gamer.net/games/476/G047609/20260904057/"
   },
+  "https://www.4gamer.net/games/476/g047609/20260907042": {
+   "bodyBlocks": [],
+   "checkedAt": 1788818045815,
+   "etag": "",
+   "hash": "f8698aa4751df056",
+   "id": "b1b2b8fbbb2f",
+   "imageUrl": "https://www.4gamer.net/games/476/G047609/20260907042/SS/001.jpg",
+   "key": "https://www.4gamer.net/games/476/g047609/20260907042",
+   "lastModified": "",
+   "publishedAt": 1788780853000,
+   "summary": "",
+   "title": "「プロセカ」，バースデーイベント「HAPPY BIRTHDAY 鳳 えむ 2026」を開催中",
+   "updatedAt": 1788818045815,
+   "url": "https://www.4gamer.net/games/476/G047609/20260907042/"
+  },
   "https://www.4gamer.net/games/486/g048621/20260907018": {
    "bodyBlocks": [],
-   "checkedAt": 1788778628628,
+   "checkedAt": 1788818045815,
    "etag": "",
    "hash": "e68065af388a58d3",
    "id": "ab83586bcedd",
@@ -477,23 +597,8 @@
    "publishedAt": 1788759941000,
    "summary": "HoYoverseは本日，オープンワールドRPG「原神」のVer.7.1「冥府へのレクイエム」予告番組を2026年9月12日21：00から配信すると発表した。本番組には，伊藤かな恵さん（ヴォジャニーツァ役），上坂すみれさん（オデット役），古賀葵さん（パイモン役）が出演し，最新情報を紹介していく。",
    "title": "「原神」，Ver.7.1「冥府へのレクイエム」予告番組を9月12日21：00から配信。伊藤かな恵さん，上坂すみれさん，古賀 葵さんが出演",
-   "updatedAt": 1788778628628,
+   "updatedAt": 1788818045815,
    "url": "https://www.4gamer.net/games/486/G048621/20260907018/"
-  },
-  "https://www.4gamer.net/games/511/g051152/20260904034": {
-   "bodyBlocks": [],
-   "checkedAt": 1788731623664,
-   "etag": "",
-   "hash": "697fa5dd331bbe14",
-   "id": "d804170dadab",
-   "imageUrl": "https://www.4gamer.net/games/511/G051152/20260904034/SS/005.jpg",
-   "key": "https://www.4gamer.net/games/511/g051152/20260904034",
-   "lastModified": "",
-   "publishedAt": 1788509442000,
-   "summary": "ポケットペアは本日，同社が2020年から早期アクセス版を配信中の「クラフトピア」について，正式版のリリース時期が2027年に決定したことを発表した。本作は，狩り，農業，ハクスラ，建築，自動化などの要素を取り入れた，マルチプレイ対応のオープンワールドサバイバルアクションだ。",
-   "title": "オープンワールドサバイバルアクション「クラフトピア」，正式版のリリース時期が2027年に決定。6周年を記念したミニアップデートを本日配信",
-   "updatedAt": 1788731623664,
-   "url": "https://www.4gamer.net/games/511/G051152/20260904034/"
   },
   "https://www.4gamer.net/games/520/g052062/20260904048": {
    "bodyBlocks": [],
@@ -512,7 +617,7 @@
   },
   "https://www.4gamer.net/games/540/g054095/20260907006": {
    "bodyBlocks": [],
-   "checkedAt": 1788778628628,
+   "checkedAt": 1788818045815,
    "etag": "",
    "hash": "903e9ef31bfe5dd0",
    "id": "9faef39cd5bb",
@@ -522,7 +627,7 @@
    "publishedAt": 1788750000000,
    "summary": "ドリコムは，コラボポップアップショップ「WizardrySHOP〜仕事猫の《迷宮》出張所〜残業編」を，2026年9月17日から10月31日まで書泉ブックタワー，書泉グランデ，芳林堂書店高田馬場にて開催すると発表した。今回は，Tシャツ（3種）やピンバッジセットなど新作グッズも用意されるとのこと。",
    "title": "「Wizardry SHOP 〜仕事猫の《迷宮》出張所〜 残業編」，9月17日より東京都内で開催。新作を含む複数のグッズをラインナップ",
-   "updatedAt": 1788778628628,
+   "updatedAt": 1788818045815,
    "url": "https://www.4gamer.net/games/540/G054095/20260907006/"
   },
   "https://www.4gamer.net/games/550/g055070/20260904035": {
@@ -557,7 +662,7 @@
   },
   "https://www.4gamer.net/games/706/g070647/20260907020": {
    "bodyBlocks": [],
-   "checkedAt": 1788778628628,
+   "checkedAt": 1788818045815,
    "etag": "",
    "hash": "f9f32dea6c4fcea9",
    "id": "8bebb005b3d1",
@@ -567,12 +672,12 @@
    "publishedAt": 1788760375000,
    "summary": "RobinEntertainmentは，開発中の「POLYSTRIKE」のSteamウィッシュリスト登録数が，正式発表から3週間弱で約1万件に達したと発表した。本作は，「Dota2」のカスタムゲームを原点とする5v5タクティカルシューターで，視界や音を手掛かりに敵の位置を探る情報戦を特徴とする。日本語表示にも対応している。",
    "title": "見下ろし型5v5タクティカルシューター「POLYSTRIKE」，発表3週間弱でSteamウィッシュリスト約1万件。日本語にも対応",
-   "updatedAt": 1788778628628,
+   "updatedAt": 1788818045815,
    "url": "https://www.4gamer.net/games/706/G070647/20260907020/"
   },
   "https://www.4gamer.net/games/751/g075133/20260907030": {
    "bodyBlocks": [],
-   "checkedAt": 1788778628628,
+   "checkedAt": 1788818045815,
    "etag": "",
    "hash": "f60fa3a6a062bbff",
    "id": "7b29705c51f3",
@@ -582,7 +687,7 @@
    "publishedAt": 1788769853000,
    "summary": "PLAYISMは本日（2026年9月7日），KOTAKECREATEが開発を手掛けるウォーキングシミュレーター「8番出口」の累計販売本数が，300万本を突破したと発表した。現在，記念としてPSStoreを除く各プラットフォームにて，「8番出口」とその続編「8番のりば」のセールが実施されている。",
    "title": "「8番出口」の累計販売本数が300万本を突破。記念として「8番出口」「8番のりば」のセールがスタート",
-   "updatedAt": 1788778628628,
+   "updatedAt": 1788818045815,
    "url": "https://www.4gamer.net/games/751/G075133/20260907030/"
   },
   "https://www.4gamer.net/games/755/g075576/20260904037": {
@@ -602,7 +707,7 @@
   },
   "https://www.4gamer.net/games/773/g077376/20260904056": {
    "bodyBlocks": [],
-   "checkedAt": 1788778628628,
+   "checkedAt": 1788818045815,
    "etag": "",
    "hash": "acc9d2f98f5c2530",
    "id": "9b5173663d77",
@@ -612,12 +717,12 @@
    "publishedAt": 1788742800000,
    "summary": "講談社ゲームラボは本日，Mana氏が手掛けるイマーシブアートADV「カタルシス〜最後のアトリエ〜」のSteamストアページを公開した。本作は，ゴッホやクリムト，モネらの名画をモチーフにした世界を歩き，絵画に宿る「記憶」を集めながら10の世界を巡る作品だ。2026年内の発売を予定している。",
    "title": "名画のなかを歩き，「記憶」を集めるイマーシブアートADV「カタルシス〜最後のアトリエ〜」，Steamストアページを公開",
-   "updatedAt": 1788778628628,
+   "updatedAt": 1788818045815,
    "url": "https://www.4gamer.net/games/773/G077376/20260904056/"
   },
   "https://www.4gamer.net/games/799/g079934/20260907010": {
    "bodyBlocks": [],
-   "checkedAt": 1788778628628,
+   "checkedAt": 1788818045815,
    "etag": "",
    "hash": "c06dc170f54165f8",
    "id": "02ed49440645",
@@ -627,7 +732,7 @@
    "publishedAt": 1788753167000,
    "summary": "EdmundMcMillen氏とTylerGlaiel氏は2026年9月6日，ローグライクタクティカルRPG「Mewgenics」が日本語表示に正式対応したと発表した。あわせて，2026年9月8日にはコンソール版を発売し，Steamアカウントとの連携でセーブデータをダウンロードして遊べるという。",
    "title": "遺伝子操作を重ね，ネコ戦士を繁殖させて戦うタクティカルRPG「Mewgenics」，日本語に正式対応。2026年9月8日にはコンソール版も発売",
-   "updatedAt": 1788778628628,
+   "updatedAt": 1788818045815,
    "url": "https://www.4gamer.net/games/799/G079934/20260907010/"
   },
   "https://www.4gamer.net/games/807/g080705/20260906002": {
@@ -692,7 +797,7 @@
   },
   "https://www.4gamer.net/games/865/g086595/20260907007": {
    "bodyBlocks": [],
-   "checkedAt": 1788778628628,
+   "checkedAt": 1788818045815,
    "etag": "",
    "hash": "eda473593fe7b89e",
    "id": "29ad5067905a",
@@ -702,12 +807,12 @@
    "publishedAt": 1788750087000,
    "summary": "カプコンは本日，「鬼武者WayoftheSword」で「モンスターハンターライズ」とのコラボ衣装を無料DLCとして配信開始した。静御前と出雲阿国の衣装を，それぞれヒノエとヨモギをモチーフにしたデザインに変更できる。また，コラボを記念した4コマ漫画も公開中だ。",
    "title": "「鬼武者 Way of the Sword」，「モンスターハンターライズ」ヒノエ＆ヨモギ風のコラボ衣装を無料DLCで配信。コラボ4コマ漫画も公開中",
-   "updatedAt": 1788778628628,
+   "updatedAt": 1788818045815,
    "url": "https://www.4gamer.net/games/865/G086595/20260907007/"
   },
   "https://www.4gamer.net/games/865/g086595/20260907031": {
    "bodyBlocks": [],
-   "checkedAt": 1788778628628,
+   "checkedAt": 1788818045815,
    "etag": "",
    "hash": "08a560122b0b453a",
    "id": "d6de81e49fc8",
@@ -717,7 +822,7 @@
    "publishedAt": 1788772556000,
    "summary": "カプコンは2026年9月7日，「鬼武者WayoftheSword」の全世界販売本数が発売初日に100万本を突破したと発表した。今回の販売伸長により，「鬼武者」シリーズの累計販売本数が1000万本を達成したことも明らかにされた。",
    "title": "「鬼武者 Way of the Sword」，全世界販売本数が発売初日に100万本を突破。シリーズ累計販売本数は1000万本を達成",
-   "updatedAt": 1788778628628,
+   "updatedAt": 1788818045815,
    "url": "https://www.4gamer.net/games/865/G086595/20260907031/"
   },
   "https://www.4gamer.net/games/897/g089789/20260904036": {
@@ -750,9 +855,24 @@
    "updatedAt": 1788778628628,
    "url": "https://www.4gamer.net/games/906/G090649/20260903026/"
   },
+  "https://www.4gamer.net/games/908/g090896/20260907040": {
+   "bodyBlocks": [],
+   "checkedAt": 1788818045815,
+   "etag": "",
+   "hash": "5b46edf9f3a0525d",
+   "id": "c82da6ac8729",
+   "imageUrl": "https://www.4gamer.net/games/908/G090896/20260907040/SS/001.jpg",
+   "key": "https://www.4gamer.net/games/908/g090896/20260907040",
+   "lastModified": "",
+   "publishedAt": 1788780281000,
+   "summary": "Elementaは，オープンワールドRPG「白銀の城」のグローバル事前登録を受付中だ。本作は，ヴィクトリア朝様式の大都市「シルバニア」を舞台に，人間社会に潜む人狼や怪物が引き起こす事件を調査・推理しながら，パリィを軸としたアクションバトルを繰り広げる。",
+   "title": "「白銀の城」，グローバル事前登録を受付中。ヴィクトリア朝様式の大都市を舞台に，事件を調査・推理しながら怪物と戦うオープンワールドRPG",
+   "updatedAt": 1788818045815,
+   "url": "https://www.4gamer.net/games/908/G090896/20260907040/"
+  },
   "https://www.4gamer.net/games/919/g091974/20260907009": {
    "bodyBlocks": [],
-   "checkedAt": 1788778628628,
+   "checkedAt": 1788818045815,
    "etag": "",
    "hash": "e8e3999a8d6a0844",
    "id": "cc5b83d8d8e8",
@@ -762,7 +882,7 @@
    "publishedAt": 1788756415000,
    "summary": "個人開発者のLapismine氏は本日，PC用ソフト「DungeonPicnic」の体験版の配信をSteamで開始した。本作は，RPGのおいしいところを凝縮したパーティ構築型ローグライクRPGだ。キャラごとのMPは存在せず，カードゲームのようにパーティ全体で「マナ」を共有する。",
    "title": "RPGの醍醐味を凝縮したパーティ構築型ローグライクRPG「Dungeon Picnic」，体験版をSteamで配信開始",
-   "updatedAt": 1788778628628,
+   "updatedAt": 1788818045815,
    "url": "https://www.4gamer.net/games/919/G091974/20260907009/"
   },
   "https://www.4gamer.net/games/928/g092856/20260903022": {
@@ -782,7 +902,7 @@
   },
   "https://www.4gamer.net/games/933/g093330/20260907004": {
    "bodyBlocks": [],
-   "checkedAt": 1788778628628,
+   "checkedAt": 1788818045815,
    "etag": "",
    "hash": "4ad2bbbac0560308",
    "id": "e763e3dcb229",
@@ -792,12 +912,12 @@
    "publishedAt": 1788750000000,
    "summary": "日本一ソフトウェアは本日，生活シミュレーション「ほの暮しの庭」のPS5版ゲームトライアルをPlayStationPlusプレミアム向けに配信開始した。製品版と同じ内容を最長5時間プレイでき，農作や畜産，釣り，狩り，村人との交流などを楽しめる。セーブデータは製品版へ引き継ぎ可能だ。",
    "title": "「ほの暮しの庭」，PS Plusプレミアムでゲームトライアルを配信開始。ノスタルジックな田舎暮らしを最長5時間体験できる",
-   "updatedAt": 1788778628628,
+   "updatedAt": 1788818045815,
    "url": "https://www.4gamer.net/games/933/G093330/20260907004/"
   },
   "https://www.4gamer.net/games/945/g094562/20260907013": {
    "bodyBlocks": [],
-   "checkedAt": 1788778628628,
+   "checkedAt": 1788818045815,
    "etag": "",
    "hash": "17f6293ab15b7467",
    "id": "2faeb20c9465",
@@ -807,12 +927,12 @@
    "publishedAt": 1788754508000,
    "summary": "東北新社は本日，スクウェア・エニックスと共催するRPG「ドラゴンクエスト」シリーズの40周年を記念した展示イベント「ドラゴンクエストtheDIVE-まだ見ぬ冒険の舞台へ-」を，2027年1月26日から3月14日まで大阪で開催すると発表した。2026年9月8日10：00にチケットのアプリ限定先行販売を開始する。",
    "title": "「ドラクエ」40周年記念イベント「ドラゴンクエスト the DIVE」，大阪で2027年1月26日から開催。VRでドラクエの世界へ飛び込める",
-   "updatedAt": 1788778628628,
+   "updatedAt": 1788818045815,
    "url": "https://www.4gamer.net/games/945/G094562/20260907013/"
   },
   "https://www.4gamer.net/games/954/g095479/20260906001": {
    "bodyBlocks": [],
-   "checkedAt": 1788778628628,
+   "checkedAt": 1788818045815,
    "etag": "",
    "hash": "81386dfe96e3ae2c",
    "id": "e5f0bb0e5d2b",
@@ -822,7 +942,7 @@
    "publishedAt": 1788735600000,
    "summary": "「え？あれって今週発売だったの!?」となりがちな人のための週刊連載「今週のモチベ」。今週は，東欧の荒廃した工業地帯を舞台とする，最大100人参加のタクティカルFPS「WARDOGS」や，映画「Halloween」を題材とする「Halloween:TheGame」が発売となる。",
    "title": "【今週のモチベ】100人規模のタクティカルFPS「WARDOGS」の早期アクセスが始まる 2026年9月7日〜9月13日",
-   "updatedAt": 1788778628628,
+   "updatedAt": 1788818045815,
    "url": "https://www.4gamer.net/games/954/G095479/20260906001/"
   },
   "https://www.4gamer.net/games/962/g096255/20260904059": {
@@ -857,7 +977,7 @@
   },
   "https://www.4gamer.net/games/968/g096854/20260907011": {
    "bodyBlocks": [],
-   "checkedAt": 1788778628628,
+   "checkedAt": 1788818045815,
    "etag": "",
    "hash": "3e19e82d25bbdef0",
    "id": "7e9ead419bb7",
@@ -867,12 +987,12 @@
    "publishedAt": 1788753238000,
    "summary": "セガは本日（2026年9月7日），新作アクションRPG「ステューピッド・ネバー・ダイズ」のWebCM「バイトアクション編」「ストーリー編」を，同社公式YouTubeチャンネルで公開した。",
    "title": "「ステューピッド・ネバー・ダイズ」，WebCM「バイトアクション編」「ストーリー編」が公開に。体験版も配信中",
-   "updatedAt": 1788778628628,
+   "updatedAt": 1788818045815,
    "url": "https://www.4gamer.net/games/968/G096854/20260907011/"
   },
   "https://www.4gamer.net/games/975/g097529/20260907019": {
    "bodyBlocks": [],
-   "checkedAt": 1788778628628,
+   "checkedAt": 1788818045815,
    "etag": "",
    "hash": "ab0659ab0f39a8ad",
    "id": "3bfb49e8b56d",
@@ -882,7 +1002,7 @@
    "publishedAt": 1788759789000,
    "summary": "NCは本日（2026年9月7日），DynamisOneが手掛ける新作「アストラエ・オラティオ」について，「東京ゲームショウ2026」の特設ページ開設を発表し，併せて出展内容を公開した。会場では本作を試遊可能なほか，「シナリオ上映会：プロローグ」も予定されている。",
    "title": "「アストラエ・オラティオ」，東京ゲームショウ2026で世界初のプレイアブル出展を実施。シナリオと戦闘のいずれかを選択して体験可能",
-   "updatedAt": 1788778628628,
+   "updatedAt": 1788818045815,
    "url": "https://www.4gamer.net/games/975/G097529/20260907019/"
   },
   "https://www.4gamer.net/games/981/g098198/20260905001": {
@@ -947,7 +1067,7 @@
   },
   "https://www.4gamer.net/games/991/g999101/20260907017": {
    "bodyBlocks": [],
-   "checkedAt": 1788778628628,
+   "checkedAt": 1788818045815,
    "etag": "",
    "hash": "76df4bfcad143915",
    "id": "53269ece8eb0",
@@ -957,8 +1077,23 @@
    "publishedAt": 1788757805000,
    "summary": "IGDA日本は本日（2026年9月7日），セミナー「インディーゲーム開発初心者のための、ゲームの広め方講座」を9月29日に開催すると発表した。",
    "title": "IGDA日本，勉強会「インディーゲーム開発初心者のための，ゲームの広め方講座」を9月29日開催。インディーゲーム開発者による新SIGの立ち上げ準備も進行中",
-   "updatedAt": 1788778628628,
+   "updatedAt": 1788818045815,
    "url": "https://www.4gamer.net/games/991/G999101/20260907017/"
+  },
+  "https://www.4gamer.net/games/991/g999102/20260907043": {
+   "bodyBlocks": [],
+   "checkedAt": 1788818045815,
+   "etag": "",
+   "hash": "febac7ae91332e2d",
+   "id": "b6fdf341d65a",
+   "imageUrl": "https://www.4gamer.net/games/991/G999102/20260907043/SS/002.jpg",
+   "key": "https://www.4gamer.net/games/991/g999102/20260907043",
+   "lastModified": "",
+   "publishedAt": 1788781917000,
+   "summary": "ソニー・ピクチャーズは本日（2026年9月7日），映画「バイオハザード」について日本語吹替え版の上映決定を発表した。日本語吹替え版では，下野紘さんが主人公ブライアンを，早見沙織さんがブライアンの恋人ミシェルを演じるとのこと。",
+   "title": "映画「バイオハザード」，日本語吹替え版の上映が決定。主人公ブライアン役に下野 紘さん，恋人ミシェル役に早見沙織さんを起用",
+   "updatedAt": 1788818045815,
+   "url": "https://www.4gamer.net/games/991/G999102/20260907043/"
   },
   "https://www.4gamer.net/games/991/g999104/20260905004": {
    "bodyBlocks": [],
@@ -989,6 +1124,21 @@
    "title": "eスポーツチーム「REJECT」がラーメン店「鬼金棒」とコラボ。天鬼ぷるる＆ふ〜どが開発したコラボラーメンを鬼金棒 Labで期間・数量限定販売",
    "updatedAt": 1788751789035,
    "url": "https://www.4gamer.net/games/991/G999105/20260904062/"
+  },
+  "https://www.4gamer.net/games/991/g999106/20260907014": {
+   "bodyBlocks": [],
+   "checkedAt": 1788818045815,
+   "etag": "",
+   "hash": "558c5afafe337564",
+   "id": "c08730e27ff8",
+   "imageUrl": "https://www.4gamer.net/games/991/G999106/20260907014/TN/001.jpg",
+   "key": "https://www.4gamer.net/games/991/g999106/20260907014",
+   "lastModified": "",
+   "publishedAt": 1788778800000,
+   "summary": "本日，声優の中村悠一さんと，フリーライターのマフィア梶田さんによるWeb番組「わしゃがなTV」の最新動画が公開された。今回は，中村さんが衝動買いした可動ロボットフィギュアシリーズ「プロジェニターエフェクト（PROGENITOREFFECT）」の開封動画をお届けする。",
+   "title": "わしゃがなTVの最新動画では，中国製のロボットフィギュア「プロジェニターエフェクト」を紹介。ロボ3体セットのコスパに驚愕",
+   "updatedAt": 1788818045815,
+   "url": "https://www.4gamer.net/games/991/G999106/20260907014/"
   },
   "https://www.4gamer.net/games/991/g999110/20260903035": {
    "bodyBlocks": [],
@@ -1053,11 +1203,11 @@
  },
  "listing": {
   "https://www.4gamer.net/rss/index.xml": {
-   "checkedAt": 1788778630775,
-   "etag": "\"143f7-65ae253011d2f-gzip\"",
-   "lastModified": "Mon, 07 Sep 2026 10:46:01 GMT"
+   "checkedAt": 1788818048412,
+   "etag": "\"14063-65ae8028dba7e-gzip\"",
+   "lastModified": "Mon, 07 Sep 2026 17:33:02 GMT"
   }
  },
  "siteId": "4gamer",
- "updatedAt": 1788778693920
+ "updatedAt": 1788818115678
 }
