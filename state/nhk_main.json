@@ -212,17 +212,17 @@
   },
   "https://news.web.nhk/newsweb/na/nd-20260907de48631": {
    "bodyBlocks": [],
-   "checkedAt": 1788752053651,
+   "checkedAt": 1788778901965,
    "etag": "",
-   "hash": "dbcd2c49f41c6c87",
+   "hash": "d96503c8a06da7cd",
    "id": "6bf8ec37051f",
    "imageUrl": "",
    "key": "https://news.web.nhk/newsweb/na/nd-20260907de48631",
    "lastModified": "",
-   "publishedAt": 1788747973000,
-   "summary": "秋雨前線の影響で東京の伊豆諸島や関東南部では大雨となり、新島村には「レベル5土砂災害特別警報」が発表されています。\n新島など伊豆諸島にはその後も発達した雨雲がかかっていて、少しでも安全な場所で過ごすよ…",
-   "title": "東京 新島村に土砂災害特別警報 大雨の範囲は東北にも広がる",
-   "updatedAt": 1788752053651,
+   "publishedAt": 1788775920000,
+   "summary": "秋雨前線の活動が活発になり、東京の伊豆諸島では記録的な大雨になっていて、大島町と利島村、新島村には「レベル5土砂災害特別警報」が発表されています。\n伊豆諸島北部ではその後も発達した雨雲がかかっていて、…",
+   "title": "大島町 利島村 新島村に土砂災害特別警報 千葉県でも大雨に",
+   "updatedAt": 1788778901965,
    "url": "https://news.web.nhk/newsweb/na/nd-20260907de48631"
   },
   "https://news.web.nhk/newsweb/na/nd-20260907de48654": {
@@ -287,17 +287,17 @@
   },
   "https://news.web.nhk/newsweb/na/nd-20260907de48714": {
    "bodyBlocks": [],
-   "checkedAt": 1788752053651,
+   "checkedAt": 1788778901965,
    "etag": "",
-   "hash": "d3123a580cf92a14",
+   "hash": "6bd844a67c7d7dca",
    "id": "de78de38b39a",
    "imageUrl": "",
    "key": "https://news.web.nhk/newsweb/na/nd-20260907de48714",
    "lastModified": "",
-   "publishedAt": 1788751297000,
-   "summary": "7日午前、福島県いわき市でアンダーパスが大雨の影響で冠水し、車2台が水につかっているのが見つかりました。\nこのうち1台から1人が救助されましたが、意識がない状態で病院に搬送されました。",
-   "title": "【被害】福島 いわきではアンダーパスで車両浸水 1人意識なし",
-   "updatedAt": 1788752053651,
+   "publishedAt": 1788777013000,
+   "summary": "7日朝、福島県いわき市で、大雨の影響で冠水したアンダーパスで車2台が水没し、このうちの1台から60代の女性が救助されましたが、搬送先の病院で死亡が確認されました。",
+   "title": "【被害】福島 いわき アンダーパスで水没した車の女性死亡",
+   "updatedAt": 1788778901965,
    "url": "https://news.web.nhk/newsweb/na/nd-20260907de48714"
   },
   "https://news.web.nhk/newsweb/na/nd-20260907de48723": {
@@ -315,29 +315,89 @@
    "updatedAt": 1788752053651,
    "url": "https://news.web.nhk/newsweb/na/nd-20260907de48723"
   },
+  "https://news.web.nhk/newsweb/na/nd-20260907de48739": {
+   "bodyBlocks": [],
+   "checkedAt": 1788778901965,
+   "etag": "",
+   "hash": "53915185ed771d26",
+   "id": "49ac7b2d21c6",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260907de48739",
+   "lastModified": "",
+   "publishedAt": 1788777707000,
+   "summary": "ことし7月の景気動向指数は景気の現状を示す「一致指数」が前の月を1.7ポイント上回り、内閣府は「改善を示している」という景気の基調判断を維持しました。\n専門家からは景気拡大が続いていた場合その期間が…",
+   "title": "景気拡大 戦後最長の見方も 7月景気動向指数「改善」維持",
+   "updatedAt": 1788778901965,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260907de48739"
+  },
   "https://news.web.nhk/newsweb/na/nd-20260907de48752": {
    "bodyBlocks": [],
-   "checkedAt": 1788752053651,
+   "checkedAt": 1788778901965,
    "etag": "",
-   "hash": "f1f9bf54f35e8abd",
+   "hash": "a5fccdad9adb4dd3",
    "id": "e97a99541677",
    "imageUrl": "",
    "key": "https://news.web.nhk/newsweb/na/nd-20260907de48752",
    "lastModified": "",
-   "publishedAt": 1788751567000,
-   "summary": "5日、岐阜県本巣市の店舗兼住宅で3人が死亡した火事で、死亡した3人のうち70歳の会社役員は建物の駐車場にとめた車の中で見つかっていたことが、警察への取材でわかりました。\nほかに救助された10人は火事…",
-   "title": "3人死亡火事 会社役員 建物駐車場の車内で見つかる",
-   "updatedAt": 1788752053651,
+   "publishedAt": 1788777746000,
+   "summary": "5日、岐阜県本巣市の店舗兼住宅が放火された疑いがある事件で、現場から複数の刃物が押収されていたことが警察への取材でわかりました。\n警察は、死亡した3人のうち会社役員の自宅を捜索するなど、役員が事件に…",
+   "title": "岐阜 洋菓子店放火疑い事件 警察が現場から複数の刃物押収",
+   "updatedAt": 1788778901965,
    "url": "https://news.web.nhk/newsweb/na/nd-20260907de48752"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260907de48786": {
+   "bodyBlocks": [],
+   "checkedAt": 1788778901965,
+   "etag": "",
+   "hash": "6bb5cf62bc6bdab5",
+   "id": "7d825c1c9e37",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260907de48786",
+   "lastModified": "",
+   "publishedAt": 1788763213000,
+   "summary": "「レベル5土砂災害特別警報」が発表された伊豆諸島の大島町で7日午後1時ごろに撮影された映像です。",
+   "title": "【動画】土砂災害特別警報の大島町 大粒の雨 激しく打ちつける",
+   "updatedAt": 1788778901965,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260907de48786"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260907de48811": {
+   "bodyBlocks": [],
+   "checkedAt": 1788778901965,
+   "etag": "",
+   "hash": "0570d43838d122ba",
+   "id": "49e0589a95ce",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260907de48811",
+   "lastModified": "",
+   "publishedAt": 1788776566000,
+   "summary": "職員に対する重大なパワハラ行為が認められた横浜市の山中市長の辞職が、7日、市議会の本会議で同意されました。議会後、山中市長は任期途中での辞職を謝罪した一方、辞職に伴う選挙への対応については態度を明らか…",
+   "title": "横浜市 山中市長の辞職 市議会が同意",
+   "updatedAt": 1788778901965,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260907de48811"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260907de48823": {
+   "bodyBlocks": [],
+   "checkedAt": 1788778901965,
+   "etag": "",
+   "hash": "92d24fda1e98d641",
+   "id": "75469ae38b61",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260907de48823",
+   "lastModified": "",
+   "publishedAt": 1788775680000,
+   "summary": "福島県いわき市で車2台が水没し1人が死亡したアンダーパスで、7日午前7時50分すぎに撮影された画像です。",
+   "title": "福島 いわき アンダーパス冠水の現場「音を立て 大量の水が」",
+   "updatedAt": 1788778901965,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260907de48823"
   }
  },
  "listing": {
   "https://www.nhk.or.jp/rss/news/cat0.xml": {
-   "checkedAt": 1788752055092,
-   "etag": "W/\"e29904d26d34b8fc4f2ded83d022e3c7\"",
-   "lastModified": "Mon, 07 Sep 2026 03:30:51 GMT"
+   "checkedAt": 1788778903634,
+   "etag": "W/\"8d174c8da382c90edc002b2c30f5dcd5\"",
+   "lastModified": "Mon, 07 Sep 2026 10:58:13 GMT"
   }
  },
  "siteId": "nhk_main",
- "updatedAt": 1788752055093
+ "updatedAt": 1788778903634
 }
