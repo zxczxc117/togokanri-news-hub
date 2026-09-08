@@ -482,17 +482,17 @@
   },
   "https://news.web.nhk/newsweb/na/nd-20260908de48909": {
    "bodyBlocks": [],
-   "checkedAt": 1788838475646,
+   "checkedAt": 1788865347000,
    "etag": "",
-   "hash": "8cd7424f93461edc",
+   "hash": "c323d13980725e26",
    "id": "5dc866b1a62c",
    "imageUrl": "",
    "key": "https://news.web.nhk/newsweb/na/nd-20260908de48909",
    "lastModified": "",
-   "publishedAt": 1788837778000,
-   "summary": "秋雨前線や熱帯低気圧の影響で、西日本や東日本の太平洋側を中心に大気の状態が非常に不安定になり、局地的に激しい雨が降っています。\n東海や四国では9月8日の午後から9日にかけて線状降水帯が発生する可能性が…",
-   "title": "大雨続く 東海と四国では線状降水帯発生の可能性も 警戒を",
-   "updatedAt": 1788838475646,
+   "publishedAt": 1788862937000,
+   "summary": "秋雨前線や熱帯低気圧の影響で、東海では線状降水帯が発生し猛烈な雨が降っていて、愛知県と岐阜県を流れる庄内川では「レベル5氾濫特別警報」が発表されました。\n気象庁と国土交通省は周囲の状況を確認し、避難…",
+   "title": "庄内川 レベル5氾濫特別警報 東海で線状降水帯発生 最大警戒を",
+   "updatedAt": 1788865347000,
    "url": "https://news.web.nhk/newsweb/na/nd-20260908de48909"
   },
   "https://news.web.nhk/newsweb/na/nd-20260908de48914": {
@@ -584,15 +584,105 @@
    "title": "静岡 川根本町 工事現場で土砂崩れ 作業員1人巻き込まれる",
    "updatedAt": 1788838475646,
    "url": "https://news.web.nhk/newsweb/na/nd-20260908de48964"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260908de49034": {
+   "bodyBlocks": [],
+   "checkedAt": 1788865347000,
+   "etag": "",
+   "hash": "ff3a2be271d9fcec",
+   "id": "a25c9a33605c",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260908de49034",
+   "lastModified": "",
+   "publishedAt": 1788863991000,
+   "summary": "今回の大雨の影響で各地で被害が出ています。\n各地の状況をまとめています。",
+   "title": "【動画】大雨で道路冠水や地下鉄駅の浸水 被害状況は",
+   "updatedAt": 1788865347000,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260908de49034"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260908de49068": {
+   "bodyBlocks": [],
+   "checkedAt": 1788865347000,
+   "etag": "",
+   "hash": "c32b2e8a8cc06288",
+   "id": "c03cdd30377a",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260908de49068",
+   "lastModified": "",
+   "publishedAt": 1788861055000,
+   "summary": "働く人に景気の実感を聞く8月の景気ウォッチャー調査は、住宅関連で改善しているという見方が増えたことなどから、景気の現状を示す指数が4か月連続で前の月を上回りました。このため内閣府は景気の判断を「持ち直…",
+   "title": "街角景気 8月は4か月連続で前月超え 景気判断を上方修正",
+   "updatedAt": 1788865347000,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260908de49068"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260908de49074": {
+   "bodyBlocks": [],
+   "checkedAt": 1788865347000,
+   "etag": "",
+   "hash": "7322d7f4045baae0",
+   "id": "5e10c9189f66",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260908de49074",
+   "lastModified": "",
+   "publishedAt": 1788859560000,
+   "summary": "名古屋市は、午後5時55分、市内を流れる川が氾濫する可能性が非常に高まっているとして、「緊急安全確保」の地域を拡大しました。",
+   "title": "名古屋 「緊急安全確保」の地域を拡大 14の区の一部地域に",
+   "updatedAt": 1788865347000,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260908de49074"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260908de49095": {
+   "bodyBlocks": [],
+   "checkedAt": 1788865347000,
+   "etag": "",
+   "hash": "e1f3d80a9d652ef4",
+   "id": "098bbfa2a200",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260908de49095",
+   "lastModified": "",
+   "publishedAt": 1788861290000,
+   "summary": "熊本県嘉島町の「イオンモール熊本」で起きた大規模な爆発を受けて、経済産業省の審議会で、法令やガイドラインの見直しなど再発防止に向けた制度面での対応についての議論が始まりました。",
+   "title": "イオンモール熊本の爆発受け経産省で制度対応の検討始まる",
+   "updatedAt": 1788865347000,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260908de49095"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260908de49099": {
+   "bodyBlocks": [],
+   "checkedAt": 1788865347000,
+   "etag": "",
+   "hash": "4d83adb2a522bba5",
+   "id": "6eef0ccc59df",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260908de49099",
+   "lastModified": "",
+   "publishedAt": 1788865001000,
+   "summary": "気象庁と国土交通省は庄内川にレベル5氾濫特別警報を発表したことについて、午後7時20分から会見を開きました。",
+   "title": "愛知 岐阜 庄内川にレベル5氾濫特別警報 気象庁と国交省会見",
+   "updatedAt": 1788865347000,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260908de49099"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260908de49121": {
+   "bodyBlocks": [],
+   "checkedAt": 1788865347000,
+   "etag": "",
+   "hash": "121825ab14f01e24",
+   "id": "c51c90ffc911",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260908de49121",
+   "lastModified": "",
+   "publishedAt": 1788863487000,
+   "summary": "愛知県瀬戸市の消防によりますと、午後5時すぎの時点で住宅などが「床下浸水になっている」という通報がおよそ10件入っているということで、消防が確認を進めています。",
+   "title": "愛知 瀬戸 床下浸水の通報はおよそ10件 消防が確認進める",
+   "updatedAt": 1788865347000,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260908de49121"
   }
  },
  "listing": {
   "https://www.nhk.or.jp/rss/news/cat0.xml": {
-   "checkedAt": 1788838477119,
-   "etag": "W/\"4321319bf9e51010f1e2994759a2c582\"",
-   "lastModified": "Tue, 08 Sep 2026 03:30:05 GMT"
+   "checkedAt": 1788865348659,
+   "etag": "W/\"30d6b4e9069466299843592de1604546\"",
+   "lastModified": "Tue, 08 Sep 2026 10:58:12 GMT"
   }
  },
  "siteId": "nhk_main",
- "updatedAt": 1788838477120
+ "updatedAt": 1788865348659
 }

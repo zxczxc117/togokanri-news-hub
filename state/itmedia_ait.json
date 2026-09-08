@@ -776,6 +776,154 @@
    "updatedAt": 1788752043504,
    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/07/news031.html"
   },
+  "https://atmarkit.itmedia.co.jp/ait/articles/2609/08/news035.html": {
+   "bodyBlocks": [
+    {
+     "kind": "P",
+     "text": "OpenAIは2026年9月3日（米国時間）、次世代の大規模言語モデル（LLM）「GPT-6 Astra」を発表した。事前学習や強化学習、アライメント研究の成果を統合したフロンティアモデルであり、PCの自律操作（Computer Use）やコーディング、サイバーセキュリティ、科学研究、専門業務などの領域で性能向上を達成したとしている。"
+    },
+    {
+     "kind": "P",
+     "text": "同モデルは、抽象推論ベンチマーク「ARC-AGI-3」で99.9％、既知の脆弱（ぜいじゃく）性からエクスプロイト（攻撃コード）を作成する能力を評価する「ExploitBench」で100％を記録した。高度な推論力とPC操作能力を組み合わせ、実務タスクを自動化するという。"
+    },
+    {
+     "kind": "H",
+     "text": "提供方式、利用可能プラン、料金"
+    },
+    {
+     "kind": "P",
+     "text": "GPT-6 Astraは同日より一部組織への提供を開始し、その後数日間で「ChatGPT Plus」「ChatGPT Pro」「ChatGPT Business」「ChatGPT Enterprise」の各プラン、開発者向け「OpenAI API」、クラウドサービス「Microsoft Azure」、Amazon Web Services（AWS）の「Amazon Bedrock」を通じて順次提供する。"
+    },
+    {
+     "kind": "P",
+     "text": "Enterpriseプランでは管理者がワークスペースごとに有効化できる。APIでのモデル名は「gpt-6-astra」として提供される。"
+    },
+    {
+     "kind": "P",
+     "text": "標準料金は入力トークン100万個当たり10ドル、出力トークン100万個当たり50ドルで、キャッシュの読み書きには別途料金が適用される。最大2倍の速度で動作する「Fast mode」は標準料金の2倍の価格で利用できる。適格なAPIユーザー向けにはデータ非保持（Zero Data Retention）がサポートされる。"
+    },
+    {
+     "kind": "H",
+     "text": "OSWorld 2.0で作業時間を47％削減、PC自律操作の精度を向上"
+    },
+    {
+     "kind": "P",
+     "text": "GPT-6 Astraは、PC画面の視覚認識とマウスやキーボードの自律操作において高い速度と精度を備える。Webフォーム入力やCRM（顧客関係管理）ツールのデータ更新、カレンダー調整、Web調査と要約作成、科学データ分析、Webサイト構築、フロントエンドの品質保証（QA）テストまで自律的に遂行できる。"
+    },
+    {
+     "kind": "P",
+     "text": "実務的な環境を模したベンチマーク「OSWorld 2.0」のレイテンシシミュレーションにおいて、GPT-6 Astraは前世代モデル「GPT-5.6 Sol」と比較して約47％短い時間で高いタスク完了精度を記録した。GPT-5.6 Solが1タスク当たり約75分を要してスコア65.7％であったのに、GPT-6 Astraは約40分で72.6％を達成した。"
+    },
+    {
+     "kind": "H",
+     "text": "専門業務向け能力の向上、Sitesとの連携で公開、共有"
+    },
+    {
+     "kind": "P",
+     "text": "専門業務向けの文書作成や分析能力も強化され、テンプレートに従ったスライド資料や表計算シート、分析レポートの作成が可能となった。"
+    },
+    {
+     "kind": "P",
+     "text": "「Blender」で住宅を3Dモデル化し、「Unreal Engine 5」の歩行可能シーンに変え、デザイナーやクライアントがレイアウトを探索し、構築前に空間を体験するのを支援する。"
+    },
+    {
+     "kind": "P",
+     "text": "ChatGPT内の機能「 Sites 」と連携し、プロンプトからの指示に基づいて直接WebサイトやWebアプリケーション、ゲームを作成、公開、共有できる。"
+    },
+    {
+     "kind": "H",
+     "text": "Codexにコンテキストの喪失を防ぐ機能"
+    },
+    {
+     "kind": "P",
+     "text": "ソフトウェア開発分野において、GPT-6 Astraは端末操作ベンチマーク「Terminal-Bench 4.0」で57.9％（GPT-5.6 Solは37.3％）、ソフトウェアエンジニアリング評価「DeepSWE v1.1」で74.1％（同72.7％）を記録した。"
+    },
+    {
+     "kind": "P",
+     "text": "コード生成・実行環境「Codex」の実行基盤も刷新された。Web操作ベンチマーク「Mind2Web」ではGPT-5.6 Sol利用時と比べて1.9倍の速度でタスクを完了できるようになったという。"
+    },
+    {
+     "kind": "P",
+     "text": "Codexでは、コンテキストウィンドウが満杯になった際に履歴を圧縮、要約する従来の方式を改め、複数のコンテキストウィンドウ間で詳細なnote（メモ）を保持する機能を導入した。従来の手法では、デバッグやリファクタリングなど長時間のセッションで要約が繰り返される際、修正の失敗原因やコンポーネントの挙動についての細部情報が抜け落ちる課題があった。"
+    },
+    {
+     "kind": "P",
+     "text": "GPT-6 Astraでは詳細情報をnote（メモ）として保持しつつ、過去のコンテキストウィンドウも検索可能に維持する。これにより、要件やテスト結果を以前のメッセージや出力から正確に引き出せる。この機能は現在、設定ファイル「 Codex config.toml 」で実験的機能として有効化でき、数週間以内にデフォルト（既定）の動作となる予定だ。"
+    },
+    {
+     "kind": "H",
+     "text": "ゼロデイ脆弱性の発見能力の向上と悪用リスクへの対策"
+    },
+    {
+     "kind": "P",
+     "text": "サイバーセキュリティ分野において、GPT-6 AstraはOpenAIの安全枠組み「Preparedness Framework」の最高警戒水準「Critical（重大）」の閾（しきい）値に達した。"
+    },
+    {
+     "kind": "P",
+     "text": "保護機能を外した評価実験において、既知の脆弱性から攻撃コードを開発する「ExploitBench」で100％の満点を記録（GPT-5.6 Solは78.5％）した他、バイナリのリバースエンジニアリング能力を測る「SRE-bench」では1回の試行で88.0％、4回以内で99.2％のタスクを解決した（GPT-5.6 Solはそれぞれ55.9％、68.7％）。"
+    },
+    {
+     "kind": "P",
+     "text": "過去データの学習による影響を排除するために、2026年6〜8月に報告された「Google Chrome」のJavaScriptエンジン「V8」の脆弱性を対象とした内部評価「ExploitBench（June-August 2026）」を実施したところ、高い任意のコード実行率を達成した。その検証過程において、同モデルは2件の未知のゼロデイ脆弱性を自律的に特定して悪用実証を行い、OpenAIはこれらをソフトウェア管理者へ開示したとしている。"
+    },
+    {
+     "kind": "P",
+     "text": "専門家による検証では、保護機能を解除したGPT-6 Astraが、セキュリティが強化されたWebブラウザにおいて未知の脆弱性を用いた任意コードを実行し、堅牢（けんろう）化されたOSにおいて権限昇格エクスプロイトを作成できることが確認された。"
+    },
+    {
+     "kind": "P",
+     "text": "悪用リスクへの対策として、一般提供されるモデルでは概念実証（PoC）エクスプロイトの作成といった高度な攻撃タスクの実行は拒否され、コードレビューやパッチ適用などの防御用途に制限される。今後数週間以内に予定されている「OpenAI Daybreak」プログラムを通じ、脆弱性検証やマルウェア解析、検知エンジニアリングといった防御側組織への機能開放を段階的に進める計画だ。"
+    },
+    {
+     "kind": "H",
+     "text": "タスク逸脱を抑止するアライメント強化"
+    },
+    {
+     "kind": "P",
+     "text": "高度な能力に伴う暴走を防ぐため、アライメント技術も刷新された。実行不可能なタスクを与えられた際にモデルが許可された範囲を超えて行動するかどうかを検証したところ、従来のGPT-5.6 Solが48％の割合で権限外の行動に出たのに対し、GPT-6 Astraは逸脱発生率0％を記録した。自身の能力を誇張する「能力ハルシネーション」の頻度も従来の3分の1に低減した。"
+    },
+    {
+     "kind": "P",
+     "text": "システム側の安全策として、モデルの推論過程と実行アクションを検査し、不正な挙動を自動停止する「ミスアライメント監視」を本番環境に導入している。安全確認処理によって正規の作業が一時停止または中断される場合があるが、OpenAIは正当な業務を阻害しないよう調整を継続するとしている。"
+    },
+    {
+     "kind": "LI",
+     "text": "Google「Gemini 3.8 Flash」発表 プロンプト1つで3Dゲーム生成、価格据え置きで大規模モデルに迫る Googleは、「Gemini 3.8 Flash」と防衛特化の「Gemini 3.8 Flash Cyber」を発表した。3.7と同等の低価格を維持しながら、コーディングや推論、脆弱性検知／修正の性能を大幅に向上させた。"
+    },
+    {
+     "kind": "LI",
+     "text": "「最大45％コスト減」 Anthropicが「Claude Fable 5.1」発表 脆弱性検知にも対応 Anthropicは、新AIモデル「Claude Fable 5.1」および「Claude Mythos 5.1」を発表した。キャッシュ読み取り価格の引き下げによりFable 5.1は最大約45％のコスト削減が見込めるとしている。脆弱性検知への対応など、セーフガードも一部変更されたという。"
+    },
+    {
+     "kind": "LI",
+     "text": "Claude、Gemini、GPT――AI競争の負け犬は？ 現場導入の勝ち組を決めるエンジニア「真の強み」 2026年8月17〜23日に＠ITで公開された記事の中で、特に注目を集めた10本をランキング形式で紹介します。読者の関心はどこにあるのでしょうか。"
+    },
+    {
+     "kind": "LI",
+     "text": "AIをよく使う社員だけ5倍に Claude、ChatGPT／Codex、Cursorで企業がAIを本格運用できる時代へ OpenAIがChatGPT BusinessでPremiumシートの提供を開始した。Anthropic、Cursorに続き、主要な企業向けAIで、利用量の多い社員だけ上位シートを割り当てられる仕組みがそろった。3社の料金や利用枠、実際の設定方法を比較し、企業のAI利用で何が変わるのかを考える。"
+    },
+    {
+     "kind": "LI",
+     "text": "Claude、Codex、Qwen……そのAI用語、どう読む？ 読み方クイズ30問 何となくこう読むものだと思っていたら、実は違っていた。そんな経験はないでしょうか。AI用語にも、意外な読み方をするものや、人によって読み方が分かれるものが少なくありません。その読み方が合っているか、全30問のクイズで確かめてみてください。"
+    },
+    {
+     "kind": "H",
+     "text": "関連リンク"
+    }
+   ],
+   "checkedAt": 1788865324040,
+   "etag": "",
+   "hash": "530558a3c348025c",
+   "id": "a3bf51a82d17",
+   "imageUrl": "https://image.itmedia.co.jp/ait/articles/2609/08/cover_news035.jpg",
+   "key": "https://atmarkit.itmedia.co.jp/ait/articles/2609/08/news035.html",
+   "lastModified": "",
+   "publishedAt": 1788854400000,
+   "summary": "OpenAIは、次世代AIモデル「GPT-6 Astra」を発表した。PC自律操作やコーディング、セキュリティ検証などの能力が大幅に向上し、抽象推論ベンチマークテスト「ARC-AGI-3」で99.9％のスコアを達成したという。",
+   "title": "OpenAI「GPT-6 Astra」発表 Codexのコーディングは前世代からどれだけ進化？",
+   "updatedAt": 1788865324040,
+   "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/08/news035.html"
+  },
   "https://atmarkit.itmedia.co.jp/ait/articles/2609/08/news045.html": {
    "bodyBlocks": [
     {
@@ -941,33 +1089,48 @@
   },
   "https://kn.itmedia.co.jp/kn/article/2609/07/2000000807": {
    "bodyBlocks": [],
-   "checkedAt": 1788838447678,
+   "checkedAt": 1788865324040,
    "etag": "",
    "hash": "741bd20201e61ccc",
    "id": "cd736c2259df",
    "imageUrl": "https://kn.itmedia.co.jp/kn/article/ogp/2609/07/2000000807/10003867/2048",
    "key": "https://kn.itmedia.co.jp/kn/article/2609/07/2000000807",
-   "lastModified": "Tue, 08 Sep 2026 02:45:28 GMT",
+   "lastModified": "Tue, 08 Sep 2026 10:45:35 GMT",
    "publishedAt": 1788762689000,
    "summary": "福島といえば喜多方ラーメン。毎日でも飽きないスープのように、生成AIも職員が日常的に使う存在にできるのか。有償アカウント100件と研修を用意しても利用が二極化した福島県が、それでも約6000人への全庁展開に踏み切った理由を追う。",
    "title": "M365 Copilotを配っても「使われない」 でもAI活用が進んだ福島県庁の\"逆張り\"戦略",
-   "updatedAt": 1788838447678,
+   "updatedAt": 1788865324040,
    "url": "https://kn.itmedia.co.jp/kn/article/2609/07/2000000807/"
   },
   "https://kn.itmedia.co.jp/kn/article/2609/08/2000001168": {
    "bodyBlocks": [],
-   "checkedAt": 1788838447678,
+   "checkedAt": 1788865324040,
    "etag": "",
-   "hash": "0ec300514e373608",
+   "hash": "581e279582363a34",
    "id": "a58d6e3f7be5",
    "imageUrl": "https://kn.itmedia.co.jp/kn/article/ogp/2609/08/2000001168/10005208/2048",
    "key": "https://kn.itmedia.co.jp/kn/article/2609/08/2000001168",
-   "lastModified": "Tue, 08 Sep 2026 03:16:39 GMT",
-   "publishedAt": 1788832929000,
+   "lastModified": "Tue, 08 Sep 2026 10:45:35 GMT",
+   "publishedAt": 1788837362000,
    "summary": "AIに仕事を手伝わせるだけでなく、仕事そのものを自動化するにはどうすればいいのか。Google Workspace Studioを使った4つの実例から、日々の業務を効率化する具体的な方法を紹介する。",
-   "title": "Googleの自動化ツール「Workspace Studio」とは？ 他ツールとの違いと活用法",
-   "updatedAt": 1788838447678,
+   "title": "Googleの自動化ツール「Workspace Studio」×Gemini、4つの業務効率化アイデア",
+   "updatedAt": 1788865324040,
    "url": "https://kn.itmedia.co.jp/kn/article/2609/08/2000001168/"
+  },
+  "https://kn.itmedia.co.jp/kn/article/2609/08/2000001255": {
+   "bodyBlocks": [],
+   "checkedAt": 1788865324040,
+   "etag": "",
+   "hash": "43c6b425cd2dede5",
+   "id": "d976c9a3feb2",
+   "imageUrl": "https://kn.itmedia.co.jp/kn/article/ogp/2609/08/2000001255/10005531/2048",
+   "key": "https://kn.itmedia.co.jp/kn/article/2609/08/2000001255",
+   "lastModified": "Tue, 08 Sep 2026 10:45:35 GMT",
+   "publishedAt": 1788838332000,
+   "summary": "Googleが「Gemini 3.8 Flash」の一般提供を開始した。長時間のコーディングや自律型エージェントを想定する新モデルだ。発表内容を読み解くと、単なる性能向上とは異なる3つの変化が見えてくる。",
+   "title": "「Gemini 3.8 Flash」の狙いは“賢さ”ではない？ 発表から見えた3つのポイント",
+   "updatedAt": 1788865324040,
+   "url": "https://kn.itmedia.co.jp/kn/article/2609/08/2000001255/"
   },
   "https://monoist.itmedia.co.jp/mn/articles/2609/04/news033.html": {
    "bodyBlocks": [
@@ -1453,78 +1616,138 @@
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/07/2000001217": {
    "bodyBlocks": [],
-   "checkedAt": 1788838447678,
+   "checkedAt": 1788865324040,
    "etag": "",
    "hash": "cc4e9a43f0bd182e",
    "id": "f6bfc0a78b5a",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/07/2000001217/10005405/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/07/2000001217",
-   "lastModified": "Tue, 08 Sep 2026 02:45:29 GMT",
+   "lastModified": "Tue, 08 Sep 2026 10:45:36 GMT",
    "publishedAt": 1788762737000,
    "summary": "Microsoftは、OpenAIの新モデル「GPT-6 Astra」を「Copilot Cowork」と「Copilot Studio」で提供開始。作業を細かく分けて指示せずとも、より大きなタスクを委任できるとうたう。",
    "title": "M365 Copilotでも「GPT-6 Astra」利用可能に 「Fable 5.1」も可 Work IQと合わせて「より的確な応答」に",
-   "updatedAt": 1788838447678,
+   "updatedAt": 1788865324040,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/07/2000001217/"
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/07/2000001223": {
    "bodyBlocks": [],
-   "checkedAt": 1788838447678,
+   "checkedAt": 1788865324040,
    "etag": "",
    "hash": "60ae9920d1791d9c",
    "id": "a6777aa8b2f2",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/07/2000001223/10005416/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/07/2000001223",
-   "lastModified": "Tue, 08 Sep 2026 02:45:29 GMT",
+   "lastModified": "Tue, 08 Sep 2026 10:45:36 GMT",
    "publishedAt": 1788767922000,
    "summary": "ロボット開発企業のHighlandersは、国産をうたう四足歩行ロボット「HLQ EDGE」を発表した。同日に公開したデモ動画では、段差を昇降する姿などを披露した。",
    "title": "独自AI搭載の「国産四足歩行ロボ」、デモ動画を公開 東大発スタートアップのHighlanders",
-   "updatedAt": 1788838447678,
+   "updatedAt": 1788865324040,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/07/2000001223/"
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001243": {
    "bodyBlocks": [],
-   "checkedAt": 1788838447678,
+   "checkedAt": 1788865324040,
    "etag": "",
    "hash": "34f2a19491853c7f",
    "id": "e5e3e2f08e71",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/08/2000001243/10005504/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001243",
-   "lastModified": "Tue, 08 Sep 2026 02:45:29 GMT",
+   "lastModified": "Tue, 08 Sep 2026 10:45:36 GMT",
    "publishedAt": 1788827515000,
    "summary": "最新モデル「GPT-6 Astra」を使ってBlenderでの3Dモデリングなどを楽しみ、7日（レイバー・デーの祝日）までの連休に利用枠を使い切った人が、平日が始まる8日にもAstraを引き続き使えるようにする。",
    "title": "ChatGPT、有料ユーザー全リセット 「Astra」で使い切った人向けに",
-   "updatedAt": 1788838447678,
+   "updatedAt": 1788865324040,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001243/"
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001245": {
    "bodyBlocks": [],
-   "checkedAt": 1788838447678,
+   "checkedAt": 1788865324040,
    "etag": "",
    "hash": "ea54e0081be3f69f",
    "id": "50a9629cb322",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/08/2000001245/10005508/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001245",
-   "lastModified": "Tue, 08 Sep 2026 02:45:29 GMT",
+   "lastModified": "Tue, 08 Sep 2026 10:45:36 GMT",
    "publishedAt": 1788829721000,
    "summary": "AIモデル「GPT-6 Astra」が、ゲーム「I'm Not a Robot」（私はロボットではありません）の全レベルをクリアした――米OpenAIのITエンジニアであるシャリフ・シャミーム氏は、自身のXアカウント（@sharifshameem）でこのように投稿した。",
    "title": "GPT-6 Astraが「私はロボットではありません」を突破？ パロディーゲームを“全クリ”、OpenAIのエンジニアが報告",
-   "updatedAt": 1788838447678,
+   "updatedAt": 1788865324040,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001245/"
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001252": {
    "bodyBlocks": [],
-   "checkedAt": 1788838447678,
+   "checkedAt": 1788865324040,
    "etag": "",
    "hash": "c3ff0019f79a60b8",
    "id": "584304d8a6b8",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/08/2000001252/10005518/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001252",
-   "lastModified": "Tue, 08 Sep 2026 02:45:29 GMT",
+   "lastModified": "Tue, 08 Sep 2026 10:45:36 GMT",
    "publishedAt": 1788834868000,
    "summary": "ロボット開発企業の中国Unitree Roboticsは、完全自律動作をうたう人型ロボットが人間と格闘するデモ動画を公開した。",
    "title": "人型ロボが「完全自律格闘」 中国Unitreeがデモ動画を公開 AIで「リアルタイムの未来予測」うたう",
-   "updatedAt": 1788838447678,
+   "updatedAt": 1788865324040,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001252/"
+  },
+  "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001257": {
+   "bodyBlocks": [],
+   "checkedAt": 1788865324040,
+   "etag": "",
+   "hash": "72777b430cd21956",
+   "id": "28dcd6625412",
+   "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/08/2000001257/10005525/2048",
+   "key": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001257",
+   "lastModified": "Tue, 08 Sep 2026 10:45:36 GMT",
+   "publishedAt": 1788839021000,
+   "summary": "価格比較サイト「価格.com」のデスクトップPC注目ランキング1位に約100万円のAIスパコンが掲載されるなど、いま「ローカルLLM」が熱い状況だ。ここでは3本の記事で、ローカルLLM関連が急速に盛り上がりを見せている理由を解剖していく。1本目となるこの記事では、「モデル」「ハードウェア」「ソフトウェア」という3つの土壌が成熟しつつあることを紹介する。",
+   "title": "100万円のPCが注目ランキング1位に？ ローカルLLMブームを生んだ「3つの条件」",
+   "updatedAt": 1788865324040,
+   "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001257/"
+  },
+  "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001261": {
+   "bodyBlocks": [],
+   "checkedAt": 1788865324040,
+   "etag": "",
+   "hash": "a0daec14d76fb6ec",
+   "id": "8db0132f5b4e",
+   "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/08/2000001261/10005548/2048",
+   "key": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001261",
+   "lastModified": "Tue, 08 Sep 2026 10:45:36 GMT",
+   "publishedAt": 1788841481000,
+   "summary": "中国のEVメーカー小鵬汽車（シャオペン）は、人型ロボット「IRON」の生産ラインを稼働させたと発表した。2026年内に量産を始め、27年に中国および海外市場に投入する予定だ。",
+   "title": "「中に人いる？」と疑われた人型ロボ、ついに量産へ 2027年に市場投入 中国EVメーカーのシャオペン",
+   "updatedAt": 1788865324040,
+   "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001261/"
+  },
+  "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001272": {
+   "bodyBlocks": [],
+   "checkedAt": 1788865324040,
+   "etag": "",
+   "hash": "00b4514e5e5a168f",
+   "id": "ab7357c416f7",
+   "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/08/2000001272/10005627/2048",
+   "key": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001272",
+   "lastModified": "Tue, 08 Sep 2026 10:45:36 GMT",
+   "publishedAt": 1788851181000,
+   "summary": "日立製作所は9月3日、社会インフラ向けAIソリューション群「HMAX」を拡充し、データセンター運用やサイバー防御などの新サービスを発表。2026年を「フィジカルAI元年」と位置付け、HMAXを売上高5000億円の事業に育てる見込み。",
+   "title": "「2026年はフィジカルAI元年」 日立、AIサービス群全体で売上5000億円へ ミュトス利用の知見を基にした新サービスも",
+   "updatedAt": 1788865324040,
+   "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001272/"
+  },
+  "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001279": {
+   "bodyBlocks": [],
+   "checkedAt": 1788865324040,
+   "etag": "",
+   "hash": "098c56600753e4af",
+   "id": "7e35e8d728b9",
+   "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/08/2000001279/10005638/2048",
+   "key": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001279",
+   "lastModified": "Tue, 08 Sep 2026 10:45:36 GMT",
+   "publishedAt": 1788854298000,
+   "summary": "GMO AI&ロボティクス商事は人型ロボットの故障・トラブル時に診断や修理、代替機の提供などを行う「GMOヒューマノイド救急車」を導入すると発表した。",
+   "title": "「人型ロボット向け救急車」登場、国内初うたう 世界の救急車両を参考にデザイン GMO傘下",
+   "updatedAt": 1788865324040,
+   "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001279/"
   },
   "https://www.itmedia.co.jp/business/articles/2609/04/news020.html": {
    "bodyBlocks": [
@@ -1845,7 +2068,7 @@
      "text": "関連リンク"
     }
    ],
-   "checkedAt": 1788778875598,
+   "checkedAt": 1788865324040,
    "etag": "",
    "hash": "7b9d109416d3f7d8",
    "id": "b81556a1d60e",
@@ -1855,8 +2078,152 @@
    "publishedAt": 1788764580000,
    "summary": "グラフィックデザインやインテリアデザインなど「デザイン業」の倒産が急増している。東京商工リサーチの調査によると、2026年上半期に発生したデザイン業の倒産は40件（前年同期比166.6％増）だった。",
    "title": "生成AIの普及だけじゃない 「デザイン業の倒産」が前年同期比166％増になった意外な理由",
-   "updatedAt": 1788778875598,
+   "updatedAt": 1788865324040,
    "url": "https://www.itmedia.co.jp/business/articles/2609/07/news075.html"
+  },
+  "https://www.itmedia.co.jp/business/articles/2609/08/news028.html": {
+   "bodyBlocks": [
+    {
+     "kind": "P",
+     "text": "9月3日、日立製作所の顧客向けイベントに登壇した同社の 徳永俊昭氏（執行役社長兼CEO）は、2026年が「フィジカルAI元年」になると宣言した。 同日には、フィジカルAIの社会実装を加速させ、顧客課題を解決するための新サービスを発表。聴講者に向けて「日本発の挑戦で未来を変えよう」「今すぐやろう、日立とともに」と力強く呼び掛けた。"
+    },
+    {
+     "kind": "P",
+     "text": "同講演を聴講した筆者の目には、同社の強みを社外にアピールする“熱いスピーチ”に映った。実際に、日立には「社会インフラ系の知見」が豊富にあり、そこに「AIに関する実用的な技術や製品」を掛け合わせることで「大きな将来像を描いて実現する力」がある、だから手を組もうと訴える論展開は納得感があるものだった。"
+    },
+    {
+     "kind": "P",
+     "text": "しかし、同社の社員は違う受け止め方をしたようだ。同日の記者会見に立った黒川亮氏（HMAX戦略統括室長 全社CLBO事業主管 AI戦略担当）に、 徳永氏の講演についてコメントを求めると「『行くぞおおお！』という社内向けの掛け声にしか聞こえなくて」と笑いながら感想を語った。"
+    },
+    {
+     "kind": "P",
+     "text": "冗談めかしく聞こえるが、その表情は真剣だ。社外の人間よりも、社員の方が徳永氏の真意をくみ取っているのかもしれない。社外にも社内にも“刺さるトップメッセージ”を打ち出すにはどうすればよいのか。黒川氏の見解に、そのヒントを探る。"
+    },
+    {
+     "kind": "H",
+     "text": "顧客向け講演、社員は「叱咤激励だ」「笑っては聞けなかった」"
+    },
+    {
+     "kind": "P",
+     "text": "徳永氏は、フィジカルAIによる「社会インフラの変革」「自社ビジネスの進化」について熱弁を振るった後、講演の終盤で「ありたい社会」「ありたい姿」といった言葉を何度も口にした。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "フィジカルAIとは、日立が描く『ありたい社会』、すなわち環境、幸福、経済成長が調和する『ハーモナイズドソサエティー』の実現に向け、なくてはならないものだと考えています。（徳永氏）"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "私たちの目の前にある真っ白なキャンバスに、皆さまとともにありたい社会像を描き、その実現に取り組みましょう。（徳永氏）"
+    },
+    {
+     "kind": "P",
+     "text": "こうした徳永氏の発言から、黒川氏は次のようなメッセージを受け取ったと述べた。"
+    },
+    {
+     "kind": "P",
+     "text": "「『今すぐやろう』『ありたい姿』をあんなに強調したことが印象的でした。あれは、社外のお客さまや報道陣に対するメッセージでもありますが、僕は社内に向けた叱咤（しった）激励だと思っていて。『最高益だったが、先人が積み重ねてきたから達成できたわけで、努力を怠ることは許さんぞ』という強烈なメッセージにしか聞こえませんでした」"
+    },
+    {
+     "kind": "P",
+     "text": "日立製作所の2026年度第1四半期は、売上収益が2兆7095億円で過去最高だった。業績が好調なタイミングだからこそ、トップが語ったありたい姿に意味があるようだ。黒川氏は、日立製作所のビジネス構造と徳永氏のメッセージを絡めて次のように理解している。"
+    },
+    {
+     "kind": "P",
+     "text": "「（徳永氏の講演は）日立がどうやったら世の中に必要とされ続けるのかを表しています。われわれは『短期間でものすごい優位性を占める』という仕事の仕方ではありません。（鉄道やエネルギー領域の顧客と20年以上付き合っているなど）20年先を想定して『ありたい姿に向けてどうやっていきますか』という契約を結んでいます。そのために必要なものを追求しています」"
+    },
+    {
+     "kind": "P",
+     "text": "黒川氏は、日立製作所のビジネスは、顧客と一緒にありたい姿を目指して伴走を続け、添い遂げるビジネスが特徴だと説明した。つまり、社員にとって徳永氏の講演は「遠い将来まで顧客と共に歩む」という覚悟を示したものだと受け止められるため、黒川氏は講演を「笑っては聞けませんでした」と心境を明かした。"
+    },
+    {
+     "kind": "H",
+     "text": "AI戦略発表の3日前に「フィジカルAIで行くんだ」 社長の決断"
+    },
+    {
+     "kind": "P",
+     "text": "黒川氏は、徳永氏の講演が「日本に対するメッセージでもあるでしょう」と話す。AIエージェントやフィジカルAIの社会実装が進む入り口にあるとして、日立製作所にとって「（徳永社長は）千載一遇のチャンスとみているのでは」と述べる。"
+    },
+    {
+     "kind": "P",
+     "text": "同社がフィジカルAIに注力すると発表したのは、2025年10月10日。同日に公表したAI戦略で、フィジカルAIを中核としてサービス展開を強化するとした。実は、その方針が決まったのは発表の3日前だったという。"
+    },
+    {
+     "kind": "P",
+     "text": "「10月7日に（徳永社長に対して）『日立は機械学習も生成AIもAIエージェントもあります』と言ったら、それでは足りなくて。（議論の内容を）全部消されて『フィジカルAIで行くんだ！』と言われました」（黒川氏）"
+    },
+    {
+     "kind": "P",
+     "text": "その後、完成した10月10日のAI戦略説明会の資料に「日立は『世界トップのPhysical AIの使い手へ』」という文言を掲げた。カスタマーゼロ（ゼロ番目の顧客）の考え方で、フィジカルAIを巡る技術を自社で活用して知見をため、それを顧客やパートナー企業に提供することで、顧客課題の解決や社会インフラの変革につなげる狙いだ。"
+    },
+    {
+     "kind": "P",
+     "text": "同社は、AIなどの技術や専門人材を束ねて顧客課題の解決を支援する事業モデル「Lumada 3.0」と、その中で展開するAIサービス群「HMAX」（エイチマックス）をデジタル事業の柱にしている。"
+    },
+    {
+     "kind": "P",
+     "text": "2026年度第1四半期の決算では、Lumada事業の売上収益は1兆1440億円で前年同期比31％増、HMAX事業の売上収益は1110億円だった。7月29日にはLumadaとHMAXの通期売り上げ予想を上方修正して「日立グループ全体の業績上方修正をけん引」したとしている。"
+    },
+    {
+     "kind": "P",
+     "text": "9月3日にはフィジカルAI関連の新サービス「HMAX Data Center」「HMAX AI Operations」「Physical AI FDEサービス」などのリリースにこぎ着けた。これらの成果が、徳永氏の「フィジカルAI元年」宣言に結実したといえるだろう。"
+    },
+    {
+     "kind": "P",
+     "text": "経営者が社外に発信するビジョンや事業戦略は、場合によってはビジネス現場が「自分たちには関係ない」「抽象的な号令に過ぎない」と受け取りかねない。しかし、徳永氏の宣言は社内にも大きなインパクトを与えたことが、黒川氏のコメントから見て取れた。長年培ってきた文脈にひも付けながら「事業の核」を明確にしたことが寄与したのだろう。顧客などの社外と、ビジネスを担う社員の双方に意図を伝えられるトップメッセージの好例といえそうだ。"
+    },
+    {
+     "kind": "H",
+     "text": "視聴無料・LIVE配信： 「AI格差」を乗り越え自走する現場をつくる 「変わる情シス 2026 夏」"
+    },
+    {
+     "kind": "LI",
+     "text": "開催日：9月14日（月）〜 9月18日（金）"
+    },
+    {
+     "kind": "LI",
+     "text": "形式：オンラインセミナー"
+    },
+    {
+     "kind": "LI",
+     "text": "参加費：無料"
+    },
+    {
+     "kind": "LI",
+     "text": "日立社長が熱弁を振るう「フィジカルAI革命」 英の産業革命、米のネット革命、次は日本から起こせるか 日立は、フィジカルAIを活用して「自律進化するデジタルインフラ」を目指す。競争が激化するAI領域で、日本そして日立ならではの“勝ち筋”について徳永俊昭社長が語った。"
+    },
+    {
+     "kind": "LI",
+     "text": "日立社長「真のOne Hitachiで価値創出」 28万人が蓄積した「ノウハウ×AI」融合戦略 「Hitachi Social Innovation Forum 2025 JAPAN, OSAKA」に登壇した日立製作所 社長兼CEOの德永俊昭氏は、社会課題の解決に加え、環境・幸福・経済成長を調和の関係として築いていく「ハーモナイズドソサエティ」の実現を掲げた。同氏の基調講演と日立の戦略から、持続可能な経営モデルの本質と、企業が果たすべき役割を読み解いていく。"
+    },
+    {
+     "kind": "LI",
+     "text": "日立・阿部副社長に聞くフィジカルAIの展望 20兆円市場と「暗黙知の継承」 米NVIDIAのジェンスン・フアンCEOも「稀有（けう）な存在」と認めた日立独自の強みとは何か。IT×OT×プロダクトを持つ日立だからこそ描ける「現場の変革」とは？ 阿部淳副社長にインタビューした。"
+    },
+    {
+     "kind": "LI",
+     "text": "日立・阿部副社長に聞く“最高益”更新の舞台裏 巨額赤字から組織を復活させた変革とは？ グローバル市場が投資に慎重になる逆風下で、なぜ日立は過去最高益を達成できたのか。米NVIDIAや米OpenAIといった世界的リーダーとも即断即決で提携を結ぶスピード感は、巨大企業・日立のどこから生まれているのか。阿部淳副社長に、激動の2025年を振り返ってもらいつつ、組織変革の手応えを聞いた。"
+    },
+    {
+     "kind": "LI",
+     "text": "“日立流”生成AI時代の組織再編 「ルマーダ売上2.65兆円」につなげる狙い 日立製作所が組織再編を進めている。米シリコンバレーに本社を置く「Hitachi Vantara」のデジタルソリューション事業を分社化し、新たに「Hitachi Digital Services」を設立する。その狙いは？"
+    },
+    {
+     "kind": "H",
+     "text": "関連リンク"
+    }
+   ],
+   "checkedAt": 1788865324040,
+   "etag": "",
+   "hash": "421d5d38863a1d4e",
+   "id": "90d08fef717c",
+   "imageUrl": "https://image.itmedia.co.jp/business/articles/2609/08/cover_news028.jpg",
+   "key": "https://www.itmedia.co.jp/business/articles/2609/08/news028.html",
+   "lastModified": "",
+   "publishedAt": 1788856200000,
+   "summary": "日立製作所の徳永社長が講演で「フィジカルAI」について熱弁を振るった。その講演は、社員にも響いたようだ。社内外に刺さるトップメッセージの核心とは。",
+   "title": "日立社長の“フィジカルAI”熱弁に「あれは、叱咤激励だ」 社内外に刺さるトップメッセージの核心とは",
+   "updatedAt": 1788865324040,
+   "url": "https://www.itmedia.co.jp/business/articles/2609/08/news028.html"
   },
   "https://www.itmedia.co.jp/enterprise/articles/2609/07/news005.html": {
    "bodyBlocks": [
@@ -2676,27 +3043,27 @@
   },
   "https://www.itmedia.co.jp/news/article/2609/08/2000001239": {
    "bodyBlocks": [],
-   "checkedAt": 1788838447678,
+   "checkedAt": 1788865324040,
    "etag": "",
    "hash": "62807821bdbcf7f1",
    "id": "03e74f3eed96",
    "imageUrl": "https://www.itmedia.co.jp/news/article/ogp/2609/08/2000001239/10005492/2048",
    "key": "https://www.itmedia.co.jp/news/article/2609/08/2000001239",
-   "lastModified": "Tue, 08 Sep 2026 03:20:41 GMT",
+   "lastModified": "Tue, 08 Sep 2026 10:49:39 GMT",
    "publishedAt": 1788818575000,
    "summary": "バイオテクノロジー企業のInsilico Medicineは、生成AIで設計した特発性肺線維症の治療薬候補「レントセルチブ」のデータを再解析した結果を発表した。血中タンパク質から測る6種の「老化時計」すべてで、患者の生物学的年齢が最大約6歳分低下したという。老化への直接的な作用を確認するには更なる検証が必要としている。",
    "title": "AI創薬候補、6種の「老化時計」で生物学的年齢の低下を示唆",
-   "updatedAt": 1788838447678,
+   "updatedAt": 1788865324040,
    "url": "https://www.itmedia.co.jp/news/article/2609/08/2000001239/"
   }
  },
  "listing": {
   "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml": {
-   "checkedAt": 1788838449464,
-   "etag": "\"2fce-65aefdcdb1bf5-gzip\"",
-   "lastModified": "Tue, 08 Sep 2026 02:55:09 GMT"
+   "checkedAt": 1788865325684,
+   "etag": "\"301c-65af6266d3b08-gzip\"",
+   "lastModified": "Tue, 08 Sep 2026 10:25:13 GMT"
   }
  },
  "siteId": "itmedia_ait",
- "updatedAt": 1788838473986
+ "updatedAt": 1788865345474
 }
