@@ -1,20 +1,5 @@
 {
  "articles": {
-  "https://www.4gamer.net/games/002/g100206/20260907027": {
-   "bodyBlocks": [],
-   "checkedAt": 1788838162387,
-   "etag": "",
-   "hash": "c0f6b45f2a552cd3",
-   "id": "4c88332f8764",
-   "imageUrl": "https://www.4gamer.net/games/002/G100206/20260907027/SS/001.jpg",
-   "key": "https://www.4gamer.net/games/002/g100206/20260907027",
-   "lastModified": "",
-   "publishedAt": 1788768000000,
-   "summary": "フリューは本日，「クライムライト／CRYMELIGHT」の正式体験版を，2026年9月17日10：00よりSteamで配信すると発表した。正式体験版では，ゲーム本編の冒頭から第1章のラストまでをプレイ可能で，ストーリーやバトル，システムを体験できる。プレイ時間は1.5〜3時間程度を想定している。",
-   "title": "「クライムライト／CRYMELIGHT」，ゲーム冒頭から第1章ラストまで遊べる正式体験版を9月17日10：00よりSteamで配信",
-   "updatedAt": 1788838162387,
-   "url": "https://www.4gamer.net/games/002/G100206/20260907027/"
-  },
   "https://www.4gamer.net/games/004/g100451/20260908014": {
    "bodyBlocks": [],
    "checkedAt": 1788865052750,
@@ -32,7 +17,7 @@
   },
   "https://www.4gamer.net/games/005/g100572/20260908042": {
    "bodyBlocks": [],
-   "checkedAt": 1788865052750,
+   "checkedAt": 1788904416812,
    "etag": "",
    "hash": "192eca1de771956a",
    "id": "e7b0c78cea2a",
@@ -42,12 +27,12 @@
    "publishedAt": 1788861727000,
    "summary": "miyu.worksは，レーシングゲーム「SuperNightRidersS1」をSteamで正式リリースした。本作は，80年代のアーケードレーシングにインスパイアされた作品で，順位ではなく走行距離を競う点が特徴だ。RedRiderことアリスを操作し，昼から日の出まで，12ステージを駆け抜ける。",
    "title": "順位は関係なし，走った距離で勝負。80年代風アーケードレーシング「Super Night Riders S1」，Steamで正式リリース",
-   "updatedAt": 1788865052750,
+   "updatedAt": 1788904416812,
    "url": "https://www.4gamer.net/games/005/G100572/20260908042/"
   },
   "https://www.4gamer.net/games/006/g100628/20260908037": {
    "bodyBlocks": [],
-   "checkedAt": 1788865052750,
+   "checkedAt": 1788904416812,
    "etag": "",
    "hash": "baaf4c7b28f07e2d",
    "id": "b694760f5c28",
@@ -57,23 +42,8 @@
    "publishedAt": 1788859474000,
    "summary": "PlayWithKoreaは2026年9月7日，MMORPG「SealM2」の最新情報として，登場クラスにフォーカスした映像を公開した。今回の映像には，「ナイト（Knight）」「道化師（Jester）」など，5つのクラスがそれぞれのスキルを使って敵と戦う様子が収められている。",
    "title": "「Seal M2」，ナイトや道化師など登場クラスにフォーカスした紹介映像が公開に",
-   "updatedAt": 1788865052750,
+   "updatedAt": 1788904416812,
    "url": "https://www.4gamer.net/games/006/G100628/20260908037/"
-  },
-  "https://www.4gamer.net/games/007/g100712/20260907015": {
-   "bodyBlocks": [],
-   "checkedAt": 1788838162387,
-   "etag": "",
-   "hash": "57dbd2183c1f82cd",
-   "id": "98f65c6076a7",
-   "imageUrl": "https://www.4gamer.net/games/007/G100712/20260907015/SS/001.jpg",
-   "key": "https://www.4gamer.net/games/007/g100712/20260907015",
-   "lastModified": "",
-   "publishedAt": 1788758428000,
-   "summary": "福岡県の体験型クリエイティブ施設「BLOOMIN'KIDS」は，「めっちゃカメレオン」の初となる公式リアルイベント「リアルめっちゃカメレオンinONEFUKUOKABLDG.」を，9月23日にONEFUKUOKABLDG.6FSKYLOBBYで開催する。本イベントでは，白いフィギュアを自分で塗って会場に「かくす」，隠された作品を「さがす」体験ができる。",
-   "title": "「めっちゃカメレオン」初の公式イベントが9月23日に福岡で開催。白いフィギュアを塗って“かくす”，隠された作品を“さがす”新感覚アクティビティ",
-   "updatedAt": 1788838162387,
-   "url": "https://www.4gamer.net/games/007/G100712/20260907015/"
   },
   "https://www.4gamer.net/games/008/g000896/20260908019": {
    "bodyBlocks": [],
@@ -89,6 +59,36 @@
    "title": "「聖なる剣（PC-6001版）」，プロジェクトEGG会員向けに無料配信開始。1983年発売のテキストアドベンチャー",
    "updatedAt": 1788865052750,
    "url": "https://www.4gamer.net/games/008/G000896/20260908019/"
+  },
+  "https://www.4gamer.net/games/010/g101055/20260901007": {
+   "bodyBlocks": [],
+   "checkedAt": 1788904416812,
+   "etag": "",
+   "hash": "cfb1694dc6aaab5d",
+   "id": "ce11414e209d",
+   "imageUrl": "https://www.4gamer.net/games/010/G101055/20260901007/SS/009.jpg",
+   "key": "https://www.4gamer.net/games/010/g101055/20260901007",
+   "lastModified": "",
+   "publishedAt": 1788872400000,
+   "summary": "「ドラゴンクエストモンスターズ」シリーズの最新作にあたる「ドラゴンクエストモンスターズ4 枯れ木の国のビアンカ・フローラ」が，2026年12月3日に発売される。ゲーム序盤のダンジョン攻略と，シリーズの特徴でもある「配合」を体験する機会を得られたので，そのプレイフィールをお届けしていこう。",
+   "title": "「ドラゴンクエストモンスターズ4」を先行プレイしたら，テンポが良すぎてビックリ。シリーズの伝統を受け継ぎつつ，探索＆配合が快適に",
+   "updatedAt": 1788904416812,
+   "url": "https://www.4gamer.net/games/010/G101055/20260901007/"
+  },
+  "https://www.4gamer.net/games/013/g101360/20260827035": {
+   "bodyBlocks": [],
+   "checkedAt": 1788904416812,
+   "etag": "",
+   "hash": "8ee326c986e7c072",
+   "id": "30866830970b",
+   "imageUrl": "https://www.4gamer.net/games/013/G101360/20260827035/SS/013.jpg",
+   "key": "https://www.4gamer.net/games/013/g101360/20260827035",
+   "lastModified": "",
+   "publishedAt": 1788876000000,
+   "summary": "バンダイナムコエンターテインメントが2027年3月5日に発売を予定している「GUNDAMROGUEORBIT」の試遊機会を得たので，そのプレイレポートをお届けしよう。高速・高火力のガンダムが重量感とともに暴れる爽快なアクションを楽しめた。",
+   "title": "［プレイレポ］「GUNDAM ROGUE ORBIT」は“ガンダム 対 地球外生命体”を描く。ハイスピードかつ重量感のある近接主体のバトルを確認してきた",
+   "updatedAt": 1788904416812,
+   "url": "https://www.4gamer.net/games/013/G101360/20260827035/"
   },
   "https://www.4gamer.net/games/013/g101368/20260907041": {
    "bodyBlocks": [],
@@ -120,6 +120,66 @@
    "updatedAt": 1788838162387,
    "url": "https://www.4gamer.net/games/014/G101494/20260907035/"
   },
+  "https://www.4gamer.net/games/015/g101542/20260908062": {
+   "bodyBlocks": [],
+   "checkedAt": 1788904416812,
+   "etag": "",
+   "hash": "528499faa52d81e0",
+   "id": "0e13cf3e76c1",
+   "imageUrl": "https://www.4gamer.net/games/015/G101542/20260908062/SS/001.jpg",
+   "key": "https://www.4gamer.net/games/015/g101542/20260908062",
+   "lastModified": "",
+   "publishedAt": 1788877648000,
+   "summary": "任天堂は本日に配信された「ゼルダの伝説40周年Direct2026.9.8」にて，実写映画版の正式タイトルが副題なしの「ゼルダの伝説」に決定したことを発表した。2027年4月30日に全世界同時公開が予定されている。",
+   "title": "実写映画の正式タイトルはズバリ「ゼルダの伝説」。2027年4月30日公開",
+   "updatedAt": 1788904416812,
+   "url": "https://www.4gamer.net/games/015/G101542/20260908062/"
+  },
+  "https://www.4gamer.net/games/015/g101542/20260908063": {
+   "bodyBlocks": [],
+   "checkedAt": 1788904416812,
+   "etag": "",
+   "hash": "29fcc29fe4db8606",
+   "id": "bdce5755d0e1",
+   "imageUrl": "https://www.4gamer.net/games/015/G101542/20260908063/SS/001.jpg",
+   "key": "https://www.4gamer.net/games/015/g101542/20260908063",
+   "lastModified": "",
+   "publishedAt": 1788877877000,
+   "summary": "本日（2026年9月8日）配信されたデジタルイベント「ゼルダの伝説40周年Direct」にて，シリーズ40周年を記念したコンサート「ゼルダの伝説40thAnniversaryConcert」の開催が明らかとなった。2027年1月23日の東京公演を皮切りに，福岡，北海道，京都，神奈川，そしてシカゴ，ロンドン，メルボルンと全世界での公演が予定されている。",
+   "title": "「ゼルダの伝説 40th Anniversary Concert」が開催決定。2027年1月の東京公演ほか，全世界の各都市にて",
+   "updatedAt": 1788904416812,
+   "url": "https://www.4gamer.net/games/015/G101542/20260908063/"
+  },
+  "https://www.4gamer.net/games/015/g101542/20260908064": {
+   "bodyBlocks": [],
+   "checkedAt": 1788904416812,
+   "etag": "",
+   "hash": "0f8c53dc7ba1da86",
+   "id": "f8c85a092fff",
+   "imageUrl": "https://www.4gamer.net/games/015/G101542/20260908064/SS/004.jpg",
+   "key": "https://www.4gamer.net/games/015/g101542/20260908064",
+   "lastModified": "",
+   "publishedAt": 1788879002000,
+   "summary": "任天堂は本日（9月8日），「ゼルダの伝説40周年Direct2026.9.8」で，「ゼルダの伝説40周年」特別デザインのニンテンドーミュージアム入館証を，9月9日より約1年の期間限定で配布すると発表した。また，スマホ向けアプリ「NintendoToday!」では“ゼルダの伝説コレクション・カード”が9月9日よりスタートする。",
+   "title": "「ゼルダの伝説」40周年特別デザインのニンテンドーミュージアム入館証を1年間限定で配布。アプリ「Nintendo Today!」では“ゼルダの伝説 コレクション・カード”がスタート",
+   "updatedAt": 1788904416812,
+   "url": "https://www.4gamer.net/games/015/G101542/20260908064/"
+  },
+  "https://www.4gamer.net/games/015/g101542/20260909001": {
+   "bodyBlocks": [],
+   "checkedAt": 1788904416812,
+   "etag": "",
+   "hash": "b417aa5aa33e0c4a",
+   "id": "04361c4c55e4",
+   "imageUrl": "https://www.4gamer.net/games/015/G101542/20260909001/SS/002.jpg",
+   "key": "https://www.4gamer.net/games/015/g101542/20260909001",
+   "lastModified": "",
+   "publishedAt": 1788879596000,
+   "summary": "任天堂は2026年9月8日，配信番組「ゼルダの伝説40周年Direct2026.9.8」にて，スマートフォン向けアプリ「NintendoSwitchApp」のゲーム連携サービス「ZELDANOTES」が，「ゼルダの伝説時のオカリナ」に対応すると発表した。",
+   "title": "スマホ連携サービス「ZELDA NOTES」が「ゼルダの伝説 時のオカリナ」に対応。オカリナ演奏や作品知識を試す検定など新機能を搭載",
+   "updatedAt": 1788904416812,
+   "url": "https://www.4gamer.net/games/015/G101542/20260909001/"
+  },
   "https://www.4gamer.net/games/015/g101555/20260908011": {
    "bodyBlocks": [],
    "checkedAt": 1788865052750,
@@ -135,6 +195,21 @@
    "updatedAt": 1788865052750,
    "url": "https://www.4gamer.net/games/015/G101555/20260908011/"
   },
+  "https://www.4gamer.net/games/015/g101585/20260908049": {
+   "bodyBlocks": [],
+   "checkedAt": 1788904416812,
+   "etag": "",
+   "hash": "39afa27480bd056f",
+   "id": "17018a373350",
+   "imageUrl": "https://www.4gamer.net/games/015/G101585/20260908049/SS/002.jpg",
+   "key": "https://www.4gamer.net/games/015/g101585/20260908049",
+   "lastModified": "",
+   "publishedAt": 1788866463000,
+   "summary": "コーエーテクモゲームスは本日，錬金術RPG「カリアのアトリエ〜夜の王国と追憶の道標〜」を，2027年2月25日に発売すると発表した。あわせて第2弾PVを公開し，姿や戦い方が変化する「スタイルチェンジ」や超巨大敵戦，新たな調合システムなどの情報を明らかにしている。",
+   "title": "「カリアのアトリエ 〜夜の王国と追憶の道標〜」，2027年2月25日発売決定。第2弾PVも公開",
+   "updatedAt": 1788904416812,
+   "url": "https://www.4gamer.net/games/015/G101585/20260908049/"
+  },
   "https://www.4gamer.net/games/022/g102283/20260907039": {
    "bodyBlocks": [],
    "checkedAt": 1788838162387,
@@ -149,21 +224,6 @@
    "title": "「骸骨騎士様、只今異世界へお出掛け中 SKULL BRAVE」の事前登録数が3万件を突破",
    "updatedAt": 1788838162387,
    "url": "https://www.4gamer.net/games/022/G102283/20260907039/"
-  },
-  "https://www.4gamer.net/games/023/g002318/20260907008": {
-   "bodyBlocks": [],
-   "checkedAt": 1788818045815,
-   "etag": "",
-   "hash": "f753d2959b702ae1",
-   "id": "1a4632878cef",
-   "imageUrl": "https://www.4gamer.net/games/023/G002318/20260907008/SS/005.jpg",
-   "key": "https://www.4gamer.net/games/023/g002318/20260907008",
-   "lastModified": "",
-   "publishedAt": 1788751489000,
-   "summary": "米国時間2026年9月4日，Razerは，椅子のヘッドレスト部分に取り付けられるクッション型のワイヤレスステレオスピーカー「ClioX」を発表した。ステレオスピーカーとパッシブラジエターを内蔵し，モバイルバッテリーで動作するのが特徴だ。税込直販価格は1万7980円。",
-   "title": "椅子のヘッドレストに取り付けるコンパクトなワイヤレススピーカー「Clio X」がRazerから登場",
-   "updatedAt": 1788818045815,
-   "url": "https://www.4gamer.net/games/023/G002318/20260907008/"
   },
   "https://www.4gamer.net/games/030/g103035/20260908002": {
    "bodyBlocks": [],
@@ -195,21 +255,6 @@
    "updatedAt": 1788838162387,
    "url": "https://www.4gamer.net/games/031/G103168/20260907037/"
   },
-  "https://www.4gamer.net/games/036/g003691/20260907024": {
-   "bodyBlocks": [],
-   "checkedAt": 1788838162387,
-   "etag": "",
-   "hash": "5b932ae05889101e",
-   "id": "89524ba54f3e",
-   "imageUrl": "https://www.4gamer.net/games/036/G003691/20260907024/SS/002.jpg",
-   "key": "https://www.4gamer.net/games/036/g003691/20260907024",
-   "lastModified": "",
-   "publishedAt": 1788764039000,
-   "summary": "出展社数や展示面積で過去最高を記録し，世界最大のゲームイベントとして熱狂に包まれた「gamescom2026」が今年も終わった。しかし，その華やかな数字の裏では，未公開データの盗難や大手の慎重姿勢といった課題も浮き彫りとなっていた。",
-   "title": "Access Accepted第871回：gamescom 2026，数字上の狂乱と現場の冷や水",
-   "updatedAt": 1788838162387,
-   "url": "https://www.4gamer.net/games/036/G003691/20260907024/"
-  },
   "https://www.4gamer.net/games/039/g103922/20260908024": {
    "bodyBlocks": [],
    "checkedAt": 1788865052750,
@@ -224,66 +269,6 @@
    "title": "「天機行：古朝の影」，「軒轅剣」蔡明宏氏の完全新作を初公開。連撃を軸にした唐代RPG",
    "updatedAt": 1788865052750,
    "url": "https://www.4gamer.net/games/039/G103922/20260908024/"
-  },
-  "https://www.4gamer.net/games/039/g103979/20260907026": {
-   "bodyBlocks": [],
-   "checkedAt": 1788838162387,
-   "etag": "",
-   "hash": "1288e6c2e85a8ed1",
-   "id": "633eea98b5e9",
-   "imageUrl": "https://www.4gamer.net/games/039/G103979/20260907026/SS/002.jpg",
-   "key": "https://www.4gamer.net/games/039/g103979/20260907026",
-   "lastModified": "",
-   "publishedAt": 1788765063000,
-   "summary": "NoShadowとUNSUBSCRIBEは2026年9月5日，新作タイトル「Scavland」をSteamでリリースした。本作は，戦争と謎の霧によって荒廃した土地を舞台とした，トップダウン型のハードコアサバイバルRPGだ。",
-   "title": "荒廃した世界で廃墟を漁りながら生きるハードコアサバイバルRPG「Scavland」，早期アクセス版を配信開始",
-   "updatedAt": 1788838162387,
-   "url": "https://www.4gamer.net/games/039/G103979/20260907026/"
-  },
-  "https://www.4gamer.net/games/039/g103989/20260907021": {
-   "bodyBlocks": [],
-   "checkedAt": 1788838162387,
-   "etag": "",
-   "hash": "617ad042f8bcfb16",
-   "id": "7122c2689c71",
-   "imageUrl": "https://www.4gamer.net/games/039/G103989/20260907021/SS/002.jpg",
-   "key": "https://www.4gamer.net/games/039/g103989/20260907021",
-   "lastModified": "",
-   "publishedAt": 1788762575000,
-   "summary": "Agenは，PC向け新作タイトル「棺&#38376;/AncestralMansion」を発表し，Steamストアページを公開した。本作は，父親を見舞うため故郷へ戻った大学生が，先祖代々の屋敷に隠された恐ろしい真実を追う，一人称視点のサイコロジカルホラーアドベンチャーゲームだ。",
-   "title": "父の見舞いで帰省した大学生が，先祖代々の屋敷で目を覚ます。脱出を目指しながら一族にまつわる恐ろしい真実へ迫る。サイコホラーADV「棺&#38376; / Ancestral Mansion」発表",
-   "updatedAt": 1788838162387,
-   "url": "https://www.4gamer.net/games/039/G103989/20260907021/"
-  },
-  "https://www.4gamer.net/games/039/g103993/20260907025": {
-   "bodyBlocks": [],
-   "checkedAt": 1788838162387,
-   "etag": "",
-   "hash": "603c8d810e701cbb",
-   "id": "9b83f1f4fbad",
-   "imageUrl": "https://www.4gamer.net/games/039/G103993/20260907025/SS/002.jpg",
-   "key": "https://www.4gamer.net/games/039/g103993/20260907025",
-   "lastModified": "",
-   "publishedAt": 1788765052000,
-   "summary": "RusimituGamesは2026年9月5日，PC用ソフト「アイロンビーズシミュレーター〜借金脱出録」の体験版の配信をSteamで開始した。本作は，アイロンビーズを作って販売し，多額の借金を返済する一人称視点のシミュレーションゲームだ。",
-   "title": "アイロンビーズ作品を作って，多額の借金を返済するSLG「アイロンビーズシミュレーター 〜 借金脱出録」，体験版をSteamで配信開始",
-   "updatedAt": 1788838162387,
-   "url": "https://www.4gamer.net/games/039/G103993/20260907025/"
-  },
-  "https://www.4gamer.net/games/039/g103998/20260907029": {
-   "bodyBlocks": [],
-   "checkedAt": 1788838162387,
-   "etag": "",
-   "hash": "bfe887317fa3cad5",
-   "id": "4dd46dec6e75",
-   "imageUrl": "https://www.4gamer.net/games/039/G103998/20260907029/SS/002.jpg",
-   "key": "https://www.4gamer.net/games/039/g103998/20260907029",
-   "lastModified": "",
-   "publishedAt": 1788768047000,
-   "summary": "ドイツのゲーム開発スタジオTwoPixelsUGは，PC向けタイトル「Playrooms」を発表した。本作は，20万個以上のカラーボールを拾ってボールプールへ戻していくシミュレーションゲームだ。ただし，作業場所では不穏な雰囲気が漂っており，常に光のなかで行動しなければならない。",
-   "title": "20万個以上のカラーボールをひたすら拾い，ボールプールへ戻していく。誰もいないはずのプレイルームで働く不穏な作業シム「Playrooms」発表，2026年10月にリリース",
-   "updatedAt": 1788838162387,
-   "url": "https://www.4gamer.net/games/039/G103998/20260907029/"
   },
   "https://www.4gamer.net/games/040/g104002/20260907032": {
    "bodyBlocks": [],
@@ -392,7 +377,7 @@
   },
   "https://www.4gamer.net/games/040/g104025/20260908025": {
    "bodyBlocks": [],
-   "checkedAt": 1788865052750,
+   "checkedAt": 1788904416812,
    "etag": "",
    "hash": "2502414beb713ef7",
    "id": "f1332f04a1ce",
@@ -402,12 +387,12 @@
    "publishedAt": 1788850998000,
    "summary": "クリック音を楽しむASMRと，数字を伸ばしていくインクリメンタルゲームを組み合わせた「KeycapKeycap!」が発表された。メカニカルキーキャップや木材，スライム，ハチミツなど，素材ごとに異なる音と感触を楽しめる作品だ。",
    "title": "チルな音楽を聴きながら，キーボードのクリック音そのものを楽しむASMRインクリメンタルゲーム「Keycap Keycap!」，2026年第4四半期に発売",
-   "updatedAt": 1788865052750,
+   "updatedAt": 1788904416812,
    "url": "https://www.4gamer.net/games/040/G104025/20260908025/"
   },
   "https://www.4gamer.net/games/040/g104027/20260908027": {
    "bodyBlocks": [],
-   "checkedAt": 1788865052750,
+   "checkedAt": 1788904416812,
    "etag": "",
    "hash": "c764495eb3f62ddc",
    "id": "2c89dac4d8d8",
@@ -417,12 +402,12 @@
    "publishedAt": 1788853394000,
    "summary": "ERMOONGameStudioは本日，PC用ソフト「GETCOOKED」の体験版の配信をSteamで開始した。本作は，レストランがライバルとして競い合うマルチプレイヤーゲームだ。準備フェーズでは拠点を強化し，戦争フェーズでは敵のレストランを襲撃する。",
    "title": "ライバルのレストランを襲撃して勝者を目指すマルチプレイヤーゲーム「GET COOKED」，体験版をSteamで配信開始",
-   "updatedAt": 1788865052750,
+   "updatedAt": 1788904416812,
    "url": "https://www.4gamer.net/games/040/G104027/20260908027/"
   },
   "https://www.4gamer.net/games/040/g104034/20260908033": {
    "bodyBlocks": [],
-   "checkedAt": 1788865052750,
+   "checkedAt": 1788904416812,
    "etag": "",
    "hash": "bc4391dda42009e5",
    "id": "01f614a32c8a",
@@ -432,12 +417,12 @@
    "publishedAt": 1788855968000,
    "summary": "KakaoGamesは2026年9月7日，PC向けMMORPG「ArcheAgeS:StraitofFreedom」のキービジュアルとロゴを公開した。リリース時期は2027年第2四半期を予定している。今回公開されたキービジュアルには，物語に関わるという5人の主要キャラクターと艦隊が描かれている。",
    "title": "「ArcheAge S: Strait of Freedom」，キービジュアルとロゴを公開。2027年第2四半期にグローバルで展開予定",
-   "updatedAt": 1788865052750,
+   "updatedAt": 1788904416812,
    "url": "https://www.4gamer.net/games/040/G104034/20260908033/"
   },
   "https://www.4gamer.net/games/040/g104036/20260908038": {
    "bodyBlocks": [],
-   "checkedAt": 1788865052750,
+   "checkedAt": 1788904416812,
    "etag": "",
    "hash": "e73efbd301fca62a",
    "id": "1ee72b4a0036",
@@ -447,8 +432,83 @@
    "publishedAt": 1788860004000,
    "summary": "VeryFatCatは，PC向け新作タイトル「CATASTROFIA」を発表した。本作は，空飛ぶ島々を巡り，古代遺跡や洞窟を探索しながら，過去に起きた謎の出来事を追っていく探索アドベンチャーだ。",
    "title": "空飛ぶ島々を舞台に，古代の遺跡や神秘的な洞窟を巡りながら，過去の謎を追っていく。探索アドベンチャー「CATASTROFIA」発表",
-   "updatedAt": 1788865052750,
+   "updatedAt": 1788904416812,
    "url": "https://www.4gamer.net/games/040/G104036/20260908038/"
+  },
+  "https://www.4gamer.net/games/040/g104037/20260908051": {
+   "bodyBlocks": [],
+   "checkedAt": 1788904416812,
+   "etag": "",
+   "hash": "d6ede3e57a97105a",
+   "id": "cee96c9e833f",
+   "imageUrl": "https://www.4gamer.net/games/040/G104037/20260908051/SS/002.jpg",
+   "key": "https://www.4gamer.net/games/040/g104037/20260908051",
+   "lastModified": "",
+   "publishedAt": 1788865097000,
+   "summary": "Eastasiasoftは本日（2026年9月8日），FrozenFlameInteractiveが開発中の新作タイトル「OkkoTheExiled」のPC版を，9月30日にリリースすると発表した。本作は，鬼の少年「Okko」となり，鬼たちの地「クタラ」を突き進む2Dアクションアドベンチャーゲームだ。",
+   "title": "2DアクションADV「Okko The Exiled」，PC版を9月30日に発売決定。多彩なアニメーションを確認できる最新トレイラーを公開",
+   "updatedAt": 1788904416812,
+   "url": "https://www.4gamer.net/games/040/G104037/20260908051/"
+  },
+  "https://www.4gamer.net/games/040/g104042/20260908047": {
+   "bodyBlocks": [],
+   "checkedAt": 1788904416812,
+   "etag": "",
+   "hash": "0b1ab5df9218ce8e",
+   "id": "6def01b7fa8b",
+   "imageUrl": "https://www.4gamer.net/games/040/G104042/20260908047/SS/006.jpg",
+   "key": "https://www.4gamer.net/games/040/g104042/20260908047",
+   "lastModified": "",
+   "publishedAt": 1788865394000,
+   "summary": "メビウスは本日，シルバースタージャパンが開発した「螺旋麗嬢スパイラルお嬢様超髪のマキナ」のPC版を9月下旬にSteamで発売すると発表した。本作は，金髪縦ロールのお嬢様「カミナガ・マキナ」が主人公のアクションゲームだ。髪の毛を操る能力を駆使して，ステージのどこかにあるゴールを目指していく。",
+   "title": "「螺旋麗嬢 スパイラルお嬢様 超髪のマキナ」，PC版を9月下旬にSteamで発売。金髪縦ロールのお嬢様が，髪の毛を操ってゴールを目指す",
+   "updatedAt": 1788904416812,
+   "url": "https://www.4gamer.net/games/040/G104042/20260908047/"
+  },
+  "https://www.4gamer.net/games/040/g104043/20260908048": {
+   "bodyBlocks": [],
+   "checkedAt": 1788904416812,
+   "etag": "",
+   "hash": "2dbba56d8fc687dd",
+   "id": "572ccf315c0f",
+   "imageUrl": "https://www.4gamer.net/games/040/G104043/20260908048/SS/002.jpg",
+   "key": "https://www.4gamer.net/games/040/g104043/20260908048",
+   "lastModified": "",
+   "publishedAt": 1788866739000,
+   "summary": "PumpkinMisoStudioは，PC向け新作タイトル「NightPortable」の体験版をSteamで配信している。本作は，2000年代の中古ゲームショップで夜勤をこなしながら，店内を徘徊する怪異を避け，午前6時まで生き延びるサバイバルホラーアドベンチャーだ。",
+   "title": "2000年代の中古ゲームショップで怪しい夜勤バイトをこなし，店内を徘徊する■■■を回避しながら生き延びよう。サバイバルホラーADV「Night Portable」，体験版配信中",
+   "updatedAt": 1788904416812,
+   "url": "https://www.4gamer.net/games/040/G104043/20260908048/"
+  },
+  "https://www.4gamer.net/games/040/g104044/20260908050": {
+   "bodyBlocks": [],
+   "checkedAt": 1788904416812,
+   "etag": "",
+   "hash": "b04ca30065591dd3",
+   "id": "d3ee3e8ac2dc",
+   "imageUrl": "https://www.4gamer.net/games/040/G104044/20260908050/SS/003.jpg",
+   "key": "https://www.4gamer.net/games/040/g104044/20260908050",
+   "lastModified": "",
+   "publishedAt": 1788865664000,
+   "summary": "ワタリタマスタジオは本日，PC用ソフト「過去でバズってVTuber-2018からならバズれるんじゃ！？」を2026年内にSteamで発売すると発表し，Steamストアページを公開した。本作は，時間を巻き戻し，2018年の1年で登録者ゼロからバズる育成シミュレーションゲームだ。",
+   "title": "過去の時代で配信者としてバズる育成SLG「過去でバズってVTuber -2018からならバズれるんじゃ！？」，年内に発売",
+   "updatedAt": 1788904416812,
+   "url": "https://www.4gamer.net/games/040/G104044/20260908050/"
+  },
+  "https://www.4gamer.net/games/040/g104045/20260908056": {
+   "bodyBlocks": [],
+   "checkedAt": 1788904416812,
+   "etag": "",
+   "hash": "d661933de3a0d84c",
+   "id": "003cca46c087",
+   "imageUrl": "https://www.4gamer.net/games/040/G104045/20260908056/SS/001.jpg",
+   "key": "https://www.4gamer.net/games/040/g104045/20260908056",
+   "lastModified": "",
+   "publishedAt": 1788869094000,
+   "summary": "tobsprGamesは2026年9月7日，開発中の新作タイトル「puzzlez-ashapezgame」を発表し，アナウンストレイラーを公開した。本作は，大規模工場自動化シミュレーション「Shapez2」を開発したtobsprGamesが手掛ける，3Dパズルゲームだ。",
+   "title": "「Shapez」のスピンオフパズルゲーム「puzzlez - a shapez game」が発表に。自動化工場のシステムを利用したさまざまなパズルに挑戦",
+   "updatedAt": 1788904416812,
+   "url": "https://www.4gamer.net/games/040/G104045/20260908056/"
   },
   "https://www.4gamer.net/games/256/g025620/20260908013": {
    "bodyBlocks": [],
@@ -467,7 +527,7 @@
   },
   "https://www.4gamer.net/games/348/g034868/20260908040": {
    "bodyBlocks": [],
-   "checkedAt": 1788865052750,
+   "checkedAt": 1788904416812,
    "etag": "",
    "hash": "72bb0a80002c7e89",
    "id": "6b4506f745c2",
@@ -477,7 +537,7 @@
    "publishedAt": 1788860161000,
    "summary": "",
    "title": "「PUBG」，TVアニメ「呪術廻戦」とのコラボを9月10日より順次開催",
-   "updatedAt": 1788865052750,
+   "updatedAt": 1788904416812,
    "url": "https://www.4gamer.net/games/348/G034868/20260908040/"
   },
   "https://www.4gamer.net/games/369/g036904/20260907028": {
@@ -497,7 +557,7 @@
   },
   "https://www.4gamer.net/games/375/g037564/20260908035": {
    "bodyBlocks": [],
-   "checkedAt": 1788865052750,
+   "checkedAt": 1788904416812,
    "etag": "",
    "hash": "5cfa02635d78d802",
    "id": "885889d7ae06",
@@ -507,7 +567,7 @@
    "publishedAt": 1788860748000,
    "summary": "BattlestateGamesは本日（2026年9月8日），ルートシューター「EscapefromTarkov」のアップデート1.1.5.0を配信する。本アップデートでは，既存マップの「Lighthouse」に大幅なリワークが行われる予定だ。",
    "title": "「Escape from Tarkov」，マップ“Lighthouse”に大幅なリワークを行うアップデートを本日配信",
-   "updatedAt": 1788865052750,
+   "updatedAt": 1788904416812,
    "url": "https://www.4gamer.net/games/375/G037564/20260908035/"
   },
   "https://www.4gamer.net/games/390/g039084/20260907047": {
@@ -572,7 +632,7 @@
   },
   "https://www.4gamer.net/games/476/g047609/20260908041": {
    "bodyBlocks": [],
-   "checkedAt": 1788865052750,
+   "checkedAt": 1788904416812,
    "etag": "",
    "hash": "9c69a7fbfefc129f",
    "id": "a2c0ac83fbef",
@@ -582,12 +642,12 @@
    "publishedAt": 1788860989000,
    "summary": "",
    "title": "「プロセカ」，イベント「After the Fire」を9月12日まで開催中",
-   "updatedAt": 1788865052750,
+   "updatedAt": 1788904416812,
    "url": "https://www.4gamer.net/games/476/G047609/20260908041/"
   },
   "https://www.4gamer.net/games/476/g047609/20260908043": {
    "bodyBlocks": [],
-   "checkedAt": 1788865052750,
+   "checkedAt": 1788904416812,
    "etag": "",
    "hash": "2efabfc4706ca916",
    "id": "3a34b01ec5fc",
@@ -597,12 +657,12 @@
    "publishedAt": 1788861346000,
    "summary": "",
    "title": "「プロセカ」，MEIKOが歌う「酔いどれ知らず」のキャラクターソロ2DMVが公開に",
-   "updatedAt": 1788865052750,
+   "updatedAt": 1788904416812,
    "url": "https://www.4gamer.net/games/476/G047609/20260908043/"
   },
   "https://www.4gamer.net/games/476/g047609/20260908044": {
    "bodyBlocks": [],
-   "checkedAt": 1788865052750,
+   "checkedAt": 1788904416812,
    "etag": "",
    "hash": "724d5d1d3485734f",
    "id": "0292128d2647",
@@ -612,12 +672,12 @@
    "publishedAt": 1788861844000,
    "summary": "",
    "title": "「プロセカ」，楽曲「ロミオとシンデレラ」のキャラクターソロ2DMVが公開中",
-   "updatedAt": 1788865052750,
+   "updatedAt": 1788904416812,
    "url": "https://www.4gamer.net/games/476/G047609/20260908044/"
   },
   "https://www.4gamer.net/games/476/g047609/20260908045": {
    "bodyBlocks": [],
-   "checkedAt": 1788865052750,
+   "checkedAt": 1788904416812,
    "etag": "",
    "hash": "322ca6fedc15a2e7",
    "id": "f309348e580a",
@@ -627,12 +687,12 @@
    "publishedAt": 1788862312000,
    "summary": "",
    "title": "「プロセカ」，モザイクロール（Reloaded）のキャラクターソロ2DMVを公開",
-   "updatedAt": 1788865052750,
+   "updatedAt": 1788904416812,
    "url": "https://www.4gamer.net/games/476/G047609/20260908045/"
   },
   "https://www.4gamer.net/games/476/g047609/20260908046": {
    "bodyBlocks": [],
-   "checkedAt": 1788865052750,
+   "checkedAt": 1788904416812,
    "etag": "",
    "hash": "a85e747eee01dc3a",
    "id": "d4934e461dcb",
@@ -642,27 +702,12 @@
    "publishedAt": 1788862771000,
    "summary": "",
    "title": "「プロセカ」，白石杏が歌う「PaIII.SENSATION」のソロ2DMVが公開に",
-   "updatedAt": 1788865052750,
+   "updatedAt": 1788904416812,
    "url": "https://www.4gamer.net/games/476/G047609/20260908046/"
-  },
-  "https://www.4gamer.net/games/486/g048621/20260907018": {
-   "bodyBlocks": [],
-   "checkedAt": 1788838162387,
-   "etag": "",
-   "hash": "e68065af388a58d3",
-   "id": "ab83586bcedd",
-   "imageUrl": "https://www.4gamer.net/games/486/G048621/20260907018/SS/001.jpg",
-   "key": "https://www.4gamer.net/games/486/g048621/20260907018",
-   "lastModified": "",
-   "publishedAt": 1788759941000,
-   "summary": "HoYoverseは本日，オープンワールドRPG「原神」のVer.7.1「冥府へのレクイエム」予告番組を2026年9月12日21：00から配信すると発表した。本番組には，伊藤かな恵さん（ヴォジャニーツァ役），上坂すみれさん（オデット役），古賀葵さん（パイモン役）が出演し，最新情報を紹介していく。",
-   "title": "「原神」，Ver.7.1「冥府へのレクイエム」予告番組を9月12日21：00から配信。伊藤かな恵さん，上坂すみれさん，古賀 葵さんが出演",
-   "updatedAt": 1788838162387,
-   "url": "https://www.4gamer.net/games/486/G048621/20260907018/"
   },
   "https://www.4gamer.net/games/512/g051239/20260908028": {
    "bodyBlocks": [],
-   "checkedAt": 1788865052750,
+   "checkedAt": 1788904416812,
    "etag": "",
    "hash": "73fd1ce1f84db20a",
    "id": "75d38254a952",
@@ -672,12 +717,12 @@
    "publishedAt": 1788853133000,
    "summary": "カプコンは本日，「CAPCOMTGSSALE」をSteamとEpicGamesStoreで開始した。SteamではSFアクションADV「プラグマタ」が初セールとなり，20％オフで購入できるほか，「バイオハザードRE:4」や「モンスターハンターライズ＋サンブレイク」なども大幅に値引きされている。",
    "title": "「プラグマタ」が初セールで20％オフ，「バイオハザード RE:4」は75％オフに。PC向けカプコン作品が対象の「CAPCOM TGS SALE」開催中",
-   "updatedAt": 1788865052750,
+   "updatedAt": 1788904416812,
    "url": "https://www.4gamer.net/games/512/G051239/20260908028/"
   },
   "https://www.4gamer.net/games/574/g057444/20260908032": {
    "bodyBlocks": [],
-   "checkedAt": 1788865052750,
+   "checkedAt": 1788904416812,
    "etag": "",
    "hash": "b0b882f79717865b",
    "id": "f101ea160fa5",
@@ -687,7 +732,7 @@
    "publishedAt": 1788858699000,
    "summary": "ポケットペアは本日，「東京ゲームショウ2026」に出展するブースのノベルティと物販の情報を公開した。「パルワールド」の限定Tシャツや「パルワールドオフィシャルカードゲーム」のPRカードがノベルティとして用意され，限定ステッカー付きレッドブルも配布される。公式コスプレイヤー23名の配役も明らかになった。",
    "title": "ポケットペア，TGS 2026のノベルティと物販の情報を公開。「パルワールド」のグッズや「パルワールド オフィシャルカードゲーム」のPRカードを配布",
-   "updatedAt": 1788865052750,
+   "updatedAt": 1788904416812,
    "url": "https://www.4gamer.net/games/574/G057444/20260908032/"
   },
   "https://www.4gamer.net/games/635/g063504/20260908007": {
@@ -707,7 +752,7 @@
   },
   "https://www.4gamer.net/games/635/g063504/20260908036": {
    "bodyBlocks": [],
-   "checkedAt": 1788865052750,
+   "checkedAt": 1788904416812,
    "etag": "",
    "hash": "7de743cdd447ed31",
    "id": "b7c163493bb8",
@@ -717,8 +762,23 @@
    "publishedAt": 1788860564000,
    "summary": "MSYは本日（2026年9月8日），同社のブランド「GRAPHT」が展開する「ASOBIGRAPHT」シリーズより単行本「ストリートファイターがんばれ！ジュリちゃん本」を発売した。本編第1話から第100話までを収録するほか，イラストやおまけ漫画を掲載したページ，作者・観虐氏による書き下ろしの番外編，コメント，あとがきも収録している。",
    "title": "「ストリートファイター がんばれ！ジュリちゃん本」，本日発売。イラストやおまけ漫画，書き下ろし番外編なども収録",
-   "updatedAt": 1788865052750,
+   "updatedAt": 1788904416812,
    "url": "https://www.4gamer.net/games/635/G063504/20260908036/"
+  },
+  "https://www.4gamer.net/games/637/g063753/20260908054": {
+   "bodyBlocks": [],
+   "checkedAt": 1788904416812,
+   "etag": "",
+   "hash": "ae38cedef8c66a96",
+   "id": "cef11d0d643f",
+   "imageUrl": "https://www.4gamer.net/games/637/G063753/20260908054/SS/001.jpg",
+   "key": "https://www.4gamer.net/games/637/g063753/20260908054",
+   "lastModified": "",
+   "publishedAt": 1788869891000,
+   "summary": "セガは本日（2026年9月8日），「ペルソナ」シリーズが30周年を迎えることを記念し，「ペルソナ30周年」スペシャル生放送を9月20日19：00に配信すると発表した。TVアニメ「ペルソナ５」第1話から5話までをYouTubeで無料公開することなども発表されている。",
+   "title": "「ペルソナ30周年」スペシャル生放送，9月20日に配信。TVアニメ「ペルソナ５」第1話〜第5話のYouTube無料公開や，声優ラジオも予定",
+   "updatedAt": 1788904416812,
+   "url": "https://www.4gamer.net/games/637/G063753/20260908054/"
   },
   "https://www.4gamer.net/games/640/g064053/20260908023": {
    "bodyBlocks": [],
@@ -734,21 +794,6 @@
    "title": "モンスター収集RPG「Roco Kingdom」，世界観やマルチプレイ要素などを紹介する開発者動画を公開",
    "updatedAt": 1788865052750,
    "url": "https://www.4gamer.net/games/640/G064053/20260908023/"
-  },
-  "https://www.4gamer.net/games/706/g070647/20260907020": {
-   "bodyBlocks": [],
-   "checkedAt": 1788838162387,
-   "etag": "",
-   "hash": "f9f32dea6c4fcea9",
-   "id": "8bebb005b3d1",
-   "imageUrl": "https://www.4gamer.net/games/706/G070647/20260907020/SS/007.jpg",
-   "key": "https://www.4gamer.net/games/706/g070647/20260907020",
-   "lastModified": "",
-   "publishedAt": 1788760375000,
-   "summary": "RobinEntertainmentは，開発中の「POLYSTRIKE」のSteamウィッシュリスト登録数が，正式発表から3週間弱で約1万件に達したと発表した。本作は，「Dota2」のカスタムゲームを原点とする5v5タクティカルシューターで，視界や音を手掛かりに敵の位置を探る情報戦を特徴とする。日本語表示にも対応している。",
-   "title": "見下ろし型5v5タクティカルシューター「POLYSTRIKE」，発表3週間弱でSteamウィッシュリスト約1万件。日本語にも対応",
-   "updatedAt": 1788838162387,
-   "url": "https://www.4gamer.net/games/706/G070647/20260907020/"
   },
   "https://www.4gamer.net/games/732/g073256/20260908001": {
    "bodyBlocks": [],
@@ -795,21 +840,6 @@
    "updatedAt": 1788838162387,
    "url": "https://www.4gamer.net/games/760/G076029/20260908008/"
   },
-  "https://www.4gamer.net/games/799/g079934/20260907010": {
-   "bodyBlocks": [],
-   "checkedAt": 1788818045815,
-   "etag": "",
-   "hash": "c06dc170f54165f8",
-   "id": "02ed49440645",
-   "imageUrl": "https://www.4gamer.net/games/799/G079934/20260907010/SS/006.jpg",
-   "key": "https://www.4gamer.net/games/799/g079934/20260907010",
-   "lastModified": "",
-   "publishedAt": 1788753167000,
-   "summary": "EdmundMcMillen氏とTylerGlaiel氏は2026年9月6日，ローグライクタクティカルRPG「Mewgenics」が日本語表示に正式対応したと発表した。あわせて，2026年9月8日にはコンソール版を発売し，Steamアカウントとの連携でセーブデータをダウンロードして遊べるという。",
-   "title": "遺伝子操作を重ね，ネコ戦士を繁殖させて戦うタクティカルRPG「Mewgenics」，日本語に正式対応。2026年9月8日にはコンソール版も発売",
-   "updatedAt": 1788818045815,
-   "url": "https://www.4gamer.net/games/799/G079934/20260907010/"
-  },
   "https://www.4gamer.net/games/815/g081534/20260908017": {
    "bodyBlocks": [],
    "checkedAt": 1788865052750,
@@ -842,7 +872,7 @@
   },
   "https://www.4gamer.net/games/863/g086399/20260907046": {
    "bodyBlocks": [],
-   "checkedAt": 1788865052750,
+   "checkedAt": 1788904416812,
    "etag": "",
    "hash": "4a43d9c8dc46d3f0",
    "id": "b34f4fb5613a",
@@ -852,23 +882,8 @@
    "publishedAt": 1788850800000,
    "summary": "冒険者と商人，ふたつの仕事をこなすユニークな作風で人気を博した傑作ローグライトの続編「Moonlighter2:TheEndlessVault」を紹介する。2025年11月に開始したアーリーアクセスを通じて，着実にアップデートが重ねてきた本作だが，2026年9月2日に待望の正式リリースを迎えた。",
    "title": "［プレイレポ］冒険者と商人，ふたつの仕事をやり遂げる！ ついに正式リリース，傑作ローグライト続編「Moonlighter 2: The Endless Vault」",
-   "updatedAt": 1788865052750,
+   "updatedAt": 1788904416812,
    "url": "https://www.4gamer.net/games/863/G086399/20260907046/"
-  },
-  "https://www.4gamer.net/games/865/g086595/20260907007": {
-   "bodyBlocks": [],
-   "checkedAt": 1788818045815,
-   "etag": "",
-   "hash": "eda473593fe7b89e",
-   "id": "29ad5067905a",
-   "imageUrl": "https://www.4gamer.net/games/865/G086595/20260907007/SS/001.jpg",
-   "key": "https://www.4gamer.net/games/865/g086595/20260907007",
-   "lastModified": "",
-   "publishedAt": 1788750087000,
-   "summary": "カプコンは本日，「鬼武者WayoftheSword」で「モンスターハンターライズ」とのコラボ衣装を無料DLCとして配信開始した。静御前と出雲阿国の衣装を，それぞれヒノエとヨモギをモチーフにしたデザインに変更できる。また，コラボを記念した4コマ漫画も公開中だ。",
-   "title": "「鬼武者 Way of the Sword」，「モンスターハンターライズ」ヒノエ＆ヨモギ風のコラボ衣装を無料DLCで配信。コラボ4コマ漫画も公開中",
-   "updatedAt": 1788818045815,
-   "url": "https://www.4gamer.net/games/865/G086595/20260907007/"
   },
   "https://www.4gamer.net/games/865/g086595/20260907031": {
    "bodyBlocks": [],
@@ -915,21 +930,6 @@
    "updatedAt": 1788838162387,
    "url": "https://www.4gamer.net/games/908/G090896/20260907040/"
   },
-  "https://www.4gamer.net/games/919/g091974/20260907009": {
-   "bodyBlocks": [],
-   "checkedAt": 1788838162387,
-   "etag": "",
-   "hash": "e8e3999a8d6a0844",
-   "id": "cc5b83d8d8e8",
-   "imageUrl": "https://www.4gamer.net/games/919/G091974/20260907009/SS/003.jpg",
-   "key": "https://www.4gamer.net/games/919/g091974/20260907009",
-   "lastModified": "",
-   "publishedAt": 1788756415000,
-   "summary": "個人開発者のLapismine氏は本日，PC用ソフト「DungeonPicnic」の体験版の配信をSteamで開始した。本作は，RPGのおいしいところを凝縮したパーティ構築型ローグライクRPGだ。キャラごとのMPは存在せず，カードゲームのようにパーティ全体で「マナ」を共有する。",
-   "title": "RPGの醍醐味を凝縮したパーティ構築型ローグライクRPG「Dungeon Picnic」，体験版をSteamで配信開始",
-   "updatedAt": 1788838162387,
-   "url": "https://www.4gamer.net/games/919/G091974/20260907009/"
-  },
   "https://www.4gamer.net/games/930/g093084/20260908005": {
    "bodyBlocks": [],
    "checkedAt": 1788865052750,
@@ -945,20 +945,20 @@
    "updatedAt": 1788865052750,
    "url": "https://www.4gamer.net/games/930/G093084/20260908005/"
   },
-  "https://www.4gamer.net/games/945/g094562/20260907013": {
+  "https://www.4gamer.net/games/948/g094803/20260908053": {
    "bodyBlocks": [],
-   "checkedAt": 1788838162387,
+   "checkedAt": 1788904416812,
    "etag": "",
-   "hash": "17f6293ab15b7467",
-   "id": "2faeb20c9465",
-   "imageUrl": "https://www.4gamer.net/games/945/G094562/20260907013/SS/001.jpg",
-   "key": "https://www.4gamer.net/games/945/g094562/20260907013",
+   "hash": "3166cb7b5200b364",
+   "id": "180b00ed22f6",
+   "imageUrl": "https://www.4gamer.net/games/948/G094803/20260908053/SS/001.jpg",
+   "key": "https://www.4gamer.net/games/948/g094803/20260908053",
    "lastModified": "",
-   "publishedAt": 1788754508000,
-   "summary": "東北新社は本日，スクウェア・エニックスと共催するRPG「ドラゴンクエスト」シリーズの40周年を記念した展示イベント「ドラゴンクエストtheDIVE-まだ見ぬ冒険の舞台へ-」を，2027年1月26日から3月14日まで大阪で開催すると発表した。2026年9月8日10：00にチケットのアプリ限定先行販売を開始する。",
-   "title": "「ドラクエ」40周年記念イベント「ドラゴンクエスト the DIVE」，大阪で2027年1月26日から開催。VRでドラクエの世界へ飛び込める",
-   "updatedAt": 1788838162387,
-   "url": "https://www.4gamer.net/games/945/G094562/20260907013/"
+   "publishedAt": 1788868408000,
+   "summary": "ガンホーがスーパートリック・ゲームズとタッグを組んで展開する「LETITDIE:INFERNO」で，シーズン4が本日（2026年9月8日）開幕した。新シーズンでは「PvEvP」が廃止され，「PvE」特化のゲームに進化した。また，シリーズの原点にあたる「LETITDIE」のオフライン版も配信中だ。",
+   "title": "「LET IT DIE: INFERNO」のシーズン4が開幕。「PvEvP」を廃止し「PvE」特化のゲームに進化",
+   "updatedAt": 1788904416812,
+   "url": "https://www.4gamer.net/games/948/G094803/20260908053/"
   },
   "https://www.4gamer.net/games/949/g094901/20260908004": {
    "bodyBlocks": [],
@@ -990,24 +990,9 @@
    "updatedAt": 1788865052750,
    "url": "https://www.4gamer.net/games/954/G095498/20260908018/"
   },
-  "https://www.4gamer.net/games/968/g096854/20260907011": {
-   "bodyBlocks": [],
-   "checkedAt": 1788818045815,
-   "etag": "",
-   "hash": "3e19e82d25bbdef0",
-   "id": "7e9ead419bb7",
-   "imageUrl": "https://www.4gamer.net/games/968/G096854/20260907011/SS/003.jpg",
-   "key": "https://www.4gamer.net/games/968/g096854/20260907011",
-   "lastModified": "",
-   "publishedAt": 1788753238000,
-   "summary": "セガは本日（2026年9月7日），新作アクションRPG「ステューピッド・ネバー・ダイズ」のWebCM「バイトアクション編」「ストーリー編」を，同社公式YouTubeチャンネルで公開した。",
-   "title": "「ステューピッド・ネバー・ダイズ」，WebCM「バイトアクション編」「ストーリー編」が公開に。体験版も配信中",
-   "updatedAt": 1788818045815,
-   "url": "https://www.4gamer.net/games/968/G096854/20260907011/"
-  },
   "https://www.4gamer.net/games/968/g096863/20260908031": {
    "bodyBlocks": [],
-   "checkedAt": 1788865052750,
+   "checkedAt": 1788904416812,
    "etag": "",
    "hash": "80a5bbf921952438",
    "id": "8a7a8f3c1e09",
@@ -1017,27 +1002,27 @@
    "publishedAt": 1788854924000,
    "summary": "AmazonGameStudiosは本日（2026年9月8日），「トゥームレイダー：レガシー・オブ・アトランティス」の開発者動画を公開した。公開された動画では，CrystalDynamicsとFlyingWildHogのスタッフが出演し，本作の第2レベルである「ギリシャ」をどのように再構築したのかが解説されている。",
    "title": "「トゥームレイダー：レガシー・オブ・アトランティス」，ギリシャエリアの制作背景に迫る開発者動画を公開",
-   "updatedAt": 1788865052750,
+   "updatedAt": 1788904416812,
    "url": "https://www.4gamer.net/games/968/G096863/20260908031/"
   },
-  "https://www.4gamer.net/games/975/g097529/20260907019": {
+  "https://www.4gamer.net/games/969/g096968/20260908052": {
    "bodyBlocks": [],
-   "checkedAt": 1788838162387,
+   "checkedAt": 1788904416812,
    "etag": "",
-   "hash": "ab0659ab0f39a8ad",
-   "id": "3bfb49e8b56d",
-   "imageUrl": "https://www.4gamer.net/games/975/G097529/20260907019/SS/001.jpg",
-   "key": "https://www.4gamer.net/games/975/g097529/20260907019",
+   "hash": "5b568cd2a4300afd",
+   "id": "e642f0542f42",
+   "imageUrl": "https://www.4gamer.net/games/969/G096968/20260908052/SS/005.jpg",
+   "key": "https://www.4gamer.net/games/969/g096968/20260908052",
    "lastModified": "",
-   "publishedAt": 1788759789000,
-   "summary": "NCは本日（2026年9月7日），DynamisOneが手掛ける新作「アストラエ・オラティオ」について，「東京ゲームショウ2026」の特設ページ開設を発表し，併せて出展内容を公開した。会場では本作を試遊可能なほか，「シナリオ上映会：プロローグ」も予定されている。",
-   "title": "「アストラエ・オラティオ」，東京ゲームショウ2026で世界初のプレイアブル出展を実施。シナリオと戦闘のいずれかを選択して体験可能",
-   "updatedAt": 1788838162387,
-   "url": "https://www.4gamer.net/games/975/G097529/20260907019/"
+   "publishedAt": 1788866897000,
+   "summary": "GamirrorGamesは本日（2026年9月8日），D5Copperheadが開発した「AlchemyFactory」の早期アクセスを終了し，正式リリースした。本作は，魔法技術のアンロックや自動化生産ラインの構築を行い，さまざまな錬金製品を製造・販売する経営シミュレーションゲームだ。",
+   "title": "ポーションや聖遺物を生産する中世ファンタジー工業シム「Alchemy Factory」，正式版を本日リリース",
+   "updatedAt": 1788904416812,
+   "url": "https://www.4gamer.net/games/969/G096968/20260908052/"
   },
   "https://www.4gamer.net/games/975/g097550/20260908034": {
    "bodyBlocks": [],
-   "checkedAt": 1788865052750,
+   "checkedAt": 1788904416812,
    "etag": "",
    "hash": "c50e1b3775d7cd79",
    "id": "aae0c9dda719",
@@ -1047,12 +1032,12 @@
    "publishedAt": 1788860370000,
    "summary": "TailtoneGamesは本日，PC用ソフト「紙の家」の多言語アップデートを実施し，日本語にも正式対応したと発表した。本作は，高校生の少女「趙穎（ジャオ・イン）」の視点で描かれるビジュアルノベルだ。",
    "title": "女子高校生たちの出会いとすれ違い，それぞれが抱える悩みなどを描いたビジュアルノベル「紙の家」，日本語に正式対応",
-   "updatedAt": 1788865052750,
+   "updatedAt": 1788904416812,
    "url": "https://www.4gamer.net/games/975/G097550/20260908034/"
   },
   "https://www.4gamer.net/games/990/g099014/20260901011": {
    "bodyBlocks": [],
-   "checkedAt": 1788865052750,
+   "checkedAt": 1788904416812,
    "etag": "",
    "hash": "a54b5e28eab05ea0",
    "id": "abb0159c135c",
@@ -1062,23 +1047,23 @@
    "publishedAt": 1788861600000,
    "summary": "「SlashZero」は，アニメ調の横スクロール型アクションゲームだ。2026年3月のプレイテストを経て，現在はフィードバックをもとに調整が進められている。今回はプロデューサーのXieJun氏に，戦闘システムや世界観，ゲームの設計思想などについて話を聞いた。",
    "title": "［インタビュー］長期運営を前提としないからこそ，ゲームそのものの面白さに集中できる。「SlashZero」プロデューサーに聞く，純粋に面白さを追求したい制作思想",
-   "updatedAt": 1788865052750,
+   "updatedAt": 1788904416812,
    "url": "https://www.4gamer.net/games/990/G099014/20260901011/"
   },
-  "https://www.4gamer.net/games/991/g999101/20260907017": {
+  "https://www.4gamer.net/games/990/g999030/20260908057": {
    "bodyBlocks": [],
-   "checkedAt": 1788838162387,
+   "checkedAt": 1788904416812,
    "etag": "",
-   "hash": "76df4bfcad143915",
-   "id": "53269ece8eb0",
-   "imageUrl": "https://www.4gamer.net/games/991/G999101/20260907017/SS/002.jpg",
-   "key": "https://www.4gamer.net/games/991/g999101/20260907017",
+   "hash": "953d3d6d0ef22c8e",
+   "id": "5e0c3885bd6b",
+   "imageUrl": "https://www.4gamer.net/games/990/G999030/20260908057/SS/001.jpg",
+   "key": "https://www.4gamer.net/games/990/g999030/20260908057",
    "lastModified": "",
-   "publishedAt": 1788757805000,
-   "summary": "IGDA日本は本日（2026年9月7日），セミナー「インディーゲーム開発初心者のための、ゲームの広め方講座」を9月29日に開催すると発表した。",
-   "title": "IGDA日本，勉強会「インディーゲーム開発初心者のための，ゲームの広め方講座」を9月29日開催。インディーゲーム開発者による新SIGの立ち上げ準備も進行中",
-   "updatedAt": 1788838162387,
-   "url": "https://www.4gamer.net/games/991/G999101/20260907017/"
+   "publishedAt": 1788879316000,
+   "summary": "任天堂は，本日（2026年9月8日）配信された「ゼルダの伝説40周年Direct2026.9.8」で，「NintendoSwitch2ゼルダの伝説40周年アニバーサリーエディション」を10月29日に発売すると発表した。特別デザインのProコンやキャリングケースも同日発売となる。",
+   "title": "Switch2の「ゼルダの伝説 40周年 アニバーサリーエディション」，10月29日に発売決定。特別デザインのProコンやキャリングケースも同日発売",
+   "updatedAt": 1788904416812,
+   "url": "https://www.4gamer.net/games/990/G999030/20260908057/"
   },
   "https://www.4gamer.net/games/991/g999102/20260907043": {
    "bodyBlocks": [],
@@ -1127,7 +1112,7 @@
   },
   "https://www.4gamer.net/games/991/g999110/20260908022": {
    "bodyBlocks": [],
-   "checkedAt": 1788865052750,
+   "checkedAt": 1788904416812,
    "etag": "",
    "hash": "332a916ec45e0b81",
    "id": "986e925d9590",
@@ -1137,7 +1122,7 @@
    "publishedAt": 1788850800000,
    "summary": "サイバーコネクトツーは2026年9月8日，東京ゲームショウ2026に初出展すると発表した。同社ブースでは，全国で順次開催される「サイバーコネクトツー展」が“IN千葉”として実施される。会場では開発資料を見られるほか，フォトスポットも設けられる。",
    "title": "サイバーコネクトツー，東京ゲームショウ2026に初出展。「サイバーコネクトツー展」を会場内で実施",
-   "updatedAt": 1788865052750,
+   "updatedAt": 1788904416812,
    "url": "https://www.4gamer.net/games/991/G999110/20260908022/"
   },
   "https://www.4gamer.net/games/993/g099365/20260908009": {
@@ -1172,7 +1157,7 @@
   },
   "https://www.4gamer.net/games/999/g999902/20260908030": {
    "bodyBlocks": [],
-   "checkedAt": 1788865052750,
+   "checkedAt": 1788904416812,
    "etag": "",
    "hash": "c67d667ab0bcb031",
    "id": "9f0c33de6917",
@@ -1182,12 +1167,27 @@
    "publishedAt": 1788853170000,
    "summary": "Headwolfは，2026年9月11日まで8.8インチAndroidタブレット「Titan1」を対象とした期間限定キャンペーンを実施している。クーポンを適用することで，価格は5万9999円から4万9999円（税込）となる。",
    "title": "8.8インチAndroidタブレット「Headwolf Titan 1」が4万9999円に。レビュー投稿で専用ゲームコントローラも",
-   "updatedAt": 1788865052750,
+   "updatedAt": 1788904416812,
    "url": "https://www.4gamer.net/games/999/G999902/20260908030/"
+  },
+  "https://www.4gamer.net/games/999/g999903/20260908060": {
+   "bodyBlocks": [],
+   "checkedAt": 1788904416812,
+   "etag": "",
+   "hash": "c8b75871888fd252",
+   "id": "241330a1bf12",
+   "imageUrl": "https://www.4gamer.net/games/999/G999903/20260908060/SS/001.jpg",
+   "key": "https://www.4gamer.net/games/999/g999903/20260908060",
+   "lastModified": "",
+   "publishedAt": 1788877679000,
+   "summary": "任天堂の配信映像「ゼルダの伝説40周年Direct2026.9.8」で，NintendoSwitch2用ソフト「ゼルダの伝説時のオカリナ」が，2026年11月5日に発売されると発表された。配信では実機プレイ映像として，物語導入部のプレイの様子も映された。",
+   "title": "リメイク版「ゼルダの伝説 時のオカリナ」2026年11月5日に発売決定！ 初公開の実機プレイでは，こどもリンクの姿を見られた",
+   "updatedAt": 1788904416812,
+   "url": "https://www.4gamer.net/games/999/G999903/20260908060/"
   },
   "https://www.4gamer.net/games/999/g999905/20260908026": {
    "bodyBlocks": [],
-   "checkedAt": 1788865052750,
+   "checkedAt": 1788904416812,
    "etag": "",
    "hash": "fb411251004adc84",
    "id": "0db4ce398826",
@@ -1197,17 +1197,17 @@
    "publishedAt": 1788851923000,
    "summary": "VTuberの甲賀流忍者ぽんぽこさんと，ピーナッツくんのユニット「ぽこピー」は，ブラウザゲーム「PokopeainTheBackrooms」を公開した。本作は，バックルームズのような空間からの脱出を目指すゲームだ。",
    "title": "VTuberユニット・ぽこピーが「バックルームズ」をモチーフにしたブラウザゲーム「Pokopea in The Backrooms」を公開",
-   "updatedAt": 1788865052750,
+   "updatedAt": 1788904416812,
    "url": "https://www.4gamer.net/games/999/G999905/20260908026/"
   }
  },
  "listing": {
   "https://www.4gamer.net/rss/index.xml": {
-   "checkedAt": 1788865054959,
-   "etag": "\"13c28-65af657cb4c29-gzip\"",
-   "lastModified": "Tue, 08 Sep 2026 10:39:01 GMT"
+   "checkedAt": 1788904419528,
+   "etag": "\"13f70-65afa76cb72ca-gzip\"",
+   "lastModified": "Tue, 08 Sep 2026 15:34:01 GMT"
   }
  },
  "siteId": "4gamer",
- "updatedAt": 1788865117228
+ "updatedAt": 1788904483939
 }

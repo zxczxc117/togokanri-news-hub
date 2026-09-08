@@ -387,7 +387,7 @@
      "text": "自宅のインターネットが 「夜だけ遅い気がする」 「 ⁠最近不安定になった気がする」 と感じた時、その感覚が本当に正しいのかを数字で確認することは大切です。もしDockerを常時稼働させているUbuntu Serverがあるなら、動かしておくと意外に役立つサービスのひとつかもしれません。"
     }
    ],
-   "checkedAt": 1788778697547,
+   "checkedAt": 1788904492650,
    "etag": "",
    "hash": "c09f531b42bb39b7",
    "id": "66ec1f77bf49",
@@ -397,7 +397,7 @@
    "publishedAt": 1787703180000,
    "summary": "今回は定期的にSpeedtestを実行し、その結果を記録、グラフ化できるSpeedtest TrackerをUbuntu Server上で動かしてみましょう。",
    "title": "第924回 Speedtest Trackerで回線速度を自動測定し、ネットの遅い時間帯を調べる",
-   "updatedAt": 1788778697547,
+   "updatedAt": 1788904492650,
    "url": "https://gihyo.jp/admin/serial/01/ubuntu-recipe/0924?utm_source=feed"
   },
   "https://gihyo.jp/admin/serial/01/ubuntu-recipe/0925": {
@@ -2071,7 +2071,7 @@
      "text": "型で守り、トレースで見る。この2つを組み合わせることで、LLMアプリケーションの挙動を把握できるようになります。"
     }
    ],
-   "checkedAt": 1788778697547,
+   "checkedAt": 1788904492650,
    "etag": "",
    "hash": "46ad6e170d65f676",
    "id": "a759b350c665",
@@ -2081,7 +2081,7 @@
    "publishedAt": 1787699700000,
    "summary": "2026年8月の「Python Monthly Topics」は、LLMエージェントの内部で起きていることをトレースとして可視化する方法について紹介します。",
    "title": "型で守ったLLMをトレースで見る ― Pydantic AIとLogfireによる可視化",
-   "updatedAt": 1788778697547,
+   "updatedAt": 1788904492650,
    "url": "https://gihyo.jp/article/2026/08/monthly-python-2608?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/08/openai-plugin-support-skill-over-mcp": {
@@ -5131,11 +5131,11 @@
  },
  "listing": {
   "https://gihyo.jp/feed/rss2": {
-   "checkedAt": 1788865122512,
-   "etag": "W/\"6a9fcf80-7a27e\"",
-   "lastModified": "Tue, 08 Sep 2026 09:04:00 GMT"
+   "checkedAt": 1788904494898,
+   "etag": "W/\"6aa07840-7a001\"",
+   "lastModified": "Tue, 08 Sep 2026 21:04:00 GMT"
   }
  },
  "siteId": "gihyo",
- "updatedAt": 1788865170664
+ "updatedAt": 1788904541989
 }

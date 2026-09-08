@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-09-08T11:02:30+09:00",
+ "generatedAt": "2026-09-08T21:58:03+09:00",
  "sites": [
   {
    "id": "4gamer",
@@ -8,8 +8,8 @@
    "category": "GAME",
    "file": "sites/4gamer.json",
    "count": 80,
-   "rev": "8032390d0b41",
-   "updatedAt": "2026-09-08T10:58:37+09:00",
+   "rev": "cf38f660bcec",
+   "updatedAt": "2026-09-08T21:54:43+09:00",
    "allowFullText": true
   },
   {
@@ -19,7 +19,7 @@
    "file": "sites/diamond_zai.json",
    "count": 0,
    "rev": "ffe679bb831c",
-   "updatedAt": "2026-09-08T10:58:39+09:00",
+   "updatedAt": "2026-09-08T21:54:45+09:00",
    "allowFullText": true
   },
   {
@@ -29,7 +29,7 @@
    "file": "sites/famitsu.json",
    "count": 0,
    "rev": "ffe679bb831c",
-   "updatedAt": "2026-09-08T10:58:40+09:00",
+   "updatedAt": "2026-09-08T21:54:52+09:00",
    "allowFullText": true
   },
   {
@@ -39,7 +39,7 @@
    "file": "sites/gihyo.json",
    "count": 44,
    "rev": "3b920a449b38",
-   "updatedAt": "2026-09-08T10:59:30+09:00",
+   "updatedAt": "2026-09-08T21:55:41+09:00",
    "allowFullText": true
   },
   {
@@ -48,8 +48,8 @@
    "category": "GENERAL",
    "file": "sites/hatena_all.json",
    "count": 60,
-   "rev": "3040a8731bb2",
-   "updatedAt": "2026-09-08T11:00:27+09:00",
+   "rev": "9e41e4e9d4aa",
+   "updatedAt": "2026-09-08T21:56:40+09:00",
    "allowFullText": true
   },
   {
@@ -58,8 +58,8 @@
    "category": "TECH",
    "file": "sites/hatena_it.json",
    "count": 60,
-   "rev": "e0468707f32a",
-   "updatedAt": "2026-09-08T11:01:12+09:00",
+   "rev": "1e773ef729b6",
+   "updatedAt": "2026-09-08T21:57:24+09:00",
    "allowFullText": true
   },
   {
@@ -68,8 +68,8 @@
    "category": "MATOME",
    "file": "sites/itainews.json",
    "count": 80,
-   "rev": "777f0ec43f0e",
-   "updatedAt": "2026-09-08T11:02:04+09:00",
+   "rev": "dd8b95326cbc",
+   "updatedAt": "2026-09-08T21:57:40+09:00",
    "allowFullText": true
   },
   {
@@ -77,9 +77,9 @@
    "name": "ITmedia AI＋",
    "category": "TECH",
    "file": "sites/itmedia_ait.json",
-   "count": 48,
-   "rev": "6f174b631d86",
-   "updatedAt": "2026-09-08T11:02:25+09:00",
+   "count": 49,
+   "rev": "405670aa9a9f",
+   "updatedAt": "2026-09-08T21:57:58+09:00",
    "allowFullText": true
   },
   {
@@ -89,7 +89,7 @@
    "file": "sites/kabutan.json",
    "count": 0,
    "rev": "ffe679bb831c",
-   "updatedAt": "2026-09-08T11:02:26+09:00",
+   "updatedAt": "2026-09-08T21:57:59+09:00",
    "allowFullText": true
   },
   {
@@ -97,9 +97,9 @@
    "name": "NHK 主要ニュース",
    "category": "GENERAL",
    "file": "sites/nhk_main.json",
-   "count": 45,
-   "rev": "cfc47674d253",
-   "updatedAt": "2026-09-08T11:02:28+09:00",
+   "count": 51,
+   "rev": "2863ef7a8611",
+   "updatedAt": "2026-09-08T21:58:01+09:00",
    "allowFullText": false
   },
   {
@@ -108,10 +108,10 @@
    "category": "GENERAL",
    "file": "sites/yahoo_topics.json",
    "count": 60,
-   "rev": "cf050d6f3771",
-   "updatedAt": "2026-09-08T11:02:30+09:00",
+   "rev": "ccfd1f6bc94c",
+   "updatedAt": "2026-09-08T21:58:03+09:00",
    "allowFullText": false
   }
  ],
- "rev": "c91e21070bc9"
+ "rev": "300c3c3e15d4"
 }
