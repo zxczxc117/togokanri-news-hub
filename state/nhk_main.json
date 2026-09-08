@@ -450,6 +450,21 @@
    "updatedAt": 1788818377920,
    "url": "https://news.web.nhk/newsweb/na/nd-20260908de48893"
   },
+  "https://news.web.nhk/newsweb/na/nd-20260908de48898": {
+   "bodyBlocks": [],
+   "checkedAt": 1788838475646,
+   "etag": "",
+   "hash": "46e62e116ac14a9d",
+   "id": "73adf4619f1e",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260908de48898",
+   "lastModified": "",
+   "publishedAt": 1788832890000,
+   "summary": "ことし7月の働く人1人あたりの現金給与の総額は、基本給やボーナスなどが大きく伸びたため、前の年の同じ月と比べて4.7％増加し、4年7か月連続のプラスとなりました。また、物価を反映した実質賃金も2.4％…",
+   "title": "7月の実質賃金 前年同月比2.4％増 7か月連続プラス",
+   "updatedAt": 1788838475646,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260908de48898"
+  },
   "https://news.web.nhk/newsweb/na/nd-20260908de48908": {
    "bodyBlocks": [],
    "checkedAt": 1788818377920,
@@ -467,17 +482,17 @@
   },
   "https://news.web.nhk/newsweb/na/nd-20260908de48909": {
    "bodyBlocks": [],
-   "checkedAt": 1788818377920,
+   "checkedAt": 1788838475646,
    "etag": "",
-   "hash": "4ef94987299df42f",
+   "hash": "8cd7424f93461edc",
    "id": "5dc866b1a62c",
    "imageUrl": "",
    "key": "https://news.web.nhk/newsweb/na/nd-20260908de48909",
    "lastModified": "",
-   "publishedAt": 1788817721000,
-   "summary": "気象庁は、8日午前4時、東京の伊豆諸島に発表していた「レベル5土砂災害特別警報」を「レベル4土砂災害危険警報」に切り替えました。記録的な大雨となった伊豆諸島北部や千葉県南部では土砂災害の危険度が非常に…",
-   "title": "伊豆諸島の特別警報は危険警報に 東海は線状降水帯可能性も",
-   "updatedAt": 1788818377920,
+   "publishedAt": 1788837778000,
+   "summary": "秋雨前線や熱帯低気圧の影響で、西日本や東日本の太平洋側を中心に大気の状態が非常に不安定になり、局地的に激しい雨が降っています。\n東海や四国では9月8日の午後から9日にかけて線状降水帯が発生する可能性が…",
+   "title": "大雨続く 東海と四国では線状降水帯発生の可能性も 警戒を",
+   "updatedAt": 1788838475646,
    "url": "https://news.web.nhk/newsweb/na/nd-20260908de48909"
   },
   "https://news.web.nhk/newsweb/na/nd-20260908de48914": {
@@ -494,15 +509,90 @@
    "title": "ドイツ州議選 メルツ首相 州政府成立に協力しない姿勢強調",
    "updatedAt": 1788818377920,
    "url": "https://news.web.nhk/newsweb/na/nd-20260908de48914"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260908de48928": {
+   "bodyBlocks": [],
+   "checkedAt": 1788838475646,
+   "etag": "",
+   "hash": "075f5e32fb9273bc",
+   "id": "a538d26a7f79",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260908de48928",
+   "lastModified": "",
+   "publishedAt": 1788836191000,
+   "summary": "8日の東京外国為替市場、日米が協調して円安是正への対応を取るのではないかという思惑などからドルを売って円を買う動きが加速し、円相場は、7か月ぶりに一時、1ドル＝152円台まで値上がりしました。",
+   "title": "円相場 一時1ドル＝152円台まで値上がり 7か月ぶり",
+   "updatedAt": 1788838475646,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260908de48928"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260908de48932": {
+   "bodyBlocks": [],
+   "checkedAt": 1788838475646,
+   "etag": "",
+   "hash": "5c1ab6e944f71dda",
+   "id": "6bf8c6834d3f",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260908de48932",
+   "lastModified": "",
+   "publishedAt": 1788834652000,
+   "summary": "ことし4月から6月までのGDP＝国内総生産の改定値は、実質の伸び率が年率換算でプラス1.4％と、先月発表された速報値のプラス1.1％から上方修正されました。\n最新の統計を反映した結果、「個人消費」が…",
+   "title": "4-6月GDP改定値 上方修正 「個人消費」小幅プラスに",
+   "updatedAt": 1788838475646,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260908de48932"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260908de48956": {
+   "bodyBlocks": [],
+   "checkedAt": 1788838475646,
+   "etag": "",
+   "hash": "be9625562a446c0f",
+   "id": "48a1c212b3ce",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260908de48956",
+   "lastModified": "",
+   "publishedAt": 1788835817000,
+   "summary": "アメリカがカナダに追加関税を発動し、カナダも対抗措置を打ち出すなか、トランプ大統領は、カナダの航空機大手ボンバルディアの航空機のアメリカでの販売を禁止するとSNSに投稿し、けん制しました。",
+   "title": "トランプ大統領「ボンバルディア機販売禁止」カナダをけん制",
+   "updatedAt": 1788838475646,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260908de48956"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260908de48957": {
+   "bodyBlocks": [],
+   "checkedAt": 1788838475646,
+   "etag": "",
+   "hash": "a06ba9a63a22b93a",
+   "id": "73436ccf8b3c",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260908de48957",
+   "lastModified": "",
+   "publishedAt": 1788835500000,
+   "summary": "自民党は役員会で、党の役員人事について総裁である高市総理大臣に一任することを決めました。\n高市総理大臣は、早ければ来週にも人事を行う方針で、人選などの検討を進めることにしています。",
+   "title": "自民役員会 党役員人事 高市首相に一任 来週にも人事行う方針",
+   "updatedAt": 1788838475646,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260908de48957"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260908de48964": {
+   "bodyBlocks": [],
+   "checkedAt": 1788838475646,
+   "etag": "",
+   "hash": "586e1c95b5d14445",
+   "id": "abe49b5ff594",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260908de48964",
+   "lastModified": "",
+   "publishedAt": 1788837961000,
+   "summary": "8日午前、静岡県川根本町の工事現場で土砂崩れが発生し、警察や消防によりますと作業員1人が巻き込まれたということです。",
+   "title": "静岡 川根本町 工事現場で土砂崩れ 作業員1人巻き込まれる",
+   "updatedAt": 1788838475646,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260908de48964"
   }
  },
  "listing": {
   "https://www.nhk.or.jp/rss/news/cat0.xml": {
-   "checkedAt": 1788818379502,
-   "etag": "W/\"693ff7a9ca38a3924ac70119d92f3bce\"",
-   "lastModified": "Mon, 07 Sep 2026 21:49:03 GMT"
+   "checkedAt": 1788838477119,
+   "etag": "W/\"4321319bf9e51010f1e2994759a2c582\"",
+   "lastModified": "Tue, 08 Sep 2026 03:30:05 GMT"
   }
  },
  "siteId": "nhk_main",
- "updatedAt": 1788818379503
+ "updatedAt": 1788838477120
 }
