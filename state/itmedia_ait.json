@@ -1072,6 +1072,150 @@
    "updatedAt": 1788838447678,
    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/08/news045.html"
   },
+  "https://atmarkit.itmedia.co.jp/ait/articles/2609/09/news038.html": {
+   "bodyBlocks": [
+    {
+     "kind": "P",
+     "text": "この記事は会員限定です。 会員登録（無料） すると全てご覧いただけます。"
+    },
+    {
+     "kind": "P",
+     "text": "NVIDIAは2026年8月4日（米国時間）、Linux Foundationが「SAFE（Shared AI Findings Exchange）」に関する意見募集を公開したことを、同社ブログで明らかにした。SAFEは、エージェント型AIのセキュリティインシデントをエコシステム全体の防御に転換することを狙ったガイドライン群の提案だ。業界団体Open Secure AI Alliance（OSAIA）のワーキンググループが草案を作成している。"
+    },
+    {
+     "kind": "P",
+     "text": "OSAIAの参加組織は120を超える。公表は、年次セキュリティカンファレンス「Black Hat」が米国ラスベガスで開幕する日に合わせて行われた。初期案にはNVIDIA、Cisco Systems（以下、Cisco）、CrowdStrike、Hugging Face、Red HatなどのOSAIA会員が、Linux Foundationと共に関わっている。"
+    },
+    {
+     "kind": "H",
+     "text": "エージェントによるインシデントを共有するためのガイドライン"
+    },
+    {
+     "kind": "P",
+     "text": "SAFEのガイドラインには、次のような提案が含まれる。AIのインシデントとニアミスを秘匿性を保ったまま収集、分析すること。影響を受けた当事者に通知すること。繰り返し発生している制御の不備を特定すること。システミックリスクを低減する証拠に基づいた運用上の推奨事項を公開することの4点だ。"
+    },
+    {
+     "kind": "P",
+     "text": "NVIDIAは、大きな技術転換のたびに新たな攻撃対象領域が生まれてきたとして、防御側はインフラや知的財産を守るためにエージェントの速度で動く必要があり、最善の方法は協働だとする。信頼できるエコシステムが脅威インテリジェンスをオープンに共有すれば、集団防御が力の増幅装置になると述べている。"
+    },
+    {
+     "kind": "H",
+     "text": "AIエージェントはモデルだけではない"
+    },
+    {
+     "kind": "P",
+     "text": "SAFEは、OSAIA会員が進めている技術面の貢献に加わるものだ。NVIDIAは「AIエージェントは単なるモデルではない。ID制御、ハーネス、ガードレール（安全対策）、ログ、評価から成るシステムで、その保護には脆弱（ぜいじゃく）性スキャン以上のものが必要だ」とする。"
+    },
+    {
+     "kind": "P",
+     "text": "NVIDIA自身は、エージェントの挙動をテストする研究用ハーネス「NVIDIA Labs Object-Oriented Agent」（NOOA）、AIエージェントを安全に実行、管理するためのセキュリティランタイム「NVIDIA OpenShell」、プログラム可能なガードレール「NeMo Guardrails」などのツール群、脆弱性スキャナー「Garak」を提供している。"
+    },
+    {
+     "kind": "P",
+     "text": "エージェント型AI向けの「NVIDIA Nemotron」やフィジカルAI向けの「NVIDIA Cosmos」といったオープンなモデルファミリーも、重みやデータセット、トレーニング手法とともに公開している。"
+    },
+    {
+     "kind": "H",
+     "text": "OSAIA会員各社もスタックの各層で公開を進める"
+    },
+    {
+     "kind": "P",
+     "text": "OSAIAの他の会員も、IDと権限、ハーネス、ランタイムのガードレール、セキュリティ向けAIモデル、可観測性と評価、可用性と回復力にまたがって開発を進めている。主な例は次の通り。"
+    },
+    {
+     "kind": "H",
+     "text": "IDと権限"
+    },
+    {
+     "kind": "P",
+     "text": "Oktaはオープンプロトコル「Cross App Access」（XAA）を使い、エージェントが安全に企業アプリケーションに接続する実装例を開発している。"
+    },
+    {
+     "kind": "P",
+     "text": "Palo Alto Networksはアイデンティティーセキュリティプラットフォーム「Idira」から、「Agent Guard」「Agent Watch」といったオープンソースソフトウェア（以下、OSS）ツールを提供している。"
+    },
+    {
+     "kind": "P",
+     "text": "Red HatはNIST（米国国立標準技術研究所）やOWASP（Open Worldwide Application Security Project）、EU AI法の要件をエージェント実行時の制御に対応付ける「asago」を公開した。"
+    },
+    {
+     "kind": "H",
+     "text": "ハーネスとツール"
+    },
+    {
+     "kind": "P",
+     "text": "新たにOSAIAに加わったAmazon.comは、オープンなAIエージェント構築のためのOSSツールキット「Strands Agents」と認証言語「Cedar」を提供。同じく新会員のVisaは「Visa Vulnerability Agentic Harness」を提供している。"
+    },
+    {
+     "kind": "P",
+     "text": "Microsoft AI Red Teamは、自動化された疑似攻撃を実行できる「PyRIT」など複数を公開し、Capital One、Cloudflare、Wizも脆弱性の発見や検証を担うツールを出している。"
+    },
+    {
+     "kind": "H",
+     "text": "防御向けモデルとランタイム"
+    },
+    {
+     "kind": "P",
+     "text": "Ciscoはランタイムでの統制を担う「DefenseClaw」と、既知の脆弱性の位置を特定するセキュリティ小規模言語モデル（SLM）「Antares」を公開。デフォルト（既定）で安全なプラクティスをAIコーディングワークフローに直接組み込むための「Project CodeGuard」もリリースしている。"
+    },
+    {
+     "kind": "P",
+     "text": "CrowdStrikeは「NVIDIA Nemotron Nano」をサイバー防御向けにファインチューニングし、社内テストで調査クエリ生成の精度96％を達成している。Mistralは、マルチモーダルの安全性分類モデル「Shieldstral」を、Apache 2.0のオープンウェイトモデルとして公開した。"
+    },
+    {
+     "kind": "H",
+     "text": "オブザーバビリティー（可観測性）と可用性"
+    },
+    {
+     "kind": "P",
+     "text": "Uberは、プロンプトから推論、ツール呼び出し、結果までの因果の連鎖を再構成する「ADR（Agentic AI Detection and Response）」の主要なコンポーネントをオープンソース化した。3万台のエンドポイントで1日当たり20万件を超えるエージェントセッションに対応している。"
+    },
+    {
+     "kind": "P",
+     "text": "この他、Akamai、CognitionAI、Perplexity、LangChain、Veeamが、脅威の分析や評価、検知、復旧の仕組みを提供している。"
+    },
+    {
+     "kind": "P",
+     "text": "NVIDIAは、OSAIA会員が再利用可能な緩和策を公開すれば、エコシステム全体の防御側がそれを検査し、適応させ、改善できるとして、AIの進展に合わせてセキュリティの実践も進化していくと説明している。"
+    },
+    {
+     "kind": "LI",
+     "text": "「AIの制限」でも「野放し」でも失敗する？ AI時代に“共有APIキー”は限界 Cloudflareは、AIモデルへのリクエストを送信した従業員やAIエージェントを特定できる「Identity-Aware AI Gateway」を発表した。個人やチームごとの利用上限の設定や、リスクのあるコンテンツの自動検出にも対応する。"
+    },
+    {
+     "kind": "LI",
+     "text": "7割が「シャドーAI」未対策 Gartner提言・メルカリ事例に学ぶ、正攻法 企業で生成AIやAIエージェントの活用が広がる一方、IT部門が把握していない「シャドーAI」のリスクが顕在化しています。経営層と現場の認識にはなぜズレが生じるのでしょうか。AI活用とガバナンスを両立させる方法を考えます。"
+    },
+    {
+     "kind": "LI",
+     "text": "なぜ経営陣に危機感が伝わらない？ CISOの半数以上が苦悩する「AIエージェント制御」のリアル OktaはAIエージェントとID管理に関する調査レポートを公開した。エージェントの所在や接続先、実行できる操作を把握できているCISOは半数に満たないことが明らかになった。"
+    },
+    {
+     "kind": "LI",
+     "text": "「AIエージェントが暴走した」責任まで負わされる時代、企業は「IDと権限」をどう扱うべきか AIエージェントが自律的に判断して実行する処理について、その責任は誰が負うのか。AIエージェント特有のリスクを抑制するには、どのような統制が必要なのか。"
+    },
+    {
+     "kind": "LI",
+     "text": "MCPが最新ロードマップを発表 エージェンティックAI、非同期通信、セキュリティなど5つの重点分野を定義 MCPのコアメンテナーチームが新たなロードマップを公開した。「AIと外部APIをつなぐ配線コード」から、「大規模・自律型のAIエージェント群がエンタープライズ環境で安全に連携するための基盤プロトコル」への進化を図っていくという。"
+    },
+    {
+     "kind": "H",
+     "text": "関連リンク"
+    }
+   ],
+   "checkedAt": 1788924845419,
+   "etag": "",
+   "hash": "b4d74202264c8837",
+   "id": "be94e0456897",
+   "imageUrl": "https://image.itmedia.co.jp/ait/articles/2609/09/cover_news038.jpg",
+   "key": "https://atmarkit.itmedia.co.jp/ait/articles/2609/09/news038.html",
+   "lastModified": "",
+   "publishedAt": 1788908400000,
+   "summary": "Linux Foundationは、エージェント型AIのセキュリティインシデントを業界で共有するためのガイドライン「SAFE」について意見募集を始めた。NVIDIAやCisco、CrowdStrikeなどが初期案の作成に参加している。",
+   "title": "「AIエージェントはモデルだけじゃない」 NVIDIAらが説く“エージェント防御”の勘所と共有の仕組み",
+   "updatedAt": 1788924845419,
+   "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/09/news038.html"
+  },
   "https://kn.itmedia.co.jp/kn/article/2609/04/2000001139": {
    "bodyBlocks": [],
    "checkedAt": 1788818352702,
@@ -1104,33 +1248,63 @@
   },
   "https://kn.itmedia.co.jp/kn/article/2609/08/2000001168": {
    "bodyBlocks": [],
-   "checkedAt": 1788904660208,
+   "checkedAt": 1788924845419,
    "etag": "",
    "hash": "581e279582363a34",
    "id": "a58d6e3f7be5",
    "imageUrl": "https://kn.itmedia.co.jp/kn/article/ogp/2609/08/2000001168/10005208/2048",
    "key": "https://kn.itmedia.co.jp/kn/article/2609/08/2000001168",
-   "lastModified": "Tue, 08 Sep 2026 14:45:39 GMT",
+   "lastModified": "Wed, 09 Sep 2026 02:45:28 GMT",
    "publishedAt": 1788837362000,
    "summary": "AIに仕事を手伝わせるだけでなく、仕事そのものを自動化するにはどうすればいいのか。Google Workspace Studioを使った4つの実例から、日々の業務を効率化する具体的な方法を紹介する。",
    "title": "Googleの自動化ツール「Workspace Studio」×Gemini、4つの業務効率化アイデア",
-   "updatedAt": 1788904660208,
+   "updatedAt": 1788924845419,
    "url": "https://kn.itmedia.co.jp/kn/article/2609/08/2000001168/"
   },
   "https://kn.itmedia.co.jp/kn/article/2609/08/2000001255": {
    "bodyBlocks": [],
-   "checkedAt": 1788904660208,
+   "checkedAt": 1788924845419,
    "etag": "",
    "hash": "43c6b425cd2dede5",
    "id": "d976c9a3feb2",
    "imageUrl": "https://kn.itmedia.co.jp/kn/article/ogp/2609/08/2000001255/10005531/2048",
    "key": "https://kn.itmedia.co.jp/kn/article/2609/08/2000001255",
-   "lastModified": "Tue, 08 Sep 2026 14:45:39 GMT",
+   "lastModified": "Wed, 09 Sep 2026 02:45:28 GMT",
    "publishedAt": 1788838332000,
    "summary": "Googleが「Gemini 3.8 Flash」の一般提供を開始した。長時間のコーディングや自律型エージェントを想定する新モデルだ。発表内容を読み解くと、単なる性能向上とは異なる3つの変化が見えてくる。",
    "title": "「Gemini 3.8 Flash」の狙いは“賢さ”ではない？ 発表から見えた3つのポイント",
-   "updatedAt": 1788904660208,
+   "updatedAt": 1788924845419,
    "url": "https://kn.itmedia.co.jp/kn/article/2609/08/2000001255/"
+  },
+  "https://kn.itmedia.co.jp/kn/article/2609/09/2000001267": {
+   "bodyBlocks": [],
+   "checkedAt": 1788924845419,
+   "etag": "",
+   "hash": "0e1182d746928bd1",
+   "id": "5a320f9e99b3",
+   "imageUrl": "https://kn.itmedia.co.jp/kn/article/ogp/2609/09/2000001267/10005588/2048",
+   "key": "https://kn.itmedia.co.jp/kn/article/2609/09/2000001267",
+   "lastModified": "Wed, 09 Sep 2026 02:45:28 GMT",
+   "publishedAt": 1788904800000,
+   "summary": "「ChatGPT」などの生成AIに企業選びを相談する求職者が増えている。AIの回答が応募や選考辞退を左右する可能性もあるなか、企業には「AIからどう見られているか」という新たな採用対策が求められている。",
+   "title": "求職者がAIで会社を選ぶ時代、AIの「企業評価」が採用にも影響 企業はどう対策すべき？",
+   "updatedAt": 1788924845419,
+   "url": "https://kn.itmedia.co.jp/kn/article/2609/09/2000001267/"
+  },
+  "https://kn.itmedia.co.jp/kn/article/2609/09/2000001278": {
+   "bodyBlocks": [],
+   "checkedAt": 1788924845419,
+   "etag": "",
+   "hash": "a72ee01bdeddd4f7",
+   "id": "e78d67883774",
+   "imageUrl": "https://kn.itmedia.co.jp/kn/article/ogp/2609/09/2000001278/10005633/2048",
+   "key": "https://kn.itmedia.co.jp/kn/article/2609/09/2000001278",
+   "lastModified": "Wed, 09 Sep 2026 02:45:28 GMT",
+   "publishedAt": 1788904800000,
+   "summary": "SAPの認定試験が、知識を問う従来型から実践型へと大きく変わった。さらに一部の試験ではAIの利用も可能になった。30年続くSAP認定試験で、知識よりも求めていることとは。",
+   "title": "新SAP認定試験は「AIの利用OK」 実践型の新方式で備えるべきことは？",
+   "updatedAt": 1788924845419,
+   "url": "https://kn.itmedia.co.jp/kn/article/2609/09/2000001278/"
   },
   "https://monoist.itmedia.co.jp/mn/articles/2609/04/news033.html": {
    "bodyBlocks": [
@@ -1476,6 +1650,98 @@
    "updatedAt": 1788838447678,
    "url": "https://monoist.itmedia.co.jp/mn/articles/2609/08/news032.html"
   },
+  "https://monoist.itmedia.co.jp/mn/articles/2609/09/news059.html": {
+   "bodyBlocks": [
+    {
+     "kind": "P",
+     "text": "Armは2026年9月8日、中国の上海で開催したユーザーイベント「Arm Everywhere China」において3つの新プロダクトを発表した。モバイル機器向けソリューション「Arm CSS for Mobile 2」とインフラストラクチャ向けソリューション「Arm Neoverse CSS N4」、半導体製品の市場投入期間を短縮するサービス「Arm Total Design」をフィジカルAI（人工知能）向けに拡大する「Arm Total Design for Physical AI」である。"
+    },
+    {
+     "kind": "H",
+     "text": "「Arm CSS for Mobile 2」はSME2を倍増、GPUに専用ニューラルアクセラレータ"
+    },
+    {
+     "kind": "P",
+     "text": "Arm CSS for Mobile 2は、2025年9月に発表した「Arm Lumex」と比べて、CPUクラスタのAI処理性能を向上するとともに、GPUにおけるAI技術に基づくグラフィックス処理（ニューラル処理）の性能を大幅に強化した。"
+    },
+    {
+     "kind": "P",
+     "text": "新たなCPUクラスタ「C2 CPU」は、高性能版の「C2-Ultra」と電力効率重視の「C2-Pro」から構成される。C2-Ultraは、Arm Lumexの「C1-Ultra」と比べてAI性能が最大1.7倍となり、シングルスレッド性能も15％向上している。同一性能の場合は消費電力を最大38％削減できる。また、CPUクラスタ内に組み込まれているAIの演算処理を得意とする拡張命令ユニット「SME2」が従来の1ユニットから2ユニットに増した。これにより、最新のSLM（小規模言語モデル）の処理速度を70％高速化できるという。"
+    },
+    {
+     "kind": "P",
+     "text": "新たなGPUである「Arm Mali G2-Ultra NX GPU」は、超解像化やフレーム補完といったニューラル処理を得意とする専用のニューラルアクセラレータをArmのGPUとして初めて搭載した。これにより、ニューラル処理と従来のグラフィックス処理を同一のパイプライン上に統合できるため、超解像化やフレーム補完をより高い処理速度や応答速度、電力効率で行えるようになった。従来の「Arm Mali G1-Ultra」と比べて、ニューラル処理を用いたグラフィックス表示を最大4倍の消費電力当たり性能で実行できる。また、通常のグラフィックス処理も最大14％の性能向上を果たしている。"
+    },
+    {
+     "kind": "H",
+     "text": "「Arm Neoverse CSS N4」は動作周波数3.8GHzへ、LPDDR6にも対応"
+    },
+    {
+     "kind": "P",
+     "text": "Arm Neoverse CSS N4は、AIインフラストラクチャに対して需要が急拡大するAIエージェントの処理に求められるCPUの演算性能の向上に貢献するプロダクトである。CPUの「Arm Neoverse N4 CPU」は、1ダイ当たり8〜128個のCPUコアを構成可能であり、3nmプロセスで最大3.8GHzの動作周波数を実現できる。"
+    },
+    {
+     "kind": "P",
+     "text": "AIエージェントで重視される推論処理性能を向上するためには、メモリや外部インタフェース、内部インターコネクトの帯域幅の拡大も重要だ。Arm Neoverse CSS N4は、最新のメモリ規格であるLPDDR6に対応し、メモリ速度は8000〜1万2000MT/s以上を実現している。外部インタフェースも最新のPCIe Gen 7をサポートする。内部インターコネクトの「CMN S4」は最大16×16のメッシュインターコネクトであり、従来の「CMN S3」と比べて2倍のデータ帯域幅を有している。複数のチップレットを組み合わせて半導体パッケージの集積度を高めるマルチチップレット接続にも対応した。"
+    },
+    {
+     "kind": "P",
+     "text": "これらの結果、従来の「Arm Neoverse CSS N3」と比べて最大2倍の性能、最大1.25倍の消費電力当たり性能、最大1.75倍のメモリ帯域幅を実現したとしている。"
+    },
+    {
+     "kind": "H",
+     "text": "ロボットの高度化レベルをRL0〜RL5で定義"
+    },
+    {
+     "kind": "P",
+     "text": "Arm Total Design for Physical AIは、フィジカルAIの開発に必要なAIモデルやソフトウェア、コンピューティング、センサー、アクチュエータなどの技術スタックを統合し、早期開発と検証を可能にするサービスである。Armをはじめ、AWS、ECARX、Hugging Face、Liquid AI、NXP、PlusAI、PSYONIC、QNX、Qwen、Siemens、Unitree Roboticsなど80社以上が参画する協業の枠組みにもなっている。"
+    },
+    {
+     "kind": "P",
+     "text": "Arm Total Design for Physical AIの立ち上げに向けて、ロボットシステムの高度化レベルを定義する「Robotics Capability Framework」も策定された。自動運転技術と同様にレベル0の「RL0」からレベル5の「RL5」の6段階に分けて、ロボットの挙動や出力、システム要件を定めている。"
+    },
+    {
+     "kind": "LI",
+     "text": "Arm初のCPUチップ「AGI CPU」が顧客とパートナーにもたらす悲喜こもごも Armの最新動向について報告する本連載。今回は、2026年3月にArmが発表した、同社が初めてCPUチップそのものを製造／販売する「AGI CPU」を解説するとともに、顧客やパートナーにどのような影響を与えるのかを考察する。"
+    },
+    {
+     "kind": "LI",
+     "text": "Armはなぜブランド名を変更するのか、「SME2」投入もAI対応に紆余曲折あり Armの最新動向について報告する本連載。今回は、2025年5月に発表されたブランド変更の狙いや、CSSの提供方法の変更、AI処理を担う「SME2」の投入などについて紹介する。"
+    },
+    {
+     "kind": "LI",
+     "text": "Armのモバイル向け基盤が全面刷新で「Lumex」に、「SME2」でAI処理性能は5倍 Armがモバイル機器向けプロセッサIPセットの新たな演算サブシステム（CSS）プラットフォーム「Arm Lumex」を発表。CPUやGPUのブランド名を刷新するとともに、CPUクラスタにAIの演算処理を得意とする新たな拡張命令「SME2」を組み込むことでオンデバイスAIの処理性能を大幅に高めた。"
+    },
+    {
+     "kind": "LI",
+     "text": "シリコン戦略の標準化を促進するチップレット構造「CSA」の仕様を初公開 Armは、CSA（Chiplet System Architecture）の仕様を初公開した。システムの分割やチップレット同士を接続するための標準規格を提供し、互換性の問題を軽減する。既に60以上の企業がCSAに参加しており、シリコン戦略の標準化促進に貢献している。"
+    },
+    {
+     "kind": "LI",
+     "text": "Armがサーバ向けプロセッサコア「Neoverse」の第3世代品を投入、シェアも急拡大 Armがクラウド／サーバ向けプロセッサコア「Neoverse」の第3世代プロダクトを発表。また、Neoverseを採用したIC設計のコストとリスクを低減し市場投入期間を短縮するためのサブシステムIP「Arm Neoverse Compute Subsystems（CSS）」の適用範囲を拡大する。"
+    },
+    {
+     "kind": "LI",
+     "text": "Armのクライアント機器向け最新ソリューション「TCS23」の全貌 Armの最新動向について報告する本連載。今回は、2023年5月30日〜6月2日に開催された「COMPUTEX TAIPEI 2023」で発表されたクライアント機器向けの最新ソリューションである「TCS23」を構成する各IPを紹介する。"
+    },
+    {
+     "kind": "H",
+     "text": "関連リンク"
+    }
+   ],
+   "checkedAt": 1788924845419,
+   "etag": "",
+   "hash": "e388ee176916ab50",
+   "id": "8398bb99cdb0",
+   "imageUrl": "https://image.itmedia.co.jp/mn/articles/2609/09/cover_news059.jpg",
+   "key": "https://monoist.itmedia.co.jp/mn/articles/2609/09/news059.html",
+   "lastModified": "",
+   "publishedAt": 1788908400000,
+   "summary": "Armが3つの新プロダクトを発表した。モバイル機器向けソリューション「Arm CSS for Mobile 2」とインフラストラクチャ向けソリューション「Arm Neoverse CSS N4」、半導体製品の市場投入期間を短縮するサービスをフィジカルAI向けに拡大する「Arm Total Design for Physical AI」である。",
+   "title": "Armが3つの新プロダクトを発表、モバイルとAIインフラ、フィジカルAI向け",
+   "updatedAt": 1788924845419,
+   "url": "https://monoist.itmedia.co.jp/mn/articles/2609/09/news059.html"
+  },
   "https://www.itmedia.co.jp/aiplus/article/2609/04/2000001152": {
    "bodyBlocks": [
     {
@@ -1646,123 +1912,138 @@
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001243": {
    "bodyBlocks": [],
-   "checkedAt": 1788904660208,
+   "checkedAt": 1788924845419,
    "etag": "",
    "hash": "34f2a19491853c7f",
    "id": "e5e3e2f08e71",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/08/2000001243/10005504/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001243",
-   "lastModified": "Tue, 08 Sep 2026 21:45:26 GMT",
+   "lastModified": "Wed, 09 Sep 2026 02:45:28 GMT",
    "publishedAt": 1788827515000,
    "summary": "最新モデル「GPT-6 Astra」を使ってBlenderでの3Dモデリングなどを楽しみ、7日（レイバー・デーの祝日）までの連休に利用枠を使い切った人が、平日が始まる8日にもAstraを引き続き使えるようにする。",
    "title": "ChatGPT、有料ユーザー全リセット 「Astra」で使い切った人向けに",
-   "updatedAt": 1788904660208,
+   "updatedAt": 1788924845419,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001243/"
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001245": {
    "bodyBlocks": [],
-   "checkedAt": 1788904660208,
+   "checkedAt": 1788924845419,
    "etag": "",
    "hash": "ea54e0081be3f69f",
    "id": "50a9629cb322",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/08/2000001245/10005508/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001245",
-   "lastModified": "Tue, 08 Sep 2026 21:45:26 GMT",
+   "lastModified": "Wed, 09 Sep 2026 02:45:28 GMT",
    "publishedAt": 1788829721000,
    "summary": "AIモデル「GPT-6 Astra」が、ゲーム「I'm Not a Robot」（私はロボットではありません）の全レベルをクリアした――米OpenAIのITエンジニアであるシャリフ・シャミーム氏は、自身のXアカウント（@sharifshameem）でこのように投稿した。",
    "title": "GPT-6 Astraが「私はロボットではありません」を突破？ パロディーゲームを“全クリ”、OpenAIのエンジニアが報告",
-   "updatedAt": 1788904660208,
+   "updatedAt": 1788924845419,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001245/"
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001252": {
    "bodyBlocks": [],
-   "checkedAt": 1788904660208,
+   "checkedAt": 1788924845419,
    "etag": "",
    "hash": "c3ff0019f79a60b8",
    "id": "584304d8a6b8",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/08/2000001252/10005518/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001252",
-   "lastModified": "Tue, 08 Sep 2026 21:45:26 GMT",
+   "lastModified": "Wed, 09 Sep 2026 02:45:28 GMT",
    "publishedAt": 1788834868000,
    "summary": "ロボット開発企業の中国Unitree Roboticsは、完全自律動作をうたう人型ロボットが人間と格闘するデモ動画を公開した。",
    "title": "人型ロボが「完全自律格闘」 中国Unitreeがデモ動画を公開 AIで「リアルタイムの未来予測」うたう",
-   "updatedAt": 1788904660208,
+   "updatedAt": 1788924845419,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001252/"
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001257": {
    "bodyBlocks": [],
-   "checkedAt": 1788904660208,
+   "checkedAt": 1788924845419,
    "etag": "",
    "hash": "72777b430cd21956",
    "id": "28dcd6625412",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/08/2000001257/10005525/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001257",
-   "lastModified": "Tue, 08 Sep 2026 21:45:26 GMT",
+   "lastModified": "Wed, 09 Sep 2026 03:24:37 GMT",
    "publishedAt": 1788839021000,
    "summary": "価格比較サイト「価格.com」のデスクトップPC注目ランキング1位に約100万円のAIスパコンが掲載されるなど、いま「ローカルLLM」が熱い状況だ。ここでは3本の記事で、ローカルLLM関連が急速に盛り上がりを見せている理由を解剖していく。1本目となるこの記事では、「モデル」「ハードウェア」「ソフトウェア」という3つの土壌が成熟しつつあることを紹介する。",
    "title": "100万円のPCが注目ランキング1位に？ ローカルLLMブームを生んだ「3つの条件」",
-   "updatedAt": 1788904660208,
+   "updatedAt": 1788924845419,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001257/"
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001261": {
    "bodyBlocks": [],
-   "checkedAt": 1788904660208,
+   "checkedAt": 1788924845419,
    "etag": "",
    "hash": "a0daec14d76fb6ec",
    "id": "8db0132f5b4e",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/08/2000001261/10005548/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001261",
-   "lastModified": "Tue, 08 Sep 2026 21:45:26 GMT",
+   "lastModified": "Wed, 09 Sep 2026 02:45:28 GMT",
    "publishedAt": 1788841481000,
    "summary": "中国のEVメーカー小鵬汽車（シャオペン）は、人型ロボット「IRON」の生産ラインを稼働させたと発表した。2026年内に量産を始め、27年に中国および海外市場に投入する予定だ。",
    "title": "「中に人いる？」と疑われた人型ロボ、ついに量産へ 2027年に市場投入 中国EVメーカーのシャオペン",
-   "updatedAt": 1788904660208,
+   "updatedAt": 1788924845419,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001261/"
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001272": {
    "bodyBlocks": [],
-   "checkedAt": 1788904660208,
+   "checkedAt": 1788924845419,
    "etag": "",
    "hash": "00b4514e5e5a168f",
    "id": "ab7357c416f7",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/08/2000001272/10005627/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001272",
-   "lastModified": "Tue, 08 Sep 2026 21:45:26 GMT",
+   "lastModified": "Wed, 09 Sep 2026 02:45:28 GMT",
    "publishedAt": 1788851181000,
    "summary": "日立製作所は9月3日、社会インフラ向けAIソリューション群「HMAX」を拡充し、データセンター運用やサイバー防御などの新サービスを発表。2026年を「フィジカルAI元年」と位置付け、HMAXを売上高5000億円の事業に育てる見込み。",
    "title": "「2026年はフィジカルAI元年」 日立、AIサービス群全体で売上5000億円へ ミュトス利用の知見を基にした新サービスも",
-   "updatedAt": 1788904660208,
+   "updatedAt": 1788924845419,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001272/"
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001279": {
    "bodyBlocks": [],
-   "checkedAt": 1788904660208,
+   "checkedAt": 1788924845419,
    "etag": "",
    "hash": "098c56600753e4af",
    "id": "7e35e8d728b9",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/08/2000001279/10005638/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001279",
-   "lastModified": "Tue, 08 Sep 2026 21:45:26 GMT",
+   "lastModified": "Wed, 09 Sep 2026 02:45:28 GMT",
    "publishedAt": 1788854298000,
    "summary": "GMO AI&ロボティクス商事は人型ロボットの故障・トラブル時に診断や修理、代替機の提供などを行う「GMOヒューマノイド救急車」を導入すると発表した。",
    "title": "「人型ロボット向け救急車」登場、国内初うたう 世界の救急車両を参考にデザイン GMO傘下",
-   "updatedAt": 1788904660208,
+   "updatedAt": 1788924845419,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001279/"
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001291": {
    "bodyBlocks": [],
-   "checkedAt": 1788904660208,
+   "checkedAt": 1788924845419,
    "etag": "",
    "hash": "eb3a689b8073b01e",
    "id": "25f79dea9b0e",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/08/2000001291/10005676/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001291",
-   "lastModified": "Tue, 08 Sep 2026 21:45:26 GMT",
+   "lastModified": "Wed, 09 Sep 2026 02:45:28 GMT",
    "publishedAt": 1788867814000,
    "summary": "鹿児島県指宿市のマラソン大会を告知するポスターに、「生成AIで描かれているようだ」などの指摘が相次ぎ、同事務局が9月8日に声明を発表した",
    "title": "マラソン大会のポスターが“AIっぽい”と波紋 「説明に不適切な部分があった」と事務局声明",
-   "updatedAt": 1788904660208,
+   "updatedAt": 1788924845419,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001291/"
+  },
+  "https://www.itmedia.co.jp/aiplus/article/2609/09/2000001298": {
+   "bodyBlocks": [],
+   "checkedAt": 1788924845419,
+   "etag": "",
+   "hash": "114fa0c1343f5f65",
+   "id": "f5752534583b",
+   "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/09/2000001298/10005713/2048",
+   "key": "https://www.itmedia.co.jp/aiplus/article/2609/09/2000001298",
+   "lastModified": "Wed, 09 Sep 2026 02:45:28 GMT",
+   "publishedAt": 1788911828000,
+   "summary": "OpenAIが「ChatGPT Images 2.5」を発表。指定部分だけを編集する精度を高め、テンプレートや手描きの下絵を使う機能も追加した。生成の待ち時間は従来比で最大50％短縮し、全プランに提供する。",
+   "title": "「ChatGPT Images 2.5」登場 特定部分の編集を強化、落書きの清書やテンプレート機能も",
+   "updatedAt": 1788924845419,
+   "url": "https://www.itmedia.co.jp/aiplus/article/2609/09/2000001298/"
   },
   "https://www.itmedia.co.jp/business/articles/2609/04/news020.html": {
    "bodyBlocks": [
@@ -3070,15 +3351,60 @@
    "title": "AI創薬候補、6種の「老化時計」で生物学的年齢の低下を示唆",
    "updatedAt": 1788904660208,
    "url": "https://www.itmedia.co.jp/news/article/2609/08/2000001239/"
+  },
+  "https://www.itmedia.co.jp/news/article/2609/09/2000001294": {
+   "bodyBlocks": [],
+   "checkedAt": 1788924845419,
+   "etag": "",
+   "hash": "2a60a87decd91a14",
+   "id": "be1853740bfe",
+   "imageUrl": "https://www.itmedia.co.jp/news/article/ogp/2609/09/2000001294/10005695/2048",
+   "key": "https://www.itmedia.co.jp/news/article/2609/09/2000001294",
+   "lastModified": "Wed, 09 Sep 2026 03:29:32 GMT",
+   "publishedAt": 1788903717000,
+   "summary": "Metaは、日常の作業を代行するパーソナルAIエージェント「Muse」を発表した。専用アプリやWhatsAppから操作でき、メール送信や旅行予約、Webフォーム入力などを自律して行う。専用VMや別エージェントによる多層防御で安全性を高め、決済やログイン情報との連携にも対応する。基本機能は無料。",
+   "title": "Meta、パーソナルAIエージェント「Muse」発表 メール送信や買い物も代行（まずは米国で無料提供開始）",
+   "updatedAt": 1788924845419,
+   "url": "https://www.itmedia.co.jp/news/article/2609/09/2000001294/"
+  },
+  "https://www.itmedia.co.jp/news/article/2609/09/2000001296": {
+   "bodyBlocks": [],
+   "checkedAt": 1788924845419,
+   "etag": "",
+   "hash": "2af853f66e84d926",
+   "id": "965000bf7d97",
+   "imageUrl": "https://www.itmedia.co.jp/news/article/ogp/2609/09/2000001296/10005700/2048",
+   "key": "https://www.itmedia.co.jp/news/article/2609/09/2000001296",
+   "lastModified": "Wed, 09 Sep 2026 03:29:32 GMT",
+   "publishedAt": 1788909229000,
+   "summary": "Google DeepMindは、ヒトゲノムで起こり得る約90億通り全ての一塩基変異の影響を事前予測したデータベース「AlphaGenome Atlas」を公開した。影響度を数値化するスコアも導入し、未解明な非コード領域の変異解析を加速させる。学術研究向けにWebから無償提供する。",
+   "title": "Google DeepMind、90億通りの全塩基変異の影響を予測した「AlphaGenome Atlas」 学術向けに無償提供",
+   "updatedAt": 1788924845419,
+   "url": "https://www.itmedia.co.jp/news/article/2609/09/2000001296/"
+  },
+  "https://www.itmedia.co.jp/news/article/2609/09/2000001300": {
+   "bodyBlocks": [],
+   "checkedAt": 1788924845419,
+   "etag": "",
+   "hash": "1f20e3a03a35613f",
+   "id": "4d45bc7084d0",
+   "imageUrl": "https://www.itmedia.co.jp/news/article/ogp/2609/09/2000001300/10005718/2048",
+   "key": "https://www.itmedia.co.jp/news/article/2609/09/2000001300",
+   "lastModified": "Wed, 09 Sep 2026 03:29:32 GMT",
+   "publishedAt": 1788915327000,
+   "summary": "OpenAIは、社内の未公開モデルがミレニアム懸賞問題の「ナビエ・ストークス方程式」の特異点発生を証明したと発表した。一方、先行研究を行っていた数学者は、自らの成果伝達後に着手され手法が酷似していると不正疑惑を主張。OpenAI側は反論しており、成果の検証と経緯を巡り論争が起きている。",
+   "title": "OpenAI、ミレニアム懸賞問題「ナビエ・ストークス方程式」をAIが解決したと発表 数学者は経緯に反発",
+   "updatedAt": 1788924845419,
+   "url": "https://www.itmedia.co.jp/news/article/2609/09/2000001300/"
   }
  },
  "listing": {
   "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml": {
-   "checkedAt": 1788904661934,
-   "etag": "\"2fac-65aff5e98c46b-gzip\"",
-   "lastModified": "Tue, 08 Sep 2026 21:25:10 GMT"
+   "checkedAt": 1788924846877,
+   "etag": "\"2fae-65b03fabe8814-gzip\"",
+   "lastModified": "Wed, 09 Sep 2026 02:55:10 GMT"
   }
  },
  "siteId": "itmedia_ait",
- "updatedAt": 1788904678187
+ "updatedAt": 1788924873517
 }

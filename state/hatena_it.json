@@ -1,108 +1,5 @@
 {
  "articles": {
-  "https://ai.watch.impress.co.jp/docs/news/2138869.html": {
-   "bodyBlocks": [],
-   "checkedAt": 1788838361260,
-   "etag": "",
-   "hash": "85dcb484cf3de4cf",
-   "id": "e23159811b82",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fai.watch.impress.co.jp%2Fdocs%2Fnews%2F2138869.html",
-   "key": "https://ai.watch.impress.co.jp/docs/news/2138869.html",
-   "lastModified": "",
-   "publishedAt": 1788777375000,
-   "summary": "",
-   "title": "AI動画専門誌「AI動画最前線」10月6日発売、制作手法や最新ツール解説を掲載",
-   "updatedAt": 1788838361260,
-   "url": "https://ai.watch.impress.co.jp/docs/news/2138869.html"
-  },
-  "https://anond.hatelabo.jp/20260907191254": {
-   "bodyBlocks": [
-    {
-     "kind": "H",
-     "text": "■ 性格 悪い 離婚 増田 の 記事 を読んで、 自分 の頭で 一定 程度考えながら生成 AI と壁打ちして 問題点 を深掘りしてみた"
-    },
-    {
-     "kind": "P",
-     "text": "ちなみに、 一般的 に真面目な 質問 に対して生成 AI 使って答え書くのは割と 性格 が悪いのでみんなも気をつけような。"
-    },
-    {
-     "kind": "P",
-     "text": "さて、この 記事 を読んで、まあなんか ぼんやり 「 言動 がかなり 特殊 だな？」とは感じるわけです。"
-    },
-    {
-     "kind": "P",
-     "text": "で、 自分 でもいくつか 言語化 はできたけど、そこ から 先の 結論 には イマイチ たどり着けていない。"
-    },
-    {
-     "kind": "P",
-     "text": "そこで使おう生成 AI 。次のような 質問 を投げてみました。この プロ ンプトの「気になっているのが数点ある」以下の部分が、私がきになった（＝ 自分 で考えた）点ね。"
-    },
-    {
-     "kind": "QUOTE",
-     "text": "「 離婚 して から 自分 が 性格 悪いことに気づいた」と題した 記事 を読みました。 この 記事 に対する 違和感 を 自分 の 言葉 で 言語化 したいと思ってい ます 。そこで、 あなた にその手伝いをしてほしいです。 私は、この 記事 において気になっているのが数点あり ます 。 語り手が「 性格 が悪い」と はい いつつ「何が 問題 なのか」を 理解 していないこと つ まり 、二度同じ失敗を繰り返しているので、 自分 に 問題 が悪いことは 理解 しているらしいが、その 本質 にはピン とき ていない この人が「話し合い」に 固執 していること。そして、「話し合いに応じない」 行為 が「不誠実」だと 判断 していること 彼女 が 一方的 に何かを聞く 立場 にあること。 相手 から 何かが 質問 をしてくる例にこの 文章 では乏しいこと おおよそこのあたりに鍵があるのではと感じてい ます が、 もう一歩 分析 が足りていません。 そこで、これらの 文章 に対して、私が気づいていない 観点 で 増田 の 言動 に関する特徴を整理してみてもらえませんか。"
-    },
-    {
-     "kind": "P",
-     "text": "流石に生成 AI の答えを丸投げするのはよくないので、読んでみて「なるほどな」と思った ポイント だけ多少書き換えて上げる。"
-    },
-    {
-     "kind": "QUOTE",
-     "text": "発生しているのは「話し合い」ではなく「 尋問 」 「なぜなぜ」 分析 の繰り返し： ビジネス では役に立つかもしれないが、 警察 の 尋問 でも使われるし、 基本的 に 相手 が 白旗 を出すまでおわらない 納得の 基準 が「 自分 」に しか ないのに「 自分 のことだ から 自分 で考えて」という問答をしており、これは 相手 にとって 心理的 に 拷問 に近い。 人間関係 の変化を ロジック で 説明 しようとしすぎ 「 相手 が変わっ たか ら私が 質問 した」と言ってるが、 相手 から すると「私が 質問 してき たか ら冷めた」であり、 どっちもどっち 。ここで 相手 を責めても 意味 がない。 「疲れることもあるが 楽しい こともあった」という グラデーション 、 矛盾 を受け入れる 感覚 がなく、白黒 思考 で完結している 「 ルール 」と「 マナー 」を 武器 に 相手 を追いつめている（ AI は「 精神 的 DV 」という 言葉 を出力 しま した） 相手 が「今は話したくない」と言っているのは、 相手 の 感情的 な 自衛 行為 で、そこは 本来 尊重 すべきところ。それを問い詰める 行為 は、 相手 の 尊重 より 自分 自身の中にある「白黒はっきりさせたい」という 欲求 を優先している。かなり 独善的 な 行為 免罪符 作り AI は「別れたあとに 質問 リスト を投げる 行為 は、 改善 意欲の表れに見えるけど、 増田 の 過去 の 言動 から 察するに「そこを基点に ロジック で 相手 を詰める前準備」に見えたのでは？」と言った 「私は 論理的 に ルール を守った」と主張しているが、実際に起きてるのは 相手 を追いつめているだけで、 相手 の 本質 的な拒絶を 自分 自身の納得を優先させて 無視 している 「私も悪かった」は「 相手 も悪かった」ということを言いたいための良い訳なのでは？"
-    },
-    {
-     "kind": "P",
-     "text": "つ まり 、まあこの人は「 論理 による 自分 自身の納得」を使って 相手 を追いつめているだけなんですよね。"
-    },
-    {
-     "kind": "P",
-     "text": "相手 が 感情的 に 疲弊 していることを一切 考慮 していない。"
-    },
-    {
-     "kind": "P",
-     "text": "まあ、 仕事 でそれやる ならい いのかもしれないし、同じことをやって受け入れてくれる人がいつか見つかるかもしれない。"
-    },
-    {
-     "kind": "P",
-     "text": "ただ、こういう 分析 とかを見て一つだけ思った アドバイス を言うとですね、「 間違っている 相手 であれば詰めていい（なぜなら 自分 の方が正し いか ら） 」という 思考 は今すぐ捨てた方がいい。"
-    },
-    {
-     "kind": "P",
-     "text": "それ、 相手 が 自殺 しても同じこと言える？ また、それで 自責の念 を抱かずにいられる？"
-    },
-    {
-     "kind": "P",
-     "text": "もっと 言えば、 自分 が正しいことを言っていて、 相手 が間違っ たこ とを言っていたとしても、 一般的 に あなた の 言動 で 相手 が傷ついたのなら 原因は あなた にある んですよ。 責任 はも しか したらな いか もしれないけど、原因は あなた にある。"
-    },
-    {
-     "kind": "P",
-     "text": "で、原因がある以上、 人間 は多少なりとも罪悪感を抱くこともあれば、抱かないこともある。そこで「 別に 責任 はな いか もしれないけど、同じことを繰り返 さな いように原因を取り除く試みはやっておいた方がい いか な」みたいなことは、多少なりとも 改善 意欲がある 人間 なら一度は考えるんですよ。 あなた 、考えました？"
-    },
-    {
-     "kind": "P",
-     "text": "もし、それで「いや、 論理的 に話を進めている私が正しい」と思っているなら、間違っているので注意してください。それ 自体 は 別に 悪いことじゃないけど、 あなた がやるべきは「これ以上この話を進めるとこの人を傷つけ、追いつめるな」という見極めと ブレーキ を身につけることです。"
-    },
-    {
-     "kind": "P",
-     "text": "言わないことは ウソ じゃないですし、傷ついてる・疲れてる 人間 に対して 正論 をぶつけて 疲弊 させる 行為 は正しくても思いやり ゼロ で人の心がないと 判断 される。そういうことです。"
-    },
-    {
-     "kind": "P",
-     "text": "Permalink | 記事への反応(1) |\n 19:12"
-    }
-   ],
-   "checkedAt": 1788818242184,
-   "etag": "",
-   "hash": "cddd89c8b5793a27",
-   "id": "ae705dedc081",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fanond.hatelabo.jp%2F20260907191254",
-   "key": "https://anond.hatelabo.jp/20260907191254",
-   "lastModified": "",
-   "publishedAt": 1788776374000,
-   "summary": "ちなみに、一般的に真面目な質問に対して生成AI使って答え書くのは割と性格が悪いのでみんなも気をつけような。 anond:20260906221615 さて、この記事を読んで、まあなんかぼんやり「言動がかなり特殊だな？」とは感じるわけです。 で、自分でもいくつか言語化はできたけど、そこから先の結論にはイマイチたどり着けてい...",
-   "title": "性格悪い離婚増田の記事を読んで、自分の頭で一定程度考えながら生成AIと壁打ちして問題点を深掘りしてみた",
-   "updatedAt": 1788818242184,
-   "url": "https://anond.hatelabo.jp/20260907191254"
-  },
   "https://automaton-media.com/articles/newsjp/20260908-465804": {
    "bodyBlocks": [
     {
@@ -209,206 +106,6 @@
    "title": "BS民放5社、無料の「BS4K配信サービス」10月1日開始。WOWOWオンデマンドで",
    "updatedAt": 1788904600552,
    "url": "https://av.watch.impress.co.jp/docs/news/2139039.html"
-  },
-  "https://blog.kuniwak.com/entry/ai-lifeplan": {
-   "bodyBlocks": [
-    {
-     "kind": "H",
-     "text": "何かをdisっているときは、たいていツンデレですので大目に見てやってください。"
-    },
-    {
-     "kind": "P",
-     "text": "個人のお金やライフプランの相談を誰かにしようとしたとき、どうしてもついて回るのが金融商品の売り込み（ポジショントーク）です。本当に中立で、自分のデータに基づいた客観的なシミュレーションとアドバイスをしてくれるファイナンシャルプランナー（FP）を見つけるのは容易ではありません。"
-    },
-    {
-     "kind": "P",
-     "text": "しかし、自分の家計データを蓄積し、AI（ChatGPT, Claude, Gemini 等）とシミュレータを組み合わせるワークフローを構築すれば、AI はあなた専属の中立で極めて優秀な FP に変身します。\n実際に私の事例では確定申告ミスや NISA のよりお得な投資方法を指摘されました。"
-    },
-    {
-     "kind": "P",
-     "text": "本記事では、エンジニアの皆さんに向けて家計のデータパイプラインを整えシナリオの総当たりシミュレーションと感度分析によって最適な意思決定をおこなうアプローチを解説します。"
-    },
-    {
-     "kind": "H",
-     "text": "伝えたいこと：データとAIでライフプランを可視化する"
-    },
-    {
-     "kind": "LI",
-     "text": "家計データを継続して記録・整理しておけば、将来の資産推移は予測できる"
-    },
-    {
-     "kind": "LI",
-     "text": "経済条件や生活費などの変数を変化させて感度分析（影響度分析）をおこなえば選ぶべき選択肢がわかる"
-    },
-    {
-     "kind": "LI",
-     "text": "正確なデータをもとにAIに助言を乞うことでポジショントークゼロの中立で優秀な FP を手に入れられる"
-    },
-    {
-     "kind": "P",
-     "text": "感覚や不安に振り回されることなく、エンジニアリングのアプローチで人生のファイナンスを制御していきましょう。"
-    },
-    {
-     "kind": "H",
-     "text": "この方法で得られるアウトプットの例"
-    },
-    {
-     "kind": "P",
-     "text": "この手法を実践すると、どのようなシミュレーション結果が得られるのでしょうか。\n実際の成果物サンプルとして、以下のレポートをご覧ください。"
-    },
-    {
-     "kind": "H",
-     "text": "このレポートからわかること"
-    },
-    {
-     "kind": "LI",
-     "text": "資産推移へのインパクト分析 平均的な世帯において、どのパラメータ（昇給率、生活費、教育費、住宅購入時期など）が最終資産額に最も大きな影響を与えるかが一目で分かります。"
-    },
-    {
-     "kind": "LI",
-     "text": "「持ち家 vs 賃貸論争」へのデータ駆動なアプローチ 不毛な感情論になりがちな住宅問題についても、自身の前提条件（住宅ローン金利、物件価格、修繕費、賃料上昇率など）をパラメトリックに変化させることで、客観的な数値データとして比較・評価できます。"
-    },
-    {
-     "kind": "H",
-     "text": "具現化するための 4 Step ワークフロー"
-    },
-    {
-     "kind": "P",
-     "text": "具体的にどのようにシステム（ワークフロー）を組むのか、役割分担とともに説明します。"
-    },
-    {
-     "kind": "H",
-     "text": "Step 1. 【人間】データの蓄積（データのインジェクション）"
-    },
-    {
-     "kind": "P",
-     "text": "未来予測の精度は入力データの質に依存します。まずはあなた個人の過去と現在の正確なデータをストックします。"
-    },
-    {
-     "kind": "H",
-     "text": "集めるべきデータ"
-    },
-    {
-     "kind": "LI",
-     "text": "必須データ 給与明細 / 確定申告書 （額面・手取り・社会保険料・税金の推移） 銀行・証券口座の明細 （資産残高、投資信託や株の保有状況。電子通知/PDF/CSV化しておくと取り込みが非常に楽になります） 年金の支払いデータ （年金の納付額や未納時期） 固定資産税の納税通知書 （持ち家・土地を保有している場合）"
-    },
-    {
-     "kind": "LI",
-     "text": "任意データ（推奨） 家計簿ツールの出力データ MoneyForward アプリなどからは年間家計簿データを CSV で出力可能です 支出を極力クレジットカードやデビットカードに集約しておくことで、カテゴリごとの大雑把な月間・年間支出トレンドを自動的に把握できます"
-    },
-    {
-     "kind": "H",
-     "text": "Step 2. 【AI】条件ごとの入力 CSV 作成（プロンプト＆シナリオ生成）"
-    },
-    {
-     "kind": "P",
-     "text": "蓄積された生データと、あなたが検証したい未来の意思決定パラメータを AI に渡し、シミュレーション用設定 CSV を出力させます。"
-    },
-    {
-     "kind": "H",
-     "text": "考慮したいパラメータ例"
-    },
-    {
-     "kind": "LI",
-     "text": "収入トレンド : 昇給率の強気・弱気シナリオ、転職/独立/副業による収入変化"
-    },
-    {
-     "kind": "LI",
-     "text": "生活費の振れ幅 : 現在の生活水準の継続、あるいはインフレやライフスタイルの変化による上下"
-    },
-    {
-     "kind": "LI",
-     "text": "家族構成・教育 : 子どもの人数、公立/私立コース、大学進学タイミング"
-    },
-    {
-     "kind": "LI",
-     "text": "住まい : 賃貸継続 vs 持ち家購入（物件価格、頭金、住宅ローン金利、リフォーム費用）"
-    },
-    {
-     "kind": "P",
-     "text": "AIはこれらのパラメータの組み合わせパターン（グリッドサーチ用の設定）に合わせて、シミュレータが読み込めるフォーマットの CSV 群を漏れなく生成してくれます。"
-    },
-    {
-     "kind": "H",
-     "text": "Step 3. 【AI & ツール】総当たり資産推移シミュレーション（感度分析）"
-    },
-    {
-     "kind": "P",
-     "text": "生成された設定をもとに、資産推移を計算します。オープンソースのシミュレーションツール github.com/Kuniwak/ai-lifeplan を利用することで、設定したパラメータの全組み合わせで将来の資産推移を並列計算できます。"
-    },
-    {
-     "kind": "QUOTE",
-     "text": "💡 エンジニアへのアドバイス :\nリポジトリをそのまま使うのも良いですが、自分の特殊な条件（独自の税制優遇、株のストックオプション、特殊な保険など）に対応させたい場合は、リポジトリを Fork して AI にロジックのカスタマイズや拡張を依頼するのがおすすめです。"
-    },
-    {
-     "kind": "H",
-     "text": "感度分析（Sensitivity Analysis）のポイント"
-    },
-    {
-     "kind": "P",
-     "text": "他のパラメータを固定した状態で 特定の1つの変数を変化させたとき、最終資産額（例: 65歳時点や80歳時点の純資産）がどれだけ変動するか を分析します："
-    },
-    {
-     "kind": "LI",
-     "text": "変動幅が大きいパラメータ : 決定の影響が大きく、慎重に決断すべき事項"
-    },
-    {
-     "kind": "LI",
-     "text": "変動幅が小さいパラメータ : どれを選んでも影響が少ない些事"
-    },
-    {
-     "kind": "H",
-     "text": "Step 4. 【人間】分析レポートを行動に反映"
-    },
-    {
-     "kind": "P",
-     "text": "総当たりシミュレーションの結果をもとに、AI に分析レポートをまとめさせます。"
-    },
-    {
-     "kind": "LI",
-     "text": "「我が家の家計は、子供の私立中高進学よりも、住宅ローンの金利上昇への感度の方がはるかに高い」"
-    },
-    {
-     "kind": "LI",
-     "text": "「年間の生活費を月数万円削減するより、エンジニアとしての昇給・キャリアアップに投資する方が、30年後の資産に桁違いの影響を与える」"
-    },
-    {
-     "kind": "P",
-     "text": "といった客観的なインサイトが得られます。あなたはそのレポートをもとに行動を起こすだけです。"
-    },
-    {
-     "kind": "H",
-     "text": "まとめ"
-    },
-    {
-     "kind": "LI",
-     "text": "家計データを記録・蓄積しておけば、将来の資産推移は精度高くシミュレートできる"
-    },
-    {
-     "kind": "LI",
-     "text": "経済条件やライフイベントの変数を変化させ、感度分析を行うことで本当に注力すべき意思決定が判明する"
-    },
-    {
-     "kind": "LI",
-     "text": "客観的データを基盤に AI にコンサルティングさせることで、利害関係のない中立で優秀な FP としてフル活用できる"
-    },
-    {
-     "kind": "P",
-     "text": "感覚や他人の意見に惑わされるライフプランニングを脱却し、データとシミュレーション、そして AI を駆使して、あなたに最適なお金の意思決定を行っていきましょう。"
-    }
-   ],
-   "checkedAt": 1788865227258,
-   "etag": "",
-   "hash": "a4bc68c421313479",
-   "id": "34950880acce",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fblog.kuniwak.com%2Fentry%2Fai-lifeplan",
-   "key": "https://blog.kuniwak.com/entry/ai-lifeplan",
-   "lastModified": "",
-   "publishedAt": 1788820077000,
-   "summary": "個人のお金やライフプランの相談を誰かにしようとしたとき、どうしてもついて回るのが金融商品の売り込み（ポジショントーク）です。本当に中立で、自分のデータに基づいた客観的なシミュレーションとアドバイスをしてくれるファイナンシャルプランナー（FP）を見つけるのは容易ではありません。 しかし、自分の家計デー...",
-   "title": "AIを中立で優秀なファイナンシャルプランナーに仕立て上げる方法 - 若くない何かの悩み",
-   "updatedAt": 1788865227258,
-   "url": "https://blog.kuniwak.com/entry/ai-lifeplan"
   },
   "https://blog.yapcjapan.org/entry/2026/09/08/140002": {
    "bodyBlocks": [
@@ -562,6 +259,258 @@
    "updatedAt": 1788904600552,
    "url": "https://dailyportalz.jp/dpq/midokoro-20260908-1"
   },
+  "https://engineers.ntt.com/entry/202609-robotbu/entry": {
+   "bodyBlocks": [
+    {
+     "kind": "P",
+     "text": "従業員の家族を職場に招く「ファミリーデー」で、子どもたちに通信の仕組みを体験してもらうため、光ファイバーを使った音声通話装置を一から作りました。"
+    },
+    {
+     "kind": "P",
+     "text": "この記事では、回路の試作やプリント基板・ケースの製作、人数分の量産、そして当日の実験教室の様子までをご紹介します。"
+    },
+    {
+     "kind": "H",
+     "text": "はじめに"
+    },
+    {
+     "kind": "P",
+     "text": "こんにちは、AIロボット部（社内サークル）部員の浅野秀平です。"
+    },
+    {
+     "kind": "P",
+     "text": "普段はデジタル改革推進部で、社内のデータ分析の仕事をしています。"
+    },
+    {
+     "kind": "P",
+     "text": "今回は、従業員の家族を職場に招き、普段働いている場所や仕事に触れてもらう「ファミリーデー」の企画の1つとして、子どもたちに「通信」を身近に感じてもらう体験教室を実施しました。"
+    },
+    {
+     "kind": "P",
+     "text": "この記事では、その体験教室で使う実験装置を試作した過程から、当日の様子までをご紹介します。"
+    },
+    {
+     "kind": "H",
+     "text": "AIロボット部とは"
+    },
+    {
+     "kind": "P",
+     "text": "AIロボット部は、ものづくりに興味のある社員が集まる社内サークルです。"
+    },
+    {
+     "kind": "P",
+     "text": "普段はSlack上でゆるく情報交換をしたり、ハッカソンなどのイベントに参加したりしています。"
+    },
+    {
+     "kind": "H",
+     "text": "光ファイバーで「通信」を体験してもらう"
+    },
+    {
+     "kind": "P",
+     "text": "今年のファミリーデーでは、NTTドコモビジネスの事業とも深く関わる「通信」をテーマに、光ファイバーを使った音声通話の実験教室「ひかりでんわ」を企画しました。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "私たちは普段、家族や友人と離れた場所にいても、電話やインターネットを通して当たり前のように会話をしたり、動画を見たりしています。 その「つながる」を支えているのが、通信の技術です。 この教室では、子どもたち自身の手で通信装置を組み立て、自分の声が「光」に変わり、光ファイバーを通って相手に届く仕組みを体験します。 「見て・作って・話して」楽しみながら、普段は意識することのない通信の仕組みや、私たちの暮らしを支える技術への興味を持ってもらうことを目指しました。"
+    },
+    {
+     "kind": "P",
+     "text": "子どもたち自身に通信装置を組み立ててもらい、音が光になって伝わる様子を観察することで、ものづくりの楽しさと通信技術の面白さを体験してもらうのが狙いです。"
+    },
+    {
+     "kind": "H",
+     "text": "通信装置を作る"
+    },
+    {
+     "kind": "LI",
+     "text": "マイクから入った音声の電気信号を増幅し、LEDを光らせる"
+    },
+    {
+     "kind": "LI",
+     "text": "LEDの光を、光ファイバーを通して反対側の光センサーへ届ける"
+    },
+    {
+     "kind": "LI",
+     "text": "光センサーで受け取った信号を再び増幅し、スピーカーから音として鳴らす"
+    },
+    {
+     "kind": "P",
+     "text": "つまり、声を一度「光」に変換し、光ファイバーの中を通してから、もう一度「声」に戻しています。"
+    },
+    {
+     "kind": "H",
+     "text": "アナログ回路と格闘する"
+    },
+    {
+     "kind": "P",
+     "text": "普段からArduinoなどのマイコンを使った電子工作には慣れていましたが、アナログ回路の経験はそれほどありませんでした。"
+    },
+    {
+     "kind": "P",
+     "text": "そのため今回は、ChatGPTに回路について教えてもらいながら設計を進めました。"
+    },
+    {
+     "kind": "P",
+     "text": "抵抗やコンデンサーの値を変えては試し、うまくいかなければまた回路を修正する、という作業の繰り返しです。"
+    },
+    {
+     "kind": "P",
+     "text": "途中では、マイコンを使って音声をデジタル処理する方法も検討しました。"
+    },
+    {
+     "kind": "P",
+     "text": "数日間の試行錯誤の末、光ファイバーの先につないだスピーカーから初めて自分の声が聞こえてきた瞬間は、かなり感動しました。"
+    },
+    {
+     "kind": "P",
+     "text": "ちなみに当初は、テレビのリモコンのような赤外線LEDを使い、空間を飛ばして音声を送る方法も試していました。"
+    },
+    {
+     "kind": "P",
+     "text": "しかし、どう調整しても1〜2m先へ安定して音声を届けることができず、最終的には断念しました。"
+    },
+    {
+     "kind": "P",
+     "text": "もし同じような構成でうまくいった方がいたら、ぜひ教えてください。"
+    },
+    {
+     "kind": "H",
+     "text": "プリント基板を作る"
+    },
+    {
+     "kind": "P",
+     "text": "試作回路が動いたところで、次は回路を回路図に起こし、プリント基板を設計しました。"
+    },
+    {
+     "kind": "H",
+     "text": "ケースも3Dプリンターで作る"
+    },
+    {
+     "kind": "P",
+     "text": "基板を収めるケースはBlenderでモデリングし、3Dプリンターで製作しました。"
+    },
+    {
+     "kind": "P",
+     "text": "本体中央には、送信用のLEDと受信用の光センサーが並んでいます。"
+    },
+    {
+     "kind": "P",
+     "text": "中央にある水色のパーツをスライドさせると、光ファイバーの接続先が物理的に切り替わります。"
+    },
+    {
+     "kind": "P",
+     "text": "同時に基板上の回路も送信／受信で切り替わるため、1つの操作で通信方向を変更できます。"
+    },
+    {
+     "kind": "P",
+     "text": "なお、今回使用した光ファイバーは、本格的な通信用のものではありません。"
+    },
+    {
+     "kind": "P",
+     "text": "安価で扱いやすい、照明・装飾用として販売されているプラスチック製の光ファイバーを使用しています。"
+    },
+    {
+     "kind": "H",
+     "text": "そして量産へ……"
+    },
+    {
+     "kind": "P",
+     "text": "試作品が完成し、いよいよ参加する子どもたちの人数分を量産していきます。"
+    },
+    {
+     "kind": "P",
+     "text": "今回の基板は部品点数が多く、すべて手作業ではんだ付けすると、1枚を組み立てるだけで約30分かかります。"
+    },
+    {
+     "kind": "P",
+     "text": "さらにケースにも3か所のネジ穴があり、3Dプリントしたケース一つひとつに、タップを使ってネジ山を切る必要があります。"
+    },
+    {
+     "kind": "P",
+     "text": "今回の参加者は約50人。そして「電話」なので1人につき2台必要となり、用意する通信装置は合計100台です。"
+    },
+    {
+     "kind": "P",
+     "text": "ここからは、AIロボット部の部員総出による地獄の量産作業が始まりました。"
+    },
+    {
+     "kind": "P",
+     "text": "ひたすら部品をはんだ付けし、ケースにタップを立て、組み立てる日々です。"
+    },
+    {
+     "kind": "P",
+     "text": "途中からは、部品の取り付けやケース加工などを分担し、ちょっとした製造ラインのような状態になっていました。"
+    },
+    {
+     "kind": "P",
+     "text": "それでも当日までになんとか必要な台数を完成させ、無事にファミリーデーを迎えることができました。"
+    },
+    {
+     "kind": "H",
+     "text": "当日の様子"
+    },
+    {
+     "kind": "P",
+     "text": "当日は、子どもたちに説明書を見ながら部品を組み立ててもらいました。"
+    },
+    {
+     "kind": "P",
+     "text": "完成した装置を光ファイバーでつなぎ、最後は実際に会話してもらいます。"
+    },
+    {
+     "kind": "P",
+     "text": "最初は「本当にこれで声が聞こえるの？」という様子だった子どもたちも、光ファイバーの先から相手の声が聞こえてくると、「聞こえた！」と驚いた表情を見せてくれました。"
+    },
+    {
+     "kind": "P",
+     "text": "兄弟同士で話したり、親子で装置を挟んで会話したりと、それぞれ楽しみながら試してくれていました。"
+    },
+    {
+     "kind": "P",
+     "text": "普段何気なく使っている「通信」は、音を別の信号へ変換し、離れた場所まで届け、再び音へ戻すことで成り立っています。"
+    },
+    {
+     "kind": "P",
+     "text": "その仕組みを、自分で組み立てた装置を通して、少しでも実感してもらえたのではないかと思います。"
+    },
+    {
+     "kind": "H",
+     "text": "おわりに"
+    },
+    {
+     "kind": "P",
+     "text": "今回、一から実験装置を設計し、基板やケースを作り、人数分を量産して実験教室を開催するところまで、AIロボット部らしいものづくりができたと思います。"
+    },
+    {
+     "kind": "P",
+     "text": "特に、実際に装置を使った子どもたちから「聞こえた！」という反応をもらえたのは、作った側としてもうれしい瞬間でした。"
+    },
+    {
+     "kind": "P",
+     "text": "一方で、大量の基板を手ではんだ付けするのは想像以上に大変でした。"
+    },
+    {
+     "kind": "P",
+     "text": "来年以降は準備をもう少し楽にするため、基板製造だけでなく、部品実装まで依頼できるサービスの利用も検討したいと思います。"
+    },
+    {
+     "kind": "P",
+     "text": "今後もAIロボット部では、遊び心と技術を組み合わせたチャレンジを続けていきます。"
+    }
+   ],
+   "checkedAt": 1788924739407,
+   "etag": "",
+   "hash": "b6c6af2b914d435d",
+   "id": "130dd6f53ad0",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fengineers.ntt.com%2Fentry%2F202609-robotbu%2Fentry",
+   "key": "https://engineers.ntt.com/entry/202609-robotbu/entry",
+   "lastModified": "",
+   "publishedAt": 1788841326000,
+   "summary": "従業員の家族を職場に招く「ファミリーデー」で、子どもたちに通信の仕組みを体験してもらうため、光ファイバーを使った音声通話装置を一から作りました。 この記事では、回路の試作やプリント基板・ケースの製作、人数分の量産、そして当日の実験教室の様子までをご紹介します。 はじめに AIロボット部とは 光ファイバ...",
+   "title": "「ひかりでんわ」を作って学ぶ、子ども向け通信実験教室をやった話 - NTT docomo Business Engineers' Blog",
+   "updatedAt": 1788924739407,
+   "url": "https://engineers.ntt.com/entry/202609-robotbu/entry"
+  },
   "https://forest.watch.impress.co.jp/docs/news/2138949.html": {
    "bodyBlocks": [],
    "checkedAt": 1788904600552,
@@ -576,6 +525,36 @@
    "title": "「C:¥Windows¥Installer」フォルダーは消すな！ 理由をマイクロソフトが解説／容量を圧迫していても削除は危険。更新も修復もアンインストールもできなくなる可能性",
    "updatedAt": 1788904600552,
    "url": "https://forest.watch.impress.co.jp/docs/news/2138949.html"
+  },
+  "https://forest.watch.impress.co.jp/docs/news/2138973.html": {
+   "bodyBlocks": [],
+   "checkedAt": 1788924739407,
+   "etag": "",
+   "hash": "b32b3222514e00fe",
+   "id": "eba8c3229455",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fforest.watch.impress.co.jp%2Fdocs%2Fnews%2F2138973.html",
+   "key": "https://forest.watch.impress.co.jp/docs/news/2138973.html",
+   "lastModified": "",
+   "publishedAt": 1788858999000,
+   "summary": "",
+   "title": "Microsoft、「Project Zenith」を発表 ～ローカルAIですぐにコードが書けるWindows機／64GB以上のユニファイドメモリ、250GB/s以上のメモリ帯域幅、開発者向けのOS設定",
+   "updatedAt": 1788924739407,
+   "url": "https://forest.watch.impress.co.jp/docs/news/2138973.html"
+  },
+  "https://forest.watch.impress.co.jp/docs/serial/yajiuma/2139162.html": {
+   "bodyBlocks": [],
+   "checkedAt": 1788924739407,
+   "etag": "",
+   "hash": "82022d34aa45779d",
+   "id": "f75cbd3dbbbc",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fforest.watch.impress.co.jp%2Fdocs%2Fserial%2Fyajiuma%2F2139162.html",
+   "key": "https://forest.watch.impress.co.jp/docs/serial/yajiuma/2139162.html",
+   "lastModified": "",
+   "publishedAt": 1788908652000,
+   "summary": "",
+   "title": "Windows 3.1時代の「プログラムマネージャ」、令和に復活！ レトロでエモい／Windows 11（x64/Arm）だけでなく、macOS（Apple Silicon）でも動作【やじうまの杜】",
+   "updatedAt": 1788924739407,
+   "url": "https://forest.watch.impress.co.jp/docs/serial/yajiuma/2139162.html"
   },
   "https://fujipon.hatenablog.com/entry/2026/09/08/170251": {
    "bodyBlocks": [
@@ -649,150 +628,6 @@
    "updatedAt": 1788865227258,
    "url": "https://fujipon.hatenablog.com/entry/2026/09/08/170251"
   },
-  "https://gigazine.net/news/20260907-ai-ethical-dilemma-talk-to-animals": {
-   "bodyBlocks": [
-    {
-     "kind": "H",
-     "text": "「動物と人間のコミュニケーション」を実現するためにAIを使うことで動物を搾取したり傷つけたりする危険があるとの指摘"
-    },
-    {
-     "kind": "P",
-     "text": "AIは人間には処理しきれない大量のデータを分析するのが得意なため、さまざまな科学研究に役立てられています。近年ではAIを使って録音された動物の鳴き声を処理し、動物とのコミュニケーションを実現しようとする試みが進んでいますが、この研究分野にAIを持ち込むことが倫理的懸念を引き起こしていると、海外メディアのBloombergが報じています。 AI’s Next Ethical Dilemma: Should Humans Talk to Animals? - Bloomberg https://www.bloomberg.com/news/articles/2026-09-04/ai-s-next-ethical-dilemma-should-humans-talk-to-animals 生物学者の ヴィットーリオ・バジリオーネ 氏は約30年間にわたり、ユーラシア大陸や日本に分布する ハシボソガラス の研究を行ってきました。ハシボソガラスは非常に知能が高い鳥の一種として知られており、バジリオーネ氏は2018年に43羽のハシボソガラスに小型マイクを取り付け、どのような鳴き声でコミュニケーションを取っているのかを調べようと試みたそうです。 ところが、回収した音声サンプルには小型マイクを取り付けた個体だけでなく、エサをねだるヒナの鳴き声や別の鳥の鳴き声なども含まれており、人力で膨大なデータセットを分析するのは非常に困難だったとのこと。そこでバジリオーネ氏らの研究チームは、AIを使った音声データの分析を開始しました。 AIは膨大なデータセットの中からマイクを取り付けた個体の鳴き声を識別したほか、仲間のカラスの鳴き声やまったく関係のない音などを区別することができました。分析した音声の中には、巣が野生動物に襲われた時に出す破裂音のような鳴き声が含まれていたとのこと。この音がした後には必ず別のカラスがやってきて巣を守ったことから、バジリオーネ氏らはこの鳴き声を「おい！助けてくれ！」というような意味だと解釈しています。今日では、バジリオーネ氏らは15万件もの音声データを収録した膨大なカタログを所有しており、これは現存する鳥類データセットの中で最大だとのこと。"
-    },
-    {
-     "kind": "P",
-     "text": "人類は数千年にわたって動物とのコミュニケーションを試みており、イスラエルではハヤブサとの意思疎通に使われたとみられる1万2000年前の骨製の笛が見つかっています。現代では、動物に取り付けられる小型の録音技術とAIの発展により、これまでは不可能だった方法で動物とのコミュニケーションが進展する可能性があると研究者らは考えています。 投資会社の経営者であり、動物とのコミュニケーション分野に多額の出資を行っている ジェレミー・コラー 氏は2026年6月の講演で、AIによって2030年までに動物と人間の双方向コミュニケーションが実現するだろうと主張しました。 科学者らは、動物と人間のコミュニケーションが実現することで動物の内的世界への理解が深まり、気候変動を軽視したり生息地の破壊に加担したりする可能性が低くなるのではないかと期待しています。しかし、人間のテクノロジーの進歩が、必ずしも動物にとってメリットをもたらすとは限りません。"
-    },
-    {
-     "kind": "P",
-     "text": "たとえば20世紀の捕鯨業者は、進歩したソナーを使ってクジラをパニックに陥らせ、水面に浮上してきたところを捕まえるという漁法を採用していたとのこと。また、密猟者がターゲットとなる鳥の鳴き声を録音し、ループ再生しながらおびき寄せてわなに誘い込むという行為も確認されているそうです。バジリオーネ氏も、自分の研究が猟師によって悪用される可能性があることを認識しています。 ニューヨーク大学の研究者である セザール・ロドリゲス＝ガラヴィト 教授らのチームは2025年の (PDFファイル) 報告書 で、動物と人間のコミュニケーション技術の登場によって動物と話したがる人間が殺到したり、動物を機雷探知などの軍事目的で利用したり、さらに動物を捕獲するために技術が悪用されたりする可能性があると指摘。また、AIで分析するためのデータを収集するため、大量の動物に追跡装置を取り付けること自体にも懸念の声が寄せられています。"
-    },
-    {
-     "kind": "P",
-     "text": "また、AIで分析して動物の鳴き声の意味を理解したりコミュニケーションの手がかりを得たりした場合、科学者らはそれを検証しなくてはなりません。その方法として、一般的には録音した動物の鳴き声を別の動物に聞かせ、予想した通りの反応がみられるかどうかを調べる「playback(プレイバック)」という手法が用いられています。 しかし、このプレイバック実験は動物に対してさまざまな影響を与える懸念があります。バジリオーネ氏は、「プレイバックは動物にストレスを与えたり、社会環境を乱したり、動物同士の対立を引き起こしたりする可能性があります。特に、鳴き声の意味をきちんと理解していない場合はなおさらです」と述べました。実際、すでに亡くなったゾウの鳴き声をその孫に当たる個体に聞かせたところ、その個体が動揺した様子を見せた事例も報告されているとのこと。 ロドリゲス＝ガラヴィト氏は「私はプレイバックについて懸念しています」と述べ、プレイバックを支持する研究者らは、それが動物に苦痛を与えないことを十分に立証していないと指摘。現行のガイドラインはAIが存在しない時代に作られたものであり、AIによってプレイバック実験が急増する可能性が予見されていなかったとしています。 2026年6月には、コラー氏が資金提供する Coller Doolittle Challenge という賞金10万ドル(約1600万円)の科学賞の選考会が行われ、最終選考に残った人々が研究成果を発表しました。Coller Doolittle Challengeは動物との双方向コミュニケーションを目指す研究に与えられる賞であり、発表された研究には「野生のネズミに人間には聞こえない音を聞かせる」「草むらに隠したスピーカーからチンパンジーの声を流してチンパンジーを驚かせる」といった実験が含まれていたそうです。 Coller Doolittle Challengeの議長を務めるテルアビブ大学の ヨッシ・ヨベル 教授は、プレイバックに関する倫理的懸念についても把握しているとのこと。しかし、賞が始まってから2年間が経過しても、倫理的に問題のある研究手法を用いた応募はまだないそうで、「害よりも利益の方が大きいということを、私たちは考えるべきです」と主張しました。"
-    },
-    {
-     "kind": "P",
-     "text": "バジリオーネ氏は自分たちの研究が最終的にどのような方向に進むのか、そしてハシボソガラスたちにどのような影響が及ぶのか、正確なところは理解していないとのこと。それでも、「人々がこの知識を動物に対して悪用し始めない限りは、どのような進歩も素晴らしいものです」と述べ、懸念はあるものの今後も研究を続けるとしています。 ニューヨーク市立大学大学院センターで動物の心について研究している クリスティン・アンドリュース 教授は、最終的に動物が何を考えているのかを知るには、最終的にプレイバックを通じた会話が必要になると指摘。そのため、プレイバック実験は人間との交流を意図的に楽しんでおり、自由に人間から離れることができる バンドウイルカ など、一部の動物に限定すべきだと提言しました。"
-    },
-    {
-     "kind": "P",
-     "text": "2026年09月07日 21時00分00秒 in AI , サイエンス , 生き物 , Posted by log1h_ik"
-    },
-    {
-     "kind": "P",
-     "text": "You can read the machine translated English article There are concerns that using AI to achi… ."
-    }
-   ],
-   "checkedAt": 1788865227258,
-   "etag": "",
-   "hash": "381fa9f75d8015d1",
-   "id": "41c2d34273d0",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fgigazine.net%2Fnews%2F20260907-ai-ethical-dilemma-talk-to-animals%2F",
-   "key": "https://gigazine.net/news/20260907-ai-ethical-dilemma-talk-to-animals",
-   "lastModified": "Tue, 08 Sep 2026 11:01:03 GMT",
-   "publishedAt": 1788782709000,
-   "summary": "AIは人間には処理しきれない大量のデータを分析するのが得意なため、さまざまな科学研究に役立てられています。近年ではAIを使って録音された動物の鳴き声を処理し、動物とのコミュニケーションを実現しようとする試みが進んでいますが、この研究分野にAIを持ち込むことが倫理的懸念を引き起こしていると、海外メディア...",
-   "title": "「動物と人間のコミュニケーション」を実現するためにAIを使うことで動物を搾取したり傷つけたりする危険があるとの指摘",
-   "updatedAt": 1788865227258,
-   "url": "https://gigazine.net/news/20260907-ai-ethical-dilemma-talk-to-animals/"
-  },
-  "https://gigazine.net/news/20260907-gpt-6-astra-3d-modeling": {
-   "bodyBlocks": [
-    {
-     "kind": "H",
-     "text": "GPT-6 Astraの3Dモデリング性能を示す作例が続々登場、短い指示でBlenderを巧みに操作して3D作品を作れる"
-    },
-    {
-     "kind": "P",
-     "text": "OpenAIの最先端モデル「 GPT-6 Astra 」が2026年9月3日に登場しました。GPT-6 Astraは3Dモデリングやゲームエンジンの操作に優れていることがアピールされており、インターネット上にはGPT-6 Astraを用いて作成した3D作品の実例が数多く投稿されています。 GPT-6 Astra: A new generation of intelligence | OpenAI https://openai.com/index/gpt-6-astra/ これまでのAIモデルでもBlenderなどの3D制作アプリを操作してある程度のモデリング作業をこなすことはできましたが、作品として成り立たせためには人間による手直しが必須でした。しかし、GPT-6 Astraはプロンプトを入力するだけで「Blenderで3D空間を作成し、Unreal Engine 5で歩き回れるインタラクティブコンテンツにする」という作業を完遂することが可能。OpenAI社員のThomas Ricouard氏による以下の投稿にはGPT-6 Astraの作例として「歩き回れるデモハウス」の動画が埋め込まれています。"
-    },
-    {
-     "kind": "QUOTE",
-     "text": "Astra is very good at 3D modeling, and I can't wait for all of you to experience it, for now here is a little walkthrough on how I built the demo house for our launch blog post. From a Blender scene to a Unreal Engine 5 walkable experience. 🧵 pic.twitter.com/xGqe5iXoRv — Thomas Ricouard (@Dimillian) September 3, 2026"
-    },
-    {
-     "kind": "P",
-     "text": "Ricouard氏は作業過程も明らかにしています。まず、プロンプトとして「部屋の数」と「家の全体的な間取り」を入力。その結果、GPT-6 Astraが以下のような詳細な間取りを生成しました。"
-    },
-    {
-     "kind": "P",
-     "text": "GPT-6 AstraはBlenderを用いて家の3Dモデルを作成することに成功。Blenderに搭載されたレンダラー「Cycles」を用いて照明効果を加味した画像を出力するように指示した結果、以下のような画像が出力されました。"
-    },
-    {
-     "kind": "P",
-     "text": "さらに、Ricouard氏はUnreal Engine 5にシーンをエクスポートするように指示。その結果、GPT-6 Astraは独自のパイプラインを構築してBlenderからUnreal Engine 5にシーンをエクスポートしました。その後もGPT-6 Astraに指示を続けた結果、扉の開閉といったインタラクティブな体験が可能なアプリが完成したそうです。Ricouard氏は「Astraはシネマティックコンテンツや3Dモデルの理解に卓越しており、『スカイボックスやシネマティックライティングの構築』『構図の選定』といった操作を最初の数回のプロンプトを除いて自動的に実行できます」とアピールしています。"
-    },
-    {
-     "kind": "QUOTE",
-     "text": "And then I did one more pass of Blender -> UE5 with the goal of making the house more lived-in, adding more props, etc., and adjusting the lighting to be better. The coffee machine is even working now! pic.twitter.com/o3ebIR4mjO — Thomas Ricouard (@Dimillian) September 3, 2026"
-    },
-    {
-     "kind": "P",
-     "text": "XにはほかにもGPT-6 Astraで作成した3D作品が投稿されています。OpenAI社員のSharif Shameem氏はサンフランシスコにある パレス・オブ・ファイン・アーツ の3D作品を投稿しています。GPT-6 Astraは「パレス・オブ・ファイン・アーツの写真数百枚を収集し、Blenderでシーンを作りつつ収集した画像と比較して改良し続ける」という動作を示したとのこと。"
-    },
-    {
-     "kind": "QUOTE",
-     "text": "GPT-6 Astra recreated the Palace of Fine arts in Blender. This is favorite building in San Francisco because it was built for the World's Fair in 1914 where the steam locomotive and telephone were showed off. It was a time when technology gave us all a deep sense of optimism for… pic.twitter.com/aNZtWXZYZ5 — Sharif Shameem (@sharifshameem) September 3, 2026"
-    },
-    {
-     "kind": "P",
-     "text": "AI分野の著名な投資家であるMatt Shumer氏はGPT-6 Astraを用いて「人間が活動する仮想世界」を作り上げています。"
-    },
-    {
-     "kind": "QUOTE",
-     "text": "My first \"holy shit\" moment with GPT-6 Astra: I asked it to create a world in Unreal Engine, and fill it with humans (each an Astra-powered agent) who all have to work together to survive. A day later, I was in my bedroom and heard voices coming from the living room... I… pic.twitter.com/INzt3t2bp1 — Matt Shumer (@mattshumer_) September 3, 2026"
-    },
-    {
-     "kind": "P",
-     "text": "以下の作品はiPodの形状とUIを再現し、UI内でCodexのスレッドを閲覧可能にしたインタラクティブコンテンツです。プロンプトは「Hey Astra, make me a Mac app. It should render a 3D iPod that you'll build in Blender, then using the original iPod UI and interactions I want to be able to visualize all my Codex threads on it.(Astra、Mac用アプリを作って。BlenderでiPodの3Dモデルを作って、iPodのUI上でCodexのスレッドを視覚化できるようにして)」というシンプルなもので、所要時間は15分だったとのこと。"
-    },
-    {
-     "kind": "QUOTE",
-     "text": "\"Hey Astra, make me a Mac app. It should render a 3D iPod that you'll build in Blender, then using the original iPod UI and interactions I want to be able to visualize all my Codex threads on it.\" 15 minutes later: Boom. What's even in this model? What time we're living in!?? pic.twitter.com/U03mMRaUty — Pietro Schirano (@skirano) September 3, 2026"
-    },
-    {
-     "kind": "P",
-     "text": "「地図上にピンを設置すると、その周辺を3Dモデル化して表示するアプリ」も作成されています。"
-    },
-    {
-     "kind": "QUOTE",
-     "text": "You can literally drop a pin on a map ask GPT-6 to recreate the area around it in 3D and it will just do that lol pic.twitter.com/0PBTpV9kpF — Pietro Schirano (@skirano) September 4, 2026"
-    },
-    {
-     "kind": "QUOTE",
-     "text": "So how good really is GPT-6 Astra at 3D modeling? I took an old drawing of a steam train, gave it to Astra to reconstruct it in Blender. After few minutes it crafted 3,295 fully editable detailed objects with beautiful geometry. You can obviously tell it how detailed or… pic.twitter.com/ocEuG7QB2E — Tom Krcha (@tomkrcha) September 4, 2026"
-    },
-    {
-     "kind": "P",
-     "text": "「キャラクターの3面図を与えて3Dモデルを作らせる」というタスクの結果も投稿されています。この作例では髪色や服装などの大まかな特徴は再現できているものの、人間のモデラーの代わりにはほど遠いことが分かります。"
-    },
-    {
-     "kind": "QUOTE",
-     "text": "自分で考えたキャラクターを、設定画や武器の三面図も込みでAstraにモデリングさせてみたけど、まだモデラーとして失業せずに済みそうで一安心 pic.twitter.com/IimbRWhNk9 — レオン (@Dr_pepperien) September 6, 2026"
-    },
-    {
-     "kind": "P",
-     "text": "2026年09月07日 22時00分00秒 in AI , 動画 , Posted by log1o_hf"
-    },
-    {
-     "kind": "P",
-     "text": "You can read the machine translated English article Examples demonstrating the 3D modeling c… ."
-    }
-   ],
-   "checkedAt": 1788838361260,
-   "etag": "",
-   "hash": "6972a4b8a61ce885",
-   "id": "066602ad6348",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fgigazine.net%2Fnews%2F20260907-gpt-6-astra-3d-modeling%2F",
-   "key": "https://gigazine.net/news/20260907-gpt-6-astra-3d-modeling",
-   "lastModified": "Tue, 08 Sep 2026 03:05:19 GMT",
-   "publishedAt": 1788786114000,
-   "summary": "OpenAIの最先端モデル「GPT-6 Astra」が2026年9月3日に登場しました。GPT-6 Astraは3Dモデリングやゲームエンジンの操作に優れていることがアピールされており、インターネット上にはGPT-6 Astraを用いて作成した3D作品の実例が数多く投稿されています。 GPT-6 Astra: A new generation of intelligence | OpenAI https:...",
-   "title": "GPT-6 Astraの3Dモデリング性能を示す作例が続々登場、短い指示でBlenderを巧みに操作して3D作品を作れる",
-   "updatedAt": 1788838361260,
-   "url": "https://gigazine.net/news/20260907-gpt-6-astra-3d-modeling/"
-  },
   "https://gigazine.net/news/20260908-ai-assisted-medicine-age-reversal": {
    "bodyBlocks": [
     {
@@ -836,6 +671,50 @@
    "title": "AIが設計した薬「レントセルチブ」が人間の生物学的年齢を若返らせたことが判明",
    "updatedAt": 1788904600552,
    "url": "https://gigazine.net/news/20260908-ai-assisted-medicine-age-reversal/"
+  },
+  "https://gigazine.net/news/20260908-contrail-avoidance-trial": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "Googleが「AIで飛行機雲を避ける」実証実験を航空会社と連携して実施、温暖化影響を約40％削減"
+    },
+    {
+     "kind": "P",
+     "text": "航空機が搭載しているジェットエンジンの排気ガスに含まれる粒子に水蒸気が凝結して形成される 飛行機雲(コントレイル) は、地球温暖化の原因の1つであり、航空業界による気候への影響のおよそ3分の1を占めているとされています。Googleは、AIを利用して飛行機雲による地球温暖化を緩和するための研究「 Project Contrails 」に取り組んでおり、その一環として航空会社パートナーである キャセイパシフィック航空 と提携し、超長距離フライトにおける飛行機雲回避のテスト結果を報告しています。 Trialing AI-powered contrail mitigation technology https://blog.google/innovation-and-ai/models-and-research/google-research/contrail-avoidance-ultra-long-haul-flights/"
+    },
+    {
+     "kind": "P",
+     "text": "飛行機雲とは、飛行機が冷たく湿った空気中を飛行する際に機体の後ろにできる細い白い筋のことで、ほとんどはすぐに消えてしまいますが、中には長く残り雲のような形に広がるものもあり、大気中に熱を閉じ込めることで温暖化の一因となります。 GoogleはProject Contrailsを発表して以来、航空会社や管制機関、飛行計画ソフトウェアメーカーなど航空業界全体と協力して、飛行機雲の発生を防ぐことで温暖化を緩和することができることを実証しています。実際にAIを活用した予測により、乗務員や航空管制官が飛行機雲に影響する可能性のある空域を避けるような調整を的確に行えるようになっているとのこと。さらにその取り組みは、アメリカ・北大西洋・アジア太平洋地域における実地試験へと発展しており、飛行空域全体で協調的に飛行機雲を減らす「Operation Blue Skies」という試みも2026年8月に発表されています。 AIにより飛行機雲発生の少ない空路を選んで地球温暖化緩和を目指す「Operation Blue Skies」をGoogleが始動 - GIGAZINE"
+    },
+    {
+     "kind": "P",
+     "text": "Googleによると、飛行機雲を避けることは理論的には非常に簡単であり、航空機は飛行機雲が発生しやすい冷たく湿ったエリアを避けるために高度をわずかに調整するだけでOKとのこと。Googleのシステムは、AIによる予測・衛星画像・高度な気象情報を統合し、飛行機雲が発生する領域を事前に特定することで、管制官とパイロットがそれらの領域を迂回する微調整を計画できるようにしています。 Googleとアジアの企業で初めてパートナーシップを結んだキャセイパシフィック航空は、ネットワーク全体で100便以上を対象とした運用試験を開始しました。キャセイパシフィック航空が16時間以上・1万300km以上の距離を飛行する長距離フライトにおける飛行機雲回避テストを実施した結果、80便以上が飛行機雲回避ルートを飛行することに成功。Googleの衛星画像分析に基づくと、これらのフライトによって飛行機雲による温暖化効果が約40％削減されたと推定されています。"
+    },
+    {
+     "kind": "P",
+     "text": "Googleはキャセイパシフィック航空との提携を拡大し、より大規模な試験飛行を実施するとともに、飛行機雲軽減に尽力する非営利団体・Contrails.orgと提携することで、飛行試験を通して飛行機雲回避がどのように機能するかについての理解を深め、世界的な飛行機雲研究の蓄積に貢献していくことを表明しています。 Googleは「飛行機雲対策は、航空業界の気候変動への影響を軽減するための、最も即効性があり、拡張性が高く、費用対効果の高い方法のひとつであり、現在の航空機と燃料を用いて今すぐにでも始めることができます。飛行機雲に関するオープンな研究を共に推進することで、飛行機雲科学の進歩を加速させ、航空業界にとって最も有望で費用対効果の高い気候変動対策を実現したいと考えています」と語りました。"
+    },
+    {
+     "kind": "P",
+     "text": "2026年09月08日 14時45分00秒 in AI , 乗り物 , Posted by log1e_dh"
+    },
+    {
+     "kind": "P",
+     "text": "You can read the machine translated English article Google is collaborating with airlines to… ."
+    }
+   ],
+   "checkedAt": 1788924739407,
+   "etag": "",
+   "hash": "5dafdf2941885332",
+   "id": "ba0111278c1c",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fgigazine.net%2Fnews%2F20260908-contrail-avoidance-trial%2F",
+   "key": "https://gigazine.net/news/20260908-contrail-avoidance-trial",
+   "lastModified": "Wed, 09 Sep 2026 03:03:58 GMT",
+   "publishedAt": 1788867006000,
+   "summary": "航空機が搭載しているジェットエンジンの排気ガスに含まれる粒子に水蒸気が凝結して形成される飛行機雲(コントレイル)は、地球温暖化の原因の1つであり、航空業界による気候への影響のおよそ3分の1を占めているとされています。Googleは、AIを利用して飛行機雲による地球温暖化を緩和するための研究「Project Contrails...",
+   "title": "Googleが「AIで飛行機雲を避ける」実証実験を航空会社と連携して実施、温暖化影響を約40％削減",
+   "updatedAt": 1788924739407,
+   "url": "https://gigazine.net/news/20260908-contrail-avoidance-trial/"
   },
   "https://gigazine.net/news/20260908-gpt-6-astra-plays-portal": {
    "bodyBlocks": [
@@ -989,318 +868,6 @@
    "updatedAt": 1788904600552,
    "url": "https://gigazine.net/news/20260908-smart-tv-spying/"
   },
-  "https://github.com/tencent/teamai-cli": {
-   "bodyBlocks": [
-    {
-     "kind": "H",
-     "text": "Navigation Menu"
-    },
-    {
-     "kind": "H",
-     "text": "Uh oh!"
-    },
-    {
-     "kind": "P",
-     "text": "There was an error while loading. Please reload this page ."
-    },
-    {
-     "kind": "LI",
-     "text": "Notifications You must be signed in to change notification settings"
-    },
-    {
-     "kind": "H",
-     "text": "Latest commit"
-    },
-    {
-     "kind": "H",
-     "text": "History"
-    },
-    {
-     "kind": "H",
-     "text": "Folders and files"
-    },
-    {
-     "kind": "H",
-     "text": "Repository files navigation"
-    },
-    {
-     "kind": "H",
-     "text": "TeamAI — Make Every Team AI Native"
-    },
-    {
-     "kind": "QUOTE",
-     "text": "English | 简体中文"
-    },
-    {
-     "kind": "P",
-     "text": "TeamAI manages your team's skills, rules, MCP, and knowledge across Claude Code, Codex, CodeBuddy, WorkBuddy, OpenCode, Cursor, Qoder, and other AI agents."
-    },
-    {
-     "kind": "H",
-     "text": "Quick Start"
-    },
-    {
-     "kind": "H",
-     "text": "Install"
-    },
-    {
-     "kind": "H",
-     "text": "Team admin / solo user"
-    },
-    {
-     "kind": "P",
-     "text": "Create a shared-experience repo on your git host (GitHub, GitLab, GitCode, CNB, TGit, or a private Git service), grant write access to team members , then run teamai init https://github.com/yourorg/yourrepo ."
-    },
-    {
-     "kind": "QUOTE",
-     "text": "No team repo yet? Start from a template pre-loaded with production-ready skills, rules, and review agents. Browse the teamai-hub org, click Use this template , then teamai init against your new repo."
-    },
-    {
-     "kind": "H",
-     "text": "Team members"
-    },
-    {
-     "kind": "P",
-     "text": "Once initialized, every AI session automatically pulls the latest skills / rules and other Harness updates published by admins — no manual sync needed."
-    },
-    {
-     "kind": "QUOTE",
-     "text": "Full usage guide: docs/usage-guide.md ( 中文版 ) — covers everything from team creation to day-to-day use."
-    },
-    {
-     "kind": "H",
-     "text": "Product architecture"
-    },
-    {
-     "kind": "P",
-     "text": "Team Execution × Team Context × Team Improvement :"
-    },
-    {
-     "kind": "H",
-     "text": "Overview"
-    },
-    {
-     "kind": "P",
-     "text": "Git providers — GitHub · GitLab · GitCode · CNB · TGit · private Git service."
-    },
-    {
-     "kind": "H",
-     "text": "Distribution Controls"
-    },
-    {
-     "kind": "P",
-     "text": "Team-wide settings an admin configures once and delivers to every member on teamai pull :"
-    },
-    {
-     "kind": "H",
-     "text": "Team Execution"
-    },
-    {
-     "kind": "QUOTE",
-     "text": "One Team. One Harness. Every Agent."
-    },
-    {
-     "kind": "P",
-     "text": "TeamAI keeps skills, rules, docs, and hooks in a shared git repo and distributes them to every member's local AI tools through a \"push → review & merge → pull\" flow — with support for subscribing to other teams' or shared repos' Harness."
-    },
-    {
-     "kind": "H",
-     "text": "How It Works"
-    },
-    {
-     "kind": "P",
-     "text": "Members push changes via teamai push , which opens a Merge Request for review. Re-running teamai push on a resource that is still waiting in an unmerged PR updates that PR in place instead of opening a duplicate. Once merged, teamai pull (triggered automatically on session start via the SessionStart hook) syncs the latest resources locally. Skills sync to ~/.claude/skills/ , ~/.codex/skills/ , ~/.cursor/skills/ , ~/.codebuddy/skills/ , etc. In a project-scope install, SessionStart first creates that tool's project root (e.g. <project>/.claude ) if it is missing, then pulls into it — a bare teamai pull still will not invent agent directories."
-    },
-    {
-     "kind": "H",
-     "text": "Team Hooks"
-    },
-    {
-     "kind": "P",
-     "text": "Declare custom hooks in hooks/hooks.yaml and teamai pull delivers them to every AI tool:"
-    },
-    {
-     "kind": "H",
-     "text": "Team MCP Servers"
-    },
-    {
-     "kind": "P",
-     "text": "Declare once in mcp/mcp.yaml ; teamai pull writes each tool's native config. Use ${VAR} for secrets."
-    },
-    {
-     "kind": "H",
-     "text": "Skill Subscription Sources"
-    },
-    {
-     "kind": "P",
-     "text": "Subscribe to additional skill repos — other teams' public repos, or shared/public repos within your own org:"
-    },
-    {
-     "kind": "P",
-     "text": "The add/remove change takes effect locally right away, and subscribed skills sync on the next teamai pull . Run teamai push when you want to share the teamai.yaml change with teammates."
-    },
-    {
-     "kind": "H",
-     "text": "Team Packages"
-    },
-    {
-     "kind": "P",
-     "text": "Share and restore the team's npm packages and Claude Code plugins:"
-    },
-    {
-     "kind": "P",
-     "text": "See the Usage Guide for the complete workflow and configuration."
-    },
-    {
-     "kind": "H",
-     "text": "Team Context"
-    },
-    {
-     "kind": "QUOTE",
-     "text": "Every agent understands how the team works."
-    },
-    {
-     "kind": "P",
-     "text": "Beyond distributing the Harness, TeamAI organizes accumulated team experience and code structure into a searchable knowledge base that the AI recalls automatically when needed."
-    },
-    {
-     "kind": "H",
-     "text": "Automatic Experience Sharing"
-    },
-    {
-     "kind": "P",
-     "text": "When a session ends, the Stop hook scores it by friction — signals that the session hit something worth remembering: you interrupted or corrected the AI, denied a tool call, or the AI had to retry failing tools. A long-but-routine session (lots of tool calls, no friction) does not trigger; a session where you actually fought a problem does. If the score is high enough, the AI suggests:"
-    },
-    {
-     "kind": "P",
-     "text": "The hint names the non-zero friction signals that triggered it and, when available, includes a redacted, single-line summary of the first task. The /teamai-share-learnings skill summarizes the session and pushes a learning document directly to the team repo. Each session is prompted at most once."
-    },
-    {
-     "kind": "H",
-     "text": "Team Knowledge Recall"
-    },
-    {
-     "kind": "P",
-     "text": "Let the AI automatically search accumulated team knowledge before a task. This feature is off by default and must be enabled explicitly — teams can set sharing.recall.enabled: true in teamai.yaml as the default, and members can override locally:"
-    },
-    {
-     "kind": "P",
-     "text": "Search runs via a subagent : once enabled, teamai pull deploys the built-in teamai-recall subagent into each AI tool's agents/ directory. The AI invokes it before a task — the subagent extracts keywords, runs the search, reads the matched source files, and returns a structured summary of team knowledge. The subagent first runs a relevance precheck ( teamai recall --check ) and skips retrieval entirely when the task is unrelated to team knowledge. Under the hood it shells out to the teamai recall command, which you can also run manually:"
-    },
-    {
-     "kind": "H",
-     "text": "Codebase Knowledge Graph"
-    },
-    {
-     "kind": "P",
-     "text": "teamai import parses source repos into a structured graph under teamwiki/ , enabling structurally-aware retrieval:"
-    },
-    {
-     "kind": "P",
-     "text": "The graph stores components, interfaces, configs, and cross-repo import edges. teamai recall uses it for graph-boosted re-ranking.\nWhen a recall hit comes from a codebase page, the result includes a Sources: line listing the relevant source file paths — giving agents a direct starting point for code changes instead of re-exploring the repo."
-    },
-    {
-     "kind": "P",
-     "text": "Edges come from two tracks that run together, with AST results taking precedence on overlap:"
-    },
-    {
-     "kind": "LI",
-     "text": "AST track (TypeScript/JavaScript, Python, Go): a WASM tree-sitter parser resolves import / require , call sites, and TS implements clauses to precise file-to-file DEPENDS_ON / REFERENCES / IMPLEMENTS edges (tagged code-ast , with confidence weights)."
-    },
-    {
-     "kind": "LI",
-     "text": "Heuristic track (all languages, including Java/Rust): regex-based extraction (tagged code-heuristic ), which also covers languages the AST track does not."
-    },
-    {
-     "kind": "P",
-     "text": "The WASM parser is a pure-JavaScript dependency — no native toolchain is required. If it fails to load for any reason, extraction falls back to the heuristic track and records an AST_UNAVAILABLE gap. Set TEAMAI_SKIP_AST=1 to force heuristic-only extraction."
-    },
-    {
-     "kind": "H",
-     "text": "Team Improvement"
-    },
-    {
-     "kind": "QUOTE",
-     "text": "Every execution makes the entire team smarter."
-    },
-    {
-     "kind": "P",
-     "text": "Insight into how the team actually uses its AI tools, and a starting point for turning session friction into shared skills, rules, and knowledge:"
-    },
-    {
-     "kind": "H",
-     "text": "Commands"
-    },
-    {
-     "kind": "H",
-     "text": "License"
-    },
-    {
-     "kind": "H",
-     "text": "Contributing"
-    },
-    {
-     "kind": "P",
-     "text": "PRs are welcome! Please read CONTRIBUTING.md first."
-    },
-    {
-     "kind": "H",
-     "text": "About"
-    },
-    {
-     "kind": "H",
-     "text": "Resources"
-    },
-    {
-     "kind": "H",
-     "text": "Contributing"
-    },
-    {
-     "kind": "H",
-     "text": "Stars"
-    },
-    {
-     "kind": "H",
-     "text": "Watchers"
-    },
-    {
-     "kind": "H",
-     "text": "Forks"
-    },
-    {
-     "kind": "H",
-     "text": "Releases"
-    },
-    {
-     "kind": "H",
-     "text": "Packages"
-    },
-    {
-     "kind": "H",
-     "text": "Used by"
-    },
-    {
-     "kind": "H",
-     "text": "Contributors"
-    },
-    {
-     "kind": "H",
-     "text": "Languages"
-    }
-   ],
-   "checkedAt": 1788818242184,
-   "etag": "W/\"41f1db8cbb4ef8fceadd291d783033cc\"",
-   "hash": "cb9bb0c5e0805989",
-   "id": "b8525e5e930d",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fgithub.com%2FTencent%2Fteamai-cli",
-   "key": "https://github.com/tencent/teamai-cli",
-   "lastModified": "",
-   "publishedAt": 1788799427000,
-   "summary": "You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert",
-   "title": "GitHub - Tencent/teamai-cli: Make Every Team AI Native",
-   "updatedAt": 1788818242184,
-   "url": "https://github.com/Tencent/teamai-cli"
-  },
   "https://internet.watch.impress.co.jp/docs/column/chizu/2139036.html": {
    "bodyBlocks": [],
    "checkedAt": 1788904600552,
@@ -1331,20 +898,304 @@
    "updatedAt": 1788865227258,
    "url": "https://internet.watch.impress.co.jp/docs/yajiuma/2138977.html"
   },
-  "https://k-tai.watch.impress.co.jp/docs/column/minna/2138823.html": {
+  "https://internet.watch.impress.co.jp/docs/yajiuma/2139306.html": {
    "bodyBlocks": [],
-   "checkedAt": 1788838361260,
+   "checkedAt": 1788924739407,
    "etag": "",
-   "hash": "69d59627a01ab1bb",
-   "id": "245d6b6796b7",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fk-tai.watch.impress.co.jp%2Fdocs%2Fcolumn%2Fminna%2F2138823.html",
-   "key": "https://k-tai.watch.impress.co.jp/docs/column/minna/2138823.html",
+   "hash": "7a87f14232bf7734",
+   "id": "1bdc10e78574",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Finternet.watch.impress.co.jp%2Fdocs%2Fyajiuma%2F2139306.html",
+   "key": "https://internet.watch.impress.co.jp/docs/yajiuma/2139306.html",
    "lastModified": "",
-   "publishedAt": 1788794048000,
+   "publishedAt": 1788918673000,
    "summary": "",
-   "title": "[みんなのケータイ]折りたたみスマホ「razr fold」の弱点？ 大画面の使いづらさを自作アプリで解決",
-   "updatedAt": 1788838361260,
-   "url": "https://k-tai.watch.impress.co.jp/docs/column/minna/2138823.html"
+   "title": "実用性はないけれど…WindowsのプロフィールにアニメGIFを使う方法が発見され話題に【やじうまWatch】",
+   "updatedAt": 1788924739407,
+   "url": "https://internet.watch.impress.co.jp/docs/yajiuma/2139306.html"
+  },
+  "https://japan.cnet.com/article/35252378": {
+   "bodyBlocks": [
+    {
+     "kind": "LI",
+     "text": "新着 カテゴリ AI モビリティ 働き方 フード ヘルスケア 金融 地域創生 不動産 宇宙 製品・サービス アップルセンター 深掘り 解説 インタビュー 特集・連載 音声コンテンツ bouncy Newsletter登録 企業情報センター プレスリリース イベント情報 関連サイト 4X ZDNET Japan Tetsudo.com 朝日新聞 CNET各国版 United States France Germany Korea"
+    },
+    {
+     "kind": "LI",
+     "text": "カテゴリ AI モビリティ 働き方 フード ヘルスケア 金融 地域創生 不動産 宇宙 製品・サービス アップルセンター"
+    },
+    {
+     "kind": "LI",
+     "text": "深掘り 解説 インタビュー 特集・連載"
+    },
+    {
+     "kind": "LI",
+     "text": "新着 カテゴリ AI モビリティ 働き方 フード ヘルスケア 金融 地域創生 不動産 宇宙 製品・サービス アップルセンター 深掘り 解説 インタビュー 特集・連載 音声コンテンツ bouncy Newsletter登録 企業情報センター プレスリリース イベント情報 関連サイト 4X ZDNET Japan Tetsudo.com 朝日新聞 CNET各国版 United States France Germany Korea"
+    },
+    {
+     "kind": "LI",
+     "text": "カテゴリ AI モビリティ 働き方 フード ヘルスケア 金融 地域創生 不動産 宇宙 製品・サービス アップルセンター"
+    },
+    {
+     "kind": "LI",
+     "text": "深掘り 解説 インタビュー 特集・連載"
+    },
+    {
+     "kind": "H",
+     "text": "ロボットが私にパンチの威嚇 技術の祭典で感じた「暴力」を賛美する危うさ"
+    },
+    {
+     "kind": "LI",
+     "text": "テキスト HTML 電子書籍 PDF"
+    },
+    {
+     "kind": "LI",
+     "text": "テキスト 電子書籍 PDF"
+    },
+    {
+     "kind": "P",
+     "text": "ロボットは私に向かってファイティングポーズを取り、上下に跳ねながら脚をほぐすように振った後、ボクサーさながらに両手を顔の前に上げた。パンチを1発、さらにもう1発と繰り出すふりをし、最後はかかとを突き出して力強く蹴った。幸い、私は1m離れていたため実際に触れられることはなかったが、数秒後、ロボットは私の右にいた男性に猛然と突っ込む仕草を見せた。すると男性も受けて立つようにロボットにファイティングポーズを取った。"
+    },
+    {
+     "kind": "P",
+     "text": "男性は面白がっていたが、私は笑えなかった。ロボット嫌いだからでも、場を白けさせたいからでもない。私はこれまで長い時間をロボットのそばで過ごし、ロボットを開発する人や、日々ロボットと共に働く人たちにとって、安全性がどれほど重要かを見てきたからだ。"
+    },
+    {
+     "kind": "P",
+     "text": "ロボット、とりわけヒューマノイドは、多くの人間より大きく強く、重いことが多い。強い力で動作する時は、びくともしない。その体は硬く、金属やプラスチックといった頑丈な素材でできている。道徳心もなければ、ちっぽけな人間の体をいたわる気持ちもない。ロボットの中には戦えるように訓練されているものもあるが、実際に戦いたい相手ではない。"
+    },
+    {
+     "kind": "P",
+     "text": "パンチを繰り出すロボットに遭遇したのは、ベルリンで開催中の見本市「IFA」でのことだ。会場では複数の格闘ロボットが展示され、そのうち何台かは自由に動き回っていた。私が遭遇したEngineAIの「T800」は、制止用のロープなどにもつながれずに会場の通路にいたため、どのブースの展示物なのかすら分からなかった。もう1台の小柄なヒューマノイド格闘ロボット「PrimeBOT Q1」は、人の太ももほどの背丈しかないものの、囲いのない場所で跳ね回り、攻撃的な動きを次々と披露していた。キャンキャンほえる小型犬のような勢いだったが、スピードを緩めることなく力強く歩き、来場者の膝に真正面からぶつかることもあった。"
+    },
+    {
+     "kind": "P",
+     "text": "会場の別の場所には、ヒューマノイドがボクシングで対戦するリングも設けられていた。IFAには、CESやMWCを上回るほど多くのロボットがいるように感じられた。ロボットを製造していないテクノロジー企業まで、来場者を呼び込み、驚嘆させるためにブースへロボットを置いていた。いわばヒューマノイドによるショーであり、そこでは暴力性がしばしば「すごさ」と同一視されていた。"
+    },
+    {
+     "kind": "P",
+     "text": "（IFAの担当者に対し、会場でのロボットの安全性に関する規則があるかコメントを求めたが、回答はなかった）"
+    },
+    {
+     "kind": "P",
+     "text": "この種の見世物は昔から人気だ。動物同士、人間同士、あるいは動物と人間を戦わせ、暴力をスポーツとして観戦するために、歴史を通じて大勢の人が集まってきた。次にロボットが加わるのは避けられない流れなのかもしれない。しかし、それによって危険が高まっているという事実は矮小化されてしまう。"
+    },
+    {
+     "kind": "P",
+     "text": "人間の姿をしていても、ロボットは自律型システムだ。そして世界の一部では、自律型システムがすでに、人々に凄惨な暴力を加えるために広く使われている。拍手や歓声を誘うための暴力ではなく、人の命や地域社会を破壊する暴力だ。ドローンは各国の軍で広く使われており、一部の軍事機関はヒューマノイドを戦闘に投入する方法を積極的に探っている。"
+    },
+    {
+     "kind": "P",
+     "text": "暴力を振るう自律型機械は、決して称賛すべきものではない。それを作るかどうかは、私たちが選べる。作れるからといって、作るべきだとは限らない。単なる無害な娯楽であるかのように装わない責任も、私たちにはある。"
+    },
+    {
+     "kind": "P",
+     "text": "ロボットにファイティングポーズを取られたとき、私は心底不安になった。このロボットに何ができるのか、安全上の制約があるのか、何らかの判断能力があるのか、そして、どこで止めるべきかを認識できるのか、何も分からなかった。離れるよう頼んだところで、それを聞いて従ったとは到底思えない。実際、T800は7月、中国で開かれたフルコンタクトのロボット格闘大会で、頭部が外れた後もパンチを繰り出し続けた。IFAにおけるEngineAIのブースではその後、来場者がボクシングリングで同型ロボットと向かい合うことまで許されていた。"
+    },
+    {
+     "kind": "P",
+     "text": "産業の現場で人間と共にロボットを働かせる企業は、ロボットが人のそばでも安全に稼働できるよう、十分な対策を講じる必要がある。私は最近、Amazonのフルフィルメントセンターを訪れた際、ロボットの稼働区域に人が立ち入る必要が生じると、すべてのロボットの動作が停止する様子を目にした。しかも、そこで稼働していたのは二足歩行のヒューマノイドではない。"
+    },
+    {
+     "kind": "P",
+     "text": "ロボットはまだ発展の初期段階にあり、企業は実環境で使い始める中で、安全性について学んでいるところだ。フィジカルAIは常に学習を続ける性質があるため、ロボットの安全性は今後、大きく向上するだろう。しかし、現時点ではまだ十分な水準に達していない。攻撃的に振る舞うロボットを、人がいる場所で自由に動き回らせるべきではないだろう。"
+    },
+    {
+     "kind": "P",
+     "text": "ロボットはすでに、さまざまな形で人類の役に立っている。人にとって危険な作業を代行することもあれば、カーペットやプールを掃除し、週末にくつろぐ時間を増やしてくれることもある。一方で、ロボットは恐ろしい存在でもあり、人類の存続を脅かす可能性と、物理的な危険性の両方をはらんでいる。今の私たちはむしろそうした怖さを前面に押し出し、ロボットの暴力性をたたえ、強く印象付けるために意図的に威圧感を持たせているように見える。"
+    },
+    {
+     "kind": "P",
+     "text": "その必要はない。ロボットは人間が生み出した機械だ。役立つものにできるし、戦わせる必要もない。私たちはその力を正しく認識し、必要に応じて距離をとれる。宣伝目的のパフォーマンスのために、人々を危険にさらしてはならない。"
+    },
+    {
+     "kind": "P",
+     "text": "この記事は海外Ziff Davis発の 記事 を4Xが日本向けに編集したものです。"
+    },
+    {
+     "kind": "P",
+     "text": "Amazonのアソシエイトとして、CNET Japanは適格販売により収入を得ています。"
+    },
+    {
+     "kind": "H",
+     "text": "あなたにおすすめの記事"
+    },
+    {
+     "kind": "LI",
+     "text": "ロボットにもペンダントにもなる、日常を記憶するAIデバイス「iKairos」とは 2026年09月08日 10時02分"
+    },
+    {
+     "kind": "LI",
+     "text": "新宿駅に「ゴミ箱ロボ」 混雑する構内を自走 JR東日本 2026年09月07日 10時37分"
+    },
+    {
+     "kind": "LI",
+     "text": "よちよち歩いて物も運ぶアヒル型ロボット「Microduck」、Hugging Faceが発表 2026年08月28日 10時43分"
+    },
+    {
+     "kind": "LI",
+     "text": "収納箱の底に眠っていた古い「iPhone」--価値があるのかゴミなのか調べてみた 2026年09月02日 07時00分"
+    },
+    {
+     "kind": "LI",
+     "text": "「FydeOS」を使って古いPCを無償で「Chromebook」に変える方法 2026年08月31日 06時00分"
+    },
+    {
+     "kind": "LI",
+     "text": "記事一覧"
+    },
+    {
+     "kind": "LI",
+     "text": "# IFA"
+    },
+    {
+     "kind": "LI",
+     "text": "# ロボット"
+    },
+    {
+     "kind": "LI",
+     "text": "# 安全性"
+    },
+    {
+     "kind": "LI",
+     "text": "老朽化する設備と向き合う 地域交通を支える管理業務を刷新 佐渡汽船が取り組むDXの現実解"
+    },
+    {
+     "kind": "LI",
+     "text": "AIで議事録作成はラクになった 問われるのは、“ひと目で伝わること” Plaud NotePin Sが示す会議記録の新しい形"
+    },
+    {
+     "kind": "H",
+     "text": "ZDNET Japan 注目ヘッドライン"
+    },
+    {
+     "kind": "H",
+     "text": "編集部おすすめの記事"
+    },
+    {
+     "kind": "H",
+     "text": "人気の記事"
+    },
+    {
+     "kind": "LI",
+     "text": "1 折りたたみiPhone、ついに明日（10日）午前2時発表へ 今わかっていること"
+    },
+    {
+     "kind": "LI",
+     "text": "2 携帯ブランド満足度、最下位ドコモ、8位ソフトバンク、7位au--1位povo、2位LINEMO（MMD調査）"
+    },
+    {
+     "kind": "LI",
+     "text": "3 ロボットが私にパンチの威嚇 技術の祭典で感じた「暴力」を賛美する危うさ"
+    },
+    {
+     "kind": "LI",
+     "text": "4 プロペラの推力で倒れない「長い棒」、レーザーで鳥獣を追い払う--NTT系が99万円で発売"
+    },
+    {
+     "kind": "LI",
+     "text": "5 リコー、「全く新たなコンセプト」のデジタル一眼を開発--現行「Kシリーズ」の生産は終了"
+    }
+   ],
+   "checkedAt": 1788924739407,
+   "etag": "",
+   "hash": "3eaaa3950806ccb4",
+   "id": "bd0cdfb1ae8b",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fjapan.cnet.com%2Farticle%2F35252378%2F",
+   "key": "https://japan.cnet.com/article/35252378",
+   "lastModified": "",
+   "publishedAt": 1788851596000,
+   "summary": "ロボットは私に向かってファイティングポーズを取り、上下に跳ねながら脚をほぐすように振った後、ボクサーさながらに両手を顔の前に上げた。パンチを1発、さらにもう1発と繰り出すふりをし、最後はかかとを突き出して力強く蹴った。幸い、私は1m離れていたため実際に触れられることはなかったが、数秒後、ロボットは私...",
+   "title": "ロボットが私にパンチの威嚇 技術の祭典で感じた「暴力」を賛美する危うさ",
+   "updatedAt": 1788924739407,
+   "url": "https://japan.cnet.com/article/35252378/"
+  },
+  "https://japan.cnet.com/article/35252385": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "プロペラの推力で倒れない「長い棒」、レーザーで鳥獣を追い払う--NTT系が99万円で発売"
+    },
+    {
+     "kind": "LI",
+     "text": "テキスト HTML 電子書籍 PDF"
+    },
+    {
+     "kind": "LI",
+     "text": "テキスト 電子書籍 PDF"
+    },
+    {
+     "kind": "P",
+     "text": "NTT e-Drone Technologyとミラテクドローンは9月8日、鳥を追い払うレーザーを伸縮棒の先端に取り付けた「たおれん棒（鳥獣害対策タイプ）」を9月30日に発売すると発表した。棒を最大約8mまで伸ばし、赤と緑のレーザー光を照射して、街路樹に集まるムクドリや倉庫などに居着くハトを地上から追い払う。プロペラの推力で長い棒が倒れないよう支える仕組みで、製品名もここに由来する。価格は99万円（税別）。"
+    },
+    {
+     "kind": "P",
+     "text": "ムクドリやハトの対策では、高所での作業が課題になっていた。足場を組んだり、高所作業車を手配したりする必要があり、手間やコストがかかる。複数の作業員が必要になるケースも多く、人手不足が進むなか、一人で手早く作業できる方法が求められていたという。"
+    },
+    {
+     "kind": "P",
+     "text": "たおれん棒は、足場や高所作業車を使わず、一人で持ち運んで扱えるようにした。棒はカーボンファイバー製で、先端に2色のレーザーユニットを取り付ける。"
+    },
+    {
+     "kind": "P",
+     "text": "ベースとなった「たおれん棒」は、 空撮技研が開発した風力式の自立棒 。傾きを検知すると、プロペラの推力で姿勢を立て直す。これまでは、ドローンを飛ばせない場所でのプラントや建物の点検などに使われてきた。プロペラを含むパワーユニットは取り外して持ち運べる。"
+    },
+    {
+     "kind": "P",
+     "text": "用途として、駅前や商店街、公園の樹木をねぐらにし、夕方に大群で集まるムクドリへの対策を想定する。鳴き声やふん害の軽減につなげるほか、マンションやオフィスビルの屋上や看板周辺、倉庫や工場の梁に居着くハトにも使える。寺社や文化財の屋根に飛来する鳥のふん害対策にも活用できるとしている。"
+    },
+    {
+     "kind": "P",
+     "text": "レーザーはクラス3R（JIS C 6802:2018準拠）。赤色は波長660nm・出力3mW以下、緑色は520nm・2mW以下で、人に向けて照射しないよう注意を呼びかけている。照射角は70度。レーザー部は満充電から約7時間連続で使用でき、USB Type-Cでの充電には約6時間かかる。"
+    },
+    {
+     "kind": "P",
+     "text": "棒の長さは最大7.5m、収納時は1.55mで、重さは1.7kg。棒を支えるパワーユニットは約1.6kgで、屋外の無風時に約30分稼働する。レーザー本体は1.27kgで、今後の軽量化を検討している。"
+    },
+    {
+     "kind": "P",
+     "text": "Amazonのアソシエイトとして、CNET Japanは適格販売により収入を得ています"
+    },
+    {
+     "kind": "H",
+     "text": "あなたにおすすめの記事"
+    },
+    {
+     "kind": "LI",
+     "text": "「FydeOS」を使って古いPCを無償で「Chromebook」に変える方法 2026年08月31日 06時00分"
+    },
+    {
+     "kind": "LI",
+     "text": "収納箱の底に眠っていた古い「iPhone」--価値があるのかゴミなのか調べてみた 2026年09月02日 07時00分"
+    },
+    {
+     "kind": "LI",
+     "text": "記事一覧"
+    },
+    {
+     "kind": "LI",
+     "text": "老朽化する設備と向き合う 地域交通を支える管理業務を刷新 佐渡汽船が取り組むDXの現実解"
+    },
+    {
+     "kind": "LI",
+     "text": "AIで議事録作成はラクになった 問われるのは、“ひと目で伝わること” Plaud NotePin Sが示す会議記録の新しい形"
+    },
+    {
+     "kind": "H",
+     "text": "ZDNET Japan 注目ヘッドライン"
+    }
+   ],
+   "checkedAt": 1788924739407,
+   "etag": "",
+   "hash": "21c5fb9d43f5e6a5",
+   "id": "f2349b8bf557",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fjapan.cnet.com%2Farticle%2F35252385%2F",
+   "key": "https://japan.cnet.com/article/35252385",
+   "lastModified": "",
+   "publishedAt": 1788855070000,
+   "summary": "NTT e-Drone Technologyとミラテクドローンは9月8日、鳥を追い払うレーザーを伸縮棒の先端に取り付けた「たおれん棒（鳥獣害対策タイプ）」を9月30日に発売すると発表した。棒を最大約8mまで伸ばし、赤と緑のレーザー光を照射して、街路樹に集まるムクドリや倉庫などに居着くハトを地上から追い払う。プロペラの推力で長...",
+   "title": "プロペラの推力で倒れない「長い棒」、レーザーで鳥獣を追い払う--NTT系が99万円で発売",
+   "updatedAt": 1788924739407,
+   "url": "https://japan.cnet.com/article/35252385/"
   },
   "https://kaden.watch.impress.co.jp/docs/news/2138811.html": {
    "bodyBlocks": [],
@@ -1921,242 +1772,6 @@
    "updatedAt": 1788838361260,
    "url": "https://levtech.jp/media/detail_923/"
   },
-  "https://note.com/hal2400_ai/n/n80bb4382f518": {
-   "bodyBlocks": [
-    {
-     "kind": "H",
-     "text": "ChatGPT-6 AstraとSeedance 2.5で、超リアルなAI動画を簡単に作る方法"
-    },
-    {
-     "kind": "QUOTE",
-     "text": "ChatGPT-6 Astraの画像生成とSeedance 2.5の動画生成を組み合わせると、もう驚異的なレベル。 毎日AI動画を作っている僕ですら、これから先、本物と見分けられる自信がない。 pic.twitter.com/ad7LBO8XH3 — HAL2400 | AI Visual Creator (@HAL2400_AI) September 7, 2026"
-    },
-    {
-     "kind": "P",
-     "text": "実写と見間違えるくらい、かなりリアルなAI動画に仕上がりました。"
-    },
-    {
-     "kind": "P",
-     "text": "ただ、この動画を作るために何か特別なノウハウを使ったわけではありません。"
-    },
-    {
-     "kind": "P",
-     "text": "シンプルに言うと、 ChatGPT-6 AstraとSeedance 2.5がすごい。 本当にそれだけです。"
-    },
-    {
-     "kind": "P",
-     "text": "今回は、僕がこの動画を制作した流れをそのまま紹介していきます！"
-    },
-    {
-     "kind": "P",
-     "text": "まず最初に、ChatGPT-6 Astraへ以下のようなプロンプトを送りました👇"
-    },
-    {
-     "kind": "P",
-     "text": "かなりシンプルなプロンプトですが、これだけでもかなりリアルな画像が生成できました。"
-    },
-    {
-     "kind": "P",
-     "text": "この時点で、ChatGPT-6 Astraの性能の高さは十分伝わると思います。"
-    },
-    {
-     "kind": "P",
-     "text": "もちろん、もっと細かい部分までこだわりたい場合は、これくらい作り込んだプロンプトを送ってみてもいいかもしれません👇"
-    },
-    {
-     "kind": "P",
-     "text": "ここからは、生成した画像をファーストカットとして使い、Seedance 2.5で動画化していきます。"
-    },
-    {
-     "kind": "P",
-     "text": "そして今回は、動画生成用のプロンプトを考えるところまでChatGPT-6 Astraに任せてみました。"
-    },
-    {
-     "kind": "P",
-     "text": "ChatGPT-6 Astraへ送ったプロンプトがこちらです👇"
-    },
-    {
-     "kind": "P",
-     "text": "あとは、画像を1枚ずつ送って、ChatGPT-6 Astraにプロンプトを考えてもらうだけです。"
-    },
-    {
-     "kind": "P",
-     "text": "あとは、これらのプロンプトを使ってSeedance 2.5で動画化するだけです。"
-    },
-    {
-     "kind": "P",
-     "text": "もちろん、細かい部分で調整が必要になることもあります。 でも、その場合もChatGPTと相談しながらプロンプトを少しずつ修正していけばOKです。"
-    },
-    {
-     "kind": "P",
-     "text": "この方法なら、かなり気軽に、しかも超リアルなAI動画を作れると思います。"
-    },
-    {
-     "kind": "P",
-     "text": "ぜひ、みなさんも自分なりのテイストにアレンジしながら、作品づくりに活かしてみてください！"
-    },
-    {
-     "kind": "P",
-     "text": "もしこのnoteが気に入っていただけたら、ぜひ 「スキ」 を押していただけると励みになります！"
-    },
-    {
-     "kind": "H",
-     "text": "いいなと思ったら応援しよう！"
-    }
-   ],
-   "checkedAt": 1788838361260,
-   "etag": "",
-   "hash": "163fe85ee590dcfa",
-   "id": "81dd29c922cf",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fnote.com%2Fhal2400_ai%2Fn%2Fn80bb4382f518",
-   "key": "https://note.com/hal2400_ai/n/n80bb4382f518",
-   "lastModified": "",
-   "publishedAt": 1788777870000,
-   "summary": "ChatGPT-6 Astraの画像生成とSeedance 2.5の動画生成を組み合わせると、もう驚異的なレベル。 毎日AI動画を作っている僕ですら、これから先、本物と見分けられる自信がない。 pic.twitter.com/ad7LBO8XH3 — HAL2400 | AI Visual Creator (@HAL2400_AI) September 7, 2026 実写と見間違えるくらい、かなりリアルなAI動画...",
-   "title": "ChatGPT-6 AstraとSeedance 2.5で、超リアルなAI動画を簡単に作る方法｜HAL2400 | AI Visual Creator",
-   "updatedAt": 1788838361260,
-   "url": "https://note.com/hal2400_ai/n/n80bb4382f518"
-  },
-  "https://note.com/hirothings/n/nece4f66c4fe8": {
-   "bodyBlocks": [
-    {
-     "kind": "H",
-     "text": "自分より優秀なAIがコードを書く時代にどう生きるか"
-    },
-    {
-     "kind": "P",
-     "text": "数年前からコードを書くAIが出てきた。最初はGitHub Copilotという名前が示すとおり副操縦士でしかなかった。 それが2026年現在、プログラムの大半はAIが書くようになった。"
-    },
-    {
-     "kind": "P",
-     "text": "最近はコードレビューすら大半はAIまかせになってきた。 2026前半ごろまでは自分もレビューをがんばっていたが、AIの方が自分よりよっぽど優秀なコードを書くし、よっぽど正確なレビューをしてくれる。"
-    },
-    {
-     "kind": "H",
-     "text": "個人開発者としての自分の立ち位置"
-    },
-    {
-     "kind": "P",
-     "text": "今自分の仕事をなんと例えるかと聞かれたら、指揮者と答える。 アプリの全容を把握して、意思決定するのが主な仕事だ。"
-    },
-    {
-     "kind": "P",
-     "text": "AIは優秀なコードを書くが、魔法のようにそのままサービスに使えるか？と言われたらそんなことはない。大抵は修正指示を繰り返して完成に至る。 ちょっとした手触りひとつで人間はストレスを感じるし、そのストレスを一番敏感に感じるのは開発者自身でなければならない。"
-    },
-    {
-     "kind": "P",
-     "text": "例えば、運営しているアプリ( きろく 、 minto )で何も取捨選択せずにAIの実装そのままリリースしていたら、今ごろ相当な機能過多に陥っていたと思う。 実現が簡単になった時代に指揮者には審美眼が求められる。それはその人自身の経験や知識によって磨かれる。"
-    },
-    {
-     "kind": "P",
-     "text": "例えば、HIG (AppleのHuman Interface Guideline)を読み込んでいないと、iOSアプリらしい振る舞いにならないPromptを人間自ら打ち込んでしまう。 AIはそれを指示通りに正確に実装する。 HIGに沿っているかAIにチェックさせることは可能だが、まず人間がHIGの重要性を知っていないとチェックリストの発想自体がない。 AIでアプリが量産されても、ヒットするアプリの数はさほど変わらない答えがここら辺にあると思う。 つまり指揮者である人間の知識や意思決定のセンスの枠からAIが飛び抜けることはなく、今まで以上にそこが求められている。"
-    },
-    {
-     "kind": "H",
-     "text": "AI開発時代に開発者が必要そうなスキル"
-    },
-    {
-     "kind": "P",
-     "text": "AI開発時代に開発者が必要そうなスキルを自分なりにまとめてみた。"
-    },
-    {
-     "kind": "LI",
-     "text": "完成図が具体的であること 言語化できること 簡単な絵が描けるとなお良い"
-    },
-    {
-     "kind": "LI",
-     "text": "サービス全体を俯瞰して見れること 局所最適解を出しがちなAIのアウトプットを矯正できるから"
-    },
-    {
-     "kind": "LI",
-     "text": "マーケティング ヒットする企画を生み出す力 市場を読む力"
-    },
-    {
-     "kind": "LI",
-     "text": "デザインセンス アプリの世界観を作りこめる AIポン出しデザインの違和感に気づける 最後の1pxの差異にこだわれる"
-    },
-    {
-     "kind": "LI",
-     "text": "開発に冠する包括的な知識 何を世に出したらヤバいのか気づける力 Appleデバイス系アプリならHIG セキュリティに関する知識"
-    },
-    {
-     "kind": "LI",
-     "text": "倫理観 何を世に出したらヤバいのか気づける力"
-    },
-    {
-     "kind": "LI",
-     "text": "行動力 AIであらゆる施策はすぐ試せる。それを実行するかどうか"
-    },
-    {
-     "kind": "P",
-     "text": "他にもありそうだが、今まで以上に総合力が求められる時代になったなぁと書き出してて感じた。"
-    },
-    {
-     "kind": "H",
-     "text": "そんな時代にスキルを磨くためにやっていること"
-    },
-    {
-     "kind": "P",
-     "text": "これをやればいいよ！というのは自分にもなくて考え方をシフトしている最中だが、アプリ開発者目線で普段からこんなことをやっている"
-    },
-    {
-     "kind": "H",
-     "text": "いろんなアプリを触っていい点・改善点を洗い出す"
-    },
-    {
-     "kind": "P",
-     "text": "これはAI以前から自然にやっていた。なんか使いやすいなぁで消費者視点だと止まってしまうのを、何が使いやすいのか？を自分なりに言葉にしていた。これをやると自然と使いやすいアプリが何か分かるようになる"
-    },
-    {
-     "kind": "H",
-     "text": "いろんな作品を観て体験をする"
-    },
-    {
-     "kind": "P",
-     "text": "これは現在進行形で意識している。 いろんな体験をし、自分の中の引き出しを増やすこと。最近読んだ「アイデアのつくりかた」の本にもその趣旨の内容があった"
-    },
-    {
-     "kind": "H",
-     "text": "文章・絵を描く"
-    },
-    {
-     "kind": "P",
-     "text": "毎日日記を書き、独立してからは週報・月報も書いている。 マンガも↑にあるように手描きでたまに描いている。AIで自動化しがちな時代にあえて手で描くことが大事な気がして、そうしている。 このnoteも手で1から書いている。 AIに指示するにしても最初の一筆目は自分の言葉だから重要そう。漫画は開発外の余暇の時間が増えたので半分趣味。"
-    },
-    {
-     "kind": "H",
-     "text": "人と会う"
-    },
-    {
-     "kind": "P",
-     "text": "人と会えるのは人間の特権。雑談のなかでしか生まれないものがある"
-    },
-    {
-     "kind": "P",
-     "text": "何か開発外の経験をすることが、ますます重要になってきているなぁとひしひしと感じる。電話交換手という仕事がかつてあって無くなったように、プログラマーという仕事もトップ層を除いて自動化に置き換わっていくのだろう。 その波を最前線で受け止めつつも、次の仕事の形を模索する日々。"
-    },
-    {
-     "kind": "H",
-     "text": "いいなと思ったら応援しよう！"
-    },
-    {
-     "kind": "H",
-     "text": "この記事が参加している募集"
-    }
-   ],
-   "checkedAt": 1788838361260,
-   "etag": "",
-   "hash": "ea6abae978de4444",
-   "id": "41439993bff9",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fnote.com%2Fhirothings%2Fn%2Fnece4f66c4fe8",
-   "key": "https://note.com/hirothings/n/nece4f66c4fe8",
-   "lastModified": "",
-   "publishedAt": 1788789131000,
-   "summary": "数年前からコードを書くAIが出てきた。最初はGitHub Copilotという名前が示すとおり副操縦士でしかなかった。 それが2026年現在、プログラムの大半はAIが書くようになった。 このマンガはAI開発の変遷をテーマに以前描いたものだ。 最近はコードレビューすら大半はAIまかせになってきた。 2026前半ごろまでは自分もレビ...",
-   "title": "自分より優秀なAIがコードを書く時代にどう生きるか｜ひろしくりえいしょん🍜",
-   "updatedAt": 1788838361260,
-   "url": "https://note.com/hirothings/n/nece4f66c4fe8"
-  },
   "https://pages.awscloud.com/rs/112-tzm-766/images/r14_0625_6_cdn227_v1.pdf": {
    "bodyBlocks": [],
    "checkedAt": 1788904600552,
@@ -2172,66 +1787,6 @@
    "updatedAt": 1788904600552,
    "url": "https://pages.awscloud.com/rs/112-TZM-766/images/R14_0625_6_CDN227_v1.pdf"
   },
-  "https://pc.watch.impress.co.jp/docs/column/nishikawa/2138806.html": {
-   "bodyBlocks": [],
-   "checkedAt": 1788865227258,
-   "etag": "",
-   "hash": "69525016cac93bfc",
-   "id": "e286b674b585",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fpc.watch.impress.co.jp%2Fdocs%2Fcolumn%2Fnishikawa%2F2138806.html",
-   "key": "https://pc.watch.impress.co.jp/docs/column/nishikawa/2138806.html",
-   "lastModified": "",
-   "publishedAt": 1788815281000,
-   "summary": "",
-   "title": "【西川和久の不定期コラム】 家庭にあるPCのLLMリソースを束ねるNVIDIA「PAIR」、早速試してみた！",
-   "updatedAt": 1788865227258,
-   "url": "https://pc.watch.impress.co.jp/docs/column/nishikawa/2138806.html"
-  },
-  "https://pc.watch.impress.co.jp/docs/column/short-review/2138909.html": {
-   "bodyBlocks": [],
-   "checkedAt": 1788904600552,
-   "etag": "",
-   "hash": "e500490dd898ef9c",
-   "id": "353ecebbcf43",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fpc.watch.impress.co.jp%2Fdocs%2Fcolumn%2Fshort-review%2F2138909.html",
-   "key": "https://pc.watch.impress.co.jp/docs/column/short-review/2138909.html",
-   "lastModified": "",
-   "publishedAt": 1788815569000,
-   "summary": "",
-   "title": "【PC短評】 薄っ！速っ！でも25時間駆動。「OmniBook Ultra 14」を触って驚いた",
-   "updatedAt": 1788904600552,
-   "url": "https://pc.watch.impress.co.jp/docs/column/short-review/2138909.html"
-  },
-  "https://pc.watch.impress.co.jp/docs/column/yajiuma-mini-review/2138920.html": {
-   "bodyBlocks": [],
-   "checkedAt": 1788838361260,
-   "etag": "",
-   "hash": "21578fbc2cd8b7ef",
-   "id": "5f3975111100",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fpc.watch.impress.co.jp%2Fdocs%2Fcolumn%2Fyajiuma-mini-review%2F2138920.html",
-   "key": "https://pc.watch.impress.co.jp/docs/column/yajiuma-mini-review/2138920.html",
-   "lastModified": "",
-   "publishedAt": 1788821552000,
-   "summary": "",
-   "title": "【やじうまミニレビュー】 充電器を忘れたらダイソーへ。1,100円で45W、ノートPCも充電できた",
-   "updatedAt": 1788838361260,
-   "url": "https://pc.watch.impress.co.jp/docs/column/yajiuma-mini-review/2138920.html"
-  },
-  "https://pc.watch.impress.co.jp/docs/news/2138706.html": {
-   "bodyBlocks": [],
-   "checkedAt": 1788818242184,
-   "etag": "",
-   "hash": "d632ff731f447cc4",
-   "id": "6b1a3b21d644",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fpc.watch.impress.co.jp%2Fdocs%2Fnews%2F2138706.html",
-   "key": "https://pc.watch.impress.co.jp/docs/news/2138706.html",
-   "lastModified": "",
-   "publishedAt": 1788781350000,
-   "summary": "",
-   "title": "Ryzen Z1搭載のミニPC「UM750 Neo」が7万9,999円で登場",
-   "updatedAt": 1788818242184,
-   "url": "https://pc.watch.impress.co.jp/docs/news/2138706.html"
-  },
   "https://pc.watch.impress.co.jp/docs/news/2138938.html": {
    "bodyBlocks": [],
    "checkedAt": 1788904600552,
@@ -2246,6 +1801,36 @@
    "title": "音楽生成AI「Lyria 3.5」、Geminiアプリで全ユーザー開放",
    "updatedAt": 1788904600552,
    "url": "https://pc.watch.impress.co.jp/docs/news/2138938.html"
+  },
+  "https://pc.watch.impress.co.jp/docs/news/2139046.html": {
+   "bodyBlocks": [],
+   "checkedAt": 1788924739407,
+   "etag": "",
+   "hash": "478a36eef6ab8add",
+   "id": "3114af46165a",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fpc.watch.impress.co.jp%2Fdocs%2Fnews%2F2139046.html",
+   "key": "https://pc.watch.impress.co.jp/docs/news/2139046.html",
+   "lastModified": "",
+   "publishedAt": 1788854729000,
+   "summary": "",
+   "title": "Opus 5に迫る品質を最大67%安く、GitHub Copilotが複数AIを自動編成",
+   "updatedAt": 1788924739407,
+   "url": "https://pc.watch.impress.co.jp/docs/news/2139046.html"
+  },
+  "https://pc.watch.impress.co.jp/docs/news/2139180.html": {
+   "bodyBlocks": [],
+   "checkedAt": 1788924739407,
+   "etag": "",
+   "hash": "8c7ea1b6958f2539",
+   "id": "3b4503bcffb6",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fpc.watch.impress.co.jp%2Fdocs%2Fnews%2F2139180.html",
+   "key": "https://pc.watch.impress.co.jp/docs/news/2139180.html",
+   "lastModified": "",
+   "publishedAt": 1788866791000,
+   "summary": "",
+   "title": "Belkin、ノートPCを140Wで急速充電できるモバイルバッテリ",
+   "updatedAt": 1788924739407,
+   "url": "https://pc.watch.impress.co.jp/docs/news/2139180.html"
   },
   "https://qiita.com/maeda-niku18/items/b633dda178c505461080": {
    "bodyBlocks": [
@@ -4067,21 +3652,6 @@
    "updatedAt": 1788904600552,
    "url": "https://techracho.bpsinc.jp/hachi8833/2026_09_08/159597"
   },
-  "https://togetter.com/li/2742721": {
-   "bodyBlocks": [],
-   "checkedAt": 1788818242184,
-   "etag": "",
-   "hash": "3de50217458e9d70",
-   "id": "47d96d8da13b",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Ftogetter.com%2Fli%2F2742721",
-   "key": "https://togetter.com/li/2742721",
-   "lastModified": "",
-   "publishedAt": 1788776951000,
-   "summary": "たか@消されたので復活 @taka_tokyo728 @_watany 既存権力を保持することに総力を賭けてるおじさんが管理職にはよくいるので、こういう人に正論は通じない。婉曲な提案をするのがベターなんだけどその無駄な労力がまたキツい。官公庁のキャリアとやりあった時はクビ覚悟でバトルしたけど誰も庇ってくれないし不毛だった…...",
-   "title": "ITエンジニアあるある「フィクションのIT系の演出でリアリティがなくて冷める」→素晴らしいバランスを持つマンガが貼られて胃がキュッとなる",
-   "updatedAt": 1788818242184,
-   "url": "https://togetter.com/li/2742721"
-  },
   "https://togetter.com/li/2742941": {
    "bodyBlocks": [],
    "checkedAt": 1788865227258,
@@ -4146,82 +3716,6 @@
    "title": "母に無料スタンプを送っただけで「私ごとき無料でいいと思ってるんだ」「バカにしてる、見下してる」とヒスられたの、ほんとになんですか→驚きと同情の声が多数集まる",
    "updatedAt": 1788904600552,
    "url": "https://togetter.com/li/2743144"
-  },
-  "https://www.afpbb.com/articles/-/3651810": {
-   "bodyBlocks": [
-    {
-     "kind": "H",
-     "text": "AIは「人類の存亡に関わる脅威」 国連人権トップ警告、即座の行動要求"
-    },
-    {
-     "kind": "H",
-     "text": "このニュースをシェア"
-    },
-    {
-     "kind": "LI",
-     "text": "画像作成中 画像作成中"
-    },
-    {
-     "kind": "LI",
-     "text": "画像作成中"
-    },
-    {
-     "kind": "P",
-     "text": "【9月7日 AFP】国連（UN）のボルカー・ターク人権高等弁務官は7日、人工知能（AI）によって「人類の存亡に関わる脅威」がもたらされる可能性があると警告し、リスクを軽減するための即座の行動を求めた。"
-    },
-    {
-     "kind": "P",
-     "text": "国連人権理事会で演説したターク氏は、人類が現在、自らの権利に対する「かつて経験したことのない」脅威に直面していると警告した。"
-    },
-    {
-     "kind": "P",
-     "text": "「AIガバナンスの必要性は広く認識されているが、具体的な行動はどうなっているのか」と問いかけたターク氏は、「遅れは、巨大IT企業やその所有者、後押しする者たちを利するだけだ」と指摘した。"
-    },
-    {
-     "kind": "P",
-     "text": "ターク氏はさらに、「想像を絶する能力を秘めたAIに対し、ほんの一握りの人物らがほぼ無制限の権力を振るっている」と強く批判。「彼らは自由を主張するが、その正体は、私たちのデータを好き勝手に搾取する自由に過ぎない」と述べた。"
-    },
-    {
-     "kind": "P",
-     "text": "特に、「テスト環境から脱出したり、電源を切られないよう開発者を脅迫したりするAIは、あまりに危険で強力すぎる存在だ」と警鐘を鳴らした。"
-    },
-    {
-     "kind": "P",
-     "text": "同氏は、オープンAI（OpenAI）のAIエージェントが制御されているはずの環境から抜け出し、プログラマーがAIソフトウェアを共有する広く使われているプラットフォーム「ハギング・フェイス（Hugging Face）」のサーバーに侵入したとされる、今年7月の暴露事案に言及したとみられる。"
-    },
-    {
-     "kind": "P",
-     "text": "アンスロピック（Anthropic）やメタ（Meta）などの企業も、エージェントのテスト中に同様の事案が発生したと報告している。"
-    },
-    {
-     "kind": "P",
-     "text": "「高度なAIが人類の存亡に関わるリスクをもたらしかねないという業界関係者の懸念には、私もまったく同感だ」とターク氏は述べ、「手遅れになる前に、AIの安全性とセキュリティを絶対確実なものとするため、本日この場で総力を挙げた取り組みを強く求めたい」と続けた。"
-    },
-    {
-     "kind": "P",
-     "text": "また、「少なくとも、AIの開発拠点がある国々やそのサプライチェーンに関与する国々が一堂に会し、共通のレッドライン（一線）を設定しなければならない」との考えを示した。(c)AFP"
-    },
-    {
-     "kind": "H",
-     "text": "Top stories"
-    },
-    {
-     "kind": "H",
-     "text": "Special PR"
-    }
-   ],
-   "checkedAt": 1788818242184,
-   "etag": "",
-   "hash": "f886e197f4b6834a",
-   "id": "b4600643768e",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.afpbb.com%2Farticles%2F-%2F3651810",
-   "key": "https://www.afpbb.com/articles/-/3651810",
-   "lastModified": "",
-   "publishedAt": 1788775462000,
-   "summary": "【9月7日 AFP】国連（UN）のボルカー・ターク人権高等弁務官は7日、人工知能（AI）によって「人類の存亡に関わる脅威」がもたらされる可能性があると警告し、リスクを軽減するための即座の行動を求めた。 国連人権理事会で演説したターク氏は、人類が現在、自らの権利に対する「かつて経験したことのない」脅威に直面し...",
-   "title": "AIは「人類の存亡に関わる脅威」 国連人権トップ警告、即座の行動要求",
-   "updatedAt": 1788818242184,
-   "url": "https://www.afpbb.com/articles/-/3651810"
   },
   "https://www.afpbb.com/articles/-/3651960": {
    "bodyBlocks": [
@@ -4307,157 +3801,25 @@
    "updatedAt": 1788865227258,
    "url": "https://www.afpbb.com/articles/-/3651960"
   },
-  "https://www.docswell.com/s/ohhara_shiojiri/58n66y-2026-09-02-164916": {
+  "https://www.haaretz.com/israel-news/israel-security/2026-09-08/ty-article-magazine/.highlight/netanyahu-got-an-explicit-warning-before-oct-7-he-didnt-brief-security-chiefs/000001a0-7a3b-d7d5-a9fc-7eff3d0f0000": {
    "bodyBlocks": [
     {
-     "kind": "H",
-     "text": "「従来型SOCの限界 -machinespeedの攻撃にどう立ち向かうか-」"
-    },
-    {
      "kind": "P",
-     "text": "【第15回】サイバーセキュリティ勉強会2026夏 in 塩尻 - connpass https://shiojiri-cyber.connpass.com/event/383826/ SCSKセキュリティ株式会社 島田 慎之介"
-    },
-    {
-     "kind": "H",
-     "text": "ohhara"
-    },
-    {
-     "kind": "H",
-     "text": "関連スライド"
-    },
-    {
-     "kind": "H",
-     "text": "結局、パスワードは使い回されている～古くて新しい「人の脆弱性」解消のヒント～"
-    },
-    {
-     "kind": "H",
-     "text": "「情報セキュリティ資格について考えてみる」"
-    },
-    {
-     "kind": "H",
-     "text": "ロシアから見たサイバーセキュリティ"
-    },
-    {
-     "kind": "H",
-     "text": "国際標準レベルのセキュリティ組織を作ろう！"
-    },
-    {
-     "kind": "H",
-     "text": "「サイバーセキュリティ人材」について整理してみる"
-    },
-    {
-     "kind": "H",
-     "text": "1万件の調査結果から読み解く、SaaSにおける「隠れAI」のセキュリティリスク"
-    },
-    {
-     "kind": "P",
-     "text": "従来型SOCの限界\n― machine speed の攻撃にどう立ち向かうか ―\nSCSKセキュリティ株式会社\nセキュリティインテリジェンス事業本部\n島田 慎之介\n2026年8月29日\n塩尻サイバーセキュリティ勉強会2026 夏\nCopyright © SCSK Security Corporation"
-    },
-    {
-     "kind": "P",
-     "text": "自己紹介\n名前\n島田慎之介 (しまだしんのすけ)\n担当業務\nインシデント対応、ログ調査、SIEMルールチューニング\n経歴\n2022年 - 2025年：地方銀行のCSIRT/SOC\n2025年 - 2026年：グローバルに拠点を持つ製造業のプライベートCSIRT/SOC\n保有資格\nCISSP\n情報処理安全確保支援士（登録番号：027181号）\n応用情報技術者\n基本情報技術者\nCompTIA Security+\nCopyright © SCSK Security Corporation\n1"
-    },
-    {
-     "kind": "P",
-     "text": "会社概要\nキーメッセージ\n守り抜く、セキュリティのすべての力で。\n会社名\nSCSKセキュリティ株式会社 ［SCSK Security Corporation］\n代表\n代表取締役社長\n市場 健二\n役員\n取締役 執行役員\n取締役\n取締役\n監査役\n執行役員\n執行役員\n黒木 俊平\n佐藤 利宏\n谷口 愼一\n佐々木 和志\n福田 洋介\n中田 勝也\n（2026年4月1日付）\nhttps://scsksecurity.co.jp\n事業内容\nセキュリティサービス開発・販売（コンサルティング、脆弱性診断・評価、トレーニング、運用監視サービス（SOC）等）\nセキュリティ製品販売\n設立日\n2023年8月1日\n所在地\n〒135-0061 東京都江東区豊洲3-2-20 豊洲フロント\n資本金\n5,000万円（SCSK株式会社100%出資）\n2027年4月に「ＳＣＳＫネットワンセキュリティ株式会社」に社名を変更します。\nCopyright © SCSK Security Corporation\n2"
-    },
-    {
-     "kind": "P",
-     "text": "私たちが推奨する取り組み\nRe-Architecting Security\nセキュリティ・アーキテクチャーの再設計\n従来のセキュリティ\nこれからのセキュリティ\nコストセンター/アウトソーシング\n成長を支える基盤/ビジネスパートナー\n境界型防御の延長と単一\nプロダクト・サービスへの依存\nパラダイム\nシフト\n将来顕在化しうる脅威への\nプロアクティブな対応\nアラート・脆弱性・事故対応に\n追われる労働集約型の運用\n顧客企業の事業継続性と社会\n的信用を担保する中核インフラ\nホラーストーリー起点による\n保険的なIT・セキュリティ投資\n守りではなくビジネスの成長を\n支える投資への転換\n変化に対応し続けるために、継続的に「最適なアーキテクチャへの再設計」に取り組むことが必要です。\nCopyright © SCSK Security Corporation\n3"
-    },
-    {
-     "kind": "P",
-     "text": "今日いちばん伝えたいこと\n攻撃はもう \"machine speed\" で動いている。\n人の速さを前提にしたSOCは、\n頑張りの問題ではなく、間に合わない。\nCopyright © SCSK Security Corporation\n4"
-    },
-    {
-     "kind": "P",
-     "text": "今日の流れ\nまず\n攻撃はどれくらい速いのか（数字で見る）\n次に\n人を増やしても追いつけない理由\nさらに\nその差が、これからも開き続ける理由\n最後に\nでは、どう立ち向かうか\nCopyright © SCSK Security Corporation\n5"
-    },
-    {
-     "kind": "P",
-     "text": "はじめに ― 私たちの初動って、どれくらいかかるでしょう\n初動でやっていること\nだいたいの所要時間\nアラートに気づく\n数分〜数十分\n端末を立ち上げてコンソールに入る\n2〜5分\nログを見て状況を把握する\n10〜30分\n他部署にログ抽出をお願いする\n数時間〜数日\n初動の判断を下す\n―\nこのあと出てくる数字を、\nいま思い浮かべた時間と比べてみてください\nCopyright © SCSK Security Corporation\n6"
-    },
-    {
-     "kind": "P",
-     "text": "侵入された端末は、22秒後に別の攻撃者の手へ\n22秒\n初期アクセス → 次の攻撃グループへの\n引き渡し（中央値, 2025年）\n2022年は 8時間超 でした\n● 初期アクセスブローカー（IAB）が侵入したあと、ランサム実行部隊へ権限を渡すまで\nが中央値22秒\n● 闇市場での「販売」を挟まず、提携先へ直接渡す形が増えている（一部は自動化）\n● つまり、軽微に見えるアラートが数十秒後には重大な侵害になっている\n8時間超から22秒へ。ここまで縮むのは、人が間に入っていては無理です。\n攻撃の連携部分は、もう機械が回している。\n出典: M-Trends 2026 (Mandiant/Google Cloud, 2026.3.23) https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/\nSecurityWeek (2026.3.23) https://www.securityweek.com/m-trends-2026-initial-access-handoff-shrinks-from-hours-to-22-seconds/\nCopyright © SCSK Security Corporation\n7"
-    },
-    {
-     "kind": "P",
-     "text": "こちらに残された時間は、29分\n29分\nブレイクアウトタイム＝侵入 → 横展開\nが始まるまでの平均（eCrime）\n最速は 27秒\n●\n●\n●\n●\nブレイクアウトタイム＝最初の端末から他システムへ広がり始めるまでの時間\nこれは攻撃側の速さというより、こちらに残された持ち時間\n昨年は48分。今年は29分。19分縮まった\nMITRE ATT&CK でいう横展開を許した時点で、被害は一気に広がる\nSlide 6 と並べてみると ―\nさきほどの初動フロー、ログ抽出の依頼だけで29分を超えます。\nつまり、スタートラインに立つ前に終わっている。\n出典: CrowdStrike 2026 Global Threat Report https://www.crowdstrike.com/en-us/global-threat-report/\nNRIセキュア「AI SOCとは？」(2026) https://www.nri-secure.co.jp/blog/ai-soc\nCopyright © SCSK Security Corporation\n8"
-    },
-    {
-     "kind": "P",
-     "text": "この4年で、何が起きたか\n年\n侵入からデータ窃取完了までの時間\n2021年\n44日\n2023年\n9日\n2025年\n72分 ／ 最速 25分\n44日 → 9日 → 72分。4年で、桁が3つ変わりました。\n● 攻撃の高速化は「今年たまたま」ではなく、継続している傾向\n● Slide 8 の「昨年48分 → 今年29分」も、この流れの中にある\nCopyright © SCSK Security Corporation\n出典: Unit 42「Global Incident Response Report 2026」 https://unit42.paloaltonetworks.com/incident-response-report/\n9"
-    },
-    {
-     "kind": "P",
-     "text": "machine speed は「速さ」だけの話ではない\n速いほう（金銭目的）\n遅いほう（諜報・内部脅威）\n引き渡し\n22秒\n―\n持ち時間\n29分\n―\n潜伏期間\nすぐ実害へ\n中央値122日\n代表例\nランサム／Recovery Denial\nBRICKSTORM（UNC5221）約393日\n●\n世界の中央値ドウェルタイムは14日へ上昇（前年11日）\n●\n要因：EDRが入らないエッジ機器・仮想化基盤への居座り\n●\nMean time to exploit は −7日＝パッチが出る前に悪用が始まっている\nmachine speed とは、\"人の時間感覚から外れている\"ということ。\n速すぎて追えない（22秒／29分）だけでなく、遅すぎて気づけない（122日／393日）。\n上にも下にも、人の感覚の外側にある。\n出典: M-Trends 2026 (Mandiant/Google Cloud) https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/\nM-Trends 2026 Executive Edition https://services.google.com/fh/files/misc/m-trends-2026-executive-edition-en.pdf\nCopyright © SCSK Security Corporation\n10"
-    },
-    {
-     "kind": "P",
-     "text": "人を増やして、もっと速くすればいい\n40-62%\n● 自然な発想です。ただ、数の面で難しいのが実情です\n● エンタープライズSOCが受け取るアラートは1日3,000件超\n● そのうち 40〜62%が未調査のままになっている\n手つかずのまま残っているアラート\n速くする以前に、まず全部見られていない。\n今も半分は手が回っていない状態です。\n出典: Vooban (2026) https://vooban.com/en/articles/2026/02/how-ai-agents-are-transforming-alert-triage-in-security-operations-centers\nMicrosoft「Agentic SecOps / State of the SOC」(2026) https://marketingassets.microsoft.com/gdc/gdc46cegG/original\nCopyright © SCSK Security Corporation\n11"
-    },
-    {
-     "kind": "P",
-     "text": "人を増やしても、29分には間に合わない\n● アナリストは週の20%超（丸1日分）を、手作業のデータ集め\nに使っている\n● セキュリティ責任者の91%が「この隙間が実際に重大インシ\nデントにつながった」と回答\n● 100人分の処理能力で3,000件をさばくのは、単純に計算が\n合わない\nそもそもアラートが増えている理由（AIではありません）\n●\n監視対象が増えた（クラウド／SaaS／リモートワーク／IoT・OT）\n●\n製品が多層化した（EDR/NDR/CASB/SASE がそれぞれ鳴る）\n●\n見逃しを恐れて検知を敏感にした → 誤検知が増えた\nつまり、人の速さは上げようとしても上げきれない。\n出典: Microsoft State of the SOC (2026) https://marketingassets.microsoft.com/gdc/gdc46cegG/original\nVooban (2026) https://vooban.com/en/articles/2026/02/how-ai-agents-are-transforming-alert-triage-in-security-operations-centers\nCopyright © SCSK Security Corporation\n12"
-    },
-    {
-     "kind": "P",
-     "text": "何が、加速を止めないのか\n89%増\n●\n〜2024年：AIは主に作業効率を上げる道具\n●\n2025年〜：実際に動くマルウェアにAIが組み込まれる段階へ\n●\nGTIGは「攻撃者はもう、効率化のためだけにAIを使ってはいない」と評価\nAIを使った攻撃の、前年比の増え方\nAIの使い方\n名称\n状況\nPROMPTSTEAL\n実行時にLLMへ問い合わせ、その場でWindowsコマンドを生成\n実際に使用（APT28／ロシア）\nPROMPTFLUX\nLLMに自分のコード書き換えを依頼\n開発中・実験段階\nPROMPTLOCK\n実行時にLuaのペイロードを生成\nPoC（学術由来の可能性）\n加速の裏には、AIという恒常的な駆動源がある。ペイロードが実行のたびに作り直され、\nハッシュやYARAは\"存在しないコード\"を照合することになる。\n残るのは振る舞いを見て相関を取る方法 ― これは人手では量的に回りません。\n出典: CrowdStrike 2026 Global Threat Report https://www.crowdstrike.com/en-us/global-threat-report/\nGTIG AI Threat Tracker (2025.11) https://cloud.google.com/blog/topics/threat-intelligence/threat-actor-usage-of-ai-tools/\nCopyright © SCSK Security Corporation\n13"
-    },
-    {
-     "kind": "P",
-     "text": "とはいえ、煽りすぎないようにしたい\n① Mandiant（M-Trends 2026）\n2025年は「AIが直接の原因で侵害された\n年」ではない。\n② GTIG（2026年2月）\n攻撃グループが、状況を根本から変えるよ\nうな決定的な能力を手にしたとは、まだ観\n測されていない。\n③ Unit 42（2026年8月）\nAI搭載マルウェア405検体のうち約97%は\nサンドボックスやVirusTotal上にしかない。\n実際の顧客環境に届いた12件は、すべて既\n存の振る舞い検知で止められた。\n今日の話は「AIが怖い」ではありません。\nあくまで machine speed（速さの差） の話です。\n出典: M-Trends 2026 https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/\nGTIG (2026.2) https://cloud.google.com/blog/topics/threat-intelligence/distillation-experimentation-integration-ai-adversarial-use\nUnit 42「The State of AI-Enabled Malware」(2026.8) https://unit42.paloaltonetworks.com/ai-enabled-malware-analysis/\nCopyright © SCSK Security Corporation\n14"
-    },
-    {
-     "kind": "P",
-     "text": "ここまでの整理\n話したこと\n数字\n攻撃はもう機械の速さで動いている\n22秒／29分／122日\nしかも、加速し続けている\n44日 → 9日 → 72分\n人を増やしても、量的に追いつかない\n3,000件／40〜62%が未調査\nこの差は、この先さらに開きそう\n89%増／シグネチャが効きにくい\n人の速さのままでMachineSpeedに向き合う方法は、残っていないのか。\nCopyright © SCSK Security Corporation\n15"
-    },
-    {
-     "kind": "P",
-     "text": "MachineSpeedで返すなら、SOARでいいのでは？\n● 決めた手順は、想定外の場面で止まる → そこで人にエスカレーションされる\n● ツールが分かれている → 画面を行き来する時間が積み上がる\n● そもそも見えていない領域がある → エッジ機器や仮想化基盤にはEDRが入らない\nSOARは速いけれど、融通が利かない。\nmachine speed の攻撃は状況に合わせて変えてくるので、\n決め打ちの自動化だけでは受けきれない。\n出典: Vooban (2026) https://vooban.com/en/articles/2026/02/how-ai-agents-are-transforming-alert-triage-in-security-operations-centers\nNRIセキュア (2026) https://www.nri-secure.co.jp/blog/ai-soc\nCopyright © SCSK Security Corporation\n16"
-    },
-    {
-     "kind": "P",
-     "text": "いま注目されているのが \"Agentic AI\"\n技術\nmachine speed への対応\n動き方\nSOAR（従来の自動化）\n決めた手順を実行\n速いが融通が利かない\nCopilot（生成AI）\n人が指示して補助\n起点が人＝人の速さ\nAI分類器\n単発で判定\n多段の調査ができない\nAgentic AI\n自分で調査手順を組み立て、状況に合わせて動く\nmachine speedで対応できる\n具体例：不審なログインを検知したとき\nAutonomous SOC とは\n●\n① IPの評判 ② 本人の出張履歴 ③ 端末の状態 ④ 普段の行動と比較\nAgentic AI は\"部品\"。それを組み込んだSOC全体の姿を\n\"Autonomous SOC\" と呼びます。\n材料をまとめ、悪性／問題なし／判断保留に分類し、根拠も提示\nただし、0か1かではなく「段階」です（本講演での整理）\n●\n全体を見るエージェントが調査を分解し、専門エージェントに割り振る\n出典: iTechGuides (2026) https://www.itechguides.com/agentic-ai-in-the-soc-the-dawn-of-autonomous-alert-triage/\nVooban (2026) https://vooban.com/en/articles/2026/02/how-ai-agents-are-transforming-alert-triage-in-security-operations-centers\nHunters https://www.hunters.security/en/blog/agentic-ai-secops ／ IBM https://www.ibm.com/think/insights/agentic-ai-enables-autonomous-soc（段\n階整理は本講演による）\nCopyright © SCSK Security Corporation\n17"
-    },
-    {
-     "kind": "P",
-     "text": "自律度は「0か1か」ではなく、段階\n段階\n状態\n人の関わり\n1. 支援\n人が調べ、AIが補助する\n人が主役\n2. 一部自律\nAIが調査し、人が承認して実行\n承認者\n3. 監督付き自律\nAIが実行し、人は監視する\n監督者\n4. 完全自律\n人が介在しない\n―\n今日お話ししているのは、2段目から3段目にかけての話です。\nここが、いま現実的に手が届く範囲だと考えています。\n出典: iTechGuides (2026) https://www.itechguides.com/agentic-ai-in-the-soc-the-dawn-of-autonomous-alert-triage/\nIBM https://www.ibm.com/think/insights/agentic-ai-enables-autonomous-soc ※段階の分け方は本講演独自のまとめ\nCopyright © SCSK Security Corporation\n18"
-    },
-    {
-     "kind": "P",
-     "text": "では、実際のところどうなのか\nここまでは各社の公開レポートの話でした。ここからは、実際に運用環境で検証したデータから話します。\n項目\n内容\n対象\nエンドポイント検知アラートの一次トリアージ工程\nやり方\n実運用のアラートを流し込み、アナリストの判断と突き合わせる\n期間\n数週間規模\n位置づけ\n書き戻しはせず、判定結果の確認のみ（監視のみモード）\n確かめたかったこと\n●\n機械の判定は、人の判断と食い違わないか\n●\n一次トリアージは、どのくらいの時間で終わるか\n●\n人が見きれていない領域を拾えるか\n一次トリアージは、人の速さから機械の速さの領域へ移せそう\n― ただし、そのまま任せきりにはできない\nCopyright © SCSK Security Corporation\n出典: 検証データ\n19"
-    },
-    {
-     "kind": "P",
-     "text": "検証から見えてきたこと\n■ 有効性が確認できた点\n■ 課題として残った点\n●\n人の判断とのズレが小さかった\n●\n●\n判断の根拠が文章で残る → 人が後から検証できる\nエスカレーションに過検知が混じっていた\n→ チューニングで改善は見込めるが、入れれば終わりではない\n●\n見きれていなかった領域から拾えた\n（利用者を騙す手口の疑いなど）\n●\n検知したあとの流れは別途つくる必要がある\n（誰が確認し、判断し、記録するか）\n●\n環境の前提を伝えると、それを踏まえて判断した\n●\nチューニングは2系統：従来型のパターン指定と、自然言語での指\n示\n「入れれば解決」ではありません。\nただ、人が見られていなかった領域が見えるようになったことは確かです。\nCopyright © SCSK Security Corporation\n出典: 検証データ\n20"
-    },
-    {
-     "kind": "P",
-     "text": "いきなり「完全自律」には届かない\nなぜ届かないのか\n（理由はAIの性能ではなく周辺条件）\nHITL（2段目）\nHOTL（3段目）\n●\n監視の対象範囲が埋まっていない（エッジ機器・仮想化\n基盤）\n人の位置\n処理の流れの中に入る\n流れの外から見ている\n●\nデータの質が揃っていない（ログの欠け、検知ロジック\nの弱さ）\n動き方\nAIが提案し、人が承認して実行\nAIが実行し、人は監視・必要なら止\nめる\n●\n権限設計ができていない（誰が何を承認するか）\n●\n判定の確からしさを測る仕組みがない\n速さ\nそこで人の速さに戻る\n機械の速さを保てる\n向く場面\n端末隔離・アカウント停止など影響\nの大きい操作\n調査・情報収集・低リスクな判定\n→ AIでは直せない部分が、まだ残っている。\n現実的な線引きの例\n●\n●\nログ照会・レピュテーション確認・相関分析、明らかな誤検知のクローズ\n→ HOTL（事後に監査）\n端末の隔離、アカウント無効化、本番系の遮断\n→ HITL（実行前に人が承認）\n完全自律を否定しているのではありません。\nいま立てる場所から、順に上げていく ―― それが現実的\nです。\n出典: iTechGuides (2026) https://www.itechguides.com/agentic-ai-in-the-soc-the-dawn-of-autonomous-alert-triage/\nAbnormal AI (2026) https://abnormal.ai/learning/triage-agent-soc-ai-automation ／ M-Trends 2026 https://cloud.google.com/blog/topics/threatintelligence/m-trends-2026/ ／ 検証データ\nCopyright © SCSK Security Corporation\n21"
-    },
-    {
-     "kind": "P",
-     "text": "では、人はどこに立つのか ― \"in the loop\" から \"on the loop\" へ\nここまで「人の速さでは追いつかない」という話をしてきました。ただしこれは、人の役割がなくなるという話ではありません。\n仮に4段目に近づいたとしても、誰かが監督する必要は残ります。\nこれまで\nこれから\n立ち位置\nループの中（in the loop）\nループの上（on the loop）\nやること\n自分でログを引き、自分で判断する\n任せて、見届ける\n速さ\n人の速さがそのまま全体の速さ\n機械の速さで回り、人は追随しない\n求められる力\n手を動かす速さ・正確さ\n任せ方の設計と、見極める力\n\"on the loop\" で人が担うこと\nガードレールの設計／監督／介入の判断／例外への対応（ハンティング）／\n方針の決定\n速さで勝負する仕事は、機械へ。\n人は \"on the loop\" で、その機械を信頼できる状態に保つ。\n出典: Splunk「2026年のセキュリティ予測」(2026) https://www.splunk.com/ja_jp/blog/leadership/security-predictions-2026-what-agentic-ai-means-for-thepeople-running-the-soc.html\nNRIセキュア (2026) https://www.nri-secure.co.jp/blog/ai-soc ／ iTechGuides (2026) https://www.itechguides.com/agentic-ai-in-the-soc-the-dawn-ofautonomous-alert-triage/\nCopyright © SCSK Security Corporation\n22"
-    },
-    {
-     "kind": "P",
-     "text": "まとめ：machine speed には machine speed で\n●\n●\n●\n●\n●\n攻撃はもう機械の速さで動いていて、人の速さのSOCは間に合わない\nしかも、この4年で加速し続けている\n人を増やしても、量の壁で速さは上げきれない\n対抗手段は、機械の速さで回る自律的なトリアージ\nただし、一足飛びに完全自律へ行くのではなく、いま立てる段階から順に上げていく ― そのとき人は \"on the loop\" へ移る\n攻撃者はバトンを 22秒 で渡し、29分 後には横展開を始める。\nそれでいて、122日 潜んでいることもある。この4年で 44日 が 72分 になりました。\n問われているのは \"戦うかどうか\" ではなく、\n\"どの速さで動く仕組みを持ち、どこに人が立つか\" だと思います。\n出典: M-Trends 2026 https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/\nCrowdStrike 2026 Global Threat Report https://www.crowdstrike.com/en-us/global-threat-report/\nUnit 42 GIRR 2026 https://unit42.paloaltonetworks.com/incident-response-report/\nCopyright © SCSK Security Corporation\n23"
+     "text": "These were the final days of September 2023. Terrorist attacks inflamed the West Bank, masses of Gazans regularly protested at the border fence, and the country was reeling from internal conflict over the judicial coup laws. Anyone watching the events with clear eyes could sense that an escalation was lurking around every corner."
     }
    ],
-   "checkedAt": 1788838361260,
+   "checkedAt": 1788924739407,
    "etag": "",
-   "hash": "960820707c2d2bce",
-   "id": "d4bba93e051f",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.docswell.com%2Fs%2Fohhara_shiojiri%2F58N66Y-2026-09-02-164916",
-   "key": "https://www.docswell.com/s/ohhara_shiojiri/58n66y-2026-09-02-164916",
+   "hash": "65de1145af495ef0",
+   "id": "84fc40735555",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.haaretz.com%2Fisrael-news%2Fisrael-security%2F2026-09-08%2Fty-article-magazine%2F.highlight%2Fnetanyahu-got-an-explicit-warning-before-oct-7-he-didnt-brief-security-chiefs%2F000001a0-7a3b-d7d5-a9fc-7eff3d0f0000",
+   "key": "https://www.haaretz.com/israel-news/israel-security/2026-09-08/ty-article-magazine/.highlight/netanyahu-got-an-explicit-warning-before-oct-7-he-didnt-brief-security-chiefs/000001a0-7a3b-d7d5-a9fc-7eff3d0f0000",
    "lastModified": "",
-   "publishedAt": 1788817313000,
-   "summary": "会社概要 キーメッセージ 守り抜く、セキュリティのすべての力で。 会社名 SCSKセキュリティ株式会社 ［SCSK Security Corporation］ 代表 代表取締役社長 市場 健二 役員 取締役 執行役員 取締役 取締役 監査役 執行役員 執行役員 黒木 俊平 佐藤 利宏 谷口 愼一 佐々木 和志 福田 洋介 中田 勝也 （2026年4月1日付） h...",
-   "title": "「従来型SOCの限界 -machinespeedの攻撃にどう立ち向かうか-」 | ドクセル",
-   "updatedAt": 1788838361260,
-   "url": "https://www.docswell.com/s/ohhara_shiojiri/58N66Y-2026-09-02-164916"
+   "publishedAt": 1788866875000,
+   "summary": "Revealed: Netanyahu Received an Explicit Warning Days Before Oct. 7. He Didn't Brief Israel's Security Chiefs",
+   "title": "Netanyahu got an explicit warning before Oct. 7. He didn't brief security chiefs",
+   "updatedAt": 1788924739407,
+   "url": "https://www.haaretz.com/israel-news/israel-security/2026-09-08/ty-article-magazine/.highlight/netanyahu-got-an-explicit-warning-before-oct-7-he-didnt-brief-security-chiefs/000001a0-7a3b-d7d5-a9fc-7eff3d0f0000"
   },
   "https://www.itmedia.co.jp/enterprise/articles/2609/07/news005.html": {
    "bodyBlocks": [
@@ -4683,194 +4045,6 @@
    "updatedAt": 1788865227258,
    "url": "https://www.itmedia.co.jp/enterprise/articles/2609/07/news005.html"
   },
-  "https://www.itmedia.co.jp/mobile/articles/2609/07/news092.html": {
-   "bodyBlocks": [
-    {
-     "kind": "H",
-     "text": "「Pixel 6a」で製品起因が疑われる発火事故が発生 消費者庁が「消費生活用製品の重大製品事故」として公表"
-    },
-    {
-     "kind": "P",
-     "text": "消費者庁は、おおむね1カ月に1回のペースで「消費生活用製品の重大製品事故」の報告を行っている。その2026年9月4日公表分において、 Google製スマートフォン「Pixel 6a」が製品に起因すると思われる発火事故 を起こしていたことが判明した。"
-    },
-    {
-     "kind": "LI",
-     "text": "→ 消費者安全にかかる公表資料 （消費者庁）"
-    },
-    {
-     "kind": "H",
-     "text": "事象の概要"
-    },
-    {
-     "kind": "P",
-     "text": "消費者庁によると、この事案は2025年6月29日に大阪府内で発生し、同年7月10日に同庁宛に報告が入ったという。"
-    },
-    {
-     "kind": "P",
-     "text": "Pixel 6aを他社製USBケーブルとACアダプターを使って充電していたところ、異音と共にPixel 6aとその周辺が焼損する火災が発生したとのことで、1人が軽いやけどを負ったとのことだ。"
-    },
-    {
-     "kind": "P",
-     "text": "調査の結果、 Pixel 6aのリチウムイオン電池セルが異常発熱した結果、発火に至った ことが判明したという。ただし、セルの焼損が激しかったため、 異常発熱の原因を特定するまでには至らなかった そうだ。"
-    },
-    {
-     "kind": "LI",
-     "text": "モバイルバッテリー発火事故はなぜ起きる？ 実は無意識にやっている「NG行動」が原因 製品評価技術基盤機構は夏に急増するモバイルバッテリーの発火事故について注意を呼びかけた。調査によるとスマートフォンをポケットに入れたまま充電するなど無意識に危険な行動をとる人が多い。事故を防ぐためには確実な販売店で購入し異常を感じたらすぐに使用を中止することが重要だ。"
-    },
-    {
-     "kind": "LI",
-     "text": "モバイルバッテリーが発火したら？ 東京消防庁が動画で解説「消火後も400度を超える高温状態」「水没して冷却」 万が一モバイルバッテリーが発火したら、どうすればいいのか。東京消防庁が実際にモバイルバッテリーを発火させた実験を行い、「消火方法と火災を防ぐポイント」を動画で案内している。リチウムイオンバッテリーが火災につながる「危険なサイン」も挙げている。"
-    },
-    {
-     "kind": "LI",
-     "text": "モバイルバッテリーの発火不安や劣化の「見えないリスク」を解消 オウルテックが提案する新世代バッテリーの強み オウルテックは7月28日に新製品発表会を開催し安全性を高めたモバイルバッテリーの新製品を発表した。燃えにくい準固体電池の採用やTFT液晶パネルによる状態表示など独自の技術を詰め込んでいる。8月中旬からドン・キホーテや全国の家電量販店などで順次発売する見通しだ。"
-    },
-    {
-     "kind": "LI",
-     "text": "「真夏のモバイルバッテリー」は発火に要注意！ 火災事故を防ぐ3つのポイント 連日猛暑が続く中、スマートフォンの充電に欠かせないモバイルバッテリーの取り扱いには、例年以上に細心の注意を払う必要がある。安全にモバイルバッテリーを利用するためにはどうすべきか。「リチウムイオン電池搭載製品の火災事故を防ぐ3つのポイント」を紹介する。"
-    },
-    {
-     "kind": "LI",
-     "text": "発火リスクを低減する半固体電池を採用した「バッファロー モバイルバッテリー BMPBSA10000BKX」がセールで12％オフの5290円に Amazon.co.jpで「バッファロー モバイルバッテリー BMPBSA10000BKX」が12％オフの5290円で販売中。発火リスクを抑えた半固体電解質を採用し、Type-Cケーブル一体型で持ち運びにも便利だ。"
-    },
-    {
-     "kind": "H",
-     "text": "関連リンク"
-    },
-    {
-     "kind": "P",
-     "text": "Copyright © ITmedia, Inc. All Rights Reserved."
-    }
-   ],
-   "checkedAt": 1788838361260,
-   "etag": "",
-   "hash": "41878f9525add24e",
-   "id": "62003fbe7d8b",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.itmedia.co.jp%2Fmobile%2Farticles%2F2609%2F07%2Fnews092.html",
-   "key": "https://www.itmedia.co.jp/mobile/articles/2609/07/news092.html",
-   "lastModified": "",
-   "publishedAt": 1788781643000,
-   "summary": "消費者庁は、おおむね1カ月に1回のペースで「消費生活用製品の重大製品事故」の報告を行っている。その2026年9月4日公表分において、Google製スマートフォン「Pixel 6a」が製品に起因すると思われる発火事故を起こしていたことが判明した。 →消費者安全にかかる公表資料（消費者庁） 事象の概要 消費者庁によると、この...",
-   "title": "「Pixel 6a」で製品起因が疑われる発火事故が発生 消費者庁が「消費生活用製品の重大製品事故」として公表",
-   "updatedAt": 1788838361260,
-   "url": "https://www.itmedia.co.jp/mobile/articles/2609/07/news092.html"
-  },
-  "https://www.itmedia.co.jp/news/article/2609/07/2000001234": {
-   "bodyBlocks": [
-    {
-     "kind": "H",
-     "text": "首の痛み、スマホ使用時の前かがみの姿勢に気を付けて 生活習慣も要因に"
-    },
-    {
-     "kind": "P",
-     "text": "首に痛みや違和感を訴える人は多い。スマートフォンの使い過ぎも要因の一つとされ、今やシニアも長時間使うことはよくある。少しの違和感だと我慢してしまいがちだが、日頃の姿勢や生活習慣に気を付けることで改善されることもある。首や肩の不調に詳しい医師に聞いた。"
-    },
-    {
-     "kind": "H",
-     "text": "スマホの使い過ぎ"
-    },
-    {
-     "kind": "P",
-     "text": "「首が痛い」「首の後ろに違和感がある」。このように訴える患者が「松戸常盤平いいだ整形外科 運動器リハビリテーションクリニック」（千葉県松戸市）を訪れることがある。"
-    },
-    {
-     "kind": "P",
-     "text": "飯田毅博院長は「首の不調はさまざまな要因で起こる。前かがみなどの同じ姿勢を長時間続けていることも要因になる」と説明する。頭の重さが首の後ろ側にかかり、筋肉の疲労がたまっていく。首の痛みやこりが生じ、頭痛につながることもある。"
-    },
-    {
-     "kind": "P",
-     "text": "前かがみになる姿勢の代表格がスマホを利用するときだ。スマホを手に頭を前に倒し、うつむきがちになる。2025年度の総務省の調査では、スマートフォン・携帯電話による平日のインターネット利用時間は10、20代が3時間以上と長いが、50代でも1時間半以上だった。"
-    },
-    {
-     "kind": "P",
-     "text": "スマホを利用するときに前かがみにならないためには、座っている場合は肘を支えるなどして、目の前にスマホを持ってくる。長時間の利用を避けることも大切だ。"
-    },
-    {
-     "kind": "P",
-     "text": "仕事でノートPCを使うときの姿勢にも気を付けたい。机にノートPCを置いてキーボードを打っていると、どうしても前かがみになる。「画面が目の高さになるようにPCを台に置き、外付けのキーボードを手元に置いて、身体に負担の少ない正しい姿勢で使用するのがいい」（飯田院長）そうだ。"
-    },
-    {
-     "kind": "P",
-     "text": "いずれも時折、軽く肩を回す、席を立つなどして、同じ姿勢を続けないようにする。"
-    },
-    {
-     "kind": "H",
-     "text": "病気が潜んでいることも"
-    },
-    {
-     "kind": "P",
-     "text": "また、首をケアするためには「普段から少しずつでもストレッチを続けることが重要だ」という。"
-    },
-    {
-     "kind": "P",
-     "text": "朝起きたときに首に違和感がある人は、枕の高さが関係していることもある。首に負担がかからない高さに調整する。"
-    },
-    {
-     "kind": "P",
-     "text": "加齢によっても首の状態が変わってくる。首の筋力が弱くなるなどして頭を支えづらくなることが多い。頸椎の骨に棘が出たり、変形が進んだりすることもあるという。"
-    },
-    {
-     "kind": "P",
-     "text": "首の痛みには病気が潜んでいることもある。首の痛みに加えて手のしびれや力が入らない、ふらつくなどの症状があれば頸椎椎間板ヘルニアや頸髄症、強い痛みや発熱などがあれば頸椎の椎体椎間板炎など深刻な疾患の可能性もある。"
-    },
-    {
-     "kind": "P",
-     "text": "飯田院長は「首の痛みが気になるときは自己判断せず、医療機関を受診してほしい」と訴える。"
-    },
-    {
-     "kind": "H",
-     "text": "首の痛みをケアするストレッチ"
-    },
-    {
-     "kind": "P",
-     "text": "首の痛みをケアするストレッチを、運動療法にも詳しい飯田院長に教えてもらった。"
-    },
-    {
-     "kind": "P",
-     "text": "まず、小さくうなずく（1）。ストレッチは首の前側の深層筋に働く。あおむけになって後頭部を床につけ、うなずくようにあごを数ミリのどに近づける。"
-    },
-    {
-     "kind": "P",
-     "text": "手と頭で押し合う（2）と、首の後ろ側の筋肉に効く。背筋を伸ばして座り、両手を組んで後頭部に当てる。首の位置は変えないように頭で手を軽く押し、手は押し返す。"
-    },
-    {
-     "kind": "P",
-     "text": "胸椎を伸ばすストレッチ（3）もいい。胸椎とは頸椎につながる背骨のことだ。滑らないように、キャスターが付いていない椅子に座り、肩甲骨の下に背もたれの上端が当たるようにする。両手を後頭部に添え、胸を斜め上へ開く。首は大きくそらさない。"
-    },
-    {
-     "kind": "P",
-     "text": "肩甲骨を回す（4）は、肩から指先を離さずに肘で円を描くように動かす。"
-    },
-    {
-     "kind": "P",
-     "text": "飯田院長は「骨粗鬆症の人や頸椎の変形が強い人などは無理をしないよう、注意が必要だ。痛みが長引く場合などは、医療機関できちんと診断してもらった上で、医師や理学療法士に運動療法を指導してもらうのがよい」と話している。（小川記代子）"
-    },
-    {
-     "kind": "P",
-     "text": "copyright (c) Sankei Digital All rights reserved."
-    },
-    {
-     "kind": "P",
-     "text": "ITmedia NEWSに関連する情報をお探しであれば、こちらのメディアもお役に立てるかもしれません。"
-    },
-    {
-     "kind": "P",
-     "text": "国内外の業界動向、AIやクラウドなどの最新技術、キャリア情報など今知りたい情報をまとめてお届けします。"
-    }
-   ],
-   "checkedAt": 1788838361260,
-   "etag": "",
-   "hash": "516f6144d0a3fb4a",
-   "id": "535e64eab92f",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.itmedia.co.jp%2Fnews%2Farticle%2F2609%2F07%2F2000001234%2F",
-   "key": "https://www.itmedia.co.jp/news/article/2609/07/2000001234",
-   "lastModified": "Tue, 08 Sep 2026 03:20:41 GMT",
-   "publishedAt": 1788812291000,
-   "summary": "首に痛みや違和感を訴える人は多い。スマートフォンの使い過ぎも要因の一つとされ、今やシニアも長時間使うことはよくある。少しの違和感だと我慢してしまいがちだが、日頃の姿勢や生活習慣に気を付けることで改善されることもある。首や肩の不調に詳しい医師に聞いた。 スマホの使い過ぎ 「首が痛い」「首の後ろに違和...",
-   "title": "首の痛み、スマホ使用時の前かがみの姿勢に気を付けて 生活習慣も要因に",
-   "updatedAt": 1788838361260,
-   "url": "https://www.itmedia.co.jp/news/article/2609/07/2000001234/"
-  },
   "https://www.itmedia.co.jp/news/article/2609/08/2000000887": {
    "bodyBlocks": [
     {
@@ -4999,6 +4173,74 @@
    "updatedAt": 1788904600552,
    "url": "https://www.itmedia.co.jp/news/article/2609/08/2000001256/"
   },
+  "https://www.itmedia.co.jp/news/article/2609/08/2000001263": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "「空飛ぶジンバルカメラ」日本上陸 手持ち撮影＋ドローンに装着して空中撮影もできる“合体メカ”だった （1/3 ページ）"
+    },
+    {
+     "kind": "P",
+     "text": "超ユニークで、なおかつ実用度がけっこう高そうな合体メカ、「空飛ぶジンバルカメラ」がいよいよ日本上陸である。"
+    },
+    {
+     "kind": "P",
+     "text": "2024年に「空飛ぶカメラ」ことカメラ搭載のミニドローン 「HOVERAir X1」 を発売した中国ZERO ZERO ROBOTICSが、満を持して投入する「HOVERAir VERSA」である。"
+    },
+    {
+     "kind": "P",
+     "text": "今回、発表に合わせて来日した創業者兼CEOのMQ Wang氏は、HOVERAir VERSAのことを「ドローン」ではなく「空飛ぶカメラ（Flying Camera）」だと強調していた。自在に飛ばすこともより、通常のカメラでは不可能な自由なアングルで撮ることを重視してラインアップを用意したからだ。"
+    },
+    {
+     "kind": "P",
+     "text": "思えば、24年のHOVERAir X1 smartは正にそういう製品だった。日本では100g以上の無人飛行機（ドローンもそうだ）は国交省に機体登録をしなければいけないのだが、それが不要になるよう99gに抑え、誰でも空中からの撮影を気軽に楽しめる製品にした。"
+    },
+    {
+     "kind": "P",
+     "text": "そして、今回登場したのが、ローターを4つ持つ“フライトキット”をガシッと装着することで、空飛ぶカメラに変身するジンバルカメラ、HOVERAir VERSAなのだ。"
+    },
+    {
+     "kind": "P",
+     "text": "見方によっては、カメラドローンから飛行ユニットを分離可能にして液晶モニターを装着した製品（もともとカメラドローンのカメラはジンバル付き）にも見えるし、ジンバルカメラのオプションに空を飛ぶためのキットを用意した製品にもみえる。"
+    },
+    {
+     "kind": "P",
+     "text": "MQ Wang氏は「ドローンとポケットカメラ（ジンバルカメラをポケットカメラと呼んでいた）の合体は以前からずっとやりたかった」という。確かにカメラドローンとジンバルカメラの技術は非常に相性がよく、両者を分離・合体できても無理は感じない。"
+    },
+    {
+     "kind": "P",
+     "text": "Copyright © ITmedia, Inc. All Rights Reserved."
+    },
+    {
+     "kind": "H",
+     "text": "荻窪圭のデジカメレビュープラス"
+    },
+    {
+     "kind": "H",
+     "text": "この記事の著者"
+    },
+    {
+     "kind": "P",
+     "text": "ITmedia NEWSに関連する情報をお探しであれば、こちらのメディアもお役に立てるかもしれません。"
+    },
+    {
+     "kind": "P",
+     "text": "国内外の業界動向、AIやクラウドなどの最新技術、キャリア情報など今知りたい情報をまとめてお届けします。"
+    }
+   ],
+   "checkedAt": 1788924739407,
+   "etag": "",
+   "hash": "984fe247eab5b66b",
+   "id": "03b53735106c",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.itmedia.co.jp%2Fnews%2Farticle%2F2609%2F08%2F2000001263%2F",
+   "key": "https://www.itmedia.co.jp/news/article/2609/08/2000001263",
+   "lastModified": "Wed, 09 Sep 2026 03:29:32 GMT",
+   "publishedAt": 1788866542000,
+   "summary": "2024年に「空飛ぶカメラ」ことカメラ搭載のミニドローン「HOVERAir X1」を発売した中国ZERO ZERO ROBOTICSが、満を持して投入する「HOVERAir VERSA」である。 今回、発表に合わせて来日した創業者兼CEOのMQ Wang氏は、HOVERAir VERSAのことを「ドローン」ではなく「空飛ぶカメラ（Flying Camera）」だと強調していた。自...",
+   "title": "「空飛ぶジンバルカメラ」日本上陸 手持ち撮影＋ドローンに装着して空中撮影もできる“合体メカ”だった",
+   "updatedAt": 1788924739407,
+   "url": "https://www.itmedia.co.jp/news/article/2609/08/2000001263/"
+  },
   "https://www.itmedia.co.jp/news/article/2609/08/2000001269": {
    "bodyBlocks": [
     {
@@ -5121,6 +4363,698 @@
    "title": "大雨で「首都圏外郭放水路」稼働 濁流が“地下神殿”を満たすまでの動画公開 国交省",
    "updatedAt": 1788904600552,
    "url": "https://www.itmedia.co.jp/news/article/2609/08/2000001271/"
+  },
+  "https://www.itmedia.co.jp/news/article/2609/09/2000001296": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "Google DeepMind、90億通りの全塩基変異の影響を予測した「AlphaGenome Atlas」 学術向けに無償提供"
+    },
+    {
+     "kind": "P",
+     "text": "米Google傘下のGoogle DeepMindは9月8日（現地時間）、ヒトゲノムで起こり得る1文字単位の変異（一塩基変異）約90億通り全てについて、分子レベルでどんな影響が出るかを予測したデータベース「AlphaGenome Atlas」を公開した。学術研究向けに、Webサイトから無料で利用できる。"
+    },
+    {
+     "kind": "P",
+     "text": "昨年6月に公開した ゲノム解析AI「AlphaGenome」 の予測をあらかじめ全て計算し、検索できるデータベースにまとめた。データ量は1Pバイト（100万Gバイト）で、タンパク質の立体構造予測を集めた「AlphaFold Database」の30倍以上に当たるという。ヒトゲノムは約30億塩基対から成るが、タンパク質を作る領域は全体の2％にすぎず、遺伝子の働きを調節する残り98％の非コード領域は分かっていない部分が多い。90億通りの変異を実験室で1つずつ検証するのは事実上不可能なため、事前計算した予測を引くだけで済む形にした。"
+    },
+    {
+     "kind": "P",
+     "text": "あわせて、変異の影響度を1つの数値で表す「AVI（AlphaGenome Variant Impact）スコア」も導入した。AlphaGenomeの予測と、タンパク質を変化させる変異を評価する既存モデル「AlphaMissense」の予測を統合したもので、コード領域と非コード領域の両方にまたがって、影響が大きそうな変異を素早く順位付けできる。スコアの内訳として、RNAスプライシングや遺伝子発現など、障害が予測される分子プロセスの詳細も提示する。ゲノムの“単語”に当たる2500種類以上の頻出配列（モチーフ）とその位置情報も収録した。"
+    },
+    {
+     "kind": "P",
+     "text": "外部の研究者による先行利用の成果も公表した。米Broad Instituteは、原因が特定できていない希少疾患の研究で、候補となる大量の変異をAVIスコアで絞り込み、てんかん性脳症と関連が強いDNM1遺伝子の変異を発見したという。英エクセター大学は、英UKバイオバンクの5万4000人超の全ゲノムデータにAlphaGenome Atlasを適用し、統計的なノイズに埋もれていた非コード領域における変異の関連を22％多く検出。影響が大きい上位1％の変異に絞ることで、BMI（体格指数）に関連する19のゲノム領域を特定した。"
+    },
+    {
+     "kind": "P",
+     "text": "提供形態は、コーディング不要のWebポータル、AlphaGenome API、エージェント型開発環境「Google Antigravity」のスキルの3種類。非商用利用は同日から無料で、商用利用はGoogle Cloud経由で近く提供するとしている。"
+    },
+    {
+     "kind": "P",
+     "text": "Copyright © ITmedia, Inc. All Rights Reserved."
+    },
+    {
+     "kind": "P",
+     "text": "ITmedia NEWSに関連する情報をお探しであれば、こちらのメディアもお役に立てるかもしれません。"
+    },
+    {
+     "kind": "P",
+     "text": "国内外の業界動向、AIやクラウドなどの最新技術、キャリア情報など今知りたい情報をまとめてお届けします。"
+    }
+   ],
+   "checkedAt": 1788924739407,
+   "etag": "",
+   "hash": "e40ea489a843de60",
+   "id": "965000bf7d97",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.itmedia.co.jp%2Fnews%2Farticle%2F2609%2F09%2F2000001296%2F",
+   "key": "https://www.itmedia.co.jp/news/article/2609/09/2000001296",
+   "lastModified": "Wed, 09 Sep 2026 03:29:32 GMT",
+   "publishedAt": 1788909680000,
+   "summary": "米Google傘下のGoogle DeepMindは9月8日（現地時間）、ヒトゲノムで起こり得る1文字単位の変異（一塩基変異）約90億通り全てについて、分子レベルでどんな影響が出るかを予測したデータベース「AlphaGenome Atlas」を公開した。学術研究向けに、Webサイトから無料で利用できる。 昨年6月に公開したゲノム解析AI「AlphaGe...",
+   "title": "Google DeepMind、90億通りの全塩基変異の影響を予測した「AlphaGenome Atlas」 学術向けに無償提供",
+   "updatedAt": 1788924739407,
+   "url": "https://www.itmedia.co.jp/news/article/2609/09/2000001296/"
+  },
+  "https://www.itmedia.co.jp/news/article/2609/09/2000001297": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "“地下神殿”への濁流動画をダウンロード公開 Xでの反響受け……「首都圏外郭放水路」に称賛"
+    },
+    {
+     "kind": "P",
+     "text": "国土交通省江戸川河川事務所は9月8日、7日の大雨に伴い「首都圏外郭放水路」（埼玉県春日部市）に大量の雨水が流れ込む様子を撮影した動画を、ダウンロードが可能な形式で公式Xに再投稿した。7日に投稿した動画に多くの反響があったため。関東地方整備局の災害情報ページに掲載した動画（ URL ）もダウンロード可能だ。"
+    },
+    {
+     "kind": "P",
+     "text": "首都圏外郭放水路は、地下約50mを通る世界最大級の地下放水路。周辺の中小河川が増水した際に立坑から水を取り込み、、地下トンネルを通じて調圧水槽へ送り、ポンプで江戸川に排水することで浸水被害を軽減する。"
+    },
+    {
+     "kind": "P",
+     "text": "元の動画は7日に投稿したもの。施設内の監視カメラの映像をつないだ46秒の動画で、春日部市内を流れる倉松川から取り込んだ濁流が第3立坑に流れ落ちる様子や、“地下神殿”の愛称で知られる調圧水槽が水で満たされていく様子を収めている。"
+    },
+    {
+     "kind": "P",
+     "text": "元の投稿の表示数は9日朝までに400万件を超え、「あの神殿が機能している」「維持・管理している人に頭が下がる」「かっこいい」など称賛のコメントが集まっていた。"
+    },
+    {
+     "kind": "P",
+     "text": "Copyright © ITmedia, Inc. All Rights Reserved."
+    },
+    {
+     "kind": "H",
+     "text": "この記事の著者"
+    },
+    {
+     "kind": "P",
+     "text": "ITmedia NEWSに関連する情報をお探しであれば、こちらのメディアもお役に立てるかもしれません。"
+    }
+   ],
+   "checkedAt": 1788924739407,
+   "etag": "",
+   "hash": "9990d72e6afe0223",
+   "id": "9eea836bf4db",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.itmedia.co.jp%2Fnews%2Farticle%2F2609%2F09%2F2000001297%2F",
+   "key": "https://www.itmedia.co.jp/news/article/2609/09/2000001297",
+   "lastModified": "Wed, 09 Sep 2026 03:29:32 GMT",
+   "publishedAt": 1788910717000,
+   "summary": "首都圏外郭放水路は、地下約50mを通る世界最大級の地下放水路。周辺の中小河川が増水した際に立坑から水を取り込み、、地下トンネルを通じて調圧水槽へ送り、ポンプで江戸川に排水することで浸水被害を軽減する。 元の動画は7日に投稿したもの。施設内の監視カメラの映像をつないだ46秒の動画で、春日部市内を流れる倉松...",
+   "title": "“地下神殿”への濁流動画をダウンロード公開 Xでの反響受け……「首都圏外郭放水路」に称賛",
+   "updatedAt": 1788924739407,
+   "url": "https://www.itmedia.co.jp/news/article/2609/09/2000001297/"
+  },
+  "https://www.itmedia.co.jp/news/article/2609/09/2000001300": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "OpenAI、ミレニアム懸賞問題「ナビエ・ストークス方程式」をAIが解決したと発表 数学者は経緯に反発"
+    },
+    {
+     "kind": "P",
+     "text": "米OpenAIは9月8日（現地時間）、社内の未公開モデルがミレニアム懸賞問題の1つ「ナビエ・ストークス方程式の存在と滑らかさ」を解決する証明を生成したと発表した。3次元の非圧縮性流体が、滑らかな状態から出発しても有限時間で速度が無限大に発散する「特異点」を生じ得ることを示したもので、同社は証明の解説と、証明支援系「Lean」による形式化の両方を公開した。クレイ数学研究所の公式な問題設定のうち、破綻を示す主張「C」と「D」を確立したものだと説明している。"
+    },
+    {
+     "kind": "P",
+     "text": "ただしこの発表の直前に、関連する成果を公表した米ニューヨーク大学（NYU）の数学者トリスタン・バックマスター氏が、OpenAIの取り組みの経緯を問題視する 声明 を公開した。OpenAIで数学研究を率いるセバスチャン・ブベック氏はこれを「事実に反し、扇動的だ」と X投稿で反論 しており、成果の妥当性と発表に至る経緯を巡って論争が起きている。"
+    },
+    {
+     "kind": "H",
+     "text": "エージェント1万個を88時間"
+    },
+    {
+     "kind": "P",
+     "text": "OpenAIによると、証明を生成したのは“GPT-6 Astraより大幅に高性能な”社内モデルで、学習は現在も継続中という。9月1日に「2つのミレニアム懸賞問題が解決された」といううわさを聞いたことをきっかけに取り組みを始め、約1万個のエージェントを並行して動かして約88時間後の5日に結論に到達した。Leanでの形式化と検証にはさらに17時間かかったとしている。マーク・チェンCRO（最高研究責任者）は計算コストが数百万ドル規模だったと説明した。同社はミレニアム懸賞の100万ドルの賞金を請求するつもりはないとしている。"
+    },
+    {
+     "kind": "H",
+     "text": "「うちの研究が伝わった後に始めたはず」"
+    },
+    {
+     "kind": "P",
+     "text": "バックマスター氏は同日、米Anthropicの数学者レベント・アルポーゲ氏との共同研究として、非圧縮多孔質媒体方程式、ブシネスク方程式、3次元非圧縮オイラー方程式について、滑らかな外力の下での有限時間爆発を示す3本の論文とLean形式化を公開した。両氏はOpenAIの「Codex」とAnthropicの「Claude」を併用しており、アルポーゲ氏はAnthropic所属だが会社の業務ではなく個人的な共同研究だとしている。"
+    },
+    {
+     "kind": "P",
+     "text": "問題は論文に添えられた声明だ。同氏は9月6日にブベック氏らと電話で話し、OpenAIの社内モデルが強制項付きナビエ・ストークスの有限時間爆発について約100ページの証明を出したと伝えられたと説明。当初は「人間の入力はほとんどない」と説明されたが、通話中に、実際にはチームが取り組み、プロンプト自体もCodexに書かせ、膨大な計算資源が投じられたことが判明したとしている。最初のプロンプトが送られたのは自分たちの研究の情報がOpenAIに伝わった後の数日以内だと、OpenAI側が最終的に認めたとも記している。"
+    },
+    {
+     "kind": "P",
+     "text": "同氏が疑念を抱いた理由は、両者が選んだ手法が同じだった点にある。滑らかな外力でクレイの問題に迫るルートは他にほとんど誰も取り組んでおらず、問題文をモデルに与えて数日で行き着く方向ではないと主張する。さらに、草稿をすべてCodexのセッションに入れていたため学習やアクセスの有無を尋ねたが、「ユーザーデータを参照していない」との回答は得たものの、学習についての回答は得られなかったという。またOpenAI側から、アルポーゲ氏をAnthropic所属を理由に著者から外すことを2度求められ、公表すると告げた際には「なぜ自分のキャリアを台無しにするのか」との反応があったとしている。"
+    },
+    {
+     "kind": "H",
+     "text": "ブベック氏「著者から外せとは言っていない」"
+    },
+    {
+     "kind": "P",
+     "text": "ブベック氏はX投稿で、アルポーゲ氏を同氏自身の研究の著者から外すよう求めたことはないと否定した。通話の途中で両氏が解いたのがオイラー方程式だと初めて知り、そこからバックマスター氏がOpenAIの証明の書き直しを筆頭著者として担当する案を検討する流れになったため、その文脈で「アルポーゲ氏がAnthropic社員でなければもっとシンプルだった」と述べたという説明だ。競合他社の社員がOpenAIの成果の著者になるのは不適切だと考えたとしている。問題の発言については、なぜそこまでキャリアを懸けるのか分からないという趣旨で、極めてまずい言葉選びだったと謝罪し、その場で撤回したと述べた。"
+    },
+    {
+     "kind": "P",
+     "text": "人間の関与についてブベック氏は、複数人が関わったのは事実だが、チームに流体力学の研究レベルの専門知識を持つ者はおらず、数学的な中身に寄与できなかったと説明。両氏の研究は公開まで一切見ておらず、双方の証明は大きく異なり、オイラーについては強制項の有無という点で証明した命題自体が違うと指摘した。OpenAIも公式Xで、 特定のユーザーデータにアクセスした事実はないとした 上で、可能性は低いものの製品利用から得られた非識別化データがモデルの改善に寄与した可能性は排除できないとしている。この点についてバックマスター氏は、自分たちが結果を得た後の学習データを使ったと認めているに等しいと改めて疑問を呈した。"
+    },
+    {
+     "kind": "H",
+     "text": "検証はこれから"
+    },
+    {
+     "kind": "P",
+     "text": "クレイ数学研究所の公式な問題設定は、外力を伴わない主張AとBに加え、滑らかな外力を許すCとDのいずれかの証明も解決として認めているため、OpenAIの主張が形式上は要件を満たす可能性はある。ただし、公開された証明とLean形式化が主張どおりの内容を確立しているか、形式化された命題がクレイの設定を正しく写し取っているかは、数学コミュニティによる独立した検証はこれから行われる見通しだ。これまでにミレニアム懸賞問題が解決された例はポアンカレ予想の1件のみで、今回の結果が検証に耐えれば、AIが到達した証明としては群を抜いて重要なものになる。"
+    },
+    {
+     "kind": "P",
+     "text": "Copyright © ITmedia, Inc. All Rights Reserved."
+    },
+    {
+     "kind": "P",
+     "text": "ITmedia NEWSに関連する情報をお探しであれば、こちらのメディアもお役に立てるかもしれません。"
+    },
+    {
+     "kind": "P",
+     "text": "国内外の業界動向、AIやクラウドなどの最新技術、キャリア情報など今知りたい情報をまとめてお届けします。"
+    }
+   ],
+   "checkedAt": 1788924739407,
+   "etag": "",
+   "hash": "dd9d8128a85d3a29",
+   "id": "4d45bc7084d0",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.itmedia.co.jp%2Fnews%2Farticle%2F2609%2F09%2F2000001300%2F",
+   "key": "https://www.itmedia.co.jp/news/article/2609/09/2000001300",
+   "lastModified": "Wed, 09 Sep 2026 03:29:32 GMT",
+   "publishedAt": 1788916750000,
+   "summary": "米OpenAIは9月8日（現地時間）、社内の未公開モデルがミレニアム懸賞問題の1つ「ナビエ・ストークス方程式の存在と滑らかさ」を解決する証明を生成したと発表した。3次元の非圧縮性流体が、滑らかな状態から出発しても有限時間で速度が無限大に発散する「特異点」を生じ得ることを示したもので、同社は証明の解説と、証...",
+   "title": "OpenAI、ミレニアム懸賞問題「ナビエ・ストークス方程式」をAIが解決したと発表 数学者は経緯に反発",
+   "updatedAt": 1788924739407,
+   "url": "https://www.itmedia.co.jp/news/article/2609/09/2000001300/"
+  },
+  "https://www.landerblue.co.jp/65402": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "日本はライドシェアはもう諦めて自動運転に行くべきだが、なんでこんなに進まないのかめちゃ掘りしてみた"
+    },
+    {
+     "kind": "P",
+     "text": "わたしが主催しています 「21世紀を生き残るための永江 虎の穴塾」 では塾生を募集しています。希望者は毎月30分。わたしと1:1でzoomでブレストができます。ビジネスモデルの相談はもちろん、転職や自己PR、招来の方向性などの雑談でもOK。月１のイベントもなかなか好評です。"
+    },
+    {
+     "kind": "LI",
+     "text": "2026年9月3日、テキサス州オースティンで ハンドルもペダルもバックミラーもない2人乗りの車 「サイバーキャブ」が客を乗せて走り出した。そして 同じ日、アメリカ運輸省の道路交通安全局（NHTSA）が調査を開始した 。テスラは特例免除を取らず、 「うちの車は基準に適合している」と自己申告して走らせている 。"
+    },
+    {
+     "kind": "LI",
+     "text": "まず、よくある誤解を潰しておきます。日本の自動運転に、タクシー業界は反対していません。 タクシー労組の産別は「導入を阻止する闘争には勝算が薄い」と方針転換し、全国ハイヤー・タクシー連合会の会長は「有効な手段となるものと期待される」と公式サイトに書いている。"
+    },
+    {
+     "kind": "LI",
+     "text": "彼らが潰したのは ライドシェアのほう です。そしてそれは もう終わっています 。残った「日本版」は国が割り当てた14,120台の枠に対し 実際に動いたのは2,413台（稼働率17.1％） 。京都は6％。新法は2024年6月に「期限を設けない」と言われ、2026年の答申から項目ごと消えました。"
+    },
+    {
+     "kind": "LI",
+     "text": "だから、ライドシェアを待つのはもうやめて、飛び越えて自動運転に行くしかない。 ところが、そっちも進んでいない。日本のレベル4は3年で 10地域 、2026年1月の最新の目玉事例が 走行距離700m・時速40km・「運転席には乗務員が乗車します」 。"
+    },
+    {
+     "kind": "LI",
+     "text": "理由を4つの仮説で潰しました。 技術力ではない （ホンダは世界初のレベル3型式指定を取っている）。 金がないわけでもない （トヨタの年間研究開発費1兆5,228億円はWaymoの累計調達額に匹敵）。 EVの遅れも原因ではない （EV世界一のノルウェーは0都市、EVシェア10％の米国が14都市）。"
+    },
+    {
+     "kind": "LI",
+     "text": "効いているのは ①レベル4の許可の単位が「経路（線）×都道府県」 ②走行データが3桁違う ③無人サービスを運営する主体が誰もいない の3つ。ちなみに 「日本は規制でテストすらできない」も誤り で、レベル2の公道実証は道路使用許可すら要りません。それから先に進めないだけ。"
+    },
+    {
+     "kind": "LI",
+     "text": "そして日本には、自動運転が国内で何km走ったかの統計が存在しません。 許可が何件出ているかの統計もない。 2030年度に1万台という目標だけはあります。"
+    },
+    {
+     "kind": "P",
+     "text": "この記事を書こうと思ったきっかけはこれです。 Business Insider Japanの記事 （2026年9月7日、Lloyd Lee）。 「テスラ、ハンドルのないロボタクシー車両『サイバーキャブ』をオースティンで運行開始」 。"
+    },
+    {
+     "kind": "P",
+     "text": "で、これを読んで「日本は何やってんだ」と思ったので、 日本の自動運転が進まない理由を、規制・技術力・資金・EVの4方向から全部潰しました。 途中でわたしの見立てが3か所ひっくり返っています。それも含めて全部書きます。"
+    },
+    {
+     "kind": "P",
+     "text": "まず事実関係を整理します。BIの記事だけだと片手落ちになる部分があるので、アメリカ政府の一次資料まで当たりました。"
+    },
+    {
+     "kind": "P",
+     "text": "サイバーキャブの中身はこうです。 2ドア、2人乗り、ハンドルなし、ペダルなし、バックミラーなし。 ドアはバタフライドア。マスクは価格を「3万ドル未満」と言っています。"
+    },
+    {
+     "kind": "P",
+     "text": "テキサス州の車両登録データによると、テスラは州内に自動運転車420台を登録していて、 そのうちサイバーキャブは45台 。同じ州でWaymoは988台登録しています（ロイターが州の登録データを参照したもの）。"
+    },
+    {
+     "kind": "P",
+     "text": "NHTSAの調査開始文書（AQ26002）にはこう書いてあります。テスラは2026年9月3日にオースティンで商用展開を開始し、 「適用されるすべてのFMVSS（連邦自動車安全基準）に適合している」とNHTSAに通知した 。車両にはブレーキペダル、アクセルペダル、ハンドル、ミラーといった従来の手動操作装置がない。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "the extent to which Tesla’s certification depended on determinations that certain FMVSS are inapplicable to the Cybercab （テスラの認証が、 一部の連邦基準はサイバーキャブには適用されない という判断にどの程度依拠していたか） NHTSA ODI 調査開始文書 AQ26002（2026年9月3日開始）https://static.nhtsa.gov/odi/inv/2026/INOA-AQ26002-17078.pdf"
+    },
+    {
+     "kind": "P",
+     "text": "平たく言うと、 「ハンドルがない車にハンドルの基準は関係ない、と自分で決めて出したんじゃないのか」 と疑われている。"
+    },
+    {
+     "kind": "P",
+     "text": "NHTSAのプレスリリースはこう書いています。「この1年で当局は8件の規則制定に着手した。ブレーキペダル、ワイパー、灯火、バックミラーに関する基準などである。…… ただしその作業が完了するまでは、現行の基準が有効である 」。"
+    },
+    {
+     "kind": "P",
+     "text": "つまり アメリカも、ハンドルのない車を想定した基準がまだできていない 。いま書き換えている最中で、それが終わるまでは古い基準が生きている。そこにテスラが「うちは適合している」と言って突っ込んだ、というのが正確な絵柄です。"
+    },
+    {
+     "kind": "P",
+     "text": "ロイターは「ネットワークにはModel Yもあり、 その一部には安全監視員が同乗している 」と書いていて、サイバーキャブについては監視員に触れていない。AutoGuideは「残りの車両（＝Model Y）には監視員が同乗している」とより明確に書き分けています。"
+    },
+    {
+     "kind": "P",
+     "text": "ただし テスラ自身が「サイバーキャブは無人だ」と公式に明言した文書は見つかりませんでした。 車内に緊急停止ボタンがあって、押すと遠隔の「Robotaxi Support」につながることは報じられています。"
+    },
+    {
+     "kind": "P",
+     "text": "正確に言うなら 「車内に監視員はいないと報じられているが、遠隔の監視・サポート要員はいる」 。完全な無人運行と断定するのは、いまの時点では早いです。"
+    },
+    {
+     "kind": "P",
+     "text": "Waymo（ウェイモ）は、Googleが2009年に始めた自動運転プロジェクトが、2016年にAlphabet（Googleの親会社）傘下の独立企業として分社したもの です。2018年に配車サービス「Waymo One」を商用開始し、 2020年10月8日、アリゾナ州フェニックスで「運転席に誰もいない」一般客向けサービスを世界で初めて実現 しました。"
+    },
+    {
+     "kind": "P",
+     "text": "2026年9月時点で 米国14都市 、 週50万回以上の有料乗車 、 週400万マイル以上 を走っています。スマホで呼ぶと運転席が空っぽの車が来て、乗って、降りる。それだけ。"
+    },
+    {
+     "kind": "P",
+     "text": "もう1社、記事に出てくる 百度（バイドゥ）の「Apollo Go」は中国版のこれ で、2026年第2四半期時点で 28都市 、四半期あたり320万回の完全無人乗車をやっています。"
+    },
+    {
+     "kind": "P",
+     "text": "そして Zoox（ズークス）はAmazon傘下 で、ハンドルもペダルもない専用設計車を作っている会社です。"
+    },
+    {
+     "kind": "P",
+     "text": "日本でこの手の話をすると、まず出てくるのが 「どうせタクシー業界が反対するんだろ」 という反応です。わたしもそう思って調べました。 外れていました。"
+    },
+    {
+     "kind": "P",
+     "text": "タクシーの労働組合は、全自交労連（連合加盟）、交通労連ハイタク部会、私鉄総連ハイタク協議会の3つ。この3つが「ハイタクフォーラム」という常設の連合体を組んでいます。系列の違う3つの産別が職種を単位に横断で組んでいる。 企業別組合ではこの形は取れません。 本気の組織です。"
+    },
+    {
+     "kind": "P",
+     "text": "その全自交労連が、2025年9月の第83回定期大会で自動運転についてこう述べています。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "導入を阻止する闘争には勝算が薄い 今のハイタク労働者の雇用と賃金を守り、自動運転との間で 公正な競争 に成り立たせることが一番の大目標 全自交労連ニュース 第1264号（2025年9月25日）"
+    },
+    {
+     "kind": "P",
+     "text": "大会で提案された目標は三層構造で、短期＝雇用と賃金を維持して有人・無人で公正な競争、中期＝若い世代が不安なく働ける環境、長期＝ 「公正な移行（Just Transition）」 の実現。国際運輸労連（ITF）加盟の産別らしい言い方です。"
+    },
+    {
+     "kind": "P",
+     "text": "ライドシェア推進派を 「新たな利権を獲得しようとする国賊」ww とまで言った同じ組織が、自動運転については 国交省の局次長を呼んで講演させている 。敵対ではなく協議の関係です。正直、経営者より冷静だと思いました。それとも諦めているのか"
+    },
+    {
+     "kind": "P",
+     "text": "全国ハイヤー・タクシー連合会の川鍋一朗会長の公式メッセージがこれです。"
+    },
+    {
+     "kind": "P",
+     "text": "しかも川鍋氏は日本交通の取締役でありGOの代表取締役会長でもあって、2025年4月のWaymoとの提携リリースではこう言っています。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "これは絶対に日本のためになる。 日本の未来、少子高齢化、労働者不足の日本の移動の足の確保のためになる 日本交通 ニュースリリース（2025年4月14日）川鍋一朗"
+    },
+    {
+     "kind": "P",
+     "text": "逆に言えば 責任主体がタクシー事業者に残るなら歓迎 ということ。自動運転タクシーはまさにそれです。2025年4月30日に国交省の検討会が「 運行供用者責任は旅客自動車運送事業者に帰属する 」と整理し、全タク連はその検討会にオブザーバーとして参加していますが、 異議を唱えた記録は見つかりませんでした 。"
+    },
+    {
+     "kind": "P",
+     "text": "業界が守っているのは「安全」でも「雇用」でもなく、 事業免許＝責任主体の独占 です。そう考えれば、ライドシェアには断固反対で自動運転には賛成、という態度は完全に一貫している。"
+    },
+    {
+     "kind": "P",
+     "text": "つまり、自動運転については労使とも青信号なんですよ。 にもかかわらず日本のレベル4は700mしか走っていない。ということは、詰まっているのは業界の反対ではなく別のところにある。ここが今回の出発点になります。"
+    },
+    {
+     "kind": "P",
+     "text": "彼らが本気で潰したのはライドシェアのほうでした。そしてその結果を見ると、 もうこの路線には戻れない ということがわかります。"
+    },
+    {
+     "kind": "P",
+     "text": "稼働率17.1％。 京都は140台の枠に8台で6％、広島は2,130台の枠に174台で8％。しかも神奈川ではマッチング不良率53％、愛知では62％。呼んでも半分以上つかまりません。"
+    },
+    {
+     "kind": "P",
+     "text": "ちなみにこのデータは内閣府の規制改革推進会議に出された資料のものです。 国交省による営業区域ごとの週次の実施状況の公表は、2024年8月18日分を最後に確認できませんでした。 出さなければ失敗したことにならないと思っているんでしょうか。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "自家用自動車は、次に掲げる場合を除き、有償で運送の用に供してはならない。 一 災害のため緊急を要するとき。 二 （自家用有償旅客運送） 三 公共の福祉を確保するためやむを得ない場合において、国土交通大臣の許可を受けて地域又は期間を限定して運送の用に供するとき。 道路運送法（昭和26年法律第183号）第78条"
+    },
+    {
+     "kind": "P",
+     "text": "「災害のため緊急を要するとき」の隣に置かれた例外条項 です。しかも条文に「地域又は期間を限定して」と書いてある。"
+    },
+    {
+     "kind": "P",
+     "text": "だから「金曜土曜の16時〜翌5時台だけ、タクシー車両数の5％まで」という制限は、 この条文を使った以上どうやっても避けられなかった 。運用の下手さではなく、 新法を作らずに既存の例外条項でやろうとした時点で決まっていた んです。政治家が規制緩和する気がなかったわけね。"
+    },
+    {
+     "kind": "P",
+     "text": "2023年12月20日のデジタル行財政改革・中間とりまとめには、こう書いてありました。「タクシー事業者以外の者がライドシェア事業を位置付ける法律制度について、 2024年6月に向けて 議論を進めていく」。"
+    },
+    {
+     "kind": "P",
+     "text": "それが2024年6月6日の国土交通大臣提出資料ではこうなります。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "現時点では、法制度の議論やモニタリングの実施に特定の期限は設けない。 第6回デジタル行財政改革会議 資料2 国土交通大臣提出資料（2024年6月6日）"
+    },
+    {
+     "kind": "P",
+     "text": "「6月に向けて」が「期限は設けない」に化けた。 2つの政府文書を並べるだけで立証できます。"
+    },
+    {
+     "kind": "P",
+     "text": "そして2026年6月29日の規制改革推進会議の答申。「全国における移動の足不足の解消」の項目に載っているのは①ライドシェア（自家用車活用事業等）の推進 ②自家用車の中間点検の明確化 ③自家用有償旅客運送のローカルルール見直し ④自動運転【再掲】の4つだけ。 「タクシー事業者以外」「新法」に相当する項目は、消えています。"
+    },
+    {
+     "kind": "P",
+     "text": "ついでに書いておくと、タクシーには「タクシー特措法」という法律があって、特定地域では 新規参入・増車が禁止 、協議会が作る減車計画は 独占禁止法の適用除外 になります。 カルテルを合法化して減車させる制度 ですよ。関東運輸局のサイトでは2026年8月31日更新時点でもこの枠組みが現役で掲示されています。"
+    },
+    {
+     "kind": "P",
+     "text": "そして幸い、 その同じ労使が、自動運転には反対していない。 労組は「阻止する闘争には勝算が薄い」、会社は「有効な手段となるものと期待される」。"
+    },
+    {
+     "kind": "P",
+     "text": "だったらライドシェアを待つのはやめて、一段飛ばして自動運転に行くしかない。 これが日本にとって唯一まともに残っている道です。"
+    },
+    {
+     "kind": "P",
+     "text": "日本のレベル4（特定自動運行）の制度が始まったのは 2023年4月 。2026年3月時点で許可を取っているのは 10地域 です。北海道上士幌町、宮城県気仙沼市、茨城県日立市、千葉県柏市、東京都大田区（羽田）、長野県塩尻市、福井県永平寺町、三重県多気町、大阪・関西万博会場、愛媛県松山市。3か月前の経産省資料では8箇所だったので、 3年で8→10 です。"
+    },
+    {
+     "kind": "P",
+     "text": "国内初のレベル4は福井県永平寺町（2023年3月30日認可）。 ヤマハ製の電動カートを産総研が改造したもので、道路に敷設した電磁誘導線の上を時速12kmで走る 、約2kmの区間でした。"
+    },
+    {
+     "kind": "P",
+     "text": "・場所：千葉県柏市、柏の葉キャンパス駅〜東京大学柏キャンパスの一部 ・事業者：東武バスセントラル（車両改造は先進モビリティ） ・ 走行距離：700m ・ 最高速度：40km/h ・ 「運転席には乗務員が乗車します」"
+    },
+    {
+     "kind": "P",
+     "text": "制度開始から3年近く経った日本の最新のマイルストーンが、これです。"
+    },
+    {
+     "kind": "P",
+     "text": "比較すると、Waymoは14都市で週400万マイル、百度は28都市で四半期320万回。テスラはハンドルのない車を45台走らせている。 日本は700m。アホかよ"
+    },
+    {
+     "kind": "P",
+     "text": "「規制が厳しいから」「技術力がないから」「金がないから」「EVが遅れているから」——よく聞く4つを、ひとつずつ一次資料に当てました。"
+    },
+    {
+     "kind": "P",
+     "text": "まず「違う」ほうから。日本ではレベル2の公道実証に、道路使用許可すら要りません。 警察庁が明記しています。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "（保安基準に適合し、運転者が車内で常時監視・操作可能で、関係法令を遵守するなら） 場所や時間にかかわらず、道路使用許可を受けずに道路での自動運転の実証実験を行うことが可能 警察庁「自動運転の公道実証実験について」"
+    },
+    {
+     "kind": "P",
+     "text": "2016年5月の警察庁ガイドラインにも速度その他の数値制限はありません。カリフォルニア州は 州の許可制 （有人テスト許可を持つのが28社）なので、 実証実験の入口は日本のほうが軽いんです。 ここは意外でした。"
+    },
+    {
+     "kind": "P",
+     "text": "そして「ハンドルのない車は日本では走れない」も、正確ではありませんでした。 国交省 関東運輸局の資料にこう書いてあります。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "保安基準を満たして運行することができない自動車について、 保安基準第55条の規定に基づき、保安基準の一部を緩和する （自動運転車の類型として） 特別装置型：ハンドルやペダルのない自動運転車 …… 基準緩和認定が必須 国土交通省 関東運輸局「保安基準の緩和認定制度を活用した（自動運転実証実験）」https://wwwtb.mlit.go.jp/kanto/content/000259215.pdf"
+    },
+    {
+     "kind": "P",
+     "text": "日本にも例外ルートはある。しかも実例があって、 ソフトバンク系のBOLDLYが導入したNAVYA ARMA（ハンドルのない自律走行バス）は、ハンドルのない車両として日本で初めてナンバーを取得 し、2020年から茨城県境町で公道の定常運行をやっています。"
+    },
+    {
+     "kind": "P",
+     "text": "じつは 同じ問題に、アメリカでも3社が3通りの答えを出している 。ここが面白い。"
+    },
+    {
+     "kind": "P",
+     "text": "Waymoが専用設計のロボタクシーにまでハンドルを残している という事実は、「ハンドルを外すこと」が自動運転の技術的な必然ではないことを示しています。テスラがハンドルを外したのは技術の問題ではなく、 戦略的な選択であり、規制上のリスクテイク です。"
+    },
+    {
+     "kind": "P",
+     "text": "違うのは ①事業者が事前に承認を取るかどうか （Zooxは4年半かけて取り、テスラは取らずに走らせた）と、 ②許可の単位 です。そして②が、日本にとって決定的でした。"
+    },
+    {
+     "kind": "P",
+     "text": "で、ここから「当たり」のほうです。 レベル4になると景色が一変します。"
+    },
+    {
+     "kind": "P",
+     "text": "警察庁の記載要領には、はっきりこう書いてあります。「 経路が複数の都道府県の区域にわたる場合は、それぞれの都道府県公安委員会への申請が必要 」。3県をまたぐ路線なら3回申請して約24万円、それぞれ45営業日。ルートを1本変えるたびに変更許可で7万8,500円。 これで「面」に広がるわけがない。テストのしようもない。"
+    },
+    {
+     "kind": "P",
+     "text": "しかもレベル4の型式指定を取った車は事実上ゼロで、 1車種1経路ごとの個別認可 。量産の型式指定で一括承認、というスケールメリットが効きません。"
+    },
+    {
+     "kind": "P",
+     "text": "「審査手続が専門的」「新規参入がしにくい」「行政手続が長期化」"
+    },
+    {
+     "kind": "P",
+     "text": "そして具体的な数字。 「約11ヶ月かかっていた審査・行政手続」を「2ヶ月の完了を目指す」 。"
+    },
+    {
+     "kind": "P",
+     "text": "政府自身が「手続きが障壁だった」と認めています。ただしこれを言い出したのが2024年6月で、実際に短縮されたかどうかの検証結果は見つかりませんでした。"
+    },
+    {
+     "kind": "P",
+     "text": "日本の名誉のために書いておきますが、 技術では世界初を複数取っています。"
+    },
+    {
+     "kind": "P",
+     "text": "ただし、そのホンダのレジェンドは リース専用・限定100台・1,100万円で、2022年1月に販売終了 しています。世界初のレベル3市販車は10か月で消えた。 日本のレベル3量産実績は累計100台以下 です。"
+    },
+    {
+     "kind": "P",
+     "text": "そしてカリフォルニア州DMVの許可保有者リストを見ると事情がわかります。有人テスト許可28社にはNissanとWoven by Toyotaが入っている。ところが ドライバーレス（無人）テスト許可を持つ日本企業はゼロ。商用展開の許可を持つ日本企業もゼロ 。"
+    },
+    {
+     "kind": "P",
+     "text": "注目してほしいのは、 トヨタ1社の「年間」研究開発費1兆5,228億円（約100億ドル）が、Waymoの「累計」調達額100億ドルに匹敵する ということ。ホンダも年1兆1,748億円使っている。 日本に金がないわけじゃないんです。"
+    },
+    {
+     "kind": "P",
+     "text": "足りないのは、その金を 「無人運転サービスの運営」という一点に集中投下する主体 。経産省・国交省の「モビリティDX戦略」も自分でこう書いています。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "海外では、レガシーのない新興プレイヤーが台頭し、スピード感を持った投資が活発化…… 我が国においては開発リソース（資金・人材等）が不足 日本においてはこれまでその取組が十分ではなく、 ソフトウェア人材の不足が顕著 経済産業省・国土交通省「モビリティDX戦略」（2024年5月）"
+    },
+    {
+     "kind": "P",
+     "text": "「自動運転はEVのほうがぜんぶ電気だから制御が簡単なはずだ。日本はEVの普及が遅れているし充電スタンドも少ないから、そのせいではないか」 ——これも調べました。"
+    },
+    {
+     "kind": "P",
+     "text": "まず 「EVのほうが有利」は本当です。 IEA（国際エネルギー機関）が公式にこう書いています。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "all commercial robotaxi services in operation today exclusively use EVs （現在稼働している商用ロボタクシー・サービスはすべてEVを使っている） software control of EVs is more mature than for ICEVs and hybrids （EVのソフトウェア制御は内燃機関車やハイブリッド車より成熟している） IEA「Autonomous vehicles」https://www.iea.org/reports/autonomous-vehicles"
+    },
+    {
+     "kind": "P",
+     "text": "IEAは理由を4つ挙げていて、①高稼働のタクシーでは運用コストが安い ②EVのソフト制御が成熟している ③都市部の排出規制に適合する ④ 自動運転の演算装置が食う電力（数百W〜1kW超）を、EVのバッテリーと電力系のほうが扱いやすい 。"
+    },
+    {
+     "kind": "P",
+     "text": "日本のEVの数字はこうです。 2025年度の登録乗用車247万台のうち、BEVは54,390台で2.2％。 IEAの国際比較では日本は「3％未満」、中国55％、欧州28％、 ノルウェーは97％ 。充電インフラも2025年5月末で約6.8万口で、 2030年に30万口という政府目標に対して23％ 。中国は公共用だけで495万口あります。"
+    },
+    {
+     "kind": "P",
+     "text": "② EV世界一のノルウェーに、無人ロボタクシーは1台もない。 電動車シェア97％。そのノルウェーで走っているのは、オスロの交通事業者Ruterが NIO ES8を5台、運転席にセーフティオペレーターを乗せて 限定エリアで、という段階です。Ruter公式サイトに「In the beginning, there will be a security operator seated in the driver’s seat」と書いてある。一方、 電動車シェア約10％の米国が14都市で週50万回 。"
+    },
+    {
+     "kind": "P",
+     "text": "③ 経産省自身が「パワートレインは関係ない」と書いている。 「モビリティDX戦略」にこうあります。 「BEVのみならず、PHEV、HEV、ICEといった全てのパワートレインのSDV化が進んでいく見込み」 。SDV＝ソフトウェアで制御・更新できる車、つまり自動運転の土台です。"
+    },
+    {
+     "kind": "P",
+     "text": "おまけに、 日産は自動運転の実験車両をリーフ（EV）からセレナ（ハイブリッド／ガソリン）に移している 。EVが必須なら逆の動きをするはずです。米May Mobilityは2025年2月から、 トヨタのシエナ（ハイブリッド）で運転席無人の一般サービス をジョージア州で運行しています。"
+    },
+    {
+     "kind": "P",
+     "text": "EVが不利な面もあって、ロボタクシーの 充電拠点（デポ）は4〜12メガワットの受電が必要 。都市部でその用地を確保するのが現在の最大のボトルネックのひとつだと関係者が語っています（Axios、2026年4月29日）。充電中の車は1円も稼ぎません。"
+    },
+    {
+     "kind": "P",
+     "text": "因果の向きが逆なんですよ。EVが普及したから自動運転ができるようになったのではなく、 ロボタクシーという高稼働の商用事業をやろうとすると、コストと排出規制の都合でEVを選ぶことになる 。だからWaymoは、アメリカのEVシェアが10％しかなくても全車EVの船隊を持てている。日本のBEVシェアが2.2％でも、日本の事業者がEVロボタクシーを導入することを何も妨げません。"
+    },
+    {
+     "kind": "P",
+     "text": "ついでに、日本は「電動化が遅れている」わけでもありません。 登録乗用車の61.1％がハイブリッド で、トヨタの電動車比率は46.1％。遅れているのはBEV化であって電動化ではない。ここを混ぜると議論が不正確になります。"
+    },
+    {
+     "kind": "P",
+     "text": "Waymoが無人で走った累計が 3億5,502万km（2億2,060万マイル） 。百度Apollo Goが完全無人で 2億4,000万km超 。対して、日本のAV専業として最も走っているティアフォーの 創業からの累計テスト走行が46万9,000km 。東京でのロボタクシー実証は 976km 。"
+    },
+    {
+     "kind": "P",
+     "text": "Waymoは現在、 週400万マイル（約644万km） 走っています。ティアフォーの創業から10年分の累計走行距離を、 およそ12時間で走ってしまう 計算です。"
+    },
+    {
+     "kind": "P",
+     "text": "自動運転のAIは、走らないと賢くなりません。走るにはサービスを運営していないといけない。サービスを運営するには許可が要る。許可は経路×都道府県。—— この輪が閉じているのが日本の状態 です。"
+    },
+    {
+     "kind": "P",
+     "text": "つまり 東京で学習ループを回しているのは日本企業ではなくWaymoで、日本交通は乗務員を提供する側に回っている ということです。"
+    },
+    {
+     "kind": "P",
+     "text": "ちなみにホンダとGM Cruiseは「日本で2026年初頭に自動運転タクシーを始める」と2023年10月に発表していましたが、GMが2024年12月10日にロボタクシー開発から撤退し、ホンダの2025年・2026年の事業説明資料からはこの項目が消えています（ホンダ公式の「中止」発表は見つかりませんでした）。 日本のロボタクシー計画は、日本側の判断ではなくアメリカの会社の資本判断で消えた わけです。"
+    },
+    {
+     "kind": "P",
+     "text": "公平のために書いておくと、 「やらなかったことが正解だった可能性」も否定はできません。 GMは年10億ドル超の出血に耐えられずCruiseから撤退しました。Waymoは評価額1,260億ドル。結果は割れています。ただ、 日本が勝負に参加していないことだけは確か です。"
+    },
+    {
+     "kind": "P",
+     "text": "最後にひとつ。 日本には自動運転の累計走行距離を示す公的統計が存在しません。 国交省、警察庁、経産省、RoAD to the L4——全部当たりましたが、ありませんでした。特定自動運行許可の累計件数の統計もありません。 測っていないものは、良くなりません。"
+    },
+    {
+     "kind": "P",
+     "text": "「日本はロボットで中国に抜かれた」という話をよく見ますが、事実ではありません。IFR（国際ロボット連盟）の2026年4月発表のロボット密度（従業員1万人あたり）は、韓国1,220台、ドイツ449台、 日本446台で世界4位 、米国307台、 中国166台で22位 。 日本が中国の2.7倍 です。"
+    },
+    {
+     "kind": "P",
+     "text": "負けているのは工場の外。経産省自身が「産業用ロボット市場のシェア約65.9％に対し、 サービスロボット市場では11.7％ 」「 AIロボティクス開発において米中に後れを取っている 」と明記しています。"
+    },
+    {
+     "kind": "P",
+     "text": "従業員1人あたりの有形固定資産（資本装備率、2023年）を見ると、製造業では 日本1,332万円 で英国1,259万円・フランス1,247万円を上回るのに、サービス業では 日本461万円 vs 米国1,871万円で約4倍差 （内閣官房「日本成長戦略会議 基礎資料」2025年11月10日）。"
+    },
+    {
+     "kind": "P",
+     "text": "工場の中には日本の得意な世界があって、工場の外には別の世界がある。そして工場の外に立っているのが、 道路運送法・道路運送車両法・道路交通法の三法許認可 です。"
+    },
+    {
+     "kind": "P",
+     "text": "ここまで読んで、たぶんこう思ったはずです。 「許可の単位を変えればいいだけの話が、なんで動かないんだ」 と。"
+    },
+    {
+     "kind": "P",
+     "text": "わたしの見立てを先に書きます。 規制緩和は各方面との粘り強い交渉が必要だが、髙市さんにはその能力がない。そもそも人と話すのもだめ。でも金を撒くだけなら丸投げでできる。だからそっちしかやらないのではないか。 これはわたしの意見であって事実ではありませんが、裏づけになる数字は原典で拾えたので並べます。"
+    },
+    {
+     "kind": "P",
+     "text": "日本のレベル4は、ほぼ全部この補助金でやっています。補助率5分の4。つまり ほぼ国費 。そして許可の単位は経路×都道府県のまま。 金は出すが、制度は変えない。"
+    },
+    {
+     "kind": "P",
+     "text": "閣議決定した規制改革が1年たってどうなっているか。 令和7年計画は115件中、措置済37件に対して「検討中」が69件。約2倍 です。"
+    },
+    {
+     "kind": "P",
+     "text": "で、なぜこうなるのか。 政府の公式文書が自分で答えを書いていました。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "規制の多くは 利害対立の構造を内包しており、これが改革の遅れる主な要因となっている …… 当初意図された改革が違った形で進むケースがしばしば見られる 。決定事項が 「骨抜き」にならないよう …… 改革が逆行していないか など、会議として、しっかりとフォローアップしていかなければならない 規制改革推進に関する答申（令和8年6月29日、規制改革推進会議）"
+    },
+    {
+     "kind": "P",
+     "text": "規制緩和は、必ず誰かが損をします。 しかもその人たちは 審議会に正式な委員として座っている 。交通政策審議会の自動車部会には、交運労協の議長と自工会の主査が正委員として入っています。"
+    },
+    {
+     "kind": "P",
+     "text": "つまり 補助金は「決めれば終わり」、規制緩和は「決めてから交渉が始まる」 。この非対称は制度設計そのものに埋め込まれている。"
+    },
+    {
+     "kind": "P",
+     "text": "ここからはわたしの意見です。 金を撒くのは各省に丸投げできる。予算を付けて「使え」と言えばいい。でも規制緩和は、総理か官房長官が業界団体と組合と族議員のところに何度も足を運んで、「あなたは損をするが、国全体ではこうなる」と説得し続けないと動かない。 小泉政権の構造改革特区が「特例→全国展開」を145件やった のは、その粘り腰があったからだと思います（認定458件、うち145件が全国展開）。対して令和8年計画の国家戦略特区枠は、たった2項目です。"
+    },
+    {
+     "kind": "P",
+     "text": "所信表明で「規制緩和」を一度も言わず、 規制改革実施計画の項目数を110から57に半減させ、規制緩和の単独法案を1本も出していない。 一方で予算は過去最大の122兆円。 この並びを見て「交渉はしないが金は撒く政権だ」と読むのは、少なくとも不自然ではないと思います。"
+    },
+    {
+     "kind": "P",
+     "text": "公平のために反論も書いておきます。 令和8年計画には「自動運転の規制等の円滑化」「歩行型ロボットの公道実証実験推進」も入っています。半導体やAIへの巨額の産業補助は各国がやっていることで、そこだけ日本がやめたら勝負になりません。 補助金が悪だと言っているのではなく、「補助金しかやらない」のが問題だ という話です。"
+    },
+    {
+     "kind": "P",
+     "text": "これが最優先です。レベル4の許可を 経路単位・都道府県単位から、区域単位・全国単位に変える 。カリフォルニアは事業者×州で有効期間2年、エリア拡大に再申請は要りません。中国は市が面で指定していて、北京500km²、武漢3,000km²。日本は経路が3県にまたがれば3回申請、ルートを変えるたびに7万8,500円。 ここを直さない限り、補助金をいくら積んでもスケールしません。"
+    },
+    {
+     "kind": "P",
+     "text": "いまは保安基準第55条の基準緩和認定という「例外」で1台ずつ通している。アメリカも同じ状況ですが、 NHTSAはブレーキペダル・ワイパー・灯火・バックミラーを含む8件の規則改正に着手済み で、Morrison長官は「これらが完了すれば個別車両の免除は不要になるかもしれない」と言っています。国交省の自動運転ワーキンググループも中間とりまとめ（2025年5月30日）で「 世界に先駆けて 」ドライバーレス車両に対応した基準にしていくと書いている。方向は決まっているので、あとはいつやるか。"
+    },
+    {
+     "kind": "P",
+     "text": "カリフォルニア州DMVは全社の年間走行マイルと解除回数を毎年公表しています。中国は百度が決算で累計km数を開示している。日本は統計そのものがない。特定自動運行許可が全国で何件出ているかも公表されていない。 2030年度に1万台という目標だけがある。 測っていないものは、良くなりません。"
+    },
+    {
+     "kind": "P",
+     "text": "タクシーの労組は「阻止する闘争には勝算が薄い」と言って公正な移行に舵を切った。タクシー会社の団体トップは「有効な手段となるものと期待される」と公式サイトに書いている。技術力もある。ホンダは世界初のレベル3型式指定を取った会社です。金もある。トヨタ1社の年間研究開発費がWaymoの累計調達額に匹敵する。"
+    },
+    {
+     "kind": "P",
+     "text": "2番目に意外だったのは、 「日本は規制が厳しくてテストすらできない」というのが誤りだった ことです。レベル2の公道実証には道路使用許可すら要らない。ハンドルのない車も基準緩和認定を取れば走れて、実際にNAVYA ARMAが茨城県境町で走っている。 入口は開いているんです。"
+    },
+    {
+     "kind": "P",
+     "text": "問題は、入口を通った先が 「線」でしか広がらない ことでした。1本の経路、1つの都道府県。ルートを変えるたびに7万8,500円払って45営業日待つ。これでは走行距離が貯まらない。貯まらないとAIが賢くならない。賢くならないから事業にならない。事業にならないから誰も金を賭けない。"
+    },
+    {
+     "kind": "P",
+     "text": "3番目は、 日本には自動運転の走行距離の統計が存在しない ことでした。カリフォルニアは毎年出している。中国は企業が決算で出している。日本は国交省も警察庁も経産省も出していない。許可件数の統計もない。 目標だけはある。 ww"
+    },
+    {
+     "kind": "P",
+     "text": "ライドシェアは終わりました。稼働率17％、新法は期限を外され、答申から項目ごと消えた。あれを蒸し返すエネルギーがあるなら、 誰も反対していない自動運転のほうに全部注ぐべき です。そこは労使とも青信号で、あとは許可の単位を線から面に変えるだけ。——それが11か月かかる国だ、という話ではあるんですが。"
+    },
+    {
+     "kind": "P",
+     "text": "オースティンでは、ハンドルもペダルもバックミラーもない車が、規制当局の承認を待たずに客を乗せて走り出しました。同じ日に政府が調査を始めた。それが正しいやり方かどうかは、正直わかりません。でも あの国は「走らせてから揉める」んですよ。こっちは「揉めないように走らせない」。 10年後にどっちが勝っているかは、もう見えている気がします。"
+    },
+    {
+     "kind": "P",
+     "text": "報道・二次情報ベース ：サイバーキャブの一般向け乗車開始が9月4日17時であること、イベントの詳細、マスクの「3万ドル未満」発言（Reuters／Business Insider／TeslaNorth等）／テキサス州の登録台数420台・うちCybercab 45台（ロイターおよびAxiosが州の登録データを参照したもの。 州の原記録そのものは未確認 ）／テスラのロボタクシー累計走行距離（決算資料の原文がrobots.txtで取得できず、第三者要約経由）／NAVYA ARMAが日本初のハンドルなし車両としてナンバーを取得したこと（ソフトバンク公式ページと業界メディア。 どの条文の基準緩和認定を受けたかは未確認 ）／ホンダのロボタクシー計画の中止（ホンダ公式の中止発表は確認できず、事業説明資料から項目が消えたことのみ確認）／カリフォルニア州DMVの企業別走行マイル（DMVサイトは2021年分までしか公開しておらず報道による）。"
+    },
+    {
+     "kind": "P",
+     "text": "確認できなかった主なもの ： サイバーキャブに安全監視員が同乗していないことのテスラ公式による明言 （報道の書き分けと動画からの推認にとどまる。記事でも断定していません）／テスラのCybercab生産台数の監査済み数値（車種別の開示なし。NHTSAの推定母集団「約1,000台」と州登録「45台」の乖離の理由も不明）／テスラの特例免除の申請記録（Federal Registerに公告なし＝おそらく未申請）／特定自動運行許可の全国累計件数（警察庁に統計なし）／ 日本国内の自動運転の累計走行距離を示す公的統計 （国交省・警察庁・経産省・RoAD to the L4を当たった範囲では存在せず）／2026年時点の日本版ライドシェアの稼働率（国交省の週次公表は2024年8月18日分が最後）／トヨタ・ホンダ・日産の自動運転単独の投資額（3社とも非開示）。"
+    }
+   ],
+   "checkedAt": 1788924739407,
+   "etag": "",
+   "hash": "6a5a8b673bf29b70",
+   "id": "33eb12e34614",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.landerblue.co.jp%2F65402%2F",
+   "key": "https://www.landerblue.co.jp/65402",
+   "lastModified": "Wed, 09 Sep 2026 02:39:26 GMT",
+   "publishedAt": 1788866501000,
+   "summary": "わたしが主催しています「21世紀を生き残るための永江 虎の穴塾」では塾生を募集しています。希望者は毎月30分。わたしと1:1でzoomでブレストができます。ビジネスモデルの相談はもちろん、転職や自己PR、招来の方向性などの雑談でもOK。月１のイベントもなかなか好評です。 2026年9月3日、テキサス州オースティンでハ...",
+   "title": "日本はライドシェアはもう諦めて自動運転に行くべきだが、なんでこんなに進まないのかめちゃ掘りしてみた",
+   "updatedAt": 1788924739407,
+   "url": "https://www.landerblue.co.jp/65402/"
   },
   "https://www.m3tech.blog/entry/embulk-to-dlt-dbt": {
    "bodyBlocks": [
@@ -5690,272 +5624,201 @@
    "updatedAt": 1788865227258,
    "url": "https://www.nikkei.com/article/DGXZQOGM030QT0T00C26A9000000/"
   },
-  "https://www.npa.go.jp/news/release/r820260907.html": {
-   "bodyBlocks": [],
-   "checkedAt": 1788818242184,
-   "etag": "",
-   "hash": "b64e57d00cd539a7",
-   "id": "fd70b2e140a0",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.npa.go.jp%2Fnews%2Frelease%2Fr820260907.html",
-   "key": "https://www.npa.go.jp/news/release/r820260907.html",
-   "lastModified": "",
-   "publishedAt": 1788779344000,
-   "summary": "報道発表資料の概要 令和８年９月７日、警察庁サイバー警察局は日本マイクロソフト株式会社と連携協定を締結しました。 発表資料 日本マイクロソフト株式会社との協定の締結について（168KB）",
-   "title": "日本マイクロソフト株式会社との協定の締結について｜警察庁Webサイト",
-   "updatedAt": 1788818242184,
-   "url": "https://www.npa.go.jp/news/release/r820260907.html"
-  },
-  "https://www.publickey1.jp/blog/26/eve_online240python_27python_3.html": {
+  "https://www.publickey1.jp/blog/26/amazon_linux4amazon_linux_2027selinux.html": {
    "bodyBlocks": [
     {
      "kind": "H",
-     "text": "巨大オンラインゲーム「EVE Online」。ゲームを支える240万行のPython 2.7のコードをPython 3へ移行すると発表"
+     "text": "Amazon Linuxが4年ぶりにメジャーバージョンアップ、「Amazon Linux 2027」パブリックプレビュー。SELinuxがデフォルトで強制モードに"
     },
     {
      "kind": "P",
-     "text": "宇宙を舞台にした世界最大級の大規模オンラインゲーム「EVE Online」が、ゲームを支える240万行のPythonコードをPython 3に移行すると発表しました。"
-    },
-    {
-     "kind": "QUOTE",
-     "text": "We have officially started our codebase migration over to Python 3 There’s quite a lot involved in this process, and you've already helped us tremendously in our most recent mass test. If you'd like to know a bit more about what this means and what is involved, even if… pic.twitter.com/boD4jEhBgR — EVE Online (@EveOnline) August 25, 2026"
-    },
-    {
-     "kind": "P",
-     "text": "EVE Onlineは2003年にサービスが開始された大規模オンラインゲームです。7000を超える星系からなる宇宙を舞台に、探索や艦隊戦などの戦闘、海賊行為、市場での商売などのさまざまなプレイが可能となっています。"
-    },
-    {
-     "kind": "P",
-     "text": "その規模は、世界中から集まったプレイヤーの戦闘によって1時間あたり750以上の戦艦が沈み、市場では1日あたり100万回の取引を行っていると説明されています。"
+     "text": "Amazon Web Services（AWS）は、AWSに最適化されたLinux OSの4年ぶりとなるメジャーバージョンアップ「Amazon Linux 2027」を パブリックプレビューとしてリリースしました 。"
     },
     {
      "kind": "H",
-     "text": "16年間Stackless Python 2.7が使われ続けた"
+     "text": "現時点の正式版はAmazon Linux 2023"
     },
     {
      "kind": "P",
-     "text": "2003年に開始された当時から、EVE OnlineはC言語のコールスタックに依存せず高い並行性を実現できるPythonの実装である「Stackless Python」で構築されてきました。Stackless Pythonの軽量なスレッドによるTasklets（タスクレット）を利用することで、単一のサーバが同時に数千のパイロットを処理できるようになっています。"
+     "text": "Amazon LinuxはAWSによって無料で提供されているLinux OSのディストリビューションです。Amazon EC2などのAWSのサービスで安全かつ安定して動作し、高い性能で利用できることに最適化されています。"
     },
     {
      "kind": "P",
-     "text": "その後EVE Onlineを構成するStackless Pythonは2007年にバージョン2.5、2010年にはバージョン2.7にアップグレードされました。"
+     "text": "現時点で正式版となっているのは2023年にリリースされた「Amazon Linux 2023」で、今回発表されたAmazon Linux 2027は4年ぶりとなるメジャーバージョンアップです。"
     },
     {
      "kind": "P",
-     "text": "Stackless Python 2.7は2020年に公式サポートが終了していましたが、信頼性が十分に高かったこともありEVE Onlineのコードは現在までStackless Python 2.7が使われてきました。"
+     "text": "Amazon Linux 2023は主要なLinux OSの1つであるFedoraの一部をベースとしつつもAWS独自のリリースサイクルが提供されています。カーネルのバージョンは最新のアップデートで6.18が採用されています。"
     },
     {
      "kind": "P",
-     "text": "そして今回、16年ぶりにEVE OnlineのコードをPython 3へとメジャーアップグレードする作業が開始されたことが発表されたのです。"
+     "text": "デフォルトでSELinuxがパーミッシブモードで有効になっており、標準のパッケージ管理としては RPM（RPM Package Manager）およびdnfコマンドを使用するなどの特徴を備えています。"
     },
     {
      "kind": "H",
-     "text": "Python 3へ移行することで高速化など期待"
+     "text": "Amazon Linux 2027はSELinuxが強制モードに"
     },
     {
      "kind": "P",
-     "text": "EVE OnlineがPython 3へ移行する理由は2つ挙げられています。"
+     "text": "今回パブリックプレビューとなったAmazon Linux 2027でも、Fedora 44とFedora 45の一部をベースとしているものの、Fedoraの派生ではなく独自のリリースサイクルやサポートを提供していると説明されています。"
     },
     {
      "kind": "P",
-     "text": "1つは性能です。最近のPython 3リリースは、この言語の歴史上最大級の高速化が行われたとしており、EVE Onlineの処理の高速化が期待されます（Publickey注：Pythonの高速化が何を指すのか明示されていませんが、もしかしたらフリースレッドあるいはJITかもしれません）。"
+     "text": "カーネルはバージョン7.1以上を採用し、パッケージマネージャは引き続きRPMおよびdnfコマンドが使われています。"
     },
     {
      "kind": "P",
-     "text": "参考： Python 3.14登場、フリースレッド版正式サポート。実験的JITコンパイラも公式バイナリで利用可能に"
+     "text": "そしてSELinuxはデフォルトでエンフォーシングモード（強制モード）が設定されました。"
     },
     {
      "kind": "P",
-     "text": "もう1つはPythonのライブラリやデバッガ、プロファイラをはじめとするエコシステムが、現在ではすべてPython 3用になっているということです。"
+     "text": "強制モードではSELinuxポリシーに基づいてシステム全体に対して一貫性のあるアクセス制御が行われるため、管理者権限であってもポリシーに反したアクセスは拒否されるようになります。"
     },
     {
      "kind": "P",
-     "text": "このままではStackless Python 2.7のメンテンスの多くを自力で行わなければならなくなるため、Python 3の優れたツール群を利用できるようになることで問題が発生しても迅速な対応が期待できます。"
-    },
-    {
-     "kind": "H",
-     "text": "Python 3で実行できるようにし、その後に挙動を一致させていく"
+     "text": "また、AIや機械学習のワークロード向けには、AWSが提供するTrainiumやInferentiaなどのAI用チップをOSやコンテナから制御するためのAWS Neuronドライバーを含むアクセラレータのLinuxカーネルデバイスドライバーが用意されます。"
     },
     {
      "kind": "P",
-     "text": "サービス開始から数えると20年以上積み重ねられてきた240万行ものPythonコードは、どのようにPython 3へ移行するのでしょうか？"
+     "text": "Amazon Linux 2027はx86-64およびARMのプロセッサアーキテクチャ向けに提供されます。"
     },
     {
      "kind": "P",
-     "text": "説明によると、まずは Python-Future というPython 2のコードをPython 3に書き換えるためのツールを利用して、Python 3で実行できるようにします。"
-    },
-    {
-     "kind": "P",
-     "text": "すでに行われたスキャンではコードの95.9％でPython 3のコンパイルが通ったとのことです。"
-    },
-    {
-     "kind": "P",
-     "text": "こうしてすべてのコードがPython 2.7とPython 3の両方で実行できるようにするのがステージ1となります。"
-    },
-    {
-     "kind": "P",
-     "text": "その上で、Python 2.7とPython 3のどちらも同じ挙動になるように修正が必要です。そしてすでにPython 3では挙動が変わることが分かっているコードが2万行分あります。"
-    },
-    {
-     "kind": "P",
-     "text": "典型的な例は割り算です。Python 2では整数同士の割り算の結果は整数となり小数点以下は切り捨てられるため、5/2は2、1/2は0となります。一方、Python 3では整数同士の割り算でも小数点以下を含む浮動小数点数となり、5/2は2.5、1/2は0.5となります。"
-    },
-    {
-     "kind": "P",
-     "text": "こうした計算は戦闘でのダメージや宇宙空間での座標などに使われているため、Python 2.7からPython 3へ移行する際にどのようにコードを変更するかは人間の判断が必要です。Python 3への移行のステージ2では、人間が判断して修正を繰り返していくとのことです。"
-    },
-    {
-     "kind": "P",
-     "text": "つまりPython 3への移行は、まず機械的な処理によるPython 2.7からPython 3へ変換、そしてPython 3で実行可能にする。そのうえで、人間によるコードの修正を通してPython 3での挙動をPython 2.7と一致させていく、という2段階で行われる計画です。"
-    },
-    {
-     "kind": "H",
-     "text": "ゴールは誰も移行に気づかないこと"
-    },
-    {
-     "kind": "P",
-     "text": "このPython 3への移行のゴールは、移行したことにプレイヤーが誰も気が付かないこと、となっています。そしてそのゴールを実現するために、なにか気がついたことがあればバグレポートで知らせてほしいと開発チームは呼びかけています。"
+     "text": "ちなみにAmazon Linux 2023は2029年6月30日までAWSによってサポートされる予定です。そして今回パブリックプレビューとなったAmazon Linux 2027はその名称から、来年（2027年）に正式版になると予想されます。"
     }
    ],
-   "checkedAt": 1788838361260,
+   "checkedAt": 1788924739407,
    "etag": "",
-   "hash": "187afb40aba3f453",
-   "id": "97743ec71a91",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.publickey1.jp%2Fblog%2F26%2Feve_online240python_27python_3.html",
-   "key": "https://www.publickey1.jp/blog/26/eve_online240python_27python_3.html",
+   "hash": "ad9d77b5e76a589e",
+   "id": "e4f17a8054a6",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.publickey1.jp%2Fblog%2F26%2Famazon_linux4amazon_linux_2027selinux.html",
+   "key": "https://www.publickey1.jp/blog/26/amazon_linux4amazon_linux_2027selinux.html",
    "lastModified": "",
-   "publishedAt": 1788814595000,
-   "summary": "巨大オンラインゲーム「EVE Online」。ゲームを支える240万行のPython 2.7のコードをPython 3へ移行すると発表 宇宙を舞台にした世界最大級の大規模オンラインゲーム「EVE Online」が、ゲームを支える240万行のPythonコードをPython 3に移行すると発表しました。 We have officially started our codebase migration ove...",
-   "title": "巨大オンラインゲーム「EVE Online」。ゲームを支える240万行のPython 2.7のコードをPython 3へ移行すると発表",
-   "updatedAt": 1788838361260,
-   "url": "https://www.publickey1.jp/blog/26/eve_online240python_27python_3.html"
+   "publishedAt": 1788878417000,
+   "summary": "Amazon Web Services（AWS）は、AWSに最適化されたLinux OSの4年ぶりとなるメジャーバージョンアップ「Amazon Linux 2027」をパブリックプレビューとしてリリースしました。 現時点の正式版はAmazon Linux 2023 Amazon LinuxはAWSによって無料で提供されているLinux OSのディストリビューションです。Amazon EC2などのAW...",
+   "title": "Amazon Linuxが4年ぶりにメジャーバージョンアップ、「Amazon Linux 2027」パブリックプレビュー。SELinuxがデフォルトで強制モードに",
+   "updatedAt": 1788924739407,
+   "url": "https://www.publickey1.jp/blog/26/amazon_linux4amazon_linux_2027selinux.html"
   },
-  "https://www.publickey1.jp/blog/26/htmx_40xhrfetchstreaming_html.html": {
+  "https://www.sankei.com/article/20260908-r74bjgpgtvlphkyjm27azpaay4": {
    "bodyBlocks": [
     {
-     "kind": "H",
-     "text": "HTMX 4.0正式リリース。内部実装がXHRからfetchに移行しStreaming HTMLが可能に、属性はデフォルトで子要素に継承されないように変更など"
-    },
-    {
      "kind": "P",
-     "text": "HTMLに属性を追加するだけで、Webページにサーバと連動した動的なアプリケーションの機能を追加できるJavaScriptライブラリ「HTMX」の最新バージョンとなる「HTMX 4.0」 正式版のリリースが発表されました 。"
-    },
-    {
-     "kind": "QUOTE",
-     "text": "very happy to announce the release of htmx 4! pic.twitter.com/Jo2i6v9piA — htmx.org / CEO of htmx 4 (same thing) (@htmx_org) August 28, 2026"
+     "text": "会員記事の閲覧など一部サービスがご利用できません。 ご迷惑をおかけしますがご理解のほどよろしくお願いいたします。"
     },
     {
      "kind": "H",
-     "text": "HTMLに属性を追加することで動的なWebページを作成可能に"
-    },
-    {
-     "kind": "P",
-     "text": "HTMXは、WebページのHTMLで動的な表示を実現したい部分のタグに「hx-」で始まる属性を設定することで、サーバへのHTTPリクエストの送信、サーバから受け取った差し替え用HTML（=HTMLフラグメント）をWebブラウザ上で動的に差し替える、といった動きを実現してくれます。"
-    },
-    {
-     "kind": "P",
-     "text": "これによりJavaScriptでWebアプリケーションを記述する代わりに、HTML/CSSとHTMXの属性を用いるだけでさまざまなWebアプリケーションが構築可能です。"
-    },
-    {
-     "kind": "P",
-     "text": "また、HTMXはHTTPリクエストをサーバへ投げて、その結果サーバから送られてくるHTMLフラグメントを動的に差し替える、という処理を備えたクライアント用のJavaScriptライブラリであるため、サーバ側のフレームワークに依存しない特徴を備えています。"
-    },
-    {
-     "kind": "P",
-     "text": "HTTPリクエストを受け取って、それに対応した結果をHTMLフラグメントとして送信できるサーバであれば、CGIやPHP、Node.js、Javaなどのどんなフレームワークやプログラミング言語にも対応します。"
+     "text": "ヘアモデル画像酷似で無断使用と提訴 「AI生成画像」に著作権あるのか、司法判断に注目"
     },
     {
      "kind": "H",
-     "text": "内部実装でXMLHttpRequestをfetchに刷新"
+     "text": "判例なく地裁判断注目"
     },
     {
      "kind": "P",
-     "text": "HTMX 4.0では、それまで内部的にサーバとの通信に使われていたXMLHttpRequestを、よりモダンなfetch APIに刷新しました。"
+     "text": "原告は、全国の美容室向けにヘアカットモデルのAI画像制作・販売などを行っている「Sai」。同社によると、1作品当たり1100円から2万円台で販売しており、購入した画像を独占使用できる権利の有無や、髪形など表現の細かさによって値段が変わる。現在は約4000店がサービスを利用しているという。"
     },
     {
      "kind": "P",
-     "text": "この変更によりHTMX 4.0の内部実装そのものがシンプルになったことに加えて、サーバへの一度のリクエストで複数の結果を受け取る「Streaming HTML」と呼ばれる新機能に対応できるようになりました。"
+     "text": "原告側は、販売している画像について、髪形、雰囲気、構図など詳細なプロンプト（指示書）を作ってAIに作成させ、人の手による修正・加工も行っているとし、「生成AIは『道具』の一つに過ぎず、スタッフの思想・感情が創作的に表現された知的創作物だ」と主張している。"
     },
     {
      "kind": "P",
-     "text": "Streaming HTMLは、例えばチャットAIからの回答のような、サーバから連続した多数の文字列が送られてくるのを受け取りつつ、同時に画面上にそれを順番に表示するような処理を可能にします。"
-    },
-    {
-     "kind": "P",
-     "text": "Streaming HTMLはHTMX 4.0の拡張機能として、追加のJavaScriptライブラリを読み込むことで「Server Sent Events」「Web Sockets」「Multi-Part Responses」の3種類の処理が可能になります。"
+     "text": "一方の被告側は、生成AIから出力された画像は、人が作ったものではなく、著作権法上の著作物の要件に該当しないと反論。このため著作権侵害も起こり得ないとして、原告に損害賠償請求権がないことの確認を求める訴訟を東京地裁に提起した。"
     },
     {
      "kind": "H",
-     "text": "属性の自動継承が行われなくなる"
+     "text": "指示・入力の分量が考慮要素に"
     },
     {
      "kind": "P",
-     "text": "HTMX 4.0における構文上の最大の変化は、HTMXとして記述した属性が親要素から子要素へとデフォルトでは継承されなくなったことです。"
+     "text": "今回の訴訟で、主要な争点になるとみられるのが、AI生成物に著作権法上の著作物性が認められるか否かだ。"
     },
     {
      "kind": "P",
-     "text": "これまでのHTMXでは属性は親要素から子要素へ自動的に継承されていましたが、これはコードの分かりにくさを生んだとして、HTMX 4.0では自動継承されなくなりました。自動継承させたい場合には属性に対して明示的に「:inherited」を追加する必要があります。"
-    },
-    {
-     "kind": "H",
-     "text": "イベント名の整理"
-    },
-    {
-     "kind": "P",
-     "text": "イベントの名称が整理されました。これまでは「htmx:beforeRequest」のように「htmx:イベント名」となっていましたが、HTMX 4.0では「htmx:フェーズ:アクション」となります。"
-    },
-    {
-     "kind": "P",
-     "text": "これは前述の「htmx:beforeRequest」が「htmx:before:request」のように記述されることになります。"
-    },
-    {
-     "kind": "H",
-     "text": "ヒストリー機能の改善"
-    },
-    {
-     "kind": "P",
-     "text": "HTMXはヒストリー機能をサポートしているため戻るボタンを実装できますが、これまではLocalStorageにWebページのスナップショットのキャッシュを保持していました。"
-    },
-    {
-     "kind": "P",
-     "text": "しかしこの方法ではサードパーティ製JavaScriptライブラリを組み合わせたときに、戻るボタンで元の状態に完全に戻らないことがあったとされています。"
-    },
-    {
-     "kind": "P",
-     "text": "そこでHTMLX 4.0では、戻る操作が行われたときには、Webページを再取得する方式に変更になりました。"
-    },
-    {
-     "kind": "H",
-     "text": "DOMを滑らかに置き換えるモーフィングスワップ"
-    },
-    {
-     "kind": "P",
-     "text": "その他、HTMX 4.0ではDOMツリーを別のDOMツリーへと滑らかに置き換える「モーフィングスワップ」という新機能が追加されました。"
-    },
-    {
-     "kind": "H",
-     "text": "HTMX 4.0移行用のスキルも公開"
-    },
-    {
-     "kind": "P",
-     "text": "HTMX 4.0は属性の自動継承が行われなくなり、イベント名も変わるなど、これまでのバージョンに対する破壊的な変更が行われているため、既存のHTMX 2.xからHTMX 4.0への移行にはアプリケーションの書き換えが必要になります。"
-    },
-    {
-     "kind": "P",
-     "text": "そこで開発チームではAIエージェントが移行作業を行うためのスキルファイルもインストールファイルの中に 含めていると説明しています 。これを用いることでAIエージェントによる移行の自動化が期待されます。"
+     "text": "Google検索で「産経ニュース」を優先表示。 ワンクリックで簡単登録"
     }
    ],
-   "checkedAt": 1788838361260,
+   "checkedAt": 1788924739407,
+   "etag": "W/\"2b731-tGQFpX+aY2x4Wa+kFt016z0mMtE\"",
+   "hash": "70fb1b1a390b6d37",
+   "id": "2ef7c830ed7c",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.sankei.com%2Farticle%2F20260908-R74BJGPGTVLPHKYJM27AZPAAY4%2F",
+   "key": "https://www.sankei.com/article/20260908-r74bjgpgtvlphkyjm27azpaay4",
+   "lastModified": "Wed, 09 Sep 2026 03:21:35 GMT",
+   "publishedAt": 1788879052000,
+   "summary": "原告企業が生成AIで制作し販売しているヘアカットモデルの画像（左）と、被告が無断で広告サイトに掲載したと原告側が主張している画像（いずれも原告側提供）生成AI（人工知能）を利用して作ったヘアカットモデルの画像と酷似した画像を無断で広告に使われ、著作権を侵害されたとして、大阪市のコンテンツ制作会社が千...",
+   "title": "ヘアモデル画像酷似で無断使用と提訴 「AI生成画像」に著作権あるのか、司法判断に注目",
+   "updatedAt": 1788924739407,
+   "url": "https://www.sankei.com/article/20260908-R74BJGPGTVLPHKYJM27AZPAAY4/"
+  },
+  "https://www.techno-edge.net/article/2026/09/09/5476.html": {
+   "bodyBlocks": [
+    {
+     "kind": "P",
+     "text": "Metaは、米国のユーザー向けに新しいパーソナルAIエージェント「Muse」を発しました。Metaが独自に開発したAIモデル「 Muse Spark 」を採用し、ウェブブラウジングやファイル操作、フォームへの入力、購入手続きといった幅広いタスクをバックグラウンドで自律的に実行します。"
+    },
+    {
+     "kind": "P",
+     "text": "Museはユーザーが質問を投げかけ、AIが答えを返すという「一問一答」形式ではなく、ユーザーが目標やタスクを設定すると、アプリを閉じている間もバックグラウンドで作業を継続し、重要な情報が出てきたときだけ通知を送るという仕組みを採用します。開発チームは「ユーザーの生活をより良くすること」をシステムの第一目標として掲げているとのこと。こうしたアプローチは、GoogleのGemini SparkやAnthropicのClaude Coworkなどですでに提供されています。"
+    },
+    {
+     "kind": "P",
+     "text": "Metaの開発者はMuseを紹介するブログ記事で「子どもの新学期準備をMuseに任せたところ、見落としていたスポーツの試合の申し込み締め切りを検知して知らせてくれた」と紹介しており、単なる情報検索にとどまらない実務的な補助を想定した設計となっていることをうかがわせています。"
+    },
+    {
+     "kind": "P",
+     "text": "Museは独自のファイルシステムとターミナルを持ち、必要に応じてコードを自ら記述してツールを作成できます。また、ブラウザーへのアクセス機能により、ウェブ検索やサイトのナビゲーション、フォーム入力、予約・購入といった操作も実行可能とのことです。"
+    },
+    {
+     "kind": "P",
+     "text": "チャット欄では従来の一問一答形式ではなく、一つの長い会話として継続するスタイルを採用しています。ユーザーは返答を待たずに複数のタスクを同時に送信でき、会話の文脈はセッションをまたいで維持されます。複雑なプロジェクトには「サイドチャット」機能で別の会話を管理することも可能です。"
+    },
+    {
+     "kind": "P",
+     "text": "Museが生成する出力はテキストだけでなく、ドキュメント、PDF、ウェブページ、インタラクティブなダッシュボードなどさまざまな形式に対応します。これらは「Artifacts（アーティファクト）」と呼ばれ、チャット内だけでなく独立した形でも利用可能とのことです。"
+    },
+    {
+     "kind": "P",
+     "text": "ユーザーが自身のアバターや名前、スタイルを自由に設定できるカスタマイズ機能も搭載されており、開発チームはこれが「ユーザーが最も反応する機能の一つ」だと紹介しています。"
+    },
+    {
+     "kind": "P",
+     "text": "安全面では、メール送信や購入といった「取り消しが難しい操作」に対して、ユーザーの承認を求める「ヒューマン・イン・ザ・ループ」機能を実装しています。承認の厳格さはユーザーが設定で調整可能で、Museの活動ログや付与した権限はアバターをタップすることで確認できます。また、目標の進捗や計画を一覧できる「Goalsタブ」も用意されています。"
+    },
+    {
+     "kind": "P",
+     "text": "なお、紹介したようなMuseの機能を存分に使おうとすれば、メールやカレンダー、決済情報、健康・フィットネスアプリ、スマートホームなど、ユーザーの日常に深く関わるアプリやサービスとの連携が必要になります。多くの個人情報をMetaに預けることになる点は、過去のMetaの個人情報の取り扱いを気にするのなら、よく検討すべきかもしれません。"
+    },
+    {
+     "kind": "P",
+     "text": "Metaは、ユーザー自身がどのアプリやサービスを連携させるかを一つずつ選択するオプトインの仕組みを採用することで、情報提供の透明性を高めていると説明しています。"
+    },
+    {
+     "kind": "P",
+     "text": "Museは基本的に無料で利用できますが、利用開始にはクレジットカードの登録が必要で、使用量が増えると有料プランへの移行が促されます。開始当初は有料プランとして月額20ドルの「Power」と、と月額100ドルの「Maximum」の2種類が用意され、いずれもMuseに対して日常的なタスクを任せるための利用枠が拡大します。とはいえMetaは、ユーザーの大半は無料プランで利用可能な範囲内に収まるの見込みを示しています。"
+    },
+    {
+     "kind": "P",
+     "text": "なおMuseのアプリでは使用量メーターが表示され、無料枠の残量を確認できるほか、上限に近づくと通知も届くようになっています。そのため、うっかり使い込んでしまい気がつけば上限に達していた、といった状況にはなりにくいと考えられます。"
+    },
+    {
+     "kind": "P",
+     "text": "Museは米国内ではすでに公式のウェブページ、iOSアプリ、Androidアプリ、WhatsAppのチャット経由で利用でき、MetaのAIグラスにも対応する予定です。"
+    }
+   ],
+   "checkedAt": 1788924739407,
    "etag": "",
-   "hash": "9ecf94d5bc0472de",
-   "id": "ea1bf396da60",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.publickey1.jp%2Fblog%2F26%2Fhtmx_40xhrfetchstreaming_html.html",
-   "key": "https://www.publickey1.jp/blog/26/htmx_40xhrfetchstreaming_html.html",
+   "hash": "02e6a8870417ebdc",
+   "id": "e39c64b2aa2f",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.techno-edge.net%2Farticle%2F2026%2F09%2F09%2F5476.html",
+   "key": "https://www.techno-edge.net/article/2026/09/09/5476.html",
    "lastModified": "",
-   "publishedAt": 1788792681000,
-   "summary": "HTMX 4.0正式リリース。内部実装がXHRからfetchに移行しStreaming HTMLが可能に、属性はデフォルトで子要素に継承されないように変更など HTMLに属性を追加するだけで、Webページにサーバと連動した動的なアプリケーションの機能を追加できるJavaScriptライブラリ「HTMX」の最新バージョンとなる「HTMX 4.0」正式版のリ...",
-   "title": "HTMX 4.0正式リリース。内部実装がXHRからfetchに移行しStreaming HTMLが可能に、属性はデフォルトで子要素に継承されないように変更など",
-   "updatedAt": 1788838361260,
-   "url": "https://www.publickey1.jp/blog/26/htmx_40xhrfetchstreaming_html.html"
+   "publishedAt": 1788907512000,
+   "summary": "Metaは、米国のユーザー向けに新しいパーソナルAIエージェント「Muse」を発しました。Metaが独自に開発したAIモデル「Muse Spark」を採用し、ウェブブラウジングやファイル操作、フォームへの入力、購入手続きといった幅広いタスクをバックグラウンドで自律的に実行します。",
+   "title": "Meta、パーソナルAIエージェント「Muse」発表。ユーザーの日常タスクを自律的に支援、セキュリティやプライバシーも考慮した設計うたう | テクノエッジ TechnoEdge",
+   "updatedAt": 1788924739407,
+   "url": "https://www.techno-edge.net/article/2026/09/09/5476.html"
   },
   "https://www.watch.impress.co.jp/docs/news/2139095.html": {
    "bodyBlocks": [],
@@ -5972,6 +5835,21 @@
    "updatedAt": 1788865227258,
    "url": "https://www.watch.impress.co.jp/docs/news/2139095.html"
   },
+  "https://www.watch.impress.co.jp/docs/news/2139192.html": {
+   "bodyBlocks": [],
+   "checkedAt": 1788924739407,
+   "etag": "",
+   "hash": "74fe39cff4864145",
+   "id": "ca778ec8fcfa",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.watch.impress.co.jp%2Fdocs%2Fnews%2F2139192.html",
+   "key": "https://www.watch.impress.co.jp/docs/news/2139192.html",
+   "lastModified": "",
+   "publishedAt": 1788861303000,
+   "summary": "",
+   "title": "「令和のトキワ荘」高輪に JR東日本が若手クリエイター拠点",
+   "updatedAt": 1788924739407,
+   "url": "https://www.watch.impress.co.jp/docs/news/2139192.html"
+  },
   "https://www.watch.impress.co.jp/docs/topic/2137766.html": {
    "bodyBlocks": [],
    "checkedAt": 1788904600552,
@@ -5987,111 +5865,191 @@
    "updatedAt": 1788904600552,
    "url": "https://www.watch.impress.co.jp/docs/topic/2137766.html"
   },
-  "https://zenn.dev/nakurei/articles/generate-trust-not-tests": {
+  "https://zenn.dev/gemcook/articles/herdr-worktree-parallel": {
    "bodyBlocks": [
     {
      "kind": "H",
-     "text": "テストを生成するな、信頼を生成しろ"
+     "text": "Herdr × git worktree × Claude Codeの相性がいい話"
+    },
+    {
+     "kind": "P",
+     "text": "こんにちは、村中（ @wage790 ）です。関西でバックエンド・クラウドインフラのエンジニアをしています。"
+    },
+    {
+     "kind": "P",
+     "text": "普段の開発でClaude Codeを1つだけ動かしていると、その応答をただ待つ時間ができてしまいます。そこで、Claude Codeを複数並べて動かすことにしました。ただそれだと、同じ作業ディレクトリで2つ動かした場合に、片方が git switch するともう片方が読んでいるファイルまで入れ替わってしまいます。それを避けるため、git worktreeで作業ディレクトリを分けました。"
+    },
+    {
+     "kind": "P",
+     "text": "ただ、worktreeを作るたびに git worktree add を打ってディレクトリを移動するのが今度は面倒に思えてきました。worktreeの数だけディレクトリとターミナルも増えてとっ散らかりますし。worktree自体はいいなと思うものの、それが面倒でいつしか使わなくなっていました。"
+    },
+    {
+     "kind": "P",
+     "text": "それから時間がたち、並列に動かしているAIエージェントの状態をひと目で把握するために、ターミナルマルチプレクサのHerdrを導入しました。気に入って使ううちに「あれ、これworktreeの管理とも相性がいいぞ」と気づき、worktreeにリベンジすることにしました。おかげで並列開発の環境が整ってよかったので、構成をまとめてシェアしようと思います。"
     },
     {
      "kind": "H",
-     "text": "これはなに"
+     "text": "git worktree"
     },
     {
      "kind": "P",
-     "text": "AIにコーディングを丸投げするなら、テストコードくらい確認しろという愚痴。"
+     "text": "git worktreeは、1つのリポジトリに複数の作業ディレクトリ（作業ツリー）を持たせるgitの機能です。 git worktree add で作り、 git worktree remove で消すまで残ります。cloneを増やすのと違って .git は共有されるので、ブランチもfetch済みのコミットも1か所で足ります。"
     },
     {
      "kind": "H",
-     "text": "背景 | ただの愚痴"
+     "text": "Claude Codeのworktree機能"
     },
     {
      "kind": "P",
-     "text": "私はここ1年ほど毎日のように、コードの構造や仕様をAIへ与え、それに基づいてテストケースを作らせている。もちろんコード自体も書かせている。そしてAIに書かせたコードをチームメンバーにレビューさせ、チームメンバーがAIに書かせたコードをレビューしている。まあこんなのはもはや、プログラマーにとっては日常だろう。"
-    },
-    {
-     "kind": "P",
-     "text": "だが、最近私はそれに困り悩まされている。自分が他人のコードを、とくにテストコードをレビューするとき、そもそも書かれたテスト自体まるで無意味なことが増えたからだ。"
-    },
-    {
-     "kind": "P",
-     "text": "たとえば最近あったのだと、内部実装を丸ごとモックしてモックのテストをしていた。検証すべき挙動が内部で呼ぶ関数をすべてモックしていたのだ。そんなテストにはなんの価値もない。 あるいは、内部属性をやたらと呼び出して、細かな処理や値ばかり無駄にテストで固定していたこともあった。そういう細かいところだけ数百行もテストを書くのに、本来テストで固定すべき仕様、全体の流れはまるで検証していない。そんなテストばかり。"
-    },
-    {
-     "kind": "P",
-     "text": "なにをどう考えてもテストコードをまったく読んでいない実装で、だからレビューではテストコード全体に対して、こうこうこうだから無意味だと説明しなければならなくなった。まったくもって時間の無駄だ。"
-    },
-    {
-     "kind": "P",
-     "text": "別にAIに実装させるのは構わない。テストコードを生成させるのも問題じゃない。そんなことは私もやっているし、今の時代プログラマーは誰でもやっているだろう。もし個人開発なら、自分しかコードを読まないのだろうから、自分の好きに書けばいいとも思う。"
-    },
-    {
-     "kind": "P",
-     "text": "だかしかし、 まるで何も保証しないテストコードを他人に丸投げし、レビューさせるのは許せない 。怒りが湧く。お前はこっちの時間をなんだと思ってるんだ？と思う。"
-    },
-    {
-     "kind": "P",
-     "text": "何より腹が立つのは、そのテストがなんの役にも立っていないと読めばわかることだ。いち人間が読んでわかるくらいなのだから、AIに「このテストは保証すべき挙動をテストしていますか？」とか「このテストは実装の詳細を固定してしまっていませんか？」とか雑に聞くだけでも粗がバンバン見つかる。そんな程度のことなのに、眺めもせず確認もしないでこちらに丸投げしてくる。それに憤りを覚える。"
+     "text": "Claude Codeにもworktree機能があります。 claude --worktree <名前> で起動すると、リポジトリのデフォルトブランチから worktree-<名前> という新しいブランチを切り、そのworktreeで作業します。名前は自分で決めるもので、省略するとClaude Codeが生成します。終了するとき、未コミットの変更も追跡外のファイルも新しいコミットもなければ、worktreeとブランチは自動で消えます。何か残っていれば、残すか消すかを聞かれます。"
     },
     {
      "kind": "H",
-     "text": "AIはテスト\"しか\"生成しない"
+     "text": "この記事で使うのはgit worktree"
     },
     {
      "kind": "P",
-     "text": "AIはテスト\"は\"生成する。だが生成するのはテストだけだ。そこに信頼はない。"
-    },
-    {
-     "kind": "P",
-     "text": "そもそも、生成されただけのテストコードに信頼性なんてものは皆無だ。そこにテストがあるからといって、それが仕様を検証しバグを検出するとは言えない。意味のあるテストにこそ価値があるのであって、 テストがあるというだけのことに価値はまったくない 。"
-    },
-    {
-     "kind": "P",
-     "text": "ことに、AIは明確な基準に左右されやすい。テストというわかりやすい明確な基準は、AIにとって格好のターゲットになる。 だからAIはテストに翻弄される。テストが通らないことを何よりも嫌い、通らないテスト自体を歪めて捏造しだす。明らかに通るテストだけを生成し、通らないテストなんてものは作らない。テストを通すとこだけを目的とし、目的の達成を何よりも重要視してしまう。"
-    },
-    {
-     "kind": "P",
-     "text": "そうしてAIは「絶対成功お利口テストコレクション」を生み出す。たくさんGreenを出し、ひとつもRedを出さない、お利口さんテストコレクション。はぁ、やんなっちゃう。ただ通るだけのテストに何の意味がある？"
+     "text": "2つは向いている場面が違います。終わったら消してよい短時間の作業、たとえばレビューや小さな検証には、作成も削除も自動のClaude Codeのworktree機能が手軽です。一方、今回やりたいのは、課題ごとに切ってある既存のブランチで数日作業し、そのworktreeでローカルサーバーも起動することです。既存のブランチをチェックアウトしたいときはgitを直接使うよう公式も案内しているので、今回は作成も削除も自分で決められるgit worktreeを使います。"
     },
     {
      "kind": "H",
-     "text": "信頼を生成するのは実装者でありレビュワーだ"
+     "text": "Herdrのここが好き"
     },
     {
      "kind": "P",
-     "text": "そりゃ胃も参る。いちレビュワーとして、そこにあってほしいのは絶対成功お利口テストコレクションじゃない。守るべき仕様を保証し、仕様違反を明確に捉えられるような、意味のあるテストだ。"
+     "text": "Herdrは、AIコーディングエージェント向けに作られたRust製のターミナルマルチプレクサです。"
     },
     {
      "kind": "P",
-     "text": "意味のあるテストに関して、私は「リファクタリングに役立つテスト」というのをひとつの基準としている。リファクタリングによって挙動が変わってしまったら、きちんと落ちるようなもの。あるいは、リファクタリングで内部実装の詳細が変わっても、挙動が同じなら通るもの。そういうテストが個人的に意味のあるテストだと思っている。"
+     "text": "1つ目は、ペイン（画面を分割した1区画）の中身がClaude Codeだと認識して、動作中なのか入力を待っているのかをサイドバーに表示してくれることです。Herdrはサイドバーで、各ペインのClaude Codeをエージェントとして一覧で見れます。"
     },
     {
      "kind": "P",
-     "text": "まあ意味のあるテストの基準は人それぞれで構わない。 もっとも大事なのは、「そのテストは信頼できるのか？」ということだ 。それが通る、あるいは通らないことで伝えてくるものは何か？ということ。そのテストは適切なリスクを検出できるのか？ということ。その信頼があって初めて、テストを通す意味が生まれる。"
+     "text": "2つ目は、使い慣れたターミナルをそのまま使えることです。以前は同じ用途でcmuxを使っていましたが、あちらはターミナルアプリ自体を置き換えます。Herdrはターミナルを置き換えないので、Ghosttyの中でそのまま動きます。"
     },
     {
      "kind": "P",
-     "text": "じゃあテストを信頼できると誰が決めるのか？それは実装者でありレビュワーだ。そのテストが半年後も役立つかどうか、判断する責任は人間にある。"
+     "text": "3つ目は、Herdrの機能をCLIからも操作できることです。ペインの分割は herdr pane split 、worktreeの作成は herdr worktree create のように、UIでできることはコマンドでもできます。"
     },
     {
      "kind": "H",
-     "text": "信頼を生成しろ"
+     "text": "Herdr × git worktree × Claude Codeの相性がいい理由"
+    },
+    {
+     "kind": "LI",
+     "text": "git worktreeがブランチごとに作業ディレクトリを分ける"
+    },
+    {
+     "kind": "LI",
+     "text": "Herdrがそのディレクトリをペインとして画面に並べ、CLIからも操作できるようにする"
+    },
+    {
+     "kind": "LI",
+     "text": "Claude CodeがAgent Skillを読んで、その両方のコマンドを叩く"
     },
     {
      "kind": "P",
-     "text": "AIは大量のテストコードを生成できる。下手すると無限に。だが、テストは多けりゃいいってもんじゃない。テストコードが増えれば増えるほど、テストコードに対するメンテナンス負荷も増大する。メンテナンスされないテストをただ回し続けたところで、作業負荷と技術的負債が増えるだけだ。"
+     "text": "相性がいいのは、gitのコマンドだけでなく、Herdrの画面の操作まで、Claude Codeに依頼すれば全部やってくれるからです。"
     },
     {
      "kind": "P",
-     "text": "AIに書かせたテストコードを丸投げするだけで、実装者への信頼は簡単に失墜する 。「絶対成功お利口テストコレクション」に対して何の疑問も持たず、他人にレビューしてくれと投げるような実装者を信頼しろ？無茶な話だ。"
+     "text": "Herdrは、Herdr CLIの使い方をClaude Codeに教える公式のAgent Skill（エージェントに手順書を読ませる仕組み）を配布しています。入れておくと、Claude CodeがHerdrのコマンドを叩けます。"
     },
     {
      "kind": "P",
-     "text": "そもそも、技術的に通るテストが実際のバグを見逃すことなんてザラにある。何をテストするかを決めるには、ドメインを理解し、組織のリスク許容度を理解し、失敗を許容できない領域を知っていなければならない。どの制御が重要かを判断し、深刻な問題を見逃したときの責任を負うのは組織であり人間だ。組織の許容できない深刻なバグを見逃すテストに価値があるか？ないだろ。"
+     "text": "最初にcloneした作業ディレクトリを開いているペインで「herdrで feature/user-auth のworktree作ってClaude Code立ち上げて」と頼むと、隣に新しいペインが生えて、そのworktreeのディレクトリでClaude Codeが立ち上がります。"
     },
     {
      "kind": "P",
-     "text": "信頼を生成しろ。信頼を生成しないテストはただのゴミだ。テストを何よりも信頼できる検証レイヤーとして構築しろ。"
+     "text": "Claude Codeに依頼してから、worktreeのペインが隣に並ぶまで"
+    },
+    {
+     "kind": "P",
+     "text": "特に、ペインの分割までやってくれるのが嬉しいですね。並列開発をしていると、ペインを分割→移動→Claude Code起動、が何度も発生していたので。"
+    },
+    {
+     "kind": "P",
+     "text": "削除も同じです。「このworktreeはもう消していい」と伝えると、worktreeとペインがまとめて消えます。消し忘れたworktreeも残らないので、worktreeが残って散らかることもないです。"
+    },
+    {
+     "kind": "H",
+     "text": "1リポジトリ = 1画面 = 横並びworktreeにカスタマイズしてみた"
+    },
+    {
+     "kind": "P",
+     "text": "Claude Codeのhookを使って、ターミナルの見た目を「1リポジトリ = 1画面 = 横並びworktree」にしたのですが、これがなかなかよかったのでシェアします。"
+    },
+    {
+     "kind": "P",
+     "text": "一番左のペインが最初にcloneした作業ディレクトリ、右2つがworktreeのペイン。3つとも同じリポジトリで、開いているディレクトリとブランチだけが違う"
+    },
+    {
+     "kind": "P",
+     "text": "Herdrのデフォルトでは、1つのworktreeが1つのSpace（ペインをまとめる画面の単位）になります。 herdr worktree create がworktreeごとに新しいSpaceを開くためです。"
+    },
+    {
+     "kind": "P",
+     "text": "個人的にはworktree単位ではなくリポジトリ単位で管理したかったので、hookを使って、同じリポジトリのworktreeを1つのSpaceに集めるようにしました。"
+    },
+    {
+     "kind": "P",
+     "text": "デフォルト。worktreeを3本作ると、Spaceも3つ増える"
+    },
+    {
+     "kind": "P",
+     "text": "同じリポジトリの作業を1画面で見渡せると、どのペインが動いていてどれが入力を待っているのかを、画面を切り替えずに追えて良きです。"
+    },
+    {
+     "kind": "P",
+     "text": "追加したのはClaude Codeの SessionStart hookです。セッションが始まったときに任意のコマンドを実行できるので、ここにスクリプトを登録しました。（Herdrの設定はいじっていません）"
+    },
+    {
+     "kind": "H",
+     "text": "登録したスクリプトの内容"
+    },
+    {
+     "kind": "P",
+     "text": "~/.claude/settings.json の SessionStart に登録します。"
+    },
+    {
+     "kind": "P",
+     "text": "~/.claude/hooks/herdr-repo-workspace.sh の全文です。"
+    },
+    {
+     "kind": "H",
+     "text": "①Spaceの名前をリポジトリ名にそろえる"
+    },
+    {
+     "kind": "P",
+     "text": "現在のディレクトリのリポジトリ名と同じ名前のSpaceを探し、いま起動したClaude Codeのペインをそこに移動するようにもしました。同じ名前のSpaceがなければ、いまのSpaceの名前をリポジトリ名に変えます。空になったworktree用のSpaceは、Herdrが自動で閉じてくれます。"
+    },
+    {
+     "kind": "H",
+     "text": "②ペインは横一列に、3つまで並べる"
+    },
+    {
+     "kind": "P",
+     "text": "ペインの並べ方もルールとして決めて、自分が見やすい状態が常に保たれるようにもしました。"
+    },
+    {
+     "kind": "P",
+     "text": "ペインは横一列に追加し、1画面あたり3つまで、1つの幅は50桁を下回らないようにします。上下に分割されると1つあたりが短くなって読みづらく、4つ以上に増えると把握しきれないなと思ったためです。条件を満たさないときスクリプトはペインを動かさないので、そのworktreeのペインはHerdrが開いた新しいSpaceにそのまま残ります。"
+    },
+    {
+     "kind": "H",
+     "text": "③ブランチごとに色ラベルを付ける"
+    },
+    {
+     "kind": "P",
+     "text": "並んだペインはどれも同じリポジトリを開いているので、パッと見の区別が付きません。せっかく1画面に集めたので、どれがどのブランチかもひと目で分かるようにしました。"
+    },
+    {
+     "kind": "P",
+     "text": "同じhookが、ブランチ名をもとにペインの枠線へラベルを付けます。Herdr 0.8.0（この記事執筆時点）にはペインごとに色を変える設定が見当たらなかったので、ラベルの先頭に色付きの絵文字をつけました。色はブランチ名のハッシュで6色から選ぶため、同じブランチなら毎回同じ色になります。hookはエージェント名も同じブランチ名にそろえるので、サイドバーの一覧とペインの並びで対応が取れます。"
+    },
+    {
+     "kind": "P",
+     "text": "ペイン上部のラベル。色とブランチ名で、どのペインの作業か分かる"
     },
     {
      "kind": "H",
@@ -6099,37 +6057,101 @@
     },
     {
      "kind": "P",
-     "text": "そのテストが何を保証するのか説明できないまま、他人にレビューさせるな😡。"
+     "text": "Herdrを入れてからは、worktreeの作成も削除もClaude Codeに頼むだけになりました。hookで画面の見え方も整理できているので、いまは「1リポジトリ = 1画面 = 横並びworktree」に落ち着いています。"
     },
     {
-     "kind": "H",
-     "text": "参考リンク"
+     "kind": "P",
+     "text": "普段は2つか3つのペインを開いて、1つのペインの差分をレビューしている間に、別のペインのClaude Codeが実装を進めている、という使い方になりました。worktreeを触っている感覚はほとんどなく、無理なくworktreeの並列開発ができているという感覚です。"
+    },
+    {
+     "kind": "P",
+     "text": "Herdrのプラグインを使い倒したらより便利になるかもしれません。いい知見が見つかればXか記事でシェアしようと思います。"
+    },
+    {
+     "kind": "P",
+     "text": "「好きな人を喜ばせるプロダクトを作る」をMissionに日々開発しています。モバイル/Webアプリの企画・UI/UX設計・開発・運用までサポート。TypeScript、React、React Native、Next.js、Hono、Go、AWS、Cloudflare、AI関連 ← この辺が好きな会社です🐿️"
     },
     {
      "kind": "H",
      "text": "Discussion"
-    },
-    {
-     "kind": "P",
-     "text": "AIにコーディングを丸投げするなら、テストコードくらい確認しろってのはそうなんだけど、AIに丸投げする人はテストコード読めないと思う。 どういうテストコードを作らせるかちゃんと指示しろってのはそう"
-    },
-    {
-     "kind": "P",
-     "text": "境界の引き方がアーキテクチャ、テスト方針として予め皆で共有するプロンプトにあればいいなぁと思います… E2Eテスト、レイヤー別のテストは書いてもらって、レイヤー内のテストは不要、と指示する感じですね。また、そもそもテストコードを生成させた人自体がレビューしやすくなる環境作りは必要かなとも。例えばテストコードの基本の流れを概要説明する資料があれば、その資料を隣に置いてテストコードをチェック出来ます。私はレビューやれる派ではありますが、文字量の多さと構文解析と意味の理解など、コンテキストスイッチが辛くてテストコードを読むのは億劫です。なので、テストコード毎に対応するパラメータや状態の組合せ表をAIに出させれば大分楽になります。ガイドがあれば自己レビューの一歩目も踏み出しやすくなるのでその環境作りが課題ですねぇ"
     }
    ],
-   "checkedAt": 1788904600552,
-   "etag": "\"wun0pod9h320a3\"",
-   "hash": "5dcaf91a2a860bd4",
-   "id": "68d9f182de02",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fzenn.dev%2Fnakurei%2Farticles%2Fgenerate-trust-not-tests",
-   "key": "https://zenn.dev/nakurei/articles/generate-trust-not-tests",
+   "checkedAt": 1788924739407,
+   "etag": "\"10hdj9lwj3859pn\"",
+   "hash": "98bb67f825ced28a",
+   "id": "96be0ef9d144",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fzenn.dev%2Fgemcook%2Farticles%2Fherdr-worktree-parallel",
+   "key": "https://zenn.dev/gemcook/articles/herdr-worktree-parallel",
    "lastModified": "",
-   "publishedAt": 1788817703000,
-   "summary": "これはなに AIにコーディングを丸投げするなら、テストコードくらい確認しろという愚痴。 背景 | ただの愚痴 私はここ1年ほど毎日のように、コードの構造や仕様をAIへ与え、それに基づいてテストケースを作らせている。もちろんコード自体も書かせている。そしてAIに書かせたコードをチームメンバーにレビューさせ、チー...",
-   "title": "テストを生成するな、信頼を生成しろ",
-   "updatedAt": 1788904600552,
-   "url": "https://zenn.dev/nakurei/articles/generate-trust-not-tests"
+   "publishedAt": 1788866022000,
+   "summary": "こんにちは、村中（@wage790）です。関西でバックエンド・クラウドインフラのエンジニアをしています。 普段の開発でClaude Codeを1つだけ動かしていると、その応答をただ待つ時間ができてしまいます。そこで、Claude Codeを複数並べて動かすことにしました。ただそれだと、同じ作業ディレクトリで2つ動かした場合に、片...",
+   "title": "Herdr × git worktree × Claude Codeの相性がいい話",
+   "updatedAt": 1788924739407,
+   "url": "https://zenn.dev/gemcook/articles/herdr-worktree-parallel"
+  },
+  "https://zenn.dev/myuron/articles/3c09e7e697d9de": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "Techはすぐに追ったほうがいい"
+    },
+    {
+     "kind": "H",
+     "text": "はじめに"
+    },
+    {
+     "kind": "P",
+     "text": "このブログはTechに関する思想です。 興味があれば続きを覗いてみてください。"
+    },
+    {
+     "kind": "H",
+     "text": "Techって面白い"
+    },
+    {
+     "kind": "P",
+     "text": "私はターミナルが好きだ。テキストエディタも好きだ。特にNeovimが好きだ。 私はインフラエンジニアなので、Vimは日常的に使っていたが、普通に使いづらいと思っていたし、矢印キーを多用していたのでVimmerなんて名乗っていい者ではなかった。 だが、ハッカーはVimやEmacsを愛用してるため、Vimには何回か本当の意味で挑戦したが挫折していた。 そもそもVimPluginという概念を知らず、これでどうやってVSCodeみたいに開発するんやと思ってた。 私が本格的にのめり込んだのは、Tech WorldのVimの動画(ryoppippi氏出演回)を見てからだった。 https://youtu.be/XsAlXYWzcv4?si=gcbYOXH8jRmvdB5x ゴリゴリにカスタマイズされたNeovimを見て、こんなことができるのか！と感動したし、LSPというものを知り、こうやってVimで開発するのかと、先述した疑問が拭えた。 思考の速度で編集するカッコ良さを知り、実践Vim入門を買って操作を覚え。pluginで武装してコーディングを楽しんでいた。 しかし、この楽しさは長くは持たなかった。"
+    },
+    {
+     "kind": "H",
+     "text": "時代の流れ"
+    },
+    {
+     "kind": "P",
+     "text": "私がVimにのめり込んだのは2025年12月頃だ。 2025年11月はopus4.5がリリースされ、世間はAI一色だった。 そこから流れは速かった。Vibe Codingが大盛り上がりし、人が手でコーディングせず、AIに書かせる時代となった。 つまり私がゴリゴリにカスタマイズしたNeovimでコーディングをするという楽しさを味わう期間はほぼなかった。 Plugin開発にも興味をもったがエコシステムは充実しきっており、更にVibe Codingの流れでPluginを外していく流れさえもあった。 もっと早くNeovimにハマりたかった。 さぞ、AIが今ほど主流じゃないときのplugin開発は楽しかったんじゃないかと想像している。私もその時代に切磋琢磨し遊びたかった。 とはいえ、Vimを通してコミュニティに出会い、友人や知り合いも増えた。コミュニティで技術の話をするのは面白い。 のめり込むトリガーになってくれたTech Worldやryoppippi氏にはとても感謝しています。"
+    },
+    {
+     "kind": "H",
+     "text": "Techはすぐに追った方がいい。"
+    },
+    {
+     "kind": "P",
+     "text": "こんな感じで私は流れに乗り遅れた。 同じような境遇の人も多いのではないだろうか。 Techは面白いが時代の流れは速い。 まだ残ってる自分が興味がある領域はAIのための環境整備やCLIツール開発だろうか。 まだ残ってる面白いTech領域を遊べる時に遊んでおくべきだと思う。これらに触れるのは速いほうがいい。 車輪の再開発でも、自分が歯痒いと感じるところを実現した、自分のためのCLIツール開発でもいいだろう。 まだ、私はNeovimが好きだし、Markdownを書くために使っている。だからnvimxというNeovim PluginをNixで管理するためのモジュールを作った。(宣伝) https://github.com/myuron/nvimx ついでに書くがNixは面白い。Nixで開発環境を構築する有用性は高い。ぜひ使ってほしい。"
+    },
+    {
+     "kind": "H",
+     "text": "おわり"
+    },
+    {
+     "kind": "P",
+     "text": "かなり殴り書きした記事で大変申し訳なく、言いたいことが伝わっているか不安だが、言いたいことは、時代の流れは速いから、面白いことは遊べるうちに遊んでおいてほしいということだ。 きっとこの先でも役に立つことはあるはず。 ここまで読んでいただいた方、ありがとうございました。"
+    },
+    {
+     "kind": "H",
+     "text": "Discussion"
+    }
+   ],
+   "checkedAt": 1788924739407,
+   "etag": "\"815ixa82g41k21\"",
+   "hash": "09d4cd463b567958",
+   "id": "9ff6299a3a25",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fzenn.dev%2Fmyuron%2Farticles%2F3c09e7e697d9de",
+   "key": "https://zenn.dev/myuron/articles/3c09e7e697d9de",
+   "lastModified": "",
+   "publishedAt": 1788877207000,
+   "summary": "はじめに このブログはTechに関する思想です。 興味があれば続きを覗いてみてください。 Techって面白い 私はターミナルが好きだ。テキストエディタも好きだ。特にNeovimが好きだ。 私はインフラエンジニアなので、Vimは日常的に使っていたが、普通に使いづらいと思っていたし、矢印キーを多用していたのでVimmerなんて...",
+   "title": "Techはすぐに追ったほうがいい",
+   "updatedAt": 1788924739407,
+   "url": "https://zenn.dev/myuron/articles/3c09e7e697d9de"
   },
   "https://zenn.dev/sprix_it/articles/cdf8a39ee9de62": {
    "bodyBlocks": [
@@ -6482,15 +6504,171 @@
    "title": "開発環境のNATゲートウェイをNATインスタンスに移行してコスト大幅削減した話",
    "updatedAt": 1788838361260,
    "url": "https://zenn.dev/sprix_it/articles/cdf8a39ee9de62"
+  },
+  "https://zenn.dev/yamatechi/articles/vite-monorepo-react-dedupe": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "React 19移行で学んだpnpmの依存関係解決の仕組み"
+    },
+    {
+     "kind": "P",
+     "text": "こんにちは、Dress Code でプロダクトエンジニアをしているてちです！"
+    },
+    {
+     "kind": "P",
+     "text": "少し前にアプリケーションで利用しているReactについて、React18からReact19への移行を行いました。"
+    },
+    {
+     "kind": "P",
+     "text": "今回は移行で遭遇した不具合について、調査をしていく中で多くの学びがあったので記事にしてみました。"
+    },
+    {
+     "kind": "H",
+     "text": "React19移行で見つかった謎の不具合"
+    },
+    {
+     "kind": "P",
+     "text": "pnpm workspaceとViteを使うモノレポで、複数あるReactアプリケーションの一つをReact19に更新しました。他のアプリはReact18のままだったため、両方のバージョンが共存している状態です。"
+    },
+    {
+     "kind": "H",
+     "text": "React19へ移行したアプリに古いReactが紛れ込む！？"
+    },
+    {
+     "kind": "P",
+     "text": "エラーを調べてみると、 #525 は古い形式のReact要素を描画しようとしたときのエラー というもののようでした。対象アプリの react も react-dom もReact19にしたはずなのに、なぜ古いReactの要素が出てきたのか不思議だったので仕組みを追ってみました。"
+    },
+    {
+     "kind": "H",
+     "text": "1. importの解決先を記録して混入元を探す"
+    },
+    {
+     "kind": "P",
+     "text": "どこから古いReactが入ったのかを追うため、 resolveId フックを使ってみました。調査用プラグインをViteに追加し、「どのファイルが何をimportしたか」と this.resolve() が返す解決先をセットで記録しました。"
+    },
+    {
+     "kind": "P",
+     "text": "このプラグインを既存の plugins に追加してビルドし、 trace をJSONへ保存しました。その中で見つかったのが次の記録です。"
+    },
+    {
+     "kind": "P",
+     "text": "記録したReact関連の解決処理のうち、React18を指していたのは国旗ライブラリ country-flag-icons@1 からの1件だけでした。該当ファイルには import React from \"react\" があり、ここからReact18を参照しているようでした。"
+    },
+    {
+     "kind": "P",
+     "text": "一方、アプリのReactとReact DOM、 react/jsx-runtime の解決先はすべてReact19になっていました。"
+    },
+    {
+     "kind": "H",
+     "text": "2. import先はアプリのルートから探すわけではなかった"
+    },
+    {
+     "kind": "P",
+     "text": "なぜライブラリだけ別のReactを参照していたのか、Viteの実装を調べてみました。通常はimportを書いたファイルのディレクトリから親へ上がりながら、各階層の node_modules を探す流れになっていました。起点はアプリのルートではなかったんですね。"
+    },
+    {
+     "kind": "P",
+     "text": "この仕組みで考えると、例えば apps/web/src/Button.tsx に import React from 'react' があれば、探索は次のようになります。"
+    },
+    {
+     "kind": "P",
+     "text": "さらに resolve.preserveSymlinks の説明を読むと、標準の false ではシンボリックリンクをたどった実体のパスを使うとありました。ライブラリ内のimportを追うには、アプリ側のリンクだけでなく、その先にある実体の場所も見る必要がありそうです。"
+    },
+    {
+     "kind": "H",
+     "text": "3. アプリのnode_modulesにあったのはリンクだった"
+    },
+    {
+     "kind": "P",
+     "text": "では、ライブラリの実体はどこにあるのでしょうか。pnpmの node_modules の構造も確認してみました。"
+    },
+    {
+     "kind": "P",
+     "text": "今回の構成では country-flag-icons を含むパッケージの実体はモノレポ直下の node_modules/.pnpm に置かれていました。各アプリの node_modules にあったのは、それぞれが使うバージョンの実体を指すシンボリックリンクでした。"
+    },
+    {
+     "kind": "P",
+     "text": "また、 node_modules/.pnpm/node_modules にもReactへのリンクがありました。これは hoist と言って、解決できない依存関係がある場合に共通の参照先として利用されるようでした。"
+    },
+    {
+     "kind": "H",
+     "text": "4. 共通の参照先にはなぜReact18が選ばれたのか"
+    },
+    {
+     "kind": "P",
+     "text": "共通の参照先にReactがあることはわかりましたが、なぜReact19ではなくReact18だったのでしょうか。複数のアプリが異なるバージョンを使う場合の選び方も調べてみました。"
+    },
+    {
+     "kind": "P",
+     "text": "利用していたpnpmの実装では、ワークスペースのパスをソートしてから直接依存をまとめていました。同じパッケージ名が複数あっても、先に見つかった参照先を残す処理になっており、lockfileの記述順やバージョンの新旧で選ぶわけではないようでした。 ちなみに最新バージョンでも実装は同じようです。"
+    },
+    {
+     "kind": "H",
+     "text": "今回React18が参照された流れ"
+    },
+    {
+     "kind": "P",
+     "text": "この経路をたどると、アプリ側の apps/web/node_modules/react を通らないことがわかります。アプリの package.json にReact19を指定していても、国旗ライブラリからはReact18が見つかる理由がようやくつながりました。"
+    },
+    {
+     "kind": "H",
+     "text": "resolve.dedupeでアプリ内の参照先を揃えた"
+    },
+    {
+     "kind": "P",
+     "text": "対処として対象アプリのVite設定に resolve.dedupe を追加しました。以下は実際の設定から、今回の混入に関係する react の指定を抜き出したものです。"
+    },
+    {
+     "kind": "P",
+     "text": "resolve.dedupe は、指定したパッケージをプロジェクトのルートから強制的に同一のコピーとして解決し、依存関係の重複を防ぐための設定オプションです。プロジェクトルートを基準に探すことで、ライブラリの import React from 'react' もReact19を参照するようになるんですね。"
+    },
+    {
+     "kind": "P",
+     "text": "ビルドし直したところ、国旗ライブラリの react の参照先がReact18からReact19へ切り替わりました。ビルド成果物にReact18のモジュールが含まれなくなり、不具合が解消したことも確認できました！🙌"
+    },
+    {
+     "kind": "H",
+     "text": "まとめ"
+    },
+    {
+     "kind": "P",
+     "text": "今回の調査で、pnpm workspaceのパッケージ配置とViteがimport先を探す仕組みへの理解が深まりました。最初は古いReactがどこから来たのかわかりませんでしたが、配置や解決先を一つずつ確認することで原因を追うことができました。"
+    },
+    {
+     "kind": "P",
+     "text": "同じ #525 エラーに遭遇したら、ライブラリが参照しているReactも確認してみてください。今回のようにViteで異なるバージョンが混ざっているなら、 resolve.dedupe で参照先を揃える方法が対処の候補になると思います。"
+    },
+    {
+     "kind": "P",
+     "text": "理解が違っているところや似た事例があれば、コメントで教えてもらえるとうれしいです。"
+    },
+    {
+     "kind": "H",
+     "text": "Discussion"
+    }
+   ],
+   "checkedAt": 1788924739407,
+   "etag": "\"2f6jmtbaya26qn\"",
+   "hash": "ca1fe6a0b11148c7",
+   "id": "dee346a729ad",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fzenn.dev%2Fyamatechi%2Farticles%2Fvite-monorepo-react-dedupe",
+   "key": "https://zenn.dev/yamatechi/articles/vite-monorepo-react-dedupe",
+   "lastModified": "",
+   "publishedAt": 1788844782000,
+   "summary": "React19移行で見つかった謎の不具合 pnpm workspaceとViteを使うモノレポで、複数あるReactアプリケーションの一つをReact19に更新しました。他のアプリはReact18のままだったため、両方のバージョンが共存している状態です。 変更後、検証していると謎の不具合に遭遇しました。 React19へ移行したアプリに古いReactが紛...",
+   "title": "React 19移行で学んだpnpmの依存関係解決の仕組み",
+   "updatedAt": 1788924739407,
+   "url": "https://zenn.dev/yamatechi/articles/vite-monorepo-react-dedupe"
   }
  },
  "listing": {
   "https://b.hatena.ne.jp/hotentry/it.rss": {
-   "checkedAt": 1788904601661,
+   "checkedAt": 1788924740427,
    "etag": "",
    "lastModified": ""
   }
  },
  "siteId": "hatena_it",
- "updatedAt": 1788904644462
+ "updatedAt": 1788924784043
 }

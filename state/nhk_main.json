@@ -675,6 +675,21 @@
    "updatedAt": 1788865347000,
    "url": "https://news.web.nhk/newsweb/na/nd-20260908de49121"
   },
+  "https://news.web.nhk/newsweb/na/nd-20260908de49138": {
+   "bodyBlocks": [],
+   "checkedAt": 1788924874866,
+   "etag": "",
+   "hash": "252c559b9dbc04a2",
+   "id": "23bec3149ac8",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260908de49138",
+   "lastModified": "",
+   "publishedAt": 1788924104000,
+   "summary": "ネパールと中国の国境付近で大規模な土石流が発生してから、9日で2週間です。被災地ではいまも行方が分からない人たちの捜索が続き、ネパール政府は、今回の災害の一因と指摘される地球温暖化への対策の強化と国際…",
+   "title": "ネパール土石流 発生から2週間 温暖化への対応求める声も",
+   "updatedAt": 1788924874866,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260908de49138"
+  },
   "https://news.web.nhk/newsweb/na/nd-20260908de49169": {
    "bodyBlocks": [],
    "checkedAt": 1788904679662,
@@ -689,6 +704,21 @@
    "title": "アメリカ 共和党が初めて中間選挙前に党大会開催へ 焦点は",
    "updatedAt": 1788904679662,
    "url": "https://news.web.nhk/newsweb/na/nd-20260908de49169"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260908de49178": {
+   "bodyBlocks": [],
+   "checkedAt": 1788924874866,
+   "etag": "",
+   "hash": "6c61802c95b6cc08",
+   "id": "f954e599e6af",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260908de49178",
+   "lastModified": "",
+   "publishedAt": 1788924629000,
+   "summary": "東京 葛飾区で、上智大学の女子学生が殺害され、自宅が放火された事件は未解決のまま、9日で30年となりました。遺族や警視庁は、自宅の跡地に花を手向けるとともに、改めて情報の提供を呼びかけました。",
+   "title": "上智大生殺害放火事件 未解決のまま30年 情報提供を呼びかけ",
+   "updatedAt": 1788924874866,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260908de49178"
   },
   "https://news.web.nhk/newsweb/na/nd-20260909de49187": {
    "bodyBlocks": [],
@@ -722,17 +752,17 @@
   },
   "https://news.web.nhk/newsweb/na/nd-20260909de49198": {
    "bodyBlocks": [],
-   "checkedAt": 1788904679662,
+   "checkedAt": 1788924874866,
    "etag": "",
-   "hash": "c96f94b6a8ce7c8d",
+   "hash": "8588cecbe84fbc63",
    "id": "b03a203dd422",
    "imageUrl": "",
    "key": "https://news.web.nhk/newsweb/na/nd-20260909de49198",
    "lastModified": "",
-   "publishedAt": 1788904005000,
-   "summary": "秋雨前線の活動が活発になり、東海では8日、線状降水帯が発生して浸水や冠水の被害が相次いだほか、庄内川には一時、レベル5氾濫特別警報が発表されました。この時間も四国で非常に激しい雨が降るなど西日本と東日…",
-   "title": "大雨続く見込み 各地で線状降水帯発生のおそれ",
-   "updatedAt": 1788904679662,
+   "publishedAt": 1788922882000,
+   "summary": "活発な秋雨前線や低気圧の影響で9日も本州の広い範囲で大気の状態が非常に不安定になり、東海や四国では断続的に非常に激しい雨が降っています。\n近畿と東海では今後線状降水帯が発生して災害の危険度が急激に高ま…",
+   "title": "四国や東海で非常に激しい雨 各地で線状降水帯のおそれも",
+   "updatedAt": 1788924874866,
    "url": "https://news.web.nhk/newsweb/na/nd-20260909de49198"
   },
   "https://news.web.nhk/newsweb/na/nd-20260909de49200": {
@@ -764,15 +794,60 @@
    "title": "大手金融グループ 個人向けサービス強化で預金獲得目指す",
    "updatedAt": 1788904679662,
    "url": "https://news.web.nhk/newsweb/na/nd-20260909de49205"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260909de49220": {
+   "bodyBlocks": [],
+   "checkedAt": 1788924874866,
+   "etag": "",
+   "hash": "24438f53449ecd0d",
+   "id": "34be069ecc2f",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260909de49220",
+   "lastModified": "",
+   "publishedAt": 1788923971000,
+   "summary": "8日に浸水や冠水の被害が相次いだ名古屋市内、一夜明けた様子を取材しました。",
+   "title": "名古屋 大雨 一夜明けた市内の様子は",
+   "updatedAt": 1788924874866,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260909de49220"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260909de49243": {
+   "bodyBlocks": [],
+   "checkedAt": 1788924874866,
+   "etag": "",
+   "hash": "d5518af8fe3b1a4a",
+   "id": "14da8dcf83e3",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260909de49243",
+   "lastModified": "",
+   "publishedAt": 1788918567000,
+   "summary": "香川県三豊市は河川の氾濫と土砂災害が発生するおそれが高まっているとして、9日午前8時40分に市内全域の2万6468世帯、5万9254人に避難指示を出しました。\n危険な場所から全員避難するよう呼びかけ…",
+   "title": "香川 三豊 市内全域に避難指示 河川氾濫と土砂災害のおそれ",
+   "updatedAt": 1788924874866,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260909de49243"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260909de49247": {
+   "bodyBlocks": [],
+   "checkedAt": 1788924874866,
+   "etag": "",
+   "hash": "cb57eea02c1249fb",
+   "id": "a439550fc451",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260909de49247",
+   "lastModified": "",
+   "publishedAt": 1788921927000,
+   "summary": "中東地域を管轄するアメリカ中央軍は、イラン側から艦艇を狙ったミサイル攻撃を受けたとしてイランの原油タンカー5隻を攻撃し、一方、イランの革命防衛隊は報復として、ヨルダンにあるアメリカ軍基地を弾道ミサイル…",
+   "title": "米軍がイランのタンカー攻撃 イランは米軍基地にミサイル攻撃",
+   "updatedAt": 1788924874866,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260909de49247"
   }
  },
  "listing": {
   "https://www.nhk.or.jp/rss/news/cat0.xml": {
-   "checkedAt": 1788904681262,
-   "etag": "W/\"05de510fd30c8840f154956e374c6644\"",
-   "lastModified": "Tue, 08 Sep 2026 21:48:56 GMT"
+   "checkedAt": 1788924876255,
+   "etag": "W/\"86b3c9c2e21e53644a2ccd2a97fd84c6\"",
+   "lastModified": "Wed, 09 Sep 2026 03:30:54 GMT"
   }
  },
  "siteId": "nhk_main",
- "updatedAt": 1788904681263
+ "updatedAt": 1788924876255
 }
