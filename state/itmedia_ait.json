@@ -780,140 +780,144 @@
    "bodyBlocks": [
     {
      "kind": "P",
-     "text": "OpenAIは2026年9月3日（米国時間）、次世代の大規模言語モデル（LLM）「GPT-6 Astra」を発表した。事前学習や強化学習、アライメント研究の成果を統合したフロンティアモデルであり、PCの自律操作（Computer Use）やコーディング、サイバーセキュリティ、科学研究、専門業務などの領域で性能向上を達成したとしている。"
+     "text": "پ@OpenAI‚ح2026”N9Œژ3“ْپi•ؤچ‘ژ‍ٹشپjپAژںگ¢‘م‚ج‘ه‹K–حŒ¾Œêƒ‚ƒfƒ‹پiLLMپjپuGPT-6 Astraپv‚ً”­•\\‚µ‚½پBژ–‘OٹwڈK‚â‹­‰»ٹwڈKپAƒAƒ‰ƒCƒپƒ“ƒgŒ¤‹†‚جگ¬‰ت‚ً“‌چ‡‚µ‚½ƒtƒچƒ“ƒeƒBƒAƒ‚ƒfƒ‹‚إ‚ ‚èپAPC‚جژ©—¥‘€چىپiComputer Useپj‚âƒRپ[ƒfƒBƒ“ƒOپAƒTƒCƒoپ[ƒZƒLƒ…ƒٹƒeƒBپA‰بٹwŒ¤‹†پAگê–ه‹ئ–±‚ب‚ا‚ج—جˆو‚إگ«”\\Œüڈم‚ً’Bگ¬‚µ‚½‚ئ‚µ‚ؤ‚¢‚éپB"
     },
     {
      "kind": "P",
-     "text": "同モデルは、抽象推論ベンチマーク「ARC-AGI-3」で99.9％、既知の脆弱（ぜいじゃく）性からエクスプロイト（攻撃コード）を作成する能力を評価する「ExploitBench」で100％を記録した。高度な推論力とPC操作能力を組み合わせ、実務タスクを自動化するという。"
+     "text": "پ@“¯ƒ‚ƒfƒ‹‚حپA’ٹڈغگ„ک_ƒxƒ“ƒ`ƒ}پ[ƒNپuARC-AGI-3پv‚إ99.9پ“پAٹù’m‚جگئژمپi‚؛‚¢‚¶‚ل‚­پjگ«‚©‚çƒGƒNƒXƒvƒچƒCƒgپiچUŒ‚ƒRپ[ƒhپj‚ًچىگ¬‚·‚é”\\—ح‚ً•]‰؟‚·‚éپuExploitBenchپv‚إ100پ“‚ً‹Lک^‚µ‚½پBچ‚“x‚بگ„ک_—ح‚ئPC‘€چى”\\—ح‚ً‘g‚فچ‡‚ي‚¹پAژہ–±ƒ^ƒXƒN‚ًژ©“®‰»‚·‚é‚ئ‚¢‚¤پB"
     },
     {
      "kind": "H",
-     "text": "提供方式、利用可能プラン、料金"
+     "text": "’ٌ‹ں•ûژ®پA—ک—p‰آ”\\ƒvƒ‰ƒ“پA—؟‹à"
     },
     {
      "kind": "P",
-     "text": "GPT-6 Astraは同日より一部組織への提供を開始し、その後数日間で「ChatGPT Plus」「ChatGPT Pro」「ChatGPT Business」「ChatGPT Enterprise」の各プラン、開発者向け「OpenAI API」、クラウドサービス「Microsoft Azure」、Amazon Web Services（AWS）の「Amazon Bedrock」を通じて順次提供する。"
+     "text": "پ@GPT-6 Astra‚ح“¯“ْ‚و‚èˆê•”‘gگD‚ض‚ج’ٌ‹ں‚ًٹJژn‚µپA‚»‚جŒمگ”“ْٹش‚إپuChatGPT PlusپvپuChatGPT ProپvپuChatGPT BusinessپvپuChatGPT Enterpriseپv‚جٹeƒvƒ‰ƒ“پAٹJ”­ژزŒü‚¯پuOpenAI APIپvپAƒNƒ‰ƒEƒhƒTپ[ƒrƒXپuMicrosoft AzureپvپAAmazon Web ServicesپiAWSپj‚جپuAmazon Bedrockپv‚ً’ت‚¶‚ؤڈ‡ژں’ٌ‹ں‚·‚éپB"
     },
     {
      "kind": "P",
-     "text": "Enterpriseプランでは管理者がワークスペースごとに有効化できる。APIでのモデル名は「gpt-6-astra」として提供される。"
+     "text": "پ@Enterpriseƒvƒ‰ƒ“‚إ‚حٹا—‌ژز‚ھƒڈپ[ƒNƒXƒyپ[ƒX‚²‚ئ‚ة—LŒّ‰»‚إ‚«‚éپBAPI‚إ‚جƒ‚ƒfƒ‹–¼‚حپugpt-6-astraپv‚ئ‚µ‚ؤ’ٌ‹ں‚³‚ê‚éپB"
     },
     {
      "kind": "P",
-     "text": "標準料金は入力トークン100万個当たり10ドル、出力トークン100万個当たり50ドルで、キャッシュの読み書きには別途料金が適用される。最大2倍の速度で動作する「Fast mode」は標準料金の2倍の価格で利用できる。適格なAPIユーザー向けにはデータ非保持（Zero Data Retention）がサポートされる。"
+     "text": "پ@•Wڈ€—؟‹à‚ح“ü—حƒgپ[ƒNƒ“100–œŒآ“–‚½‚è10ƒhƒ‹پAڈo—حƒgپ[ƒNƒ“100–œŒآ“–‚½‚è50ƒhƒ‹‚إپAƒLƒƒƒbƒVƒ…‚ج“ا‚فڈ‘‚«‚ة‚ح•ت“r—؟‹à‚ھ“K—p‚³‚ê‚éپBچإ‘ه2”{‚ج‘¬“x‚إ“®چى‚·‚éپuFast modeپv‚ح•Wڈ€—؟‹à‚ج2”{‚ج‰؟ٹi‚إ—ک—p‚إ‚«‚éپB“Kٹi‚بAPIƒ†پ[ƒUپ[Œü‚¯‚ة‚حƒfپ[ƒ^”ٌ•غژ‌پiZero Data Retentionپj‚ھƒTƒ|پ[ƒg‚³‚ê‚éپB"
     },
     {
      "kind": "H",
-     "text": "OSWorld 2.0で作業時間を47％削減、PC自律操作の精度を向上"
+     "text": "OSWorld 2.0‚إچى‹ئژ‍ٹش‚ً47پ“چيŒ¸پAPCژ©—¥‘€چى‚جگ¸“x‚ًŒüڈم"
     },
     {
      "kind": "P",
-     "text": "GPT-6 Astraは、PC画面の視覚認識とマウスやキーボードの自律操作において高い速度と精度を備える。Webフォーム入力やCRM（顧客関係管理）ツールのデータ更新、カレンダー調整、Web調査と要約作成、科学データ分析、Webサイト構築、フロントエンドの品質保証（QA）テストまで自律的に遂行できる。"
+     "text": "پ@GPT-6 Astra‚حپAPC‰و–ت‚جژ‹ٹo”Fژ¯‚ئƒ}ƒEƒX‚âƒLپ[ƒ{پ[ƒh‚جژ©—¥‘€چى‚ة‚¨‚¢‚ؤچ‚‚¢‘¬“x‚ئگ¸“x‚ً”ُ‚¦‚éپBWebƒtƒHپ[ƒ€“ü—ح‚âCRMپiŒع‹qٹضŒWٹا—‌پjƒcپ[ƒ‹‚جƒfپ[ƒ^چXگVپAƒJƒŒƒ“ƒ_پ[’²گ®پAWeb’²چ¸‚ئ—v–ٌچىگ¬پA‰بٹwƒfپ[ƒ^•ھگحپAWebƒTƒCƒgچ\\’zپAƒtƒچƒ“ƒgƒGƒ“ƒh‚ج•iژ؟•غڈطپiQAپjƒeƒXƒg‚ـ‚إژ©—¥“I‚ةگ‹چs‚إ‚«‚éپB"
     },
     {
      "kind": "P",
-     "text": "実務的な環境を模したベンチマーク「OSWorld 2.0」のレイテンシシミュレーションにおいて、GPT-6 Astraは前世代モデル「GPT-5.6 Sol」と比較して約47％短い時間で高いタスク完了精度を記録した。GPT-5.6 Solが1タスク当たり約75分を要してスコア65.7％であったのに、GPT-6 Astraは約40分で72.6％を達成した。"
+     "text": "پ@ژہ–±“I‚بٹآ‹«‚ً–ح‚µ‚½ƒxƒ“ƒ`ƒ}پ[ƒNپuOSWorld 2.0پv‚جƒŒƒCƒeƒ“ƒVƒVƒ~ƒ…ƒŒپ[ƒVƒ‡ƒ“‚ة‚¨‚¢‚ؤپAGPT-6 Astra‚ح‘Oگ¢‘مƒ‚ƒfƒ‹پuGPT-5.6 Solپv‚ئ”نٹr‚µ‚ؤ–ٌ47پ“’Z‚¢ژ‍ٹش‚إچ‚‚¢ƒ^ƒXƒNٹ®—¹گ¸“x‚ً‹Lک^‚µ‚½پBGPT-5.6 Sol‚ھ1ƒ^ƒXƒN“–‚½‚è–ٌ75•ھ‚ً—v‚µ‚ؤƒXƒRƒA65.7پ“‚إ‚ ‚ء‚½‚ج‚ةپAGPT-6 Astra‚ح–ٌ40•ھ‚إ72.6پ“‚ً’Bگ¬‚µ‚½پB"
     },
     {
      "kind": "H",
-     "text": "専門業務向け能力の向上、Sitesとの連携で公開、共有"
+     "text": "گê–ه‹ئ–±Œü‚¯”\\—ح‚جŒüڈمپASites‚ئ‚جکAŒg‚إŒِٹJپA‹¤—L"
     },
     {
      "kind": "P",
-     "text": "専門業務向けの文書作成や分析能力も強化され、テンプレートに従ったスライド資料や表計算シート、分析レポートの作成が可能となった。"
+     "text": "پ@گê–ه‹ئ–±Œü‚¯‚ج•¶ڈ‘چىگ¬‚â•ھگح”\\—ح‚à‹­‰»‚³‚êپAƒeƒ“ƒvƒŒپ[ƒg‚ةڈ]‚ء‚½ƒXƒ‰ƒCƒhژ‘—؟‚â•\\ŒvژZƒVپ[ƒgپA•ھگحƒŒƒ|پ[ƒg‚جچىگ¬‚ھ‰آ”\\‚ئ‚ب‚ء‚½پB"
     },
     {
      "kind": "P",
-     "text": "「Blender」で住宅を3Dモデル化し、「Unreal Engine 5」の歩行可能シーンに変え、デザイナーやクライアントがレイアウトを探索し、構築前に空間を体験するのを支援する。"
+     "text": "پ@پuBlenderپv‚إڈZ‘î‚ً3Dƒ‚ƒfƒ‹‰»‚µپAپuUnreal Engine 5پv‚ج•àچs‰آ”\\ƒVپ[ƒ“‚ة•د‚¦پAƒfƒUƒCƒiپ[‚âƒNƒ‰ƒCƒAƒ“ƒg‚ھƒŒƒCƒAƒEƒg‚ً’Tچُ‚µپAچ\\’z‘O‚ة‹َٹش‚ً‘جŒ±‚·‚é‚ج‚ًژx‰‡‚·‚éپB"
     },
     {
      "kind": "P",
-     "text": "ChatGPT内の機能「 Sites 」と連携し、プロンプトからの指示に基づいて直接WebサイトやWebアプリケーション、ゲームを作成、公開、共有できる。"
+     "text": "پ@ChatGPT“à‚ج‹@”\\پu Sites پv‚ئکAŒg‚µپAƒvƒچƒ“ƒvƒg‚©‚ç‚جژwژ¦‚ةٹî‚أ‚¢‚ؤ’¼گعWebƒTƒCƒg‚âWebƒAƒvƒٹƒPپ[ƒVƒ‡ƒ“پAƒQپ[ƒ€‚ًچىگ¬پAŒِٹJپA‹¤—L‚إ‚«‚éپB"
     },
     {
      "kind": "H",
-     "text": "Codexにコンテキストの喪失を防ぐ機能"
+     "text": "Codex‚ةƒRƒ“ƒeƒLƒXƒg‚ج‘rژ¸‚ً–h‚®‹@”\\"
     },
     {
      "kind": "P",
-     "text": "ソフトウェア開発分野において、GPT-6 Astraは端末操作ベンチマーク「Terminal-Bench 4.0」で57.9％（GPT-5.6 Solは37.3％）、ソフトウェアエンジニアリング評価「DeepSWE v1.1」で74.1％（同72.7％）を記録した。"
+     "text": "پ@ƒ\\ƒtƒgƒEƒFƒAٹJ”­•ھ–ى‚ة‚¨‚¢‚ؤپAGPT-6 Astra‚ح’[––‘€چىƒxƒ“ƒ`ƒ}پ[ƒNپuTerminal-Bench 4.0پv‚إ57.9پ“پiGPT-5.6 Sol‚ح37.3پ“پjپAƒ\\ƒtƒgƒEƒFƒAƒGƒ“ƒWƒjƒAƒٹƒ“ƒO•]‰؟پuDeepSWE v1.1پv‚إ74.1پ“پi“¯72.7پ“پj‚ً‹Lک^‚µ‚½پB"
     },
     {
      "kind": "P",
-     "text": "コード生成・実行環境「Codex」の実行基盤も刷新された。Web操作ベンチマーク「Mind2Web」ではGPT-5.6 Sol利用時と比べて1.9倍の速度でタスクを完了できるようになったという。"
+     "text": "پ@ƒRپ[ƒhگ¶گ¬پEژہچsٹآ‹«پuCodexپv‚جژہچsٹî”ص‚àچüگV‚³‚ê‚½پBWeb‘€چىƒxƒ“ƒ`ƒ}پ[ƒNپuMind2Webپv‚إ‚حGPT-5.6 Sol—ک—pژ‍‚ئ”ن‚×‚ؤ1.9”{‚ج‘¬“x‚إƒ^ƒXƒN‚ًٹ®—¹‚إ‚«‚é‚و‚¤‚ة‚ب‚ء‚½‚ئ‚¢‚¤پB"
     },
     {
      "kind": "P",
-     "text": "Codexでは、コンテキストウィンドウが満杯になった際に履歴を圧縮、要約する従来の方式を改め、複数のコンテキストウィンドウ間で詳細なnote（メモ）を保持する機能を導入した。従来の手法では、デバッグやリファクタリングなど長時間のセッションで要約が繰り返される際、修正の失敗原因やコンポーネントの挙動についての細部情報が抜け落ちる課題があった。"
+     "text": "پ@Codex‚إ‚حپAƒRƒ“ƒeƒLƒXƒgƒEƒBƒ“ƒhƒE‚ھ–‍”t‚ة‚ب‚ء‚½چغ‚ة—ڑ—ً‚ًˆ³ڈkپA—v–ٌ‚·‚éڈ]—ˆ‚ج•ûژ®‚ً‰ü‚كپA•،گ”‚جƒRƒ“ƒeƒLƒXƒgƒEƒBƒ“ƒhƒEٹش‚إڈعچ×‚بnoteپiƒپƒ‚پj‚ً•غژ‌‚·‚é‹@”\\‚ً“±“ü‚µ‚½پBڈ]—ˆ‚جژè–@‚إ‚حپAƒfƒoƒbƒO‚âƒٹƒtƒ@ƒNƒ^ƒٹƒ“ƒO‚ب‚ا’·ژ‍ٹش‚جƒZƒbƒVƒ‡ƒ“‚إ—v–ٌ‚ھŒJ‚è•ش‚³‚ê‚éچغپAڈCگ³‚جژ¸”sŒ´ˆِ‚âƒRƒ“ƒ|پ[ƒlƒ“ƒg‚ج‹““®‚ة‚آ‚¢‚ؤ‚جچ×•”ڈî•ٌ‚ھ”²‚¯—ژ‚؟‚é‰غ‘è‚ھ‚ ‚ء‚½پB"
     },
     {
      "kind": "P",
-     "text": "GPT-6 Astraでは詳細情報をnote（メモ）として保持しつつ、過去のコンテキストウィンドウも検索可能に維持する。これにより、要件やテスト結果を以前のメッセージや出力から正確に引き出せる。この機能は現在、設定ファイル「 Codex config.toml 」で実験的機能として有効化でき、数週間以内にデフォルト（既定）の動作となる予定だ。"
+     "text": "پ@GPT-6 Astra‚إ‚حڈعچ×ڈî•ٌ‚ًnoteپiƒپƒ‚پj‚ئ‚µ‚ؤ•غژ‌‚µ‚آ‚آپA‰ك‹ژ‚جƒRƒ“ƒeƒLƒXƒgƒEƒBƒ“ƒhƒE‚àŒںچُ‰آ”\\‚ةˆغژ‌‚·‚éپB‚±‚ê‚ة‚و‚èپA—vŒڈ‚âƒeƒXƒgŒ‹‰ت‚ًˆب‘O‚جƒپƒbƒZپ[ƒW‚âڈo—ح‚©‚çگ³ٹm‚ةˆّ‚«ڈo‚¹‚éپB‚±‚ج‹@”\\‚حŒ»چفپAگف’èƒtƒ@ƒCƒ‹پu Codex config.toml پv‚إژہŒ±“I‹@”\\‚ئ‚µ‚ؤ—LŒّ‰»‚إ‚«پAگ”ڈTٹشˆب“à‚ةƒfƒtƒHƒ‹ƒgپiٹù’èپj‚ج“®چى‚ئ‚ب‚é—\\’è‚¾پB"
     },
     {
      "kind": "H",
-     "text": "ゼロデイ脆弱性の発見能力の向上と悪用リスクへの対策"
+     "text": "ƒ[ƒچƒfƒCگئژمگ«‚ج”­Œ©”\\—ح‚جŒüڈم‚ئˆ«—pƒٹƒXƒN‚ض‚ج‘خچô"
     },
     {
      "kind": "P",
-     "text": "サイバーセキュリティ分野において、GPT-6 AstraはOpenAIの安全枠組み「Preparedness Framework」の最高警戒水準「Critical（重大）」の閾（しきい）値に達した。"
+     "text": "پ@ƒTƒCƒoپ[ƒZƒLƒ…ƒٹƒeƒB•ھ–ى‚ة‚¨‚¢‚ؤپAGPT-6 Astra‚حOpenAI‚جˆہ‘Sکg‘g‚فپuPreparedness Frameworkپv‚جچإچ‚Œx‰ْگ…ڈ€پuCriticalپiڈd‘هپjپv‚جè‡پi‚µ‚«‚¢پj’l‚ة’B‚µ‚½پB"
     },
     {
      "kind": "P",
-     "text": "保護機能を外した評価実験において、既知の脆弱性から攻撃コードを開発する「ExploitBench」で100％の満点を記録（GPT-5.6 Solは78.5％）した他、バイナリのリバースエンジニアリング能力を測る「SRE-bench」では1回の試行で88.0％、4回以内で99.2％のタスクを解決した（GPT-5.6 Solはそれぞれ55.9％、68.7％）。"
+     "text": "پ@•غŒى‹@”\\‚ًٹO‚µ‚½•]‰؟ژہŒ±‚ة‚¨‚¢‚ؤپAٹù’m‚جگئژمگ«‚©‚çچUŒ‚ƒRپ[ƒh‚ًٹJ”­‚·‚éپuExploitBenchپv‚إ100پ“‚ج–‍“_‚ً‹Lک^پiGPT-5.6 Sol‚ح78.5پ“پj‚µ‚½‘¼پAƒoƒCƒiƒٹ‚جƒٹƒoپ[ƒXƒGƒ“ƒWƒjƒAƒٹƒ“ƒO”\\—ح‚ً‘ھ‚éپuSRE-benchپv‚إ‚ح1‰ٌ‚جژژچs‚إ88.0پ“پA4‰ٌˆب“à‚إ99.2پ“‚جƒ^ƒXƒN‚ً‰ًŒˆ‚µ‚½پiGPT-5.6 Sol‚ح‚»‚ê‚¼‚ê55.9پ“پA68.7پ“پjپB"
     },
     {
      "kind": "P",
-     "text": "過去データの学習による影響を排除するために、2026年6〜8月に報告された「Google Chrome」のJavaScriptエンジン「V8」の脆弱性を対象とした内部評価「ExploitBench（June-August 2026）」を実施したところ、高い任意のコード実行率を達成した。その検証過程において、同モデルは2件の未知のゼロデイ脆弱性を自律的に特定して悪用実証を行い、OpenAIはこれらをソフトウェア管理者へ開示したとしている。"
+     "text": "پ@‰ك‹ژƒfپ[ƒ^‚جٹwڈK‚ة‚و‚é‰e‹؟‚ً”rڈœ‚·‚é‚½‚ك‚ةپA2026”N6پ`8Œژ‚ة•ٌچگ‚³‚ê‚½پuGoogle Chromeپv‚جJavaScriptƒGƒ“ƒWƒ“پuV8پv‚جگئژمگ«‚ً‘خڈغ‚ئ‚µ‚½“à•”•]‰؟پuExploitBenchپiJune-August 2026پjپv‚ًژہژ{‚µ‚½‚ئ‚±‚ëپAچ‚‚¢”Cˆس‚جƒRپ[ƒhژہچs—¦‚ً’Bگ¬‚µ‚½پB‚»‚جŒںڈط‰ك’ِ‚ة‚¨‚¢‚ؤپA“¯ƒ‚ƒfƒ‹‚ح2Œڈ‚ج–¢’m‚جƒ[ƒچƒfƒCگئژمگ«‚ًژ©—¥“I‚ة“ء’è‚µ‚ؤˆ«—pژہڈط‚ًچs‚¢پAOpenAI‚ح‚±‚ê‚ç‚ًƒ\\ƒtƒgƒEƒFƒAٹا—‌ژز‚ضٹJژ¦‚µ‚½‚ئ‚µ‚ؤ‚¢‚éپB"
     },
     {
      "kind": "P",
-     "text": "専門家による検証では、保護機能を解除したGPT-6 Astraが、セキュリティが強化されたWebブラウザにおいて未知の脆弱性を用いた任意コードを実行し、堅牢（けんろう）化されたOSにおいて権限昇格エクスプロイトを作成できることが確認された。"
+     "text": "پ@گê–ه‰ئ‚ة‚و‚éŒںڈط‚إ‚حپA•غŒى‹@”\\‚ً‰ًڈœ‚µ‚½GPT-6 Astra‚ھپAƒZƒLƒ…ƒٹƒeƒB‚ھ‹­‰»‚³‚ê‚½Webƒuƒ‰ƒEƒU‚ة‚¨‚¢‚ؤ–¢’m‚جگئژمگ«‚ً—p‚¢‚½”CˆسƒRپ[ƒh‚ًژہچs‚µپAŒککSپi‚¯‚ٌ‚ë‚¤پj‰»‚³‚ê‚½OS‚ة‚¨‚¢‚ؤŒ Œہڈ¸ٹiƒGƒNƒXƒvƒچƒCƒg‚ًچىگ¬‚إ‚«‚é‚±‚ئ‚ھٹm”F‚³‚ê‚½پB"
     },
     {
      "kind": "P",
-     "text": "悪用リスクへの対策として、一般提供されるモデルでは概念実証（PoC）エクスプロイトの作成といった高度な攻撃タスクの実行は拒否され、コードレビューやパッチ適用などの防御用途に制限される。今後数週間以内に予定されている「OpenAI Daybreak」プログラムを通じ、脆弱性検証やマルウェア解析、検知エンジニアリングといった防御側組織への機能開放を段階的に進める計画だ。"
+     "text": "پ@ˆ«—pƒٹƒXƒN‚ض‚ج‘خچô‚ئ‚µ‚ؤپAˆê”ت’ٌ‹ں‚³‚ê‚éƒ‚ƒfƒ‹‚إ‚حٹT”OژہڈطپiPoCپjƒGƒNƒXƒvƒچƒCƒg‚جچىگ¬‚ئ‚¢‚ء‚½چ‚“x‚بچUŒ‚ƒ^ƒXƒN‚جژہچs‚ح‹‘”غ‚³‚êپAƒRپ[ƒhƒŒƒrƒ…پ[‚âƒpƒbƒ`“K—p‚ب‚ا‚ج–hŒن—p“r‚ةگ§Œہ‚³‚ê‚éپBچ،Œمگ”ڈTٹشˆب“à‚ة—\\’è‚³‚ê‚ؤ‚¢‚éپuOpenAI DaybreakپvƒvƒچƒOƒ‰ƒ€‚ً’ت‚¶پAگئژمگ«Œںڈط‚âƒ}ƒ‹ƒEƒFƒA‰ًگحپAŒں’mƒGƒ“ƒWƒjƒAƒٹƒ“ƒO‚ئ‚¢‚ء‚½–hŒن‘¤‘gگD‚ض‚ج‹@”\\ٹJ•ْ‚ً’iٹK“I‚ةگi‚ك‚éŒv‰و‚¾پB"
     },
     {
      "kind": "H",
-     "text": "タスク逸脱を抑止するアライメント強化"
+     "text": "ƒ^ƒXƒNˆي’E‚ً—}ژ~‚·‚éƒAƒ‰ƒCƒپƒ“ƒg‹­‰»"
     },
     {
      "kind": "P",
-     "text": "高度な能力に伴う暴走を防ぐため、アライメント技術も刷新された。実行不可能なタスクを与えられた際にモデルが許可された範囲を超えて行動するかどうかを検証したところ、従来のGPT-5.6 Solが48％の割合で権限外の行動に出たのに対し、GPT-6 Astraは逸脱発生率0％を記録した。自身の能力を誇張する「能力ハルシネーション」の頻度も従来の3分の1に低減した。"
+     "text": "پ@چ‚“x‚ب”\\—ح‚ة”؛‚¤–\\‘–‚ً–h‚®‚½‚كپAƒAƒ‰ƒCƒپƒ“ƒg‹Zڈp‚àچüگV‚³‚ê‚½پBژہچs•s‰آ”\\‚بƒ^ƒXƒN‚ً—^‚¦‚ç‚ê‚½چغ‚ةƒ‚ƒfƒ‹‚ھ‹–‰آ‚³‚ê‚½”حˆح‚ً’´‚¦‚ؤچs“®‚·‚é‚©‚ا‚¤‚©‚ًŒںڈط‚µ‚½‚ئ‚±‚ëپAڈ]—ˆ‚جGPT-5.6 Sol‚ھ48پ“‚جٹ„چ‡‚إŒ ŒہٹO‚جچs“®‚ةڈo‚½‚ج‚ة‘خ‚µپAGPT-6 Astra‚حˆي’E”­گ¶—¦0پ“‚ً‹Lک^‚µ‚½پBژ©گg‚ج”\\—ح‚ًŒض’£‚·‚éپu”\\—حƒnƒ‹ƒVƒlپ[ƒVƒ‡ƒ“پv‚ج•p“x‚àڈ]—ˆ‚ج3•ھ‚ج1‚ة’لŒ¸‚µ‚½پB"
     },
     {
      "kind": "P",
-     "text": "システム側の安全策として、モデルの推論過程と実行アクションを検査し、不正な挙動を自動停止する「ミスアライメント監視」を本番環境に導入している。安全確認処理によって正規の作業が一時停止または中断される場合があるが、OpenAIは正当な業務を阻害しないよう調整を継続するとしている。"
+     "text": "پ@ƒVƒXƒeƒ€‘¤‚جˆہ‘Sچô‚ئ‚µ‚ؤپAƒ‚ƒfƒ‹‚جگ„ک_‰ك’ِ‚ئژہچsƒAƒNƒVƒ‡ƒ“‚ًŒںچ¸‚µپA•sگ³‚ب‹““®‚ًژ©“®’âژ~‚·‚éپuƒ~ƒXƒAƒ‰ƒCƒپƒ“ƒgٹؤژ‹پv‚ً–{”شٹآ‹«‚ة“±“ü‚µ‚ؤ‚¢‚éپBˆہ‘Sٹm”Fڈˆ—‌‚ة‚و‚ء‚ؤگ³‹K‚جچى‹ئ‚ھˆêژ‍’âژ~‚ـ‚½‚ح’†’f‚³‚ê‚éڈêچ‡‚ھ‚ ‚é‚ھپAOpenAI‚حگ³“–‚ب‹ئ–±‚ً‘jٹQ‚µ‚ب‚¢‚و‚¤’²گ®‚ًŒp‘±‚·‚é‚ئ‚µ‚ؤ‚¢‚éپB"
+    },
+    {
+     "kind": "H",
+     "text": "ٹضکA‹Lژ–"
     },
     {
      "kind": "LI",
-     "text": "Google「Gemini 3.8 Flash」発表 プロンプト1つで3Dゲーム生成、価格据え置きで大規模モデルに迫る Googleは、「Gemini 3.8 Flash」と防衛特化の「Gemini 3.8 Flash Cyber」を発表した。3.7と同等の低価格を維持しながら、コーディングや推論、脆弱性検知／修正の性能を大幅に向上させた。"
+     "text": "GoogleپuGemini 3.8 Flashپv”­•\\پ@ƒvƒچƒ“ƒvƒg1‚آ‚إ3DƒQپ[ƒ€گ¶گ¬پA‰؟ٹiگک‚¦’u‚«‚إ‘ه‹K–حƒ‚ƒfƒ‹‚ة”—‚é Google‚حپAپuGemini 3.8 Flashپv‚ئ–h‰q“ء‰»‚جپuGemini 3.8 Flash Cyberپv‚ً”­•\\‚µ‚½پB3.7‚ئ“¯“™‚ج’ل‰؟ٹi‚ًˆغژ‌‚µ‚ب‚ھ‚çپAƒRپ[ƒfƒBƒ“ƒO‚âگ„ک_پAگئژمگ«Œں’mپ^ڈCگ³‚جگ«”\\‚ً‘ه•‌‚ةŒüڈم‚³‚¹‚½پB"
     },
     {
      "kind": "LI",
-     "text": "「最大45％コスト減」 Anthropicが「Claude Fable 5.1」発表 脆弱性検知にも対応 Anthropicは、新AIモデル「Claude Fable 5.1」および「Claude Mythos 5.1」を発表した。キャッシュ読み取り価格の引き下げによりFable 5.1は最大約45％のコスト削減が見込めるとしている。脆弱性検知への対応など、セーフガードも一部変更されたという。"
+     "text": "پuچإ‘ه45پ“ƒRƒXƒgŒ¸پvپ@Anthropic‚ھپuClaude Fable 5.1پv”­•\\پ@گئژمگ«Œں’m‚ة‚à‘خ‰‍ Anthropic‚حپAگVAIƒ‚ƒfƒ‹پuClaude Fable 5.1پv‚¨‚و‚رپuClaude Mythos 5.1پv‚ً”­•\\‚µ‚½پBƒLƒƒƒbƒVƒ…“ا‚فژو‚è‰؟ٹi‚جˆّ‚«‰؛‚°‚ة‚و‚èFable 5.1‚حچإ‘ه–ٌ45پ“‚جƒRƒXƒgچيŒ¸‚ھŒ©چ‍‚ك‚é‚ئ‚µ‚ؤ‚¢‚éپBگئژمگ«Œں’m‚ض‚ج‘خ‰‍‚ب‚اپAƒZپ[ƒtƒKپ[ƒh‚àˆê•”•دچX‚³‚ê‚½‚ئ‚¢‚¤پB"
     },
     {
      "kind": "LI",
-     "text": "Claude、Gemini、GPT――AI競争の負け犬は？ 現場導入の勝ち組を決めるエンジニア「真の強み」 2026年8月17〜23日に＠ITで公開された記事の中で、特に注目を集めた10本をランキング形式で紹介します。読者の関心はどこにあるのでしょうか。"
+     "text": "ClaudeپAGeminiپAGPTپ\\پ\\AI‹£‘ˆ‚ج•‰‚¯Œ¢‚حپHپ@Œ»ڈê“±“ü‚جڈں‚؟‘g‚ًŒˆ‚ك‚éƒGƒ“ƒWƒjƒAپuگ^‚ج‹­‚فپv 2026”N8Œژ17پ`23“ْ‚ةپ—IT‚إŒِٹJ‚³‚ê‚½‹Lژ–‚ج’†‚إپA“ء‚ة’چ–ع‚ًڈW‚ك‚½10–{‚ًƒ‰ƒ“ƒLƒ“ƒOŒ`ژ®‚إڈذ‰î‚µ‚ـ‚·پB“اژز‚جٹضگS‚ح‚ا‚±‚ة‚ ‚é‚ج‚إ‚µ‚ه‚¤‚©پB"
     },
     {
      "kind": "LI",
-     "text": "AIをよく使う社員だけ5倍に Claude、ChatGPT／Codex、Cursorで企業がAIを本格運用できる時代へ OpenAIがChatGPT BusinessでPremiumシートの提供を開始した。Anthropic、Cursorに続き、主要な企業向けAIで、利用量の多い社員だけ上位シートを割り当てられる仕組みがそろった。3社の料金や利用枠、実際の設定方法を比較し、企業のAI利用で何が変わるのかを考える。"
+     "text": "AI‚ً‚و‚­ژg‚¤ژذˆُ‚¾‚¯5”{‚ةپ@ClaudeپAChatGPTپ^CodexپACursor‚إٹé‹ئ‚ھAI‚ً–{ٹi‰^—p‚إ‚«‚éژ‍‘م‚ض OpenAI‚ھChatGPT Business‚إPremiumƒVپ[ƒg‚ج’ٌ‹ں‚ًٹJژn‚µ‚½پBAnthropicپACursor‚ة‘±‚«پAژه—v‚بٹé‹ئŒü‚¯AI‚إپA—ک—p—ت‚ج‘½‚¢ژذˆُ‚¾‚¯ڈمˆتƒVپ[ƒg‚ًٹ„‚è“–‚ؤ‚ç‚ê‚éژd‘g‚ف‚ھ‚»‚ë‚ء‚½پB3ژذ‚ج—؟‹à‚â—ک—pکgپAژہچغ‚جگف’è•û–@‚ً”نٹr‚µپAٹé‹ئ‚جAI—ک—p‚إ‰½‚ھ•د‚ي‚é‚ج‚©‚ًچl‚¦‚éپB"
     },
     {
      "kind": "LI",
-     "text": "Claude、Codex、Qwen……そのAI用語、どう読む？ 読み方クイズ30問 何となくこう読むものだと思っていたら、実は違っていた。そんな経験はないでしょうか。AI用語にも、意外な読み方をするものや、人によって読み方が分かれるものが少なくありません。その読み方が合っているか、全30問のクイズで確かめてみてください。"
+     "text": "ClaudeپACodexپAQwenپcپc‚»‚جAI—pŒêپA‚ا‚¤“ا‚قپHپ@“ا‚ف•ûƒNƒCƒY30–â ‰½‚ئ‚ب‚­‚±‚¤“ا‚ق‚à‚ج‚¾‚ئژv‚ء‚ؤ‚¢‚½‚çپAژہ‚حˆل‚ء‚ؤ‚¢‚½پB‚»‚ٌ‚بŒoŒ±‚ح‚ب‚¢‚إ‚µ‚ه‚¤‚©پBAI—pŒê‚ة‚àپAˆسٹO‚ب“ا‚ف•û‚ً‚·‚é‚à‚ج‚âپAگl‚ة‚و‚ء‚ؤ“ا‚ف•û‚ھ•ھ‚©‚ê‚é‚à‚ج‚ھڈ­‚ب‚­‚ ‚è‚ـ‚¹‚ٌپB‚»‚ج“ا‚ف•û‚ھچ‡‚ء‚ؤ‚¢‚é‚©پA‘S30–â‚جƒNƒCƒY‚إٹm‚©‚ك‚ؤ‚ف‚ؤ‚­‚¾‚³‚¢پB"
     },
     {
      "kind": "H",
-     "text": "関連リンク"
+     "text": "ٹضکAƒٹƒ“ƒN"
     }
    ],
-   "checkedAt": 1788865324040,
+   "checkedAt": 1788951742978,
    "etag": "",
-   "hash": "530558a3c348025c",
+   "hash": "dad078dddd0459bb",
    "id": "a3bf51a82d17",
    "imageUrl": "https://image.itmedia.co.jp/ait/articles/2609/08/cover_news035.jpg",
    "key": "https://atmarkit.itmedia.co.jp/ait/articles/2609/08/news035.html",
@@ -921,7 +925,7 @@
    "publishedAt": 1788854400000,
    "summary": "OpenAIは、次世代AIモデル「GPT-6 Astra」を発表した。PC自律操作やコーディング、セキュリティ検証などの能力が大幅に向上し、抽象推論ベンチマークテスト「ARC-AGI-3」で99.9％のスコアを達成したという。",
    "title": "OpenAI「GPT-6 Astra」発表 Codexのコーディングは前世代からどれだけ進化？",
-   "updatedAt": 1788865324040,
+   "updatedAt": 1788951742978,
    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/08/news035.html"
   },
   "https://atmarkit.itmedia.co.jp/ait/articles/2609/08/news045.html": {
@@ -1263,47 +1267,47 @@
   },
   "https://kn.itmedia.co.jp/kn/article/2609/08/2000001255": {
    "bodyBlocks": [],
-   "checkedAt": 1788924845419,
+   "checkedAt": 1788951742978,
    "etag": "",
    "hash": "43c6b425cd2dede5",
    "id": "d976c9a3feb2",
    "imageUrl": "https://kn.itmedia.co.jp/kn/article/ogp/2609/08/2000001255/10005531/2048",
    "key": "https://kn.itmedia.co.jp/kn/article/2609/08/2000001255",
-   "lastModified": "Wed, 09 Sep 2026 02:45:28 GMT",
+   "lastModified": "Wed, 09 Sep 2026 10:45:29 GMT",
    "publishedAt": 1788838332000,
    "summary": "Googleが「Gemini 3.8 Flash」の一般提供を開始した。長時間のコーディングや自律型エージェントを想定する新モデルだ。発表内容を読み解くと、単なる性能向上とは異なる3つの変化が見えてくる。",
    "title": "「Gemini 3.8 Flash」の狙いは“賢さ”ではない？ 発表から見えた3つのポイント",
-   "updatedAt": 1788924845419,
+   "updatedAt": 1788951742978,
    "url": "https://kn.itmedia.co.jp/kn/article/2609/08/2000001255/"
   },
   "https://kn.itmedia.co.jp/kn/article/2609/09/2000001267": {
    "bodyBlocks": [],
-   "checkedAt": 1788924845419,
+   "checkedAt": 1788951742978,
    "etag": "",
    "hash": "0e1182d746928bd1",
    "id": "5a320f9e99b3",
    "imageUrl": "https://kn.itmedia.co.jp/kn/article/ogp/2609/09/2000001267/10005588/2048",
    "key": "https://kn.itmedia.co.jp/kn/article/2609/09/2000001267",
-   "lastModified": "Wed, 09 Sep 2026 02:45:28 GMT",
+   "lastModified": "Wed, 09 Sep 2026 10:45:29 GMT",
    "publishedAt": 1788904800000,
    "summary": "「ChatGPT」などの生成AIに企業選びを相談する求職者が増えている。AIの回答が応募や選考辞退を左右する可能性もあるなか、企業には「AIからどう見られているか」という新たな採用対策が求められている。",
    "title": "求職者がAIで会社を選ぶ時代、AIの「企業評価」が採用にも影響 企業はどう対策すべき？",
-   "updatedAt": 1788924845419,
+   "updatedAt": 1788951742978,
    "url": "https://kn.itmedia.co.jp/kn/article/2609/09/2000001267/"
   },
   "https://kn.itmedia.co.jp/kn/article/2609/09/2000001278": {
    "bodyBlocks": [],
-   "checkedAt": 1788924845419,
+   "checkedAt": 1788951742978,
    "etag": "",
    "hash": "a72ee01bdeddd4f7",
    "id": "e78d67883774",
    "imageUrl": "https://kn.itmedia.co.jp/kn/article/ogp/2609/09/2000001278/10005633/2048",
    "key": "https://kn.itmedia.co.jp/kn/article/2609/09/2000001278",
-   "lastModified": "Wed, 09 Sep 2026 02:45:28 GMT",
+   "lastModified": "Wed, 09 Sep 2026 10:45:29 GMT",
    "publishedAt": 1788904800000,
    "summary": "SAPの認定試験が、知識を問う従来型から実践型へと大きく変わった。さらに一部の試験ではAIの利用も可能になった。30年続くSAP認定試験で、知識よりも求めていることとは。",
    "title": "新SAP認定試験は「AIの利用OK」 実践型の新方式で備えるべきことは？",
-   "updatedAt": 1788924845419,
+   "updatedAt": 1788951742978,
    "url": "https://kn.itmedia.co.jp/kn/article/2609/09/2000001278/"
   },
   "https://monoist.itmedia.co.jp/mn/articles/2609/04/news033.html": {
@@ -1957,93 +1961,138 @@
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001257": {
    "bodyBlocks": [],
-   "checkedAt": 1788924845419,
+   "checkedAt": 1788951742978,
    "etag": "",
    "hash": "72777b430cd21956",
    "id": "28dcd6625412",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/08/2000001257/10005525/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001257",
-   "lastModified": "Wed, 09 Sep 2026 03:24:37 GMT",
-   "publishedAt": 1788839021000,
+   "lastModified": "Wed, 09 Sep 2026 10:45:30 GMT",
+   "publishedAt": 1788924257000,
    "summary": "価格比較サイト「価格.com」のデスクトップPC注目ランキング1位に約100万円のAIスパコンが掲載されるなど、いま「ローカルLLM」が熱い状況だ。ここでは3本の記事で、ローカルLLM関連が急速に盛り上がりを見せている理由を解剖していく。1本目となるこの記事では、「モデル」「ハードウェア」「ソフトウェア」という3つの土壌が成熟しつつあることを紹介する。",
    "title": "100万円のPCが注目ランキング1位に？ ローカルLLMブームを生んだ「3つの条件」",
-   "updatedAt": 1788924845419,
+   "updatedAt": 1788951742978,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001257/"
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001261": {
    "bodyBlocks": [],
-   "checkedAt": 1788924845419,
+   "checkedAt": 1788951742978,
    "etag": "",
    "hash": "a0daec14d76fb6ec",
    "id": "8db0132f5b4e",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/08/2000001261/10005548/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001261",
-   "lastModified": "Wed, 09 Sep 2026 02:45:28 GMT",
+   "lastModified": "Wed, 09 Sep 2026 10:45:30 GMT",
    "publishedAt": 1788841481000,
    "summary": "中国のEVメーカー小鵬汽車（シャオペン）は、人型ロボット「IRON」の生産ラインを稼働させたと発表した。2026年内に量産を始め、27年に中国および海外市場に投入する予定だ。",
    "title": "「中に人いる？」と疑われた人型ロボ、ついに量産へ 2027年に市場投入 中国EVメーカーのシャオペン",
-   "updatedAt": 1788924845419,
+   "updatedAt": 1788951742978,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001261/"
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001272": {
    "bodyBlocks": [],
-   "checkedAt": 1788924845419,
+   "checkedAt": 1788951742978,
    "etag": "",
    "hash": "00b4514e5e5a168f",
    "id": "ab7357c416f7",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/08/2000001272/10005627/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001272",
-   "lastModified": "Wed, 09 Sep 2026 02:45:28 GMT",
+   "lastModified": "Wed, 09 Sep 2026 10:45:30 GMT",
    "publishedAt": 1788851181000,
    "summary": "日立製作所は9月3日、社会インフラ向けAIソリューション群「HMAX」を拡充し、データセンター運用やサイバー防御などの新サービスを発表。2026年を「フィジカルAI元年」と位置付け、HMAXを売上高5000億円の事業に育てる見込み。",
    "title": "「2026年はフィジカルAI元年」 日立、AIサービス群全体で売上5000億円へ ミュトス利用の知見を基にした新サービスも",
-   "updatedAt": 1788924845419,
+   "updatedAt": 1788951742978,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001272/"
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001279": {
    "bodyBlocks": [],
-   "checkedAt": 1788924845419,
+   "checkedAt": 1788951742978,
    "etag": "",
    "hash": "098c56600753e4af",
    "id": "7e35e8d728b9",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/08/2000001279/10005638/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001279",
-   "lastModified": "Wed, 09 Sep 2026 02:45:28 GMT",
+   "lastModified": "Wed, 09 Sep 2026 10:45:30 GMT",
    "publishedAt": 1788854298000,
    "summary": "GMO AI&ロボティクス商事は人型ロボットの故障・トラブル時に診断や修理、代替機の提供などを行う「GMOヒューマノイド救急車」を導入すると発表した。",
    "title": "「人型ロボット向け救急車」登場、国内初うたう 世界の救急車両を参考にデザイン GMO傘下",
-   "updatedAt": 1788924845419,
+   "updatedAt": 1788951742978,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001279/"
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001291": {
    "bodyBlocks": [],
-   "checkedAt": 1788924845419,
+   "checkedAt": 1788951742978,
    "etag": "",
    "hash": "eb3a689b8073b01e",
    "id": "25f79dea9b0e",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/08/2000001291/10005676/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001291",
-   "lastModified": "Wed, 09 Sep 2026 02:45:28 GMT",
+   "lastModified": "Wed, 09 Sep 2026 10:45:30 GMT",
    "publishedAt": 1788867814000,
    "summary": "鹿児島県指宿市のマラソン大会を告知するポスターに、「生成AIで描かれているようだ」などの指摘が相次ぎ、同事務局が9月8日に声明を発表した",
    "title": "マラソン大会のポスターが“AIっぽい”と波紋 「説明に不適切な部分があった」と事務局声明",
-   "updatedAt": 1788924845419,
+   "updatedAt": 1788951742978,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001291/"
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/09/2000001298": {
    "bodyBlocks": [],
-   "checkedAt": 1788924845419,
+   "checkedAt": 1788951742978,
    "etag": "",
    "hash": "114fa0c1343f5f65",
    "id": "f5752534583b",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/09/2000001298/10005713/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/09/2000001298",
-   "lastModified": "Wed, 09 Sep 2026 02:45:28 GMT",
+   "lastModified": "Wed, 09 Sep 2026 10:45:30 GMT",
    "publishedAt": 1788911828000,
    "summary": "OpenAIが「ChatGPT Images 2.5」を発表。指定部分だけを編集する精度を高め、テンプレートや手描きの下絵を使う機能も追加した。生成の待ち時間は従来比で最大50％短縮し、全プランに提供する。",
    "title": "「ChatGPT Images 2.5」登場 特定部分の編集を強化、落書きの清書やテンプレート機能も",
-   "updatedAt": 1788924845419,
+   "updatedAt": 1788951742978,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/09/2000001298/"
+  },
+  "https://www.itmedia.co.jp/aiplus/article/2609/09/2000001305": {
+   "bodyBlocks": [],
+   "checkedAt": 1788951742978,
+   "etag": "",
+   "hash": "d360db3f74e10b5e",
+   "id": "f346a519d5e9",
+   "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/09/2000001305/10005744/2048",
+   "key": "https://www.itmedia.co.jp/aiplus/article/2609/09/2000001305",
+   "lastModified": "Wed, 09 Sep 2026 10:45:30 GMT",
+   "publishedAt": 1788924290000,
+   "summary": "前回の記事ではローカルLLMブームを生んだ3つの条件について見てきた。では、ローカルLLMの利用にはどのようなメリットやデメリットがあるのだろうか。個人が金額をいとわず自前の環境を作り、企業も導入に取り組むのはなぜか。用途とコストの両面から、その価値を考える。",
+   "title": "ローカルLLMは「無料だけれど安くない」 個人と企業は何に価値を見いだすのか／中国AIは危険？",
+   "updatedAt": 1788951742978,
+   "url": "https://www.itmedia.co.jp/aiplus/article/2609/09/2000001305/"
+  },
+  "https://www.itmedia.co.jp/aiplus/article/2609/09/2000001316": {
+   "bodyBlocks": [],
+   "checkedAt": 1788951742978,
+   "etag": "",
+   "hash": "94768739d850969a",
+   "id": "6c21f929ddba",
+   "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/09/2000001316/10005768/2048",
+   "key": "https://www.itmedia.co.jp/aiplus/article/2609/09/2000001316",
+   "lastModified": "Wed, 09 Sep 2026 10:45:30 GMT",
+   "publishedAt": 1788932431000,
+   "summary": "Googleの脅威分析部門GTIGが、AIによる攻撃の高速化を報告。6時間未満で数千件の認証情報が侵害された事例も確認した。攻撃者は侵害した環境でAIを動かす一方、AIの開発環境自体も標的にしている。",
+   "title": "「全ての攻撃者は何らかの形でAIを使用」 6時間で数千件の侵害事例も Google傘下組織が報告",
+   "updatedAt": 1788951742978,
+   "url": "https://www.itmedia.co.jp/aiplus/article/2609/09/2000001316/"
+  },
+  "https://www.itmedia.co.jp/aiplus/article/2609/09/2000001322": {
+   "bodyBlocks": [],
+   "checkedAt": 1788951742978,
+   "etag": "",
+   "hash": "c1cd7b98769a61af",
+   "id": "ccc02414c48e",
+   "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/09/2000001322/10005799/2048",
+   "key": "https://www.itmedia.co.jp/aiplus/article/2609/09/2000001322",
+   "lastModified": "Wed, 09 Sep 2026 10:45:30 GMT",
+   "publishedAt": 1788938160000,
+   "summary": "OpenAIのティボー・ソティオ氏（通称Tibo）は、新モデル「GPT-6 Astra」の需要拡大により「新規のProプラン登録を一時停止しなければならないかも」とXで述べた。",
+   "title": "ChatGPTのProプラン「新規受付一時停止するかも…」 GPT-6 Astraの「前例のない需要」受けて",
+   "updatedAt": 1788951742978,
+   "url": "https://www.itmedia.co.jp/aiplus/article/2609/09/2000001322/"
   },
   "https://www.itmedia.co.jp/business/articles/2609/04/news020.html": {
    "bodyBlocks": [
@@ -2508,7 +2557,7 @@
      "text": "関連リンク"
     }
    ],
-   "checkedAt": 1788865324040,
+   "checkedAt": 1788951742978,
    "etag": "",
    "hash": "421d5d38863a1d4e",
    "id": "90d08fef717c",
@@ -2518,7 +2567,7 @@
    "publishedAt": 1788856200000,
    "summary": "日立製作所の徳永社長が講演で「フィジカルAI」について熱弁を振るった。その講演は、社員にも響いたようだ。社内外に刺さるトップメッセージの核心とは。",
    "title": "日立社長の“フィジカルAI”熱弁に「あれは、叱咤激励だ」 社内外に刺さるトップメッセージの核心とは",
-   "updatedAt": 1788865324040,
+   "updatedAt": 1788951742978,
    "url": "https://www.itmedia.co.jp/business/articles/2609/08/news028.html"
   },
   "https://www.itmedia.co.jp/enterprise/articles/2609/07/news005.html": {
@@ -3354,57 +3403,72 @@
   },
   "https://www.itmedia.co.jp/news/article/2609/09/2000001294": {
    "bodyBlocks": [],
-   "checkedAt": 1788924845419,
+   "checkedAt": 1788951742978,
    "etag": "",
    "hash": "2a60a87decd91a14",
    "id": "be1853740bfe",
    "imageUrl": "https://www.itmedia.co.jp/news/article/ogp/2609/09/2000001294/10005695/2048",
    "key": "https://www.itmedia.co.jp/news/article/2609/09/2000001294",
-   "lastModified": "Wed, 09 Sep 2026 03:29:32 GMT",
+   "lastModified": "Wed, 09 Sep 2026 10:59:32 GMT",
    "publishedAt": 1788903717000,
    "summary": "Metaは、日常の作業を代行するパーソナルAIエージェント「Muse」を発表した。専用アプリやWhatsAppから操作でき、メール送信や旅行予約、Webフォーム入力などを自律して行う。専用VMや別エージェントによる多層防御で安全性を高め、決済やログイン情報との連携にも対応する。基本機能は無料。",
    "title": "Meta、パーソナルAIエージェント「Muse」発表 メール送信や買い物も代行（まずは米国で無料提供開始）",
-   "updatedAt": 1788924845419,
+   "updatedAt": 1788951742978,
    "url": "https://www.itmedia.co.jp/news/article/2609/09/2000001294/"
   },
   "https://www.itmedia.co.jp/news/article/2609/09/2000001296": {
    "bodyBlocks": [],
-   "checkedAt": 1788924845419,
+   "checkedAt": 1788951742978,
    "etag": "",
    "hash": "2af853f66e84d926",
    "id": "965000bf7d97",
    "imageUrl": "https://www.itmedia.co.jp/news/article/ogp/2609/09/2000001296/10005700/2048",
    "key": "https://www.itmedia.co.jp/news/article/2609/09/2000001296",
-   "lastModified": "Wed, 09 Sep 2026 03:29:32 GMT",
+   "lastModified": "Wed, 09 Sep 2026 10:59:32 GMT",
    "publishedAt": 1788909229000,
    "summary": "Google DeepMindは、ヒトゲノムで起こり得る約90億通り全ての一塩基変異の影響を事前予測したデータベース「AlphaGenome Atlas」を公開した。影響度を数値化するスコアも導入し、未解明な非コード領域の変異解析を加速させる。学術研究向けにWebから無償提供する。",
    "title": "Google DeepMind、90億通りの全塩基変異の影響を予測した「AlphaGenome Atlas」 学術向けに無償提供",
-   "updatedAt": 1788924845419,
+   "updatedAt": 1788951742978,
    "url": "https://www.itmedia.co.jp/news/article/2609/09/2000001296/"
   },
   "https://www.itmedia.co.jp/news/article/2609/09/2000001300": {
    "bodyBlocks": [],
-   "checkedAt": 1788924845419,
+   "checkedAt": 1788951742978,
    "etag": "",
    "hash": "1f20e3a03a35613f",
    "id": "4d45bc7084d0",
    "imageUrl": "https://www.itmedia.co.jp/news/article/ogp/2609/09/2000001300/10005718/2048",
    "key": "https://www.itmedia.co.jp/news/article/2609/09/2000001300",
-   "lastModified": "Wed, 09 Sep 2026 03:29:32 GMT",
+   "lastModified": "Wed, 09 Sep 2026 10:59:32 GMT",
    "publishedAt": 1788915327000,
    "summary": "OpenAIは、社内の未公開モデルがミレニアム懸賞問題の「ナビエ・ストークス方程式」の特異点発生を証明したと発表した。一方、先行研究を行っていた数学者は、自らの成果伝達後に着手され手法が酷似していると不正疑惑を主張。OpenAI側は反論しており、成果の検証と経緯を巡り論争が起きている。",
    "title": "OpenAI、ミレニアム懸賞問題「ナビエ・ストークス方程式」をAIが解決したと発表 数学者は経緯に反発",
-   "updatedAt": 1788924845419,
+   "updatedAt": 1788951742978,
    "url": "https://www.itmedia.co.jp/news/article/2609/09/2000001300/"
+  },
+  "https://www.itmedia.co.jp/news/article/2609/09/2000001309": {
+   "bodyBlocks": [],
+   "checkedAt": 1788951742978,
+   "etag": "",
+   "hash": "cc9043fa4036d6e6",
+   "id": "4f3be11472cf",
+   "imageUrl": "https://www.itmedia.co.jp/news/article/ogp/2609/09/2000001309/10005751/2048",
+   "key": "https://www.itmedia.co.jp/news/article/2609/09/2000001309",
+   "lastModified": "Wed, 09 Sep 2026 10:59:32 GMT",
+   "publishedAt": 1788924541000,
+   "summary": "OpenAIからAnthropicに移った研究者がAnthropicを退社し、両社が超知能の開発競争で人々の生命を賭けの対象にしていると批判した。業界全体での減速や規制がない限り来年末には制御不能になると懸念を示し、安全性を軽視した急速なスケーリングを続ける現状に強い警鐘を鳴らしている。",
+   "title": "Anthropicの研究者が退社し超知能の開発競争を猛批判──「来年末には制御不能になる可能性」",
+   "updatedAt": 1788951742978,
+   "url": "https://www.itmedia.co.jp/news/article/2609/09/2000001309/"
   }
  },
  "listing": {
   "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml": {
-   "checkedAt": 1788924846877,
-   "etag": "\"2fae-65b03fabe8814-gzip\"",
-   "lastModified": "Wed, 09 Sep 2026 02:55:10 GMT"
+   "checkedAt": 1788951744656,
+   "etag": "\"30de-65b0a443ee4dc-gzip\"",
+   "lastModified": "Wed, 09 Sep 2026 10:25:13 GMT"
   }
  },
  "siteId": "itmedia_ait",
- "updatedAt": 1788924873517
+ "updatedAt": 1788951765942
 }
