@@ -731,7 +731,7 @@
      "text": "まず、自身が運用している開発者アカウントの認証状態を確認し、必要な書類や手続きの準備を進める必要があります。2026年9月の先行地域適用、そして2027年のグローバル展開を見据えて認証の手続きを完了させておく姿勢が求められます。単にアプリを動かすコードを書くだけでなく、安全なプラットフォームの一員として、信頼を担保することが開発における必須要件となります。"
     }
    ],
-   "checkedAt": 1788865120425,
+   "checkedAt": 1788990868074,
    "etag": "",
    "hash": "65ee62301a686e40",
    "id": "72866303ce5c",
@@ -741,7 +741,7 @@
    "publishedAt": 1787789220000,
    "summary": "Androidの魅力として語られてきた自由なアプリ導入手法、いわゆるサイドロードの運用が大きな転換期を迎えています。今回の施策について、これまでの経緯と新たな制限の仕組み、そして開発者が取るべき具体的な対応策を紐解いていきます。",
    "title": "9月からアプリのサイドロードが禁止！？ 開発者認証強化の全貌と影響",
-   "updatedAt": 1788865120425,
+   "updatedAt": 1788990868074,
    "url": "https://gihyo.jp/article/2026/08/android-weekly-topics-260827?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/08/arduino-ventuno-q": {
@@ -2247,6 +2247,70 @@
    "title": "ChatGPT Workにユーザーの書く文章スタイルを学習して文書作成に反映させる機能が追加",
    "updatedAt": 1788924635129,
    "url": "https://gihyo.jp/article/2026/09/chatgpt-learning-writing-style?utm_source=feed"
+  },
+  "https://gihyo.jp/article/2026/09/chrome-two-week-release-cycle": {
+   "bodyBlocks": [
+    {
+     "kind": "P",
+     "text": "Googleは9月8日、Webブラウザー Chrome 153 （安定版） を公開し、リリース周期を4週間から2週間へ短縮した。デスクトップ、Android、iOS向けに適用し、新機能や性能改善、不具合修正をより早くユーザーへ届けることを目指す。Chrome 153は順次配信されている。"
+    },
+    {
+     "kind": "P",
+     "text": "今回の変更で、新しいメジャーバージョンの安定版 （Stable） とベータ版 （Beta） が2週間ごとに公開される。開発版のDev、Canaryチャンネルの周期は変更しない。Googleは 3月の事前発表 で、1回のリリースに含める変更を小さくすることで、更新に伴う影響を抑え、リリース後のデバッグもしやすくすると説明していた。"
+    },
+    {
+     "kind": "P",
+     "text": "Googleによると、AIによる脆弱性の自動発見やコミュニティーからの不具合報告に伴い、必要な修正が増えている。リリース間隔を短くすることで、こうしたセキュリティ修正を管理しやすくするという。"
+    },
+    {
+     "kind": "P",
+     "text": "公開ソースコードに修正が反映されてから、ユーザーの端末へ届くまでには時間差がある。Googleの セキュリティ対策に関する説明 によると、この間に攻撃者が修正内容を解析し、未更新のブラウザーを攻撃する恐れがある。同社は、この 「パッチギャップ」 を縮め、既知の脆弱性を狙うN-day攻撃への対策につなげるとしている。"
+    },
+    {
+     "kind": "P",
+     "text": "通常の安定版が2週間周期になる一方、更新の検証に時間が必要な企業などに向けたExtended Stableでは、引き続き主要な機能更新を8週間ごとに提供する。Googleは機能更新を提供するバージョンの例としてChrome 156、160を挙げ、企業内への導入に向けたテストも8週間周期にあわせて計画するよう案内している。セキュリティ修正は毎週取り込む。"
+    },
+    {
+     "kind": "P",
+     "text": "次の Chrome 154 Beta はすでに公開されており、安定版は9月22日に公開される予定。Googleは開発者に対し、今後の公開予定や機能を確認できる Chrome Status Roadmap を参照し、ベータ版でWebサイトをテストするよう呼びかけている。"
+    },
+    {
+     "kind": "H",
+     "text": "EdgeとFirefoxも2週間周期に"
+    },
+    {
+     "kind": "P",
+     "text": "Chromeに先立ち、Microsoftは8月27日公開の Edge 152 から、安定版のメジャーバージョンを2週間ごとに公開するようになった。 Microsoft Edge Blogの6月11日付の記事 では、1回のリリースに含む新しい内容をそれまでの約半分にし、2倍の頻度で届けるとしていた。変更の規模を小さくすることで、企業での検証も進めやすくする狙いがある。"
+    },
+    {
+     "kind": "P",
+     "text": "Mozillaも、9月1日公開の Firefox 155 から、デスクトップ版とAndroid版を4週間から2週間のリリース周期へ切り替えた。Mozillaの 公式サポートブログ によると、不具合修正や完成した機能を早く届け、公開スケジュールを予測しやすくすることを目指している。 7月の告知 では、この変更を試行と位置づけ、移行後の運用状況を見ながら、必要に応じて調整する方針を示した。"
+    },
+    {
+     "kind": "P",
+     "text": "企業向けに更新間隔の長い選択肢も残り、EdgeのExtended StableはChromeと同じく機能更新の8週間周期を維持する。Firefoxの長期サポート版 ESR （Extended Support Release） では、新しいメジャーバージョンを年1回公開し、その間はセキュリティ更新を提供する。"
+    },
+    {
+     "kind": "P",
+     "text": "今後の公開予定は、 Microsoft Edgeのリリーススケジュール と Firefox Release Calendar で確認できる。"
+    },
+    {
+     "kind": "P",
+     "text": "Safariは近年、iOSなどの大型更新にあわせて9月頃にメジャーバージョンを公開し、その後も年間を通じて機能更新を提供している （次期バージョンのSafari 27は、6月のWWDC26で ベータ版 が公開された⁠ ） ⁠。なお、最新のWebKitを先行して試せる開発者向けの Safari Technology Preview は、数週間ごとに更新されている。"
+    }
+   ],
+   "checkedAt": 1788990868074,
+   "etag": "",
+   "hash": "186b7bfb2934a86a",
+   "id": "cbd158f2a760",
+   "imageUrl": "https://gihyo.jp/assets/images/ICON/2026/3037_chrome-two-week-release-cycle.jpg",
+   "key": "https://gihyo.jp/article/2026/09/chrome-two-week-release-cycle",
+   "lastModified": "",
+   "publishedAt": 1788946620000,
+   "summary": "Googleは9月8日、WebブラウザーChrome 153（安定版）を公開し、リリース周期を4週間から2週間へ短縮した。",
+   "title": "Chrome、バージョン153を公開。2週間ごとのリリースに移行 ——EdgeとFirefoxもすでに2週間周期に",
+   "updatedAt": 1788990868074,
+   "url": "https://gihyo.jp/article/2026/09/chrome-two-week-release-cycle?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/claude-code-ai-driven-development-01": {
    "bodyBlocks": [
@@ -4679,11 +4743,11 @@
  },
  "listing": {
   "https://gihyo.jp/feed/rss2": {
-   "checkedAt": 1788951525430,
-   "etag": "W/\"6aa12100-7a85c\"",
-   "lastModified": "Wed, 09 Sep 2026 09:04:00 GMT"
+   "checkedAt": 1788990870234,
+   "etag": "W/\"6aa1c9c0-79cd5\"",
+   "lastModified": "Wed, 09 Sep 2026 21:04:00 GMT"
   }
  },
  "siteId": "gihyo",
- "updatedAt": 1788951573320
+ "updatedAt": 1788990914765
 }
