@@ -1,20 +1,5 @@
 {
  "articles": {
-  "https://news.web.nhk/newsweb/na/nd-20260906de48377": {
-   "bodyBlocks": [],
-   "checkedAt": 1788731885137,
-   "etag": "",
-   "hash": "4ffa72dcfb167311",
-   "id": "b6bb671b5109",
-   "imageUrl": "",
-   "key": "https://news.web.nhk/newsweb/na/nd-20260906de48377",
-   "lastModified": "",
-   "publishedAt": 1788722076000,
-   "summary": "秋雨前線が北上している影響で、伊豆諸島や関東南部で大雨となり、土砂災害の危険度が非常に高まっています。\n関東と東海、それに東北では線状降水帯が発生するおそれがあり、安全な場所で過ごすようにしてください…",
-   "title": "関東 東海 東北 線状降水帯発生の可能性 安全最優先に行動を",
-   "updatedAt": 1788731885137,
-   "url": "https://news.web.nhk/newsweb/na/nd-20260906de48377"
-  },
   "https://news.web.nhk/newsweb/na/nd-20260906de48452": {
    "bodyBlocks": [],
    "checkedAt": 1788731885137,
@@ -30,21 +15,6 @@
    "updatedAt": 1788731885137,
    "url": "https://news.web.nhk/newsweb/na/nd-20260906de48452"
   },
-  "https://news.web.nhk/newsweb/na/nd-20260906de48513": {
-   "bodyBlocks": [],
-   "checkedAt": 1788701397981,
-   "etag": "",
-   "hash": "1b2c259566c51d27",
-   "id": "c8868c0ec5d6",
-   "imageUrl": "",
-   "key": "https://news.web.nhk/newsweb/na/nd-20260906de48513",
-   "lastModified": "",
-   "publishedAt": 1788694200000,
-   "summary": "6日夕方、福岡県岡垣町の漁港で、海に飛び込んで遊んでいた大学生1人が溺れて行方が分からなくなり、海上保安部が捜索しています。",
-   "title": "福岡 漁港で飛び込み大学生1人行方不明",
-   "updatedAt": 1788701397981,
-   "url": "https://news.web.nhk/newsweb/na/nd-20260906de48513"
-  },
   "https://news.web.nhk/newsweb/na/nd-20260906de48514": {
    "bodyBlocks": [],
    "checkedAt": 1788731885137,
@@ -59,51 +29,6 @@
    "title": "全東信問題「決済代行は大手含め利用」 経産省調査",
    "updatedAt": 1788731885137,
    "url": "https://news.web.nhk/newsweb/na/nd-20260906de48514"
-  },
-  "https://news.web.nhk/newsweb/na/nd-20260906de48517": {
-   "bodyBlocks": [],
-   "checkedAt": 1788701397981,
-   "etag": "",
-   "hash": "42051cb6365baaac",
-   "id": "82c89113e6af",
-   "imageUrl": "",
-   "key": "https://news.web.nhk/newsweb/na/nd-20260906de48517",
-   "lastModified": "",
-   "publishedAt": 1788695220000,
-   "summary": "ICC＝国際刑事裁判所のトップで、アメリカのトランプ政権により制裁が科された赤根智子所長が都内で開かれたイベントでオンラインで講演し、「法の支配に対する違法な脅しに沈黙することは、力による支配を是認す…",
-   "title": "ＩＣＣ赤根所長が講演「法の支配への違法な脅しに沈黙せず」",
-   "updatedAt": 1788701397981,
-   "url": "https://news.web.nhk/newsweb/na/nd-20260906de48517"
-  },
-  "https://news.web.nhk/newsweb/na/nd-20260906de48532": {
-   "bodyBlocks": [],
-   "checkedAt": 1788701397981,
-   "etag": "",
-   "hash": "8a67bbf763fdc189",
-   "id": "d52aa2a8f0c0",
-   "imageUrl": "",
-   "key": "https://news.web.nhk/newsweb/na/nd-20260906de48532",
-   "lastModified": "",
-   "publishedAt": 1788699105000,
-   "summary": "気象庁は午後8時44分、東京・伊豆諸島の神津島村に「レベル4土砂災害危険警報」を発表しました。\nまた、午後9時18分、東京・伊豆諸島の大島町に「レベル4土砂災害危険警報」を発表しました。\n土砂災害…",
-   "title": "東京 神津島村 大島町に土砂災害危険警報",
-   "updatedAt": 1788701397981,
-   "url": "https://news.web.nhk/newsweb/na/nd-20260906de48532"
-  },
-  "https://news.web.nhk/newsweb/na/nd-20260907de48555": {
-   "bodyBlocks": [],
-   "checkedAt": 1788731885137,
-   "etag": "",
-   "hash": "a8b4af6cfcc49c5f",
-   "id": "8b21011faaad",
-   "imageUrl": "",
-   "key": "https://news.web.nhk/newsweb/na/nd-20260907de48555",
-   "lastModified": "",
-   "publishedAt": 1788721631000,
-   "summary": "5日、岐阜県本巣市の店舗兼住宅で3人が死亡した火事で、現場には住人とその同級生合わせて10人が集まっていたとみられることが、警察への取材で分かりました。1人が人を刺してガソリンをまいたという通報があっ…",
-   "title": "3人死亡火事は同級生の集まりで発生か 会社役員関与の可能性も",
-   "updatedAt": 1788731885137,
-   "url": "https://news.web.nhk/newsweb/na/nd-20260907de48555"
   },
   "https://news.web.nhk/newsweb/na/nd-20260907de48626": {
    "bodyBlocks": [],
@@ -812,33 +737,48 @@
   },
   "https://news.web.nhk/newsweb/na/nd-20260909de49378": {
    "bodyBlocks": [],
-   "checkedAt": 1788991111303,
+   "checkedAt": 1789011275134,
    "etag": "",
-   "hash": "e03b8b67e32ef77e",
+   "hash": "ff84d267322fdcc8",
    "id": "147dabea98ec",
    "imageUrl": "",
    "key": "https://news.web.nhk/newsweb/na/nd-20260909de49378",
    "lastModified": "",
-   "publishedAt": 1788988980000,
-   "summary": "秋雨前線や低気圧の影響で、10日も広い範囲で大気の状態が不安定になっていて、伊豆諸島では局地的に雨雲が発達して「レベル4土砂災害危険警報」が発表されている地域があり、厳重な警戒が必要です。\nこのほか…",
-   "title": "広い範囲で大気不安定 地盤緩んでいるため土砂災害などに注意",
-   "updatedAt": 1788991111303,
+   "publishedAt": 1789010066000,
+   "summary": "日本の南の海上にのびる秋雨前線の影響で、10日は東京 伊豆諸島や鹿児島県の種子島・屋久島地方などで雨が降っています。前線は再び北上し、11日には東日本と西日本の太平洋側を中心に雨が強まると予想されてい…",
+   "title": "前線再び北上 11日太平洋側中心に雨強まる予想 土砂災害に注意",
+   "updatedAt": 1789011275134,
    "url": "https://news.web.nhk/newsweb/na/nd-20260909de49378"
   },
   "https://news.web.nhk/newsweb/na/nd-20260909de49402": {
    "bodyBlocks": [],
-   "checkedAt": 1788991111303,
+   "checkedAt": 1789011275134,
    "etag": "",
-   "hash": "49928a6d5e1e5633",
+   "hash": "ce81a6f5dcc7cce7",
    "id": "f38f65f604aa",
    "imageUrl": "",
    "key": "https://news.web.nhk/newsweb/na/nd-20260909de49402",
    "lastModified": "",
-   "publishedAt": 1788986897000,
-   "summary": "アメリカのトランプ政権に対する有権者の評価が示される11月の中間選挙を前に、与党・共和党の、中間選挙前では初めての党大会が始まりました。トランプ大統領は初日に演説する予定ですが、支持率が下落傾向にある…",
-   "title": "アメリカ 共和党大会始まる 中間選挙前に初開催",
-   "updatedAt": 1788991111303,
+   "publishedAt": 1789008733000,
+   "summary": "アメリカのトランプ大統領は、みずからの政権への有権者の評価が示される11月の中間選挙を前に共和党の党大会で演説し「アメリカの未来を急進左派の民主党に委ねれば悲劇となる」と主張し、支持を訴えました。\n大…",
+   "title": "トランプ大統領 共和党大会で演説「民主党に委ねれば悲劇だ」",
+   "updatedAt": 1789011275134,
    "url": "https://news.web.nhk/newsweb/na/nd-20260909de49402"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260909de49403": {
+   "bodyBlocks": [],
+   "checkedAt": 1789011275134,
+   "etag": "",
+   "hash": "dc360ff2622dab06",
+   "id": "c3fac52de390",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260909de49403",
+   "lastModified": "",
+   "publishedAt": 1788992820000,
+   "summary": "アメリカのIT大手「アップル」は9日、西部カリフォルニア州の本社で最新の製品を発表し、日本での販売価格が36万円余りの折りたたみ式のスマートフォンを披露しました。\n折りたたみ式の端末は各メーカーの間…",
+   "title": "アップル 初の折りたたみ式スマホ発表 販売価格36万円余から",
+   "updatedAt": 1789011275134,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260909de49403"
   },
   "https://news.web.nhk/newsweb/na/nd-20260910de49410": {
    "bodyBlocks": [],
@@ -899,15 +839,75 @@
    "title": "ホルムズ海峡巡る米イラン応酬で船舶への攻撃相次ぐ",
    "updatedAt": 1788991111303,
    "url": "https://news.web.nhk/newsweb/na/nd-20260910de49416"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260910de49426": {
+   "bodyBlocks": [],
+   "checkedAt": 1789011275134,
+   "etag": "",
+   "hash": "07d119691e7970c9",
+   "id": "c3204e63b748",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260910de49426",
+   "lastModified": "",
+   "publishedAt": 1789008544000,
+   "summary": "プロ野球最多の3085本のヒットを打ち、「安打製造機」と呼ばれた張本勲さんが9日、亡くなりました。\n86歳でした。\nこれはプロ野球で功績を残した選手をたたえるべく発足した「名球会」が発表しました。",
+   "title": "張本勲さん死去 86歳 プロ野球最多安打 解説者では「喝！」",
+   "updatedAt": 1789011275134,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260910de49426"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260910de49443": {
+   "bodyBlocks": [],
+   "checkedAt": 1789011275134,
+   "etag": "",
+   "hash": "403e319c6ee46a26",
+   "id": "a3d3091f5a7f",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260910de49443",
+   "lastModified": "",
+   "publishedAt": 1789005591000,
+   "summary": "企業などのデータを暗号化して金銭などを要求するサイバー攻撃、「ランサムウエア」の被害がことし上半期で123件にのぼり、半年間の件数としては最も多くなったことが警察庁のまとめでわかりました。復旧にかかる…",
+   "title": "「ランサムウエア」のサイバー攻撃被害 半期で過去最多 警察庁",
+   "updatedAt": 1789011275134,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260910de49443"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260910de49447": {
+   "bodyBlocks": [],
+   "checkedAt": 1789011275134,
+   "etag": "",
+   "hash": "46495cfddeee6a82",
+   "id": "2fe7a240528f",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260910de49447",
+   "lastModified": "",
+   "publishedAt": 1789006440000,
+   "summary": "和歌山県にある世界遺産の高野山で、精進料理やめい想などを体験できる宿坊を営む複数の宗教法人が昨年度、大阪国税局の税務調査を受け、法人税や所得税などあわせて1億円を超える申告漏れを指摘されていたことが関…",
+   "title": "世界遺産の高野山で宿坊営む複数の宗教法人 1億円超の申告漏れ",
+   "updatedAt": 1789011275134,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260910de49447"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260910de49458": {
+   "bodyBlocks": [],
+   "checkedAt": 1789011275134,
+   "etag": "",
+   "hash": "dd3da9df836b793b",
+   "id": "5d3d7a0a5c73",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260910de49458",
+   "lastModified": "",
+   "publishedAt": 1789010418000,
+   "summary": "ことし1月、国内の空港で海外からの入国者が持ち込もうとした生肉から家畜の感染症「口てい疫」の感染性のあるウイルスが検出されたことが、農林水産省動物検疫所などの調べでわかりました。動物検疫で見つかった肉…",
+   "title": "家畜の感染症「口てい疫」感染性のあるウイルスが検疫で初検出",
+   "updatedAt": 1789011275134,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260910de49458"
   }
  },
  "listing": {
   "https://www.nhk.or.jp/rss/news/cat0.xml": {
-   "checkedAt": 1788991113119,
-   "etag": "W/\"630af0adac4432317b066e7973755e53\"",
-   "lastModified": "Wed, 09 Sep 2026 21:54:47 GMT"
+   "checkedAt": 1789011276451,
+   "etag": "W/\"e97d6818f39d0959591f5c77a2fa2830\"",
+   "lastModified": "Thu, 10 Sep 2026 03:23:55 GMT"
   }
  },
  "siteId": "nhk_main",
- "updatedAt": 1788991113120
+ "updatedAt": 1789011276451
 }

@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-09-09T21:58:35+09:00",
+ "generatedAt": "2026-09-10T03:34:38+09:00",
  "sites": [
   {
    "id": "4gamer",
@@ -8,8 +8,8 @@
    "category": "GAME",
    "file": "sites/4gamer.json",
    "count": 80,
-   "rev": "e820953c9c11",
-   "updatedAt": "2026-09-09T21:54:24+09:00",
+   "rev": "7f3b8b4f0bef",
+   "updatedAt": "2026-09-10T03:30:45+09:00",
    "allowFullText": true
   },
   {
@@ -19,7 +19,7 @@
    "file": "sites/diamond_zai.json",
    "count": 0,
    "rev": "ffe679bb831c",
-   "updatedAt": "2026-09-09T21:54:26+09:00",
+   "updatedAt": "2026-09-10T03:30:47+09:00",
    "allowFullText": true
   },
   {
@@ -29,7 +29,7 @@
    "file": "sites/famitsu.json",
    "count": 0,
    "rev": "ffe679bb831c",
-   "updatedAt": "2026-09-09T21:54:28+09:00",
+   "updatedAt": "2026-09-10T03:30:48+09:00",
    "allowFullText": true
   },
   {
@@ -37,9 +37,9 @@
    "name": "gihyo.jp",
    "category": "TECH",
    "file": "sites/gihyo.json",
-   "count": 46,
-   "rev": "67b07f72ce92",
-   "updatedAt": "2026-09-09T21:55:14+09:00",
+   "count": 45,
+   "rev": "66f1cc26f034",
+   "updatedAt": "2026-09-10T03:31:36+09:00",
    "allowFullText": true
   },
   {
@@ -48,8 +48,8 @@
    "category": "GENERAL",
    "file": "sites/hatena_all.json",
    "count": 60,
-   "rev": "6d3958164c2e",
-   "updatedAt": "2026-09-09T21:56:42+09:00",
+   "rev": "222ddf481c63",
+   "updatedAt": "2026-09-10T03:32:37+09:00",
    "allowFullText": true
   },
   {
@@ -58,8 +58,8 @@
    "category": "TECH",
    "file": "sites/hatena_it.json",
    "count": 60,
-   "rev": "ad75f87b06ca",
-   "updatedAt": "2026-09-09T21:57:27+09:00",
+   "rev": "bc65e558e8df",
+   "updatedAt": "2026-09-10T03:33:28+09:00",
    "allowFullText": true
   },
   {
@@ -68,8 +68,8 @@
    "category": "MATOME",
    "file": "sites/itainews.json",
    "count": 80,
-   "rev": "895fe49b8028",
-   "updatedAt": "2026-09-09T21:58:06+09:00",
+   "rev": "05591aeb9daa",
+   "updatedAt": "2026-09-10T03:34:09+09:00",
    "allowFullText": true
   },
   {
@@ -77,9 +77,9 @@
    "name": "ITmedia AI＋",
    "category": "TECH",
    "file": "sites/itmedia_ait.json",
-   "count": 65,
-   "rev": "136add5e1fde",
-   "updatedAt": "2026-09-09T21:58:29+09:00",
+   "count": 72,
+   "rev": "2576708a6b3b",
+   "updatedAt": "2026-09-10T03:34:33+09:00",
    "allowFullText": true
   },
   {
@@ -89,7 +89,7 @@
    "file": "sites/kabutan.json",
    "count": 0,
    "rev": "ffe679bb831c",
-   "updatedAt": "2026-09-09T21:58:31+09:00",
+   "updatedAt": "2026-09-10T03:34:35+09:00",
    "allowFullText": true
   },
   {
@@ -98,8 +98,8 @@
    "category": "GENERAL",
    "file": "sites/nhk_main.json",
    "count": 60,
-   "rev": "2f5ad861db1b",
-   "updatedAt": "2026-09-09T21:58:33+09:00",
+   "rev": "41631b6d288d",
+   "updatedAt": "2026-09-10T03:34:36+09:00",
    "allowFullText": false
   },
   {
@@ -108,10 +108,10 @@
    "category": "GENERAL",
    "file": "sites/yahoo_topics.json",
    "count": 60,
-   "rev": "761d5bc4e55c",
-   "updatedAt": "2026-09-09T21:58:35+09:00",
+   "rev": "52f9e81f0347",
+   "updatedAt": "2026-09-10T03:34:38+09:00",
    "allowFullText": false
   }
  ],
- "rev": "6fc6785d5bd5"
+ "rev": "8a55431a57d6"
 }
