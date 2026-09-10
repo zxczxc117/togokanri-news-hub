@@ -1,20 +1,5 @@
 {
  "articles": {
-  "https://news.web.nhk/newsweb/na/nd-20260906de48452": {
-   "bodyBlocks": [],
-   "checkedAt": 1788731885137,
-   "etag": "",
-   "hash": "cbe1b7bb6ece79da",
-   "id": "12fa07dd8381",
-   "imageUrl": "",
-   "key": "https://news.web.nhk/newsweb/na/nd-20260906de48452",
-   "lastModified": "",
-   "publishedAt": 1788731457000,
-   "summary": "大雨の影響で7日は、新幹線と首都圏の在来線など一部の交通機関で運休が決まっています。",
-   "title": "大雨交通影響 7日は山手線など本数減 運休区間も",
-   "updatedAt": 1788731885137,
-   "url": "https://news.web.nhk/newsweb/na/nd-20260906de48452"
-  },
   "https://news.web.nhk/newsweb/na/nd-20260907de48631": {
    "bodyBlocks": [],
    "checkedAt": 1788778901965,
@@ -30,51 +15,6 @@
    "updatedAt": 1788778901965,
    "url": "https://news.web.nhk/newsweb/na/nd-20260907de48631"
   },
-  "https://news.web.nhk/newsweb/na/nd-20260907de48698": {
-   "bodyBlocks": [],
-   "checkedAt": 1788752053651,
-   "etag": "",
-   "hash": "eafeb5b16f68d62d",
-   "id": "26f8b1503bf3",
-   "imageUrl": "",
-   "key": "https://news.web.nhk/newsweb/na/nd-20260907de48698",
-   "lastModified": "",
-   "publishedAt": 1788748813000,
-   "summary": "各地で大雨が続いています。こうした中、千葉豪雨では1万台以上の車が浸水被害を受けたという情報もあり、ひとごとではありません。車が浸水したとき、どう対応すればいいのか、まとめました。",
-   "title": "【解説】車が浸水してしまったら…どうすれば?",
-   "updatedAt": 1788752053651,
-   "url": "https://news.web.nhk/newsweb/na/nd-20260907de48698"
-  },
-  "https://news.web.nhk/newsweb/na/nd-20260907de48699": {
-   "bodyBlocks": [],
-   "checkedAt": 1788752053651,
-   "etag": "",
-   "hash": "715ace25ab7accd3",
-   "id": "47e06cc4fd36",
-   "imageUrl": "",
-   "key": "https://news.web.nhk/newsweb/na/nd-20260907de48699",
-   "lastModified": "",
-   "publishedAt": 1788748906000,
-   "summary": "7日朝、宇都宮市の東北新幹線の線路内で人と新幹線が接触する人身事故があり、接触した女性はその後、死亡が確認されました。\n東北新幹線は運転を再開していて、警察で身元の確認などを進めています。",
-   "title": "東北新幹線で人身事故 女性死亡 運転見合わせ約2時間半で再開",
-   "updatedAt": 1788752053651,
-   "url": "https://news.web.nhk/newsweb/na/nd-20260907de48699"
-  },
-  "https://news.web.nhk/newsweb/na/nd-20260907de48710": {
-   "bodyBlocks": [],
-   "checkedAt": 1788752053651,
-   "etag": "",
-   "hash": "fe73358698b4415b",
-   "id": "655efb2d4915",
-   "imageUrl": "",
-   "key": "https://news.web.nhk/newsweb/na/nd-20260907de48710",
-   "lastModified": "",
-   "publishedAt": 1788750504000,
-   "summary": "JR東日本によりますと、JR埼京線は大雨の影響で一時、運転本数を減らしていたということで、午前8時半すぎ、赤羽駅のホームは電車を待つ利用者であふれていました。",
-   "title": "【動画】赤羽駅が混雑 大雨影響で一時本数減らし運行",
-   "updatedAt": 1788752053651,
-   "url": "https://news.web.nhk/newsweb/na/nd-20260907de48710"
-  },
   "https://news.web.nhk/newsweb/na/nd-20260907de48714": {
    "bodyBlocks": [],
    "checkedAt": 1788778901965,
@@ -89,21 +29,6 @@
    "title": "【被害】福島 いわき アンダーパスで水没した車の女性死亡",
    "updatedAt": 1788778901965,
    "url": "https://news.web.nhk/newsweb/na/nd-20260907de48714"
-  },
-  "https://news.web.nhk/newsweb/na/nd-20260907de48723": {
-   "bodyBlocks": [],
-   "checkedAt": 1788752053651,
-   "etag": "",
-   "hash": "f2349ccf7e2f0005",
-   "id": "6607563a103c",
-   "imageUrl": "",
-   "key": "https://news.web.nhk/newsweb/na/nd-20260907de48723",
-   "lastModified": "",
-   "publishedAt": 1788749478000,
-   "summary": "大リーグ、ドジャースで右腕や首の違和感で欠場が続く大谷翔平選手について、ロバーツ監督は6日、今シーズン中のピッチャーとしての復帰は難しいという考えを示しました。一方で、バッターとしてはこの日で4試合連…",
-   "title": "ドジャース大谷 シーズン中の投手復帰困難 打者で7日復帰期待",
-   "updatedAt": 1788752053651,
-   "url": "https://news.web.nhk/newsweb/na/nd-20260907de48723"
   },
   "https://news.web.nhk/newsweb/na/nd-20260907de48739": {
    "bodyBlocks": [],
@@ -135,21 +60,6 @@
    "updatedAt": 1788778901965,
    "url": "https://news.web.nhk/newsweb/na/nd-20260907de48752"
   },
-  "https://news.web.nhk/newsweb/na/nd-20260907de48786": {
-   "bodyBlocks": [],
-   "checkedAt": 1788778901965,
-   "etag": "",
-   "hash": "6bb5cf62bc6bdab5",
-   "id": "7d825c1c9e37",
-   "imageUrl": "",
-   "key": "https://news.web.nhk/newsweb/na/nd-20260907de48786",
-   "lastModified": "",
-   "publishedAt": 1788763213000,
-   "summary": "「レベル5土砂災害特別警報」が発表された伊豆諸島の大島町で7日午後1時ごろに撮影された映像です。",
-   "title": "【動画】土砂災害特別警報の大島町 大粒の雨 激しく打ちつける",
-   "updatedAt": 1788778901965,
-   "url": "https://news.web.nhk/newsweb/na/nd-20260907de48786"
-  },
   "https://news.web.nhk/newsweb/na/nd-20260907de48811": {
    "bodyBlocks": [],
    "checkedAt": 1788778901965,
@@ -164,21 +74,6 @@
    "title": "横浜市 山中市長の辞職 市議会が同意",
    "updatedAt": 1788778901965,
    "url": "https://news.web.nhk/newsweb/na/nd-20260907de48811"
-  },
-  "https://news.web.nhk/newsweb/na/nd-20260907de48823": {
-   "bodyBlocks": [],
-   "checkedAt": 1788778901965,
-   "etag": "",
-   "hash": "92d24fda1e98d641",
-   "id": "75469ae38b61",
-   "imageUrl": "",
-   "key": "https://news.web.nhk/newsweb/na/nd-20260907de48823",
-   "lastModified": "",
-   "publishedAt": 1788775680000,
-   "summary": "福島県いわき市で車2台が水没し1人が死亡したアンダーパスで、7日午前7時50分すぎに撮影された画像です。",
-   "title": "福島 いわき アンダーパス冠水の現場「音を立て 大量の水が」",
-   "updatedAt": 1788778901965,
-   "url": "https://news.web.nhk/newsweb/na/nd-20260907de48823"
   },
   "https://news.web.nhk/newsweb/na/nd-20260907de48880": {
    "bodyBlocks": [],
@@ -899,15 +794,120 @@
    "title": "気象庁 千葉豪雨は「スコールライン型」の積乱雲が停滞か",
    "updatedAt": 1789038069616,
    "url": "https://news.web.nhk/newsweb/na/nd-20260910de49553"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260910de49606": {
+   "bodyBlocks": [],
+   "checkedAt": 1789077524862,
+   "etag": "",
+   "hash": "120a3ef201bfbd72",
+   "id": "80b5d287fbc4",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260910de49606",
+   "lastModified": "",
+   "publishedAt": 1789071106000,
+   "summary": "ことし5月、福島県の磐越自動車道で、部活動の遠征中の高校生などが死傷したバス事故で、検察は、運転していた68歳の容疑者の認知機能や身体機能が運転にどう影響したかさらに詳しく調べる必要があるとして、「鑑…",
+   "title": "磐越道 部活動バス事故 容疑者の「鑑定留置」3か月延長へ",
+   "updatedAt": 1789077524862,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260910de49606"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260910de49611": {
+   "bodyBlocks": [],
+   "checkedAt": 1789077524862,
+   "etag": "",
+   "hash": "7c035d3b12a67547",
+   "id": "71542fc48f77",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260910de49611",
+   "lastModified": "",
+   "publishedAt": 1789053240000,
+   "summary": "秋篠宮妃の紀子さまは11日、60歳の誕生日を迎えられました。",
+   "title": "紀子さま 60歳の誕生日",
+   "updatedAt": 1789077524862,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260910de49611"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260911de49613": {
+   "bodyBlocks": [],
+   "checkedAt": 1789077524862,
+   "etag": "",
+   "hash": "a5bbd70d58e9317c",
+   "id": "3143f85578e5",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260911de49613",
+   "lastModified": "",
+   "publishedAt": 1789072888000,
+   "summary": "食料品の消費税減税をめぐり、自民党執行部は、11日の合同会議で制度設計を盛り込んだ大綱案に一任を取りつけた上で、来週決定したい考えです。決定できれば、16日に党役員人事、17日に内閣改造を行う日程を調…",
+   "title": "消費税減税 大綱の来週決定目指す 高市首相 人事の検討進める",
+   "updatedAt": 1789077524862,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260911de49613"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260911de49614": {
+   "bodyBlocks": [],
+   "checkedAt": 1789077524862,
+   "etag": "",
+   "hash": "8b4531a8e1b32f06",
+   "id": "bf5694270567",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260911de49614",
+   "lastModified": "",
+   "publishedAt": 1789073713000,
+   "summary": "2001年の9月11日に起きたアメリカ同時多発テロ事件から25年となります。現場となったニューヨークや首都ワシントンなど各地で日本時間の11日夜、犠牲者の追悼式典が行われます。",
+   "title": "米同時多発テロ事件から25年 政治 社会への影響検証する動きも",
+   "updatedAt": 1789077524862,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260911de49614"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260911de49616": {
+   "bodyBlocks": [],
+   "checkedAt": 1789077524862,
+   "etag": "",
+   "hash": "28cf72bd5c0cd9c7",
+   "id": "32a4736d51c5",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260911de49616",
+   "lastModified": "",
+   "publishedAt": 1789057061000,
+   "summary": "8月の千葉豪雨で、千葉県佐倉市でタクシーが水没し乗客が死亡したことを受けて、国土交通省は、災害に関連するものとしては初めて、専門家でつくる委員会に調査を要請しました。",
+   "title": "千葉豪雨タクシー乗客死亡 外部委員会に調査要請 災害関連で初",
+   "updatedAt": 1789077524862,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260911de49616"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260911de49622": {
+   "bodyBlocks": [],
+   "checkedAt": 1789077524862,
+   "etag": "",
+   "hash": "7bfde1dde8a5700e",
+   "id": "59a2905c0250",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260911de49622",
+   "lastModified": "",
+   "publishedAt": 1789070641000,
+   "summary": "11月のアメリカの中間選挙を前に開かれている与党・共和党の党大会が10日、最終日となり、トランプ大統領が前日に続いて演説するほかバンス副大統領も登壇し、野党・民主党への批判を強めるとみられます。一方、…",
+   "title": "共和党大会 トランプ大統領再び演説へ 民主党対抗集会も",
+   "updatedAt": 1789077524862,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260911de49622"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260911de49632": {
+   "bodyBlocks": [],
+   "checkedAt": 1789077524862,
+   "etag": "",
+   "hash": "0a2afacd49fad346",
+   "id": "9429aa5a448e",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260911de49632",
+   "lastModified": "",
+   "publishedAt": 1789076186000,
+   "summary": "本州の南岸付近に停滞する秋雨前線の影響で、東海や甲信などで雨雲が発達しています。近畿や東海、関東甲信では11日、激しい雨が降るところがある見込みで、土砂災害に十分注意が必要です。",
+   "title": "秋雨前線で大気不安定 太平洋側中心に激しい雨のおそれ",
+   "updatedAt": 1789077524862,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260911de49632"
   }
  },
  "listing": {
   "https://www.nhk.or.jp/rss/news/cat0.xml": {
-   "checkedAt": 1789038071430,
-   "etag": "W/\"ee6a85365b00cc90e6e6f7b092b79059\"",
-   "lastModified": "Thu, 10 Sep 2026 10:44:23 GMT"
+   "checkedAt": 1789077526408,
+   "etag": "W/\"201b72bde3ccf7339cd8f66d5faba979\"",
+   "lastModified": "Thu, 10 Sep 2026 21:41:56 GMT"
   }
  },
  "siteId": "nhk_main",
- "updatedAt": 1789038071431
+ "updatedAt": 1789077526408
 }

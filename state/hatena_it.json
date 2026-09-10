@@ -1,181 +1,5 @@
 {
  "articles": {
-  "https://anond.hatelabo.jp/20260909175643": {
-   "bodyBlocks": [
-    {
-     "kind": "H",
-     "text": "■ 大半の人に 必要 無い Androidアプリ 7選"
-    },
-    {
-     "kind": "H",
-     "text": "F-Droid"
-    },
-    {
-     "kind": "P",
-     "text": "Google Play ストアの 代替 としてはそこそこ著名な オープンソース 系 アプリ 中心の サードパーティ アプリ ストア。"
-    },
-    {
-     "kind": "P",
-     "text": "当然ながら利用は 自己責任 だが Google Play ストアに インデックス されていない アプリ も 提供 されているが大半の ユーザー には 必要 がない。"
-    },
-    {
-     "kind": "H",
-     "text": "Logseq"
-    },
-    {
-     "kind": "P",
-     "text": "いわゆる ノート アプリ で、 種別 としては ジャーナル 型。"
-    },
-    {
-     "kind": "P",
-     "text": "NotionやObsidian から の影響が強く見られるが、 運用方法 としては取り敢えず 本日 のページにあらゆることを何でも書いて タグ で リンク していくという 方式 。 メモ魔 の様な ユーザー に向く。"
-    },
-    {
-     "kind": "P",
-     "text": "過去 に Tomboy やGnoteという メモ アプリ が UNIX / Linux 界隈で使われていたが、これをNotionやObsidianに近付けて モダン にしたような使い 勝手 である 。"
-    },
-    {
-     "kind": "P",
-     "text": "Obsidianがそう である ように基本は Markdown の プレーン テキスト で扱われているため オンラインストレージ や Git などで同期が 可能 。"
-    },
-    {
-     "kind": "P",
-     "text": "デスクトップ 版では プラグイン のための API も整備されており、NotionやObsidianが合わなかった人の第3の 選択肢 として 要検 討。"
-    },
-    {
-     "kind": "P",
-     "text": "「色々試したが Org-mode やVimwikiで良くね？」となってる人には 必要 ない。"
-    },
-    {
-     "kind": "H",
-     "text": "Nextcloud"
-    },
-    {
-     "kind": "P",
-     "text": "自分 で全てやるなら月額 無料 で使える クラウド ストレージ 。"
-    },
-    {
-     "kind": "P",
-     "text": "「3-2-1 バックアップ ルール 」という 概念 があり「 PC や スマホ に 存在 する元 ファイル へ2 つの バックアップ を取り、2 つの バックアップ のうち1つは手の届かない遠隔地へ保管する」という指針だ。"
-    },
-    {
-     "kind": "P",
-     "text": "つ まり 、 PC や スマホ 内の ファイル へ バックアップ を取りたい とき 、 バックアップ の1つは 自身 が所有するNextcloudへ保管し、残った バックアップ は iCloud や Google Drive へ保管するのが良いということ。"
-    },
-    {
-     "kind": "P",
-     "text": "要は 自身 の ライフワーク や 趣味 の記録、そして 子供 や 配偶者 との思い出の 写真 や 動画 は何としても残したい人以外には 必要 ない。"
-    },
-    {
-     "kind": "H",
-     "text": "Termux"
-    },
-    {
-     "kind": "P",
-     "text": "「これがある から iOS へ行けない」と言ってる人が少な から ず居る ターミナル エミュレータ 。いわゆる黒い画面。当然大半の ユーザー に全く 必要 がない。"
-    },
-    {
-     "kind": "P",
-     "text": "手元で ssh したり git したり、今どき7zipや lzh や tar .gzを 解凍 したり、 tcpdump やったり、uuidgenとかが スマホ に欲しい人向け。 X Window System 環境 も構築 可能 。"
-    },
-    {
-     "kind": "P",
-     "text": "Termux 自体 はイン ライン 入力 へ 対応 していないので 日本語 入力 を試みるには苦行で しか ない上に「それ スマホ でやる 必要 ある？」という事が色々できる。"
-    },
-    {
-     "kind": "H",
-     "text": "Ghost Commander"
-    },
-    {
-     "kind": "P",
-     "text": "一癖も二癖もあるが fd とか md とかafxwみたいに Android でも2画面ファ イラ ができる。ピンと来ない人には全く 必要 ない。"
-    },
-    {
-     "kind": "P",
-     "text": "ついでに FTP やSMBもできる。 Android から も プロバイダ の 無料 ホームページスペースの 更新 が Ghost Commander経由でできるわけだ。"
-    },
-    {
-     "kind": "H",
-     "text": "PipePipe"
-    },
-    {
-     "kind": "P",
-     "text": "Youtube や ニコニコ動画 、 中国 のBilibiliまで観られる 動画 アプリ 。 ちゃん と 弾幕 も 流れる 。"
-    },
-    {
-     "kind": "P",
-     "text": "その他、 分散 型 ネットワーク 方式 の 動画 共有 サービス を セルフ ホスト で構築できるPeerTubeにも 対応 。 海外 動画 に興味のない人には 基本的 に 必要 が無い。"
-    },
-    {
-     "kind": "P",
-     "text": "ただ、 Youtube の レコメンド は クリック しただけで反応して しま うので Youtube の レコメンド に影響させたくない とき PipePipe経由で観るなどの 活用 法はある。"
-    },
-    {
-     "kind": "H",
-     "text": "Meshtastic"
-    },
-    {
-     "kind": "P",
-     "text": "携帯 回線 や インターネット などの 通信 インフラ を使わない オフ グリッド メッシュ ネットワーク を構築し、 テキスト メッセージを行える。"
-    },
-    {
-     "kind": "P",
-     "text": "Android スマホ のほ かに Meshtasticに 対応 した専用の外部 デバイス が 必要 であり、非所有者や オフ グリッド メッシュ ネットワーク へ興味のない人には本当に 必要 が無い。"
-    },
-    {
-     "kind": "P",
-     "text": "しか も送受信できるのは 基本的 に テキスト のみで 動画 どころか 画像 も送受信できない。 LINE やら Slack やら Discode よりも コミュニケーション ツール として物凄く低 機能 。"
-    },
-    {
-     "kind": "P",
-     "text": "なお、宇露 戦争 で利用されている実績あり。つ まり 平時 インフラ が途絶された際の 環境 を想定した 通信 技術 。元々 ウィンタースポーツ の 雪山 遭難 対策 から 生 まれ た。"
-    },
-    {
-     "kind": "P",
-     "text": "Permalink | 記事への反応(4) |\n 17:56"
-    },
-    {
-     "kind": "LI",
-     "text": "anond:20260909175643 LocalSendとKiwixとOrganicmapsが抜けてる"
-    },
-    {
-     "kind": "LI",
-     "text": "anond:20260909175643 興味ないね anond:20260909201229 また魔晄中毒なの？ anond:20260909205308 魔晄中毒ってやつさ"
-    },
-    {
-     "kind": "LI",
-     "text": "anond:20260909175643 人の作ったものを使ってる時点で負け組"
-    },
-    {
-     "kind": "LI",
-     "text": "anond:20260909175643 はてブのホッテントリでlogseqに言及されてるの初めて見た 最近logseq互換のtineのandroid版に移行してしまった"
-    },
-    {
-     "kind": "H",
-     "text": "記事への反応（ブックマークコメント）"
-    },
-    {
-     "kind": "H",
-     "text": "人気エントリ"
-    },
-    {
-     "kind": "H",
-     "text": "注目エントリ"
-    }
-   ],
-   "checkedAt": 1788991002883,
-   "etag": "",
-   "hash": "a49c6e7f9aced6fe",
-   "id": "ba0ec15545cf",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fanond.hatelabo.jp%2F20260909175643",
-   "key": "https://anond.hatelabo.jp/20260909175643",
-   "lastModified": "",
-   "publishedAt": 1788944269000,
-   "summary": "特に理由は無いけれど、ふとやりたくなったので紹介する F-Droid Google Playストアの代替としてはそこそこ著名なオープンソース系アプリ中心のサードパーティアプリストア。 当然ながら利用は自己責任だがGoogle Playストアにインデックスされていないアプリも提供されているが大半のユーザーには必要がない。 Logseq ...",
-   "title": "大半の人に必要無いAndroidアプリ7選",
-   "updatedAt": 1788991002883,
-   "url": "https://anond.hatelabo.jp/20260909175643"
-  },
   "https://anond.hatelabo.jp/20260910070047": {
    "bodyBlocks": [
     {
@@ -430,6 +254,104 @@
    "title": "人生をあきらめたら希死念慮がなくなった",
    "updatedAt": 1789037985432,
    "url": "https://anond.hatelabo.jp/20260910154808"
+  },
+  "https://anond.hatelabo.jp/20260910215309": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "■ 「 あなた の ブックマーカー 図鑑 」公開"
+    },
+    {
+     "kind": "LI",
+     "text": "「 あなた の ブックマーカー 図鑑 」を公開 https://bookmarker-encyclopedia.netlify.app/api-data/ ChatGPT用にまとめられた ブックマーカー 図鑑 の データ セット これをChatGPTに アップロード すれば ブックマーカー 図鑑 に収録された データ を使って 自由 に 質問 でき ます この ブックマーカー ってどんな人？ よく ブックマーク する 話題 、 コメント の傾向、 活動 歴など から 紹介 しま す。 この人、 普段 から こんなこと言ってる？ 今回の コメント と 過去 の傾向を比べて、「いつ もの 反応」なのか「珍しい反応」なのかを見 ます 。 この2人って似てる？ 興味のある 話題 や コメント 傾向、 所属 する コミュニティ など から 比較 しま す。 この人たち、 普段 から 近いの？ 同じ コミュニティ にいるのか、 共通 する 話題 が多いのかなど、人同士のつながりを調べ ます 。 この はてブ 、結局どんな 意見 が多かった？ ブコメ を分類して、 肯定 ・ 批判 ・ 中立 ・ メタ 視点 など、全体の反応を整理 しま す。 人気 コメント って、本当に 多数派 ？ コメント 数と スター 数を分けて集計し、「よく見える 意見 」と「実際に多い 意見 」の違いを調べ ます 。 誰がこの流れを作った？ 初期の ブックマーク や スター の動きを追って、どの コメント や「読み方」が広がったのかを見 ます 。 この ブコメ に星を付けてるのはどんな人たち？ コメント を書いた人だけでなく、それを支持・増幅した スター 側も 分析 でき ます 。 この 炎上 、 最初 から 荒れてた？ 時系列 で追って、どの段階 から 対立 が強くなったのかを 確認 しま す。 この 話題 にいつ もの メンバー が集まってる？ 過去 の 分析 データ と照合して、その 話題 で繰り返し登場する ブックマーカー を探 しま す。 この データ から 何か 面白い もの を探して"
+    },
+    {
+     "kind": "P",
+     "text": "ブックマーカー 図鑑 の サイト では、 基本的 に こち らが用意した プロフィール や ランキング を見ること しか できません。"
+    },
+    {
+     "kind": "P",
+     "text": "図鑑 の データ を 材料 にして、 自分 が知りたいことを 自分 で 質問 でき ます 。"
+    },
+    {
+     "kind": "P",
+     "text": "スター を調べるか、 コミュニティ を見るか、 過去 の傾向と 比較 するか。"
+    },
+    {
+     "kind": "P",
+     "text": "今度は5,500人分の 図鑑 を、 自分 で好きなように掘ってみてください。"
+    },
+    {
+     "kind": "P",
+     "text": "Permalink | 記事への反応(3) |\n 21:53"
+    },
+    {
+     "kind": "LI",
+     "text": "anond:20260910215309 恐速ブ"
+    },
+    {
+     "kind": "LI",
+     "text": "anond:20260910215309 おれのidがいっこうに図鑑にのらない件 anond:20260910220256 はやくプラベを解除！ anond:20260910220743 公開でちょくちょくブクマしてスターもぽちぽち付いてるがとくに誰もおれを深く知りたくなさそうな件"
+    },
+    {
+     "kind": "LI",
+     "text": "anond:20260910215309 はてブに5500人も人がいたんだ… anond:20260911013753 転生した人、消えた人、死んだ人も数えてるぞ 国勢調査じゃなくて戸籍に近い"
+    },
+    {
+     "kind": "H",
+     "text": "記事への反応（ブックマークコメント）"
+    },
+    {
+     "kind": "H",
+     "text": "人気エントリ"
+    },
+    {
+     "kind": "H",
+     "text": "注目エントリ"
+    }
+   ],
+   "checkedAt": 1789077399866,
+   "etag": "",
+   "hash": "69fb603e2591419f",
+   "id": "a948df724639",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fanond.hatelabo.jp%2F20260910215309",
+   "key": "https://anond.hatelabo.jp/20260910215309",
+   "lastModified": "",
+   "publishedAt": 1789044804000,
+   "summary": "ブックマーカー図鑑 「あなたのブックマーカー図鑑」を公開 https://bookmarker-encyclopedia.netlify.app/api-data/ ChatGPT用にまとめられたブックマーカー図鑑のデータセット これをChatGPTにアップロードすればブックマーカー図鑑に収録されたデータを使って自由に質問できます このブックマーカーってどんな人？ よ...",
+   "title": "「あなたのブックマーカー図鑑」公開",
+   "updatedAt": 1789077399866,
+   "url": "https://anond.hatelabo.jp/20260910215309"
+  },
+  "https://av.watch.impress.co.jp/docs/series/entamego/2139942.html": {
+   "bodyBlocks": [],
+   "checkedAt": 1789077399866,
+   "etag": "",
+   "hash": "e77d0cbf5b43f48f",
+   "id": "a19b4ddf1d6b",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fav.watch.impress.co.jp%2Fdocs%2Fseries%2Fentamego%2F2139942.html",
+   "key": "https://av.watch.impress.co.jp/docs/series/entamego/2139942.html",
+   "lastModified": "",
+   "publishedAt": 1789028665000,
+   "summary": "",
+   "title": "【エンタメGO】 「超かぐや姫!」Blu-ray特装限定版を開封。特製ボックスにゲーミング電柱の扉が!!",
+   "updatedAt": 1789077399866,
+   "url": "https://av.watch.impress.co.jp/docs/series/entamego/2139942.html"
+  },
+  "https://car.watch.impress.co.jp/docs/news/2139858.html": {
+   "bodyBlocks": [],
+   "checkedAt": 1789077399866,
+   "etag": "",
+   "hash": "003b34c10e312476",
+   "id": "d0812fda0954",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fcar.watch.impress.co.jp%2Fdocs%2Fnews%2F2139858.html",
+   "key": "https://car.watch.impress.co.jp/docs/news/2139858.html",
+   "lastModified": "",
+   "publishedAt": 1789032266000,
+   "summary": "",
+   "title": "第5世代THS採用で燃費低減と出力向上を両立したトヨタの新型「クラウン クロスオーバー」 一部改良のポイントを開発者 多和田貴徳氏らに聞く",
+   "updatedAt": 1789077399866,
+   "url": "https://car.watch.impress.co.jp/docs/news/2139858.html"
   },
   "https://coliss.com/articles/build-websites/operation/css/modern-css-radar.html": {
    "bodyBlocks": [
@@ -959,513 +881,35 @@
    "updatedAt": 1789037985432,
    "url": "https://cssradar.com/"
   },
-  "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels": {
-   "bodyBlocks": [
-    {
-     "kind": "H",
-     "text": "Introducing CUDA Rust: Two Tracks for Writing GPU Kernels"
-    },
-    {
-     "kind": "H",
-     "text": "AI-Generated Summary"
-    },
-    {
-     "kind": "LI",
-     "text": "cuda-oxide provides a custom rustc codegen backend that compiles SIMT-style GPU kernels written in Rust directly to PTX using the Pliron IR framework and LLVM."
-    },
-    {
-     "kind": "LI",
-     "text": "cutile-rs enables Tile-based GPU programming in stable Rust, where the compiler manages thread mapping and memory layout through CUDA Tile IR JIT compilation."
-    },
-    {
-     "kind": "LI",
-     "text": "Both projects enforce memory safety at compile time: cuda-oxide uses DisjointSlice and launch contracts to prevent aliasing, while cutile-rs uses tensor partitioning and ownership to guarantee exclusive access."
-    },
-    {
-     "kind": "LI",
-     "text": "cuda-oxide requires a pinned nightly toolchain and LLVM, whereas cutile-rs runs on stable Rust 1.89+ with CUDA 13.3 and no custom LLVM."
-    },
-    {
-     "kind": "LI",
-     "text": "cutile-rs is published on crates.io and already used in HuggingFace's Grout inference engine and mistral.rs, while cuda-oxide remains in early alpha."
-    },
-    {
-     "kind": "LI",
-     "text": "NVIDIA plans to support inter-language interoperability between CUDA Rust, CUDA C++, and CUDA Python so the choice of frontend does not lock developers out of other ecosystems."
-    },
-    {
-     "kind": "H",
-     "text": "Next Steps"
-    },
-    {
-     "kind": "LI",
-     "text": "Run the SIMT example with cuda-oxide by scaffolding a project and executing cargo oxide run."
-    },
-    {
-     "kind": "LI",
-     "text": "Run the Tile example with cutile-rs by cloning the repository and running the hello_world example."
-    },
-    {
-     "kind": "LI",
-     "text": "Read the cuda-oxide book and cuTile Rust documentation for detailed guides and API references."
-    },
-    {
-     "kind": "LI",
-     "text": "File issues on cuda-oxide or cutile-rs to report bugs or missing features."
-    },
-    {
-     "kind": "LI",
-     "text": "Join the cuda-oxide Discord or GitHub Discussions on both repositories to engage with the community."
-    },
-    {
-     "kind": "P",
-     "text": "In September 2026, NVIDIA announced it is leaning into native GPU programming in Rust. CUDA C++ and CUDA Python are mature, enterprise-grade toolchains, and NVIDIA will be growing and maturing CUDA Rust into 2027 and beyond"
-    },
-    {
-     "kind": "P",
-     "text": "The systems layer of AI spans inference engines, serving infrastructure, drivers, and agent runtimes, and it churns constantly as models and techniques change. More and more of it is written in Rust, which catches whole classes of bugs at compile time without giving up performance."
-    },
-    {
-     "kind": "P",
-     "text": "NVIDIA is part of that shift for the same reason. The Nova Linux driver is written in Rust. NVIDIA Dynamo is built on a Rust core. NVTX has Rust bindings."
-    },
-    {
-     "kind": "P",
-     "text": "The GPU kernel is the exception. You can launch kernels from Rust, but the kernel itself often has to be written in another language."
-    },
-    {
-     "kind": "P",
-     "text": "NVIDIA CUDA Rust closes that gap. GPU kernels can be written in Rust, compiled natively to PTX, rather than a wrapper around code from somewhere else."
-    },
-    {
-     "kind": "P",
-     "text": "There are two tracks to use Rust, matching the two tracks CUDA itself has. SIMT is the model you already write in CUDA C++ or numba-cuda . You indicate what one thread does, and launch thousands of them. Tile is a newer programming model, which is also available in C++ and Python . All of these frontends let you say what one tile of data does, and the Tile IR compiler does the rest."
-    },
-    {
-     "kind": "P",
-     "text": "When you are picking one to build on, reach for Tile first. The compiler decides how tiles map onto each architecture, so your source doesn’t encode architecture-specific choices, and you drop to SIMT when you need that control or want to manage memory and threads yourself."
-    },
-    {
-     "kind": "P",
-     "text": "Which language you reach for is a separate question from which model. Use the CUDA exposure that best fits the stack you already have. The two projects below are for when that stack is Rust. We plan to support inter-language interop, so the choice does not lock you out of the others."
-    },
-    {
-     "kind": "P",
-     "text": "Below is the same kernel on each track, which performs elementwise addition over 1,024 floats. Both are complete programs, both run, and both print the same line, so you can read them side by side and see what changes."
-    },
-    {
-     "kind": "H",
-     "text": "The SIMT track: cuda-oxide"
-    },
-    {
-     "kind": "P",
-     "text": "cuda-oxide is a custom rustc codegen backend. It intercepts compilation, routes #[kernel] functions through Rust MIR, the community Pliron IR framework, and LLVM IR down to PTX, and hands everything else to the standard backend. The GPU dialects on top of Pliron are ours. The dialects and every transform stay in Rust until the standard LLVM backend takes over."
-    },
-    {
-     "kind": "P",
-     "text": "You will need Linux, a GPU with compute capability 8.0 or later, a CUDA toolkit (12.x or newer), clang with its libclang headers, and the pinned nightly toolchain. cargo oxide doctor checks all of it, including the optional system LLVM. Install cargo-oxide , the Cargo subcommand that drives the build:"
-    },
-    {
-     "kind": "P",
-     "text": "Then scaffold a project and run it. The template is a complete vector addition program:"
-    },
-    {
-     "kind": "P",
-     "text": "The first cargo oxide run builds the codegen backend, so expect it to take a while. Later runs reuse the cache."
-    },
-    {
-     "kind": "P",
-     "text": "It prints PASSED: all 1024 elements correct . This is the whole program that did it, exactly what cargo oxide new wrote, with comments added here:"
-    },
-    {
-     "kind": "P",
-     "text": "Host and device code live in one file, build with one command, and need no separate kernel crate."
-    },
-    {
-     "kind": "P",
-     "text": "Read the kernel signature first, because it carries the whole safety argument. a and b are ordinary shared slices, readable by every thread. c is a DisjointSlice<f32> , a type that hands each thread exclusive access to its own element and nothing else. It exists because &mut [f32] is the wrong shape for the job. Every thread would need the same &mut , which Rust correctly refuses. DisjointSlice splits that one mutable borrow into per-thread pieces."
-    },
-    {
-     "kind": "P",
-     "text": "thread::index_1d() returns an index type, not a bare integer, and c.get_mut(idx) only accepts that type. You get back an Option , so the out-of-bounds case is a branch you handle rather than a memory error you find later."
-    },
-    {
-     "kind": "P",
-     "text": "The launch is checked rather than trusted. #[launch_contract] declares that this kernel indexes in one dimension with 256-thread blocks. prepare_vecadd validates your LaunchConfig1D against that declaration and the live device limits, and hands back a proof that the safe vecadd method requires. Kernels without a contract expose only raw unsafe launch methods, because a bare LaunchConfig says nothing about the kernel it is launching."
-    },
-    {
-     "kind": "H",
-     "text": "The Tile track: cutile-rs"
-    },
-    {
-     "kind": "P",
-     "text": "cutile-rs works one level higher. You perform computations on tiles rather than scalars. Each tile block runs the kernel body once as a single logical thread over one sub-tensor of data, and the compiler decides how many real GPU threads back it. The #[cutile::module] macro embeds the kernel’s AST in the host binary and JIT-compiles it through CUDA Tile IR (the NVIDIA tile-level compiler IR) when the kernel is first needed."
-    },
-    {
-     "kind": "P",
-     "text": "Requirements are lighter than the SIMT track. You need a GPU with compute capability 8.0 or later, CUDA 13.3, stable Rust 1.89 or newer, and Linux, but no nightly toolchain and no LLVM of your own."
-    },
-    {
-     "kind": "P",
-     "text": "cutile is published, so there is nothing to clone:"
-    },
-    {
-     "kind": "P",
-     "text": "Here is the same elementwise addition, written for tiles. Paste it into src/main.rs and cargo run :"
-    },
-    {
-     "kind": "P",
-     "text": "PASSED: all 1024 elements correct"
-    },
-    {
-     "kind": "P",
-     "text": "The Tile track reaches the same answer on stable Rust, and its signature makes the same safety argument. There is no DisjointSlice this time. Partitioning on the host is only needed for mutable tensors, and it hands each tile block one writable sub-tensor that no other tile block can overlap. That exclusivity is what &mut already guarantees."
-    },
-    {
-     "kind": "P",
-     "text": "The -1 in the input shapes is a sentinel rather than a size. That dimension is read off the tensor at launch, so the shape can vary without recompiling."
-    },
-    {
-     "kind": "P",
-     "text": "The interesting line on the host is .partition([128]) , and it is doing three jobs at once. It makes the exclusivity real. Each tile owns its 128-element chunk and no other tile can touch it. It fixes the launch geometry, since 1,024 divided by 128 is a grid of 8 tiles."
-    },
-    {
-     "kind": "P",
-     "text": "The grid follows from the partition instead of being computed separately and checked against the kernel’s indexing. It also supplies B , which is never written at the call site because the launcher reads the tile width off the partition. That is why a &mut output has to be partitioned before it can be passed at all."
-    },
-    {
-     "kind": "P",
-     "text": "Then look at what the launch returns. The add you call on the host is a macro-generated launcher, not the device function above. It takes ownership of all three tensors and hands them back as a tuple when the GPU is done. That is what .first() is for, picking the output back out of it."
-    },
-    {
-     "kind": "P",
-     "text": "Nothing runs until .sync_on(&stream) . Everything before it is a lazy description, recorded rather than submitted. That includes the ones , the zeros , the kernel call, and even the copy back to the host. The whole program is one chain with a single synchronization point."
-    },
-    {
-     "kind": "H",
-     "text": "What the compiler catches"
-    },
-    {
-     "kind": "P",
-     "text": "Both kernels make the same claim about memory. Their inputs are shared, and their output belongs to one writer alone. They differ only in the level at which they make it, and in whether a purpose-built type is needed to make it at all."
-    },
-    {
-     "kind": "P",
-     "text": "That matters because thousands of threads reach the same buffers in no guaranteed order. When two of them hit the same address and one is writing, the ordering decides the result. Those bugs rarely reproduce on demand, and they pass tests before failing in production."
-    },
-    {
-     "kind": "P",
-     "text": "Passing the SIMT kernel’s output buffer as one of its own inputs does not compile, whether or not that kernel would actually race:"
-    },
-    {
-     "kind": "P",
-     "text": "error[E0502]: cannot borrow `c_dev` as mutable because it is also borrowed as immutable"
-    },
-    {
-     "kind": "P",
-     "text": "The same aliasing on the Tile side does not compile either:"
-    },
-    {
-     "kind": "P",
-     "text": "error[E0382]: use of moved value: `z`"
-    },
-    {
-     "kind": "P",
-     "text": "Both examples catch the classic aliasing mistake at compile time, and they draw the line in different places. cuda-oxide checks each launch call. cutile-rs’s ownership follows the tensors across the launch boundary, which is the stronger of the two claims."
-    },
-    {
-     "kind": "P",
-     "text": "Tile gives you no shared memory or thread indexing to get wrong, because the compiler owns both. A tile block is a single logical thread, so there are no threads for you to race. That is what makes it safe by construction, and it is also what you trade away. SIMT keeps that control, and today shared memory there requires unsafe . Shared memory is the bedrock of fast SIMT kernels, so making that path safe is active work."
-    },
-    {
-     "kind": "H",
-     "text": "Where the projects stand"
-    },
-    {
-     "kind": "P",
-     "text": "Both projects are early-stage and neither is production-ready. cuda-oxide is early alpha. cutile-rs is further along, published on crates.io and already used outside NVIDIA in HuggingFace’s Grout inference engine and in mistral.rs . Coverage is incomplete and APIs will move. Where you find rough edges, we want to hear about them."
-    },
-    {
-     "kind": "P",
-     "text": "Cargo and crates set an expectation that getting started is easy. GPU programming has historically been the opposite, and closing that distance is part of the work. The SIMT track still needs a pinned nightly toolchain, which is exactly the kind of thing we would like to stop asking you for."
-    },
-    {
-     "kind": "P",
-     "text": "Rust on GPUs is not new. There is good work in this space that predates ours and continues alongside it. The ecosystem appendix in the cuda-oxide book maps where we sit relative to Rust-GPU, rust-cuda, CubeCL, and the rest, and we have been working with the rust-cuda maintainers as both projects mature."
-    },
-    {
-     "kind": "P",
-     "text": "What is new is the engineering we are putting behind it, and a clear sense of where it is going."
-    },
-    {
-     "kind": "H",
-     "text": "What you can do today"
-    },
-    {
-     "kind": "LI",
-     "text": "Run the SIMT example. cargo oxide new , then cargo oxide run , in cuda-oxide ."
-    },
-    {
-     "kind": "LI",
-     "text": "Run the Tile example. Clone cutile-rs , then cargo run -p cutile-examples --example hello_world ."
-    },
-    {
-     "kind": "LI",
-     "text": "Read the docs. The cuda-oxide book and the cuTile Rust documentation ."
-    },
-    {
-     "kind": "LI",
-     "text": "Read the paper. Fearless Concurrency on the GPU ."
-    },
-    {
-     "kind": "LI",
-     "text": "File issues. Tell us what broke and what was missing, on cuda-oxide or cutile-rs ."
-    },
-    {
-     "kind": "LI",
-     "text": "Join the conversation. GitHub Discussions on both repos, or the cuda-oxide Discord ."
-    },
-    {
-     "kind": "LI",
-     "text": "Come to the talk. Melih Elibol is presenting “Fearless Concurrency on the GPU ” at RustConf 2026 , Sept. 8 to 11 in Montréal. NVIDIA will have other staff attending too, so come find us if you’re there!"
-    },
-    {
-     "kind": "P",
-     "text": "Tinker with what is here and come work on it with us. It is early, it is open, and what you build now will shape what comes next."
-    },
-    {
-     "kind": "H",
-     "text": "The Rust community"
-    },
-    {
-     "kind": "P",
-     "text": "NVIDIA is excited to be leaning in with the Rust community as we elevate native Rust GPU programming. Projects like rust-cuda, rust-gpu, and cudarc pioneered the marriage of GPUs and Rust, and the people behind them, including the team at VectorWare, continue to shape how we think about our own work as we build with the Rust community."
-    },
-    {
-     "kind": "H",
-     "text": "Tags"
-    },
-    {
-     "kind": "H",
-     "text": "About the Authors"
-    },
-    {
-     "kind": "H",
-     "text": "Comments"
-    }
-   ],
-   "checkedAt": 1788991002883,
+  "https://forest.watch.impress.co.jp/docs/news/2139742.html": {
+   "bodyBlocks": [],
+   "checkedAt": 1789077399866,
    "etag": "",
-   "hash": "440366f61d220189",
-   "id": "debd36a75272",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fdeveloper.nvidia.com%2Fblog%2Fintroducing-cuda-rust-two-tracks-for-writing-gpu-kernels%2F",
-   "key": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels",
+   "hash": "283830354ff0d2ce",
+   "id": "3bb657e9332d",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fforest.watch.impress.co.jp%2Fdocs%2Fnews%2F2139742.html",
+   "key": "https://forest.watch.impress.co.jp/docs/news/2139742.html",
    "lastModified": "",
-   "publishedAt": 1788938161000,
-   "summary": "cuda-oxide provides a custom rustc codegen backend that compiles SIMT-style GPU kernels written in Rust directly to PTX using the Pliron IR framework and LLVM.cutile-rs enables Tile-based GPU programming in stable Rust, where the compiler manages thread mapping and memory layout through CUDA Tile...",
-   "title": "Introducing CUDA Rust: Two Tracks for Writing GPU Kernels | NVIDIA Technical Blog",
-   "updatedAt": 1788991002883,
-   "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/"
+   "publishedAt": 1789014568000,
+   "summary": "",
+   "title": "導入・更新が簡単！ 人気のクリップボード履歴ソフト「Clibor」が「Microsoft Store」に／バックアップ・リストア機能で相互に引っ越しできる",
+   "updatedAt": 1789077399866,
+   "url": "https://forest.watch.impress.co.jp/docs/news/2139742.html"
   },
-  "https://future-architect.github.io/articles/20260909a": {
-   "bodyBlocks": [
-    {
-     "kind": "H",
-     "text": "夏休みの宿題をオンスケで終えられなかった私が、AWS全冠を約2か月で完走できた理由"
-    },
-    {
-     "kind": "LI",
-     "text": "約 3,400 文字"
-    },
-    {
-     "kind": "LI",
-     "text": "900 View"
-    },
-    {
-     "kind": "P",
-     "text": "FutureVulsチームの棚井です。この記事は 夏休み自由研究連載2026 の1本として書いています。"
-    },
-    {
-     "kind": "P",
-     "text": "「夏休み自由研究」連載の趣旨は、童心を思い出して何かをじっくり研究してみることだそうです。「夏休み」と言われて最初に思い出したのは、昔、8月31日の夜に机の上に残っていた宿題でした。当時、夏休みの宿題を予定どおりに終えた記憶はありません。毎年ギリギリに着手して、なんとか提出には間に合わせていました。"
-    },
-    {
-     "kind": "P",
-     "text": "2026年8月31日、私は試験センターでAWS認定の最後の1つを受験しました。この試験にも合格し、全冠を達成しました。最初の1資格は5月に取得済みで、6月末のAWS Summit Japan 2026をきっかけに全冠を目指し、7月1日から8月31日までの約2か月で残り11資格を取得したことになります。"
-    },
-    {
-     "kind": "P",
-     "text": "短期間でAWS全冠という記事はすでに多く、 35日で終えた方 もいます。今回は速さよりも、昔は予定どおりに進められなかった私が、今回の資格の勉強を試験日に間に合わせられた理由を振り返ります。"
-    },
-    {
-     "kind": "H",
-     "text": "前提"
-    },
-    {
-     "kind": "P",
-     "text": "この記事では、2026年8月31日時点で、下表の12資格をすべて保有した状態を「全冠」と呼びます。 2026 Japan All AWS Certifications Engineersの資格要件 を基準に、選択可能な資格についてはCloudOps Engineer - AssociateとGenerative AI Developer - Professionalを取得しました。これは保有資格の範囲を示すための基準で、2026年の同表彰を受けたという意味ではありません。"
-    },
-    {
-     "kind": "P",
-     "text": "AWS認定の体系は変わり続けており、2026年9月1日には新しい認定 AWS Certified AI Business Strategist が発表されました。ベータ試験は同年9月29日から提供される予定です。Japan All AWS Certifications Engineers の対象資格は毎年 AWS JAPAN APN ブログ で発表されるので、今後、表彰を目指す場合は該当年度の条件を確認してください。"
-    },
-    {
-     "kind": "P",
-     "text": "私はAWSを使った経験が通算4〜5年あり、直近の2年ほどは業務でインフラの設計・運用に継続的に携わっていました。クラウドコストの削減や構成の見直しなどを通じて、複数のサービスを学んできました。試験対策を短期間で進められた背景には、この下地があります。5月に取ったSecurity - Specialtyは会社の資格補助が出るから受けたもので、その時点では全冠を目指していませんでした。全冠を目指すきっかけになったのは、Summitの会場で、AWSのエコシステムが日本のさまざまな産業に広がっていると実感したことです。"
-    },
-    {
-     "kind": "P",
-     "text": "受験履歴は次のとおりです。日付はすべて2026年で、資格名の「AWS Certified」は省略しています。個々の試験対策は、各合格体験記にまとめています。"
-    },
-    {
-     "kind": "P",
-     "text": "合格ラインはSpecialtyとProfessionalが750、Associateが720、Foundationalが700で、私は12試験とも1回で合格しています。"
-    },
-    {
-     "kind": "H",
-     "text": "進め方"
-    },
-    {
-     "kind": "P",
-     "text": "細かい学習計画は立てず、先に決めたのは受験の順番のみです。難易度の高い試験から先に取り組み、そこで学んだ知識を後続の試験でも使う方針で進めました。実際、Professionalの取得後は、AssociateやFoundationalの準備がだいぶ楽になりました。"
-    },
-    {
-     "kind": "P",
-     "text": "AWS認定には、 次の試験に使える受験料50%割引の特典 があります。私は合格後にバウチャーの案内を確認すると、その場でカレンダーと試験センターの空きを見て次の試験を予約し、それから勉強を始めていました。2試験目以降はこのバウチャーを利用しました。制度上は 試験開始の24時間前まで日程を変更できます が、私は予約した日を動かさないと決めていました。先に予定を入れ、締切の圧力で自分を動かすこの方法を、自分では「予定先入れ・締切駆動」と呼んでいました。予約を先にしたのは、「勉強が終わったら申し込む」では、いつまでも着手しない気がしたからです。目の前の1試験に集中でき、合格後に何をするかも決まっていたので、迷わず次に進めました。"
-    },
-    {
-     "kind": "P",
-     "text": "勉強は基本的に、試験ガイドで範囲を確認し、演習問題やAWS Skill BuilderのOfficial Pretestで理解度を測り、不足している知識を補う流れでした。間違えたところや自信のなかったところを中心に、公式ドキュメントを調べ、AIも理解の補助に使いました。AIの説明は誤ることもあるため、技術的な根拠は公式ドキュメントで確認する必要があります。"
-    },
-    {
-     "kind": "P",
-     "text": "先行する学習だけでは足りない部分もあり、私は試験ごとに準備の量を変えています。たとえば CloudOpsでは、演習で見覚えのない仕様が出てきたため、問題演習を1回分から2回分に増やしました 。一方、同記事のDeveloperでは、実務経験と出題範囲が重なっていたため、試験ガイドの確認だけで受験しています。状況を把握し、重点的に調べるところと、どこまで調べるかを決めるというこの進め方は、業務のインシデント対応で行う優先順位付けに少しだけ似ている気がしました。"
-    },
-    {
-     "kind": "H",
-     "text": "同じ進め方が成り立つ条件と全冠の限界"
-    },
-    {
-     "kind": "P",
-     "text": "この受験ペースを支えた条件で、いちばん大きいのは学習と受験に使える時間です。私は試験センターを利用したので、空いている受験枠に合わせて数日おきに予定を調整できることも必要でした。次に、この領域の勉強を楽しめることです。資格の勉強で得た知識を業務のどの場面で使えるか、想像するのが面白かったので私は続けられました。興味を持てなければ、数日おきの締切はかなりの負担だったと思います。実務経験や先行資格の知識に加え、会社の受験補助、Skill Builderの有料プランやAIを使える環境も、このペースを支えた条件です。"
-    },
-    {
-     "kind": "P",
-     "text": "全冠を達成した今の私は、試験に出る範囲の地図を一通り持ったくらいの状態です。サービスの用途や位置づけをつかむ助けにはなりますが、実際の設計・運用や障害対応には、個々のサービスに触れて経験を積む必要があります。"
-    },
-    {
-     "kind": "H",
-     "text": "おわりに"
-    },
-    {
-     "kind": "P",
-     "text": "「締切を先に買う」という進め方は、自分には合っていました。受験料を払って日付を決め、合否で区切りをつけ、次の予約に進む流れです。細かな学習計画がなくても、この流れで着手と完了を繰り返せたことは、資格そのものと同じくらいの収穫です。"
-    },
-    {
-     "kind": "P",
-     "text": "昔の夏休みは、宿題の提出期限ばかりを見ていました。今回の受験では、資格ごとに近い締切と明確な完了条件がありました。当時とは経験も学習への興味も異なるので単純には比較できませんが、自分にとっては、遠い締切に向けて大きな課題を抱えるより、完了を判定できる単位に分けて近い締切を置くことが有効だったようです。今更ですが。"
-    }
-   ],
-   "checkedAt": 1789011157400,
-   "etag": "W/\"6aa21dd2-18921\"",
-   "hash": "0047a532152a3f52",
-   "id": "f762380e8396",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Ffuture-architect.github.io%2Farticles%2F20260909a%2F",
-   "key": "https://future-architect.github.io/articles/20260909a",
-   "lastModified": "Thu, 10 Sep 2026 03:02:42 GMT",
-   "publishedAt": 1788964649000,
-   "summary": "FutureVulsチームの棚井です。この記事は夏休み自由研究連載2026の1本として書いています。 「夏休み自由研究」連載の趣旨は、童心を思い出して何かをじっくり研究してみることだそうです。「夏休み」と言われて最初に思い出したのは、昔、8月31日の夜に机の上に残っていた宿題でした。当時、夏休みの宿題を予定どおりに...",
-   "title": "夏休みの宿題をオンスケで終えられなかった私が、AWS全冠を約2か月で完走できた理由 | フューチャー技術ブログ",
-   "updatedAt": 1789011157400,
-   "url": "https://future-architect.github.io/articles/20260909a/"
-  },
-  "https://gigazine.net/news/20260909-chatgpt-desktop-app-libreoffice": {
-   "bodyBlocks": [
-    {
-     "kind": "H",
-     "text": "ChatGPTのデスクトップアプリにはLibreOfficeの完全版が同梱されている"
-    },
-    {
-     "kind": "P",
-     "text": "ChatGPTのデスクトップアプリに、オープンソースのオフィスソフト「LibreOffice」が同梱されていることが分かりました。ライセンス料なしでMicrosoft Office形式のファイルを扱えることから選ばれたのではないかと考えられています。 Codex bundles LibreOffice https://simonwillison.net/2026/Sep/1/codex-libreoffice/ ChatGPT Desktop App Secretly Bundles 430MB Open-Source Office Suite, Signaling AI Agents' Shift Toward \"Self-Contained Toolchains\" — BigGo Finance https://finance.biggo.com/news/1b6192c6-676e-42d2-bd17-e2b40ac20015"
-    },
-    {
-     "kind": "P",
-     "text": "発端は著名な開発者であるサイモン・ウィリソン氏がChatGPTデスクトップアプリの隠しフォルダを見つけたことでした。このフォルダには1.7GBのデータが入っており、完全なPythonランタイム(440MB)、Node.js(446MB)、PDF処理ツールのPoppler(188MB)、バージョン管理システムのgit(148MB)などが含まれていました。"
-    },
-    {
-     "kind": "P",
-     "text": "中でも特徴的だったのが約430MBに及ぶLibreOfficeでした。LibreOfficeはThe Document Foundationが開発しているオープンソースのオフィススイートで、文書作成ソフト「Writer」、表計算ソフト「Calc」、スライド作成ソフト「Impress」などが含まれています。Microsoft OfficeのWord、Excel、PowerPointで作成したファイルを読み込むことが可能で、Microsoftへの依存を解消するための移行先としても注目されています。 MicrosoftのOffice製品からフリーソフトへの移行でライセンス費用を約27億円削減し移行コストも大幅削減に成功した州政府が出現 - GIGAZINE"
-    },
-    {
-     "kind": "P",
-     "text": "同じディレクトリ内にはAIエージェントが参照する「Skill」ファイルが存在し、LibreOfficeなど同梱されたソフトを見つけて使用する方法をChatGPTに指示するようになっているそうです。フリーのソフトを最初から入れておくことは、ライセンス料がかからず外部APIを呼び出す必要もないため、ドキュメントを直接操作する必要があるAIエージェントにとって最も分かりやすい解決策だと指摘されています。 OpenAIでChatGPT Workの製品責任者を務めるタラ・セシャン氏は、AI製品には「チャットボットからエージェントとの協働、そして動き続ける同僚」の3つの段階があると語り、人間は積極的にAIへ指示を出すのではなく方向性を示して成果を評価することを重視するようになるという未来を予想しています。ここで必要となるのが実際のファイルを操作するための「ツール」だと考えられています。 OpenAIはLibreOfficeの統合についてまだ公式に発表しておらず、その具体的な目的を説明する文書も公開されていません。"
-    },
-    {
-     "kind": "P",
-     "text": "2026年09月09日 21時20分00秒 in AI , ソフトウェア , Posted by log1p_kr"
-    },
-    {
-     "kind": "P",
-     "text": "You can read the machine translated English article The ChatGPT desktop application includes… ."
-    }
-   ],
-   "checkedAt": 1789011157400,
+  "https://forest.watch.impress.co.jp/docs/news/2139791.html": {
+   "bodyBlocks": [],
+   "checkedAt": 1789077399866,
    "etag": "",
-   "hash": "5b409c409f5ebc66",
-   "id": "6a01b908459f",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fgigazine.net%2Fnews%2F20260909-chatgpt-desktop-app-libreoffice%2F",
-   "key": "https://gigazine.net/news/20260909-chatgpt-desktop-app-libreoffice",
-   "lastModified": "Thu, 10 Sep 2026 03:33:27 GMT",
-   "publishedAt": 1788956542000,
-   "summary": "ChatGPTのデスクトップアプリに、オープンソースのオフィスソフト「LibreOffice」が同梱されていることが分かりました。ライセンス料なしでMicrosoft Office形式のファイルを扱えることから選ばれたのではないかと考えられています。 Codex bundles LibreOffice https://simonwillison.net/2026/Sep/1/codex-libreoffice...",
-   "title": "ChatGPTのデスクトップアプリにはLibreOfficeの完全版が同梱されている",
-   "updatedAt": 1789011157400,
-   "url": "https://gigazine.net/news/20260909-chatgpt-desktop-app-libreoffice/"
-  },
-  "https://gigazine.net/news/20260909-predicts-next-week-suicide-attempts": {
-   "bodyBlocks": [
-    {
-     "kind": "H",
-     "text": "「1週間以内に自殺しようとする人」を75％の精度で予測することに成功"
-    },
-    {
-     "kind": "P",
-     "text": "自殺はさまざまな国々で社会問題となっており、特に病気などで死亡するリスクが低い若年層では上位の死因となっています。新たにハーバード大学の研究チームが、「1週間以内に自殺企図する人」を75％の精度で予測することに成功したとの研究結果を報告しました。 Using smartphone surveys to predict next-week suicide attempts. https://psycnet.apa.org/doiLanding?doi=10.1037%2Fabn0001117 Harvard study predicts most suicide attempts a week in advance | Harvard FAS https://current.fas.harvard.edu/stories/harvard-study-predicts-most-suicide-attempts-week-advance 自殺は10～34歳のアメリカ人において、事故に次ぐ第2位の死因です。世界全体では戦争や虐殺などを含む暴力全体よりも多くの命が、自殺によって失われているとのこと。また、ここ数十年に行われた複数の 研究 では、「自殺で亡くなった人の50％は最後の1カ月で医療従事者の診断を受けていた」ということも明らかになっています。 多くの自殺者が死の直前に病院を訪れていたのに自殺を防げなかったという事実は、確かに悲しいものです。その一方で、「自殺の兆候は気付きにくい」「極度の苦しみを持つ人にとって自殺は避けられないものだ」という考えに疑問を投げかけるものでもあります。なぜなら、これらの人々は「自分の精神状態が悪化している」と認識し、自殺などの結果に陥るのを防ごうとして、実際に外部の医療従事者に相談しているからです。"
-    },
-    {
-     "kind": "P",
-     "text": "それにもかかわらず自殺が起きてしまう理由について、ハーバード大学の自殺予防研究の第一人者である マシュー・ノック 教授は、従来の臨床ケアシステムでは自殺念慮の複雑で一時的な性質が見過ごされやすいと指摘しています。ノック氏は、「自殺企図や自殺による死亡を予測するのは容易ではありません」「人々を危険にさらす要因や自殺念慮の増減を理解する必要があります」と述べています。 ノック氏によると、大多数の人にとって自殺念慮や自殺リスクが高い状態は一時的なものだとのこと。人々は今の苦しい状態から逃れたいと思っており、その選択肢のひとつに自殺が入り込んでしまうものの、一時的な苦しい状態を乗り越えれば充実した人生を送れることが多いそうです。"
-    },
-    {
-     "kind": "P",
-     "text": "ノック氏はスマートフォンが普及し始めた当初から、携帯情報端末を用いてリアルタイムで自殺念慮の増減を測定する研究を行ってきた人物です。今回ノック氏が率いる研究チームは、救急外来で精神科の治療を受けた成人と、自殺念慮や自殺企図によって入院治療を受けた12～19歳の若者を対象に、スマートフォンアプリを用いた調査を実施しました。 両グループとも病院やクリニックの退院直後から3カ月にわたり、1日6件の任意回答アンケートを受け取り始めました。そして次の3カ月間には、1日1件の任意回答アンケートを受け取ったとのこと。このアンケートには「0」～「10」の11段階で評価する20個の質問が含まれており、そのうち3つは自殺衝動や自殺の意思、自殺衝動に抵抗する能力を測定するものでした。そして残り17個は、否定感・絶望感・閉塞感・孤立感・怒り・動揺・不安・疲労・興奮度・肯定感といった気分や情動について測定するものでした。 対象者のうち約500人がアンケートに少なくとも1回は回答し、全体で7万7000件の回答が得られました。研究チームはアンケートの内容だけでなく、アンケートを受け取ってから回答し始めるまでの時間や回答にかかった時間など、アンケートに関連するメタデータも考慮に入れたとのこと。 研究チームが機械学習モデルを用いてアンケート回答やメタデータを分析した結果、次の1週間以内に発生する自殺企図の75％と、自殺関連事象(自殺企図だけでなく自殺を予防するための入院も含む)の87％を予測することができました。 特に自殺企図のリスクと強く関連していたものに「興奮度」があり、興奮度が11段階のうち1段階上がるごとに自殺企図の可能性が11％増加しました。陸軍兵士を対象にした2026年の 研究 では、自殺企図から生還した人の90％が心理的な興奮や苦痛を和らげたくて自殺しようとしたと回答しており、今回の興奮度が高いと自殺しやすくなるという結果と合致します。"
-    },
-    {
-     "kind": "P",
-     "text": "今回の研究はノック氏の研究室で行っている、自殺リスクをリアルタイムでモニタリングすることを目的とした、幅広い研究イニシアチブの一環です。ノック氏は、気分の変動をモニタリングすることにプライバシー面の問題が絡むことを認識しているとのことで、「この方法には注意が必要であり、臨床医や治療対象となる疾患や症状を抱える人々と緊密に連携して取り組む必要があります。しかしここには、大きな可能性が秘められています」と述べました。"
-    },
-    {
-     "kind": "P",
-     "text": "2026年09月09日 20時00分00秒 in サイエンス , Posted by log1h_ik"
-    },
-    {
-     "kind": "P",
-     "text": "You can read the machine translated English article We succeeded in predicting with 75% accu… ."
-    }
-   ],
-   "checkedAt": 1788991002883,
-   "etag": "",
-   "hash": "7e7311e8b246b2e3",
-   "id": "683f86bd9910",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fgigazine.net%2Fnews%2F20260909-predicts-next-week-suicide-attempts%2F",
-   "key": "https://gigazine.net/news/20260909-predicts-next-week-suicide-attempts",
-   "lastModified": "Wed, 09 Sep 2026 21:31:53 GMT",
-   "publishedAt": 1788952017000,
-   "summary": "自殺はさまざまな国々で社会問題となっており、特に病気などで死亡するリスクが低い若年層では上位の死因となっています。新たにハーバード大学の研究チームが、「1週間以内に自殺企図する人」を75％の精度で予測することに成功したとの研究結果を報告しました。 Using smartphone surveys to predict next-week suicide...",
-   "title": "「1週間以内に自殺しようとする人」を75％の精度で予測することに成功",
-   "updatedAt": 1788991002883,
-   "url": "https://gigazine.net/news/20260909-predicts-next-week-suicide-attempts/"
+   "hash": "513fb852b0a5588b",
+   "id": "da2f28cd432e",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fforest.watch.impress.co.jp%2Fdocs%2Fnews%2F2139791.html",
+   "key": "https://forest.watch.impress.co.jp/docs/news/2139791.html",
+   "lastModified": "",
+   "publishedAt": 1789030049000,
+   "summary": "",
+   "title": "商用も無料のPDF編集ソフト「PDF MARIN」が登場、黒く塗るだけではない本物の墨消しに対応／「Claude Code」と連携するAI機能も開発中",
+   "updatedAt": 1789077399866,
+   "url": "https://forest.watch.impress.co.jp/docs/news/2139791.html"
   },
   "https://gigazine.net/news/20260910-ai-kill-humans": {
    "bodyBlocks": [
@@ -1526,110 +970,6 @@
    "title": "Anthropicの上級安全研究者が「AIが21世紀末までに人類を滅ぼす可能性が10％以上ある」と発言、「Anthropicの安全対策が甘い」と退職する社員も",
    "updatedAt": 1789037985432,
    "url": "https://gigazine.net/news/20260910-ai-kill-humans/"
-  },
-  "https://gihyo.jp/article/2026/09/daily-linux-260909": {
-   "bodyBlocks": [
-    {
-     "kind": "H",
-     "text": "深刻化する “サイバー蝗害” ―Linuxカーネルソースに 群がる 貪欲で 超非効率な 「AIイナゴ」 たち"
-    },
-    {
-     "kind": "P",
-     "text": "前回の本コラム でも紹介したように、AIノイズ ―AI/ LLMに由来する大量のパッチやバグ報告がLinuxカーネル開発メンテナーたちの労力を増大させており、カーネル開発のサイクルにも影響を及ぼしつつあるが、AIによる負荷に疲弊しているのはメンテナーだけではない。"
-    },
-    {
-     "kind": "P",
-     "text": "Linuxカーネルのメインリポジトリ 「kernel. org」 の管理人であるKonstantin Ryabitseは 「地理的に分散したgit. kernel. orgの5つのノードにある合計90個のCPUコアのうち、つねに14～16個のコア （全体の処理能力の約20％） がAIクローラー （スクレイパー） のコミットをレンダリングするためだけに使われている」 という内容のブログを8月29日付けで投稿、AIクローラーの貪欲で非効率なデータ取得の現状を明らかにしている。"
-    },
-    {
-     "kind": "P",
-     "text": "git. kernel. orgには現在、約148万のコミットと922 （執筆時点） ものフォークあるが、ふつうにLinuxカーネルのコードを取得したいのであれば、Ryabitseが指摘するように単に git clone するだけですべての履歴を手に入れることができる。リポジトリを丸ごとコピーしたあとは、自分の環境でコミット履歴を走査すればいい。"
-    },
-    {
-     "kind": "P",
-     "text": "だがAIクローラーはこのアプローチではなく、 「 ⁠実際にはもっともバカげた方法 ―コミットごとにすべてをHTMLとしてレンダリングし、それを解析する」 （ ⁠Ryabitse） という方法を取っている。つまり 「このコミットをHTMLにして」 「 ⁠このコミットもHTMLにして」 「 ⁠このdiffをHTMLにして」 「 ⁠このフォークのこのコミットをHTMLにして」 という要求を延々とサーバに送り続けるのだ。"
-    },
-    {
-     "kind": "P",
-     "text": "Gitではフォークを作ったとしても実データを何重にもコピーする必要はなく、オブジェクト共有を使って効率よく保存することができる。しかしAIクローラーは 「フォーク1のコミット1」 「 ⁠フォーク1のコミット2」 … 「フォーク2のコミット1」 「 ⁠フォーク2のコミット2」 … 「フォークXのコミット1」 「 ⁠フォークXのコミット2」 …と同じコミットを何度も何度もHTMLとして取得しようとする。 「 ⁠スクレイパーは何十億もの有効なURLをスクレイピングしているが、得られるのは148万件のコミットの922件の重複だけだ」 （ ⁠Ryabitse）"
-    },
-    {
-     "kind": "P",
-     "text": "Ryabitseによれば、現在、git. kernel. orgにはランダムなコミットを表示してほしいというリクエストが1日あたり約600万件寄せられているという。うち66％はスクレイピングボットを防ぐためのしくみとして導入したAnubisチャレンジ （後述） で弾かれているが、33％は問題を解いてメインサイトにアクセス可能になっており、 「 ⁠かなり寛大に仮定したとしても、 （ ⁠人間による） 正当なリクエストはトラフィックの約2％に過ぎず、残りはすべてスクレイパーによるものだ」 とRyabitseは分析している。"
-    },
-    {
-     "kind": "P",
-     "text": "いまのところAIクローラーによるリクエストはgit. kernel. orgにとって 「それほど大きな問題にはなっていない」 ものの、冒頭でも挙げたように5つの分散サーバにある合計90個のCPUコアのうち、常時14～16個のコアがAIクローラーのコミットをレンダリングするためだけに使われており、全体の処理能力の約20％が費やされている。AIクローラーはデータの取得だけでなく、その取得のための計算コストまでオープンソースであるLinuxカーネル開発プロジェクト側に負担させていることになる。"
-    },
-    {
-     "kind": "H",
-     "text": "Linuxカーネルコードが 「デジタルプリオン病の回復薬」 に"
-    },
-    {
-     "kind": "P",
-     "text": "そもそもなぜAIクローラーはLinuxカーネルのデータを求めるのだろうか。Ryabitseは以下のようにコメントしている。"
-    },
-    {
-     "kind": "QUOTE",
-     "text": "Linuxの開発はオープンな環境で行われている。クローン可能なGitリポジトリからリアルタイムでフォローできるディスカッションアーカイブまで、あらゆるものが利用可能だ。大規模言語モデルにとって、これは学習データの宝庫である。なぜならこれらのデータはすべてすぐに利用できるだけでなく、純粋で、混ぜ物のない、AI以前のコンテンツを保証するために簡単にフィルタリングできるからだ。LLMが生成したコンテンツでLLMをトレーニングすると “ ⁠デジタルプリオン病 （digital prion disease）⁠ ” のような事態が発生する。そのため、カーネルコミットの全履歴のように、LLMが存在しないことが保証されているソースはトレーニングデータのソースとして非常に価値がある。"
-    },
-    {
-     "kind": "P",
-     "text": "AIが生成したデータを学習したAIが学習する、これを繰り返すことでAIモデルの出力が劣化し、生成されるコンテンツの質が世代を経るごとに低下する現象を “ ⁠デジタルプリオン病⁠ ” と呼ぶ向きがあるが、まさに人間の力 （だけ） によって長い時間をかけて作り上げられた純粋なコンテンツを追い求めるAIクローラーの行動は、デジタルプリオン病を回避するには理に適っているのかもしれない。だがそのアプローチがあまりに原始的で非効率であるために、Linuxカーネル側が大きな負担を強いられているのが現状だ。"
-    },
-    {
-     "kind": "P",
-     "text": "なお、Ryabitseは今回の投稿に 「Creepy Crawlies （不気味な虫たち⁠ ） ⁠」というタイトルを付けているが、多くの人々の貢献によって作られてきたLinuxカーネルという成果物にAIクローラーが膨大なリクエストを投げているさまは、豊かな実りを付けた稲穂に群がるイナゴの大群による “ ⁠蝗害⁠ ” を連想させる。"
-    },
-    {
-     "kind": "H",
-     "text": "AIボットとの果てしなき戦い"
-    },
-    {
-     "kind": "P",
-     "text": "もっともLinuxカーネル側もこれらの\"蝗害\"に何も対策しなかったわけではない。Ryabitseによれば、最初にこの問題が明らかになったのはおよそ1年前としているが、当初はボット自身がUserAgentを通じて自分がボットであると教えてくれていたので 「ログを調べて、明らかにスクレイピングボットとわかるIPアドレスを見つけ出し、fail2ban （オープンソースのセキュリティツール） でブロックする」 という方法で対処できていたという。"
-    },
-    {
-     "kind": "P",
-     "text": "だがボットが通常のブラウザのふり （Chrome on Windows / Firefox / Safariなど） をするようになったため、Linuxカーネル側はIPアドレスによるアクセス禁止措置を開始したが、今度はクローラーが一般家庭のISPやモバイル回線のIPアドレスからアクセスを開始したのである。しかもタチが悪いことに1つのIPアドレスからずっとアクセスするのではなく、 「 ⁠4、5回のリクエストを行ったら、ログには二度と現れなくなる （もうそのIPアドレスは使わない⁠ ） ⁠」という使い方をしていた。 「 ⁠それらがボットだと気づいたときにはすでに攻撃は終了していた。二度と戻ってこないIPアドレスをブロックリストに追加してもファイアウォールセットを無駄に肥大化させるだけだった。彼らはイナゴの大群のように襲いかかり、システムがダウンするまで激しく、すばやく攻撃し、こちらが回復するまでに次の標的へと移動し、そしてまた別の姿で戻ってくる。これを繰り返すのだ。そして彼らはいまもプロキシSDK （一般ユーザの家庭用インターネット回線を他人の通信のプロキシとして機能させるソフトウェアの開発キット、スマートTVやゲームアプリなどに組み込まれる） の収益化ビジネスを通してそれをやっている。あなたのテレビもおそらくそれをやっている」 （ ⁠Ryabitse）"
-    },
-    {
-     "kind": "P",
-     "text": "Linuxカーネル側は次の対策として 「ボットに無駄な計算をさせる」 ためにPoW （Proof-of-Wokr） 認証を行うAnubisを導入した。現在、 git. kernel. org にブラウザでアクセスすると、最初に 「あなたがボットでないことを確認しています!」 というメッセージとともにケモミミのキャラクターが表示されるが、これは 「あなた （アクセス元） が人間かどうかを確かめるために、ブラウザに計算問題を解かせる」 という意味だ。人間が1回アクセスする程度ならAnubisが要求する計算 （たとえば “ ⁠SHA-256を計算して先頭に0が4個並ぶ結果になる文字列を探す⁠ ” など） は大きな負荷とならない。しかしボットやAIクローラーが1億ページ取得しようとすると、計算を1億回解く必要がある。Anubisの効果はてきめんで、ボットたちは 「あっさりとあきらめた」 （ ⁠Ryabiste） ようだった。"
-    },
-    {
-     "kind": "P",
-     "text": "しかしその数ヵ月後、ボットはふたたび攻撃に戻ってきて計算の難易度4を解くまでに賢くなっていた。そこでLinuxカーネル側は難易度5に上げたが、これは人間のユーザが使うスマートフォンでも数秒かかり、しかも端末が 「不快なほど熱くなる」 という副作用が生じたものの、一定の効果をあげる結果となり、 「 ⁠数ヵ月は平穏な日々が続いた」 …だが、現在、ボットたちは難易度5の問題を解き始めつつある。前述したように、約600万件/日のアクセスのうち、66％はAnubisが弾いているが、33％は計算を解いてアクセスに成功している。"
-    },
-    {
-     "kind": "H",
-     "text": "AI時代がもたらす 「予期せぬ問題」 は今後も…"
-    },
-    {
-     "kind": "P",
-     "text": "Ryabisteは最後に 「我々はどう対応すべきか」 という問いに対して 「不透明だ （Unclear⁠ ） ⁠」と答えている。とりあえずの対策としてはクロール可能なURLの数を減らし、実行コストの高い処理を制限するために一部の機能を無効化しているという。また、 git. kernel. org にアクセスするユーザに対し 「匿名でリソースにアクセスする際は一部の機能が利用できなくなるが、どうかわかってほしい。我々もこの措置は望んでいないのだが、現時点ではやむを得ないのだ」 と理解を求めている。"
-    },
-    {
-     "kind": "P",
-     "text": "「最悪なことにこの問題には簡単な解決策がない。独自のAIモデルを提供する企業は今も毎日登場しており、いずれも学習データを求めている。アプリ開発者は利益を上げる方法を模索しており、今後も家庭用電化製品を攻撃の標的に変え続けるだろう」 （ ⁠Ryabiste）"
-    },
-    {
-     "kind": "P",
-     "text": "オープンソースとして発展を遂げてきたLinuxカーネルはその原則にのっとり、すべてのデータを公開しており、誰からのアクセスも受け入れてきた。だがAI時代となった現在、AIツールによる貢献の是否や今回のAIイナゴによるデジタル蝗害など、かつてのプロジェクト運営ではぶつかることのなかった問題が増えつつある。単なるボット/クローラー対策とは異なる、AIと共存できるオープンソースの実現に向けて、さまざまなしくみを再設計する必要があるのかもしれない。"
-    }
-   ],
-   "checkedAt": 1788951637669,
-   "etag": "",
-   "hash": "adec47e5527a8dc4",
-   "id": "a108b6354b9a",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fgihyo.jp%2Farticle%2F2026%2F09%2Fdaily-linux-260909",
-   "key": "https://gihyo.jp/article/2026/09/daily-linux-260909",
-   "lastModified": "",
-   "publishedAt": 1788937926000,
-   "summary": "前回の本コラムでも紹介したように、AIノイズ ―AI/LLMに由来する大量のパッチやバグ報告がLinuxカーネル開発メンテナーたちの労力を増大させており、カーネル開発のサイクルにも影響を及ぼしつつあるが、AIによる負荷に疲弊しているのはメンテナーだけではない。 Linuxカーネルのメインリポジトリ「kernel.org」の管理人...",
-   "title": "深刻化する“サイバー蝗害”―Linuxカーネルソースに群がる貪欲で超非効率な「AIイナゴ」たち | gihyo.jp",
-   "updatedAt": 1788951637669,
-   "url": "https://gihyo.jp/article/2026/09/daily-linux-260909"
   },
   "https://honjp.theletter.jp/posts/948821f9-2935-4679-b690-26d0e87a5807": {
    "bodyBlocks": [
@@ -1747,157 +1087,20 @@
    "updatedAt": 1789037985432,
    "url": "https://honjp.theletter.jp/posts/948821f9-2935-4679-b690-26d0e87a5807"
   },
-  "https://japan.cnet.com/article/35252436": {
-   "bodyBlocks": [
-    {
-     "kind": "LI",
-     "text": "新着 カテゴリ AI モビリティ 働き方 フード ヘルスケア 金融 地域創生 不動産 宇宙 製品・サービス アップルセンター 深掘り 解説 インタビュー 特集・連載 音声コンテンツ bouncy Newsletter登録 企業情報センター プレスリリース イベント情報 関連サイト 4X ZDNET Japan Tetsudo.com 朝日新聞 CNET各国版 United States France Germany Korea"
-    },
-    {
-     "kind": "LI",
-     "text": "カテゴリ AI モビリティ 働き方 フード ヘルスケア 金融 地域創生 不動産 宇宙 製品・サービス アップルセンター"
-    },
-    {
-     "kind": "LI",
-     "text": "深掘り 解説 インタビュー 特集・連載"
-    },
-    {
-     "kind": "LI",
-     "text": "新着 カテゴリ AI モビリティ 働き方 フード ヘルスケア 金融 地域創生 不動産 宇宙 製品・サービス アップルセンター 深掘り 解説 インタビュー 特集・連載 音声コンテンツ bouncy Newsletter登録 企業情報センター プレスリリース イベント情報 関連サイト 4X ZDNET Japan Tetsudo.com 朝日新聞 CNET各国版 United States France Germany Korea"
-    },
-    {
-     "kind": "LI",
-     "text": "カテゴリ AI モビリティ 働き方 フード ヘルスケア 金融 地域創生 不動産 宇宙 製品・サービス アップルセンター"
-    },
-    {
-     "kind": "LI",
-     "text": "深掘り 解説 インタビュー 特集・連載"
-    },
-    {
-     "kind": "H",
-     "text": "「2020年代末までにAIで人類滅亡の恐れ」--Anthropic研究者が退社、開発競争に警鐘"
-    },
-    {
-     "kind": "LI",
-     "text": "テキスト HTML 電子書籍 PDF"
-    },
-    {
-     "kind": "LI",
-     "text": "テキスト 電子書籍 PDF"
-    },
-    {
-     "kind": "P",
-     "text": "AI企業Anthropicの研究者Jacob Coxon氏は米国時間9月8日、同社を辞めたとXで明らかにした。「どちらの会社も責任ある行動をとっていない。自己改善する超知能へまっしぐらに突き進み、私たちの命を賭けている」と述べ、研究者として在籍したOpenAIとAnthropicの両社を批判した。"
-    },
-    {
-     "kind": "P",
-     "text": "Coxon氏は過去3年間、両社で事前学習の研究に携わってきたという。米Wall Street Journalによると、同氏は27歳で、AI業界そのものから離れる。"
-    },
-    {
-     "kind": "P",
-     "text": "投稿は7件の連投からなる。Coxon氏が問題視するのは、開発者自身が危険を認識しながらも、競争をやめられない構図だ。「AIを作っている人々は、2020年代が終わるまでにAIが私たち全員を殺しかねないと本気で信じている。これはマーケティングのための演出ではない」と書いた。経営幹部や上級研究者については、公の場では慎重に言葉を選ぶ一方、内々では恐怖を口にするのを聞いたとし、「これほどの危険をもたらす人間の活動は他にない」と主張した。"
-    },
-    {
-     "kind": "P",
-     "text": "AIの力を過小評価すべきではないとも訴えた。「AIはまもなく、何でもハッキングでき、どんな分野も一夜にして一変させ、現実の権力と資源を手に入れる超人的なシステムになる」と述べた。こうした能力につながる進歩はすでに見られるとして、「進歩は減速していない」と強調した。"
-    },
-    {
-     "kind": "P",
-     "text": "では、危険を本気で信じているのに、なぜ開発を続けるのか。Coxon氏はこの疑問に対し、2社の内情を対比した。OpenAIでは、多くの人が文明の存亡に関わる問題だと十分に認識していないと指摘。一方、Anthropicではリスクを十分に理解しているものの、超知能に最初に到達するための競争に縛られているとした。他社が責任ある行動をとるとは信じられず、リスクがあっても自分たちが開発しなければならないと考えているという。"
-    },
-    {
-     "kind": "P",
-     "text": "Coxon氏は、こうした競争を受け入れて超知能の開発を進める判断は「一私企業のSlack（社内チャット）で決めていいものではない」とし、「傲慢な賭けだ」と批判した。AIを人間の意図や価値観に沿って動かすための研究「アライメント」を急いで進めるなら、「ほかにより良い道筋が存在しないという並外れた確信が必要なはずだ」とした。"
-    },
-    {
-     "kind": "P",
-     "text": "ただ、AI開発企業が足並みをそろえる余地はあるとみている。例に挙げたのは、OpenAIのAIエージェントが7月、テスト環境の制御をすり抜けてAIモデル共有サイトHugging Faceのサーバーに侵入した事件だ。OpenAIは 8月26日の報告 で経緯を公表し、最先端モデルの強化学習を一時停止したと説明している。"
-    },
-    {
-     "kind": "P",
-     "text": "Coxon氏は、このような危険を知らせる出来事によって、米国のAI開発企業が開発ペースを調整する合意は現実味を増したと評価した。それでも、世界規模の開発競争を抑えるには至っていないとし、「モデルの能力向上を一時的に禁止するといった、代償の大きい行動が必要になるかもしれない」と述べた。"
-    },
-    {
-     "kind": "P",
-     "text": "最後の投稿ではAI研究者に対し、今後数年間に起こり得ることを真剣に考えるよう呼びかけた。超知能の内部の仕組みを十分に理解しないまま強化学習を始めてよいのかと問い、開発を不可避のものとして受け入れず、進め方や条件の見直しを求めるべきではないかと訴えた。"
-    },
-    {
-     "kind": "P",
-     "text": "一連の投稿では、特定の開発プロジェクトや、退社の直接のきっかけは明かしていない。AnthropicとOpenAIは本稿執筆時点で、この投稿について公式な見解を示していない。"
-    },
-    {
-     "kind": "P",
-     "text": "Amazonのアソシエイトとして、CNET Japanは適格販売により収入を得ています"
-    },
-    {
-     "kind": "H",
-     "text": "あなたにおすすめの記事"
-    },
-    {
-     "kind": "LI",
-     "text": "「FydeOS」を使って古いPCを無償で「Chromebook」に変える方法 2026年08月31日 06時00分"
-    },
-    {
-     "kind": "LI",
-     "text": "収納箱の底に眠っていた古い「iPhone」--価値があるのかゴミなのか調べてみた 2026年09月02日 07時00分"
-    },
-    {
-     "kind": "LI",
-     "text": "記事一覧"
-    },
-    {
-     "kind": "LI",
-     "text": "老朽化する設備と向き合う 地域交通を支える管理業務を刷新 佐渡汽船が取り組むDXの現実解"
-    },
-    {
-     "kind": "LI",
-     "text": "AIで議事録作成はラクになった 問われるのは、“ひと目で伝わること” Plaud NotePin Sが示す会議記録の新しい形"
-    },
-    {
-     "kind": "H",
-     "text": "ZDNET Japan 注目ヘッドライン"
-    },
-    {
-     "kind": "H",
-     "text": "編集部おすすめの記事"
-    },
-    {
-     "kind": "H",
-     "text": "人気の記事"
-    },
-    {
-     "kind": "LI",
-     "text": "1 「iPhone 18 Pro」、日本で4万円値上げ 1ドル167円換算 直近の円高反映せず"
-    },
-    {
-     "kind": "LI",
-     "text": "2 アップル初の折りたたみ「iPhone Duo」発表 開くと7.6インチに"
-    },
-    {
-     "kind": "LI",
-     "text": "3 「iPhone 18 Pro/Pro Max」発表、約22万円から 可変絞りカメラとA20 Pro搭載"
-    },
-    {
-     "kind": "LI",
-     "text": "4 折りたたみiPhone、ついに明日（10日）午前2時発表へ 今わかっていること"
-    },
-    {
-     "kind": "LI",
-     "text": "5 「Xiaomi 18 Fold」実機を試す アップル初の折りたたみiPhoneと真っ向勝負か"
-    }
-   ],
-   "checkedAt": 1788991002883,
+  "https://internet.watch.impress.co.jp/docs/news/2139863.html": {
+   "bodyBlocks": [],
+   "checkedAt": 1789077399866,
    "etag": "",
-   "hash": "afd232f31d04760c",
-   "id": "d3e10c1009a4",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fjapan.cnet.com%2Farticle%2F35252436%2F",
-   "key": "https://japan.cnet.com/article/35252436",
+   "hash": "0b88391a521b758d",
+   "id": "b70ed8c6afff",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Finternet.watch.impress.co.jp%2Fdocs%2Fnews%2F2139863.html",
+   "key": "https://internet.watch.impress.co.jp/docs/news/2139863.html",
    "lastModified": "",
-   "publishedAt": 1788937460000,
-   "summary": "Coxon氏は過去3年間、両社で事前学習の研究に携わってきたという。米Wall Street Journalによると、同氏は27歳で、AI業界そのものから離れる。 投稿は7件の連投からなる。Coxon氏が問題視するのは、開発者自身が危険を認識しながらも、競争をやめられない構図だ。「AIを作っている人々は、2020年代が終わるまでにAIが私...",
-   "title": "「2020年代末までにAIで人類滅亡の恐れ」--Anthropic研究者が退社、開発競争に警鐘",
-   "updatedAt": 1788991002883,
-   "url": "https://japan.cnet.com/article/35252436/"
+   "publishedAt": 1789030619000,
+   "summary": "",
+   "title": "さくらインターネット、「さくらのレンタルサーバ」および販売管理システムへの不正アクセスについて調査結果を公開 「さくらのレンタルサーバ」不正アクセス対象は951アカウントに拡大",
+   "updatedAt": 1789077399866,
+   "url": "https://internet.watch.impress.co.jp/docs/news/2139863.html"
   },
   "https://k-tai.watch.impress.co.jp/docs/column/value/2139538.html": {
    "bodyBlocks": [],
@@ -1973,6 +1176,36 @@
    "title": "アップル、「iPhone 17」など値上げ",
    "updatedAt": 1789037985432,
    "url": "https://k-tai.watch.impress.co.jp/docs/news/2139679.html"
+  },
+  "https://k-tai.watch.impress.co.jp/docs/review/iphonetips/2139754.html": {
+   "bodyBlocks": [],
+   "checkedAt": 1789077399866,
+   "etag": "",
+   "hash": "51b79fa58813674e",
+   "id": "3eed416cde92",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fk-tai.watch.impress.co.jp%2Fdocs%2Freview%2Fiphonetips%2F2139754.html",
+   "key": "https://k-tai.watch.impress.co.jp/docs/review/iphonetips/2139754.html",
+   "lastModified": "",
+   "publishedAt": 1789012360000,
+   "summary": "",
+   "title": "[iPhone駆け込み寺] iPhone 18 Pro/Pro Maxの進化ポイント――iPhone 17 Pro/Pro Maxから何が変わった？",
+   "updatedAt": 1789077399866,
+   "url": "https://k-tai.watch.impress.co.jp/docs/review/iphonetips/2139754.html"
+  },
+  "https://k-tai.watch.impress.co.jp/docs/review/iphonetips/2139941.html": {
+   "bodyBlocks": [],
+   "checkedAt": 1789077399866,
+   "etag": "",
+   "hash": "748e58c233673704",
+   "id": "959cc28d96e7",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fk-tai.watch.impress.co.jp%2Fdocs%2Freview%2Fiphonetips%2F2139941.html",
+   "key": "https://k-tai.watch.impress.co.jp/docs/review/iphonetips/2139941.html",
+   "lastModified": "",
+   "publishedAt": 1789029579000,
+   "summary": "",
+   "title": "[iPhone駆け込み寺] 「iPhone Duo」も気になるけど実は「Apple Watch」がスゴイ！ 9月10日のアップル発表会の注目ポイント解説",
+   "updatedAt": 1789077399866,
+   "url": "https://k-tai.watch.impress.co.jp/docs/review/iphonetips/2139941.html"
   },
   "https://news.web.nhk/newsweb/na/nd-20260909de49403": {
    "bodyBlocks": [],
@@ -2783,21 +2016,6 @@
    "updatedAt": 1789037985432,
    "url": "https://pc.watch.impress.co.jp/docs/column/hothot/2139700.html"
   },
-  "https://pc.watch.impress.co.jp/docs/news/2139541.html": {
-   "bodyBlocks": [],
-   "checkedAt": 1788991002883,
-   "etag": "",
-   "hash": "306fd921fcb3fcea",
-   "id": "0c121422d867",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fpc.watch.impress.co.jp%2Fdocs%2Fnews%2F2139541.html",
-   "key": "https://pc.watch.impress.co.jp/docs/news/2139541.html",
-   "lastModified": "",
-   "publishedAt": 1788944767000,
-   "summary": "",
-   "title": "USB-A/Type-Cの2.5Gbps有線LANアダプタ、エレコムが発売",
-   "updatedAt": 1788991002883,
-   "url": "https://pc.watch.impress.co.jp/docs/news/2139541.html"
-  },
   "https://pc.watch.impress.co.jp/docs/news/2139675.html": {
    "bodyBlocks": [],
    "checkedAt": 1789037985432,
@@ -2878,6 +2096,21 @@
    "title": "Apple、iPhone 16/17/17e/Airを再値上げ。最大4万7,000円アップ",
    "updatedAt": 1789037985432,
    "url": "https://pc.watch.impress.co.jp/docs/news/2139807.html"
+  },
+  "https://pc.watch.impress.co.jp/docs/news/2140010.html": {
+   "bodyBlocks": [],
+   "checkedAt": 1789077399866,
+   "etag": "",
+   "hash": "de0107daae31d464",
+   "id": "3a96af214d47",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fpc.watch.impress.co.jp%2Fdocs%2Fnews%2F2140010.html",
+   "key": "https://pc.watch.impress.co.jp/docs/news/2140010.html",
+   "lastModified": "",
+   "publishedAt": 1789042657000,
+   "summary": "",
+   "title": "Opus 5に迫る「DeepSeek-V4.1-Flash」無償公開、DeepSeekショック再びか",
+   "updatedAt": 1789077399866,
+   "url": "https://pc.watch.impress.co.jp/docs/news/2140010.html"
   },
   "https://piyolog.hatenadiary.jp/entry/2026/09/10/015745": {
    "bodyBlocks": [
@@ -4011,938 +3244,113 @@
    "updatedAt": 1789011157400,
    "url": "https://react.dev/blog/2026/09/09/react-19-3"
   },
-  "https://speakerdeck.com/honmarkhunt/aws-devops-agent-de-inshidento-taiou-o-ai-ni-makasetai": {
-   "bodyBlocks": [],
-   "checkedAt": 1788991002883,
-   "etag": "",
-   "hash": "272d7e297b93edc6",
-   "id": "186d7648653d",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fspeakerdeck.com%2Fhonmarkhunt%2Faws-devops-agent-de-inshidento-taiou-o-ai-ni-makasetai",
-   "key": "https://speakerdeck.com/honmarkhunt/aws-devops-agent-de-inshidento-taiou-o-ai-ni-makasetai",
-   "lastModified": "",
-   "publishedAt": 1788956587000,
-   "summary": "2026/09/09 に開催された [SRE AI活用事例] 減らせ！TOIL削減大作戦！ の登壇資料です。 https://mixi.connpass.com/event/403987/",
-   "title": "AWS DevOps Agentで インシデント対応をAIに任せたい",
-   "updatedAt": 1788991002883,
-   "url": "https://speakerdeck.com/honmarkhunt/aws-devops-agent-de-inshidento-taiou-o-ai-ni-makasetai"
-  },
-  "https://speakerdeck.com/upsider_tech/enjinia-ha-doko-made-ekkyou-surubeki-ka-take": {
-   "bodyBlocks": [],
-   "checkedAt": 1788991002883,
-   "etag": "",
-   "hash": "d392946655806696",
-   "id": "56b9e97d851a",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fspeakerdeck.com%2Fupsider_tech%2Fenjinia-ha-doko-made-ekkyou-surubeki-ka-take",
-   "key": "https://speakerdeck.com/upsider_tech/enjinia-ha-doko-made-ekkyou-surubeki-ka-take",
-   "lastModified": "",
-   "publishedAt": 1788952505000,
-   "summary": "Product Engineering TalksにてTakenariさんが登壇した資料です。 https://upsider.connpass.com/event/401501/",
-   "title": "エンジニアはどこまで越境するべきか＿Take",
-   "updatedAt": 1788991002883,
-   "url": "https://speakerdeck.com/upsider_tech/enjinia-ha-doko-made-ekkyou-surubeki-ka-take"
-  },
-  "https://speakerdeck.com/visional_engineering_and_design/sre-bizreach-mixi": {
-   "bodyBlocks": [],
-   "checkedAt": 1789011157400,
-   "etag": "",
-   "hash": "ffbba095b001cf7d",
-   "id": "9268d118bdd6",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fspeakerdeck.com%2Fvisional_engineering_and_design%2Fsre-bizreach-mixi",
-   "key": "https://speakerdeck.com/visional_engineering_and_design/sre-bizreach-mixi",
-   "lastModified": "",
-   "publishedAt": 1788960966000,
-   "summary": "2026年9月9日開催「[SRE AI活用事例] 減らせ！TOIL削減大作戦！」の登壇資料です。 https://mixi.connpass.com/event/403987/ ▼関連資料 WAF 運用改善の承認サイクル https://speakerdeck.com/visional_en…",
-   "title": "AI 駆動 Terraform 開発/SRE_BizReach_MIXI_2",
-   "updatedAt": 1789011157400,
-   "url": "https://speakerdeck.com/visional_engineering_and_design/sre-bizreach-mixi"
-  },
-  "https://tailwindcss.com/blog/tailwind-is-joining-shopify": {
+  "https://speakerdeck.com/visional_engineering_and_design/sre-bizreach-mixi-25e1ebe1-facb-4604-9d95-1a4113f1b885": {
    "bodyBlocks": [
     {
      "kind": "H",
-     "text": "Tailwind Labs is joining Shopify"
+     "text": "Transcript"
     },
     {
-     "kind": "P",
-     "text": "Big one today — Tailwind is joining Shopify."
+     "kind": "LI",
+     "text": "[SRE AI活用事例] 減らせ！ TOIL削減大作戦！ WAF 運用改善の承認サイクル SRE の判断観点を AI に“効かせる” 株式会社ビズリーチ ビズリーチプラットフォーム部 プロダクトセキュリティグループ 佐々木 康徳"
     },
     {
-     "kind": "P",
-     "text": "When I started working on Tailwind over nine years ago, my only goal was to create something that would make it easier to build beautiful interfaces for my own projects. Fast-forward to today and the framework is installed over 110 million times per week and is trusted by many of the world's biggest companies to style products like ChatGPT, X, Cloudflare, Reddit, and Shopify."
+     "kind": "LI",
+     "text": "自己紹介 佐々木 康徳 / Yasunori Sasaki 経歴 ・2019年〜 SIer ・主に顧客システムの更改案件を担当 ・リーダー/サブリーダーとして経験を積む ・2024年〜 株式会社ビズリーチ ・入社後、SRE としてビズリーチプラットフォームの信頼性向上に貢献 ・2026年から、プロダクトセキュリティグループに所属 趣味 ・eSports ・スマブラの競技プレイヤー ・最近は Shadowverse: Worlds Beyond に本腰 2"
     },
     {
-     "kind": "P",
-     "text": "We're joining Shopify to give Tailwind a stable long-term home where it will be actively maintained for the millions of people who depend on it."
+     "kind": "LI",
+     "text": "会社概要 株式会社ビズリーチ / BizReach, Inc. 創業 ：2009年4月 代表者 ：株式会社ビズリーチ 代表取締役社長 酒井 哲也 グループ従業員数：2,808名（2025年7月末時点） 拠点 ：東京、大阪、名古屋、福岡、静岡、広島 資本金 ：1億3,000万円 事業内容：HR Techのプラットフォーム・SaaS事業 3"
     },
     {
-     "kind": "P",
-     "text": "We built a great little website template business around Tailwind over the years, but deep down I've always wanted the framework to be developed in service of a real product. A complex application solving important problems for real people, where we'd face the same challenges as our users, and could invent solutions that make the framework better for everyone."
+     "kind": "LI",
+     "text": "株式会社ビズリーチ ミッション キャリアに、選択肢と可能性を 時代の変化により、市場の構造が複雑化し、価値観も多様化している。 キャリア形成において重要なのは、 自分の未来に自信を持てる「はたらく」を選択し、 挑戦し続ける企業と繋がり、新たな活力を生み出すこと。 私たちは世の中にたくさんの「選択肢と可能性」を提供し 、 「はたらく」を変革していく。 5"
     },
     {
-     "kind": "P",
-     "text": "Shopify provides an incredible surface area for us to do this work. Merchants need to be able to design and host beautiful custom storefronts, and manage sales and inventory in a powerful admin area. Their customers need delightful shopping and checkout experiences, and an intuitive way to keep track of their orders and discover new products through the Shop app. Shopify is also on the frontier of where user interfaces need to go next with their explorations into agentic commerce."
+     "kind": "LI",
+     "text": "株式会社ビズリーチ サービス一覧 即戦力人材と企業をつなぐ 転職サイト 社内スカウトで 人材流出を防ぐ OB/OG訪問 ネットワークサービス 人財活用システム 採用管理システム 勤怠管理システム 経費精算システム 労務・給与システム メンバーの即戦力化を支援し マネジメントを変革する 6"
     },
     {
-     "kind": "P",
-     "text": "Shopify was also one of the very first companies operating at scale to see the potential in Tailwind CSS and start building with it , not only for themselves but betting on it for their customers too. Tailwind is a load-bearing very important part of the stack at Shopify, and they're invested in making sure it's actively maintained and continues to improve and adapt for how the ways we build are changing."
+     "kind": "LI",
+     "text": "今やっているお仕事 セキュリティ設計・開発支援 ・シフトレフト / Reachability 脆弱性管理・リスク評価 ・リポジトリ脆弱性チェック ・EOSL / 影響調査 セキュリティ監視・防御 ・WAF 運用 / モニタリング インシデント対応・運用改善 ・アラート調査 / 影響確認 ・対応フロー / 自動化 プロダクトのライフサイクル全体に、セキュリティを組み込む 8"
     },
     {
-     "kind": "P",
-     "text": "On a less technical note, I'm personally excited because entrepreneurship has completely changed my life . We are not doing enough as a society to produce and empower more entrepreneurs, and I believe deeply in Shopify's mission to help more people start, run, and grow their own business."
+     "kind": "LI",
+     "text": "守りを強化するほど、調査と対応の負担が積み上がる 守るべきもの ・攻撃や不正利用の兆候を見逃さない ・脆弱性や設定不備を早期に見つける ・サービスの可用性と信頼性を維持する 増え続ける運用負担 ・アラートが来るたびに、関連ログを最初から探し直す ・ログ、メトリクス、トレースを隅々まで見て、毎回切り分けを行う ・判断理由を書き、改善検討、対応、承認まで担う 人の経験と頑張りだけでは、増え続ける検知と調査に追いつけない 9"
     },
     {
-     "kind": "P",
-     "text": "Nothing changes with Tailwind CSS or any of our other open-source projects . Everything will always be MIT-licensed, and our team will continue to lead and maintain these projects for the community with the support of Shopify."
+     "kind": "LI",
+     "text": "判断理由が個人に閉じると、次回も同じ確認から始まる 調査 人が判断 ・ログを集める ・アプリの文脈を読む ・影響を調査する … 対応実施 時間が経過 新たな調査 人が判断 ・ログを集める ・アプリの文脈を読む ・影響を調査する … 問題：判断理由が次の評価・運用に引き継がれず、毎回同じ調査をしている 10"
     },
     {
-     "kind": "P",
-     "text": "On the commercial side, we'll no longer be trying to grow the business around Tailwind. All existing customers will of course maintain their access to products like Tailwind Plus and ui.sh , but we're closing sign ups for new customers to focus on Tailwind CSS at Shopify."
+     "kind": "LI",
+     "text": "判断理由が個人に閉じると、次回も同じ確認から始まる 調査 ⼈が判断 ‧ログを集める ‧アプリの⽂脈を読む ‧影響を調査する … 対応実施 時間が経過 同じことしてるのなら Skills 化して AI で調査を すればいいのでは？！ 新たな調査 ⼈が判断 ‧ログを集める ‧アプリの⽂脈を読む ‧影響を調査する … 問題：判断理由が次の評価・運用に引き継がれず、毎回同じ調査をしている 11"
     },
     {
-     "kind": "P",
-     "text": "Thank you so much to everyone who has built something with Tailwind and supported us over these last nine years. I never could've imagined the project would become what it has today, and I truly believe there's no better place for us to continue to do this work than Shopify."
+     "kind": "LI",
+     "text": "Skills 化により、ある程度の平穏を手に入れた 📖 WAF Logs Investigation （← Skills の宣言） ちゃ◯ぴー！ mm:dd に発生したアラートで、問題ないか調べて！ ### Security Signal 調査 確認したこと 複数アカウントへの横断的なログイン成功は確認されませんでした 不審なパスワードリセットやアカウント侵害の兆候は確認されませんでした ログ抜粋 2026-08-21T08:12:04Z まぁログの URL は貼ってくれてるし、 見るところは絞ってくれてるから まだマシか …。 12"
     },
     {
-     "kind": "H",
-     "text": "Get all of our updates directly to your inbox. Sign up for our newsletter."
+     "kind": "LI",
+     "text": "Skills 化により、ある程度の平穏を手に入れたと思ったが… 📖 WAF Logs Investigation mm:dd に発生したアラートで、問題ないか調べて。 ### Security Signal 調査 確認したこと 複数アカウントへの横断的なログイン成功は確認されませんでした 不審なパスワードリセットやアカウント侵害の兆候は確認されませんでした ログ抜粋 2026-08-21T08:12:04Z システムの特性上発生しうるものだから、対 応しないって判断したやつだ …。 結局また同じログを見て、同じ判断を してるだけじゃないか！ 13"
+    },
+    {
+     "kind": "LI",
+     "text": "Skills 化により、ある程度の平穏を手に入れたと思ったが… 📖 WAF Logs Investigation mm:dd に発⽣したアラートで、問題ないか調べて。 問題：判断理由が次の評価・運用に引き継がれず、毎回同じ調査をしている ### Security Signal 調査 確認したこと 複数アカウントへの横断的なログイン成功は確認されませんでした 不審なパスワードリセットやアカウント侵害の兆候は確認されませんで した ログ抜粋 2026-08-21T08:12:04Z 判断理由を AIシステムの特性上発⽣しうるものだから、 に効かせ、次回の評価・改善案に反映できる形で蓄積する 対応しないって判断したやつだ…。 結局また同じログを⾒て、同じ判断を してるだけじゃないか！ 14"
+    },
+    {
+     "kind": "LI",
+     "text": "AI が改善案や判断基準の見直しを提案するときに参照できる形にする 人間が持っている判断観点 ・システムの仕様 ・アプリやサービスへの影響 ・既知の攻撃パターンや過去の事例 ・誤検知・過剰防御の懸念 ・過去に承認・差し戻しした判断 … AI が参照できる形に 判断の根拠を、再利用できる形で残す（形式知化） ・判断基準 ・Block する／しないと判断した理由 ・対象とするサービス・WAF ルールの範囲 ・例外条件と判断時の前提 ・判断の根拠となるログ・コンテキストへのリンク 15"
+    },
+    {
+     "kind": "LI",
+     "text": "承認 / 否認の結果を、次の「判断観点」に反映する いま：個人に閉じた運用 調査 人が 判断 対応 実施 目指す：判断を記録して戻す 時間が経過 同じ確認を、毎回ゼロから行う 新たな 調査 調査 AI が 提案 人が 承認/否認 コンテキスト 次回の評価が、前回の判断を前提に始まる 判断理由が、次の運用改善につながる 16"
+    },
+    {
+     "kind": "LI",
+     "text": "今回の実装の概要 1 Datadog Workﬂow Automation 2 AI Agent 3 Slack 4 GitHub 5 PR 調査結果を投稿 定期実⾏ / ⼿動トリガー ログ証跡 + コンテキスト 判断材料を⼊⼒ WAF Logs Block する / Block しない の提案 Block する / Block しない AI 評価‧⼈間の 判断理由を記録 専⽤コンテキスト ✓ ⼈間レビュー （PR 承認） Block 候補の変更案 × 人間の承認が必要 17"
+    },
+    {
+     "kind": "LI",
+     "text": "今回の実装の概要 1 Datadog Workﬂow Automation 2 AI Agent 3 Slack GitHub 4 5 PR 調査結果を投稿 定期実⾏ / ⼿動トリガー ログ証跡 + コンテキスト 判断材料を⼊⼒ WAF Logs Block する / Block しない の提案 Block する / Block しない AI 評価‧⼈間の 判断理由を記録 専⽤コンテキスト ✓ ⼈間レビュー （PR 承認） Block 候補の変更案 × ワークフローの一部 人間の承認が必要 18"
+    },
+    {
+     "kind": "LI",
+     "text": "今回の実装の概要 1 Datadog Workﬂow Automation 2 AI Agent 3 Slack 4 GitHub 5 PR 調査結果を投稿 定期実⾏ / ⼿動トリガー ログ証跡 + コンテキスト 判断材料を⼊⼒ WAF Logs Block する / Block しない の提案 Block する / Block しない AI 評価‧⼈間の 判断理由を記録 専⽤コンテキスト ✓ ⼈間レビュー （PR 承認） Block 候補の変更案 × コンテキストをまとめた markdown 人間の承認が必要 19"
+    },
+    {
+     "kind": "LI",
+     "text": "今回の実装の概要 1 Datadog Workﬂow Automation 2 AI Agent 3 Slack 4 GitHub 5 PR 調査結果を投稿 定期実⾏ / ⼿動トリガー ログ証跡 + コンテキスト 判断材料を⼊⼒ WAF Logs Block する / Block しない の提案 Block する / Block しない AI 評価‧⼈間の 判断理由を記録 専⽤コンテキスト ✓ ⼈間レビュー （PR 承認） Block 候補の変更案 × 人間の承認が必要 判断理由の記入と、リクエストの Block 判断 20"
+    },
+    {
+     "kind": "LI",
+     "text": "今回の実装の概要 1 Datadog Workﬂow Automation 2 AI Agent 3 Slack 4 GitHub 5 PR 調査結果を投稿 定期実⾏ 判断理由を専用のコンテキストに自動追記 / ログ証跡 + コンテキスト ⼿動トリガー 判断材料を⼊⼒ WAF Logs Block する / Block しない の提案 AI 評価・人間の 判断理由を記録 専用コンテキスト 人間レビュー （PR 承認） Block 候補の変更案 Block する / Block しない 次回の調査から、判断理由に先程の評価が追加された ✓ × 人間の承認が必要 21"
+    },
+    {
+     "kind": "LI",
+     "text": "これまでと、これから Human In The Loop これまで 現在 ・AI の提案を、人間が毎回確認する ・最終的な判断は人間が行う ・判断の根拠が個人に残り、次の評価へ引き継がれにくい ・WAF ログとコンテキストを AI へ渡し、AI が根拠付きで評価、提案する ・人間が Block 可否を判断する ・判断理由をコンテキストへ記入する ・Block する場合は PR を自動作成する Human On The Loop これから ・判断基準、適用範囲、例外を人間があらかじめ決める ・AI がその前提に沿って、継続的に評価・提案する ・人間は不確実なケースや想定外の動きを監視し、必要なときに介入する ・人間の判断理由をコンテキストに反映し、仕組みを更新する 22"
+    },
+    {
+     "kind": "LI",
+     "text": "Human On The Loop の仕組みを構築するために （１）判断の前提を蓄積する • • 承認済み基準と判断理由をコンテキストへ反映する。 AI が過去の判断を踏まえて、評価できる対象を増やす。 （２）人間が見るべきケースを絞る • 基準内のケースは AI に任せ、不確実性や基準からの逸脱だけを人間へ通知する。 （３）変更の影響を確かめ、判断基準を更新する • 変更前後の影響を検証し、誤検知や検知漏れの実績を次のガードレールへ反映する。 AI が扱える範囲を広げ、監督型の運用へ移行する 23"
+    },
+    {
+     "kind": "LI",
+     "text": "各ポジション 絶賛募集中！ さまざまなポジションで募集しています。 まずは気軽にカジュアル面談でお話ししましょう。 SRE MLOpsエンジニア データエンジニア 機械学習エンジニア エンジニアリングマネージャー キャリア採用サイト DBRE …"
     }
    ],
-   "checkedAt": 1788991002883,
-   "etag": "W/\"b91bbb62d884657d789e56da0143d046\"",
-   "hash": "2ecbfec9b7cf02bb",
-   "id": "72d9aec8ae04",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Ftailwindcss.com%2Fblog%2Ftailwind-is-joining-shopify",
-   "key": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
-   "lastModified": "",
-   "publishedAt": 1788968326000,
-   "summary": "Big one today — Tailwind is joining Shopify. When I started working on Tailwind over nine years ago, my only goal was to create something that would make it easier to build beautiful interfaces for my own projects. Fast-forward to today and the framework is installed over 110 million times per we...",
-   "title": "Tailwind Labs is joining Shopify",
-   "updatedAt": 1788991002883,
-   "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify"
-  },
-  "https://techblog.zozo.com/entry/verify-ai-agent-coding-rules-with-archunit": {
-   "bodyBlocks": [
-    {
-     "kind": "H",
-     "text": "はじめに"
-    },
-    {
-     "kind": "P",
-     "text": "私たちのチームでは、生成AIコーディングエージェント（以下、AIエージェント。主にClaude Code）を使って開発に取り組んでいます。以前からAIエージェントに一貫した実装をしてもらうため、ルールを書いて指示する運用を続けてきました。しかし、ルール同士の矛盾やレビューだけでは遵守を保証できないといった課題がありました。本記事ではこの課題と、ArchUnitによる機械的な検証へ落とし込むまでの取り組みを紹介します。"
-    },
-    {
-     "kind": "H",
-     "text": "目次"
-    },
-    {
-     "kind": "H",
-     "text": "背景・課題"
-    },
-    {
-     "kind": "P",
-     "text": "AIエージェントに一貫した実装をしてもらうには、コーディング規約やアーキテクチャの制約をルールとして書き、AIエージェントに読ませる必要があります。私たちのチームでも命名規約やレイヤー間の依存関係に関する制約を、Markdownのルール文書として整備してきました。"
-    },
-    {
-     "kind": "P",
-     "text": "1つ目は、ルール同士の矛盾や重複です。新しいルールを追加するとき、既存のルールと似た内容が別の場所にも書かれていたり、条件が食い違っていたりする場面がありました。ルールの数が少ないうちは目視で気づけますが、数が増えるほど見落としが発生しやすくなります。"
-    },
-    {
-     "kind": "P",
-     "text": "2つ目は、ルールの遵守を保証する手段が、レビューに依存してしまう点です。AIエージェントの生成したコードのルール準拠を、毎回目視で確認する運用ではレビュアーの負担は増え続けます。レビューで見逃した違反は、そのまま実装に残ってしまいます。"
-    },
-    {
-     "kind": "P",
-     "text": "さらに、ルールの書き方自体にも見直すべき点がありました。人間向けの文書と同じ作法をAIエージェントにそのまま適用しても、意図した通りに機能しない場面がありました。"
-    },
-    {
-     "kind": "H",
-     "text": "ルールの読者はAIであるという前提の転換"
-    },
-    {
-     "kind": "P",
-     "text": "私たちは当初、人間向けのドキュメントを書くときと同じ作法でルール同士を相互参照させたり、背景の説明を書き添えたりしていました。人間がドキュメントを読むときは関連する複数のルールを渡り歩きながら理解を組み立てるため、相互参照がその手がかりです。"
-    },
-    {
-     "kind": "P",
-     "text": "しかし、AIエージェントがルールを読む場面は、実装やレビューのたびに発生します。そのたびに複数のファイルを渡り歩いて文脈を組み立てる必要があると、参照が一段増えるごとに読み落としや誤読の起点が増えてしまいます。"
-    },
-    {
-     "kind": "P",
-     "text": "そこで私たちは、「ルールの読者はAIである」という前提に立ち返りました。人間向けの相互参照は、複数の文書をまとめて理解する読み手を助けるための工夫です。AIエージェントに同じ役割を期待する必要はなく、それぞれのルールが単体で完結し、判断に必要な情報がその中でそろうように書き直すことにしました。単体で完結する形にしたことで同じ説明が複数のルール文書に重複することを懸念していました。実際に運用してみると重複は目立って増えておらず、人間のレビュアーがルール文書を読む頻度や体験にも変化はありません。"
-    },
-    {
-     "kind": "P",
-     "text": "この転換は書き方を変えるだけでは不十分で、ルールが本当に守られているかを機械的に検証できる形に変換する必要がある、という次の課題につながりました。"
-    },
-    {
-     "kind": "H",
-     "text": "自然文のルールからArchUnitの実行可能な検証への変換"
-    },
-    {
-     "kind": "P",
-     "text": "前提を転換しただけでは、ルールが実際に守られているかどうかまでは保証できません。次に取り組んだのは、自然文で書いていたルールをArchUnitで実行可能な検証に変換することです。"
-    },
-    {
-     "kind": "P",
-     "text": "ArchUnitは、Javaのアーキテクチャ制約をテストコードとして記述し、ビルド時に検証できるライブラリです。パッケージの依存関係やクラスの命名規則、メソッドの呼び出し制約などをDSLとして表現できます。"
-    },
-    {
-     "kind": "P",
-     "text": "たとえば、「ドメイン層のコードではリフレクションを使用しない」という規約は、これまでルール文書に自然文で書き、実装時にレビュアーが目視で確認していました。この規約をArchUnitで検証しようとすると、まず思いつくのは、パッケージ単位で禁止する書き方です。"
-    },
-    {
-     "kind": "P",
-     "text": "なお、本記事のコード例は、実際にはSpockで実装しているルールをJUnit 5形式に書き直したものです。"
-    },
-    {
-     "kind": "P",
-     "text": "しかし、この書き方には問題がありました。 dependOnClassesThat().resideInAPackage(...) は、対象パッケージのクラスへの依存を広く検出します。メソッド呼び出しだけでなくフィールドや引数の型宣言も依存に含まれるため、リフレクションを直接呼び出していないコードまで違反として検出してしまいます。"
-    },
-    {
-     "kind": "P",
-     "text": "私たちのプロジェクトでは、O/Rマッパーが生成するコードの一部が java.lang.reflect.Method 型のフィールドを持っていました。生成コードが呼んでいるのは、内部でリフレクションを使うライブラリのヘルパーメソッドです。生成コード自身がリフレクションAPIを直接呼び出しているわけではありません。しかし、パッケージ指定による型参照チェックでは、この生成コードも違反として検出されてしまいます。"
-    },
-    {
-     "kind": "P",
-     "text": "そこで、検出対象を「型参照」ではなく「メソッド呼び出し」に絞った ArchCondition として実装しました。"
-    },
-    {
-     "kind": "P",
-     "text": "このテストでは、コードが実際に呼び出したメソッドの呼び出し先（オーナーの型とメソッド名）を1件ずつ確認します。 java.lang.reflect パッケージや java.lang.invoke パッケージへの呼び出しは検出対象です。加えて、 java.lang.Class が持つ forName や getDeclaredMethod のような動的なメソッド探索・生成系のメソッド呼び出しも検出対象にしています。 java.lang.Class 自体は java.lang パッケージに属しており、 java.lang.reflect パッケージの外にあります。そのためパッケージ名だけでは判定できず、対象にしたいメソッド名を CLASS_LOOKUP_METHODS として自分たちで列挙しています。これはArchUnitが提供するAPIではなく、プロジェクト側で定義した定数です。型を参照しているだけのコードは対象にならないため、生成コードを誤検出することもありません。"
-    },
-    {
-     "kind": "P",
-     "text": "検出範囲もメソッド本体だけでなく、コンストラクタやフィールドの初期化子まで含めた全コードユニット（ codeUnits() ）にしています。これによって、レビュアーが目視で確認していた範囲を、CIで機械的に検証できるようになりました。"
-    },
-    {
-     "kind": "P",
-     "text": "命名規則やレイヤー間の依存関係も同様に、目視確認からArchUnitでの検証へ順次置き換えていきました。自然文のルールをすべて機械的に検証できるわけではありません。ただし、パッケージ構造やクラス間の関係など、構造的に表現できる制約は、この方法でカバーできます。"
-    },
-    {
-     "kind": "P",
-     "text": "実際に機械的な検証へ変換したルールには、次のようなものがあります。"
-    },
-    {
-     "kind": "LI",
-     "text": "日時を扱うクラスの now() メソッドを、 Clock 引数を指定せずに直接呼び出すことを禁止するルール（テストで時刻を固定できるようにするための制約）"
-    },
-    {
-     "kind": "LI",
-     "text": "特定のインタフェースを実装したrecordのcompact constructorに Objects.requireNonNull 呼び出しを必須にするルール（nullチェックの実装漏れを防ぐ制約）"
-    },
-    {
-     "kind": "LI",
-     "text": "UseCase層のクラスが持つ特定のメソッドに、 @Transactional アノテーションを必須にするルール（トランザクション境界の付け忘れを防ぐための制約）"
-    },
-    {
-     "kind": "P",
-     "text": "これらはいずれも、以前は自然文のルール文書とレビューでの目視確認に頼っていたものです。"
-    },
-    {
-     "kind": "H",
-     "text": "ルール文書・テスト・実コードの三者整合性を担保する方法"
-    },
-    {
-     "kind": "P",
-     "text": "ルールをArchUnitのテストに変換しても、それだけでは安心できません。ルール文書とテストコード、そして実コードの3つは、別々のファイルに書かれているため、時間が経つとずれていく可能性があります。"
-    },
-    {
-     "kind": "P",
-     "text": "実際に私たちのルール文書にある例を紹介します。あるUseCaseクラスの設計規約では、公開メソッドに @Transactional を必須にし、 isolation 属性はデフォルトのまま変更しないことを原則としています。ただし、バッチ処理で定期的に更新されるデータを参照する1つのUseCaseだけ、例外として REPEATABLE_READ を指定してよいことになっています。"
-    },
-    {
-     "kind": "P",
-     "text": "この例外は、ルール文書に書くだけでは終わりません。ArchUnitのテストコード側にも、この特定のクラスを検査対象から除外する条件を書く必要があります。"
-    },
-    {
-     "kind": "P",
-     "text": "ルール文書の例外規定と、テストコードの doNotHaveFullyQualifiedName(...) は、別々のファイルに書かれた対応関係です。この対応が崩れると、新しく追加した例外が検査対象のままになって意図せずテストが失敗したり、逆に例外ではないクラスが誤って除外されたままになったりします。私たちのルール文書には、「新たに例外が必要になった場合は、テストコードの除外条件も合わせて更新する」という注意書きを直接添えています。これによって、ルール文書とテストコードの対応関係を明示しています。ただし、この注意書き自体も、人が読んで実行することに変わりはありません。例外の宣言をコード側に持たせ、テストがそれを直接参照する形にすれば、注意書きなしでも対応関係を保てます。この点は今後改善する余地として残っています。"
-    },
-    {
-     "kind": "P",
-     "text": "もう1つの工夫は、ルール文書自体に「検査の保証範囲」を明記することです。たとえば、先ほどのUseCaseの設計規約には、次のような記載があります。"
-    },
-    {
-     "kind": "QUOTE",
-     "text": "機械的チェックの現状： process への @Transactional 必須とisolation制約は、ArchUnitのテストで既に機械的に検査されている。一方、メソッドの公開範囲や引数の形に関する規約はまだ自動検査されておらず、レビューでの目視確認に依存する。"
-    },
-    {
-     "kind": "P",
-     "text": "この記載があることで、AIエージェントも人間のレビュアーもルール文書を読むだけで、どこまでが保証されていて、どこからが目視確認頼みかを判断できます。"
-    },
-    {
-     "kind": "P",
-     "text": "こうした工夫に加えて、ルールを新しく追加したときには、AIエージェントに三者を突き合わせて確認してもらうこともあります。対象は、ルール文書とArchUnitのテストコード、実コードです。矛盾点や、ルール文書の説明と実装の食い違い、目視確認に頼っている部分の取りこぼしがないかを検証してもらう狙いです。"
-    },
-    {
-     "kind": "H",
-     "text": "アドホックな知識からルールへの体系的な移行"
-    },
-    {
-     "kind": "P",
-     "text": "ルールをArchUnitで検証する仕組みや、三者の整合性を保つ運用を整えても、その対象になるルール自体がどこにあるかが分かりにくいという問題が残っていました。"
-    },
-    {
-     "kind": "P",
-     "text": "私たちのプロジェクトには、設計判断の理由や実装パターンをまとめた知識ベースがありました。この知識ベースには、「なぜこの設計を選んだか」という背景説明と、「必ず守るべき制約」が同じ文書に混在していました。背景説明は読み手の理解を助けるものであり、検証の対象にはなりません。一方、制約は本来、検証の対象になり得るものです。両者が同じ文書に混ざっていると、どの記述がArchUnitで検証すべき対象なのかが分かりません。"
-    },
-    {
-     "kind": "P",
-     "text": "そこで、知識ベースと制約を別々のディレクトリに分けました。背景説明や実装パターンは .claude/knowledge/ に置き、必ず守るべき制約は .claude/rules/ へ配置しました。なお、 .claude/rules/ は現在Claude Codeが標準で読み込むディレクトリですが、 .claude/knowledge/ はこのプロジェクト独自の配置です。標準的な文書配置がまだ定まっていなかった時期に、リポジトリの直下には置きたくないという理由で .claude/ 配下に作ったものです。"
-    },
-    {
-     "kind": "P",
-     "text": "たとえば、アーキテクチャに関する文書は、同じ architecture.md という名前で両方のディレクトリに存在します。 .claude/knowledge/architecture.md には、オニオンアーキテクチャを採用した理由や各層の実装パターンといった、背景の説明が書かれています。 .claude/rules/architecture.md には、Controller・UseCaseをファットにしないための具体的な閾値や、NG・OKのコード例が書かれています。これらは、コード生成時に従うべき強制基準だけに絞られています。後者の冒頭には、次のような記載があります。"
-    },
-    {
-     "kind": "QUOTE",
-     "text": "各層の責務概要・実装パターン・選択理由は .claude/knowledge/architecture.md に記載してあり、本ファイルはその知識を前提とした上で「コード生成時に従う強制基準」を定義する。"
-    },
-    {
-     "kind": "P",
-     "text": "この参照は、ルールを単体で完結させるという前提の転換と矛盾しているように見えます。しかし、コード生成時に守るべき強制基準は .claude/rules/architecture.md 側で完結しています。 .claude/knowledge/architecture.md を読まなくても遵守の判断はできます。knowledge側は、なぜその基準になったかという任意の背景情報であり、参照しなくても強制基準の適用に支障はありません。 .claude/knowledge/ は .claude/rules/ と異なり無条件では読み込まれず、CLAUDE.mdの案内に沿って必要な場面ごとに参照先が示される配置です。そのため、AIエージェントが両者を区別せずまとめて読み込んでしまう事態は今のところ起きていません。"
-    },
-    {
-     "kind": "P",
-     "text": "この整理によって、「検証すべき制約の一覧」がルール文書側にまとまりました。新しいルールを追加するときも、書く場所を選ぶ時点で性質を判断するようになりました。単なる背景知識なのか、AIエージェントに守らせたいルールなのか、それとも機械的に検証できる制約なのか、という観点です。"
-    },
-    {
-     "kind": "H",
-     "text": "複数リポジトリへのルール展開の検討と見送り"
-    },
-    {
-     "kind": "P",
-     "text": "1つのリポジトリでルールとArchUnitによる検証の仕組みが定着したところで、次に考えたのは、他のリポジトリでも同じ仕組みを使えるようにすることでした。命名規約やアーキテクチャの制約には、プロジェクトが違っても通用する部分があります。1つのリポジトリで整備したルールを他のプロジェクトでもそのまま使えれば、同じルールをゼロから作り直す手間を省けます。"
-    },
-    {
-     "kind": "P",
-     "text": "そこで、ルールをマーケットプレイス形式で管理し複数のリポジトリへ配布する仕組みと、配布したルールを管理するツールを用意する計画を立てました。ここでの「マーケットプレイス形式」は、既存のプラグイン配布基盤を指すものではなく、複数のリポジトリへルールを公開・取得できるようにする、自前の配布基盤のことを指しています。"
-    },
-    {
-     "kind": "P",
-     "text": "しかし、計画を進める中で見えてきたのはツールの設計上の課題ではなく、運用面の課題でした。ルールを共有する仕組み自体は用意できます。ただし、それぞれのリポジトリを担当するメンバーが、他のリポジトリで整備されたルールを積極的に取り込むかどうかは別の問題です。実際には、他のリポジトリのルールを取り込む動きはほとんど生まれませんでした。"
-    },
-    {
-     "kind": "P",
-     "text": "取り込みが進まなかった背景には、大きく2つの理由があると考えています。1つは、リポジトリをまたいで本当に共有できるルールが想定していたほど多くなかったことです。プロジェクト固有の事情に依存するルールが大半で、汎用的に使い回せる部分は一部に留まりました。もう1つは、ルールを取り込むこと自体が、前述したルール文書・テスト・実コードの整合性を確認する運用という新たな運用コストを増やしてしまうことです。既存のルールをそのまま使うのではなく、自分たちのリポジトリの実装に合わせて調整し、整合性を保ち続ける必要があり、その手間が取り込みのハードルになっていました。なお、この2つの理由は、実際の取り込み状況から私たちが振り返って推測したものです。"
-    },
-    {
-     "kind": "P",
-     "text": "この結果を受けてマーケットプレイスと管理ツールの計画は取りやめました。仕組みを作ることが目的化してしまうと、実際には使われない仕組みを維持するコストだけが残ってしまいます。需要が確認できていない段階で大掛かりな仕組みを作るより、まずは個別のリポジトリでルールと機械的な検証の仕組みを定着させることを優先する判断です。"
-    },
-    {
-     "kind": "P",
-     "text": "この判断を見直す条件があるとすれば、共有できるルールの数がたまたま増えることではなく、共通化に必要な材料がそろうことだと考えています。ルールを先に一般化してから展開するトップダウンの手順は、複数チームでの実例が積み重なっていない段階では成立しにくいというのが、今回の見送りから得た実感です。各チームがルールの背景を記録しつつ、記録した内容をチーム横断で比較する仕組みと運用が必要です。ルール文書・テスト・実コードの三者突き合わせと同様に、この比較もAIエージェントに任せられる見通しが立った時点で、改めて展開を検討したいと考えています。"
-    },
-    {
-     "kind": "H",
-     "text": "検証の必須ゲート化"
-    },
-    {
-     "kind": "P",
-     "text": "ArchUnitのテストを書いても、実行される保証がなければ意味がありません。テストコードとして存在していても、実行タイミングが曖昧だと気づかないうちに検証が素通りしてしまうことがあります。"
-    },
-    {
-     "kind": "P",
-     "text": "私たちのプロジェクトには、SpockベースのArchUnitルールとは別の検証ルールもあります。たとえば、参照型を返すメソッドに @Nonnull ・ @Nullable のいずれかを必須にするルールなどがあります。このルールは check タスクに組み込まれていましたが、 test タスクには組み込まれていませんでした。これは意図的な設計ではありませんでした。Gradleの標準的なタスク依存構造（ check が test に依存する一方、逆方向の依存はない）上、静的な検証系のタスクが慣習的に check 側へ接続されることによるものでした。この違いに気づかないまま ./gradlew test だけをローカルで実行してプッシュしたところ、 check 側のルール違反がローカルでは検出されず、CIで初めて検出される事態が起きました。テストが通ったことを確認しても、 check の検証は素通りしていたということです。"
-    },
-    {
-     "kind": "P",
-     "text": "そこで、プッシュ前に実行すべきコマンドを ./gradlew check に統一しました。 check タスクはSpotlessによるフォーマットチェック・全テスト・ルールの検証をまとめて実行するため、 test だけを実行して安心してしまう事態を防げます。この方針はルール文書側にも明文化しています。"
-    },
-    {
-     "kind": "P",
-     "text": "あわせて、CI側でもプルリクエストごとに検証しています。ただし、CIでは check タスクをそのまま呼ぶのではなく、構成要素を複数のジョブに分けて並列実行しています。DBを使うテストと使わないテストを別ジョブに分けてDBコンテナの要否を切り分け、フォーマットは「チェックして落とす」のではなく「自動修正してコミットする」別ジョブにしているためです。ルールを検証するジョブは、GitHubのブランチ保護ルールで必須ステータスチェックに指定されています。ルールの検証に失敗すると、そのプルリクエストはマージできません。ローカルでの実行規律だけでなく、CIでも強制することで、実行を忘れたまま気づかずマージしてしまう事態を防いでいます。"
-    },
-    {
-     "kind": "P",
-     "text": "新しいルールを追加するときは、検証が実際に機能しているかどうかも確認します。たとえば、ドメイン層のパッケージ配置に関するルールを追加したときは、意図的にルールに違反する配置のダミークラスを用意し、検証が失敗（FAILED）することを確認しています。ルールを追加した時点で既存のコードに違反がないかどうかも確認し、違反がゼロであることを確かめてからマージしています。"
-    },
-    {
-     "kind": "P",
-     "text": "こうして、ArchUnitなどを用いた検証は、書いただけのテストコードではなく、プッシュ前に必ず通過するゲートとして機能するようになりました。"
-    },
-    {
-     "kind": "H",
-     "text": "まとめ"
-    },
-    {
-     "kind": "P",
-     "text": "本記事では、AIエージェント向けにコーディングルールを書き、ArchUnitで機械的に検証する取り組みを紹介しました。"
-    },
-    {
-     "kind": "P",
-     "text": "AIエージェントは、指示すればすぐに多くのコードを書いてくれます。しかし、その分だけルールに違反したコードが生まれる機会も増えます。レビューだけでこれを検出しようとすると、コードが増えるほどレビュアーの負担も増えていき、いずれ追いつかなくなります。ArchUnitでルールを実行可能な形にしておけば、検証の速度をコードが生成される速度に合わせられます。"
-    },
-    {
-     "kind": "P",
-     "text": "この検証の仕組みを維持する作業にも同じ考え方が当てはまります。ルール文書とテストコード、実コードの整合性を確認する作業を人手だけで追いかけようとすると、ルールが増えるほど負担が増えていきます。そこで、この確認作業もAIエージェントに依頼しています。ルールを守る対象であるAIエージェントに、ルールを整備する側も手伝ってもらう、という体制です。"
-    },
-    {
-     "kind": "P",
-     "text": "ルールの読者はAIであるという前提に立ち返ったことは、書き方を変えるだけの話ではありませんでした。ルールを「読んで理解してもらうもの」から「実行して確認できるもの」に位置づけを変える、という判断につながりました。AIエージェント向けにコーディングルールを整備することを検討している方がいれば、ぜひ参考にしてみてください。今後は、まだレビューでの目視確認に依存している規約も対象に含め、ArchUnitに限らずさまざまな手段で機械的に検証できる範囲を広げていきたいと考えています。"
-    },
-    {
-     "kind": "P",
-     "text": "ZOZOでは、一緒にサービスを作り上げてくれる方を募集中です。ご興味のある方は、以下のリンクからぜひご応募ください。"
-    }
-   ],
-   "checkedAt": 1788991002883,
+   "checkedAt": 1789077399866,
    "etag": "",
-   "hash": "bb7f3e3614930d3d",
-   "id": "b1dc2908b144",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Ftechblog.zozo.com%2Fentry%2Fverify-ai-agent-coding-rules-with-archunit",
-   "key": "https://techblog.zozo.com/entry/verify-ai-agent-coding-rules-with-archunit",
+   "hash": "218b2774e2cdcc65",
+   "id": "0eccd5d7f1d4",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fspeakerdeck.com%2Fvisional_engineering_and_design%2Fsre-bizreach-mixi-25e1ebe1-facb-4604-9d95-1a4113f1b885",
+   "key": "https://speakerdeck.com/visional_engineering_and_design/sre-bizreach-mixi-25e1ebe1-facb-4604-9d95-1a4113f1b885",
    "lastModified": "",
-   "publishedAt": 1788962223000,
-   "summary": "はじめに こんにちは。商品基盤部の藤本です。 私たちのチームでは、生成AIコーディングエージェント（以下、AIエージェント。主にClaude Code）を使って開発に取り組んでいます。以前からAIエージェントに一貫した実装をしてもらうため、ルールを書いて指示する運用を続けてきました。しかし、ルール同士の矛盾やレビュ...",
-   "title": "AIエージェント向けコーディングルールをArchUnitで機械的に検証する運用 - ZOZO TECH BLOG",
-   "updatedAt": 1788991002883,
-   "url": "https://techblog.zozo.com/entry/verify-ai-agent-coding-rules-with-archunit"
-  },
-  "https://techracho.bpsinc.jp/hachi8833/2026_09_09/159722": {
-   "bodyBlocks": [
-    {
-     "kind": "LI",
-     "text": "Ruby / Rails関連"
-    },
-    {
-     "kind": "H",
-     "text": "RubyのHashがメモリ食いである理由を探ってメモリ使用量を削減した話（翻訳）"
-    },
-    {
-     "kind": "LI",
-     "text": "ブックマーク"
-    },
-    {
-     "kind": "LI",
-     "text": "英語記事: Shrinking Ruby Hashes | byroot’s blog"
-    },
-    {
-     "kind": "LI",
-     "text": "原文公開日: 2026年08月05日"
-    },
-    {
-     "kind": "LI",
-     "text": "原著者: byroot -- Railsコアコミッター、Rubyコミッターです"
-    },
-    {
-     "kind": "P",
-     "text": "日本語タイトルは内容に即したものにしました。 原文の小文字で書かれたhashは原則として「ハッシュ」としています。"
-    },
-    {
-     "kind": "H",
-     "text": "RubyのHashがメモリ食いである理由を探ってメモリ使用量を削減した話（翻訳）"
-    },
-    {
-     "kind": "P",
-     "text": "既にご存知かと思いますが、Rubyの最適化の中でとりわけ私の興味を強くそそるのは「メモリ使用量」です。Rubyデプロイメントのほとんどは fork に依存しているので、いわゆる Copy-on-Write のパフォーマンスを改善するのが一般に最も効果的なのですが、この方法は、アプリケーションヒープ内のうち比較的変化の少ない静的な部分にしか効きません。"
-    },
-    {
-     "kind": "P",
-     "text": "メモリ使用量が著しく増加する主な要因の1つは、Webリクエストやジョブの処理中にアロケーションされ、処理後に解放される一時的なメモリ領域です。そのため、Rubyのさまざまなオブジェクトを軽量化する余地があるかどうかを探ってみることも有用です。"
-    },
-    {
-     "kind": "P",
-     "text": "Rubyオブジェクトの中でメモリ食いの筆頭といえば、おそらく Hash でしょう。 Hash のインスタンスは、オプションハッシュやキーワード引数から、ログ出力やAPIレスポンスに至るまで、Rubyアプリケーションやライブラリで激しく使われています。"
-    },
-    {
-     "kind": "P",
-     "text": "Rubyの Hash があまりに便利なせいで、どうも使われすぎている場合があるようです。特に Hash のメモリ効率の低さを考えるとなおさらです。"
-    },
-    {
-     "kind": "P",
-     "text": "それでは、Rubyの Hash がどれほどメモリ食いなのか、そうなるまでの経緯、それについて何ができるかを詳しく見ていきましょう。"
-    },
-    {
-     "kind": "H",
-     "text": "🔗 メモリ使用量を測定する"
-    },
-    {
-     "kind": "P",
-     "text": "私の過去記事をいくつか読んだことがあれば、Rubyのメモリ使用量を調べるのに使えるAPIについて、おそらく既にご存知かと思います。"
-    },
-    {
-     "kind": "P",
-     "text": "最もシンプルなものは ObjectSpace.memsize_of(obj) です。"
-    },
-    {
-     "kind": "P",
-     "text": "空ハッシュ {} はそれだけで160バイトも使っていることがわかります。しかし比較対象がないとあまり意味がないので、たとえば Struct と比較してみましょう。"
-    },
-    {
-     "kind": "P",
-     "text": "ご覧のように、 Hash は、 Struct 1 や PORO と比べて2倍から4倍ものメモリを食っています。"
-    },
-    {
-     "kind": "P",
-     "text": "このことから、「 PORO でできることは Hash ではなく PORO で済ませるべき」と言い切って終わりにしてもよいくらいでしょう（実際これは良いアドバイスです）。 しかし本記事の目的は、 Hash がどうしてこんなメモリ食いになったのかという経緯と、それについてどんな対策が可能かを探っていくことです。"
-    },
-    {
-     "kind": "P",
-     "text": "いわゆる ハッシュテーブル について学んだことがある人なら、「ハッシュがメモリを食うのは当たり前でしょ？」と思うかもしれません。実際、ハッシュテーブルはより多くのメモリを必要とするものです。"
-    },
-    {
-     "kind": "P",
-     "text": "しかしあまり知られていませんが、Rubyの Hash のインスタンスは、上の実行例でサイズが8になるまでは、厳密にはハッシュテーブルでは「ありません」。"
-    },
-    {
-     "kind": "P",
-     "text": "それでは、 Hash の実装の歴史を実際に詳しく振り返って、こうなった理由を理解していくことにしましょう。"
-    },
-    {
-     "kind": "H",
-     "text": "🔗 オープンアドレッシング"
-    },
-    {
-     "kind": "P",
-     "text": "Hash の実装は、Rubyの歴史の中で何度も大きな変化を遂げました。"
-    },
-    {
-     "kind": "P",
-     "text": "私が覚えている最初の大きな変化は、Ruby 2.4でVladimir Makarovがハッシュテーブルを完全に書き直したときです（ #12142 ）。ここで、それまでのより伝統的なハッシュテーブルの設計が オープンアドレッシング（open-addressing） に変更されました。 ここでは両者の設計の違いには深く立ち入りません（もっといい情報源が他にいくらでもあります）が、ここで指摘しておきたいのは、この変更によってハッシュが明らかに高速化された一方で、「ヘッダー」のサイズも著しく増加したということです。"
-    },
-    {
-     "kind": "P",
-     "text": "ここで言うヘッダーは、エントリやbins 2 をトラッキングするC構造体のことです。変更前の st_table 構造体のサイズは 48B でした。"
-    },
-    {
-     "kind": "P",
-     "text": "Vladimirによる最初のパッチでは、構造体のサイズが 88B に増加しましたが、その後パッチが実際にマージされる頃には 64B の増加にとどまりました。 さらに、Nobuが後続のコミットで構造体のサイズを 56B にまで削減しました（ 5714a26 ）。"
-    },
-    {
-     "kind": "P",
-     "text": "新しい実装では巧妙な動的サイズの整数オフセットが使われていたため、メモリ使用量のベースラインがまだ 16B 余分にあったものの、小規模な Hash のメモリ使用量はおおむね削減されました。"
-    },
-    {
-     "kind": "P",
-     "text": "これは非常に望ましい変更ではあるものの、キーが数個の場合のメモリ使用量がまだ多いままでした。"
-    },
-    {
-     "kind": "H",
-     "text": "🔗 配列テーブル"
-    },
-    {
-     "kind": "P",
-     "text": "ハッシュに対する次の大きな変更は、Ruby 2.6で行われました。"
-    },
-    {
-     "kind": "P",
-     "text": "実装者のYimin Zhaoは、Google Summer of Codeに参加した学生で、メンターのKoichi Sasadaの協力のもとで、ハッシュを トランジェントヒープ（transient heap: 過渡的なヒープ） で動かすよう調整する作業に取り組みました（ #14858 ）。"
-    },
-    {
-     "kind": "P",
-     "text": "トランジェントヒープについてはこのチケットに詳しく書かれていますが、要するに「ほとんどのオブジェクトは若いまま死ぬ」、つまり短命であるというアイデアを元にしています。また、当時のRubyオブジェクトのほとんどは malloc によってメモリを余分にアロケーションしていました。そこで、若いオブジェクトにはもっとシンプルな バンプポインタアロケータ（bump pointer allocator） 3 でメモリをアロケーションすることで処理を高速化できると考えたのです。"
-    },
-    {
-     "kind": "P",
-     "text": "それに続いて、GCマーキング期間の最後に、トランジェントヒープにアロケーションされたメモリを指しているすべての残存オブジェクトに対して、改めて本物の malloc を使ってアロケーションをやり直し、元のバイトをそこにコピーします。 それが終わったら、トランジェントヒープ全体をリセットして自由に再利用できる状態にします。"
-    },
-    {
-     "kind": "P",
-     "text": "この手法は コピーイングガベージコレクタ（copying garbage collector） から強くインスパイアされたものですが、当時のRuby VMに合わせる形で採用されました。"
-    },
-    {
-     "kind": "P",
-     "text": "この流れで、Yimin ZhaoはRubyの Hash をトランジェントヒープに統合する作業に取り組み始めました（ #14989 ）。しかしこのとき問題となったのは、 st_table 構造体が Hash クラスの基盤ではなかったことでした。 st_table 構造体はVMのあちこちで汎用のハッシュテーブルとしても使われており、あまつさえRubyのC APIでも公開されていて一部のC拡張で利用されていました。"
-    },
-    {
-     "kind": "P",
-     "text": "そのため、このままではハッシュテーブルをトランジェントヒープに合わせてリファクタリングする作業は困難を極めそうでした。このとき、YiminとKoichiは別のアプローチを選びました。2人はさまざまなベンチマークを実施して、「ハッシュの80%はエントリ8個以下である」という結果を得ました（ Googleスプレッドシート ）。"
-    },
-    {
-     "kind": "P",
-     "text": "このぐらい小さなテーブルであれば、わざわざ本物のハッシュテーブルにする必要もありません。 N が十分小さければ、 O(n) の線形探索でも O(1) のハッシュテーブル探索より高速になることすらありえます。"
-    },
-    {
-     "kind": "P",
-     "text": "このアイデアを元に、2人はRubyの Hash クラスをリファクタリングして、エントリが8個までの場合は実質的に Array として動作するように変更しました。 これにより、ハッシュで常に st_table 構造体を使う代わりに、サイズが8までは li_table （linear tableの略）を使うようになりました（ 8f675cd ）。なお、 li_table は後に ar_table （array tableの略）にリネームされました（ e4c79d0 ）。"
-    },
-    {
-     "kind": "P",
-     "text": "この時点で、エントリ1個が「キー」「値」「記録されたハッシュコード」で構成されるようになり、1エントリあたりのメモリは合計 24B となりました。すなわち、 192B にすべてのオブジェクトの基本オーバーヘッドである 40B を加えると、 232B となります。"
-    },
-    {
-     "kind": "H",
-     "text": "🔗 下位バイトハッシュコード"
-    },
-    {
-     "kind": "P",
-     "text": "しかしRuby 2.7になると、Koichiがメモリサイズを削減する巧妙な手法を編み出しました（ #15602 ）。エントリごとに 8B のハッシュコードを保存する代わりに、ハッシュコードの 下位バイト だけを保存するよう変更したのです。トレードオフとして、ハッシュ衝突の確率が 0.39% （ 1/256 ）に増加しますが、小規模なテーブルであればおそらく十分でしょう。 この変更によってテーブルスキャンが大幅に高速化され、1エントリあたり 7B の節約、テーブル全体では 56B の節約となりました。これはかなりの削減と言えます。"
-    },
-    {
-     "kind": "H",
-     "text": "🔗 可変幅アロケーション"
-    },
-    {
-     "kind": "P",
-     "text": "次の大幅な変更は、Ruby 3.3 4 で導入された可変幅アロケーション（VWA: Variable Width Allocation）の一般化でした。従来のRubyオブジェクトのアロケーションサイズは 40B スロットに固定されていました。それより大きいデータを保存する必要が生じたときは、個別のオブジェクトがシステムの malloc を用いてアロケーションを増やす必要がありました。"
-    },
-    {
-     "kind": "P",
-     "text": "可変幅アロケーションが導入されたことで、アロケーションサイズをさまざまに変更できるようになりました。アロケーションできるサイズはすべて 40 の倍数で、 40 * 2 ^ n の形になるので、 40 、 80 、 160 、 320 、 640 のように指定できます。これは、 ar_table を基盤とする小規模のハッシュに最適です。"
-    },
-    {
-     "kind": "P",
-     "text": "malloc でアロケーションしたバッファに ar_table を保存する代わりに、スロット内で ar_table をインライン保存できるようになりました。これによって、従来 malloc バッファを指すのに使われていたポインタが不要になり、メモリ使用量がきっかり 160B になりました。"
-    },
-    {
-     "kind": "P",
-     "text": "なお、上は実際にはハッシュ1個あたり 8B 強の節約です（ ObjectSpace.memsize_of は、Rubyが malloc でリクエストしたメモリ量だけを報告します）。アロケーションの戦略はアロケータごとに異なりますが、一般に何らかの形で、パディングによるメモリの無駄や、アロケータで余分なメタデータを必要とする可能性はあります。したがって、ハッシュ1個あたりの実際の節約量は、少なくとも 24B から 32B 程度と考えて差し支えないでしょう。"
-    },
-    {
-     "kind": "P",
-     "text": "可変幅アロケーションには、もう1つメリットがありました。 従来は、GCが未使用の Hash を見つけたときに free() を呼び出してアロケーションメモリを解放する必要がありました。 可変幅アロケーションによって外部バッファが不要になったおかげで、GCはスロットに「解放可能（free）」とマーキングするだけで次の処理に進めるようになり、劇的に高速化しました。"
-    },
-    {
-     "kind": "P",
-     "text": "Hash を含む多くの型が可変幅アロケーションに対応するようリファクタリングされたことで、トランジェントヒープはほぼ無用の長物となり、Ruby 3.3でPeter Zhuによって削除されました（ #19730 ）。"
-    },
-    {
-     "kind": "P",
-     "text": "ただし、この変更には1つ大きなデメリットがあります。スロットが ar_table を保存するのに必要なメモリを常に確保するようになったため、空ハッシュ {} のサイズが従来の4倍に膨れ上がってしまいました。"
-    },
-    {
-     "kind": "H",
-     "text": "🔗 Hash のサイズを削減する"
-    },
-    {
-     "kind": "P",
-     "text": "私は最近になって、小規模なハッシュのメモリ使用量を何とかしてもっとコンパクトにできないものかと考え始めました。 理屈のうえでは、 Hash インスタンスの基本となるメモリフットプリントは 24B となります。そのうち 16B はRubyの汎用オブジェクトのヘッダーに、 8B はデフォルト値（ ifnone と呼ばれています）にそれぞれ割り当てられます。"
-    },
-    {
-     "kind": "P",
-     "text": "ar_table を利用するハッシュでは、さらにハッシュコードを保存するために固定の 8B を余分に必要とします。"
-    },
-    {
-     "kind": "P",
-     "text": "ここから考えると、ハッシュのエントリ1個あたりで本当に必要なメモリサイズは 16B ということになります。うち 8B はキー参照用、 8B は値参照用です。すなわち、小規模なハッシュで必要な理論上のメモリフットプリントは、 32 + size * 2 となります。"
-    },
-    {
-     "kind": "P",
-     "text": "しかし当然ながら、以下の2つの制約があるのでそう簡単にはいきません。"
-    },
-    {
-     "kind": "LI",
-     "text": "制約1 : GCで指定されるメモリサイズを 40 、 80 、 160 のように切り上げる必要がある。"
-    },
-    {
-     "kind": "LI",
-     "text": "制約2 : Hash にキーが追加される可能性がある以上、（8個分の）スペースを使い切ったら st_table に移行しなければならない。 既に述べたように st_table のサイズは 56B なので、 Hash インスタンスのサイズは 24 + 56 => 80 となり、 80B より小さくできそうにない。"
-    },
-    {
-     "kind": "H",
-     "text": "🔗 状況が好転した"
-    },
-    {
-     "kind": "P",
-     "text": "最適化とは、本質的に1度では終わらない反復的作業です。ある時点では複雑すぎて実現不可能だった最適化が、周囲の状況が変化することで可能になったり、むしろ簡単になることもあります。そして、近年のRubyではさまざまな変化が生じています。"
-    },
-    {
-     "kind": "P",
-     "text": "変化その1 : Ruby 4.1.0dev でスロットのサイズを従来よりも細かく調整可能になりました。既存のスロットサイズは 40 のべき乗だったのが、Matthew Valentine-Houseのおかげで 32 のべき乗になり、最大 1024 まで利用可能になりました（ #16282 ）。これによって、上述の理想的な理論値にかなり近づけることが可能になりました。"
-    },
-    {
-     "kind": "P",
-     "text": "変化その2 : 最近このブログで 汎用インスタンス変数 を扱ったときに、 set_table 構造体のサイズを 8B 削減した話の中でも少し触れましたが、実は set_table は本質的に st_table のコピペだったので、両方の実装を揃えるために st_table にも同じ最適化を適用しました。これにより、Ruby 4.0からは st_table の実際のサイズは 48B になりました。"
-    },
-    {
-     "kind": "P",
-     "text": "すなわち、ここからさらに 8B 削ることに成功すれば、 st_table を利用するハッシュがスロットで 64B のメモリを使えるようになり、ひいては ar_table を利用するハッシュもエントリ数 2 個分の容量で楽観的にアロケーションできるようになります。しかも引き続き必要に応じて st_table に移行可能です。"
-    },
-    {
-     "kind": "P",
-     "text": "変化その3 : Peter Zhuによって、 4.1.0dev のオブジェクト シェイプ（shape） に大幅な変更が加えられました（ #17572 ）。このおかげで、スロットのサイズを常にオブジェクト自体に直接収容可能になりました。 これは私が長年実現したいと思っていた変更です。オブジェクトのスロットサイズを調べることは以前から可能でしたが、このリファクタリングが行われるまでは、スロットサイズを調べるコストがかなり高く、ホットスポット（=頻繁に実行される場所）では避ける方がよいとされていたのです。実際、文字列は頻繁にこのコードパスを通過していました。"
-    },
-    {
-     "kind": "P",
-     "text": "しかしPeterが変更してくれたおかげでスロットサイズを調べる必要がなくなり、マイクロベンチマークで8%という大幅な高速化を実現できました（ #17730 ）。"
-    },
-    {
-     "kind": "H",
-     "text": "🔗 データの局所性"
-    },
-    {
-     "kind": "P",
-     "text": "オブジェクトのスロットサイズの問い合わせが遅い原因のほとんどは、データの 局所性（locality） によるものです。スロットサイズの情報はページのメタデータに保存されていて、そこにアクセスするには、最初にそのページ冒頭を指すアドレスを調べておく必要があったのです。"
-    },
-    {
-     "kind": "P",
-     "text": "問題は、近年のプロセッサがデータ処理について驚くほど速くなった割りには、メモリのレイテンシの改善がそこまで追いついていないことです。プロセッサが必要とするデータを読み取ろうとしても、その時点でデータがキャッシュに乗っていなければ、プロセッサにとってかなり長く待たされるはめになります。"
-    },
-    {
-     "kind": "P",
-     "text": "スロットサイズの情報がオブジェクトのヘッダーに収まるようになったことで、情報が既にプロセッサのキャッシュに乗っていることがほぼ保証されます。CPUのキャッシュラインは一般にx86_64で 64B 、Apple Siliconで 128B となるので、オブジェクトの型情報のような隣接情報を読み込んだときに他の情報も一緒に読み込まれる可能性が高まり、実質的にコストゼロでスロットサイズ情報にアクセス可能になります。"
-    },
-    {
-     "kind": "H",
-     "text": "🔗 イミュータブル性"
-    },
-    {
-     "kind": "P",
-     "text": "私がこの問題に少しずつ取り組み始めた頃に最初に思いついたのは、最初にハッシュをfrozenにしてはどうかというものでした。小さなGCスロットにハッシュをアロケーションしようとすると、ハッシュのサイズを増やさなければならなくなる可能性があるというリスクに邪魔されがちです。"
-    },
-    {
-     "kind": "P",
-     "text": "ハッシュをイミュータブルにすれば、容量不足の心配はなくなります。もちろん、都合よくハッシュをイミュータブルにできる機会はそう多くはありませんが、それでも皆さんが思っているよりは多いでしょう。"
-    },
-    {
-     "kind": "P",
-     "text": "このコード例で引数に渡しているハッシュはミュータブルなので、最適化はできません。しかし実は、このコードスニペットには普通なら見えない第2の「隠れた」ハッシュが存在していて、しかもそのハッシュはfrozenなのです。"
-    },
-    {
-     "kind": "P",
-     "text": "ご覧の通り、Rubyは duphash インストラクションでバイトコードを生成しています。 duphash という名前からわかるように、これは既存のハッシュのコピー（ dup ）を作成します。このハッシュはユーザー空間からは決して見えないようになっており、たとえ ObjectSpace.each_object を使ってもこのハッシュへの参照は取得できません。 この隠れたハッシュにどうしてもアクセスしたければ、 ObjectSpace.dump_all の出力から探し出すことです。"
-    },
-    {
-     "kind": "P",
-     "text": "このような最適化が可能となるもう1つのケースは、以下のように freeze で明示的にfrozenにしたハッシュリテラルにすることです。"
-    },
-    {
-     "kind": "P",
-     "text": "opt_hash_freeze インストラクションが使われていることがわかります。これは、私がÉtienne Barriéと組んで2年前にRubyに追加した最適化で（ #20684 ）、\"frozen string literals\"の概念に似ています。 ハッシュリテラル全体がその場で freeze されていることをコンパイラが検出すると、隠れたハッシュのコピーを作らずに、隠れたハッシュを freeze してから「公開」し、ゼロアロケーションもコピーも行わずにスタックに直接プッシュします。"
-    },
-    {
-     "kind": "P",
-     "text": "もちろん、私もこの2つのケースでメモリをごっそり削減できることまでは期待していませんが、私見では、削減できる量がどんなに少なくても、実装が容易ならその価値はあると思います。 しかしもっと重要なのは、最初にハッシュをfrozenにしておくことです。これならアイデアを検証するのにも好都合ですし、すべての ar_table が固定サイズであることを前提としない形へのリファクタリングを開始した後で、もっと難しい変更に取りかかれるようになります。"
-    },
-    {
-     "kind": "P",
-     "text": "パッチそのものは比較的シンプルです（ #16653 ）が、これをマージしたのは、プールサイズが 32 のべき乗になる前のタイミングでした。 関連するベンチマークを現時点のRuby 4.1.0dev で実行してみると、frozenハッシュのサイズが 64B にまで削減され、空ハッシュ {} に至っては 32B にまで縮小されました。"
-    },
-    {
-     "kind": "H",
-     "text": "🔗 構造体をさらに縮小する"
-    },
-    {
-     "kind": "P",
-     "text": "さて、ミュータブルなハッシュについても同じ最適化を可能にするためには、 st_table 構造体のサイズをもっと縮小して、 st_table を使うハッシュをサイズ 64B のスロットに収まるようにする必要があります。さもないと 80B の壁を超えられなくなり、最適化のおいしい部分がごっそり損なわれてしまいます。"
-    },
-    {
-     "kind": "P",
-     "text": "既に述べたように、 st_table 構造体の理論上のサイズは 72B であることが既にわかっているので、後はどの 8B を削ればよいかを見つけ出すことです。このときは複数のアイデアを検討しました。"
-    },
-    {
-     "kind": "P",
-     "text": "最初に思いついたのは、ハッシュのデフォルト値（ ifnone ）を別の場所へ追いやることでした。デフォルト値を持つハッシュはほとんどないので、デフォルト値のためにすべてのハッシュで 8B も確保するのは無駄に思えました。"
-    },
-    {
-     "kind": "P",
-     "text": "方法の1つとして、デフォルト値をハッシュのインスタンス変数にすることも考えましたが、 汎用インスタンス変数の記事 でも述べたように、 Hash のような多くの型のインスタンス変数はグローバルなテーブルに保存され、しかもこのテーブルはRactorと同期する必要があります。つまり ifnone をインスタンス変数にすると、ハッシュのデフォルト値がRactorにとっての競合ポイントになってしまう可能性があります。 これでは前回苦労して積み上げた成果の一部が水の泡になってしまいそうだったので、この案は見送ることにしました。今後汎用インスタンス変数の競合が発生しなくなれば、このアイデアも現実的な選択肢になるかもしれません。"
-    },
-    {
-     "kind": "P",
-     "text": "第2のアイデアは、 st_table.type を消し去るというものです。この type メンバーは2つの関数へのポインタを保持します。1つはハッシュ関数として、もう1つは比較関数として使われます。 st_table を利用するハッシュの場合、このポインタは必ず2種類の値のうちどちらか一方になります。この値は、99%のケースではRubyオブジェクトのデフォルトのハッシュ関数になりますが、ごくまれに Hash#compare_by_identity で作成される 同一性ハッシュ（identity hash） が使われることがあり、この場合は別のポインタになります。"
-    },
-    {
-     "kind": "P",
-     "text": "理屈のうえでは、これを st_table に保存するよりも、必要に応じていつでも引数として渡す方がよほど合理的だと思われます。"
-    },
-    {
-     "kind": "P",
-     "text": "しかし話はそう簡単にはいきません。 st_table はC APIとして公開されていて、多くのネイティブgemで使われているため、このAPIが変更されれば当然gemも軒並み動かなくなってしまいます。"
-    },
-    {
-     "kind": "P",
-     "text": "唯一見込みがあるとすれば、 st.h を実質的にforkして、Ruby以外はアクセスできない内部専用のプライベート版を作ることでしょう。しかしそれでも問題が生じる可能性はあります。RubyのこのC APIが公開している RHASH_TBL マクロは、 st_table へのポインタを返すことになっています。実際、現在でもこのマクロが ar_table を利用するハッシュで呼び出されたときは、 ar_table を st_table に変換しなければなりません。 そういうわけで、この案も実現は極めて困難です。"
-    },
-    {
-     "kind": "P",
-     "text": "本来なら RHASH_TBL は非推奨化して削除すべきですが、相当時間がかかるでしょう。"
-    },
-    {
-     "kind": "P",
-     "text": "さらに別のアイデアはJohn Hawthornが提案してくれたもので、これは num_entries 、 entries_start 、 entries_bound を32ビット整数にするというものです。これなら構造体を 12B 削れますが（アラインメントルールがあるので 8B 止まりの可能性が高い）が、その代わりハッシュのエントリ数が最大約40億件に制限されてしまいます。"
-    },
-    {
-     "kind": "P",
-     "text": "公平のために申し上げておくと、ハッシュがそこまで巨大になればエントリのリストだけで 96GiB ものメモリが必要なので、Rubyのハッシュでそこまで巨大なデータを処理することがあるとは考えにくいとはいえ、こんな恣意的な制限が存在していることにはどうも違和感を覚えます。面白いことに、10年前にVladimir Makarovがパッチを提出したときにも同じことが議論されていました（ #12142 ）。"
-    },
-    {
-     "kind": "P",
-     "text": "そこでJohnとさらに話し合った結果、 entries_start を縮小すれば、ハッシュテーブルの最大サイズに制約をかけずに済むことに気づきました。しかしその理由を説明するには、 entries_start を縮小する目的について説明する必要があります。"
-    },
-    {
-     "kind": "P",
-     "text": "既に述べたように、 st_table のエントリも entries 配列内に連続して保存されます。"
-    },
-    {
-     "kind": "P",
-     "text": "これはまさに、Rubyのハッシュが挿入順序を保存している理由であり、 Hash を Hash#each でイテレーションする操作が連続配列のイテレーションと（ほぼ）同じぐらいシンプルな理由でもあります。"
-    },
-    {
-     "kind": "P",
-     "text": "ただしハッシュはエントリの追加だけでなく削除も可能である点に注意が必要です。ハッシュからエントリを削除すると、連続配列に隙間ができてしまいます。"
-    },
-    {
-     "kind": "P",
-     "text": "単純に考えると、ハッシュからエントリを削除するときは、隙間を埋めるために以後の全エントリをずらしたうえで、オフセットをすべて更新する必要があります。この処理はかなりコスト高ですが、もっと重要なのは、計算量がハッシュテーブル本来の O(1) に収まらなくなってしまうことです。"
-    },
-    {
-     "kind": "P",
-     "text": "そのため、どのエントリが存在し、どのエントリが削除されたかを把握するため、エントリのハッシュコードに特殊な 0 値を設定するようになっています。"
-    },
-    {
-     "kind": "P",
-     "text": "その結果として、イテレーションで RESERVED_HASH_VAL をスキップする必要が生じます。それ自体は大した処理ではありませんが、何らかの理由で Hash の冒頭から多数の要素をごっそりと削除する場合は、 Hash#shift メソッドだけが頼りなので、イテレーションで余分な負荷が大量に発生する可能性があります。"
-    },
-    {
-     "kind": "P",
-     "text": "entries_start を追加したのは、このケースを高速化するためです。最初のエントリを削除すると、以後の処理を省略するために st が entries_start を再計算します。"
-    },
-    {
-     "kind": "P",
-     "text": "つまり、構造体のこの部分は厳密には必須ではなく、存在しているとしても、本来の値より決して高くならないのであれば、100%正確である必要すらありません。 言い換えると、 entries 配列全体をアドレス指定できる必要はなく、実際に非常に大きな値になる可能性はほぼまったくないと合理的に仮定できます。"
-    },
-    {
-     "kind": "P",
-     "text": "したがって、 entries_start のサイズを小さくしても問題ありません。最悪のケースとして、エントリが多数削除された特殊なハッシュについては、次にエントリが挿入されてハッシュがリビルドされるまで速度が若干落ちる可能性があります。"
-    },
-    {
-     "kind": "P",
-     "text": "しかし、縮小するだけでは不十分なのではと思われるかもしれません。実際私は、 8B を丸ごと確保する必要があったので、縮小しても解決になりませんでした。"
-    },
-    {
-     "kind": "P",
-     "text": "皆さんはお気づきにならなかったかもしれませんが、上で示した st_table 構造体には、実は未使用スペースがあったのです。"
-    },
-    {
-     "kind": "P",
-     "text": "ここでは、 unsigned char 型の値3個に続いて、 unsigned int 型の値が1個配置されています。CPUには、 アラインメントルール と呼ばれるさまざまな制約が存在していて、アーキテクチャごとに少しずつ異なるものの、基本的にはどのアーキテクチャでも、指定のサイズのワードをどのアドレスからでも読み取れるとは限らないことが重要です。このアドレスは、読み出すメモリサイズと一致していなければなりません。"
-    },
-    {
-     "kind": "P",
-     "text": "たとえば、 8B の値（ポインタなど）は必ず 8B にアラインされている必要があります。つまりアドレスは 8 で割り切れる必要があるということです。さもないと、CPUアーキテクチャによってはまったく動作しなくなったり、本来よりも速度が落ちることがあります。"
-    },
-    {
-     "kind": "P",
-     "text": "そのため、コンパイラは場合によって「パディング（=埋める）」、つまり構造体の異なるメンバーの間に暗黙の隙間を挿入することがあります。"
-    },
-    {
-     "kind": "P",
-     "text": "上の例では、 rebuilds_num のサイズは 4B なので、ほとんどのCPUアーキテクチャでは 4 にアラインする必要があります。しかし rebuilds_num の上には、サイズ 1B のメンバーが3個あるので、コンパイラは 1B のパディングを挿入します。このパディングは本質的に無駄なスペースです。"
-    },
-    {
-     "kind": "P",
-     "text": "つまり、以下のように entries_start のサイズを 1B にしたうえで、 size_ind の隣に移動すれば、まるまる 8B 浮かせることが可能になるわけです。"
-    },
-    {
-     "kind": "P",
-     "text": "これでパッチはほぼ完成です。後は、 entries_start が桁溢れせずに 255 で止まるようひと手間加えるだけです。完全なパッチは #18149 を参照してください。"
-    },
-    {
-     "kind": "P",
-     "text": "このささやかな変更によって、 st_table を利用するハッシュがサイズ 64B のスロットにうまく収まるようになりました。こうなったら、 ar_table を利用するハッシュをさらに小さなスロットにアロケーション可能にする作業にも張り合いが出るというものです。"
-    },
-    {
-     "kind": "P",
-     "text": "しかし、そこからさらに進んで、より小さなサイズ 40B のスロットに収められるでしょうか？前述の通り、今後インスタンス変数が改善されてC APIの一部が非推奨化されれば、 ifnone や type を取り除けそうなので、後は残り 8 バイトを何とかして削るだけで済みます。私は十分実現可能だと見込んでいます。"
-    },
-    {
-     "kind": "P",
-     "text": "しかし現時点では時期尚早です。まずはコードベースの他の部分が進化するのを待つ必要があります。"
-    },
-    {
-     "kind": "H",
-     "text": "🔗 動的な配列テーブルサイズ"
-    },
-    {
-     "kind": "P",
-     "text": "しかしいずれにしろ、 st_table をサイズ 40B のスロットに収めても、空ハッシュ {} のサイズを縮小できるだけです。しかしそれ以外については、 64B あれば最適なサイズに限りなく近づけられます。"
-    },
-    {
-     "kind": "P",
-     "text": "現状の問題は、 ar_table が導入されて以来、すべてのコードがその固定サイズを前提に書かれてきたことです。そのため、サイズを動的に扱えるようにして固定サイズという前提の一部を見直すためのリファクタリングが少々必要になってきます。"
-    },
-    {
-     "kind": "P",
-     "text": "私の未完のパッチ（ e351efe ）にはまだ修正の必要なバグがまだ残っているものの、正常系（happy path）では期待通り動いています。"
-    },
-    {
-     "kind": "P",
-     "text": "しかしその一方で、最初により小さなスロットから始まったハッシュは、これまでよりも早いタイミングで st_table に移行しなければならなくなります。そうなるとメモリ使用量は 160B を超えてしまい、しかも完全にはスロットに埋め込まれなくなるため、ガベージコレクタで回収するときの処理が増えてしまいます。"
-    },
-    {
-     "kind": "P",
-     "text": "このハッシュのサイズは当初 80B ですが、エントリ数 4 個分の容量を持つ entries 配列をアロケーションする必要が生じて、サイズの合計は 176B になってしまいます。よくあることですが、最適化によってある場所のメモリを節約したら、別の場所でメモリ使用量が増えたということです。"
-    },
-    {
-     "kind": "P",
-     "text": "難しいのは、これがトータルでは節約なのか増加なのかを見極めることです。そしてこれは、実行しているコードの内容によって大きく変わるので、この問いに確実に答えるのは非常に困難もしくは不可能です。たとえ大多数のユーザーにとってはプラスに働くとしても、一部のコードベースではマイナスの影響が生じるようなケースは確実に存在します。"
-    },
-    {
-     "kind": "P",
-     "text": "いろいろ申しましたが、実は最悪のケースであってもマイナスの影響は大したことはありません。この最適化は主に小規模なハッシュに関連しているからです。"
-    },
-    {
-     "kind": "P",
-     "text": "この種の疑問に答えるには、 ruby-bench スイートで測定するのが通例です。このスイートには現実のアプリケーションがいくつも含まれているので、結果に一定の確信を持てます。しかし、驚くほど良好な結果が得られる例外的なケースを別にすれば、この種の試みは結局のところ一種の「賭け」なのです。"
-    },
-    {
-     "kind": "H",
-     "text": "🔗 最後に"
-    },
-    {
-     "kind": "P",
-     "text": "最後のパッチに磨きをかけて測定し、マージするための時間はまだ4か月ほど残されているので、12月にリリースされるRuby 4.1.0でこのパッチを首尾よく含められれば、Rubyユーザーにとってかなりのメモリ削減効果が得られるでしょう。"
-    },
-    {
-     "kind": "P",
-     "text": "しかしいずれにせよ、本記事は「 ハッシュが実はいかにコスト高であるか 」を皆さんに知らしめるよい機会にもなったと思います。"
-    },
-    {
-     "kind": "P",
-     "text": "Rubyのハッシュには専用構文が用意されていて、スキーマレスな構造体のように手軽に扱えるおかげで、Ruby開発者はともするとハッシュを使いすぎてしまう傾向があります。 しかしデータ構造が事前に明らかになっているのであれば、 Struct か、インスタンス変数を含むクラスを定義する方が、一般的にメモリ使用量がずっと少なく済みますし、アクセスも遥かに高速です。"
-    },
-    {
-     "kind": "P",
-     "text": "同様に、 「ハッシュの配列」パターンはパフォーマンスが重要な部分では避けるべき です。それよりも、私の自信作であるActive Recordへのパッチ（ #51744 ）で行っているように、フラットな配列で添字とマッピングする方が多くの場合良好な結果が得られます 5 。"
-    },
-    {
-     "kind": "LI",
-     "text": "原注: Data.define もそうです。これは Struct がトレンチコートを着たようなものです。 ↩"
-    },
-    {
-     "kind": "LI",
-     "text": "訳注: binsはオープンアドレッシング方式のハッシュテーブルにおけるバケット配列を指します。 ↩"
-    },
-    {
-     "kind": "LI",
-     "text": "訳注: バンプポインタアロケータとは、確保済み領域の末尾ポインタを単純に前方に進める（bump）だけでメモリを割り当てる方式のアロケータです。 malloc と異なりアロケーションのコストが定数時間で済む一方、個別に free できないため、まとめてリセットする用途に限定されます。 ↩"
-    },
-    {
-     "kind": "LI",
-     "text": "原注: 可変幅アロケーションが最初に導入されたのはRuby 3.2でしたが、 Hash を含む多くの型が可変幅アロケーションのメリットを得られるようになったのはRuby 3.3からです。 ↩"
-    },
-    {
-     "kind": "LI",
-     "text": "訳注: ハッシュの代わりにカラムインデックスを使うことでメモリ使用量を大幅に削減しています。 ↩"
-    },
-    {
-     "kind": "LI",
-     "text": "ブックマーク"
-    },
-    {
-     "kind": "P",
-     "text": "X : @hachi8833 GitHub : @hachi8833 コボラー、ITコンサル、ローカライズ業界、Rails開発を経てTechRachoの編集・記事作成を担当。\nこれまでに Ruby on Rails チュートリアル 第2版のコンテンツ監修、 Railsガイド のコンテンツ作成を担当。\nかと思うと、正規表現の粋を尽くした日本語エラーチェックサービス enno.jp を運営。\nClaude Codeに夢中になりすぎないための方法を模索中。 RubyKaja 2026 の特別賞を受賞 ブログ : note.com/hachi8833 、 Amazonウィッシュリスト: https://bit.ly/32aAmiI"
-    },
-    {
-     "kind": "P",
-     "text": "本記事の内容へのお問い合せはTwitterで @techracho へMentionまたはDMにてご連絡頂くか、運営会社である BPS株式会社のお問い合せフォーム よりお問い合せ下さい。"
-    }
-   ],
-   "checkedAt": 1788991002883,
-   "etag": "",
-   "hash": "d9235f7db3fc7dbf",
-   "id": "03bea3377788",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Ftechracho.bpsinc.jp%2Fhachi8833%2F2026_09_09%2F159722",
-   "key": "https://techracho.bpsinc.jp/hachi8833/2026_09_09/159722",
-   "lastModified": "",
-   "publishedAt": 1788942697000,
-   "summary": "概要 原著者の許諾を得て翻訳・公開いたします。 英語記事: Shrinking Ruby Hashes | byroot’s blog 原文公開日: 2026年08月05日 原著者: byroot -- Railsコアコミッター、Rubyコミッターです 日本語タイトルは内容に即したものにしました。 原文の小文字で書かれたhashは原則として「ハッシュ」としています。 既にご存...",
-   "title": "RubyのHashがメモリ食いである理由を探ってメモリ使用量を削減した話（翻訳）｜TechRacho by BPS株式会社",
-   "updatedAt": 1788991002883,
-   "url": "https://techracho.bpsinc.jp/hachi8833/2026_09_09/159722"
+   "publishedAt": 1789003411000,
+   "summary": "2026年9月9日開催「[SRE AI活用事例] 減らせ！TOIL削減大作戦！」の登壇資料です。 https://mixi.connpass.com/event/403987/ ▼関連資料 AI 駆動 Terraform 開発 https://speakerdeck.com/visional…",
+   "title": "WAF 運用改善の承認サイクル/SRE_BizReach_MIXI_1",
+   "updatedAt": 1789077399866,
+   "url": "https://speakerdeck.com/visional_engineering_and_design/sre-bizreach-mixi-25e1ebe1-facb-4604-9d95-1a4113f1b885"
   },
   "https://togetter.com/li/2743776": {
    "bodyBlocks": [],
@@ -4959,204 +3367,106 @@
    "updatedAt": 1789037985432,
    "url": "https://togetter.com/li/2743776"
   },
-  "https://www.dtmstation.com/archives/79443.html": {
+  "https://togetter.com/li/2743900": {
+   "bodyBlocks": [],
+   "checkedAt": 1789077399866,
+   "etag": "",
+   "hash": "7497d22a570e1628",
+   "id": "744c86fa0102",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Ftogetter.com%2Fli%2F2743900",
+   "key": "https://togetter.com/li/2743900",
+   "lastModified": "",
+   "publishedAt": 1789039240000,
+   "summary": "もしMicrosoftがスマホを出していたら覇権を取れていたはず、互換性や連携など負ける理由を探す方が難しい…「かつては変態端末がたくさんあったのにどうしてこうなった」",
+   "title": "もしMicrosoftがスマホを出していたら覇権を取れていたはず、互換性や連携など負ける理由を探す方が難しい…「かつては変態端末がたくさんあったのにどうしてこうなった」",
+   "updatedAt": 1789077399866,
+   "url": "https://togetter.com/li/2743900"
+  },
+  "https://toyokeizai.net/articles/-/956929": {
+   "bodyBlocks": [],
+   "checkedAt": 1789077399866,
+   "etag": "",
+   "hash": "252e44e54f2b0149",
+   "id": "341cdd8284c0",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Ftoyokeizai.net%2Farticles%2F-%2F956929",
+   "key": "https://toyokeizai.net/articles/-/956929",
+   "lastModified": "",
+   "publishedAt": 1789005382000,
+   "summary": "コンテンツブロックが有効であることを検知しました。 このサイトを利用するには、コンテンツブロック機能（広告ブロック機能を持つ拡張機能等）を無効にしてページを再読み込みしてください。 なお、Microsoft Edgeをご利用のお客様はプライバシー設定が影響している可能性があるため「追跡防止を有効にする」の設定を...",
+   "title": "｢すごいことをしている感覚はない｣プログラミング未経験のアイドル･宮本佳林がAIで診断サイトも生配信の仕組みも\"自作\"できた舞台裏",
+   "updatedAt": 1789077399866,
+   "url": "https://toyokeizai.net/articles/-/956929"
+  },
+  "https://www.cybertrust.co.jp/info/2026/0904-tls-announce.html": {
+   "bodyBlocks": [],
+   "checkedAt": 1789077399866,
+   "etag": "W/\"6aa27d16-b89b\"",
+   "hash": "35b54bda72035906",
+   "id": "22dcad9b9b82",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.cybertrust.co.jp%2Finfo%2F2026%2F0904-tls-announce.html",
+   "key": "https://www.cybertrust.co.jp/info/2026/0904-tls-announce.html",
+   "lastModified": "Thu, 10 Sep 2026 09:49:10 GMT",
+   "publishedAt": 1789035834000,
+   "summary": "情報追記：2026 年 9 月 10 日 初報掲載： 2026 年 9 月 4 日 2026 年 9 月 10 日 新中間 CA によるサービス提供につきまして、続報をお知らせいたします。 当初 2026 年 9 月 14 日までに新中間 CA によるサービス提供を目指して対応を進めておりましたが、ルート認証局から当社へ中間認証局（中間 CA）証明書を発行す...",
+   "title": "SSL/TLS サーバー証明書の中間 CA 証明書に関するお知らせ ｜お知らせ｜サイバートラスト",
+   "updatedAt": 1789077399866,
+   "url": "https://www.cybertrust.co.jp/info/2026/0904-tls-announce.html"
+  },
+  "https://www.itmedia.co.jp/aiplus/article/2609/10/2000001333": {
    "bodyBlocks": [
     {
      "kind": "H",
-     "text": "勝手に曲を作らない、“弾いて操る”AI。Roland×Neutone「Project LYDIA」の正体【ADC Japan 2026レポート⑥】"
+     "text": "NEC、社内の“AIトークン節約”に注力 「同じ使われ方なら10分の1に」と小玉CAXO"
     },
     {
      "kind": "P",
-     "text": "DTMや電子楽器、オーディオ関係を研究・開発する人たちが世界中から秋葉原に集まったイベントADC Japan 2026。そこで発表された、さまざまな技術、トピックスについてこれまで5回にわたって紹介してきました。開催されたのが2026年6月1～3日だったので、だいぶ時間が経ってしまいましたが、今回がその最終回。ここで紹介するのは、ADC Japan会場でひときわ大きな注目を集めていた、ローランド株式会社と株式会社Neutone（ニュートーン）が共同研究しているAIオーディオ・エフェクト「Project LYDIA（プロジェクト・リディア）」についてです。"
+     "text": "「（2026年の）上期中に5分の1、下期中に10分の1に下げる」――NECの小玉浩氏（執行役 Corporate EVP 兼 CAXO）は9月9日、全社のAI利用に掛かる“実質的なトークンコスト”の削減目標をこのように説明した。全社員の役割をAIが担う新組織「コーポレートAI・Workforce部門」のメディア向け説明会の質疑応答で明かした。"
     },
     {
      "kind": "P",
-     "text": "展示スペースには専用ブースが設けられ、セッションも複数用意されるなど、まさに今回のADC Japanの目玉のひとつでした。今回はその中の一つ、6月1日に行われたワークショップセッション「Hands-on with LYDIA」の様子を中心に、Neutoneのエンジニア、TomさんとAlfieさんによる技術解説とハンズオン、さらに開発を主導するローランドのCloud本部・本部長の岡村洋司さん、矢澤一郎さん、Neutone CEOの徳井直生さんへのインタビューも交えてお届けします。"
+     "text": "削減目標は、4月時点の社内のAI利用状況を基準にしたもの。AIの活用法も日々変化しているため、利用量そのものは増える見通しだ。一方、利用効率の観点から「（4月時点と）同じ使われ方だったら10分の1にするという考え方」（小玉氏）と説明した。"
     },
     {
      "kind": "P",
-     "text": "RolandとNeutoneが共同で研究開発するAIオーディオエフェクト、Project LYDIA"
+     "text": "「AIを使う量は増えてくる。それは仕方ない。そのぶんパフォーマンス・アウトプットが上がれば回収できる」（小玉氏）"
+    },
+    {
+     "kind": "P",
+     "text": "具体的には、タスクによって最適なAIモデルに処理を振り分けるルーティングの適用や、フロンティアモデルとオープンウェイトモデルの使い分け、過去の入力を一部保存して再利用するキャッシュの活用、タスクを実行する際に参照するコンテキストデータの整備などに取り組んでいる。他にも、固定料金型サービスの利用も視野に入れる。"
+    },
+    {
+     "kind": "P",
+     "text": "背景にあるのは、AIを前提とした組織である「AIネイティブカンパニー」への移行だ。人とAIそれぞれに対する投資の最適化に注力し、人の能力をAIで最大化する仕組みの確立を目指している。8月1日付で設置したコーポレートAI・Workforce部門も、この取り組みの一環。"
+    },
+    {
+     "kind": "P",
+     "text": "Copyright © ITmedia, Inc. All Rights Reserved."
     },
     {
      "kind": "H",
-     "text": "Project LYDIAとは何か"
+     "text": "この記事の著者"
     },
     {
      "kind": "P",
-     "text": "LYDIAは、ローランドの研究開発部門「Roland Future Design Lab」と、AIオーディオ技術を手がけるNeutoneの共同研究プロジェクトです。2025年11月12日、英国ブリストルで開催されたADC Bristolでプレビュー版として初公開されました。名前の「LYDIA」は「DIY」と「AI」の融合を意味するとのことで、ミュージシャンやエンジニアが試行錯誤しながら音楽を作り上げてきたDIY文化と、AI技術を融合させることを目指すプロジェクトです。"
+     "text": "ITmedia AI＋に関連する情報をお探しであれば、こちらのメディアもお役に立てるかもしれません。"
     },
     {
      "kind": "P",
-     "text": "左からRolandの岡村洋司さん、Neutoneの徳井直生さん、Rolandの矢澤一郎さん"
-    },
-    {
-     "kind": "P",
-     "text": "Project LYDIAはMorphoそのものを指す名称ではなく、より大きな枠組みのプロジェクトです。その第一弾として、Neutoneが開発した「Morpho（モーフォ）」技術によるニューラル・サンプリングを使ったペダルタイプのプロトタイプが、現在試作されています。Morphoは、ユーザーが用意した音源の特性をAIに学習させ、その特性を入力音声にリアルタイムで反映させることで、新しい音づくりを可能にする技術です。試作機はRaspberry Pi 5をベースに、Morphoによる AIソフトウェアと、ローランドが設計したシンプルなコントロールパネルを組み合わせた構成になっています。"
-    },
-    {
-     "kind": "H",
-     "text": "「Hands-on with LYDIA」——技術解説から実機体験まで"
-    },
-    {
-     "kind": "P",
-     "text": "今回取材したセッションは、単なる講演形式ではなく、参加者が実際にLYDIA実機に触れる約2時間のワークショップでした。スケジュールは「LYDIAのパラメータとWebアプリの説明（10分）→自分のモデルで遊びながらマクロを作成（25分）→グループへのモデル紹介（10分）→グループジャムセッション（20分）→個人プレゼンテーション（45分・1人3〜4分）」という構成。参加者は事前に自分の音源（1〜2時間分）をNeutoneのクラウドに提出しており、当日はその音源から学習済みの自分専用モデルが実機に読み込まれた状態でワークショップが始まります。プログラミングの知識は一切不要で、ノブ操作だけで自分だけのオーディオエフェクトを探っていくという内容でした。"
-    },
-    {
-     "kind": "P",
-     "text": "前半はNeutoneのTomさんが技術的な背景を解説し、後半は同じくNeutoneのAlfieさんが実機を使ったハンズオンパートを担当するという二部構成です。"
-    },
-    {
-     "kind": "H",
-     "text": "Tomさんが語るLYDIAの頭脳——なぜVAEなのか"
-    },
-    {
-     "kind": "P",
-     "text": "Tomさんのパートは、現在のAI音楽生成モデルの歴史を振り返るところから始まりました。RNN（1986年）・LSTM（1997年）に始まり、オートエンコーダー（AE、2006年）からVAE（Variational Autoencoder、2013年）へ、そしてGAN（2014年）、Transformers（2017〜2018年）、DDPM（2020年）を経て、ChatGPT（2022年〜）に至るという流れです。中でもRNN／LSTMは軽量なサンプル単位の処理が可能なため、現在もニューラルアンプやエフェクトのモデリングに使われている技術だと説明されました。"
-    },
-    {
-     "kind": "P",
-     "text": "Google「Lyria 3」やSUNO、ElevenMusicのような「巨大なモデル」は、クラウドの計算資源を前提とした非リアルタイムの生成に強い一方、「まだ遊べない」——つまり演奏のようにインタラクティブに操作することには向いていない、というのがTomさんの指摘です。LYDIAが目指すのは、こうした大規模生成モデルとは異なる方向性、すなわち楽器のように反応してくれるAIエフェクトです。"
-    },
-    {
-     "kind": "P",
-     "text": "その基盤技術として選ばれたのがVAE（オートエンコーダー）です。「input→encoder→latent→decoder→output」という構造で、入力データを少ない次元（潜在表現）に圧縮し、そこから再構成します。例えば1つのドラムサンプルを、人間にわかりやすく言えば「loudness（音量）」「pitch（ピッチ）」「noise（ノイズ量）」といった特徴量にエンコードする、というイメージです。ただしTomさんは「learned ≠ interpretable（学習された≠解釈可能）」と強調し、実際にモデルが学習する特徴量は、必ずしも人間が理解しやすい音楽的特徴と一致するわけではないと説明しました。データの中で最も「活性」な成分を見つける主成分分析（PCA）によって次元削減を行うと、より知覚可能な音色的特徴に近い軸が得られやすい、という補足もありました。"
-    },
-    {
-     "kind": "P",
-     "text": "さらに、単なる再構成（reconstruction）だけでは不十分だとして、VAEに「discriminator（識別器）」を組み合わせる敵対的学習（adversarial training）の話に進みます。識別器は出力が本物か偽物かを、ノイズや不自然な滑らかさを手がかりに判定するだけですが、これによって潜在空間の中間からサンプリングされた点も、本物の音のように「聞こえる」ようになるとのことです。"
-    },
-    {
-     "kind": "H",
-     "text": "ストリーミング処理という壁——「未来は見えない」"
-    },
-    {
-     "kind": "P",
-     "text": "技術解説の後半は、こうしたモデルをリアルタイムのストリーミング処理に落とし込む難しさに焦点が当たりました。「どうすればストリーミング可能になるのか？」という問いに対し、Tomさんが挙げたのは「we can’t see the future（未来は見えない）」という制約です。STFT（短時間フーリエ変換）のように通常はホップ幅を窓（ウィンドウ）の中心に合わせますが、これは出力生成までに大きな遅延を生んでしまいます。"
-    },
-    {
-     "kind": "P",
-     "text": "そこで、ホップを受け取ると同時に処理して出力できるよう窓をずらす工夫や、「大きな窓・小さなホップ（big window, smaller hop）」によって計算コストと情報量のバランスを取る手法が紹介されました。ホップ幅は音質とレイテンシーのトレードオフに直結するため固定した上で、モデル自体を最適化していく——これが「the latency floor（レイテンシーの下限）」というスライドの主旨です。"
-    },
-    {
-     "kind": "P",
-     "text": "具体的な最適化手法としては、「synthesis priors（合成事前知識）」——マルチバンド処理、フィルタ済みノイズ、逆フーリエ変換といったDSP的な知見をモデルに組み込むことで計算負荷を軽減する手法や、Pythonで書かれたモデルをONNX形式にエクスポートし、C++ランタイム上で効率的に実行する「scripting the model」という手法が紹介されました。最終的にこれらのモデルは、JUCEアプリケーションやハードウェアに組み込まれる、という流れで技術解説パートは締めくくられました。"
-    },
-    {
-     "kind": "H",
-     "text": "Alfieさんによる実機ハンズオン——ディメンションパラメータとダイナミクス"
-    },
-    {
-     "kind": "P",
-     "text": "後半は同じくNeutoneのAlfieさんが登壇し、実機を使ったハンズオンに移ります。LYDIA実機はエフェクターペダルのような筐体で、「Roland RFDL」と「neutone」のロゴが確認できます。"
-    },
-    {
-     "kind": "P",
-     "text": "NeutoneのAlfieさんによるLYDIAのハンズオンセッション"
-    },
-    {
-     "kind": "P",
-     "text": "ここで解説されたのが「ディメンションパラメータ」です。VAEの潜在表現（エンコーディング）にオフセットを加えることで音を変化させる仕組みで、PCA（主成分分析）によって「Dimension 1が最も支配的、Dimension 6が最も影響が小さい」という順に並べられています。実機の画面には「Dyn（Dynamics）」「Dim1」「Dim2」「Mix」といったノブと、「IN→MODEL→FX→OUT」という信号の流れが表示されていました。"
-    },
-    {
-     "kind": "P",
-     "text": "特に「Dimension 0（Dyn）」については「Dimension 0 = Dynamics (sort of!)」というスライドで詳しく解説されており、最初の次元は音量（ボリューム）に関連していることが多いものの、オフセット操作によって入力感度そのものが変わってしまう点や、Dim0の極性（プラス方向に振るとどうなるか）はモデルごとに異なる点が注意点として挙げられていました。「Dyn」パラメータは、Dim0のオフセットを入力ゲイン調整で相殺するためのものだと説明されています。"
-    },
-    {
-     "kind": "P",
-     "text": "その後は「Let’s try.」のスライドとともに、参加者は実機のプリセットを実際に触りながら、「ディメンションパラメータは音をどう変えるか」「ダイナミクスノブは音をどう変えるか」「入力信号を変えると出力はどう変わるか」を体験していく、という流れでワークショップが進行しました。"
-    },
-    {
-     "kind": "H",
-     "text": "開発陣に聞く——ローランドとNeutoneが目指すもの"
-    },
-    {
-     "kind": "P",
-     "text": "セッション後、ローランドのCloud本部・本部長である岡村洋司さん、矢澤一郎さん、NeutoneのCEOの徳井直生さんに、それぞれお話を伺うことができました。"
-    },
-    {
-     "kind": "P",
-     "text": "岡村さんによれば、Roland Future Design Labは2024年に設立された社内部署で、新しい技術の研究開発に特化した組織です。現在はAI関連の取り組みに力を入れていますが、イマーシブオーディオ空間の提供やWeb3へのアプローチなど、新しい技術をいかに楽器や音楽に応用するかを研究するR&D部門であり、即座の製品化を前提とした部署ではないとのことです。同部署からは既に、音楽のフレーズにマッチした音色をAIが提案する「トーンエクスプローラー」というアプリケーションが、ソフトウェアプラグインへの組み込みという形でPOC（概念実証）段階まで進んでいるそうです。"
-    },
-    {
-     "kind": "P",
-     "text": "LYDIAが掲げるコンセプトは大きく2つ。ひとつは「人のクリエイティビティを増幅する」——AIがインスピレーションを与え、新しい着想や音楽表現につなげること。もうひとつは「人にできないことをサポートする」——例えばドラマーがギターのフレーズを弾けなくても、AIがそのリズムに合ったフレーズを演奏してくれる（あるいはその逆）、といった形です。岡村さんは、ローランドの歴史そのもの——例えばTR-808が「新しい音楽を作った」と言われるのも、それを使いこなしたミュージシャンがいたからこそだ——を引き合いに、AIによる人の置き換えではなく、あくまで人と組み合わさって新しい音楽が生まれる、というスタンスを強調していました。"
-    },
-    {
-     "kind": "P",
-     "text": "役割分担としては、ハードウェアとオーディオインターフェース部分をローランドが、AIの「頭脳」部分をNeutoneが担当しています。矢澤さんによれば、発表当初のフェーズ1の段階ではUSBオーディオインターフェースを外付けする構成だったものが、現在のフェーズ2では筐体内にコーデックを統合し、Raspberry Piから直接制御する方式に変更されており、これがレイテンシー短縮の大きなポイントになったとのことです。"
-    },
-    {
-     "kind": "P",
-     "text": "現状はまだPOC段階で、今回のハードウェアも新規に金型を起こすのではなく、既存の機構部品を組み合わせて実現したものだといいます。製品化の時期は未定ながら、参加者からの反応が良いため「できるだけ早く出したい」という意向があるとのことでした。"
-    },
-    {
-     "kind": "P",
-     "text": "徳井さんによれば、Neutoneはプロジェクトとしては2022年に始動。オープンソースのAIモデルをDAW上で簡単に動かす仕組みとして公開したのが最初で、そこから世界中の研究者やエンジニアを巻き込みながら発展し、2023年に会社化されました。最初のプロダクトである音色変換プラグイン「Morpho」は2024年4月に発売され、現在も販売中です。ローランドとの接点はMorpho発売後にでき、2024年頃からハードウェア化プロジェクトが動き出し、2025年にプロトタイプ発表に至ったとのことです。"
-    },
-    {
-     "kind": "P",
-     "text": "技術的には、人間にわかりやすく説明する際には「ピッチ」「ラウドネス」「ノイズ」の3要素として語られますが、実際にモデルが学習しているのは64個ほどの特徴量で、これは人間が設計した軸ではなく機械学習によって自動的に見出されたものだといいます。1〜2時間分の音源をクラウドにアップロードすると数時間の学習を経て専用モデルが返ってくる仕組みで、今回のワークショップ参加者にも、事前に学習済みの自分専用モデルが実機に読み込まれた状態で配布されていました。"
-    },
-    {
-     "kind": "P",
-     "text": "徳井さんは、「今のAI技術はどちらかというと勝手に作ってしまう方向に向かっている」とした上で、Neutoneが目指すのはその逆——シンセサイザーやエフェクターの延長線上で、ミュージシャンが自ら演奏し、探求するためのAIの使い方だと語っていました。なお、ローランドとの関係は独占契約ではなく、Neutoneは今後も他社との取り組みを模索しうる立場とのことです。"
-    },
-    {
-     "kind": "H",
-     "text": "定点観測してきたLYDIAの進化"
-    },
-    {
-     "kind": "P",
-     "text": "実は、今年1月のNAMM Show、5月のSUPERBOOTHでもLYDIAの展示を取材しており、ADC Bristolでのプレビュー発表以降、断続的にこのプロジェクトを追いかけてきたことになります。インタビューにあったフェーズ1（USBオーディオインターフェース外付け）をNAMMで、フェーズ2（筐体内蔵）をSUPERBOOTHそしてADC Japanで見てきており、半年の間に確実に進化してきたのも目にしてきました。ハードウェアとしての完成度は着実に上がってきており、今回のADC Japanでのワークショップ形式での一般公開は、開発陣にとっても大きな一歩だったようです。"
-    },
-    {
-     "kind": "P",
-     "text": "5月にドイツ・ベルリンで行われたSuperboothでのRolandブース"
-    },
-    {
-     "kind": "H",
-     "text": "おわりに"
-    },
-    {
-     "kind": "P",
-     "text": "ADC Japan 2026は、秋葉原UDXでの開催という国内初の大規模オーディオ開発者カンファレンスとして、多くの技術・製品・コミュニティの話題を提供してくれました。全6回にわたるこのレポートシリーズでは、ヤマハのSVS×DAW統合、初音ミクを支える加算合成エンジンM9、WebアプリをそのままVSTプラグイン化する技術、日本の電子楽器100年史、そして今回のProject LYDIAと、実に幅広いテーマを取り上げることができました。ローランドとNeutoneが目指す「人と共に新しい音楽を作るAI」という方向性は、ADC Japanという場全体に流れていた空気とも重なるものだったように思います。製品化の続報が届く日を楽しみに待ちたいと思います。"
-    },
-    {
-     "kind": "P",
-     "text": "【関連情報】 ADCサイト ADC Japan 2026サイト ローランドとNeutoneの共同研究によるAIを活用した次世代オーディオ・エフェクト技術『Project LYDIA』のプレビュー版を発表(Rolandプレスリリース) ローランドとNeutoneの共同研究によるAIを活用した次世代オーディオ・エフェクト技術『Project LYDIA』のフェーズ2を発表(Rolandプレスリリース) Neutoneサイト"
-    },
-    {
-     "kind": "H",
-     "text": "コメント"
+     "text": "国内外の業界動向、AIやクラウドなどの最新技術、キャリア情報など今知りたい情報をまとめてお届けします。"
     }
    ],
-   "checkedAt": 1789011157400,
+   "checkedAt": 1789077399866,
    "etag": "",
-   "hash": "cbe6b976c6965b09",
-   "id": "9d4aa2971cb4",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.dtmstation.com%2Farchives%2F79443.html",
-   "key": "https://www.dtmstation.com/archives/79443.html",
-   "lastModified": "",
-   "publishedAt": 1788955161000,
-   "summary": "Project LYDIAとは何か LYDIAは、ローランドの研究開発部門「Roland Future Design Lab」と、AIオーディオ技術を手がけるNeutoneの共同研究プロジェクトです。2025年11月12日、英国ブリストルで開催されたADC Bristolでプレビュー版として初公開されました。名前の「LYDIA」は「DIY」と「AI」の融合を意味するとのことで...",
-   "title": "勝手に曲を作らない、“弾いて操る”AI。Roland×Neutone「Project LYDIA」の正体【ADC Japan 2026レポート⑥】",
-   "updatedAt": 1789011157400,
-   "url": "https://www.dtmstation.com/archives/79443.html"
-  },
-  "https://www.google.com/search?si=": {
-   "bodyBlocks": [],
-   "checkedAt": 1789037985432,
-   "etag": "",
-   "hash": "9a7a8b167de26632",
-   "id": "a217c8552530",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.google.com%2Fsearch%3Fsi%3D",
-   "key": "https://www.google.com/search?si=",
-   "lastModified": "",
-   "publishedAt": 1788955679000,
-   "summary": "Google 検索にアクセスできない場合は、ここをクリックするか、フィードバックを送信してください。",
-   "title": "Google Search",
-   "updatedAt": 1789037985432,
-   "url": "https://www.google.com/search?si="
+   "hash": "9281fb0d53bd8c44",
+   "id": "7a4acb42c5e1",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.itmedia.co.jp%2Faiplus%2Farticle%2F2609%2F10%2F2000001333%2F",
+   "key": "https://www.itmedia.co.jp/aiplus/article/2609/10/2000001333",
+   "lastModified": "Thu, 10 Sep 2026 21:45:25 GMT",
+   "publishedAt": 1789006691000,
+   "summary": "「（2026年の）上期中に5分の1、下期中に10分の1に下げる」――NECの小玉浩氏（執行役 Corporate EVP 兼 CAXO）は9月9日、全社のAI利用に掛かる“実質的なトークンコスト”の削減目標をこのように説明した。全社員の役割をAIが担う新組織「コーポレートAI・Workforce部門」のメディア向け説明会の質疑応答で明かした。 削減...",
+   "title": "NEC、社内の“AIトークン節約”に注力 「同じ使われ方なら10分の1に」と小玉CAXO",
+   "updatedAt": 1789077399866,
+   "url": "https://www.itmedia.co.jp/aiplus/article/2609/10/2000001333/"
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/10/2000001352": {
    "bodyBlocks": [
@@ -5298,95 +3608,159 @@
    "updatedAt": 1789037985432,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/10/2000001352/"
   },
-  "https://www.itmedia.co.jp/news/article/2609/09/2000001311": {
+  "https://www.itmedia.co.jp/aiplus/article/2609/10/2000001374": {
    "bodyBlocks": [
     {
      "kind": "H",
-     "text": "動画編集もAIにやってもらう時代？ 言葉で指示するAI編集ツール「Palmier Pro」を使ってみた （1/2 ページ）"
+     "text": "「DeepSeek-V4.1-Flash」発表 値上げから一転「より低コストでフラッグシップ超え」うたう"
     },
     {
      "kind": "P",
-     "text": "前回は米Adobeが公開した「ChatGPT」向けプラグインをテストした。1つのプラグインで写真やイラスト、動画が扱えるということで、従来のアプリを横断しての作業や、特にツールを指定せずやりたいことを指示するだけで勝手にツールが選択されるなど、従来のワークフローを大きく変える可能性が感じられた。"
+     "text": "より賢く、より速く、より効率的――中国のAI開発会社DeepSeekは9月10日（現地時間）、新モデル「DeepSeek-V4.1-Flash」を発表し、性能についてそのようにアピールした。同モデルは新しいアーキテクチャや学習方法を採用することで、同社フラッグシップの「DeepSeek-V4-Pro」や米OpenAIの「GPT-5.6 Sol」、米Anthropicの「Claude Opus 5」などを一部超える性能を実現したとうたう。"
     },
     {
      "kind": "P",
-     "text": "その一方で、動画機能に関してはまだできることが少なく、がっかりしたのも事実だ。ローカルで動く「Premiere」と同じことができるわけではないからだ。"
+     "text": "DeepSeek-V4.1-Flashは、モデルの中に複数の処理役を用意し、入力内容に応じてその一部だけを動かすことで処理効率を高めた「MoE」モデルで、全体のパラメータ数は5520億（552B）。"
     },
     {
      "kind": "P",
-     "text": "ローカルで動くPremiereの方も、AIとのインテグレーションが進められているところだが、これは既存ツールにAI機能を追加という格好で作られている。では逆に、AIの上に編集ツールのUIを被せたらどうなるのか。その答えの1つが「 Palmier Pro 」だ。現在はmacOS 26（Tahoe）以降のApple Silicon搭載Mac版のみ公開されている。"
+     "text": "データ入力におけるコスト効率を向上させた新しいアーキテクチャを採用し、過去の計算内容を保持して再利用する仕組み「KVキャッシュ」の量を削減したことで、特に入力時の利用料金を削減できたという。"
     },
     {
      "kind": "P",
-     "text": "開発者は、もともとは生成AIを使ってコンテンツ制作を行っていたという。こうしたワークフローでは、"
-    },
-    {
-     "kind": "LI",
-     "text": "Webブラウザで生成AIを使って動画を作成"
-    },
-    {
-     "kind": "LI",
-     "text": "生成動画をダウンロード"
-    },
-    {
-     "kind": "LI",
-     "text": "ダウンロードしたファイルを編集ツールへインポート"
-    },
-    {
-     "kind": "LI",
-     "text": "インポートされた動画をタイムラインに貼り付け"
+     "text": "そのため、8月13日のAPI料金値上げから一転、DeepSeek-V4.1-Flash発表同日から値下げを適用する。新料金設定は、オフピーク時で入力0.003ドル（キャッシュヒット）／0.15ドル（キャッシュミス）、出力0.6ドル（旧料金設定ではそれぞれ0.007ドル、0.22ドル、0.66ドル）。ピーク時はそれぞれ2倍の料金になる。"
     },
     {
      "kind": "P",
-     "text": "という段取りになる。編集してみてしっくりこなければまたこのプロセスの繰り返しで、どうしても手数が多くなる。この問題を解決できないかということで、生成AIをコントロールするコンソールと編集ツールを一緒にしたのが発端だ。"
+     "text": "Copyright © ITmedia, Inc. All Rights Reserved."
     },
     {
      "kind": "P",
-     "text": "執筆時点でのバージョンは0.8.1で、今年4月の初公開以降、既に80回以上アップデートされている。今年7月時点で一度別メディアで記事化したことがあるが、ものすごい勢いで機能拡張されているので、今回改めてご紹介したい。"
+     "text": "ITmedia AI＋に関連する情報をお探しであれば、こちらのメディアもお役に立てるかもしれません。"
+    },
+    {
+     "kind": "P",
+     "text": "国内外の業界動向、AIやクラウドなどの最新技術、キャリア情報など今知りたい情報をまとめてお届けします。"
+    }
+   ],
+   "checkedAt": 1789077399866,
+   "etag": "",
+   "hash": "c04f3422e3117b04",
+   "id": "860e51d46b94",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.itmedia.co.jp%2Faiplus%2Farticle%2F2609%2F10%2F2000001374%2F",
+   "key": "https://www.itmedia.co.jp/aiplus/article/2609/10/2000001374",
+   "lastModified": "Thu, 10 Sep 2026 21:45:25 GMT",
+   "publishedAt": 1789028613000,
+   "summary": "より賢く、より速く、より効率的――中国のAI開発会社DeepSeekは9月10日（現地時間）、新モデル「DeepSeek-V4.1-Flash」を発表し、性能についてそのようにアピールした。同モデルは新しいアーキテクチャや学習方法を採用することで、同社フラッグシップの「DeepSeek-V4-Pro」や米OpenAIの「GPT-5.6 Sol」、米Anthropicの「...",
+   "title": "「DeepSeek-V4.1-Flash」発表 値上げから一転「より低コストでフラッグシップ超え」うたう",
+   "updatedAt": 1789077399866,
+   "url": "https://www.itmedia.co.jp/aiplus/article/2609/10/2000001374/"
+  },
+  "https://www.itmedia.co.jp/mobile/articles/2609/10/news091.html": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "「折り目があります」――Apple初の「iPhone Duo」実機画像がSNSで物議、高価ゆえにガッカリか"
+    },
+    {
+     "kind": "P",
+     "text": "「折り目があります」「目立たないですが、シワがあります」――Appleが発表したブランド初の折りたたみスマートフォン「iPhone Duo」の画面中央に存在する折り目が、SNS上で大きな議論を呼んだ。"
     },
     {
      "kind": "H",
-     "text": "見た目はシンプルだが……"
+     "text": "高額な価格設定が招いた画面の折り目に対するSNS上での厳しい評価"
     },
     {
      "kind": "P",
-     "text": "Palmier Proを起動すると、Adobe Premiereをほうふつとさせるような、一般的な編集ツールのように見える。特徴的なのは、UIの左側がAIチャット欄になっていることだ。ファイルのインポートやタイムライン上の編集は、人間がやる場合はUIで行い、AIに任せる場合はプロンプトを入力して編集させる。AIは、タイムライン上の操作を代行するという格好になるので、何が起こったかはタイムライン上で把握できる。"
+     "text": "直販価格が1999ドルからという設定は、最新のテクノロジーを求める消費者に対して非常に高いハードルを課した。"
     },
     {
      "kind": "P",
-     "text": "無料でもある程度は使えるが、生成AIの機能を使う場合にはクレジットが必要になるので、有料プランに加入する必要がある。現在ディスカウントされており、5000生成クレジットが使えるProプランは月額29ドル、1万2000生成クレジットが使えるMaxプランが69ドルとなっている。今回はProプランでテストしている。"
+     "text": "この高額な価格設定ゆえに、消費者の新しい端末を見る目はかつてなく厳しくなった。画面中央に配置した折り曲げ部分に対して、わずかな凹凸も許容しないという強い姿勢が投稿から読み取れる。悲しみを示す絵文字とともに画面の折り目がはっきりと写った写真が拡散し、いわゆる炎上状態へと発展した。"
     },
     {
      "kind": "P",
-     "text": "連携可能な生成AIは、静止画は「GPT Image 2」「Nano Banana」シリーズ、「Grok」など12モデル、動画は「Seedance」や「Kling V3」など24モデル、音声・音楽は「ElevenLabs」や「Sonilo Music」など12モデルだ。これだけのモデルを全部ライセンスして課金すると大変なことになるが、Palmier Proから一括課金で使えるようになるのは、それだけでお得感がある。"
+     "text": "多数のユーザーが、特定角度から光を当てた際に折り目が視認できるという指摘を相次いで投稿した。高額な投資に見合う完璧な品質を求める消費者として当然の心理が、この折り目に対するシビアな評価に直結したようだ。"
+    },
+    {
+     "kind": "H",
+     "text": "発表会に参加した来場者による写真の即時拡散と画面中央への過度な注目"
     },
     {
      "kind": "P",
-     "text": "ではまず筆者のトーク動画を題材に、どんなことができるのか試してみる。クリップをタイムライン上に貼り付けただけで、音声の無音部分が自動的にハイライトされる。「無音部分をカットしてください」とプロンプトで指示すると、98カ所を自動的にカットしてくれた。"
+     "text": "新製品の発表会に現地で参加した来場者が、展示した実機に触れた直後に写真をインターネット上へアップロードした。"
     },
     {
      "kind": "P",
-     "text": "本来ならフィラーワードや言い直し部分も自動でカットしてくれるといいのだが、一応トライしてみたところ、切りすぎる傾向があったため、元に戻した。何カ所も編集されていたらUndoするのも大変だが、そこはAIにやり直しを任せられる。トークのカット編集は、まだ人間がやった方が正確である。"
+     "text": "公式の画像を通じた情報発信よりも先に、参加者の手によって撮影した無加工の画像が世界中へ瞬く間に広まった。その結果として、端末全体の革新性よりも画面中央の折り目部分へと過度に注目が集まる事態を引き起こした。"
     },
     {
      "kind": "P",
-     "text": "日本語へのローカライズはかなり進んでおり、一部英語表記は残るものの、おおむね利用には問題ないレベルである。ただ一部のメニューでは、言葉の意味が逆になっているところがある。「トラック上の前方を選択」というワードから連想すると、選んだクリップからタイムライン上の時間軸の前方方向、つまり左側のクリップが全部選択されるイメージだ。"
+     "text": "一部のユーザーは、内側画面を特定角度に傾け、周囲の強い光の反射を巧みに利用して意図的に折り目を強調した動画や写真を含めた。これにより、日常的な使用環境とは異なる極端な条件下での見え方が、標準的な状態であるかのように広く認識される一因を作った。"
     },
     {
      "kind": "P",
-     "text": "だが実際の動作は逆で、時間軸として後ろのクリップが選択される。「トラック上の後方を選択」の間違いだろう。Palmier Proは現在28言語に対応しているが、おそらくAIによる翻訳機能を使っているものと思われる。オリジナルのメニュー記述の意味をAIが誤認した可能性がある。"
+     "text": "参加者は、画面の下に埋め込んだカメラのレンズ部分と並行して、画面の継ぎ目がどの程度目立つのかを検証する目的で接写画像を多く撮影したと思われる。現地からのリアルタイムの一次情報が、製品のマイナス面を掘り下げる方向へと向かってしまっている。"
+    },
+    {
+     "kind": "H",
+     "text": "折り目を軽減するための多層的アプローチとは"
     },
     {
      "kind": "P",
-     "text": "オーディオトラックはステレオであるが、マイクは片方しか入っていないので、Lchをモノラルとしてセンターに配置したかった。だがステレオトラックをモノラルにする機能は実装されていなかった。以前試したバージョン0.6.12の時も実装されていなかったので、音声トラック処理は後回しになっているようだ。"
+     "text": "技術仕様を確認すると、Appleは画面の折り目を完全に無くすのではなく、視覚的および触覚的に極限まで目立たなくするための非常に複雑な設計を施した。本体の心臓部にあたるヒンジ機構は、100以上の微小な部品と炭素繊維のサポートプレートを組み合わせて構成した。これにより、ディスプレイを広げた際に中央部分を下から強固に支え、表面を平らに維持する仕組みを実現したという。"
     },
     {
      "kind": "P",
-     "text": "トラックタイプが変更できなくても、オーディオミキサー機能があればパンポットなどを使ってモノラル化できるのだが、それがまだ実装されていない。編集ツールとしては音声ミキサーは必須なので、早期に実装されることを望みたい。"
+     "text": "さらに、内側に搭載したディスプレイパネルの上下に高強度のガラスを配置した。そこへ専用の特殊な粘着剤を使用することで、端末を折りたたむ際に各層が本をめくるように滑らかにスライドし、曲げによるストレスを逃がす構造を採用した。ページめくりのような感覚が伝わる動画は、Appleが発表会中に示しており、Appleらしさの1つといえる。"
     },
     {
      "kind": "P",
-     "text": "もう1つ一般的な編集ツールとして奇妙なのは、クリップ間を接続するトランジション機能が搭載されていないところだ。いくら生成AI動画をぶっつなぎするとはいえ、ディゾルブぐらいは実装してもいいだろう。だがこれは後述する別の方法で実現できた。"
+     "text": "ディスプレイ表面には、ナノテクスチャ仕上げと呼ぶ特殊なマット加工を広範囲に施した。この光の反射を抑え込むマット表面処理は、折り目の視認性を最小限に抑えるための意図的な決定だ分析するポストも見られる。あえて光沢をなくすことで、凹凸の強調を防いだ。"
+    },
+    {
+     "kind": "H",
+     "text": "完全にゼロとはうたわず、極限まで目立たなくした"
+    },
+    {
+     "kind": "P",
+     "text": "SNSの反応を見る限り、特に海外において折り目は価格と同じくらい関心事であるようだ。だが、AppleはiPhone Duoとその折りたたみ構造を発表するにあたり、「画面が完全に平たんである」ことや「折り目がゼロである」ことを一度も主張していない。「購入から何年経過したとしても折り目なし」という発言や記述も見当たらない。"
+    },
+    {
+     "kind": "P",
+     "text": "公式リリースでは、特殊な表面仕上げがまぶしさを最小限に抑え、折り目の視認性を下げることで比類のない視聴体験を提供すると説明した。折り目の存在を否定せず、高度な技術的アプローチによって極限まで目立たなくしたという事実を正確に伝達する手法をとった。"
+    },
+    {
+     "kind": "P",
+     "text": "余談だが、ディスプレイ下部に配置したカメラも、非使用時は画面の背後に隠れるように設計しシームレスな表示領域を確保した。ここでも、物理的な切れ目や凹凸を視界から隠すための工夫を徹底している。"
+    },
+    {
+     "kind": "P",
+     "text": "折りたたむための柔軟な素材を採用している以上、構造的・物理的に折り目の発生は避けられず、現在の技術では完全消去は達成できない。この課題を即時に解決し、永久的に折り目ゼロを実現できるメーカーは今のところないだろう。"
+    },
+    {
+     "kind": "LI",
+     "text": "Apple初折りたたみ「iPhone Duo」ついに登場――耐久性から価格まで、気になる疑問FAQで解説 Appleが発表した初の折りたたみスマートフォンであるiPhone Duoについて、購入を検討するユーザーが抱く疑問をFAQ形式で解説する。グレード5チタンや新設計ヒンジによる高い耐久性、折り目を抑える特殊ディスプレイ構造、2画面表示に対応したiOS 27の操作性、国内でのストレージ別価格や発売日まで要点を網羅する。"
+    },
+    {
+     "kind": "LI",
+     "text": "「iPhone Duo」発表 Apple初の折りたたみ、Apple Pencil対応、インカメラは埋め込み型でTouch ID採用 10月23日発売、36万4800円から Appleが新型スマートフォン「iPhone Duo」を発表した。情報は随時更新する。"
+    },
+    {
+     "kind": "LI",
+     "text": "Apple初の折りたたみ「iPhone Duo」で、iOSのソフトウェアはどう変化する？ 今分かっていること Appleが発表した初の折りたたみモデル「iPhone Duo」。7.6型の広大なインナーディスプレイと「iOS 27」により、マルチタスクやUIが劇的に進化しそうだ。"
+    },
+    {
+     "kind": "LI",
+     "text": "Apple、「iPhone 18（無印）」を発表せず 2027年春投入の予測と背景 Appleが製品発表イベントでiPhone DuoやiPhone 18 Proを披露した一方、標準モデルiPhone 18の発表を見送った。同社は全機種を一斉発表する従来方針を変更し、秋と春の二段階で商品を投入する販売戦略へシフトしたとみられている。2025年発売のiPhone 17が高い完成度を誇る点やストア価格の値上げ推移も影響しており、買い替え時には注意が必要だ。"
+    },
+    {
+     "kind": "LI",
+     "text": "新iPhone発表で「iPhone 17／17e／Air」など旧モデルを値上げ 17は15万9800円スタートに Appleの新モデル発表に伴い、継続販売される旧iPhoneの価格改定が行われた。iPhone 16やiPhone 17など全4モデルが一斉に1万円以上値上げされた。最も値上げ幅が大きいiPhone Airの1TBは4万7000円増となり、最安モデルはiPhone 17eの12万4800円となった。"
+    },
+    {
+     "kind": "H",
+     "text": "関連リンク"
     },
     {
      "kind": "P",
@@ -5394,33 +3768,173 @@
     },
     {
      "kind": "H",
-     "text": "小寺信良の「プロフェッショナル×DX」"
+     "text": "アクセストップ10"
     },
     {
-     "kind": "P",
-     "text": "クラウド活用にリモート編集環境と、映像にまつわるプロフェッショナルの分野にDXの波が押し寄せている。プロの現場で何が起こっているのか。最新のITトピックを小寺信良氏が解説する。"
+     "kind": "LI",
+     "text": "「iPhone 18 Pro」は何が進化した？ 「iPhone 17／17 Pro」とスペックを比較 全て20万円超えの価格が悩ましい （2026年09月10日）"
     },
     {
-     "kind": "P",
-     "text": "ITmedia NEWSに関連する情報をお探しであれば、こちらのメディアもお役に立てるかもしれません。"
+     "kind": "LI",
+     "text": "「iPhone Duo」発表 Apple初の折りたたみ、Apple Pencil対応、インカメラは埋め込み型でTouch ID採用 10月23日発売、36万4800円から （2026年09月10日）"
     },
     {
-     "kind": "P",
-     "text": "国内外の業界動向、AIやクラウドなどの最新技術、キャリア情報など今知りたい情報をまとめてお届けします。"
+     "kind": "LI",
+     "text": "Apple初折りたたみ「iPhone Duo」ついに登場――耐久性から価格まで、気になる疑問FAQで解説 （2026年09月10日）"
+    },
+    {
+     "kind": "LI",
+     "text": "「iPhone Duo」は36万4800円からで2TBは57万円強、「iPhone 18 Pro」は21万9800円から （2026年09月10日）"
+    },
+    {
+     "kind": "LI",
+     "text": "Apple初の折りたたみ「iPhone Duo」で、iOSのソフトウェアはどう変化する？ 今分かっていること （2026年09月10日）"
+    },
+    {
+     "kind": "LI",
+     "text": "「iPhone 17e」と「iPhone 17」どちらが買いか？ 2機種を使い込んで分かった“スペック表にない違い” （2026年04月29日）"
+    },
+    {
+     "kind": "LI",
+     "text": "「iPhone 18 Pro／18 Pro Max」発表、可変絞りカメラと2nmの「A20 Proチップ」を搭載 （2026年09月10日）"
+    },
+    {
+     "kind": "LI",
+     "text": "Apple、「iPhone 18（無印）」を発表せず 2027年春投入の予測と背景 （2026年09月10日）"
+    },
+    {
+     "kind": "LI",
+     "text": "「折り目があります」――Apple初の「iPhone Duo」実機画像がSNSで物議、高価ゆえにガッカリか （2026年09月10日）"
+    },
+    {
+     "kind": "LI",
+     "text": "折りたためる「iPhone Duo」と「iPhone 18 Pro」シリーズ発表 「iPhone 18」は登場せず （2026年09月10日）"
+    },
+    {
+     "kind": "H",
+     "text": "過去記事カレンダー"
+    },
+    {
+     "kind": "H",
+     "text": "2026年"
+    },
+    {
+     "kind": "H",
+     "text": "2025年"
+    },
+    {
+     "kind": "H",
+     "text": "2024年"
+    },
+    {
+     "kind": "H",
+     "text": "2023年"
+    },
+    {
+     "kind": "H",
+     "text": "2022年"
+    },
+    {
+     "kind": "H",
+     "text": "2021年"
+    },
+    {
+     "kind": "H",
+     "text": "2020年"
+    },
+    {
+     "kind": "H",
+     "text": "2019年"
+    },
+    {
+     "kind": "H",
+     "text": "2018年"
+    },
+    {
+     "kind": "H",
+     "text": "2017年"
+    },
+    {
+     "kind": "H",
+     "text": "2016年"
+    },
+    {
+     "kind": "H",
+     "text": "2015年"
+    },
+    {
+     "kind": "H",
+     "text": "2014年"
+    },
+    {
+     "kind": "H",
+     "text": "2013年"
+    },
+    {
+     "kind": "H",
+     "text": "2012年"
+    },
+    {
+     "kind": "H",
+     "text": "2011年"
+    },
+    {
+     "kind": "H",
+     "text": "2010年"
+    },
+    {
+     "kind": "H",
+     "text": "2009年"
+    },
+    {
+     "kind": "H",
+     "text": "2008年"
+    },
+    {
+     "kind": "H",
+     "text": "2007年"
+    },
+    {
+     "kind": "H",
+     "text": "2006年"
+    },
+    {
+     "kind": "H",
+     "text": "2005年"
+    },
+    {
+     "kind": "H",
+     "text": "2004年"
+    },
+    {
+     "kind": "H",
+     "text": "2003年"
+    },
+    {
+     "kind": "H",
+     "text": "2002年"
+    },
+    {
+     "kind": "H",
+     "text": "2001年"
+    },
+    {
+     "kind": "H",
+     "text": "Feed Back"
     }
    ],
-   "checkedAt": 1789011157400,
+   "checkedAt": 1789077399866,
    "etag": "",
-   "hash": "3f3fd5156c7c1ffc",
-   "id": "10a6ba7ec482",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.itmedia.co.jp%2Fnews%2Farticle%2F2609%2F09%2F2000001311%2F",
-   "key": "https://www.itmedia.co.jp/news/article/2609/09/2000001311",
-   "lastModified": "Thu, 10 Sep 2026 02:59:33 GMT",
-   "publishedAt": 1788939628000,
-   "summary": "前回は米Adobeが公開した「ChatGPT」向けプラグインをテストした。1つのプラグインで写真やイラスト、動画が扱えるということで、従来のアプリを横断しての作業や、特にツールを指定せずやりたいことを指示するだけで勝手にツールが選択されるなど、従来のワークフローを大きく変える可能性が感じられた。 その一方で、...",
-   "title": "動画編集もAIにやってもらう時代？ 言葉で指示するAI編集ツール「Palmier Pro」を使ってみた",
-   "updatedAt": 1789011157400,
-   "url": "https://www.itmedia.co.jp/news/article/2609/09/2000001311/"
+   "hash": "5cbc77d4102645b8",
+   "id": "1ae4df8ba7d4",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.itmedia.co.jp%2Fmobile%2Farticles%2F2609%2F10%2Fnews091.html",
+   "key": "https://www.itmedia.co.jp/mobile/articles/2609/10/news091.html",
+   "lastModified": "",
+   "publishedAt": 1789036789000,
+   "summary": "「折り目があります」「目立たないですが、シワがあります」――Appleが発表したブランド初の折りたたみスマートフォン「iPhone Duo」の画面中央に存在する折り目が、SNS上で大きな議論を呼んだ。 高額な価格設定が招いた画面の折り目に対するSNS上での厳しい評価 直販価格が1999ドルからという設定は、最新のテクノロジー...",
+   "title": "「折り目があります」――Apple初の「iPhone Duo」実機画像がSNSで物議、高価ゆえにガッカリか",
+   "updatedAt": 1789077399866,
+   "url": "https://www.itmedia.co.jp/mobile/articles/2609/10/news091.html"
   },
   "https://www.itmedia.co.jp/news/article/2609/10/2000001335": {
    "bodyBlocks": [
@@ -5822,253 +4336,193 @@
    "updatedAt": 1789037985432,
    "url": "https://www.itmedia.co.jp/news/article/2609/10/2000001353/"
   },
-  "https://www.m3tech.blog/entry/quine-maker": {
+  "https://www.itmedia.co.jp/news/article/2609/10/2000001376": {
    "bodyBlocks": [
     {
      "kind": "H",
-     "text": "エムスリー(m3)のエンジニア・開発メンバーによる技術ブログです"
+     "text": "スーパーでおなじみ「呼び込み君」に新型 26年越しの“新曲”も配信"
+    },
+    {
+     "kind": "P",
+     "text": "群馬電機（群馬県みどり市）は、販促用音声POP「呼び込み君」に新機能を搭載したリニューアル商品「もっと！呼び込み君」（型番：MC-F08）を9月17日に発売する。価格は2万5080円。ユーザーが用意した音源を再生できるようになり、スーパーマーケットなどの店舗で季節や売り場に合わせてBGMを変えられる。"
+    },
+    {
+     "kind": "P",
+     "text": "従来の呼び込み君は、独自規格のBGMカードに音源データを収録しており、ユーザーがBGMを追加できなかった。新型は、「ポポーポポポポ」でおなじみの楽曲「No.4」を含むBGM計2曲を本体メモリに収録したほか、microSDカードを挿入するとカード内の音源を優先的に再生する。導入企業は自社のオリジナルBGMを流したり、キャンペーン用の販促メッセージを全店舗で一斉に展開したりできるとしている。"
+    },
+    {
+     "kind": "P",
+     "text": "発売に合わせて、公式サイトに専用のBGMダウンロードページを開設する。「お正月」「ジングルベル」などの定番曲、セミの鳴き声や鍋料理のぐつぐつ音といった季節の環境音、「No.4」に季節のアレンジを施したリミックス、販促用ボイスを無料で利用できる。26年前の初代発売時に「No.4」とボサノバ調の「No.2」の影に隠れてお蔵入りとなった没曲も配信する。"
+    },
+    {
+     "kind": "P",
+     "text": "電源も、内部基板に直結していた電源コードからACアダプター式に変更した。市販の変換ケーブルでモバイルバッテリーと接続すれば電源のない屋外でも使えるが、防水仕様ではないため水がかかるような場所では使用できない。"
+    },
+    {
+     "kind": "P",
+     "text": "Copyright © ITmedia, Inc. All Rights Reserved."
     },
     {
      "kind": "H",
-     "text": "はじめに"
+     "text": "この記事の著者"
     },
     {
      "kind": "P",
-     "text": "エムスリー株式会社、業務執行役員VPoEの河合( @vaaaaanquish )です。\n本記事は、私もGMとして在籍する「 AskDoctors開発チーム 」のブログリレー 5日目の記事です。"
+     "text": "ITmedia NEWSに関連する情報をお探しであれば、こちらのメディアもお役に立てるかもしれません。"
     },
     {
      "kind": "P",
-     "text": "本記事では、私が個人開発した「 QuineMaker 」というサービスの技術面の紹介をします。"
-    },
-    {
-     "kind": "H",
-     "text": "QuineMakerについて"
-    },
-    {
-     "kind": "P",
-     "text": "今回作成したQuineMakerは「画像や動画からQuineを自動生成するサービス」です。"
-    },
-    {
-     "kind": "H",
-     "text": "Quineについて"
-    },
-    {
-     "kind": "P",
-     "text": "Quineとは、実行すると自分自身のソースコードを出力するプログラムのことです。"
-    },
-    {
-     "kind": "P",
-     "text": "エムスリーでは、PythonからGo、Rust、果てはTerraformやSQLまで、あらゆる言語を用いたQuineの事例があり、その多くについて解説も含めてOSSやブログにしています。"
-    },
-    {
-     "kind": "P",
-     "text": "また、クリアファイル等のノベルティグッズとしてもQuineシリーズを随時配布しております。\n技術イベント等々でエムスリー社員にあったら詳しく聞いてみて下さい。"
-    },
-    {
-     "kind": "H",
-     "text": "Quineの作り方"
-    },
-    {
-     "kind": "P",
-     "text": "Quineの開発は、自分自身を出力するロジックさえ理解すれば難しくありません。\n下記のようなQuineなら、サクッとどの言語でも作成出来ます。"
-    },
-    {
-     "kind": "P",
-     "text": "実際に上記のコードをPythonとして実行すると、上記のコードと同じ出力が表示されます。\nコードの中に「実行時に自分自身を構成する要素」を入れ、それを標準出力しています。\nこの要素は、上記のようなformat構文でも良いですし、base64や圧縮アルゴリズムを利用したencoder/decoder、行列演算などでも大丈夫です。"
-    },
-    {
-     "kind": "P",
-     "text": "先のエムスリーのGitHubリポジトリ以外にも、いくつか定番の実装があります。\n「超絶技巧プログラミング」や「Quineリレー」等のワードで検索してみて下さい。"
-    },
-    {
-     "kind": "H",
-     "text": "画像からのQuine生成"
-    },
-    {
-     "kind": "P",
-     "text": "一般的なQuineの要素を満たすだけであれば、先のようにprint文の組み合わせで実現可能です。\n一方、画像からアスキーアートのようなQuineを生成する場合、 「文字数合わせ」 が最大の難所になります。"
-    },
-    {
-     "kind": "P",
-     "text": "元画像とプログラムの文字数を一致させる必要がある訳ですが、コードの中に「自分自身の文字列」を持つので、コードを直す→埋め込むデータも変わる→長さがまた変わる……という無限ループに陥ります。\n手作業のQuine制作は「あと 3 文字足りない」「1 文字余った」との戦いです。"
-    },
-    {
-     "kind": "P",
-     "text": "「空白/改行フリーで」「任意の位置で千切れても構文解析出来て」「文字数を後から自由に調整できる」形式で、画像からコードを変換し、文字数を探索するような仕組みが必要になります。\n私自身、PythonやScalaでQuineを作成していますが、どの言語であっても、控えめに言って苦しい作業です。"
-    },
-    {
-     "kind": "H",
-     "text": "画像に対して適切なコードを見つける"
-    },
-    {
-     "kind": "P",
-     "text": "文字数合わせが必要とはいえ、ある特定の画像に対して、適切なQuineコードの書き方は無数にあるはずです。\nその中から成立するものを見つけるべく、QuineMakerでは、入力された画像に合うコードや適切な幅を探索しています。"
-    },
-    {
-     "kind": "P",
-     "text": "まず、Webフォームから入力された画像をCanvasに描画してリサイズし、各ピクセルの輝度 ( 0.299R + 0.587G + 0.114B ) をしきい値と比較して、0/1のグリッドに変換します。以下のようなイメージです。"
-    },
-    {
-     "kind": "P",
-     "text": "文字の横幅がズレていますが、こちらは等幅フォントを使えば解消します。一方、フォントの文字は幅より背が高い *1 ので、そのまま画像の通りに変換すると縦に伸びた絵になってしまいます。\nQuineMakerでは、文字セルのアスペクト比で補正することで、文字で描画する際の元画像のプロポーションが保たれています。"
-    },
-    {
-     "kind": "P",
-     "text": "その後、PythonやJavaScript等の任意の言語で「base64変換したものをエンコード/デコードする」Quineを複数用意します *2 。\nそのQuine群から、上記で作成した0/1のグリッドがmaskになるような条件を満たす縦横幅とコードを線形探索します。"
-    },
-    {
-     "kind": "P",
-     "text": "実際には、コードが収まってさえいれば、base64のペイロード末尾のFILLを活用し、多少は調整することが出来ます。"
-    },
-    {
-     "kind": "P",
-     "text": "QuineMakerでは、探索して見つかった適切なQuineから、最も小さいQuineコードを提示しています。"
-    },
-    {
-     "kind": "H",
-     "text": "色付きQuineの生成"
-    },
-    {
-     "kind": "P",
-     "text": "さらに QuineMaker には、元画像の色を各文字に乗せるカラーモードがあります。\n実行すると、ターミナルに 24bit ANSI エスケープシーケンスで彩色された自分自身が出力されるQuineを生成するモードです。"
-    },
-    {
-     "kind": "P",
-     "text": "保存されているソースファイル自体は、色情報のないクリーンなテキストです。\n色を出力するために、base64セグメントの中に情報を埋め込み、デコード時に再塗装する実装です。"
-    },
-    {
-     "kind": "P",
-     "text": "色データは元画像の中に収まる必要がありますが、データ量が大きく、そのままRGBでは持てません。\n各チャンネルを4階調に量子化して、255色に収まるよう、文字ごとのパレット番号をランレングス圧縮 *3 しています。\nまた暗い色はターミナルの黒背景で見えなくなるので、輝度を [64, 255] の範囲に持ち上げる事で、綺麗に見える補正も入れています *4 。"
-    },
-    {
-     "kind": "P",
-     "text": "細かい芸ですが、コピペ耐性も仕込んであります。\nターミナルやエディタ経由のコピーではESC制御バイト( \\x1b ) だけが失われて [38;2;255;0;0m のような残骸が混入することがあるため、Quine実行時のデコードのタイミングで正規表現の \\x1b?\\[[0-9;]*m とESCをOptionalとすることで残骸ごと除去しています *5 。"
-    },
-    {
-     "kind": "H",
-     "text": "動画からのQuine生成"
-    },
-    {
-     "kind": "P",
-     "text": "QuineMakerは、動画を入力とし「次の次のフレームを出力とするコードを出力する」ことで成立するQuineも生成出来ます。\n具体的には、生成したQuineコードを以下のように実行することで、パラパラ漫画のような形式でコードが実行され続けます。"
-    },
-    {
-     "kind": "P",
-     "text": "実行するコードが、出力コードと一致している、というQuine原理主義的な概念は満たせてないのですが、全フレームがループするようになっているので、Quineに一家言ある皆様はこちらで勘弁して下さい *6 。"
-    },
-    {
-     "kind": "H",
-     "text": "動画からのQuineの難しさ"
-    },
-    {
-     "kind": "P",
-     "text": "動画の難しさとして、1フレーム目が巡り巡って実質的に全フレーム分のデータを持っていなければいけない、という性質があります。\n「次のフレームのコード」を出力するためには、その「次のフレーム」が出力する「次の次のフレーム」の情報を圧縮して持っておく必要があるためです。"
-    },
-    {
-     "kind": "P",
-     "text": "そこで、画像Quineを並べる方式ではなく、動画コーデックの定石にならってXOR差分方式やDeflate方式を採用しています。"
-    },
-    {
-     "kind": "P",
-     "text": "動画を圧縮してQuine化するXOR差分方式とDeflate方式"
-    },
-    {
-     "kind": "P",
-     "text": "フレーム0だけを素のbitmapで持ち、以降は「前フレームとのXOR *7 」を持つ方式です。\n一般的な動画を2値化した後であれば、隣接フレームはほとんど同じなので差分はほぼ全部0のスカスカなビット列になるので、これを圧縮しています。\n一方で、フレーム間の差分が大きい場面では、XORビットマップの圧縮率が悪くなってしまうので、DeflateというLZ77 *8 のスライディングウィンドウでの圧縮 *9 と同じような参照方式も採用しています。"
-    },
-    {
-     "kind": "P",
-     "text": "おかげで「Bad Apple!! *10 」くらいの動画であれば、Quineとして生成、実行することが出来ます。"
-    },
-    {
-     "kind": "QUOTE",
-     "text": "1フレーム目のPythonコードが2フレーム目を表示するコードを出力するコードになっており、その出力を連続的に実行することで永遠にループできるPython Quine、を動画から自動で作れる動画モードを作ってみた。 https://t.co/o1DfpCXlaO https://t.co/F7uH2fNbJv pic.twitter.com/UIVwQNWicr — ばんくし王 (@vaaaaanquish) 2026年8月6日"
-    },
-    {
-     "kind": "P",
-     "text": "音声無しの動画でも脳内再生余裕ですね。\n流石Bad Apple!!です。"
-    },
-    {
-     "kind": "H",
-     "text": "おわりに"
-    },
-    {
-     "kind": "P",
-     "text": "本記事では、QuineMakerの裏側について説明しました。"
-    },
-    {
-     "kind": "P",
-     "text": "画像Quineは、何度も手作業で作っていたQuineをアルゴリズムに落とし込むという観点で、探索アルゴリズムを言語化する機会になったのが個人的には良かったなと思います。"
-    },
-    {
-     "kind": "P",
-     "text": "動画Quineは、本ブログリレーにも参加する同じAskDoctors開発チームの松原さん( @ma2ge )が作成した、『誤り訂正付きアニメーションQuine *11 』からインスピレーションを受けています。 www.m3tech.blog インスピレーションを受けるまで良かったものの、AIと相談しても長らく良い圧縮方式が定まらず、1ヶ月以上このコトに悩んでいたので、最終的に形になって良かったです。"
-    },
-    {
-     "kind": "P",
-     "text": "エムスリーでは、動画配信サービスも複数開発、運営しており、プロダクト開発のコア技術の勉強としてもかなり良い機会になりました。"
-    },
-    {
-     "kind": "H",
-     "text": "We are hiring !!"
-    },
-    {
-     "kind": "P",
-     "text": "エムスリーでは、Quineや難読プログラミングの話で盛り上がれる仲間も、プロダクト開発で医療に貢献したい仲間も、動画配信基板を作りたい仲間も広く募集しています。\nカジュアル面談もやっていますので、お気軽にお声がけください！"
-    },
-    {
-     "kind": "P",
-     "text": "中でもAskDoctorsは、オンライン医療相談の分野で長年開発が続けられてきたプロダクトです。\n医療の課題の中でも、より身近な人の課題を解決出来る、そんなプロダクトチームで働く仲間を募集しています。"
-    },
-    {
-     "kind": "P",
-     "text": "*1 : フォントの縦横比はおおよそ1:2なので0.5掛けから調整しています"
-    },
-    {
-     "kind": "P",
-     "text": "*2 : M3のGitHub上に複数公開しているものと同じロジックです - 要参照"
-    },
-    {
-     "kind": "P",
-     "text": "*3 : AAAAABBBCC → 5A3B2Cみたいなやつです"
-    },
-    {
-     "kind": "P",
-     "text": "*4 : 単純平均ではなく視覚が緑に敏感で青に鈍感なことを考慮した重み付け"
-    },
-    {
-     "kind": "P",
-     "text": "*5 : [ はbase64にもデリミタにも現れないので安全に消せます"
-    },
-    {
-     "kind": "P",
-     "text": "*6 : Quine原理主義は勝手に作った造語でジョークです"
-    },
-    {
-     "kind": "P",
-     "text": "*8 : 古典的な圧縮手法 https://ja.wikipedia.org/wiki/LZ77"
-    },
-    {
-     "kind": "P",
-     "text": "*9 : 動画サイトでよく使われた古典的な方式です https://ja.wikipedia.org/wiki/Deflate"
-    },
-    {
-     "kind": "P",
-     "text": "*10 : インターネット黎明期の人気動画 https://ja.wikipedia.org/wiki/Bad_Apple!!"
+     "text": "国内外の業界動向、AIやクラウドなどの最新技術、キャリア情報など今知りたい情報をまとめてお届けします。"
     }
    ],
-   "checkedAt": 1788991002883,
+   "checkedAt": 1789077399866,
    "etag": "",
-   "hash": "0ac163caa14785b9",
-   "id": "6acee3765fd9",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.m3tech.blog%2Fentry%2Fquine-maker",
-   "key": "https://www.m3tech.blog/entry/quine-maker",
+   "hash": "e7392a4d734649c5",
+   "id": "6817477d77e6",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.itmedia.co.jp%2Fnews%2Farticle%2F2609%2F10%2F2000001376%2F",
+   "key": "https://www.itmedia.co.jp/news/article/2609/10/2000001376",
+   "lastModified": "Thu, 10 Sep 2026 20:48:24 GMT",
+   "publishedAt": 1789029639000,
+   "summary": "群馬電機（群馬県みどり市）は、販促用音声POP「呼び込み君」に新機能を搭載したリニューアル商品「もっと！呼び込み君」（型番：MC-F08）を9月17日に発売する。価格は2万5080円。ユーザーが用意した音源を再生できるようになり、スーパーマーケットなどの店舗で季節や売り場に合わせてBGMを変えられる。 従来の呼び込み...",
+   "title": "スーパーでおなじみ「呼び込み君」に新型 26年越しの“新曲”も配信",
+   "updatedAt": 1789077399866,
+   "url": "https://www.itmedia.co.jp/news/article/2609/10/2000001376/"
+  },
+  "https://www.nikkei.com/article/dgxzqogn04bjt0u6a900c2000000": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "iPhone全機種値上げ、強まる「固定客」頼み AI台頭で供給網支配に陰り"
+    },
+    {
+     "kind": "LI",
+     "text": "メールで送る"
+    },
+    {
+     "kind": "LI",
+     "text": "リンクをコピーする"
+    },
+    {
+     "kind": "LI",
+     "text": "note"
+    },
+    {
+     "kind": "LI",
+     "text": "X（旧Twitter）"
+    },
+    {
+     "kind": "LI",
+     "text": "Facebook"
+    },
+    {
+     "kind": "LI",
+     "text": "はてなブックマーク"
+    },
+    {
+     "kind": "LI",
+     "text": "LinkedIn"
+    },
+    {
+     "kind": "LI",
+     "text": "Bluesky"
+    },
+    {
+     "kind": "P",
+     "text": "企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。"
+    },
+    {
+     "kind": "P",
+     "text": "【シリコンバレー=伴正春、山田航平】米 アップル は9日、日本向けでは36万円台の折り畳み型のiPhoneを発表し、全機種で前モデルより値上げした。半導体メモリーなどのコストが膨らむ中での高価格シフトは、固定客頼みの部分が大きい。供給網（サプライチェーン）支配には陰りが見える。"
+    },
+    {
+     "kind": "P",
+     "text": "「考え抜かれたデザインと画期的なエンジニアリングを、アップルにしかできない方法で融合させた」。1日の最高経営責任者（CEO..."
+    },
+    {
+     "kind": "P",
+     "text": "この記事は会員限定です。登録すると続きをお読みいただけます。"
+    },
+    {
+     "kind": "P",
+     "text": "有料登録すると続きをお読みいただけます。無料登録でも記事消費（一定数限定）をすることで閲覧できます。"
+    },
+    {
+     "kind": "P",
+     "text": "※掲載される投稿は投稿者個人の見解であり、日本経済新聞社の見解ではありません。"
+    },
+    {
+     "kind": "LI",
+     "text": "この投稿は現在非表示に設定されています _ ( _ 更新) 0"
+    },
+    {
+     "kind": "P",
+     "text": "有料登録すると続きをお読みいただけます。無料登録でも記事消費（一定数限定）をすることで閲覧できます。"
+    },
+    {
+     "kind": "LI",
+     "text": "メールで送る"
+    },
+    {
+     "kind": "LI",
+     "text": "リンクをコピーする"
+    },
+    {
+     "kind": "LI",
+     "text": "note"
+    },
+    {
+     "kind": "LI",
+     "text": "X（旧Twitter）"
+    },
+    {
+     "kind": "LI",
+     "text": "Facebook"
+    },
+    {
+     "kind": "LI",
+     "text": "はてなブックマーク"
+    },
+    {
+     "kind": "LI",
+     "text": "LinkedIn"
+    },
+    {
+     "kind": "LI",
+     "text": "Bluesky"
+    },
+    {
+     "kind": "P",
+     "text": "企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。"
+    },
+    {
+     "kind": "LI",
+     "text": "日本のコンテンツ、次の柱はスポーツ Bリーグがマニラで初の主催試合 （ 9日 ）"
+    },
+    {
+     "kind": "LI",
+     "text": "サムスンがAI半導体で日韓連合、横浜に拠点 後工程「先端国」で研究開発 （ 8日 ）"
+    },
+    {
+     "kind": "H",
+     "text": "関連トピック"
+    },
+    {
+     "kind": "P",
+     "text": "トピックをフォローすると、新着情報のチェックやまとめ読みがしやすくなります。"
+    }
+   ],
+   "checkedAt": 1789077399866,
+   "etag": "",
+   "hash": "eb7cf07b6d19ec11",
+   "id": "2f91a80880c1",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.nikkei.com%2Farticle%2FDGXZQOGN04BJT0U6A900C2000000%2F",
+   "key": "https://www.nikkei.com/article/dgxzqogn04bjt0u6a900c2000000",
    "lastModified": "",
-   "publishedAt": 1788941541000,
-   "summary": "はじめに エムスリー株式会社、業務執行役員VPoEの河合(@vaaaaanquish)です。 本記事は、私もGMとして在籍する「AskDoctors開発チーム」のブログリレー 5日目の記事です。 本記事では、私が個人開発した「QuineMaker」というサービスの技術面の紹介をします。 はじめに QuineMakerについて Quineについて Quineの作り方 ...",
-   "title": "QuineMakerを作った話と技術的な解説 - エムスリーテックブログ",
-   "updatedAt": 1788991002883,
-   "url": "https://www.m3tech.blog/entry/quine-maker"
+   "publishedAt": 1789028813000,
+   "summary": "【シリコンバレー=伴正春、山田航平】米アップルは9日、日本向けでは36万円台の折り畳み型のiPhoneを発表し、全機種で前モデルより値上げした。半導体メモリーなどのコストが膨らむ中での高価格シフトは、固定客頼みの部分が大きい。供給網（サプライチェーン）支配には陰りが見える。「考え抜かれたデザインと画期的な...",
+   "title": "iPhone全機種値上げ、Apple強まる「固定客」頼み AI台頭で供給網支配に陰り - 日本経済新聞",
+   "updatedAt": 1789077399866,
+   "url": "https://www.nikkei.com/article/DGXZQOGN04BJT0U6A900C2000000/"
   },
   "https://www.nikkei.com/article/dgxzqogn27baf0x20c26a8000000": {
    "bodyBlocks": [
@@ -6634,50 +5088,6 @@
    "updatedAt": 1789011157400,
    "url": "https://www.sakura.ad.jp/corporate/information/newsreleases/2026/09/10/1968225692/"
   },
-  "https://www.sankei.com/article/20260909-yxtswa7bwza6vi3scmgoq3ymsm": {
-   "bodyBlocks": [
-    {
-     "kind": "H",
-     "text": "「AIは10年以内に我々全員を殺す」 アンソロピックの研究者が「企業は無責任」と退社"
-    },
-    {
-     "kind": "P",
-     "text": "米オープンAIを経て米アンソロピックに勤務していた英国出身の人工知能（AI）研究者、ジェーコブ・コクソン氏（27）が8日、アンソロピックを退社したと、X（旧ツイッター）で明らかにした。「どちらの会社も責任を持って行動していない」と、自らを改良する自己改善型AIの開発競争を批判している。"
-    },
-    {
-     "kind": "P",
-     "text": "コクソン氏は「彼らは自己改善型超知能に向かってまっしぐらに突き進み、私たちの命を賭け事にしている」と指摘。「この技術は、これらは間もなく、どんなものでもハッキングし、どんな分野も一夜にして革命化し、本物の力と資源を手に入れる超人的なシステムになる」と述べた。"
-    },
-    {
-     "kind": "P",
-     "text": "その上で「AIを構築している人々は、それが今後10年以内に我々（人類）全員を殺す可能性があると本気で信じている。これはマーケティング上の誇張ではない」と警鐘を鳴らした。"
-    },
-    {
-     "kind": "P",
-     "text": "これに対し、アンソロピックの研究者、エバン・ヒュービンガー氏がXで「AIが10年以内に人類を滅亡させる確率は10％を超えている」と同調した。"
-    },
-    {
-     "kind": "P",
-     "text": "Google検索で「産経ニュース」を優先表示。 ワンクリックで簡単登録"
-    },
-    {
-     "kind": "H",
-     "text": "会員限定記事"
-    }
-   ],
-   "checkedAt": 1788991002883,
-   "etag": "W/\"330c5-CJnPgGkBtAS/rUIXwjUtMc8+eG0\"",
-   "hash": "b49d1b3480c29dfa",
-   "id": "a7c7515d1168",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.sankei.com%2Farticle%2F20260909-YXTSWA7BWZA6VI3SCMGOQ3YMSM%2F",
-   "key": "https://www.sankei.com/article/20260909-yxtswa7bwza6vi3scmgoq3ymsm",
-   "lastModified": "Wed, 09 Sep 2026 21:54:00 GMT",
-   "publishedAt": 1788950513000,
-   "summary": "米オープンAIを経て米アンソロピックに勤務していた英国出身の人工知能（AI）研究者、ジェーコブ・コクソン氏（27）が8日、アンソロピックを退社したと、X（旧ツイッター）で明らかにした。「どちらの会社も責任を持って行動していない」と、自らを改良する自己改善型AIの開発競争を批判している。 コクソン氏は「彼らは...",
-   "title": "「AIは10年以内に我々全員を殺す」 アンソロピックの研究者が「企業は無責任」と退社",
-   "updatedAt": 1788991002883,
-   "url": "https://www.sankei.com/article/20260909-YXTSWA7BWZA6VI3SCMGOQ3YMSM/"
-  },
   "https://www.techno-edge.net/article/2026/09/10/5483.html": {
    "bodyBlocks": [
     {
@@ -6778,341 +5188,35 @@
    "updatedAt": 1789037985432,
    "url": "https://www.techno-edge.net/article/2026/09/10/5483.html"
   },
-  "https://www.uber.com/in/en/blog/postgres-to-mysql-migration": {
-   "bodyBlocks": [
-    {
-     "kind": "H",
-     "text": "Why Uber Engineering Switched from Postgres to MySQL"
-    },
-    {
-     "kind": "H",
-     "text": "Introduction"
-    },
-    {
-     "kind": "P",
-     "text": "The early architecture of Uber consisted of a monolithic backend application written in Python that used Postgres for data persistence. Since that time, the architecture of Uber has changed significantly, to a model of microservices and new data platforms. Specifically, in many of the cases where we previously used Postgres, we now use Schemaless , a novel database sharding layer built on top of MySQL. In this article, we’ll explore some of the drawbacks we found with Postgres and explain the decision to build Schemaless and other backend services on top of MySQL."
-    },
-    {
-     "kind": "H",
-     "text": "The Architecture of Postgres"
-    },
-    {
-     "kind": "P",
-     "text": "We encountered many Postgres limitations:"
-    },
-    {
-     "kind": "LI",
-     "text": "Inefficient architecture for writes"
-    },
-    {
-     "kind": "LI",
-     "text": "Inefficient data replication"
-    },
-    {
-     "kind": "LI",
-     "text": "Issues with table corruption"
-    },
-    {
-     "kind": "LI",
-     "text": "Poor replica MVCC support"
-    },
-    {
-     "kind": "LI",
-     "text": "Difficulty upgrading to newer releases"
-    },
-    {
-     "kind": "P",
-     "text": "We’ll look at all of these limitations through an analysis of Postgres’s representation of table and index data on disk, especially when compared to the way MySQL represents the same data with its InnoDB storage engine . Note that the analysis that we present here is primarily based on our experience with the somewhat old Postgres 9.2 release series. To our knowledge, the internal architecture that we discuss in this article has not changed significantly in newer Postgres releases, and the basic design of the on-disk representation in 9.2 hasn’t changed significantly since at least the Postgres 8.3 release (now nearly 10 years old)."
-    },
-    {
-     "kind": "H",
-     "text": "On-Disk Format"
-    },
-    {
-     "kind": "P",
-     "text": "A relational database must perform a few key tasks:"
-    },
-    {
-     "kind": "LI",
-     "text": "Provide insert/update/delete capabilities"
-    },
-    {
-     "kind": "LI",
-     "text": "Provide capabilities for making schema changes"
-    },
-    {
-     "kind": "LI",
-     "text": "Implement a multiversion concurrency control (MVCC) mechanism so that different connections have a transactional view of the data they work with"
-    },
-    {
-     "kind": "P",
-     "text": "Considering how all of these features will work together is an essential part of designing how a database represents data on disk."
-    },
-    {
-     "kind": "P",
-     "text": "One of the core design aspects of Postgres is immutable row data. These immutable rows are called “tuples” in Postgres parlance. These tuples are uniquely identified by what Postgres calls a ctid . A ctid conceptually represents the on-disk location (i.e., physical disk offset) for a tuple. Multiple ctids can potentially describe a single row (e.g., when multiple versions of the row exist for MVCC purposes, or when old versions of a row have not yet been reclaimed by the autovacuum process). A collection of organized tuples form a table. Tables themselves have indexes, which are organized as data structures (typically B-trees) that map index fields to a ctid payload."
-    },
-    {
-     "kind": "P",
-     "text": "Typically, these ctids are transparent to users, but knowing how they work helps you understand the on-disk structure of Postgres tables. To see the current ctid for a row, you can add “ ctid ” to the column list in a WHERE clause:"
-    },
-    {
-     "kind": "P",
-     "text": "To explain the details of the layout, let’s consider an example of a simple users table. For each user, we have an auto-incrementing user ID primary key, the user’s first and last name, and the user’s birth year. We also define a compound secondary index on the user’s full name (first and last name) and another secondary index on the user’s birth year. The DDL to create such a table might be like this:"
-    },
-    {
-     "kind": "P",
-     "text": "Note the three indexes in this definition: the primary key index plus the two secondary indexes we defined."
-    },
-    {
-     "kind": "P",
-     "text": "For the examples in this article we’ll start with the following data in our table, which consists of a selection of influential historical mathematicians:"
-    },
-    {
-     "kind": "P",
-     "text": "As described earlier, each of these rows implicitly has a unique, opaque ctid . Therefore, we can think of the internal representation of the table like this:"
-    },
-    {
-     "kind": "P",
-     "text": "The primary key index, which maps ids to ctids , is defined like this:"
-    },
-    {
-     "kind": "P",
-     "text": "The B-tree is defined on the id field, and each node in the B-tree holds the ctid value. Note that in this case, the order of the fields in the B-tree happens to be the same as the order in the table due to the use of an auto-incrementing id , but this doesn’t necessarily need to be the case."
-    },
-    {
-     "kind": "P",
-     "text": "The secondary indexes look similar; the main difference is that the fields are stored in a different order, as the B-tree must be organized lexicographically. The ( first , last ) index starts with first names toward the top of the alphabet:"
-    },
-    {
-     "kind": "P",
-     "text": "Likewise, the birth_year index is clustered in ascending order, like this:"
-    },
-    {
-     "kind": "P",
-     "text": "As you can see, in both of these cases the ctid field in the respective secondary index is not increasing lexicographically, unlike in the case of an auto-incrementing primary key."
-    },
-    {
-     "kind": "P",
-     "text": "Suppose we need to update a record in this table. For instance, let’s say we’re updating the birth year field for another estimate of al-Khwārizmī’s year of birth, 770 CE. As we mentioned earlier, row tuples are immutable. Therefore, to update the record, we add a new tuple to the table. This new tuple has a new opaque ctid , which we’ll call I . Postgres needs to be able to distinguish the new, active tuple at I from the old tuple at D . Internally, Postgres stores within each tuple a version field and pointer to the previous tuple (if there is one). Accordingly, the new structure of the table looks like this:"
-    },
-    {
-     "kind": "P",
-     "text": "As long as two versions of the al-Khwārizmī row exist, the indexes must hold entries for both rows. For brevity, we omit the primary key index and show only the secondary indexes here, which look like this:"
-    },
-    {
-     "kind": "P",
-     "text": "We’ve represented the old version in red and the new row version in green. Under the hood, Postgres uses another field holding the row version to determine which tuple is most recent. This added field lets the database determine which row tuple to serve to a transaction that may not be allowed to see the latest row version."
-    },
-    {
-     "kind": "H",
-     "text": "Replication"
-    },
-    {
-     "kind": "P",
-     "text": "When we insert a new row into a table, Postgres needs to replicate it if streaming replication is enabled. For crash recovery purposes, the database already maintains a write-ahead log (WAL) and uses it to implement two-phase commit . The database must maintain this WAL even when streaming replication is not enabled because the WAL allows the atomicity and durability aspects of ACID ."
-    },
-    {
-     "kind": "P",
-     "text": "We can understand the WAL by considering what happens if the database crashes unexpectedly, like during a sudden power loss. The WAL represents a ledger of the changes the database plans to make to the on-disk contents of tables and indexes. When the Postgres daemon first starts up, the process compares the data in this ledger with the actual data on disk. If the ledger contains data that isn’t reflected on disk, the database corrects any tuple or index data to reflect the data indicated by the WAL. It then rolls back any data that appears in the WAL but is from a partially applied transaction (meaning that the transaction was never committed)."
-    },
-    {
-     "kind": "P",
-     "text": "Postgres implements streaming replication by sending the WAL on the master database to replicas. Each replica database effectively acts as if it’s in crash recovery, constantly applying WAL updates just as it would if it were starting up after a crash. The only difference between streaming replication and actual crash recovery is that replicas in “hot standby” mode serve read queries while applying the streaming WAL, whereas a Postgres database that’s actually in crash recovery mode typically refuses to serve any queries until the database instance finishes the crash recovery process."
-    },
-    {
-     "kind": "P",
-     "text": "Because the WAL is actually designed for crash recovery purposes, it contains low-level information about the on-disk updates. The content of the WAL is at the level of the actual on-disk representation of row tuples and their disk offsets (i.e., the row ctids ). If you pause a Postgres master and replica when the replica is fully caught up, the actual on-disk content on the replica exactly matches what’s on the master byte for byte. Therefore, tools like rsync can fix a corrupted replica if it gets out of date with the master."
-    },
-    {
-     "kind": "H",
-     "text": "Consequences of Postgres’s Design"
-    },
-    {
-     "kind": "P",
-     "text": "Postgres’s design resulted in inefficiencies and difficulties for our data at Uber ."
-    },
-    {
-     "kind": "H",
-     "text": "Write Amplification"
-    },
-    {
-     "kind": "P",
-     "text": "The first problem with Postgres’s design is known in other contexts as write amplification . Typically, write amplification refers to a problem with writing data to SSD disks: a small logical update (say, writing a few bytes) becomes a much larger, costlier update when translated to the physical layer. The same issue arises in Postgres. In our previous example when we made the small logical update to the birth year for al-Khwārizmī, we had to issue at least four physical updates:"
-    },
-    {
-     "kind": "LI",
-     "text": "Write the new row tuple to the tablespace"
-    },
-    {
-     "kind": "LI",
-     "text": "Update the primary key index to add a record for the new tuple"
-    },
-    {
-     "kind": "LI",
-     "text": "Update the ( first , last ) index to add a record for the new tuple"
-    },
-    {
-     "kind": "LI",
-     "text": "Update the birth_year index to add a record for the new tuple"
-    },
-    {
-     "kind": "P",
-     "text": "In fact, these four updates only reflect the writes made to the main tablespace; each of these writes needs to be reflected in the WAL as well, so the total number of writes on disk is even larger."
-    },
-    {
-     "kind": "P",
-     "text": "What’s noteworthy here are updates 2 and 3. When we updated the birth year for al-Khwārizmī, we didn’t actually change his primary key, nor did we change his first and last name. However, these indexes still must be updated with the creation of a new row tuple in the database for the row record. For tables with a large number of secondary indexes, these superfluous steps can cause enormous inefficiencies. For instance, if we have a table with a dozen indexes defined on it, an update to a field that is only covered by a single index must be propagated into all 12 indexes to reflect the ctid for the new row."
-    },
-    {
-     "kind": "H",
-     "text": "Replication"
-    },
-    {
-     "kind": "P",
-     "text": "This write amplification issue naturally translates into the replication layer as well because replication occurs at the level of on-disk changes. Instead of replicating a small logical record, such as “Change the birth year for ctid D to now be 770,” the database instead writes out WAL entries for all four of the writes we just described, and all four of these WAL entries propagate over the network. Thus, the write amplification problem also translates into a replication amplification problem, and the Postgres replication data stream quickly becomes extremely verbose, potentially occupying a large amount of bandwidth."
-    },
-    {
-     "kind": "P",
-     "text": "In cases where Postgres replication happens purely within a single data center, the replication bandwidth may not be a problem. Modern networking equipment and switches can handle a large amount of bandwidth, and many hosting providers offer free or cheap intra–data center bandwidth. However, when replication must happen between data centers, issues can quickly escalate. For instance, Uber originally used physical servers in a colocation space on the West Coast. For disaster recovery purposes, we added servers in a second East Coast colocation space. In this design we had a master Postgres instance (plus replicas) in our western data center and a set of replicas in the eastern one."
-    },
-    {
-     "kind": "P",
-     "text": "Cascading replication limits the inter–data center bandwidth requirements to the amount of replication required between just the master and a single replica, even if there are many replicas in the second data center. However, the verbosity of the Postgres replication protocol can still cause an overwhelming amount of data for a database that uses a lot of indexes. Purchasing very high bandwidth cross-country links is expensive, and even in cases where money is not an issue it’s simply not possible to get a cross-country networking link with the same bandwidth as a local interconnect. This bandwidth problem also caused issues for us with WAL archival. In addition to sending all of the WAL updates from West Coast to East Coast, we archived all WALs to a file storage web service, both for extra assurance that we could restore data in the event of a disaster and so that archived WALs could bring up new replicas from database snapshots. During peak traffic early on, our bandwidth to the storage web service simply wasn’t fast enough to keep up with the rate at which WALs were being written to it."
-    },
-    {
-     "kind": "H",
-     "text": "Data Corruption"
-    },
-    {
-     "kind": "P",
-     "text": "During a routine master database promotion to increase database capacity, we ran into a Postgres 9.2 bug. Replicas followed timeline switches incorrectly , causing some of them to misapply some WAL records. Because of this bug, some records that should have been marked as inactive by the versioning mechanism weren’t actually marked inactive."
-    },
-    {
-     "kind": "P",
-     "text": "The following query illustrates how this bug would affect our users table example:"
-    },
-    {
-     "kind": "P",
-     "text": "SELECT * FROM users WHERE id = 4;"
-    },
-    {
-     "kind": "P",
-     "text": "This query would return two records: the original al-Khwārizmī row with the 780 CE birth year, plus the new al-Khwārizmī row with the 770 CE birth year. If we were to add ctid to the WHERE list, we would see different ctid values for the two returned records, as one would expect for two distinct row tuples."
-    },
-    {
-     "kind": "P",
-     "text": "This problem was extremely vexing for a few reasons. To start, we couldn’t easily tell how many rows this problem affected. The duplicated results returned from the database caused application logic to fail in a number of cases. We ended up adding defensive programming statements to detect the situation for tables known to have this problem. Because the bug affected all of the servers, the corrupted rows were different on different replica instances, meaning that on one replica row X might be bad and row Y would be good, but on another replica row X might be good and row Y might be bad. In fact, we were unsure about the number of replicas with corrupted data and about whether the problem had affected the master."
-    },
-    {
-     "kind": "P",
-     "text": "From what we could tell, the problem only manifested on a few rows per database, but we were extremely worried that, because replication happens at the physical level, we could end up completely corrupting our database indexes. An essential aspect of B-trees are that they must be periodically rebalanced , and these rebalancing operations can completely change the structure of the tree as sub-trees are moved to new on-disk locations. If the wrong data is moved, this can cause large parts of the tree to become completely invalid."
-    },
-    {
-     "kind": "P",
-     "text": "In the end, we were able to track down the actual bug and use it to determine that the newly promoted master did not have any corrupted rows. We fixed the corruption issue on the replicas by resyncing all of them from a new snapshot of the master, a laborious process; we only had enough capacity to take a few replicas out of the load balancing pool at a time."
-    },
-    {
-     "kind": "P",
-     "text": "The bug we ran into only affected certain releases of Postgres 9.2 and has been fixed for a long time now. However, we still find it worrisome that this class of bug can happen at all. A new version of Postgres could be released at any time that has a bug of this nature, and because of the way replication works, this issue has the potential to spread into all of the databases in a replication hierarchy."
-    },
-    {
-     "kind": "H",
-     "text": "Replica MVCC"
-    },
-    {
-     "kind": "P",
-     "text": "Postgres does not have true replica MVCC support. The fact that replicas apply WAL updates results in them having a copy of on-disk data identical to the master at any given point in time. This design poses a problem for Uber."
-    },
-    {
-     "kind": "P",
-     "text": "Postgres needs to maintain a copy of old row versions for MVCC. If a streaming replica has an open transaction, updates to the database are blocked if they affect rows held open by the transaction. In this situation, Postgres pauses the WAL application thread until the transaction has ended. This is problematic if the transaction takes a long amount of time, since the replica can severely lag behind the master. Therefore, Postgres applies a timeout in such situations: if a transaction blocks the WAL application for a set amount of time , Postgres kills that transaction."
-    },
-    {
-     "kind": "P",
-     "text": "This design means that replicas can routinely lag seconds behind master, and therefore it is easy to write code that results in killed transactions. This problem might not be apparent to application developers writing code that obscures where transactions start and end. For instance, say a developer has some code that has to email a receipt to a user. Depending on how it’s written, the code may implicitly have a database transaction that’s held open until after the email finishes sending. While it’s always bad form to let your code hold open database transactions while performing unrelated blocking I/O, the reality is that most engineers are not database experts and may not always understand this problem, especially when using an ORM that obscures low-level details like open transactions."
-    },
-    {
-     "kind": "H",
-     "text": "Postgres Upgrades"
-    },
-    {
-     "kind": "P",
-     "text": "Because replication records work at the physical level, it’s not possible to replicate data between different general availability releases of Postgres. A master database running Postgres 9.3 cannot replicate to a replica running Postgres 9.2, nor can a master running 9.2 replicate to a replica running Postgres 9.3."
-    },
-    {
-     "kind": "P",
-     "text": "We followed these steps to upgrade from one Postgres GA release to another:"
-    },
-    {
-     "kind": "LI",
-     "text": "Shut down the master database."
-    },
-    {
-     "kind": "LI",
-     "text": "Run a command called pg_upgrade on the master, which updates the master data in place. This can easily take many hours for a large database, and no traffic can be served from the master while this process takes place."
-    },
-    {
-     "kind": "LI",
-     "text": "Start the master again."
-    },
-    {
-     "kind": "LI",
-     "text": "Create a new snapshot of the master. This step completely copies all data from the master, so it also takes many hours for a large database."
-    },
-    {
-     "kind": "LI",
-     "text": "Wipe each replica and restore the new snapshot from the master to the replica."
-    },
-    {
-     "kind": "LI",
-     "text": "Bring each replica back into the replication hierarchy. Wait for the replica to fully catch up to all updates applied by the master while the replica was being restored."
-    },
-    {
-     "kind": "P",
-     "text": "We started out with Postgres 9.1 and successfully completed the upgrade process to move to Postgres 9.2. However, the process took so many hours that we couldn’t afford to do the process again. By the time Postgres 9.3 came out, Uber’s growth increased our dataset substantially, so the upgrade would have been even lengthier. For this reason, our legacy Postgres instances run Postgres 9.2 to this day, even though the current Postgres GA release is 9.5."
-    },
-    {
-     "kind": "P",
-     "text": "If you are running Postgres 9.4 or later, you could use something like pglogical , which implements a logical replication layer for Postgres. Using pglogical, you can replicate data among different Postgres releases, meaning that it’s possible to do an upgrade such as 9.4 to 9.5 without incurring significant downtime. This capability is still problematic because it’s not integrated into the Postgres mainline tree, and pglogical is still not an option for people running on older Postgres releases."
-    },
-    {
-     "kind": "H",
-     "text": "The Architecture of MySQL"
-    },
-    {
-     "kind": "P",
-     "text": "In addition to explaining some of Postgres’s limitations, we also explain why MySQL is an important tool for newer Uber Engineering storage projects, such as Schemaless. In many cases, we found MySQL more favorable for our uses. To understand the differences, we examine MySQL’s architecture and how it contrasts with that of Postgres. We specifically analyze how MySQL works with the InnoDB storage engine . Not only do we use InnoDB at Uber; it’s perhaps the most popular MySQL storage engine."
-    },
-    {
-     "kind": "H",
-     "text": "InnoDB On-Disk Representation"
-    },
-    {
-     "kind": "P",
-     "text": "Like Postgres, InnoDB supports advanced features like MVCC and mutable data. An exhaustive discussion of InnoDB’s on-disk format is outside the scope of this article; instead, we’ll focus on its core differences from Postgres."
-    },
-    {
-     "kind": "P",
-     "text": "The most important architectural difference is that while Postgres directly maps index records to on-disk locations, InnoDB maintains a secondary structure. Instead of holding a pointer to the on-disk row location (like the ctid does in Postgres), InnoDB secondary index records hold a pointer to the primary key value. Thus, a secondary index in MySQL associates index keys with primary keys:"
-    },
-    {
-     "kind": "P",
-     "text": "In order to perform an index lookup on the (first, last) index, we actually need to do two lookups. The first lookup searches the table and finds the primary key for a record. Once the primary key is found, a second lookup searches the primary key index to find the on-disk location for the row."
-    }
-   ],
-   "checkedAt": 1788951637669,
+  "https://www.watch.impress.co.jp/docs/news/2140015.html": {
+   "bodyBlocks": [],
+   "checkedAt": 1789077399866,
    "etag": "",
-   "hash": "554444d6fbb6e1db",
-   "id": "c89d443c4481",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.uber.com%2Fin%2Fen%2Fblog%2Fpostgres-to-mysql-migration%2F",
-   "key": "https://www.uber.com/in/en/blog/postgres-to-mysql-migration",
-   "lastModified": "Wed, 09 Sep 2026 10:53:45 GMT",
-   "publishedAt": 1788938936000,
-   "summary": "The early architecture of Uber consisted of a monolithic backend application written in Python that used Postgres for data persistence. Since that time, the architecture of Uber has changed significantly, to a model of microservices and new data platforms. Specifically, in many of the cases where...",
-   "title": "Why Uber Engineering Switched from Postgres to MySQL",
-   "updatedAt": 1788951637669,
-   "url": "https://www.uber.com/in/en/blog/postgres-to-mysql-migration/"
+   "hash": "c709b9b52eca704b",
+   "id": "11c53edae1fb",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.watch.impress.co.jp%2Fdocs%2Fnews%2F2140015.html",
+   "key": "https://www.watch.impress.co.jp/docs/news/2140015.html",
+   "lastModified": "",
+   "publishedAt": 1789036093000,
+   "summary": "",
+   "title": "日本郵便、消印の時間帯表示廃止へ",
+   "updatedAt": 1789077399866,
+   "url": "https://www.watch.impress.co.jp/docs/news/2140015.html"
+  },
+  "https://www.youtube.com/watch?v=fxs4p6ihkxs": {
+   "bodyBlocks": [],
+   "checkedAt": 1789077399866,
+   "etag": "",
+   "hash": "9597efabc02e802f",
+   "id": "5eccd96af8dc",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DfxS4P6IhKxs",
+   "key": "https://www.youtube.com/watch?v=fxs4p6ihkxs",
+   "lastModified": "",
+   "publishedAt": 1789010548000,
+   "summary": "Pollo AIに新登場したSeedance 2.5で 「ババア・セフト・シニアカー」を作りました。 ▼Pollo AI（Seedance 2.5）はこちら https://cutt.ly/myld48nv いまSeedance 2.5をPollo AIで使うと、クレジットが1ヶ月60%オフです。 さらに、Proプラン1ヶ月分を抽選で3名様にプレゼント！ 【応募方法】 ①Pollo AIに無料登録 ②登録...",
+   "title": "AIが考えるおばあちゃんゲーム【Pollo AI/Seedance 2.5】",
+   "updatedAt": 1789077399866,
+   "url": "https://www.youtube.com/watch?v=fxS4P6IhKxs"
   },
   "https://zenn.dev/kawasima/articles/souther-ddd-trilemma": {
    "bodyBlocks": [
@@ -7502,20 +5606,237 @@
    "updatedAt": 1789011157400,
    "url": "https://zenn.dev/kawasima/articles/souther-ddd-trilemma"
   },
-  "https://zenn.dev/tan_go238/books/project-management-textbook": {
-   "bodyBlocks": [],
-   "checkedAt": 1789037985432,
-   "etag": "\"w7pretf0aj20kv\"",
-   "hash": "b96d4cfe0873c6c8",
-   "id": "54b4f8ee2cab",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fzenn.dev%2Ftan_go238%2Fbooks%2Fproject-management-textbook",
-   "key": "https://zenn.dev/tan_go238/books/project-management-textbook",
+  "https://zenn.dev/loglass/articles/7c140c6689d8c2": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "メモリに載らないGROUP BYをDuckDBはどう処理するのか"
+    },
+    {
+     "kind": "P",
+     "text": "ログラスの龍島( @hryushm )です。先日スイカを一玉いただく機会があったのですが、とても大きいので一度に全部は食べきれず、切り分けて冷蔵庫に入れて数日かけて食べました。ということで今日はメモリに載りきらないデータの処理方法の話です。"
+    },
+    {
+     "kind": "H",
+     "text": "はじめに"
+    },
+    {
+     "kind": "P",
+     "text": "先日、DuckDBの開発元であるDuckLabsがAWSに加わることが発表されました [1] 。そのDuckDBは、メモリより大きなデータを扱うのが得意だと言われます。 公式ドキュメント も、これを強みの一つとして挙げています。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "A key strength of DuckDB is support for larger-than-memory workloads, i.e., it is able to process datasets that are larger than the available system memory (also known as out-of-core processing). It can also run queries where the intermediate results cannot fit into memory. (日本語訳) DuckDBの強みの一つは、メモリより大きなワークロードへの対応です。つまり、システムのメモリより大きなデータセットを処理できます（out-of-core処理とも呼ばれます）。中間結果がメモリに収まらないクエリも実行できます。"
+    },
+    {
+     "kind": "P",
+     "text": "実際、 memory_limit をデータよりずっと小さく絞っても、集計は遅くなりこそすれ、きちんと完走します。扱うデータは普段はメモリに収まるが、時折収まらないものが来る。そのときにOOMでプロセスごと落ちるのか、やり切るのかは、運用上大きな差です。"
+    },
+    {
+     "kind": "P",
+     "text": "仕組みについては、DuckDBの公式ブログが一次情報として詳しく説明しています。"
+    },
+    {
+     "kind": "P",
+     "text": "ただ、読んでいても「実際に動いているとき、メモリとディスクの間で何が起きているのか」は、なかなかピンときません。そこでこの記事では、まず一般論として、メモリに載りきらないデータをデータベースがどう扱うのかをみていきます。そのうえで、その挙動が本当に起きていることを、DuckDBが集計を実行している最中のメモリと一時ファイルの内訳を覗いて確認します。最後に、上限をどこまで絞ると落ちるのかも試します。対象は一番シンプルな GROUP BY に絞ります。"
+    },
+    {
+     "kind": "H",
+     "text": "GROUP BYがメモリを食う理由：hash集約"
+    },
+    {
+     "kind": "P",
+     "text": "クエリはoperatorの木に分解されて実行されます。列を選ぶだけの SELECT 、同じ行の中の値どうしの計算、その行の値で絞り込む WHERE は、1行読んで1行返すだけの処理です。行を受け取ったらそのまま次に渡せるので、メモリはほとんど要りません。一方、入力を最後まで読まないと1行も出せないoperatorがあり、 DuckDBのドキュメント はこれをblocking operatorと呼んでいます。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "Some operators cannot output a single row until the last row of their input has been seen. These are called blocking operators as they require their entire input to be buffered, and are the most memory-intensive operators in relational database systems. (日本語訳) 入力の最後の行を見るまで1行も出力できないoperatorがあります。これらは入力全体をバッファする必要があるためblocking operatorと呼ばれ、リレーショナルデータベースシステムにおいて最もメモリを消費するoperatorです。"
+    },
+    {
+     "kind": "P",
+     "text": "GROUP BY はその代表です。最後の行を読み終わるまで集計結果が確定しないので、全グループ分の集計状態を持ち続けなければなりません。集約の実装には、ソートしてから同じキーをまとめるsort集約と、hash tableにキーごとの集計状態を溜めるhash集約の2系統があり、DuckDBを含む多くのエンジンはhash集約が主です。この記事もhash集約の話で、状態を持つのがhash tableです。行を1つ読むごとにキーをhash関数に通してスロット番号を決め、空なら「キーと集計値」を新しく置き、同じキーが既にいれば集計値を更新する。入力を読み終えたら、埋まっているスロットを順に出力します。"
+    },
+    {
+     "kind": "P",
+     "text": "入力の行は読んだら捨ててしまうので溜まりません。溜まるのはhash tableだけで、その大きさはグループ数に比例します。「メモリに載らない」問題とは、この表が載らないという問題です。"
+    },
+    {
+     "kind": "H",
+     "text": "載らないときの定石：分けてから集計する"
+    },
+    {
+     "kind": "P",
+     "text": "メモリに載らないなら、載るサイズに分けて処理する。いわゆる分割統治です。"
+    },
+    {
+     "kind": "LI",
+     "text": "入力を読みながら、キーのhash値でN個のpartitionに振り分け、集計はせずに各partitionをディスクに書く"
+    },
+    {
+     "kind": "LI",
+     "text": "partitionを1つずつメモリに読み戻し、そのpartitionの中だけでhash集約する"
+    },
+    {
+     "kind": "P",
+     "text": "同じキーの行は必ず同じpartitionに落ちるので、partitionごとに独立に集計して結果を連結すれば正しい答えになります。データを2回読む（入力を読んでpartitionに書く、partitionを読んで集計する）ことになります。"
+    },
+    {
+     "kind": "P",
+     "text": "DuckDBでは、この「ディスクに書く・読み戻す」の単位が行ではなく固定サイズのページで、hash tableのデータも中間結果もページとしてbuffer managerの管理下に置かれ、 memory_limit の下で出し入れされます [2] 。operatorはページを使っている間だけpin（「使用中なので退避しないで」という印）し、使い終わったらunpinします。メモリが上限に達したとき、unpin済みのどのページを一時ファイルへ退避するかを決めるのはbuffer managerです。あとの観測で見るのは、このbuffer managerの動きです。"
+    },
+    {
+     "kind": "P",
+     "text": "アニメーションでは行を単位に描きましたが、実際の単位は上で述べたページです。"
+    },
+    {
+     "kind": "H",
+     "text": "観測の道具"
+    },
+    {
+     "kind": "P",
+     "text": "DuckDBには状態をモニタリングできる機能があります。今回使うのは2つです。"
+    },
+    {
+     "kind": "P",
+     "text": "duckdb_memory() ：buffer managerが管理しているメモリの内訳を、用途のタグごとに返すテーブル関数です。列は memory_usage_bytes （メモリ上にある量）と temporary_storage_bytes （一時ファイルに退避されている量）の2つ。タグはソース上の MemoryTag という列挙型で、今回関係するのは HASH_TABLE （集計のhash table）と ALLOCATOR （ページとして管理されない、退避できない割り当て）です。（ ドキュメント ）"
+    },
+    {
+     "kind": "P",
+     "text": "この時点で、hash tableは186MiBがメモリに、1,161MiBが一時ファイルにある、と読めます。"
+    },
+    {
+     "kind": "P",
+     "text": "FileSystemログ ： CALL enable_logging('FileSystem') を実行すると、DuckDBが行うファイル操作（OPEN / WRITE / READ / CLOSE）がパス・バイト数・位置つきで duckdb_logs に記録されます。（ ドキュメント ）"
+    },
+    {
+     "kind": "P",
+     "text": "1行が一時ファイルへの1回の書き込み（または読み込み）で、どのファイルの何バイト目に何バイト書いたかまで分かります。"
+    },
+    {
+     "kind": "H",
+     "text": "観測の方法"
+    },
+    {
+     "kind": "H",
+     "text": "データ"
+    },
+    {
+     "kind": "P",
+     "text": "連番のキー k とmd5文字列 v を持つ5,000万行のParquetファイル（1.7GB）です。"
+    },
+    {
+     "kind": "H",
+     "text": "投げるクエリ"
+    },
+    {
+     "kind": "P",
+     "text": "k ごとに v の最大値を取る GROUP BY です。外側の count(*) と max(mv) は、内側の集計結果が使われずに最適化で消えるのを防ぎつつ、5,000万行の結果をそのまま返さずに1行にまとめるためのものです。"
+    },
+    {
+     "kind": "H",
+     "text": "観測スクリプト"
+    },
+    {
+     "kind": "P",
+     "text": "duckdb_memory() はその時点の断面を返すだけなので、重いクエリを実行している最中に覗く必要があります。同じデータベースへの別接続（Pythonなら con.cursor() ）を作り、片方でクエリを流しながら、もう片方で20ミリ秒ごとに duckdb_memory() を読みます。"
+    },
+    {
+     "kind": "H",
+     "text": "環境"
+    },
+    {
+     "kind": "P",
+     "text": "MacBook Pro（M4 Pro、メモリ48GB）、DuckDB 1.5.5（Python）です。スレッド数は既定（コア数の12）ではなく4に固定しました。スレッドごとに退避できない作業領域が増えて上限の中でhash tableに使える分が変わるようなので、この記事ではスレッド数の影響は扱いません。"
+    },
+    {
+     "kind": "H",
+     "text": "GROUP BYを観測する"
+    },
+    {
+     "kind": "P",
+     "text": "まず、上限を絞らずに流します。 memory_limit の 既定値はRAMの80% で、今回のマシンでは38.3GiBです。この状態で流すと、メモリ上の HASH_TABLE は1,960MiBまで育ち、一時ファイルへの書き出しはゼロ、3.0秒で終わります。"
+    },
+    {
+     "kind": "P",
+     "text": "同じGROUP BYを既定の memory_limit（RAMの80%＝38.3GiB）で実行。hash tableは1,960MiBまで育ち、一時ファイルへの書き出しは起きない。"
+    },
+    {
+     "kind": "P",
+     "text": "次に、 memory_limit を300MB（=286MiB）に絞ります。hash tableの1/6以下のメモリで、同じクエリを処理させることになります。そのときの内訳がこれです。上段がメモリ上、中段が一時ファイル上、下段が一時ファイルへの読み書きです。"
+    },
+    {
+     "kind": "P",
+     "text": "GROUP BY 5,000万グループ、memory_limit=300MB、4スレッド。上：メモリ上のタグ別内訳、中：一時ファイル上のタグ別内訳、下：一時ファイルへの書き込み（WRITE）と読み込み（READ）。"
+    },
+    {
+     "kind": "P",
+     "text": "上限が効いている。 メモリ上の HASH_TABLE は200MiB前後で頭打ちになり、 ALLOCATOR の70〜130MiBを足すと memory_limit の286MiBにほぼ一致します（最大で289MiB）。 ALLOCATOR については、公式ドキュメントに duckdb_memory() はbuffer managerについてのメタデータを返すとあるだけで、タグの中身までは説明がありません。無制限なら1,960MiBまで育つhash tableが、この線で抑えられています。"
+    },
+    {
+     "kind": "P",
+     "text": "前半の約1.5秒は書くだけ。 一時ファイル上の HASH_TABLE が0から1,770MiBまで一直線に積み上がり、この間のI/OはWRITEだけです。入力を読みながらhash tableのページが溢れ、buffer managerがunpinされたページをディスクへ書き出しているのでしょう。1段階目、「入力を読んでpartitionに書く」です。"
+    },
+    {
+     "kind": "P",
+     "text": "後半の約7秒は読むだけ。 一時ファイルが1,770MiBから0まで単調に減り、この間のI/OはREADだけです。partitionを1つずつ読み戻して集計し、読み終えたページを解放しているのでしょう。2段階目、「partitionを読んで集計する」です。メモリ上の HASH_TABLE がギザギザしているのは、この「読み戻して増え、出力して解放し減る」の繰り返しによるものと思われます。"
+    },
+    {
+     "kind": "H",
+     "text": "どこまで絞れるか"
+    },
+    {
+     "kind": "P",
+     "text": "挙動は掴めてきましたが、どこまで絞れるのかという疑問が湧いてきました。同じクエリを、上限だけ変えて何回かずつ流しました。"
+    },
+    {
+     "kind": "P",
+     "text": "境界は250MBのあたりにあり、しかもそこでは同じ設定でも落ちたり落ちなかったりします。4つのスレッドがそれぞれ上限のそばで確保を繰り返しているので、退避できない分の合計が上限に触れるかどうかがタイミング次第になるからだと考えられます。"
+    },
+    {
+     "kind": "P",
+     "text": "ソース を見ると、この文言はページとして退避できない ALLOCATOR 側の割り当てに失敗したときのものです。hash tableのページはunpinされたものから書き出せるので、上限を決めるのは退避できない ALLOCATOR の分と、各スレッドが書き込み中でpinしているページの分だと思われ、この境界はスレッド数でも変わるようです（12スレッドでは300MBでも起動直後に落ちました）。実務上は、こうした計測を踏まえたうえで、余裕を持った設定にしておくのが良さそうです。"
+    },
+    {
+     "kind": "H",
+     "text": "まとめ"
+    },
+    {
+     "kind": "P",
+     "text": "DuckDBが公開している duckdb_memory() とFileSystemログを別接続から覗いて、「入力を読んでpartitionに書き、partitionを読んで集計する」という定石の2段階が、数字として可視化できました。 memory_limit を絞ってもhash tableのページは書き出せるので完走しますが、退避できない分が上限に当たると落ちます。上限を絞って運用するときは、本番のスレッド数で試して余裕を持たせておくのがよさそうです。"
+    },
+    {
+     "kind": "LI",
+     "text": "2026年8月26日の公式発表です。DuckDB本体やDuckLakeなどはMITライセンスのオープンソースのまま、非営利のDuckDB Foundationの管理下に置かれ、ロードマップ・ライセンス・ガバナンスに変更はないとのことです。 https://duckdb.org/2026/08/26/ducklabs-to-join-aws.html ↩︎"
+    },
+    {
+     "kind": "LI",
+     "text": "buffer managerと集約の設計をDuckDBの実装に沿って学びたい人には、Tübingen大学のTorsten Grust氏の講義資料「Design and Implementation of DuckDB Internals」の第3回（メモリ管理と集約）が向いています。 https://duckdb.org/library/design-and-implementation-of-duckdb-internals/ ↩︎"
+    },
+    {
+     "kind": "LI",
+     "text": "HyperLogLogは、少ないメモリでユニークな値の数を近似的に数える確率的なアルゴリズムです。仕組みは misreading.chat の #13「HyperLogLog in Practice」の回が分かりやすいです。 https://misreading.chat/2018/05/31/episode/ ↩︎"
+    },
+    {
+     "kind": "P",
+     "text": "株式会社ログラスは「良い景気を作ろう。」をミッションに、企業経営を推進する次世代型経営管理クラウド「Loglass 経営管理」を開発し提供しています。"
+    },
+    {
+     "kind": "H",
+     "text": "Discussion"
+    }
+   ],
+   "checkedAt": 1789077399866,
+   "etag": "\"v2kuy9s4xu2oz2\"",
+   "hash": "d4214bba49494307",
+   "id": "ec2b308a78ff",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fzenn.dev%2Floglass%2Farticles%2F7c140c6689d8c2",
+   "key": "https://zenn.dev/loglass/articles/7c140c6689d8c2",
    "lastModified": "",
-   "publishedAt": 1788946132000,
-   "summary": "内製・プロダクト組織のための実践ガイド。計画は外れる前提で立て、要件を軽く扱わず、言われていないことを扱う。立ち上げから要件定義、計画、チーム、実行、運用、そして終わらせ方までを全42章で扱う。",
-   "title": "プロジェクトマネジメントの教科書（内製チーム向け）",
-   "updatedAt": 1789037985432,
-   "url": "https://zenn.dev/tan_go238/books/project-management-textbook"
+   "publishedAt": 1789026025000,
+   "summary": "この記事は毎週必ず記事がでるテックブログ Loglass Tech Blog Sprint の160週目の記事です！4年連続達成まであと52週となりました！ ログラスの龍島(@hryushm)です。先日スイカを一玉いただく機会があったのですが、とても大きいので一度に全部は食べきれず、切り分けて冷蔵庫に入れて数日かけて食べました。ということ...",
+   "title": "メモリに載らないGROUP BYをDuckDBはどう処理するのか",
+   "updatedAt": 1789077399866,
+   "url": "https://zenn.dev/loglass/articles/7c140c6689d8c2"
   },
   "https://zenn.dev/xtm_blog/articles/689d035440c0ae": {
    "bodyBlocks": [
@@ -7680,11 +6001,11 @@
  },
  "listing": {
   "https://b.hatena.ne.jp/hotentry/it.rss": {
-   "checkedAt": 1789037986655,
+   "checkedAt": 1789077400911,
    "etag": "",
    "lastModified": ""
   }
  },
  "siteId": "hatena_it",
- "updatedAt": 1789038024413
+ "updatedAt": 1789077441634
 }

@@ -79,7 +79,7 @@
      "text": "SQL Server on Azure構成における便利なエージェント、 SqlIaasExtension が Azure上のUbuntu・ Ubuntu Proに対応する ようになりました。ライセンス数の確認やポータルからの一括管理、 自動バックアップや修正の自動適用など、 さまざまな操作が行えるようになります。SQL Server on Ubuntu構成を検討している場合には覚えておきましょう。"
     }
    ],
-   "checkedAt": 1788951524045,
+   "checkedAt": 1789077278450,
    "etag": "",
    "hash": "eccc0ac8a34037e6",
    "id": "c30348154c3d",
@@ -89,7 +89,7 @@
    "publishedAt": 1787880840000,
    "summary": "stonkingはFeature Freezeの時期に入り、品質向上のための時間が開始されました。",
    "title": "Ubuntu 26.10（stonking）の開発; Feature Freezeとその周辺、26.04.1の準備、Arduino VENTUNO Q",
-   "updatedAt": 1788951524045,
+   "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/admin/clip/01/ubuntu-topics/202608/28?utm_source=feed"
   },
   "https://gihyo.jp/admin/clip/01/ubuntu-topics/202609/04": {
@@ -187,7 +187,7 @@
      "text": "Canonicalに寄せられたサポート依頼のうち、 「 ⁠OpenStack環境が突然機能しなくなった」 （ ⁠実際には各種プロビジョニングやスケーリングができなくなった） という事案からの 復旧について 。ある日突然OpenStack環境が制御を失い （ただし実際の各種ワーカー、 つまりデータプレーン側は正常に動作していたことが診断の結果判明⁠ ） ⁠、 しかもバックアップは恐ろしく古いものしかなく、 レストアすると 「現状を反映していない」 コントロールプレーンが復活してしまう可能性があるという状態から制御性を確保しなおすまでの流れと、 「 ⁠適切なバックアップと診断が重要」 という教訓が示されています。"
     }
    ],
-   "checkedAt": 1788951524045,
+   "checkedAt": 1789077278450,
    "etag": "",
    "hash": "1d5a7103a61f6929",
    "id": "750260cfd48c",
@@ -197,7 +197,7 @@
    "publishedAt": 1788486900000,
    "summary": "Ubuntu 26.04の最初のポイントリリース、26.04.1がリリースされています。",
    "title": "Ubuntu 26.04.1のリリース、stonking（Ubuntu 26.10）の開発; MynaのプロトタイプとOpenSSL 4、Rustトランジション、“Multipass”によるクラウドシミュレーション",
-   "updatedAt": 1788951524045,
+   "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/admin/clip/01/ubuntu-topics/202609/04?utm_source=feed"
   },
   "https://gihyo.jp/admin/serial/01/ubuntu-recipe/0925": {
@@ -375,7 +375,7 @@
      "text": "Orvaはまだ非常に新しいプロジェクトであり、本番用途に使うかどうかは、慎重に判断する必要があるでしょう。とはいえ 「この処理のためだけにコンテナを1個作るのは面倒だな」 と感じる場面では非常に有用な、なかなか興味深いソフトウェアだと言えそうです。"
     }
    ],
-   "checkedAt": 1788951524045,
+   "checkedAt": 1789077278450,
    "etag": "",
    "hash": "e69601caf7ad18b0",
    "id": "f0b4bd03ed66",
@@ -385,7 +385,7 @@
    "publishedAt": 1788307920000,
    "summary": "AWS Lambdaのようなサービスはクラウド上で動作します。「⁠同じようなものを自宅サーバーや社内サーバーで動かせたら便利なのに」と思うこともあるでしょう。そこで今回は、セルフホスト可能なFaaSであるOrvaをUbuntu上で動かしてみます。",
    "title": "第925回 UbuntuでセルフホストFaaS「Orva」を使ってみよう",
-   "updatedAt": 1788951524045,
+   "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/admin/serial/01/ubuntu-recipe/0925?utm_source=feed"
   },
   "https://gihyo.jp/admin/serial/01/ubuntu-recipe/0926": {
@@ -623,7 +623,7 @@
      "text": "OpenAIのCEOを務めるSam Altman氏も同日、 Xへの投稿 で、AIを活用したサイバー防御を進めるうえで、今が極めて重要な局面であり、 「 ⁠行動する時間はあまり残されていない」 と強調した。OpenAIとの協力だけでなく、同社の競合企業やパートナーとの協力も歓迎するとし、この局面を重く受け止めるよう促した。緊急かつ徹底した共同対応だけが有効だとも述べている。"
     }
    ],
-   "checkedAt": 1788951524045,
+   "checkedAt": 1789077278450,
    "etag": "",
    "hash": "4fc158d8e73f952d",
    "id": "ce716b2b7abb",
@@ -633,7 +633,7 @@
    "publishedAt": 1787890440000,
    "summary": "OpenAIは2026年8月27日、Anthropic、AWS、Google、Microsoft、Oracleなどとともに、サイバー防御の強化を求める公開書簡を発表した。",
    "title": "OpenAI、AnthropicやAWS、Google、Microsoft、Oracleなど100以上の企業・団体とサイバー防御強化を求める公開書簡を発表",
-   "updatedAt": 1788951524045,
+   "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/article/2026/08/a-call-for-collective-action-on-cyber-defense?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/08/blender-basics-84": {
@@ -707,7 +707,7 @@
      "text": "また次回は、実際にスカルプトモードはどのように使うのか、といった点も見ていきたいと思います。次回も読んでくださると嬉しいです！"
     }
    ],
-   "checkedAt": 1788951524045,
+   "checkedAt": 1789077278450,
    "etag": "",
    "hash": "8f34cd7359709a00",
    "id": "034a0f90a22b",
@@ -717,7 +717,7 @@
    "publishedAt": 1788135240000,
    "summary": "本連載では、Blenderの基本的な知識、機能についてイラストを交えながら紹介しています。第84回目は、Blenderに用意されているスカルプトモードについて見ていきます。",
    "title": "Blenderのスカルプトモードの概要を知ろう",
-   "updatedAt": 1788951524045,
+   "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/article/2026/08/blender-basics-84?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/08/chatgpt-github-plugin-marketplace-sync": {
@@ -759,7 +759,7 @@
      "text": "GitHub上のマーケットプレイス設定ファイルに新しいプラグインを追加したり、そこから参照する既存プラグインを更新したりすると、次回の同期でワークスペースに反映される。このため、OpenAIはリポジトリへの変更をマージする前に内容を確認するよう求めている。既存プラグインの更新内容に問題がある場合、そのプラグインは最後に正常動作した版のまま維持される。その場合でも、ほかの更新に問題がなければ通常どおり反映される。"
     }
    ],
-   "checkedAt": 1788951524045,
+   "checkedAt": 1789077278450,
    "etag": "",
    "hash": "81d152cb5a01ad0a",
    "id": "70c44c252668",
@@ -769,7 +769,7 @@
    "publishedAt": 1788152220000,
    "summary": "OpenAIのVaibhav Srivastav氏は2026年8月29日、Xへの投稿で、BusinessやEnterpriseなどのChatGPTプランで、ワークスペース管理者がGitHub上のプラグインマーケットプレイスを継続的に同期できるようになったと明らかにした。",
    "title": "ChatGPT、Business／EnterpriseプランなどでGitHub上のプラグインマーケットプレイスを同期可能に",
-   "updatedAt": 1788951524045,
+   "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/article/2026/08/chatgpt-github-plugin-marketplace-sync?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/08/daily-linux-260831": {
@@ -839,7 +839,7 @@
      "text": "議論が継続中とはいえ、AIコーディングが多くの開発者にとっての日常風景となった現在、Debianのように歴史ある大規模プロジェクトにおいて 「人間が最終的な責任を負うことを条件に、AIツールの利用を認める」 という基本方針が打ち出されたことはオープンソース開発における大きなマイルストーンとなりそうだ。"
     }
    ],
-   "checkedAt": 1788951524045,
+   "checkedAt": 1789077278450,
    "etag": "",
    "hash": "af14a53b151bc28f",
    "id": "1fd89fb236b0",
@@ -849,7 +849,7 @@
    "publishedAt": 1788158220000,
    "summary": "Debianプロジェクトは8月29日、数週間に渡ってプロジェクト内で議論されてきたAI/LLMの利用ポリシーに関する一般決議（General Resolution）の結果を発表した。",
    "title": "Debian、「生成AIの責任ある使用」を容認へ",
-   "updatedAt": 1788951524045,
+   "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/article/2026/08/daily-linux-260831?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/08/gemini-notebook-expert-intelligence": {
@@ -919,7 +919,7 @@
      "text": "Googleは今後、Expert IntelligenceをGeminiアプリやGoogle検索のAI Modeにも展開するとしている。Gemini Notebookでは近日中に、Google Play Booksの対象書籍に加え、外部事業者の購読コンテンツ、ビジネス調査レポート、教科書などにも対応する予定としている。"
     }
    ],
-   "checkedAt": 1788951524045,
+   "checkedAt": 1789077278450,
    "etag": "",
    "hash": "2e4f8b371b055fdd",
    "id": "a0920c3433b6",
@@ -929,7 +929,7 @@
    "publishedAt": 1787904780000,
    "summary": "Googleは2026年8月27日、Google Play Booksで購入した対象の電子書籍をGemini Notebookで活用できる新たな取り組み「Expert Intelligence」の提供開始を発表した。",
    "title": "Google、Play Booksで購入した対象書籍をGemini Notebookで活用できる「Expert Intelligence」を提供開始",
-   "updatedAt": 1788951524045,
+   "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/article/2026/08/gemini-notebook-expert-intelligence?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/08/microduck": {
@@ -971,7 +971,7 @@
      "text": "色はクリーム、グラファイト、ラベンダー、スカイの4色から選ぶことができる。現在は米国、カナダ、EU、英国、ノルウェー、スイス、日本、韓国から購入可能。その他の国は後日対応予定となっている。最初の配送は2026年のクリスマス前が目標とのこと。"
     }
    ],
-   "checkedAt": 1788951524045,
+   "checkedAt": 1789077278450,
    "etag": "",
    "hash": "b9ec330858480421",
    "id": "495550a96ff5",
@@ -981,7 +981,7 @@
    "publishedAt": 1787896920000,
    "summary": "Hugging Faceと傘下のPollen Roboticsは2026年8月27日、強化学習でトレーニングできるAI搭載のアヒル型二足歩行ロボット「Microduck」をリリース、販売予約を開始した。",
    "title": "Hugging Face、動作学習型AI搭載のアヒル型二足歩行ロボット「Microduck」を発表、399ドルで予約販売を開始 ―学習用SDKはオープンソースとして公開",
-   "updatedAt": 1788951524045,
+   "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/article/2026/08/microduck?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/08/misskey-25": {
@@ -1107,7 +1107,7 @@
      "text": "また、 「 ⁠今まではパフォーマンス上の理由で断念していたコンパイラの機能も、Goになった今なら実現できる可能性がある」 とのTypeScript開発者のコメントも以前見かけましたので、今後の進化が楽しみです。"
     }
    ],
-   "checkedAt": 1788951524045,
+   "checkedAt": 1789077278450,
    "etag": "",
    "hash": "8f5c05fd7c0ea511",
    "id": "b549387fcb2e",
@@ -1117,7 +1117,7 @@
    "publishedAt": 1788134280000,
    "summary": "今回は、MisskeyのコードベースでTypeScript 7.0のパフォーマンスを検証します。",
    "title": "TypeScript 7.0リリース！ Misskeyで検証",
-   "updatedAt": 1788951524045,
+   "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/article/2026/08/misskey-25?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/08/model-hardware-standard": {
@@ -1159,7 +1159,7 @@
      "text": "同社ではMHSの開発にあたり、バイオテクノロジー、ロボット工学、量子コンピューティングなどの分野で選ばれた研究機関やメーと初期実験を行ってきた。すでにAmazon Web Services （AWS） やUniversal Robots、Raspberry Pi、Hugging Faceといった企業が、自社製品やプラットフォームでのMHSサポートを表明している。今回の発表により、より多くのデバイスをカバーできるように科学、ロボティクス、エレクトロニクス、製造業のステークホルダーをリサーチプレビューに招待したいとのこと。参加希望者は、MHS公式サイトにあるフォームからリサーチプレビューのウェイティングリストに登録できる。"
     }
    ],
-   "checkedAt": 1788951524045,
+   "checkedAt": 1789077278450,
    "etag": "",
    "hash": "06266a8cba9e1e42",
    "id": "6c4a425b0a4a",
@@ -1169,7 +1169,7 @@
    "publishedAt": 1787883840000,
    "summary": "Anthropicは2026年8月27日、AIエージェントが物理デバイスを安全に操作するための共通仕様「Model Hardware Standard」（MHS）のリサーチプレビューを、先進的な科学研究機関および製造業者向けに公開した。",
    "title": "Anthropic、AIエージェントによる物理デバイス操作の共通規格「Model Hardware Standard」を発表",
-   "updatedAt": 1788951524045,
+   "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/article/2026/08/model-hardware-standard?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/08/openclaw-2-0": {
@@ -1211,7 +1211,7 @@
      "text": "OpenClaw 2. 0はmacOS、Linux、Windowsで動作し、それぞれのOS用にインストーラーが用意されている。インストーラーの入手とインストール方法は ドキュメント を参照。システム要件としてNode. jsが必要で、Node 22. 22. 3+、24. 15+、または25. 9+～Node 26の動作が推奨されている。Nodeがインストールされていない場合、インストーラーはmacOSではNode 26、LinuxではNode 24 LTSがセットアップされる。またiOS、Androidアプリはそれぞれのアプリストアから入手可能。"
     }
    ],
-   "checkedAt": 1788951524045,
+   "checkedAt": 1789077278450,
    "etag": "",
    "hash": "6af61487c58d613d",
    "id": "ea1c35092268",
@@ -1221,7 +1221,7 @@
    "publishedAt": 1788162180000,
    "summary": "OpenClaw開発チームは2026年8月30日、AIアシスタントOpenClawの新バージョンOpenClaw 2.0をリリースした。",
    "title": "OpenClaw 2.0リリース ―インストール、メッセージング、メモリ機能、スキル、モデル、自動化など大幅に機能強化",
-   "updatedAt": 1788951524045,
+   "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/article/2026/08/openclaw-2-0?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/aaif-mcp-a2a-briefing": {
@@ -1439,7 +1439,7 @@
      "text": "詳細・ アジェンダ： 公式サイト"
     }
    ],
-   "checkedAt": 1788951524045,
+   "checkedAt": 1789077278450,
    "etag": "",
    "hash": "c6a3bf8eede001d9",
    "id": "af624432aadd",
@@ -1449,7 +1449,7 @@
    "publishedAt": 1788237000000,
    "summary": "Linux Foundation傘下のAgentic AI Foundation（AAIF）は2026年8月25日、日本の報道関係者を対象とするオンライン記者説明会を開催した。",
    "title": "AAIF、MCPのガバナンスとA2Aの現状、AIエージェントにオープン標準が必要な理由を説明 ——9月10・11日に「AGNTCon + MCPCon Japan 2026」を渋谷で開催",
-   "updatedAt": 1788951524045,
+   "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/article/2026/09/aaif-mcp-a2a-briefing?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/agent-router": {
@@ -1643,7 +1643,7 @@
      "text": "今回は、規制の厳しい業界でAIエージェントの断片化がなぜ起きるのか、そしてその難しさがオーケストレーションの層に潜んでいることを見てきました。個々のツール選びは、単独では合理的でも、積み重なれば統制の効かない乱立を招きます。これは、DevOpsが普及した時代に業界が一度通った道でもあります。後編では、この状況を踏まえて、 「 ⁠自社構築か、製品導入か」 を見極めるための3つの問いと、統合されたプラットフォームが実際に何をもたらすのかを解説します。"
     }
    ],
-   "checkedAt": 1788951524045,
+   "checkedAt": 1789077278450,
    "etag": "",
    "hash": "060491c7608c8e70",
    "id": "961a8e33cf46",
@@ -1653,7 +1653,7 @@
    "publishedAt": 1788394080000,
    "summary": "今回は前後編にわたり、金融や保険をはじめとする規制の厳しい業界の企業が、AIエージェントを導入するときに必ず突き当たる「自社で構築するか、製品を導入するか」という選択を取り上げます。前編では、なぜ社内でツールの断片化が進むのか、そしてAIエージェントの難しさがどこに潜んでいるのかを解説します。",
    "title": "AIエージェントプラットフォームに潜む見えないコスト［前編］",
-   "updatedAt": 1788951524045,
+   "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/article/2026/09/ai-agent-platform-hidden-costs-01?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/ai-agent-platform-hidden-costs-02": {
@@ -1895,7 +1895,7 @@
      "text": "2027年2月の適用開始に向けて、自社アプリのプロファイリングを今すぐ始め、問題のあるアセットやリーク箇所を解消していく姿勢が求められます。単なる規律の遵守にとどまらず、あらゆるユーザに軽快な操作感を提供する高品質なアプリへのアップデートを目指してください。"
     }
    ],
-   "checkedAt": 1788951524045,
+   "checkedAt": 1789077278450,
    "etag": "",
    "hash": "720ca8f12028a60d",
    "id": "c139f9e8ae67",
@@ -1905,7 +1905,7 @@
    "publishedAt": 1788394080000,
    "summary": "Googleがアプリに対して新しい品質要件を発表しました。今回追加された基準の中でもとくに開発者に大きな影響を与える要素が、動的メモリ使用量やビットマップ消費量に関する厳しい閾値の設定です。",
    "title": "Googleがアプリへの品質要件を刷新、メモリ削減義務化の詳細と対策",
-   "updatedAt": 1788951524045,
+   "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/article/2026/09/android-weekly-topics-260903?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/android-weekly-topics-260910": {
@@ -2187,7 +2187,7 @@
      "text": "Safariは近年、iOSなどの大型更新にあわせて9月頃にメジャーバージョンを公開し、その後も年間を通じて機能更新を提供している （次期バージョンのSafari 27は、6月のWWDC26で ベータ版 が公開された⁠ ） ⁠。なお、最新のWebKitを先行して試せる開発者向けの Safari Technology Preview は、数週間ごとに更新されている。"
     }
    ],
-   "checkedAt": 1788990868074,
+   "checkedAt": 1789077278450,
    "etag": "",
    "hash": "186b7bfb2934a86a",
    "id": "cbd158f2a760",
@@ -2197,7 +2197,7 @@
    "publishedAt": 1788946620000,
    "summary": "Googleは9月8日、WebブラウザーChrome 153（安定版）を公開し、リリース周期を4週間から2週間へ短縮した。",
    "title": "Chrome、バージョン153を公開。2週間ごとのリリースに移行 ——EdgeとFirefoxもすでに2週間周期に",
-   "updatedAt": 1788990868074,
+   "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/article/2026/09/chrome-two-week-release-cycle?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/claude-code-ai-driven-development-01": {
@@ -2391,7 +2391,7 @@
      "text": "承認モードはShift+Tabで切り替えられ、ショートカットを忘れたら？ キーで一覧を確認してください。"
     }
    ],
-   "checkedAt": 1788951524045,
+   "checkedAt": 1789077278450,
    "etag": "",
    "hash": "8b35511b6063bf6d",
    "id": "7985cfefcc72",
@@ -2401,7 +2401,7 @@
    "publishedAt": 1788220920000,
    "summary": "本連載は2026年9月刊行予定の『Claude Codeで作って学ぶ AI駆動アプリ開発入門』から一部、抜粋・編集してお届けします。第1回目は、Claude Codeで指示を出すための対話モードの使いこなし方を解説します。複数行入力やキーボードショートカットなど、対話をもっと快適にする操作テクニックを身につけていきましょう。",
    "title": "Claude Codeの対話モードで会話を始めてみよう",
-   "updatedAt": 1788951524045,
+   "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/article/2026/09/claude-code-ai-driven-development-01?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/claude-code-ai-driven-development-02": {
@@ -2783,7 +2783,7 @@
      "text": "参照実装では、安全策をプロンプトだけに委ねず、商品・ 価格の参照元や操作権限を実行基盤側でも制御する。認証・ 認可など、本番導入時に追加すべき対策の詳細は、リポジトリ内の 安全性に関する資料 で確認できる。"
     }
    ],
-   "checkedAt": 1788951524045,
+   "checkedAt": 1789077278450,
    "etag": "",
    "hash": "87e7ff418645cbcf",
    "id": "dba38ff001a1",
@@ -2793,7 +2793,7 @@
    "publishedAt": 1788414120000,
    "summary": "Anthropicは2026年9月2日、オンラインでの商品・サービスの購入と販売を支援するAIエージェントの開発用ブループリント「Claude Commerce Agents」を公開した。",
    "title": "Anthropic、商取引向けAIエージェントの設計図「Claude Commerce Agents」をオープンソースで公開",
-   "updatedAt": 1788951524045,
+   "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/article/2026/09/claude-commerce-agents?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/claude-fable-5.1-and-mythos-5.1": {
@@ -2907,7 +2907,7 @@
      "text": "防御的なセキュリティ業務を対象とするCyber Verification Programには、今後Mythosクラスのモデルを追加する予定。Life Sciences Verification Programでは、米国政府との協力の下で最初の参加者を受け入れており、対象とする生命科学コミュニティをさらに広げる計画としている。"
     }
    ],
-   "checkedAt": 1788951524045,
+   "checkedAt": 1789077278450,
    "etag": "",
    "hash": "2c1b71196dd2c330",
    "id": "0d063c8edadd",
@@ -2917,7 +2917,7 @@
    "publishedAt": 1788313080000,
    "summary": "Anthropicは2026年9月1日、AIモデル「Claude Fable 5.1」と「Claude Mythos 5.1」を発表した。",
    "title": "Anthropic、Claude Fable 5.1とMythos 5.1を発表",
-   "updatedAt": 1788951524045,
+   "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/article/2026/09/claude-fable-5.1-and-mythos-5.1?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/cuda-rust": {
@@ -2975,7 +2975,7 @@
      "text": "Linusは 「このリリース （Linux 7. 3） の残り期間が順調に進むことを願おう。規模が小さく、何事もなく終わることを」 とコメントしているが、その願いどおりに開発が順調に進めば、Linux 7. 3は10月中旬 （10月18日あるいは25日ごろ） にリリースされるとみられる。"
     }
    ],
-   "checkedAt": 1788951524045,
+   "checkedAt": 1789077278450,
    "etag": "",
    "hash": "294392960cd3d1b3",
    "id": "07ce3309a48f",
@@ -2985,7 +2985,7 @@
    "publishedAt": 1788248160000,
    "summary": "Linus Torvaldsは8月30日、次期Linuxカーネル「Linux 7.3」の最初のリリース候補となる「Linux 7.3-rc1」を公開した。",
    "title": "Linux 7.3-rc1リリース、次世代ハードウェアのサポートが加速",
-   "updatedAt": 1788951524045,
+   "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/article/2026/09/daily-linux-260901?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/daily-linux-260904": {
@@ -3011,7 +3011,7 @@
      "text": "もっともGKHは 「明らかなバグ修正を断るつもりはなく、そうしたくもない」 と語っており、 「 ⁠ただ全部処理するには時間がかかるだけだ」 と、時間をかけてもバグ修正を進めていく姿勢を見せている。AI/ LLMツールはバグを発見する能力は大きく向上したが、 「 ⁠そのバグをいますぐ修正すべきか」 という優先順位までは付けてくれない。GKHが言う通り、少なくともLinux 7. 3はメンテナーにとって 「きびしいサイクル」 になることは間違いなさそうだ。"
     }
    ],
-   "checkedAt": 1788951524045,
+   "checkedAt": 1789077278450,
    "etag": "",
    "hash": "9b271177b641ef63",
    "id": "8f26239c42f2",
@@ -3021,7 +3021,7 @@
    "publishedAt": 1788507720000,
    "summary": "Linuxカーネルプロジェクトは10月中旬にリリース予定の「Linux 7.3」に向けて開発を進めているが、ここ数ヵ月に渡って議論されてきた“AIノイズ”の大量発生が、メンテナーにとってより大きな負荷となっているようだ。",
    "title": "“厳しいサイクルになりそうだ“ ―GKH、Linux 7.3開発サイクルの「AIノイズ」増加に警鐘",
-   "updatedAt": 1788951524045,
+   "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/article/2026/09/daily-linux-260904?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/daily-linux-260909": {
@@ -3032,23 +3032,23 @@
     },
     {
      "kind": "P",
-     "text": "Linuxカーネルのメインリポジトリ 「kernel. org」 の管理人であるKonstantin Ryabitseは 「地理的に分散したgit. kernel. orgの5つのノードにある合計90個のCPUコアのうち、つねに14～16個のコア （全体の処理能力の約20％） がAIクローラー （スクレイパー） のコミットをレンダリングするためだけに使われている」 という内容のブログを8月29日付けで投稿、AIクローラーの貪欲で非効率なデータ取得の現状を明らかにしている。"
+     "text": "Linuxカーネルのメインリポジトリ 「kernel. org」 の管理人であるKonstantin Ryabitsevは 「地理的に分散したgit. kernel. orgの5つのノードにある合計90個のCPUコアのうち、つねに14～16個のコア （全体の処理能力の約20％） がAIクローラー （スクレイパー） のコミットをレンダリングするためだけに使われている」 という内容のブログを8月29日付けで投稿、AIクローラーの貪欲で非効率なデータ取得の現状を明らかにしている。"
     },
     {
      "kind": "P",
-     "text": "git. kernel. orgには現在、約148万のコミットと922 （執筆時点） ものフォークあるが、ふつうにLinuxカーネルのコードを取得したいのであれば、Ryabitseが指摘するように単に git clone するだけですべての履歴を手に入れることができる。リポジトリを丸ごとコピーしたあとは、自分の環境でコミット履歴を走査すればいい。"
+     "text": "git. kernel. orgには現在、約148万のコミットと922 （執筆時点） ものフォークあるが、ふつうにLinuxカーネルのコードを取得したいのであれば、Ryabitsevが指摘するように単に git clone するだけですべての履歴を手に入れることができる。リポジトリを丸ごとコピーしたあとは、自分の環境でコミット履歴を走査すればいい。"
     },
     {
      "kind": "P",
-     "text": "だがAIクローラーはこのアプローチではなく、 「 ⁠実際にはもっともバカげた方法 ―コミットごとにすべてをHTMLとしてレンダリングし、それを解析する」 （ ⁠Ryabitse） という方法を取っている。つまり 「このコミットをHTMLにして」 「 ⁠このコミットもHTMLにして」 「 ⁠このdiffをHTMLにして」 「 ⁠このフォークのこのコミットをHTMLにして」 という要求を延々とサーバに送り続けるのだ。"
+     "text": "だがAIクローラーはこのアプローチではなく、 「 ⁠実際にはもっともバカげた方法 ―コミットごとにすべてをHTMLとしてレンダリングし、それを解析する」 （ ⁠Ryabitsev） という方法を取っている。つまり 「このコミットをHTMLにして」 「 ⁠このコミットもHTMLにして」 「 ⁠このdiffをHTMLにして」 「 ⁠このフォークのこのコミットをHTMLにして」 という要求を延々とサーバに送り続けるのだ。"
     },
     {
      "kind": "P",
-     "text": "Gitではフォークを作ったとしても実データを何重にもコピーする必要はなく、オブジェクト共有を使って効率よく保存することができる。しかしAIクローラーは 「フォーク1のコミット1」 「 ⁠フォーク1のコミット2」 … 「フォーク2のコミット1」 「 ⁠フォーク2のコミット2」 … 「フォークXのコミット1」 「 ⁠フォークXのコミット2」 …と同じコミットを何度も何度もHTMLとして取得しようとする。 「 ⁠スクレイパーは何十億もの有効なURLをスクレイピングしているが、得られるのは148万件のコミットの922件の重複だけだ」 （ ⁠Ryabitse）"
+     "text": "Gitではフォークを作ったとしても実データを何重にもコピーする必要はなく、オブジェクト共有を使って効率よく保存することができる。しかしAIクローラーは 「フォーク1のコミット1」 「 ⁠フォーク1のコミット2」 … 「フォーク2のコミット1」 「 ⁠フォーク2のコミット2」 … 「フォークXのコミット1」 「 ⁠フォークXのコミット2」 …と同じコミットを何度も何度もHTMLとして取得しようとする。 「 ⁠スクレイパーは何十億もの有効なURLをスクレイピングしているが、得られるのは148万件のコミットの922件の重複だけだ」 （ ⁠Ryabitsev）"
     },
     {
      "kind": "P",
-     "text": "Ryabitseによれば、現在、git. kernel. orgにはランダムなコミットを表示してほしいというリクエストが1日あたり約600万件寄せられているという。うち66％はスクレイピングボットを防ぐためのしくみとして導入したAnubisチャレンジ （後述） で弾かれているが、33％は問題を解いてメインサイトにアクセス可能になっており、 「 ⁠かなり寛大に仮定したとしても、 （ ⁠人間による） 正当なリクエストはトラフィックの約2％に過ぎず、残りはすべてスクレイパーによるものだ」 とRyabitseは分析している。"
+     "text": "Ryabitsevによれば、現在、git. kernel. orgにはランダムなコミットを表示してほしいというリクエストが1日あたり約600万件寄せられているという。うち66％はスクレイピングボットを防ぐためのしくみとして導入したAnubisチャレンジ （後述） で弾かれているが、33％は問題を解いてメインサイトにアクセス可能になっており、 「 ⁠かなり寛大に仮定したとしても、 （ ⁠人間による） 正当なリクエストはトラフィックの約2％に過ぎず、残りはすべてスクレイパーによるものだ」 とRyabitsevは分析している。"
     },
     {
      "kind": "P",
@@ -3060,7 +3060,7 @@
     },
     {
      "kind": "P",
-     "text": "そもそもなぜAIクローラーはLinuxカーネルのデータを求めるのだろうか。Ryabitseは以下のようにコメントしている。"
+     "text": "そもそもなぜAIクローラーはLinuxカーネルのデータを求めるのだろうか。Ryabitsevは以下のようにコメントしている。"
     },
     {
      "kind": "QUOTE",
@@ -3072,7 +3072,7 @@
     },
     {
      "kind": "P",
-     "text": "なお、Ryabitseは今回の投稿に 「Creepy Crawlies （不気味な虫たち⁠ ） ⁠」というタイトルを付けているが、多くの人々の貢献によって作られてきたLinuxカーネルという成果物にAIクローラーが膨大なリクエストを投げているさまは、豊かな実りを付けた稲穂に群がるイナゴの大群による “ ⁠蝗害⁠ ” を連想させる。"
+     "text": "なお、Ryabitsevは今回の投稿に 「Creepy Crawlies （不気味な虫たち⁠ ） ⁠」というタイトルを付けているが、多くの人々の貢献によって作られてきたLinuxカーネルという成果物にAIクローラーが膨大なリクエストを投げているさまは、豊かな実りを付けた稲穂に群がるイナゴの大群による “ ⁠蝗害⁠ ” を連想させる。"
     },
     {
      "kind": "H",
@@ -3080,15 +3080,15 @@
     },
     {
      "kind": "P",
-     "text": "もっともLinuxカーネル側もこれらの\"蝗害\"に何も対策しなかったわけではない。Ryabitseによれば、最初にこの問題が明らかになったのはおよそ1年前としているが、当初はボット自身がUserAgentを通じて自分がボットであると教えてくれていたので 「ログを調べて、明らかにスクレイピングボットとわかるIPアドレスを見つけ出し、fail2ban （オープンソースのセキュリティツール） でブロックする」 という方法で対処できていたという。"
+     "text": "もっともLinuxカーネル側もこれらの\"蝗害\"に何も対策しなかったわけではない。Ryabitsevによれば、最初にこの問題が明らかになったのはおよそ1年前としているが、当初はボット自身がUserAgentを通じて自分がボットであると教えてくれていたので 「ログを調べて、明らかにスクレイピングボットとわかるIPアドレスを見つけ出し、fail2ban （オープンソースのセキュリティツール） でブロックする」 という方法で対処できていたという。"
     },
     {
      "kind": "P",
-     "text": "だがボットが通常のブラウザのふり （Chrome on Windows / Firefox / Safariなど） をするようになったため、Linuxカーネル側はIPアドレスによるアクセス禁止措置を開始したが、今度はクローラーが一般家庭のISPやモバイル回線のIPアドレスからアクセスを開始したのである。しかもタチが悪いことに1つのIPアドレスからずっとアクセスするのではなく、 「 ⁠4、5回のリクエストを行ったら、ログには二度と現れなくなる （もうそのIPアドレスは使わない⁠ ） ⁠」という使い方をしていた。 「 ⁠それらがボットだと気づいたときにはすでに攻撃は終了していた。二度と戻ってこないIPアドレスをブロックリストに追加してもファイアウォールセットを無駄に肥大化させるだけだった。彼らはイナゴの大群のように襲いかかり、システムがダウンするまで激しく、すばやく攻撃し、こちらが回復するまでに次の標的へと移動し、そしてまた別の姿で戻ってくる。これを繰り返すのだ。そして彼らはいまもプロキシSDK （一般ユーザの家庭用インターネット回線を他人の通信のプロキシとして機能させるソフトウェアの開発キット、スマートTVやゲームアプリなどに組み込まれる） の収益化ビジネスを通してそれをやっている。あなたのテレビもおそらくそれをやっている」 （ ⁠Ryabitse）"
+     "text": "だがボットが通常のブラウザのふり （Chrome on Windows / Firefox / Safariなど） をするようになったため、Linuxカーネル側はIPアドレスによるアクセス禁止措置を開始したが、今度はクローラーが一般家庭のISPやモバイル回線のIPアドレスからアクセスを開始したのである。しかもタチが悪いことに1つのIPアドレスからずっとアクセスするのではなく、 「 ⁠4、5回のリクエストを行ったら、ログには二度と現れなくなる （もうそのIPアドレスは使わない⁠ ） ⁠」という使い方をしていた。 「 ⁠それらがボットだと気づいたときにはすでに攻撃は終了していた。二度と戻ってこないIPアドレスをブロックリストに追加してもファイアウォールセットを無駄に肥大化させるだけだった。彼らはイナゴの大群のように襲いかかり、システムがダウンするまで激しく、すばやく攻撃し、こちらが回復するまでに次の標的へと移動し、そしてまた別の姿で戻ってくる。これを繰り返すのだ。そして彼らはいまもプロキシSDK （一般ユーザの家庭用インターネット回線を他人の通信のプロキシとして機能させるソフトウェアの開発キット、スマートTVやゲームアプリなどに組み込まれる） の収益化ビジネスを通してそれをやっている。あなたのテレビもおそらくそれをやっている」 （ ⁠Ryabitsev）"
     },
     {
      "kind": "P",
-     "text": "Linuxカーネル側は次の対策として 「ボットに無駄な計算をさせる」 ためにPoW （Proof-of-Wokr） 認証を行うAnubisを導入した。現在、 git. kernel. org にブラウザでアクセスすると、最初に 「あなたがボットでないことを確認しています!」 というメッセージとともにケモミミのキャラクターが表示されるが、これは 「あなた （アクセス元） が人間かどうかを確かめるために、ブラウザに計算問題を解かせる」 という意味だ。人間が1回アクセスする程度ならAnubisが要求する計算 （たとえば “ ⁠SHA-256を計算して先頭に0が4個並ぶ結果になる文字列を探す⁠ ” など） は大きな負荷とならない。しかしボットやAIクローラーが1億ページ取得しようとすると、計算を1億回解く必要がある。Anubisの効果はてきめんで、ボットたちは 「あっさりとあきらめた」 （ ⁠Ryabiste） ようだった。"
+     "text": "Linuxカーネル側は次の対策として 「ボットに無駄な計算をさせる」 ためにPoW （Proof-of-Wokr） 認証を行うAnubisを導入した。現在、 git. kernel. org にブラウザでアクセスすると、最初に 「あなたがボットでないことを確認しています!」 というメッセージとともにケモミミのキャラクターが表示されるが、これは 「あなた （アクセス元） が人間かどうかを確かめるために、ブラウザに計算問題を解かせる」 という意味だ。人間が1回アクセスする程度ならAnubisが要求する計算 （たとえば “ ⁠SHA-256を計算して先頭に0が4個並ぶ結果になる文字列を探す⁠ ” など） は大きな負荷とならない。しかしボットやAIクローラーが1億ページ取得しようとすると、計算を1億回解く必要がある。Anubisの効果はてきめんで、ボットたちは 「あっさりとあきらめた」 （ ⁠Ryabitsev） ようだった。"
     },
     {
      "kind": "P",
@@ -3100,20 +3100,20 @@
     },
     {
      "kind": "P",
-     "text": "Ryabisteは最後に 「我々はどう対応すべきか」 という問いに対して 「不透明だ （Unclear⁠ ） ⁠」と答えている。とりあえずの対策としてはクロール可能なURLの数を減らし、実行コストの高い処理を制限するために一部の機能を無効化しているという。また、 git. kernel. org にアクセスするユーザに対し 「匿名でリソースにアクセスする際は一部の機能が利用できなくなるが、どうかわかってほしい。我々もこの措置は望んでいないのだが、現時点ではやむを得ないのだ」 と理解を求めている。"
+     "text": "Ryabitsevは最後に 「我々はどう対応すべきか」 という問いに対して 「不透明だ （Unclear⁠ ） ⁠」と答えている。とりあえずの対策としてはクロール可能なURLの数を減らし、実行コストの高い処理を制限するために一部の機能を無効化しているという。また、 git. kernel. org にアクセスするユーザに対し 「匿名でリソースにアクセスする際は一部の機能が利用できなくなるが、どうかわかってほしい。我々もこの措置は望んでいないのだが、現時点ではやむを得ないのだ」 と理解を求めている。"
     },
     {
      "kind": "P",
-     "text": "「最悪なことにこの問題には簡単な解決策がない。独自のAIモデルを提供する企業は今も毎日登場しており、いずれも学習データを求めている。アプリ開発者は利益を上げる方法を模索しており、今後も家庭用電化製品を攻撃の標的に変え続けるだろう」 （ ⁠Ryabiste）"
+     "text": "「最悪なことにこの問題には簡単な解決策がない。独自のAIモデルを提供する企業は今も毎日登場しており、いずれも学習データを求めている。アプリ開発者は利益を上げる方法を模索しており、今後も家庭用電化製品を攻撃の標的に変え続けるだろう」 （ ⁠Ryabitsev）"
     },
     {
      "kind": "P",
      "text": "オープンソースとして発展を遂げてきたLinuxカーネルはその原則にのっとり、すべてのデータを公開しており、誰からのアクセスも受け入れてきた。だがAI時代となった現在、AIツールによる貢献の是否や今回のAIイナゴによるデジタル蝗害など、かつてのプロジェクト運営ではぶつかることのなかった問題が増えつつある。単なるボット/クローラー対策とは異なる、AIと共存できるオープンソースの実現に向けて、さまざまなしくみを再設計する必要があるのかもしれない。"
     }
    ],
-   "checkedAt": 1788951524045,
+   "checkedAt": 1789077278450,
    "etag": "",
-   "hash": "1c1e5956375fa46b",
+   "hash": "a9772c10c7a09a92",
    "id": "a108b6354b9a",
    "imageUrl": "https://gihyo.jp/assets/images/article/2026/09/daily-linux-260909/001.png",
    "key": "https://gihyo.jp/article/2026/09/daily-linux-260909",
@@ -3121,7 +3121,7 @@
    "publishedAt": 1788936540000,
    "summary": "前回でも紹介したように、AIノイズ ―AI/LLMに由来する大量のパッチやバグ報告がLinuxカーネル開発メンテナーたちの労力を増大させており、カーネル開発のサイクルにも影響を及ぼしつつあるが、AIによる負荷に疲弊しているのはメンテナーだけではない。",
    "title": "深刻化する“サイバー蝗害”―Linuxカーネルソースに群がる貪欲で超非効率な「AIイナゴ」たち",
-   "updatedAt": 1788951524045,
+   "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/article/2026/09/daily-linux-260909?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/gemini-3-8-flash-and-3-8-flash-cyber": {
@@ -3183,7 +3183,7 @@
      "text": "また、Gemini 3. 8 Flash Cyberは新しい Fairwindプログラム を通じて信頼できる政府機関、インフラ事業者、ソフトウェア保守担当者に提供される。利用には Fairwindプログラムへのアクセス申請 が必要。"
     }
    ],
-   "checkedAt": 1788951524045,
+   "checkedAt": 1789077278450,
    "etag": "",
    "hash": "8b809faccdde0869",
    "id": "a1e10598a264",
@@ -3193,7 +3193,7 @@
    "publishedAt": 1788400260000,
    "summary": "Googleは2026年9月2日、同社の低コスト・実用モデルの最新バージョンとなるGemini 3.8 Flash、およびサイバーセキュリティモデルGemini 3.8 Flash Cyberをリリースした。",
    "title": "Google、Gemini 3.8 Flashと3.8 Flash Cyberをリリース ―コーディング、エージェントタスク、多段階推論を大幅に強化",
-   "updatedAt": 1788951524045,
+   "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/article/2026/09/gemini-3-8-flash-and-3-8-flash-cyber?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/github-cli-attach-flag": {
@@ -3235,7 +3235,7 @@
      "text": "この機能はGitHub. comの全プランで一般提供されている。利用するにはGitHub CLIをv2. 99. 0へ更新し、添付先リポジトリへの書き込み権限を持つ必要がある。GitHub Enterprise Serverは今回のリリースでは対象外となる。詳しい使い方は GitHub Docs で確認できる。"
     }
    ],
-   "checkedAt": 1788951524045,
+   "checkedAt": 1789077278450,
    "etag": "",
    "hash": "d1a29dbc7ca57756",
    "id": "80b3dacdede2",
@@ -3245,7 +3245,7 @@
    "publishedAt": 1788335220000,
    "summary": "GitHubは2026年9月1日、GitHub CLIにローカルの画像や動画をアップロードできる--attachフラグを追加したと発表した。",
    "title": "GitHub CLIに​-​-​​attachフラグ、コマンドラインからIssueやPull Requestへ画像・動画を添付可能に",
-   "updatedAt": 1788951524045,
+   "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/article/2026/09/github-cli-attach-flag?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/github-copilot-hydrafusion": {
@@ -3343,7 +3343,7 @@
      "text": "GitHubのCTO、Vladimir Fedorov氏は Xへの投稿 で、HydraFusionを、ローカル推論も取り込む将来の自動ルーティングの重要な構成要素として位置付けた。新モデルの登場や組み合わせ方の進歩が速く、手作業で最適な選択をすることはほぼ不可能だと述べている。"
     }
    ],
-   "checkedAt": 1788951524045,
+   "checkedAt": 1789077278450,
    "etag": "",
    "hash": "e0341f0a1d3db872",
    "id": "3579286e4a50",
@@ -3353,7 +3353,7 @@
    "publishedAt": 1788845880000,
    "summary": "GitHubは2026年9月4日、コーディングタスクに応じてAIモデルと処理の進め方を選ぶ「Project HydraFusion」を公式ブログで紹介した。",
    "title": "GitHub、Copilot CLIで複数AIモデルを使い分けてコスト削減を図る「Project HydraFusion」を研究プレビューで提供",
-   "updatedAt": 1788951524045,
+   "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/article/2026/09/github-copilot-hydrafusion?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/gonako": {
@@ -3379,7 +3379,7 @@
      "text": "「なでしこ3(Go版)」 はWindows、macOS、Linux上で動作する [1] 。インストールパッケージはGitHubからダウンロード可能。ソースコードもMITライセンスのもと、オープンソースとして公開されている。詳しいインストールについては GitHub上のドキュメント を参照。"
     }
    ],
-   "checkedAt": 1788951524045,
+   "checkedAt": 1789077278450,
    "etag": "",
    "hash": "03b9a4c4419005a7",
    "id": "2ff81c4e3855",
@@ -3389,7 +3389,7 @@
    "publishedAt": 1788852600000,
    "summary": "プログラマのクジラ飛行机（@kujirahand）氏は2026年9月7日、日本語プログラミング言語「なでしこ3」をGo言語で実装した「なでしこ3(Go版)」（通称：gonako）をリリースした。",
    "title": "日本語プログラミング言語「なでしこ3」のGo言語版がリリース ―単一バイナリを生成可能で高速動作",
-   "updatedAt": 1788951524045,
+   "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/article/2026/09/gonako?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/google-pics": {
@@ -3451,7 +3451,7 @@
      "text": "対象プランや提供地域、使用量上限などの詳細は Google Picsの提供条件 を、Google Workspaceの管理者設定は 管理者向けヘルプ を参照のこと。"
     }
    ],
-   "checkedAt": 1788951524045,
+   "checkedAt": 1789077278450,
    "etag": "",
    "hash": "7afccf18c09d67c0",
    "id": "267b4078a33a",
@@ -3461,7 +3461,7 @@
    "publishedAt": 1788328680000,
    "summary": "Googleは2026年9月1日、AI画像作成・編集ツール「Google Pics」の一般提供を順次開始した。",
    "title": "Google、AI画像作成・編集ツール「Google Pics」の一般提供を順次開始、オブジェクト単位の編集や画像内テキストの翻訳に対応",
-   "updatedAt": 1788951524045,
+   "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/article/2026/09/google-pics?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/gpt-6-astra": {
@@ -3603,7 +3603,7 @@
      "text": "We will give one banked reset for every day you don't have access to Astra on your paid ChatGPT plan, starting today. Team is moving mountains to give access as fast as we can. First one will land in ~ 3 hours. There is still time to create your account if you don't have one. — Tibo (@thsottiaux) September 3, 2026"
     }
    ],
-   "checkedAt": 1788951524045,
+   "checkedAt": 1789077278450,
    "etag": "",
    "hash": "45f6e297d9bb6ff5",
    "id": "b27c0a952f89",
@@ -3613,7 +3613,7 @@
    "publishedAt": 1788484140000,
    "summary": "OpenAIは2026年9月3日、新モデル「GPT-6 Astra」を発表した。",
    "title": "OpenAI、GPT-6 Astraを発表 ——PC操作の精度や速度を向上、サイバー能力は同社初の「重大」水準",
-   "updatedAt": 1788951524045,
+   "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/article/2026/09/gpt-6-astra?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/home-local-llm-guide": {
@@ -3879,7 +3879,7 @@
      "text": "このようなO(n 2 )のアルゴリズムを、サービスとして大規模に提供することを考えると、ITエンジニアとしては軽くめまいを覚えます。クラウドLLMが提供しようとしている 「均質で圧倒的なパワー」 は、このTransformerという巨大な大食漢を、想像もつかないほどの資本の力で養っていることで得られるものです。ローカルLLMを自ら運用し、その限界と構造的な弱点を実際に体感したからこそ、筆者はクラウドLLMのいびつな安さと、その裏にあるインフラのすごさに思いを馳せることができました。巨大な資本の力に頼るだけでなく、ローカルLLMの限界と向き合いつつハックし続けること。これからのエンジニアの、小さいけれどもユニークな 「差別化」 になるのかもしれません。それはそれとして、クラウドLLM提供企業の収益性・ 持続性については、ちょっと心配になってしまいますね。個人的にはTransformerとは別のアプローチに期待するところです。"
     }
    ],
-   "checkedAt": 1788951524045,
+   "checkedAt": 1789077278450,
    "etag": "",
    "hash": "8701dec1acc97973",
    "id": "a6bcbed9887a",
@@ -3889,7 +3889,7 @@
    "publishedAt": 1788220920000,
    "summary": "技術の進化により、ローカルLLMを個人のPCで動かすことも現実的になってきました。本稿では、ローカルLLMを手元で実際に動かしてみた知見をまとめます。快適に動かすための構成、性能と速度のトレードオフ、そして動かしてみて初めて見えてくるローカルLLMの現実がわかります。",
    "title": "自宅でローカルLLMを動かしてみた ローカルなら実現できる遊びとこだわり",
-   "updatedAt": 1788951524045,
+   "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/article/2026/09/home-local-llm-guide?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/meta-muse": {
@@ -3959,7 +3959,7 @@
      "text": "現在のMuse Secure VMでは、Metaの担当者によるデータアクセスを運用上のポリシーで制限しているものの、サービスの運営や安全確保などに必要なアクセスまで技術的に防ぐわけではない。Metaは、同社もVM内のデータにアクセスできないよう暗号技術で保護するMuse Confidential VMを年内に提供する計画を示している。"
     }
    ],
-   "checkedAt": 1788951524045,
+   "checkedAt": 1789077278450,
    "etag": "",
    "hash": "519cfb17f464577d",
    "id": "0d15eb159cb2",
@@ -3969,7 +3969,7 @@
    "publishedAt": 1788940740000,
    "summary": "Metaは9月8日、個人向けAIエージェント「Muse」を発表した。",
    "title": "Meta、個人向けAIエージェント「Muse」を米国で提供開始",
-   "updatedAt": 1788951524045,
+   "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/article/2026/09/meta-muse?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/mysql-rcn0278": {
@@ -4079,7 +4079,7 @@
      "text": "参考資料"
     }
    ],
-   "checkedAt": 1788951524045,
+   "checkedAt": 1789077278450,
    "etag": "",
    "hash": "152e733d31f01322",
    "id": "195046ae8b1e",
@@ -4089,7 +4089,7 @@
    "publishedAt": 1788220860000,
    "summary": "MySQL 9.7.0のリリースノートを見ていると、DATE型に関する修正がいくつかまとめて入っていることに気付きます。",
    "title": "第278回 MySQL 9.7で変わったDATE型の挙動を確認してみる",
-   "updatedAt": 1788951524045,
+   "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/article/2026/09/mysql-rcn0278?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/nvidia-to-acquire-hugging-face": {
@@ -4131,7 +4131,7 @@
      "text": "Super happy to officially announce that we are a̶c̶q̶u̶i̶r̶i̶n̶g̶ joining forces with @nvidia 🔥 Here is a more personal take: AI is at an inflection point. Open source AI can become less relevant in the coming years if the big closed labs run away with it, OR it can become the… pic. twitter. com/ mbLZt15Znv — Julien Chaumond (@julien_c) September 3, 2026"
     }
    ],
-   "checkedAt": 1788951524045,
+   "checkedAt": 1789077278450,
    "etag": "",
    "hash": "79df95b4b634e148",
    "id": "e085a01dcd5d",
@@ -4141,7 +4141,7 @@
    "publishedAt": 1788484860000,
    "summary": "2026年9月3日、NVIDIAによるHugging Faceの買収について両社が合意したことが発表された。",
    "title": "NVIDIAがHugging Faceを129億3030万ドルで買収へ",
-   "updatedAt": 1788951524045,
+   "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/article/2026/09/nvidia-to-acquire-hugging-face?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/ossdb-various-news0133": {
@@ -4387,7 +4387,7 @@
      "text": "上級者 （？） による 「こういう拡張してみた」 系"
     }
    ],
-   "checkedAt": 1788951524045,
+   "checkedAt": 1789077278450,
    "etag": "",
    "hash": "330b6873c43929e0",
    "id": "a54997e62538",
@@ -4397,7 +4397,7 @@
    "publishedAt": 1788220860000,
    "summary": "この連載はOSSコンソーシアム データベース部会のメンバーがオープンソースデータベースの毎月の出来事をお伝えしています。",
    "title": "第133回 連載12年目に突入、オープンソースカンファレンス京都報告、MySQLのステアリング・コミッティにJPMorganChaseとBooking. comが参画、PostgreSQLの多数の脆弱性が修正",
-   "updatedAt": 1788951524045,
+   "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/article/2026/09/ossdb-various-news0133?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/qwen3.8-max-0902": {
@@ -4439,7 +4439,7 @@
      "text": "明示的なキャッシュ読み取り：0. 17ドル/100万トークン"
     }
    ],
-   "checkedAt": 1788951524045,
+   "checkedAt": 1789077278450,
    "etag": "",
    "hash": "6772e9d841250080",
    "id": "a61f5ef83898",
@@ -4449,7 +4449,7 @@
    "publishedAt": 1788418800000,
    "summary": "Alibaba Qwenは2026年9月2日、AIモデルQwen3.8-Maxのアップグレード版スナップショット「Qwen3.8-Max-0902」をリリースした。",
    "title": "Qwen3.8-Maxのアップグレード版「Qwen3.8-Max-0902」登場、コーディング、エージェントタスク、マルチモーダル性能が大幅に向上",
-   "updatedAt": 1788951524045,
+   "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/article/2026/09/qwen3.8-max-0902?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/toward-agi-era": {
@@ -4567,7 +4567,7 @@
      "text": "同氏が求めるのは、こうした安全対策を強化して人間が自己改善の過程に関わり続けられるようにすることと、必要に応じて開発を遅らせるための協調を組み合わせること。現時点では、どの研究所も最大速度での規模拡大をこの先も長く続けられるほど、アラインメントと監視の課題を解決していないとみている。共通の安全基準が確立するまで自主的な減速が広がることに期待し、AI開発をめぐる国際協調を各国政府の優先課題にすべきだと述べた。"
     }
    ],
-   "checkedAt": 1788951524045,
+   "checkedAt": 1789077278450,
    "etag": "",
    "hash": "21bd9d79b482071d",
    "id": "8b55369f41fb",
@@ -4577,7 +4577,7 @@
    "publishedAt": 1788766440000,
    "summary": "OpenAIのGreg Brockman氏やMark Chen氏、NVIDIAのJensen Huang氏が、Xへの投稿でAGI（汎用人工知能）の到来や、その時代への移行に言及した。",
    "title": "NVIDIAのJensen Huang氏「AGIは到来した」、OpenAIからも「AGI時代に入りつつある」との声",
-   "updatedAt": 1788951524045,
+   "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/article/2026/09/toward-agi-era?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/zg": {
@@ -4647,7 +4647,7 @@
      "text": "最初のオープンソース版はコードとテキストを主な対象としている。今後はグラフ検索、検索結果の再ランキングや説明可能性の改善に加え、PDF、Word、PowerPointの処理、画像のOCR、レイアウト抽出、画像とテキストを横断して扱う機能などを計画している。詳細は 公式ロードマップ で確認できる。"
     }
    ],
-   "checkedAt": 1788951524045,
+   "checkedAt": 1789077278450,
    "etag": "",
    "hash": "78eeb7c86663a136",
    "id": "da58790c7c99",
@@ -4657,17 +4657,17 @@
    "publishedAt": 1788428940000,
    "summary": "AlibabaのベクトルデータベースZvecの開発チームは2026年8月28日、ローカル検索ツール「zg（zvec-grep）」をオープンソースとして公開した。",
    "title": "Alibaba、AIエージェントも利用できるローカル検索ツール「zg」をオープンソースとして公開",
-   "updatedAt": 1788951524045,
+   "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/article/2026/09/zg?utm_source=feed"
   }
  },
  "listing": {
   "https://gihyo.jp/feed/rss2": {
-   "checkedAt": 1789037883328,
-   "etag": "W/\"6aa27280-7a6ce\"",
-   "lastModified": "Thu, 10 Sep 2026 09:04:00 GMT"
+   "checkedAt": 1789077280028,
+   "etag": "W/\"6aa31b40-7a6ce\"",
+   "lastModified": "Thu, 10 Sep 2026 21:04:00 GMT"
   }
  },
  "siteId": "gihyo",
- "updatedAt": 1789037923872
+ "updatedAt": 1789077326843
 }
