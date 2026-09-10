@@ -636,46 +636,6 @@
    "updatedAt": 1788951524045,
    "url": "https://gihyo.jp/article/2026/08/a-call-for-collective-action-on-cyber-defense?utm_source=feed"
   },
-  "https://gihyo.jp/article/2026/08/arduino-ventuno-q": {
-   "bodyBlocks": [
-    {
-     "kind": "P",
-     "text": "Arduinoは2026年8月25日、40TOPSの性能を発揮するNPUを備え、Qwen 3、Gemma 4、Qwen 3 VLMなどのローカルLLMを直接実行できるマイコンボード 「Arduino VENTUNO Q」 を発表、同社の正規販売店を通じて予約販売を開始した。"
-    },
-    {
-     "kind": "QUOTE",
-     "text": "The wait is over! Meet Arduino VENTUNO Q, where AI takes action. 💬 Run local LLMs like Qwen 3, Gemma 4, and Qwen 3 VLM directly on the board 🧠 NPU + CPU + GPU +MCU: @Qualcomm Dragonwing IQ-8275 with up to 40 dense TOPS of AI performance and STM32H5 microcontroller for… pic. twitter. com/ ceFzBuedXo — Arduino (@arduino) August 25, 2026"
-    },
-    {
-     "kind": "P",
-     "text": "Arduino VENTUNO Qは8コアCPUに40TOPSの演算性能をもつNPU、GPUを統合したQualcomm Dragonwing IQ8プロセッサと16GBのLPDDR5メモリ、モーターなどの物理制御を担うSTM32H5F5マイクロコントローラーを組み合わせた160mm×100mmの小型ボード。64GBのeMMCストレージを搭載し、M. 2コネクタを介してNVMe Gen. 4外部ストレージも使用できる。プログラミングや電源供給、ディスプレイポートに使用できるUSB-Cコネクタ1つとUSB 3. 0 Type-Aコネクタ×2、2つのオンボードアンテナを備え、3バンドWi-Fi 6とBluetooth 5. 3接続が可能。"
-    },
-    {
-     "kind": "P",
-     "text": "OSはUbuntuとZephyr RTOSがインストールされており、近日中にDebianも利用できるようになる予定。この上でプリセットのローカルAIモデルとしてQwen 3 4B LLM、Qwen 2. 5 7B VLM、Qwen 3 4B VLM、Gemma 4 E2BおよびE4Bを Qualcomm AI Hub を介して設定不要ですぐに利用できる。"
-    },
-    {
-     "kind": "P",
-     "text": "またプリロードされている統合開発環境 Arduino App Lab を使用することで、C++、Pythonを使ったAI開発や、Hugging FaceからGGUF形式のモデルを直接アップロードして開発することができる。さらにEdge Impulse Studioと連携してカスタムAIモデルの導入・ デプロイにも対応する。詳しい使用法は 公式ドキュメント を参照。"
-    },
-    {
-     "kind": "P",
-     "text": "同社販売サイトではArduino VENTUNO Qの予約販売が開始されている （8/ 27現在品切れ中⁠ ） ⁠。価格は299ドル。"
-    }
-   ],
-   "checkedAt": 1788951524045,
-   "etag": "",
-   "hash": "c50236b460d58430",
-   "id": "d36bf17012a5",
-   "imageUrl": "https://gihyo.jp/assets/images/ICON/2026/3012_arduino-ventuno-q.png",
-   "key": "https://gihyo.jp/article/2026/08/arduino-ventuno-q",
-   "lastModified": "",
-   "publishedAt": 1787809320000,
-   "summary": "Arduinoは2026年8月25日、40TOPSの性能を発揮するNPUを備え、Qwen 3、Gemma 4、Qwen 3 VLMなどのローカルLLMを直接実行できるマイコンボード「Arduino VENTUNO Q」を発表、同社の正規販売店を通じて予約販売を開始した。",
-   "title": "ローカルLLMを直接実行できるマイコンボード「Arduino VENTUNO Q」予約販売開始",
-   "updatedAt": 1788951524045,
-   "url": "https://gihyo.jp/article/2026/08/arduino-ventuno-q?utm_source=feed"
-  },
   "https://gihyo.jp/article/2026/08/blender-basics-84": {
    "bodyBlocks": [
     {
@@ -811,58 +771,6 @@
    "title": "ChatGPT、Business／EnterpriseプランなどでGitHub上のプラグインマーケットプレイスを同期可能に",
    "updatedAt": 1788951524045,
    "url": "https://gihyo.jp/article/2026/08/chatgpt-github-plugin-marketplace-sync?utm_source=feed"
-  },
-  "https://gihyo.jp/article/2026/08/daily-linux-260827": {
-   "bodyBlocks": [
-    {
-     "kind": "P",
-     "text": "The Document Foundation （TDF） は8月26日、オープンソースのOfficeスイート 「LibreOffice 26. 8」 のリリースを発表した。対象プラットフォームはWindows、macOS、Linuxで、120の言語に対応している。"
-    },
-    {
-     "kind": "P",
-     "text": "TDFはLibreOffice 26. 8の特徴を 「文書のタイポグラフィ品質」 「 ⁠扱う文字体系の範囲」 「 ⁠Microsoft Officeなど他のOfficeスイート製品との互換性」 にフォーカスしたリリースと位置づけており、なかでもWriterに関してはよりきめ細かな変更が実施されている。"
-    },
-    {
-     "kind": "LI",
-     "text": "画像を大量に含むような、サイズが非常に大きい文書の読み込み速度の改善"
-    },
-    {
-     "kind": "LI",
-     "text": "「Paragraph Composer」 というテキストレイアウトアルゴリズムの導入により、段落内の複数行を考慮した単語間のスペースのより均等な配置→該当する行だけでなく段落全体を見て文字間のバランスを調整"
-    },
-    {
-     "kind": "LI",
-     "text": "OpenTypeの可変フォント （Variable Fonts） のネイティブサポート"
-    },
-    {
-     "kind": "LI",
-     "text": "アラビア語などのRTL （Right to Left） 言語や日本語/中国語/韓国語のCJK言語など、多言語文書への対応を強化"
-    },
-    {
-     "kind": "P",
-     "text": "とくにTDFが 「今回のリリースでもっとも大きな改善点」 と呼ぶ双方向テキストおよび複雑なテキストにおけるアップデートで、英語などのLTR言語とアラビア語などのRTL言語が混在した文書がより正しく配置されるようになっている点が特徴的だ。"
-    },
-    {
-     "kind": "P",
-     "text": "また、Microsoft Officeとの互換性に関しては、Microsoft OfficeがOOXML形式で保存する新しいグラフタイプ （箱ひげ図、ファネルチャート、パレート図、サンバースト、ツリーマップ、ウォーターフォールなど） について基本的なラウンドトリップサポートがChartに追加された。ただし、現時点ではLibreOfficeでこれらを描画/編集できるわけではなく、いったんOffice形式に保存して、ふたたび読み込んだときにできるだけもとのデータを維持するにとどまっている。"
-    },
-    {
-     "kind": "P",
-     "text": "なお、LibreOffice 26. 8ではAI機能は実装されておらず、TDFは今後もLibreOfficeにAIを組み込まないことを 「意図的な設計方針」 として表明している。Microsoft 365やGoogle WorkspaceがAI機能を多く取り込む方針であるのに対し、LibreOfficeはむしろAIを搭載しない （AIにデータを渡さない） ことで、新たな価値を訴求している点が興味深い。"
-    }
-   ],
-   "checkedAt": 1788951524045,
-   "etag": "",
-   "hash": "3d6dd10771734375",
-   "id": "ae32a80a40d4",
-   "imageUrl": "https://gihyo.jp/assets/images/ICON/2026/3014_libreoffice-26-8.png",
-   "key": "https://gihyo.jp/article/2026/08/daily-linux-260827",
-   "lastModified": "",
-   "publishedAt": 1787816640000,
-   "summary": "The Document Foundation（TDF）は8月26日、オープンソースのOfficeスイート「LibreOffice 26.8」のリリースを発表した。",
-   "title": "LibreOffice 26.8リリース、AI機能は「あえて搭載しない」",
-   "updatedAt": 1788951524045,
-   "url": "https://gihyo.jp/article/2026/08/daily-linux-260827?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/08/daily-linux-260831": {
    "bodyBlocks": [
@@ -1264,82 +1172,6 @@
    "updatedAt": 1788951524045,
    "url": "https://gihyo.jp/article/2026/08/model-hardware-standard?utm_source=feed"
   },
-  "https://gihyo.jp/article/2026/08/openai-plugin-support-skill-over-mcp": {
-   "bodyBlocks": [
-    {
-     "kind": "P",
-     "text": "OpenAIのMax Stoiber氏は2026年8月26日、スキルをMCP経由で配信する 「Skills Over MCP」 に同社が早期対応したとXに投稿した。この対応により、ChatGPTとCodexの共通ディレクトリで公開するプラグインをOpenAIへ提出する際、Skills Over MCP対応のMCPサーバーからスキルを取り込めるようになった。MCPサーバーの提供者は、ツールと、その使い方をエージェントに教えるスキルを一緒に管理でき、ツールとスキルのバージョンのずれを抑えやすくなる。"
-    },
-    {
-     "kind": "QUOTE",
-     "text": "we've shipped early support for the upcoming Skills-over-MCP spec to chatgpt and codex to fix this! by storing your skills \"in\" your MCP server, they are always in sync 🤝 Add it to your MCP servers: https:// t. co/ F4Fkaqah5b https:// t. co/ 7ZpV7OL49Y — Max Stoiber (@mxstbr) August 26, 2026"
-    },
-    {
-     "kind": "H",
-     "text": "スキルをMCPサーバーから配信"
-    },
-    {
-     "kind": "P",
-     "text": "MCPサーバーは、AIエージェントに外部サービスを利用するためのツールやデータを提供する。一方、スキルには、特定の作業を進めるための手順や判断条件、出力形式を記したファイル、参考資料などが含まれる。"
-    },
-    {
-     "kind": "P",
-     "text": "Skills Over MCPでは、MCPサーバーがツールの使い方を説明するスキルも配信する。サーバーの提供者は、ツールとスキルを一緒にバージョン管理し、まとめてデプロイできる。ツール名や引数などの仕様を変更した際に、スキルに記載した使い方もあわせて更新しやすくなり、ツールと説明のずれを抑えられる。"
-    },
-    {
-     "kind": "P",
-     "text": "Stoiber氏はXの返信で、個人利用者がスキルを保存しておくサービスは想定しておらず、MCPサーバーと、その使い方を説明するスキルを一緒に提供したいSaaS事業者向けだと補足している。"
-    },
-    {
-     "kind": "H",
-     "text": "OpenAIは公開プラグインの提出時にスキルを取り込み"
-    },
-    {
-     "kind": "P",
-     "text": "スキルやMCPサーバーを一つのパッケージにまとめ、ChatGPTやCodexで利用できるようにする仕組みを 「 プラグイン 」 と呼ぶ。一般公開するプラグインは OpenAIへ提出して審査を受け 、ChatGPTとCodexが共有するプラグインディレクトリへ掲載される。今回のSkills Over MCP対応は、この提出フローに組み込まれている。 [1]"
-    },
-    {
-     "kind": "P",
-     "text": "公開プラグインにスキルを直接含める場合、提供者はMCPサーバーのツール仕様に合わせて、プラグイン側のスキルも管理する。Skills Over MCP対応のMCPサーバーを使えば、サーバー側で管理するスキルを提出時に取り込める。プラグイン向けに同じスキルファイルを別途用意する必要がなく、ツールとの整合性を保ちやすくなる。ただし、ツールの実装とスキルの記載内容が一致しているかまで、自動的に検証されるわけではない。"
-    },
-    {
-     "kind": "P",
-     "text": "今回の早期サポートでは、利用者がスキルを別途ダウンロードする必要はない。提出画面で 「Scan Tools」 を選択すると、OpenAIはその時点で配信されている SKILL. md と関連ファイルをMCPサーバーから取得して検証し、プラグインのドラフトにスキルのコピーを保存する。"
-    },
-    {
-     "kind": "P",
-     "text": "MCPサーバー上のスキルを更新する場合、提供者は変更をサーバーへデプロイしたあと、提出画面で 「Scan Tools」 を再度選択して取り込み直す。取り込んだ内容を確認してプラグインの新しいバージョンを提出し、OpenAIの審査後に公開すると、更新後のスキルがプラグインに反映される。つまり、ChatGPTやCodexがプラグインを利用するたびにMCPサーバー上の最新版を取得するのではなく、提出時にプラグインへ取り込まれたスキルを利用する。"
-    },
-    {
-     "kind": "H",
-     "text": "MCP仕様案 「SEP-2640」 の一部を先行採用"
-    },
-    {
-     "kind": "P",
-     "text": "OpenAIのドキュメント によると、OpenAIは公開プラグインの提出時にMCPサーバーからスキルを取り込む方法として、MCP仕様案 「 SEP-2640 」 の提案を一部採用している。 Skills Over MCP Working Group が策定を進めるSEP-2640は現在Draftで、安定版のMCP仕様にはまだ含まれていない。"
-    },
-    {
-     "kind": "P",
-     "text": "SEP-2640は、MCPサーバーがスキルの一覧を提供し、MCPの既存機能 「Resources」 で各ファイルを配信する方法を提案している。具体的には、MCPサーバーが初期化時に拡張識別子 io. modelcontextprotocol/ skills を宣言し、 skills/ list でスキルの一覧、 skills/ get で個別のスキル、 resources/ read で各ファイルを返す。スキルのファイルには skill:// 形式のURIを使う。 [2]"
-    },
-    {
-     "kind": "P",
-     "text": "SEP-2640は安全面の要件として、MCP経由で取得したスキルをローカルのスキルと区別し、配信元のMCPサーバーをモデルに示すよう求めている。また、スキルを使う際のコード実行や権限拡張は、暗黙に許可しないとしている。詳しくはDraftの仕様を参照のこと。"
-    }
-   ],
-   "checkedAt": 1788951524045,
-   "etag": "",
-   "hash": "eb77fab68d5a1a99",
-   "id": "4e729cc42bcf",
-   "imageUrl": "https://gihyo.jp/assets/images/ICON/2026/3013_openai-plugin-support-skill-over-mcp.png",
-   "key": "https://gihyo.jp/article/2026/08/openai-plugin-support-skill-over-mcp",
-   "lastModified": "",
-   "publishedAt": 1787813640000,
-   "summary": "OpenAIのMax Stoiber氏は2026年8月26日、スキルをMCP経由で配信する「Skills Over MCP」に同社が早期対応したとXに投稿した。",
-   "title": "OpenAI、公開プラグインでSkills Over MCPを早期サポート ——提出時にMCPサーバーからスキルを取り込み",
-   "updatedAt": 1788951524045,
-   "url": "https://gihyo.jp/article/2026/08/openai-plugin-support-skill-over-mcp?utm_source=feed"
-  },
   "https://gihyo.jp/article/2026/08/openclaw-2-0": {
    "bodyBlocks": [
     {
@@ -1619,6 +1451,70 @@
    "title": "AAIF、MCPのガバナンスとA2Aの現状、AIエージェントにオープン標準が必要な理由を説明 ——9月10・11日に「AGNTCon + MCPCon Japan 2026」を渋谷で開催",
    "updatedAt": 1788951524045,
    "url": "https://gihyo.jp/article/2026/09/aaif-mcp-a2a-briefing?utm_source=feed"
+  },
+  "https://gihyo.jp/article/2026/09/agent-router": {
+   "bodyBlocks": [
+    {
+     "kind": "P",
+     "text": "Agentic AI Foundation （AAIF） は9月9日、オープンソースのAIゲートウェイ 「Agent Router」 （ ⁠旧称：Envoy AI Gateway） の参加を発表した。BloombergとTetrateが共同開発を進めてきたプロジェクトで、9月10日付で改称し、EnvoyのサブプロジェクトからAAIFの独立プロジェクトへ移ることになった。AIエージェントからモデルや外部ツールへの呼び出しを仲介する。発表時点で11組織が採用を公表し、安定版1. x系も公開されている。"
+    },
+    {
+     "kind": "H",
+     "text": "Envoyを基盤に⁠ 、 モデル接続の負担を減らす"
+    },
+    {
+     "kind": "P",
+     "text": "Agent Routerは、エージェントに対してモデル呼び出し用のOpenAI互換APIと、外部ツールへのアクセスに使うMCPの接続口を提供する。モデル提供元に応じたAPI形式への変換や認証、通信の振り分け、使用量の制限などをまとめて扱い、エージェント開発者が個別に実装する負担を減らす。"
+    },
+    {
+     "kind": "P",
+     "text": "通信処理の基盤となる 「Envoy」 は、アプリケーション間の通信を仲介するプロキシソフトウェア。Agent Routerが管理者の指定した接続先や認証情報、制限などをEnvoy向けの設定に変換し、Envoyがその設定に従って通信を処理する。"
+    },
+    {
+     "kind": "P",
+     "text": "Envoyは、配車サービスを運営するLyftが開発し、 2016年にOSSとして公開 した。その開発プロジェクトは2017年に、クラウドネイティブ技術のOSS開発を支える Cloud Native Computing Foundation （CNCF） に受け入れられた 。"
+    },
+    {
+     "kind": "P",
+     "text": "このEnvoyを基盤に開発されたのが、Agent Routerの前身 「Envoy AI Gateway⁠ 」 ⁠。開発のきっかけは、2024年にBloombergのエンジニアが直面したモデル接続の課題だった。OpenAIやAnthropic、Googleなどのモデル提供元では、リクエストの形式や認証方法がそれぞれ異なる。この課題に対応するため、BloombergとTetrateがEnvoyのサブプロジェクトとして共同開発を進めた。"
+    },
+    {
+     "kind": "H",
+     "text": "11組織が採用⁠ 、 AAIFで他プロジェクトとの連携へ"
+    },
+    {
+     "kind": "P",
+     "text": "発表時点で、採用を公表している組織はBloomberg、Tetrate、Tencent Cloud、Nutanix、LINEヤフー、National Research Platformなど11組織。開発には21組織が貢献。保守を担当するメンテナーの9席はBloomberg、Nutanix、AMD、Tetrate、Netflixの5社で分担している。"
+    },
+    {
+     "kind": "P",
+     "text": "Agent Routerはこれまでに安定版を15回リリースしている。2026年6月にバージョン1. 0、8月に1. 1を公開し、1. x系では互換性を維持する方針を示している。"
+    },
+    {
+     "kind": "P",
+     "text": "移行先のAAIFは、AIエージェント向けのオープンな技術や標準の共同開発を支える、Linux Foundation傘下の団体。 2025年12月に設立 され、MCPなどのプロジェクトを受け入れている。"
+    },
+    {
+     "kind": "P",
+     "text": "AAIFの参加発表ブログでは、移行によってエージェント関連のコミュニティとのつながりが深まり、他のプロジェクトとの共同開発の機会が広がると説明している。Envoyとの関係も続き、通信処理そのものの改善はEnvoyで進める。Agent Routerでは、エージェント開発者にとっての使いやすさを高め、周辺技術との連携にも取り組む。"
+    },
+    {
+     "kind": "P",
+     "text": "9月10日、11日に東京で開催されている AGNTCon + MCPCon Japan 2026 でも、AAIFのExecutive Directorを務めるMazin Gilbert氏がキーノート内でAgent Routerの参加を紹介した。"
+    }
+   ],
+   "checkedAt": 1789037882126,
+   "etag": "",
+   "hash": "e10849aa5691c2fb",
+   "id": "1bbe250c36d1",
+   "imageUrl": "https://gihyo.jp/assets/images/article/2026/09/agent-router/01.jpg",
+   "key": "https://gihyo.jp/article/2026/09/agent-router",
+   "lastModified": "",
+   "publishedAt": 1789028340000,
+   "summary": "Agentic AI Foundation（AAIF）は9月9日、オープンソースのAIゲートウェイ「Agent Router」（旧称：Envoy AI Gateway）の参加を発表した。",
+   "title": "AAIF、Agent Routerの参加を発表 ——AIモデルとMCPツールへの接続を仲介するOSS",
+   "updatedAt": 1789037882126,
+   "url": "https://gihyo.jp/article/2026/09/agent-router?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/ai-agent-platform-hidden-costs-01": {
    "bodyBlocks": [
@@ -3023,6 +2919,38 @@
    "title": "Anthropic、Claude Fable 5.1とMythos 5.1を発表",
    "updatedAt": 1788951524045,
    "url": "https://gihyo.jp/article/2026/09/claude-fable-5.1-and-mythos-5.1?utm_source=feed"
+  },
+  "https://gihyo.jp/article/2026/09/cuda-rust": {
+   "bodyBlocks": [
+    {
+     "kind": "P",
+     "text": "NVIDIAは2026年9月8日、GPU向け並列計算プラットフォームCUDAにおいてRustによる開発を可能にする 「CUDA Rust」 を発表した。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "🎉 CUDA Rust is here! Team 🟩 ❤️ 🦀 You can now write CUDA kernels in plain Rust, two ways: cuda-oxide (SIMT) and cutile-rs (Tile). https:// t. co/ e4AQHUvskP — Nihal Pasham (@npashi) September 9, 2026"
+    },
+    {
+     "kind": "P",
+     "text": "これまでCUDAにはC++あるいはPython用のプログラミングツールが用意されていたが、CUDA RustによりRustによるネイティブGPUプログラミングが可能となった。GPUカーネルをRustで記述し、ネイティブにPTX （GPU用中間コード） にコンパイルできる。"
+    },
+    {
+     "kind": "P",
+     "text": "GPUの利用モデルとしてSIMT （Single Instruction, Multiple Threads⁠ ） ⁠、およびTileの2つのモデル両方をRustで利用できる。SIMT用のRust生成バックエンドとして cuda-oxide [1] が、Tileベースのプログラミング基盤として cutile-rs （cuTile Rust） が、それぞれGitHub上で公開されている。cuda-oxideの詳しい解説は The cuda-oxide Book を、cutile-rsの詳細は cuTile Rustドキュメント を参照。"
+    }
+   ],
+   "checkedAt": 1789037882126,
+   "etag": "",
+   "hash": "709ebf050ca68212",
+   "id": "abd913128304",
+   "imageUrl": "https://gihyo.jp/assets/images/ICON/2026/3038_cuda-rust.png",
+   "key": "https://gihyo.jp/article/2026/09/cuda-rust",
+   "lastModified": "",
+   "publishedAt": 1789017240000,
+   "summary": "NVIDIAは2026年9月8日、GPU向け並列計算プラットフォームCUDAにおいてRustによる開発を可能にする「CUDA Rust」を発表した。",
+   "title": "NVIDIA、RustによるネイティブGPUプログラミングが可能となる「CUDA Rust」を発表",
+   "updatedAt": 1789037882126,
+   "url": "https://gihyo.jp/article/2026/09/cuda-rust?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/daily-linux-260901": {
    "bodyBlocks": [
@@ -4735,11 +4663,11 @@
  },
  "listing": {
   "https://gihyo.jp/feed/rss2": {
-   "checkedAt": 1789011050516,
-   "etag": "W/\"6aa21e20-7a2a0\"",
-   "lastModified": "Thu, 10 Sep 2026 03:04:00 GMT"
+   "checkedAt": 1789037883328,
+   "etag": "W/\"6aa27280-7a6ce\"",
+   "lastModified": "Thu, 10 Sep 2026 09:04:00 GMT"
   }
  },
  "siteId": "gihyo",
- "updatedAt": 1789011096226
+ "updatedAt": 1789037923872
 }
