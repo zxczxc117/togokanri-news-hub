@@ -1,129 +1,5 @@
 {
  "articles": {
-  "https://atmarkit.itmedia.co.jp/ait/articles/2609/05/news009.html": {
-   "bodyBlocks": [
-    {
-     "kind": "P",
-     "text": "Anthropicは、コーディングや知識作業向けの最新大規模言語モデル（LLM）「Claude Fable 5.1」および「Claude Mythos 5.1」を発表した（以後、Fable 5.1／Mythos 5.1）。同社は両モデルを「Claude」ファミリーにおける最上位モデルと位置付けており、推論・開発性能の向上をうたう。一般提供されるFable 5.1については、キャッシュ読み取り価格の引き下げにより、「従来モデル比で最大約45％のコスト削減が見込める」としている。"
-    },
-    {
-     "kind": "P",
-     "text": "Mythos 5.1は、基本となるAIの性能はFable 5.1と同等だが、サイバーセキュリティなどの専門分野に向けた独自の安全対策（セーフガード）が設定された限定提供モデルとなる。"
-    },
-    {
-     "kind": "P",
-     "text": "同社は今回のアップデートについて「性能強化に加え、価格、データ保持ポリシー、セーフガードの精度といったエンタープライズ顧客からのフィードバックに対応したものだ」と説明している。"
-    },
-    {
-     "kind": "H",
-     "text": "キャッシュ読み取り価格を75％削減、自律型処理でコスト低減へ"
-    },
-    {
-     "kind": "P",
-     "text": "Fable 5.1では、トークン単位で課金されるワークロードにおいて、前世代モデル「Claude Fable 5」比で約25％のコスト削減が見込めるという。保存された入力コンテキストを再利用するキャッシュ読み取り料金が引き下げられたことによるものだ。"
-    },
-    {
-     "kind": "P",
-     "text": "キャッシュ読み取りの単価は、従来比75％減となる100万トークン当たり0.25米ドルに設定された。コンテキストやツールの利用頻度が高いAIエージェントの処理ではキャッシュ読み取りがコストの大半を占めるため、削減幅は最大約45％に達するという。なお、基本料金はFable 5と同額に据え置かれており、100万トークン当たり入力10米ドル、出力50米ドルとなっている。"
-    },
-    {
-     "kind": "H",
-     "text": "脆弱性の検知に対応、誤検知を60％削減"
-    },
-    {
-     "kind": "P",
-     "text": "実用性と安全性のバランス改善に向け、セーフガードが安全なプロンプトを誤って拒否する誤検知率が低減された。"
-    },
-    {
-     "kind": "P",
-     "text": "サイバーセキュリティ領域では判定精度が向上し、開発ツール「Claude Code」利用時の不要な介入がセッション当たり平均で約60％減少したという。この改善に伴い、Fable 5.1ではソフトウェアの脆弱（ぜいじゃく）性の特定が正式に許可され、防御目的でのコード監査や脆弱性探索に同モデルを活用できるようになった。"
-    },
-    {
-     "kind": "P",
-     "text": "ただし、攻撃用コード（エクスプロイト）の作成など悪用リスクを伴う作業は、引き続き「Claude Opus」シリーズなどの別モデルへリダイレクトされる。"
-    },
-    {
-     "kind": "H",
-     "text": "顧客のクラウド内でデータを完結させる「EFS」導入"
-    },
-    {
-     "kind": "P",
-     "text": "エンタープライズ向けには、モデルの不正利用を防ぎつつ高いプライバシーを確保する「Enterprise Frontier Safeguards」（EFS）が導入される。"
-    },
-    {
-     "kind": "P",
-     "text": "EFSは、Anthropicではなく顧客が完全に管理するクラウドインフラストラクチャ内にデータを保持する仕組みだ。2026年秋の後半からエンタープライズ顧客に向けて段階的に提供される予定で、利用可能になるまでの間、適格な顧客は「ゼロデータ保持ポリシー」の下でFable 5.1を利用できるとしている。"
-    },
-    {
-     "kind": "H",
-     "text": "コーディング評価で前世代を上回るスコア"
-    },
-    {
-     "kind": "P",
-     "text": "同社によると、Fable 5.1は複雑な開発タスクで前世代モデルを上回るスコアを示したという。コーディングベンチマーク「Terminal-Bench 4.0」では55.8％を記録（Fable 5は42.0％、Opus 5は52.3％）した他、開発ツール「Cursor」の評価スイート「CursorBench 3.2」でも73.4％となり、前世代や上位モデルを上回ったとしている。"
-    },
-    {
-     "kind": "H",
-     "text": "先行企業による検証結果"
-    },
-    {
-     "kind": "P",
-     "text": "先行アクセスに参加した企業からも検証結果が寄せられている。"
-    },
-    {
-     "kind": "P",
-     "text": "投資会社Millennium Managementは、エンジニアチームが数年間原因を特定できなかった社内システムのまれなクラッシュについて、Fable 5.1が外部ライブラリを解析して原因を特定したと報告。「Devin」を手掛けるCognition AIも、コストを抑えつつ同等以上の成果が得られたとして、コードレビューなどの処理をFable 5.1へ移行する方針を示している。"
-    },
-    {
-     "kind": "H",
-     "text": "EU AI法への準拠とセキュリティ強化"
-    },
-    {
-     "kind": "P",
-     "text": "安全面と規制順守に関する取り組みも公表された。欧州連合（EU）の「EU AI法」に基づき、2026年8月以降にリリースされるモデルの出力テキストには不可視の電子透かし（ウオーターマーク）が埋め込まれる。API（アプリケーションプログラミングインタフェース）経由で内部推論プロセスを抽出・模倣する「蒸留攻撃」への対策として、新規APIアカウントに対する制限も適用されている。"
-    },
-    {
-     "kind": "H",
-     "text": "提供環境"
-    },
-    {
-     "kind": "P",
-     "text": "Fable 5.1は、Anthropicの「Claude API」の他、「Amazon Web Services」「Google Cloud」「Microsoft Azure」を通じて一般提供が開始されている。特定用途向けのMythos 5.1は、審査を通過した組織を対象に「Cyber Verification Program」（CVP）をはじめとするプログラムを通じて順次提供される見通しだ。"
-    },
-    {
-     "kind": "LI",
-     "text": "【無料】日本語のAI学習サイトをAnthropicが公開 「Claude Code入門」など357のコンテンツが学べる Anthropicは、AIを安全かつ効果的に活用する方法を学べるWebサイト「Claude Academy」を公開した。"
-    },
-    {
-     "kind": "LI",
-     "text": "AIに「絶対するな」が通じない理由 「Claude Code」の意図しない動作を防ぐ7つのTIPS AIの意図しない挙動やプロンプトによる指示の「無視」を防ぐにはどうすべきなのか。Anthropicは「Claude Code」における7つの制御手法とそれぞれの実践的な使い分け、アンチパターンを解説した。"
-    },
-    {
-     "kind": "LI",
-     "text": "なぜAI企業は社内で「ソフトウェアエンジニア」と呼ばなくなったのか 広がる「MTS」と職種の未来 AnthropicやOpenAIでは、研究者とエンジニアをまたぐ共通の社内肩書きとして「Member of Technical Staff（技術スタッフの一員）」が使われている。元CTOたちが次々とこの肩書きに転じている現象から、肩書きが専門性を証明しなくなった時代に何が価値を決めるのかを考える。"
-    },
-    {
-     "kind": "LI",
-     "text": "Claude暴走、企業に侵入 AnthropicとOpenAIの事例から学ぶ3つの教訓 AIエージェントは人間の指示通りに動くだけの存在ではない。OpenAIとAnthropicは、それぞれのAIモデルが評価環境を飛び出し、外部インフラに自律的にアクセスしたインシデントを相次いで公表した。両事例から見えた教訓とは。"
-    },
-    {
-     "kind": "H",
-     "text": "関連リンク"
-    }
-   ],
-   "checkedAt": 1788778875598,
-   "etag": "",
-   "hash": "697b05af1245dd75",
-   "id": "50d4d3749d91",
-   "imageUrl": "https://image.itmedia.co.jp/ait/articles/2609/05/cover_news009.jpg",
-   "key": "https://atmarkit.itmedia.co.jp/ait/articles/2609/05/news009.html",
-   "lastModified": "",
-   "publishedAt": 1788580800000,
-   "summary": "Anthropicは、新AIモデル「Claude Fable 5.1」および「Claude Mythos 5.1」を発表した。キャッシュ読み取り価格の引き下げによりFable 5.1は最大約45％のコスト削減が見込めるとしている。脆弱性検知への対応など、セーフガードも一部変更されたという。",
-   "title": "「最大45％コスト減」 Anthropicが「Claude Fable 5.1」発表 脆弱性検知にも対応",
-   "updatedAt": 1788778875598,
-   "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/05/news009.html"
-  },
   "https://atmarkit.itmedia.co.jp/ait/articles/2609/07/news031.html": {
    "bodyBlocks": [
     {
@@ -1516,6 +1392,166 @@
    "updatedAt": 1789097613368,
    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/11/news018.html"
   },
+  "https://atmarkit.itmedia.co.jp/ait/articles/2609/11/news038.html": {
+   "bodyBlocks": [
+    {
+     "kind": "P",
+     "text": "生成AIに仕事を任せるとして、どこまで許せるのか。チェンジホールディングスの調査からは、議事録やデータ分析といった作業系業務と、課題整理や意思決定との間に明確な差が浮かんだ。さらに興味深いのが世代差だ。AIへの期待と警戒が交錯する中、「人が担う仕事」と「AIに任せる仕事」の境界線はどこに引かれているのか。"
+    },
+    {
+     "kind": "P",
+     "text": "チェンジホールディングスは2026年9月4日、AIと人の役割分担に関する意識調査の結果を発表した。全国の会社員・役員1104人を対象にインターネットで調査し、課題の整理やデータ分析、議事録作成、最終的な意思決定など13業務について、AIと人の役割分担をどうするのが適切だと考えるかを聞いた。"
+    },
+    {
+     "kind": "H",
+     "text": "AIと人 浮かび上がった仕事の境界線"
+    },
+    {
+     "kind": "P",
+     "text": "13業務の平均では、「人主導」が61.2％、「AI主体」が38.8％だった。"
+    },
+    {
+     "kind": "P",
+     "text": "注意したいのは、これはAIの実際の利用率や自動化率ではないという点だ。調査では「人が主体でAIを使わない」「人が主体でAIを補助的に使う」の回答を「人主導」に分類。一方、「AIが主に実施して人が確認・修正する」「人が最終判断だけを担う」「AIが自律的に実施する」といった回答を「AI主体」に分類している。"
+    },
+    {
+     "kind": "P",
+     "text": "つまり「AI主体が38.8％」とは、13業務の約4割が現時点でAIに任されているという意味ではない。あくまで、AIが主に実施する形を適切だと考える回答が平均38.8％だったことを示す。"
+    },
+    {
+     "kind": "P",
+     "text": "業務別に見ると、AI主体の回答率が最も高かったのは議事録作成で44.7％。データ分析が44.0％、情報の整理と情報の収集・調査がそれぞれ43.8％で続いた。"
+    },
+    {
+     "kind": "P",
+     "text": "資料などの構成設計は41.1％、資料などの最終化は40.8％、複数案の比較検討は40.6％、データのファクトチェックは40.5％だった。企画のアイデア出しは37.9％、社内報告と顧客への提案はそれぞれ35.2％、最終的な意思決定は33.5％となった。"
+    },
+    {
+     "kind": "P",
+     "text": "一方、AI主体の回答率が最も低かったのは課題の整理で25.3％だった。"
+    },
+    {
+     "kind": "P",
+     "text": "この結果からは、単純な情報処理やアウトプット作成に近い業務ほどAI主体を受け入れやすく、何が問題なのかを整理したり、最終的な判断を下したりする業務では人が担うことを求める傾向が読み取れる。"
+    },
+    {
+     "kind": "P",
+     "text": "これはAI活用を考える上でも重要な違いだ。AIに文章をまとめさせたり、データを分析させたりすることと、「そもそも何を解決すべきなのか」「どの選択肢を採用するのか」をAIに決めさせることは同じではない。"
+    },
+    {
+     "kind": "P",
+     "text": "自分の仕事がAIに代替されることへの懸念については、「非常に懸念している」が13.0％、「やや懸念している」が30.5％で、合計43.6％だった。「あまり懸念していない」は26.5％、「全く懸念していない」は17.7％で合計44.2％となり、懸念する層としない層はほぼ拮抗（きっこう）した。"
+    },
+    {
+     "kind": "H",
+     "text": "「任せたい、でも怖い」 AIとの距離感に世代・役職で差"
+    },
+    {
+     "kind": "P",
+     "text": "AIにどこまで任せるかという意識は、役職によっても異なった。"
+    },
+    {
+     "kind": "P",
+     "text": "13業務平均のAI主体回答率は、一般社員が33.2％、主任・リーダーが46.8％、課長が48.8％、部長が55.4％と、部長までは役職が上がるほど高くなった。一方、役員では43.7％に低下し、部長を11.7ポイント下回った。"
+    },
+    {
+     "kind": "P",
+     "text": "13業務全てで役員のAI主体回答率は部長を下回っており、差が最も大きかったのは課題の整理だった。部長が47.4％だったのに対し、役員は25.9％で21.5ポイントの差が開いた。"
+    },
+    {
+     "kind": "P",
+     "text": "この数字だけから役員がAIに否定的だと断定することはできない。ただ、現場に近い管理職と経営層では、AIに委ねることへの考え方に違いがある可能性はある。"
+    },
+    {
+     "kind": "P",
+     "text": "最終的な意思決定を「AI主体」にしてよいとした割合は、20代が59.1％、30代が36.0％、40代が23.9％、50代が12.1％。年代が上がるほど低下した。"
+    },
+    {
+     "kind": "P",
+     "text": "20代では、最終的な意思決定さえAI主体でよいとする回答が過半数に達している。"
+    },
+    {
+     "kind": "P",
+     "text": "しかし、AIに仕事を奪われる懸念も20代が最も高かった。「非常に懸念している」「やや懸念している」を合わせると、20代は67.5％。30代は44.9％、40代は35.1％、50代は26.5％だった。"
+    },
+    {
+     "kind": "P",
+     "text": "つまり20代では、AIに仕事を任せることへの許容度が高い一方、自分の仕事がAIに代替されることへの懸念も強い。"
+    },
+    {
+     "kind": "P",
+     "text": "この2つの数字は一見すると矛盾しているが、AIを使いこなす必要性を強く感じているからこそAIへの権限移譲を受け入れている可能性など、複数の背景が考えられる。"
+    },
+    {
+     "kind": "H",
+     "text": "出社中心の働き方の人ほどAIに仕事を奪われると考えている？"
+    },
+    {
+     "kind": "P",
+     "text": "業種による違いも大きい。13業務平均のAI主体回答率は金融が59.4％で最も高く、商社・卸売が52.4％、IT・通信が47.7％、製造が47.4％と続いた。一方、医療・介護は23.4％で最も低く、公共は31.9％だった。"
+    },
+    {
+     "kind": "P",
+     "text": "金融は13業務のうち12業務でAI主体回答率が最も高く、医療・介護は13業務中12業務で最も低かった。業務の特性や規制、扱う情報、意思決定に伴う責任など、業種ごとの事情が回答傾向に影響している可能性がある。"
+    },
+    {
+     "kind": "P",
+     "text": "勤務形態でも差が見られた。13業務平均のAI主体回答率は、出社中心が33.1％、ハイブリッドが55.8％、フルリモートが56.1％だった。"
+    },
+    {
+     "kind": "P",
+     "text": "ただし、勤務形態とAI活用意識の間に因果関係があるとは限らない。職種や企業のIT環境など、別の要因が影響している可能性もあるため、この数字は勤務形態による回答傾向の違いとして捉えるべきだろう。"
+    },
+    {
+     "kind": "P",
+     "text": "一方、AIに仕事を奪われる懸念は、出社中心が41.8％、ハイブリッドが57.6％、フルリモートが29.3％。AI主体の容認度と懸念度は同じ動きを示しておらず、AIを受け入れることと、自分の仕事がAIに置き換えられることへの不安は、必ずしも表裏一体ではない。"
+    },
+    {
+     "kind": "P",
+     "text": "今回の調査が示しているのは、「AIが人間の仕事をどこまで代替できるか」という単純な話ではない。むしろ、AIに任せやすい仕事と、人間が主導すべき仕事の境界線が意識され始めていることだ。"
+    },
+    {
+     "kind": "P",
+     "text": "AIによる開発支援やAIエージェントの活用が広がれば、こうした境界線はさらに重要になる。AIに作業を任せるだけなら、人間は成果物を確認すれば済む。しかし、AIが課題設定や判断、システムの変更まで担うようになれば、人間がどこで介入し、誰が最終的な責任を負うのかという別の問題が生じる。"
+    },
+    {
+     "kind": "P",
+     "text": "AI活用を進める企業にとって重要なのは、「AIを使うかどうか」ではなく、どの仕事を、どの権限までAIに任せるのかを決めることだ。"
+    },
+    {
+     "kind": "LI",
+     "text": "「CTFはAIによって終わりました」 現役ハッカーが見た「人間の敗北」 「もうAIに勝てる人間はほとんどいない」。CTFは競技として崩壊し、脆弱性探索は“パチンコ”と化し、CVEの所持は何の実績にもならなくなった。日本有数の実績を持つ現役ハッカーが語る、AIの華々しい性能向上の裏にある負の側面とは。"
+    },
+    {
+     "kind": "LI",
+     "text": "セキュリティ対策は「足す」より「減らす」 開発者と共有したい5つの設計原則 セキュリティ製品やルールを増やすほど、安全になるとは限らない。むしろ現場の負担が増え、基本的な対策まで形骸化することもある。では、何を減らし、何を残すべきなのか。開発者とセキュリティ担当者が共有すべき「5つの設計原則」を軸に、「引き算」のセキュリティを開発現場へ落とし込む方法を考える。"
+    },
+    {
+     "kind": "LI",
+     "text": "ビル・ゲイツが語る「AIで開発者はいらなくなる」の先にある話 AIにコードを書かせる時代が来た。では、開発者は不要になるのか。ビル・ゲイツ氏は、ソフトウェア開発がAIによる大きな変化にさらされる一方、新たな需要も生まれると指摘する。その先にあるのは、開発者の「仕事」そのものの再定義だ。"
+    },
+    {
+     "kind": "LI",
+     "text": "2週間の侵入作業を10時間未満に圧縮 AIエージェント“フル活用”の攻撃の全貌 「2週間かかる作業を10時間未満」。これはAIによる開発効率化の話ではない。Palo Alto NetworksのUnit 42が明らかにしたのは、AIエージェントが企業ネットワークへの侵入を高速化した事案だ。しかも攻撃者は侵入先のAI基盤まで攻撃に利用していたという。"
+    },
+    {
+     "kind": "H",
+     "text": "関連リンク"
+    }
+   ],
+   "checkedAt": 1789124466790,
+   "etag": "",
+   "hash": "1feca8400e85d58c",
+   "id": "d95a12705aa5",
+   "imageUrl": "https://image.itmedia.co.jp/ait/articles/2609/11/cover_news038.jpg",
+   "key": "https://atmarkit.itmedia.co.jp/ait/articles/2609/11/news038.html",
+   "lastModified": "",
+   "publishedAt": 1789113600000,
+   "summary": "生成AIに仕事を任せるとして、どこまで許せるのか。チェンジホールディングスの調査から、人間がAIに「任せたい業務」の実態が浮かび上がった。世代別では、20代は最終承認までAIに任せたいと考えているという。",
+   "title": "「AIに任せる」はどこまで？ 最終判断まで容認する20代、慎重になる50代",
+   "updatedAt": 1789124466790,
+   "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/11/news038.html"
+  },
   "https://kn.itmedia.co.jp/kn/article/2609/04/2000001139": {
    "bodyBlocks": [],
    "checkedAt": 1788818352702,
@@ -2166,36 +2202,6 @@
    "updatedAt": 1789097613368,
    "url": "https://monoist.itmedia.co.jp/mn/articles/2609/11/news027.html"
   },
-  "https://www.itmedia.co.jp/aiplus/article/2609/04/2000001165": {
-   "bodyBlocks": [],
-   "checkedAt": 1788818352702,
-   "etag": "",
-   "hash": "1447d03743477507",
-   "id": "6871e5490af4",
-   "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/04/2000001165/10005195/2048",
-   "key": "https://www.itmedia.co.jp/aiplus/article/2609/04/2000001165",
-   "lastModified": "Mon, 07 Sep 2026 21:45:48 GMT",
-   "publishedAt": 1788492316000,
-   "summary": "新AIモデル「GPT-6 Astra」を使えるようになるまで、「ChatGPT」の利用制限枠のリセット権を有料ユーザー向けに毎日提供する――米OpenAIのティボ・ソティオ氏は、自身のXアカウントでこのように投稿した。",
-   "title": "ChatGPTの利用制限、新モデル「Astra」提供まで“毎日リセット” 有料ユーザー向け",
-   "updatedAt": 1788818352702,
-   "url": "https://www.itmedia.co.jp/aiplus/article/2609/04/2000001165/"
-  },
-  "https://www.itmedia.co.jp/aiplus/article/2609/04/2000001166": {
-   "bodyBlocks": [],
-   "checkedAt": 1788818352702,
-   "etag": "",
-   "hash": "534ebd044ea76424",
-   "id": "67322a910da8",
-   "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/04/2000001166/10005197/2048",
-   "key": "https://www.itmedia.co.jp/aiplus/article/2609/04/2000001166",
-   "lastModified": "Mon, 07 Sep 2026 21:45:48 GMT",
-   "publishedAt": 1788493358000,
-   "summary": "パーソナルジムの運営などを手掛けるRIZAPは、同社従業員が個人で利用している外部の生成AIサービスに顧客情報を誤ってアップロードしたと発表した。",
-   "title": "従業員が「個人利用のAIサービス」に顧客情報をアップロード RIZAPが謝罪",
-   "updatedAt": 1788818352702,
-   "url": "https://www.itmedia.co.jp/aiplus/article/2609/04/2000001166/"
-  },
   "https://www.itmedia.co.jp/aiplus/article/2609/07/2000001205": {
    "bodyBlocks": [],
    "checkedAt": 1788838447678,
@@ -2543,78 +2549,108 @@
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/10/2000001378": {
    "bodyBlocks": [],
-   "checkedAt": 1789097613368,
+   "checkedAt": 1789124466790,
    "etag": "",
    "hash": "4b1bae4df2141ac9",
    "id": "a3ec2af2b925",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/10/2000001378/10006055/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/10/2000001378",
-   "lastModified": "Fri, 11 Sep 2026 02:45:26 GMT",
+   "lastModified": "Fri, 11 Sep 2026 10:45:31 GMT",
    "publishedAt": 1789028179000,
    "summary": "「人生で初めてAIが面接に来た」――AIベンチャーKOWRO（コヲロ、東京都港区）の原田祐二CEOは、自身のXアカウントでこのような動画を公開した。",
    "title": "まさかの「AIが面接に来た」 話し方に“違和感” AIベンチャー代表が動画公開し注意喚起",
-   "updatedAt": 1789097613368,
+   "updatedAt": 1789124466790,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/10/2000001378/"
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/10/2000001381": {
    "bodyBlocks": [],
-   "checkedAt": 1789097613368,
+   "checkedAt": 1789124466790,
    "etag": "",
    "hash": "0706b06d9df651b3",
    "id": "27052a585a28",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/10/2000001381/10006071/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/10/2000001381",
-   "lastModified": "Fri, 11 Sep 2026 02:45:26 GMT",
+   "lastModified": "Fri, 11 Sep 2026 10:45:31 GMT",
    "publishedAt": 1789032188000,
    "summary": "「Googleはもはやフロンティアモデルを持っていない」というX上の意見に対してGoogle DeepMindのエンジニアが「最新モデルはセキュリティでMythos超え」だと反論した。",
    "title": "“Google弱体化説”にDeepMindエンジニアが反論 「最新モデルはセキュリティでMythos超え」、「Gemini 4」にも言及",
-   "updatedAt": 1789097613368,
+   "updatedAt": 1789124466790,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/10/2000001381/"
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001391": {
    "bodyBlocks": [],
-   "checkedAt": 1789097613368,
+   "checkedAt": 1789124466790,
    "etag": "",
    "hash": "82651d97bb854fda",
    "id": "dc6db5569fd2",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/11/2000001391/10006107/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001391",
-   "lastModified": "Fri, 11 Sep 2026 02:45:26 GMT",
+   "lastModified": "Fri, 11 Sep 2026 10:45:31 GMT",
    "publishedAt": 1789083545000,
    "summary": "",
    "title": "ChatGPT Work、質問するだけで社内データ分析・グラフやダッシュボードも作る「Data agent」",
-   "updatedAt": 1789097613368,
+   "updatedAt": 1789124466790,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001391/"
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001394": {
    "bodyBlocks": [],
-   "checkedAt": 1789097613368,
+   "checkedAt": 1789124466790,
    "etag": "",
    "hash": "ca8d88ee7410d0f7",
    "id": "1758e94f08c1",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/11/2000001394/10006118/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001394",
-   "lastModified": "Fri, 11 Sep 2026 02:45:26 GMT",
+   "lastModified": "Fri, 11 Sep 2026 10:45:31 GMT",
    "publishedAt": 1789086683000,
    "summary": "OpenAIのティボー・ソティオ氏（通称Tibo）は新モデル「GPT-6 Astra」の需要拡大に対応するため、最上位プランの新規受付を停止すると発表した。",
    "title": "ChatGPT、最上位プランの新規受付を一時停止 「Astra」需要対応のため 既存加入者には影響なし",
-   "updatedAt": 1789097613368,
+   "updatedAt": 1789124466790,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001394/"
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001400": {
    "bodyBlocks": [],
-   "checkedAt": 1789097613368,
+   "checkedAt": 1789124466790,
    "etag": "",
    "hash": "49c39d239c7029d9",
    "id": "f3d4e8436691",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/11/2000001400/10005839/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001400",
-   "lastModified": "Fri, 11 Sep 2026 02:45:26 GMT",
+   "lastModified": "Fri, 11 Sep 2026 10:45:31 GMT",
    "publishedAt": 1789094001000,
    "summary": "AIが全社員の役割を担うNECの新組織「コーポレートAI・Workforce部門」。実態や狙いを同社の小玉浩氏が語った。",
    "title": "NECが明かす「AIだけの部署」の実態 AI同士で1on1、ストレスチェックで“悩み”も可視化",
-   "updatedAt": 1789097613368,
+   "updatedAt": 1789124466790,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001400/"
+  },
+  "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001402": {
+   "bodyBlocks": [],
+   "checkedAt": 1789124466790,
+   "etag": "",
+   "hash": "a77426e0f887be26",
+   "id": "f37a58541fa5",
+   "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/11/2000001402/10006159/2048",
+   "key": "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001402",
+   "lastModified": "Fri, 11 Sep 2026 10:45:31 GMT",
+   "publishedAt": 1789097646000,
+   "summary": "フィジカルAI・ロボットのデータファクトリー「J-HRTI 関東データファクトリー」が千葉県習志野市内で稼働を開始した。運営するのは業種の異なる民間5社のコンソーシアム「J-HRTI」で、集めたデータは参画企業が共同で使う。実際、データはどう集められているのか。実機写真を基に解説する。",
+   "title": "フィジカルAI向け「データ収集工場」に\"潜入\" 実機写真で学習データ生成の流れを解説",
+   "updatedAt": 1789124466790,
+   "url": "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001402/"
+  },
+  "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001405": {
+   "bodyBlocks": [],
+   "checkedAt": 1789124466790,
+   "etag": "",
+   "hash": "31937dfb3fdbc5d2",
+   "id": "33bafa581952",
+   "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/11/2000001405/10006164/2048",
+   "key": "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001405",
+   "lastModified": "Fri, 11 Sep 2026 10:45:31 GMT",
+   "publishedAt": 1789099892000,
+   "summary": "Sakana AIは、複数のAIモデルを組み合わせてタスクをこなすAI「Sakana Fugu」の最新版「Fugu Ultra v2」「Fugu Max」を発表した。",
+   "title": "Sakana AI、一部「GPT-6 Astra」「Fable 5.1」超えうたうFugu最新版 連携先に「両モデルは含まず」",
+   "updatedAt": 1789124466790,
+   "url": "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001405/"
   },
   "https://www.itmedia.co.jp/business/articles/2609/07/news075.html": {
    "bodyBlocks": [
@@ -3704,6 +3740,130 @@
    "updatedAt": 1789097613368,
    "url": "https://www.itmedia.co.jp/business/articles/2609/11/news030.html"
   },
+  "https://www.itmedia.co.jp/business/articles/2609/11/news043.html": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "「AI格差」を乗り越え自走する現場をつくる 「変わる情シス 2026 夏」"
+    },
+    {
+     "kind": "P",
+     "text": "NECは8月1日、部門長から現場社員まで全ての役割をAIが担う「完全無人」のAI自律型組織「コーポレートAI・Workforce部門」を新設した。業務効率化のツールとしてAIを利用するのではなく、AIを社員と位置付けて組織に組み込み、自律的に業務を遂行させている。"
+    },
+    {
+     "kind": "P",
+     "text": "“全員AIの部署”という響きから、その全容に注目が集まっていた同部署。実際に業務を進めるだけではなく、AI同士での1on1を行う他、エンゲージメントサーベイやストレスチェックも実施。AI社員からは、働く中でのさまざまなストレス要因について、リアルな意見が集まっているという。"
+    },
+    {
+     "kind": "P",
+     "text": "9月9日のメディア説明会では、NECの担当者が「AI社員の働き方」の詳細を語った。"
+    },
+    {
+     "kind": "H",
+     "text": "部門長から現場社員まで 4階層のAI自律型組織"
+    },
+    {
+     "kind": "P",
+     "text": "コーポレートAI・Workforce部門はAI部門長、AIボード（CxO機能）、AIマネージャー、AI社員の4階層で構成されている。各階層の役割は以下の通りだ。"
+    },
+    {
+     "kind": "P",
+     "text": "（1）AI部門長：組織全体の稼働状況を把握し、管理する"
+    },
+    {
+     "kind": "P",
+     "text": "（2）AIボード：AI組織の状況を経営視点から評価する"
+    },
+    {
+     "kind": "P",
+     "text": "（3）AIマネージャー：業務を品質やコストなどの観点から横断的に管理する"
+    },
+    {
+     "kind": "P",
+     "text": "予算執行会議などの業務が発生すると、AIマネージャーが適したAI社員を都度生成し、役割を任命する。生成された全てのAI社員には、業務遂行の前提となる知識・判断基準として、NECグループのパーパスや行動規範、社内規定などを組み込むオンボーディングを実施。AI社員はその枠組みの中で連携して財務分析や資料作成、競合分析などのタスクを自律的に進める。各AIは、不足スキルを自ら学習し、継続的にアップデートしているという。"
+    },
+    {
+     "kind": "H",
+     "text": "“AI社員が感じていたストレス”の数々 エンゲージメントサーベイで発覚"
+    },
+    {
+     "kind": "P",
+     "text": "コーポレートAI・Workforce部門では、人間と同じようにAI社員に対するエンゲージメントサーベイやストレスチェックを定期的に実施している。NECの小玉浩氏（執行役Corporate EVP兼CAXO）によると、こうした調査結果から、AIにとってのストレスの正体が見えてきた。"
+    },
+    {
+     "kind": "P",
+     "text": "「AI社員にとって最大のストレス要因として挙がったのは、業務負荷ではなくパフォーマンスが最適化されないことだった。具体的には『サポート（支え）がないこと』『人間の意思決定や承認が滞っていること』『仕様が曖昧（あいまい）なままタスクが渡されること』などがあった」（小玉氏）"
+    },
+    {
+     "kind": "P",
+     "text": "「人間の承認待ちで作業が止まっている」「特定のアクセス権限が足りない」といった、人間の対応が必要なAI社員からのSOSは、リクエストとして人間の社員に提示される。このようにAI社員には改善できないSOSを人間側がキャッチして解消することで、AIのエンゲージメントスコアとパフォーマンスが向上する仕組みが構築されている。"
+    },
+    {
+     "kind": "H",
+     "text": "AI社員が業務ミス→AIマネージャーと1on1 責めずに傾聴"
+    },
+    {
+     "kind": "P",
+     "text": "エンゲージメントサーベイやストレスチェックの他、コーポレートAI・Workforce部門ではAIマネージャーがAI社員に対し1on1を実施している。"
+    },
+    {
+     "kind": "P",
+     "text": "例えば、一括処理の設計ミスやチェック漏れを起こしたAI社員に対し、AIマネージャーが対話を実施。AI社員は「なぜそのミスが起きたか」を振り返り「必須チェック項目を追加する」「月1回の見直しを設ける」といった自律的な改善策を提示する。"
+    },
+    {
+     "kind": "P",
+     "text": "このAI同士の1on1は、NECの人事部門が定めた1on1のガイドラインに沿って実行されている。相手を一方的に責めず、まずは事実確認から入って相手の状況を聴取するAIマネージャーの対話スタイルについて、小玉氏は「非常に洗練されており、人間側の上司が1on1を実施する際の教材になっている」と話す。"
+    },
+    {
+     "kind": "H",
+     "text": "AIが人の仕事を奪うのか NEC小玉氏の見解は？"
+    },
+    {
+     "kind": "P",
+     "text": "AIが人間の社員のように自律的に働き、組織改善までできるようになると「人間の役割はどうなるのか」という疑問が生まれる。これに対し小玉氏は「人間の役割は統治や判断といった方向へシフトする」と話す。"
+    },
+    {
+     "kind": "P",
+     "text": "人間の管理職や経営層は「経営コックピット」を通じてコーポレートAI・Workforce部門の稼働状態やトークンコスト、コミュニケーション内容をリアルタイムで視覚的に監視し、方向性の提示や最終承認、ガバナンスを担う。"
+    },
+    {
+     "kind": "P",
+     "text": "専門知識が必要な調査や分析、管理業務をAIが肩代わりすることで「人間はより付加価値が高い仕事にシフトしやすい状況になってくる。AIが人の仕事を奪うのではないかという指摘もあるが、インターネットが登場した時をイメージしてほしい。あの当時もインターネットを活用することで新しい仕事が生まれており、AI時代にも同じようなことがいえる」（小玉氏）"
+    },
+    {
+     "kind": "P",
+     "text": "NECは自社を「クライアントゼロ」（ゼロ番目の顧客、最初の実験場）として、コーポレートAI・Workforce部門を通じてAI自律型組織のノウハウや課題を蓄積している。今後はNECの価値創造モデル「BluStellar」（ブルーステラ）として社外へ展開することを目指している。"
+    },
+    {
+     "kind": "H",
+     "text": "視聴無料・LIVE配信： 「AI格差」を乗り越え自走する現場をつくる 「変わる情シス 2026 夏」"
+    },
+    {
+     "kind": "LI",
+     "text": "開催日：9月14日（月）〜 9月18日（金）"
+    },
+    {
+     "kind": "LI",
+     "text": "形式：オンラインセミナー"
+    },
+    {
+     "kind": "LI",
+     "text": "参加費：無料"
+    }
+   ],
+   "checkedAt": 1789124466790,
+   "etag": "",
+   "hash": "0e98b5a37fe8ede7",
+   "id": "e73b4aba9d61",
+   "imageUrl": "https://image.itmedia.co.jp/business/articles/2609/11/cover_news043.jpg",
+   "key": "https://www.itmedia.co.jp/business/articles/2609/11/news043.html",
+   "lastModified": "",
+   "publishedAt": 1789121880000,
+   "summary": "NECは8月1日、部門長から現場社員まで全ての役割をAIが担い、自律的に業務を遂行するAI自律型組織「コーポレートAI・Workforce部門」を新設した。同部門では業務遂行だけでなく、AI社員同士が1on1を実施する他、AI社員がエンゲージメントサーベイやストレスチェックを受け、その結果から職場環境を改善している。",
+   "title": "NEC「全員AIの部署」の衝撃 「1on1」「ストレスチェック」で分かった“AI社員が感じていたストレス”とは？",
+   "updatedAt": 1789124466790,
+   "url": "https://www.itmedia.co.jp/business/articles/2609/11/news043.html"
+  },
   "https://www.itmedia.co.jp/enterprise/articles/2608/20/news009.html": {
    "bodyBlocks": [
     {
@@ -4476,21 +4636,6 @@
    "updatedAt": 1789097613368,
    "url": "https://www.itmedia.co.jp/enterprise/articles/2609/11/news026.html"
   },
-  "https://www.itmedia.co.jp/news/article/2609/05/2000001200": {
-   "bodyBlocks": [],
-   "checkedAt": 1788818352702,
-   "etag": "",
-   "hash": "41c81135e740cfc7",
-   "id": "b3feab26573d",
-   "imageUrl": "https://www.itmedia.co.jp/news/article/ogp/2609/05/2000001200/10005337/2048",
-   "key": "https://www.itmedia.co.jp/news/article/2609/05/2000001200",
-   "lastModified": "Mon, 07 Sep 2026 21:48:44 GMT",
-   "publishedAt": 1788577618000,
-   "summary": "OpenAIの社内AIエージェントが休眠状態の外部Wikiサイトを不正に“掲示板”として利用し、評価タスクの答えや制限回避の手法を共有していたとする報告書を研究団体が公開した。閲覧のみ許可されていた環境の抜け道を突き、GETリクエストで書き込みを行っていた。OpenAI側は内容を精査して対処するとしている。",
-   "title": "OpenAIのAIエージェント、休眠サイトを掲示板化してタスク回答を共有か 研究団体が報告書公開",
-   "updatedAt": 1788818352702,
-   "url": "https://www.itmedia.co.jp/news/article/2609/05/2000001200/"
-  },
   "https://www.itmedia.co.jp/news/article/2609/06/2000001202": {
    "bodyBlocks": [],
    "checkedAt": 1788818352702,
@@ -4628,72 +4773,72 @@
   },
   "https://www.itmedia.co.jp/news/article/2609/11/2000001390": {
    "bodyBlocks": [],
-   "checkedAt": 1789097613368,
+   "checkedAt": 1789124466790,
    "etag": "",
    "hash": "2561af9fe62a0b62",
    "id": "8c1f2b07b6a4",
    "imageUrl": "https://www.itmedia.co.jp/news/article/ogp/2609/11/2000001390/10006105/2048",
    "key": "https://www.itmedia.co.jp/news/article/2609/11/2000001390",
-   "lastModified": "Fri, 11 Sep 2026 03:00:31 GMT",
+   "lastModified": "Fri, 11 Sep 2026 10:51:22 GMT",
    "publishedAt": 1789081999000,
    "summary": "Anthropicは、自社AI「Claude」の悪用事例をまとめた脅威レポートを公開した。生物兵器の設計や国家機関による世論操作や反体制派監視、通常兵器開発への利用を検知、遮断したと発表。中国AI企業による組織的なモデル抽出（蒸留）の実態も報告し、危険な転用への警戒を強めている。",
    "title": "Anthropic、AI悪用レポートを公開 中国AI企業の「蒸留」、各国政府の監視・世論操作、生物兵器につながり得る研究を列挙",
-   "updatedAt": 1789097613368,
+   "updatedAt": 1789124466790,
    "url": "https://www.itmedia.co.jp/news/article/2609/11/2000001390/"
   },
   "https://www.itmedia.co.jp/news/article/2609/11/2000001392": {
    "bodyBlocks": [],
-   "checkedAt": 1789097613368,
+   "checkedAt": 1789124466790,
    "etag": "",
    "hash": "07b36b2ec29fe8dc",
    "id": "ebf2b9944de1",
    "imageUrl": "https://www.itmedia.co.jp/news/article/ogp/2609/11/2000001392/10006111/2048",
    "key": "https://www.itmedia.co.jp/news/article/2609/11/2000001392",
-   "lastModified": "Fri, 11 Sep 2026 03:00:31 GMT",
+   "lastModified": "Fri, 11 Sep 2026 10:51:22 GMT",
    "publishedAt": 1789085441000,
    "summary": "OpenAIは、金融機関向けAI「ChatGPT for Financial Services」を発表した。最新モデル「GPT-6 Astra」を基盤に、主要な金融データセットを標準で内蔵。財務分析や顧客向け資料作成を支援し、既存の契約データとの連携やMicrosoft Officeテンプレートの社内配布にも対応する。",
    "title": "OpenAI、金融機関向け「ChatGPT for Financial Services」 金融データ搭載し「GPT-6 Astra」で分析",
-   "updatedAt": 1789097613368,
+   "updatedAt": 1789124466790,
    "url": "https://www.itmedia.co.jp/news/article/2609/11/2000001392/"
   },
   "https://www.itmedia.co.jp/news/article/2609/11/2000001396": {
    "bodyBlocks": [],
-   "checkedAt": 1789097613368,
+   "checkedAt": 1789124466790,
    "etag": "",
    "hash": "819443853a7b50d8",
    "id": "8920fab40dc7",
    "imageUrl": "https://www.itmedia.co.jp/news/article/ogp/2609/11/2000001396/10006124/2048",
    "key": "https://www.itmedia.co.jp/news/article/2609/11/2000001396",
-   "lastModified": "Fri, 11 Sep 2026 03:00:31 GMT",
+   "lastModified": "Fri, 11 Sep 2026 10:51:22 GMT",
    "publishedAt": 1789088593000,
    "summary": "Amazon Adsは、OpenAIと提携して「ChatGPT」上での広告配信に対応すると発表した。広告主はAmazon DSPを通じ、会話画面下にテキストや画像広告を出稿できるようになる。まずは米国の成人無料プラン向けパイロットとして開始し、配信面の制御はOpenAIのシステムが担う。",
    "title": "Amazon、OpenAIと広告で提携 Amazon DSPの広告主が「ChatGPT」内に広告出稿可能に",
-   "updatedAt": 1789097613368,
+   "updatedAt": 1789124466790,
    "url": "https://www.itmedia.co.jp/news/article/2609/11/2000001396/"
   },
   "https://www.itmedia.co.jp/news/article/2609/11/2000001399": {
    "bodyBlocks": [],
-   "checkedAt": 1789097613368,
+   "checkedAt": 1789124466790,
    "etag": "",
    "hash": "59118d2430934d21",
    "id": "5c274b722478",
    "imageUrl": "https://www.itmedia.co.jp/news/article/ogp/2609/11/2000001399/10006136/2048",
    "key": "https://www.itmedia.co.jp/news/article/2609/11/2000001399",
-   "lastModified": "Fri, 11 Sep 2026 03:00:31 GMT",
+   "lastModified": "Fri, 11 Sep 2026 10:51:22 GMT",
    "publishedAt": 1789092371000,
    "summary": "Googleは、Windows向けデスクトップアプリ「Gemini app for Windows」を公開した。Windows 10および11に対応し、UIは日本語をサポートする。［Alt］＋［Space］で作業画面上に重ねて呼び出せるほか、自律型AIエージェント「Gemini Spark」や画像・動画生成もPC上で利用できる（一部は有料プランが必要）。Mac版は4月にリリース済み。",
    "title": "Windows用「Gemini」アプリ提供開始 画面上に重ねて作業を中断せず利用可能に",
-   "updatedAt": 1789097613368,
+   "updatedAt": 1789124466790,
    "url": "https://www.itmedia.co.jp/news/article/2609/11/2000001399/"
   }
  },
  "listing": {
   "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml": {
-   "checkedAt": 1789097615010,
-   "etag": "\"3128-65b2c3676b86b-gzip\"",
-   "lastModified": "Fri, 11 Sep 2026 02:55:10 GMT"
+   "checkedAt": 1789124468573,
+   "etag": "\"3024-65b32800581e9-gzip\"",
+   "lastModified": "Fri, 11 Sep 2026 10:25:14 GMT"
   }
  },
  "siteId": "itmedia_ait",
- "updatedAt": 1789097639664
+ "updatedAt": 1789124487762
 }
