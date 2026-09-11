@@ -1,97 +1,5 @@
 {
  "articles": {
-  "https://gihyo.jp/admin/clip/01/ubuntu-topics/202608/28": {
-   "bodyBlocks": [
-    {
-     "kind": "H",
-     "text": "stonking （Ubuntu 26. 10） の開発; Feature Freezeとその周辺"
-    },
-    {
-     "kind": "P",
-     "text": "stonkingは Feature Freezeの時期 に入り、 品質向上のための時間が開始されました。"
-    },
-    {
-     "kind": "P",
-     "text": "とはいえこれまでの流れから予想されたとおり、 OpenSSL 4系への対応が継続して進められ ている状況で、 まだまだ 「安定した」 姿とは言いにくい状態です。7月末に出てくるはずだったSnapshotは、 どうもこのまま忘れられることになりそうです。"
-    },
-    {
-     "kind": "P",
-     "text": "これ以外にも Golang 1. 27への移行に伴う各種対応 や LLVM 22のデフォルト化 、 26. 04からアップグレードするとデスクトップのアイコンが消失する 問題など、 FFe （Feature Freeze exception） を伴う作業が大量に残っており、 Ubuntuのいつもの姿、 つまり 「Feature Freezeされていても 『例外的』 な対応が行われることで （小さいとはいえ） 仕様が変動していく」 という光景が展開されています。この流れは多くの場合UI Freezeまで続くため、 9月10日頃 まではアグレッシブな変化が続くことになるでしょう。"
-    },
-    {
-     "kind": "H",
-     "text": "26. 04. 1の準備"
-    },
-    {
-     "kind": "P",
-     "text": "stonkingの開発と並行して、 26. 04 LTSの最初のポイントリリース、 26. 04. 1の準備 が進められています。 SRU Freeze と8月24日週のリリースが宣言されており、 resolute （26. 04） のリリースポケットは一時的にフリーズ状態となっています。"
-    },
-    {
-     "kind": "P",
-     "text": "現状ではパッケージ的には致命的な問題は見つかっておらず、 すべてが無事に進めば26. 04. 1が間もなくリリースされることになるでしょう。ただし、 リリースのためのインフラストラクチャー側はいろいろな問題が起きているため、 スリップする可能性もゼロではありません。"
-    },
-    {
-     "kind": "H",
-     "text": "Arduino VENTUNO Q"
-    },
-    {
-     "kind": "P",
-     "text": "3月にプレスリリースで予告されていた 、 Arduino VENTUNO Qの 予約の開始がアナウンス されています （Arduinoからの リリースに関する記事はこちら ⁠ ） ⁠。価格は299USDです。"
-    },
-    {
-     "kind": "P",
-     "text": "UbuntuとZephyr RTOSがプリインストールされています。Canonicalによるプレスリリースでは、 組み込みボードでよく発生する 「BSP （Board Support Package） を適用したLinuxカーネルを適切に設定し、 各種ドライバーを準備し……」 といった作業なく動作することがアピールされています。"
-    },
-    {
-     "kind": "P",
-     "text": "このボードはQualcomm Dragonwing IQ-8275 （Linux用） とSTMicroelectronics STM32H5 （RTOS用） の2種類のプロセッサーと16GBメモリ、 64GB上限のeMMCストレージを搭載しており、 「 ⁠IQ-8275側で普通にUbuntuが動く」 環境です。ここでArduino AppLabを動かすことで各種プログラムを設定し、 リアルタイム制御のたぐいはSTM32H5側で動作するZephyr RTOS上で行うことができます。OS間はRPCで連携します。"
-    },
-    {
-     "kind": "P",
-     "text": "プロダクト的にはこの構成について 『デュアルブレイン』 （ ⁠dual-brain） と表現しており、 IQ-8275側を 「AIブレイン⁠ 」 ⁠、 STM32H5側を 「アクションブレイン」 と位置付け、 異なる性質のプロセッサーが組み合わさることで柔軟性と1ミリ秒以下のリアルタイム応答性を両立させていることが アピールされて います。またROS 2もサポートしており、 ロボティクス用途にも利用できます。"
-    },
-    {
-     "kind": "P",
-     "text": "「AIブレイン」 側のIQ-8275は組み込み向けとしては非常にパワフルな8コアCPU・ 40 TOPSのNPUを持っており、 Qwen 4やGemma 4をローカルで動作させることができる、 とされています。LLM以外にもVLM （Visual Language Model） やマルチカメラ経由のコンピュータービジョン、 スピーチ処理などが可能です。LLM・ VLMモデル等はHugging Face、 Qualcomm AI Hub、 Edge Impulseなどからダウンロードできます。"
-    },
-    {
-     "kind": "P",
-     "text": "ボード上には3つのMIPI CSIインターフェースによって複数台のカメラを接続することもでき、 さらに必要に応じてNVMe経由でストレージを、 またArduino UNOシールドやRaspbperry Pi向けのハット、 Arduino Modulino用のQwiicコネクター経由でI/ Oを追加することもできます。"
-    },
-    {
-     "kind": "P",
-     "text": "また、 Works with Arduino プログラム [1] により、 他のSOM （System on Module） でも同じアプリケーションが動作することが期待できます。プロトタイプ的なものをこのボードで作成し、 量産時にはよりフィールドに適した別のボードへ切り替える、 といった柔軟な計画ができることを意味します。"
-    },
-    {
-     "kind": "P",
-     "text": "開発者体験としては 「普通に動くUbuntuにSTMicroのリアルタイムプロセッサーが付いている」 「 ⁠しかもそれがフィールドでそのまま動作する」 という形になるので、 「 ⁠ひそかにUbuntuが動いているロボットやIoTデバイス」 が増えていくことになるでしょう。"
-    },
-    {
-     "kind": "H",
-     "text": "その他のニュース"
-    },
-    {
-     "kind": "LI",
-     "text": "Charmed HPCプロジェクトの一環として、 LustreのCharm が開発されていることが報告されています。現状では 自動チューニングやブロックデバイス検出などは実装されていない ものの、 大規模なストレージを要求する用途では簡易セットアップのために利用できるでしょう。"
-    },
-    {
-     "kind": "LI",
-     "text": "SQL Server on Azure構成における便利なエージェント、 SqlIaasExtension が Azure上のUbuntu・ Ubuntu Proに対応する ようになりました。ライセンス数の確認やポータルからの一括管理、 自動バックアップや修正の自動適用など、 さまざまな操作が行えるようになります。SQL Server on Ubuntu構成を検討している場合には覚えておきましょう。"
-    }
-   ],
-   "checkedAt": 1789077278450,
-   "etag": "",
-   "hash": "eccc0ac8a34037e6",
-   "id": "c30348154c3d",
-   "imageUrl": "https://gihyo.jp/assets/images/ICON/2022/1903_ubuntu-topics.png",
-   "key": "https://gihyo.jp/admin/clip/01/ubuntu-topics/202608/28",
-   "lastModified": "",
-   "publishedAt": 1787880840000,
-   "summary": "stonkingはFeature Freezeの時期に入り、品質向上のための時間が開始されました。",
-   "title": "Ubuntu 26.10（stonking）の開発; Feature Freezeとその周辺、26.04.1の準備、Arduino VENTUNO Q",
-   "updatedAt": 1789077278450,
-   "url": "https://gihyo.jp/admin/clip/01/ubuntu-topics/202608/28?utm_source=feed"
-  },
   "https://gihyo.jp/admin/clip/01/ubuntu-topics/202609/04": {
    "bodyBlocks": [
     {
@@ -199,6 +107,94 @@
    "title": "Ubuntu 26.04.1のリリース、stonking（Ubuntu 26.10）の開発; MynaのプロトタイプとOpenSSL 4、Rustトランジション、“Multipass”によるクラウドシミュレーション",
    "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/admin/clip/01/ubuntu-topics/202609/04?utm_source=feed"
+  },
+  "https://gihyo.jp/admin/clip/01/ubuntu-topics/202609/11": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "stonking （Ubuntu 26. 10） の開発; Snapshot 3とinitrd肥大への対応、 germidiff、 壁紙の確定"
+    },
+    {
+     "kind": "P",
+     "text": "stonkingのSnapshot 3が 無事にリリースされています [1] 。リリースアナウンスには 「35, you say? There's a new image hiding in there. Can you guess which one? ;)」 （ ⁠ 「 ⁠35って本当？ なにか新しいイメージが隠れているのですが、 どれか分かりますか？⁠ 」 ⁠）という記載もあり、 Snapshot 2と比べると、 次のものが増えています。"
+    },
+    {
+     "kind": "LI",
+     "text": "desktop-amd64v3 （x86-64v3向けのデスクトップイメージ）"
+    },
+    {
+     "kind": "LI",
+     "text": "netboot-ppc64el （ppc64el向けのNetboot用tarball）"
+    },
+    {
+     "kind": "LI",
+     "text": "netboot-s390x （s390x向けのNetboot用tarball）"
+    },
+    {
+     "kind": "P",
+     "text": "一般的な用途で気にするべきはx86-64v3向けのデスクトップイメージが登場していることで、 以前から続けられてきたx86-64v3 のテストと評価がより現実的な方向になると言えそうです。x86-64v3の動作にはIntelであればHaswell （2013） 以降、 AMDであればExcavator （2015） 以降のCPUが必要ですが、 おおむね 「10年もののハードウェアでなければ動く」 という性質のものですし、 あくまで 「Ubuntu Desktopのバリエーションとして」 登場するという形です （つまりUbuntu Desktopのx86-64版がなくなるわけではありませんし、 仮になくなるような方向になっても、 LubuntuやXubuntuなどは残ると期待できます⁠ ） ⁠。"
+    },
+    {
+     "kind": "P",
+     "text": "こうした流れの横で、 Dracutの改善 についてのまとめが提供されています。示されている内容は以下の2点で、 いずれもinitrdのサイズや展開負荷に対処するためのものです。"
+    },
+    {
+     "kind": "LI",
+     "text": "すでに圧縮されているカーネルモジュールを再度圧縮してinitrdに取り込むのではなく、 「 ⁠そのまま」 取り込む機能を実装した。"
+    },
+    {
+     "kind": "LI",
+     "text": "rust-coreutils由来のバイナリではなく、 busyboxを積極的に利用する形でinitrdを作成することで、 容量の肥大を防ぐ機能を実装する予定。"
+    },
+    {
+     "kind": "P",
+     "text": "busyboxは 「いろいろなcoreutilsの代わりをする」 汎用のバイナリです。呼び出された名前に応じて動作を変えるバイナリで構成されており、 組み込み環境のような小さな環境では、 「 ⁠lsやcatのような基本的なコマンドがbusyboxのシンボリックリンクになっている」 （ ⁠そしてbusyboxバイナリはlsと同じ振る舞いをしたり、 catと同じ振る舞いをしたりする） という構成が取られることがあります。"
+    },
+    {
+     "kind": "P",
+     "text": "そしてinitrdは 「システムが完全に起動する」 前に利用される、 簡易のファイルシステムです。ブートローダーから起動されたカーネルは、 「 ⁠正式なファイルシステム」 へ切り替える前 （この切り替えは、 その関数の名前からpivot_ rootなどと呼びます） は、 initrdにある各種コマンドバイナリを利用します。このバイナリは、 dracut等のユーティリティがinitrdを作り出すタイミングで、 「 ⁠その時点のホストに含まれるバイナリ」 を取り込む形で実現されています。"
+    },
+    {
+     "kind": "P",
+     "text": "Ubuntu 26. 04 LTSで行われたRustベースのcoreutilsへの切り替え後、 この 「取り込み」 処理の結果として、 Rust版のcoreutilsがinitrdに含まれるようになっていました。Rust版coreutilsは伝統的なGNU版coreutilsに比べてサイズが大きく、 組み込みのようにリソースが限定されている環境、 あるいはブートローダー関連として配置できるストレージサイズに上限がある環境では問題になる可能性があります。Raspberry Piでは実際にこのサイズ増大により、 複数のブートアセットを保持するにはinitrdが大きくなりすぎるという問題を引き起こしていました。"
+    },
+    {
+     "kind": "P",
+     "text": "今後予定されている修正は、 この 「取り込み」 を抑制し、 busyboxでできるだけ多くをまかなうというものです （そして現状のbusyboxのcoreutils互換機能にはいくつか 「Dracutが必要とするものの、 busyboxが解釈できないオプション」 が存在するため、 busybox側を先に直し、 その上でbusyboxを活用する形に切り替えることが予定されています⁠ ） ⁠。"
+    },
+    {
+     "kind": "P",
+     "text": "この修正は26. 04 LTSにもバックポートされる予定です。"
+    },
+    {
+     "kind": "P",
+     "text": "内部の修正と並行して壁紙コンテストが終了し、 デフォルトの壁紙とともに 収録される画像が確定しています。そろそろリリースに向けて 「見た目」 が固まる時期でもあり、 それらしくなってきたと言えるでしょう。"
+    },
+    {
+     "kind": "P",
+     "text": "また、 各種リリースイメージを構成する 「seeds」 の変更の影響を予測するためのツールとして、 『germidiff』 という新しいユーティリティ が登場しています。これにより、 「pollinateを削除したらcurlも消えた」 事案 のような問題を事前に予測できるようになるでしょう （ちなみに 「Vibe Codingで作った」 ということが明示されており、 GitHub上のContributors を見る限りでは、 Claude Codeが利用されているようです⁠ ） ⁠。"
+    },
+    {
+     "kind": "H",
+     "text": "その他のニュース"
+    },
+    {
+     "kind": "LI",
+     "text": "linux-firmwareパッケージの細分化 （26. 04で取り込まれた 「linux-firmware-qualcomm-graphics」 などのような、 デバイスごとに細分化されたfirmwareパッケージ） が、 24. 04 LTSでも 利用できる ようになりました。特に大規模なインストール環境において、 システム更新に伴うネットワーク負荷を下げるために利用できるでしょう。"
+    }
+   ],
+   "checkedAt": 1789097402428,
+   "etag": "",
+   "hash": "9d9e60bcc12d475c",
+   "id": "2754d858a2fe",
+   "imageUrl": "https://gihyo.jp/assets/images/ICON/2022/1903_ubuntu-topics.png",
+   "key": "https://gihyo.jp/admin/clip/01/ubuntu-topics/202609/11",
+   "lastModified": "",
+   "publishedAt": 1789086360000,
+   "summary": "stonkingのSnapshot 3が無事にリリースされています。",
+   "title": "Ubuntu 26.10（stonking）の開発; Snapshot 3とinitrd肥大への対応、 germidiff、 壁紙の確定",
+   "updatedAt": 1789097402428,
+   "url": "https://gihyo.jp/admin/clip/01/ubuntu-topics/202609/11?utm_source=feed"
   },
   "https://gihyo.jp/admin/serial/01/ubuntu-recipe/0925": {
    "bodyBlocks": [
@@ -1119,58 +1115,6 @@
    "title": "TypeScript 7.0リリース！ Misskeyで検証",
    "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/article/2026/08/misskey-25?utm_source=feed"
-  },
-  "https://gihyo.jp/article/2026/08/model-hardware-standard": {
-   "bodyBlocks": [
-    {
-     "kind": "P",
-     "text": "Anthropicは2026年8月27日、AIエージェントが物理デバイスを安全に操作するための共通仕様 「Model Hardware Standard」 （ ⁠MHS） のリサーチプレビューを、先進的な科学研究機関および製造業者向けに公開した。"
-    },
-    {
-     "kind": "QUOTE",
-     "text": "Today, we're kicking off the first phase of the research preview for Model Hardware Standard (MHS): a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. Read more: https:// t. co/ XQ2y9EW7Af pic. twitter. com/ kgyCvZ6iYc — Anthropic (@AnthropicAI) August 27, 2026"
-    },
-    {
-     "kind": "P",
-     "text": "AIをハードウェアに接続する際には標準化された方法がなく、エージェントが機器を安全に操作する手段も確立されていない。現状ではこうしたハードウェアのセットアップと統合に数週間、場合によっては数ヵ月を要する。MHSはこうした統合作業に要する時間を数時間から数分に短縮する。"
-    },
-    {
-     "kind": "P",
-     "text": "さらに、デバイス操作ツールにAIを組み込む際に、MHSは自律的な24時間体制の実験やワークフローをより容易にオーケストレーションできるよう支援する。MHSによりエージェントは実験の各ステップを推論し、パラメータをリアルタイムで更新し、場合によっては人の介入なしにハードウェアエラーから復旧することができるようになる。"
-    },
-    {
-     "kind": "P",
-     "text": "MHSは、コンピュータのOSとデバイス間のやりとりに標準化された 「MHSドライバ」 を導入することで、各デバイスのプログラミングインターフェースを統合するための標準的な方法と、デバイスがAIエージェントとデータを共有したり安全に操作するための共通の方法を提供する。MHSドライバは 「読み取り」 「 ⁠書き込み」 といったあらゆるハードウェアデバイスが理解、実行できるシンプルな基本コマンドを使用する。また、各デバイスを標準フォーマットで検出可能にすることで、専用の 「変換」 プログラムを介さずデバイスとエージェントが互いを検出し、ネットワークを介して通信できるようにする。"
-    },
-    {
-     "kind": "P",
-     "text": "また、MHSドライバにはコードだけでは判別できないハードウェア特性に関する情報を自然言語で直接記述できるタグが含まれており、タグの情報に基づいてデバイスの一般的な特性に関する情報を含む参照ファイルを自動的に生成する。このファイルを参照することで、AIエージェントはこれまで見たことがないデバイスを操作するための情報を得る。"
-    },
-    {
-     "kind": "P",
-     "text": "さらにMHSはMCP、コマンドラインインターフェース、コードファイル （API） の3つの機能をもつため、エージェントがデバイスに接続されたらすぐにデバイスを操作できるようになるだけでなく、これらの機能を連携させることで、1行のコードを書くだけで複数のデバイスにわたるオーケストレーションが可能となる。"
-    },
-    {
-     "kind": "P",
-     "text": "同社のAIエージェントであるClaudeはテキストや画像を介して物理世界を学習しているため、空間的・ 物理的推論にはまだ限界があり、現状では専門家による監視 （expert oversight） が依然として必要であるとしている。またMHSはプログラミングインターフェースを持たないハードウェアにはまだ対応していない。このため、現在こうしたデバイスのメーカーと協力してMHSドライバの導入を進めている。多くの開発者はすでにClaude Codeを使用して物理デバイスを操作しているが、MHSの次の段階では、これらを含めより多くのデバイスをカバーできるようにしたいという。さらに将来、MHSはオープンソース化される予定だが、そのためにはさらなる安全性が確保される必要がある。同社では初期パートナーと共に物理世界でのAI利用に関する安全評価やガイドラインの策定を進めていくとのこと。"
-    },
-    {
-     "kind": "P",
-     "text": "同社ではMHSの開発にあたり、バイオテクノロジー、ロボット工学、量子コンピューティングなどの分野で選ばれた研究機関やメーと初期実験を行ってきた。すでにAmazon Web Services （AWS） やUniversal Robots、Raspberry Pi、Hugging Faceといった企業が、自社製品やプラットフォームでのMHSサポートを表明している。今回の発表により、より多くのデバイスをカバーできるように科学、ロボティクス、エレクトロニクス、製造業のステークホルダーをリサーチプレビューに招待したいとのこと。参加希望者は、MHS公式サイトにあるフォームからリサーチプレビューのウェイティングリストに登録できる。"
-    }
-   ],
-   "checkedAt": 1789077278450,
-   "etag": "",
-   "hash": "06266a8cba9e1e42",
-   "id": "6c4a425b0a4a",
-   "imageUrl": "https://gihyo.jp/assets/images/ICON/2026/3015_model-hardware-standard.png",
-   "key": "https://gihyo.jp/article/2026/08/model-hardware-standard",
-   "lastModified": "",
-   "publishedAt": 1787883840000,
-   "summary": "Anthropicは2026年8月27日、AIエージェントが物理デバイスを安全に操作するための共通仕様「Model Hardware Standard」（MHS）のリサーチプレビューを、先進的な科学研究機関および製造業者向けに公開した。",
-   "title": "Anthropic、AIエージェントによる物理デバイス操作の共通規格「Model Hardware Standard」を発表",
-   "updatedAt": 1789077278450,
-   "url": "https://gihyo.jp/article/2026/08/model-hardware-standard?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/08/openclaw-2-0": {
    "bodyBlocks": [
@@ -3616,6 +3560,86 @@
    "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/article/2026/09/gpt-6-astra?utm_source=feed"
   },
+  "https://gihyo.jp/article/2026/09/gpt-live-1-api": {
+   "bodyBlocks": [
+    {
+     "kind": "P",
+     "text": "OpenAIは9月10日、音声モデル 「GPT-Live-1」 のAPI提供を開始した。開発者は、発話中もユーザーの声を聞き取り、割り込みや依頼の変更に対応する音声エージェントを構築できる。推論やツール呼び出しには、開発者が選んだバックエンドのモデルを組み合わせる。"
+    },
+    {
+     "kind": "H",
+     "text": "発話中の割り込みに対応⁠ 、 処理中も会話を継続"
+    },
+    {
+     "kind": "P",
+     "text": "発話と聞き取りを同時に行う全二重方式により、ユーザーはモデルが話している途中でも、思い付いた情報を付け加えたり、質問を変えたりできる。OpenAIによると、GPT-Live-1は背景の雑音と発話を区別し、カフェのざわめきなどで会話が途切れることを抑えるという。"
+    },
+    {
+     "kind": "P",
+     "text": "これまでの音声エージェントでは、音声認識、言語モデルによる処理、音声合成をつなぐ構成が使われてきた。GPT-Live-1は聞き取りと発話を1つのモデルで扱い、処理の受け渡しに伴う遅延を減らす。"
+    },
+    {
+     "kind": "P",
+     "text": "GPT-Live-1は、複雑な推論やツールを使う作業をバックエンドへ委ね、その処理中も会話を続ける。 開発者向けドキュメント では、バックエンドが注文状況を調べている間にユーザーが情報を追加し、結果が届くとGPT-Live-1が音声で伝える例を挙げている。開発者は、音声モデルとは独立して、バックエンドのモデルやエージェントの実行基盤を選べる。"
+    },
+    {
+     "kind": "H",
+     "text": "声の調子や話す速さを指示で調整"
+    },
+    {
+     "kind": "P",
+     "text": "開発者は指示を通じて声の調子や話す速さ、表現の豊かさを調整し、使用言語や返答の長さも指定できる。また、OpenAIによると、GPT-Live-1は話し手の声の調子や感情を反映し、話すペースに合わせられるという。"
+    },
+    {
+     "kind": "P",
+     "text": "API提供に合わせて、アクセントや方言、言語に応じた声の選択肢も拡大した。今後数カ月にわたり、声と対応言語をさらに増やす予定としている。"
+    },
+    {
+     "kind": "H",
+     "text": "応答開始まで0. 798秒⁠ 、 Astraとの組み合わせでタスク達成率83. 6％"
+    },
+    {
+     "kind": "P",
+     "text": "OpenAIは、GPT-Live-1の評価結果も示している。"
+    },
+    {
+     "kind": "P",
+     "text": "応答速度を測るFull Duplex Bench v1では、ユーザーの発話が終わってから返答を始めるまでの時間が0. 798秒となり、GPT-Realtime-2. 1の1. 41秒を下回った。"
+    },
+    {
+     "kind": "P",
+     "text": "発話のタイミングや割り込み、短い相づちへの対応を評価するArtificial AnalysisのConversational Dynamicsでは97. 3％を記録した。発話の重なりや背景の声、別の相手との会話、割り込みを扱うFull Duplex Bench v1. 5では、対話性のスコアが80. 1％だった。"
+    },
+    {
+     "kind": "P",
+     "text": "業務タスクの評価では、GPT-Live-1にGPT-6 Astraを組み合わせ、Astraの推論の強度をmediumに設定した。航空、小売、通信の顧客サポートを扱うTau3では、初回の試行でタスクを完了した割合が83. 6％となり、GPT-Realtime-2. 1の45. 7％を上回った。同じ組み合わせで、銀行業務の文書から情報を探し、ツールを使って顧客の依頼に対応するTauBankingでは38. 1％を記録した。"
+    },
+    {
+     "kind": "P",
+     "text": "発表ブログによると、ツール利用を測るFull Duplex Bench v3では、バックエンドにTerraを使い、推論の強度をlowに設定した。自然な間やためらい、言い直しを含む音声の依頼に対し、正しい順序でツールを呼び出す評価では87％、回答品質の評価では90％を記録した。"
+    },
+    {
+     "kind": "H",
+     "text": "音声部分は1分0. 05ドル⁠ 、 バックエンドの利用料は別途"
+    },
+    {
+     "kind": "P",
+     "text": "GPT-Live-1の音声部分の料金は1分当たり0. 05ドル。 ドキュメント によると、音声セッションの時間に応じて秒単位で課金され、バックエンドのモデルとツールの利用料は別途発生する。"
+    }
+   ],
+   "checkedAt": 1789097402428,
+   "etag": "",
+   "hash": "7e2b6cf8909fbc19",
+   "id": "6fd13c1e41cb",
+   "imageUrl": "https://gihyo.jp/assets/images/article/2026/09/gpt-live-1-api/1.jpg",
+   "key": "https://gihyo.jp/article/2026/09/gpt-live-1-api",
+   "lastModified": "",
+   "publishedAt": 1789094580000,
+   "summary": "OpenAIは9月10日、音声モデル「GPT-Live-1」のAPI提供を開始した。開発者は、発話中もユーザーの声を聞き取り、割り込みや依頼の変更に対応する音声エージェントを構築できる。",
+   "title": "OpenAI、GPT-Live-1をAPIで提供開始 ——発話中の割り込みや依頼の変更に対応",
+   "updatedAt": 1789097402428,
+   "url": "https://gihyo.jp/article/2026/09/gpt-live-1-api?utm_source=feed"
+  },
   "https://gihyo.jp/article/2026/09/home-local-llm-guide": {
    "bodyBlocks": [
     {
@@ -4144,6 +4168,78 @@
    "updatedAt": 1789077278450,
    "url": "https://gihyo.jp/article/2026/09/nvidia-to-acquire-hugging-face?utm_source=feed"
   },
+  "https://gihyo.jp/article/2026/09/openai-agents-api-public-beta": {
+   "bodyBlocks": [
+    {
+     "kind": "P",
+     "text": "OpenAIは9月10日、クラウド上でAIエージェントを構築・ 実行する 「Agents API」 をパブリックベータとして公開した。Codexを支えるエージェントの実行基盤をAPI経由で提供し、モデルの呼び出しやツール利用の制御、長時間のセッション管理をOpenAIが引き受ける。"
+    },
+    {
+     "kind": "H",
+     "text": "実行管理はOpenAI⁠ 、 コードを動かす環境は開発者が選択"
+    },
+    {
+     "kind": "P",
+     "text": "Agents APIの基盤となる 「Codexハーネス」 は、モデルとツールを連携させながらエージェントの処理を進める仕組み。OpenAIが自社のインフラ上で運用・ 保守し、開発者はタスクを与え、使用するモデルやツールを指定する。"
+    },
+    {
+     "kind": "P",
+     "text": "コードの実行やファイル操作には、サンドボックスとして自社の環境や外部事業者のサービスを利用できる。開発者はCPU・ GPU・ メモリの構成や、ファイル・ シークレットの保存方法に応じて環境を選べる。フルマネージドのサンドボックスを利用するほか、自社の仮想プライベートクラウド （VPC） 内にデプロイする選択肢もある。OpenAIは連携先として、Blaxel、Cloudflare、Daytona、DigitalOcean、E2B、Modal、Oracle、Runloop、Vercelを挙げている。"
+    },
+    {
+     "kind": "P",
+     "text": "あわせて、OpenAIが用意・ 管理するサンドボックスも発表した。開発者は入力ファイルを渡したり、パッケージ、スキル、プラグインを追加したりできる。"
+    },
+    {
+     "kind": "P",
+     "text": "OpenAI提供サンドボックスのドキュメント によると、PythonやNode. js、コマンドラインツールを備えたLinuxの作業環境を利用できる。サンドボックス内の /workspace/ outputs に保存したファイルは、エージェントが一回の作業を終えると、成果物としてダウンロードできる。"
+    },
+    {
+     "kind": "H",
+     "text": "Codexハーネスのコンテキスト管理や並列処理を利用"
+    },
+    {
+     "kind": "P",
+     "text": "開発者は、自身のアプリケーションからAgents APIを呼び出して セッション を作成し、エージェントにタスクを渡す。ストリーミングやWebhookを通じて、処理の進捗や完了、追加入力が必要になったことを確認できる。同じセッションに次のタスクを送れるほか、実行中のエージェントに追加の指示を与えることもできる。"
+    },
+    {
+     "kind": "P",
+     "text": "Agents APIでは、Codexハーネスによるコンテキストの自動圧縮も利用できる。モデルが参照する情報量が上限に近づくと、それまでの内容を圧縮し、作業の継続に必要な情報を残す。このため、開発者が圧縮処理を独自に実装する必要はない。"
+    },
+    {
+     "kind": "P",
+     "text": "ツール利用では、MCPを通じて接続したツールや開発者が定義した関数、Web検索などの組み込みツールに対応する。必要なツールの定義を適宜読み込む Tool search に加え、 モデルが書いたプログラムでツールを呼び出す機能 も備える。複数の呼び出しを並列に実行し、結果をコードで絞り込み・ 統合して、必要な情報をコンテキストに取り込める。"
+    },
+    {
+     "kind": "P",
+     "text": "また、複雑なタスクを独立した作業に分け、 サブエージェントへ割り当てて並列に進める こともできる。各サブエージェントが個別のコンテキストを持って作業し、メインのエージェントが進行を調整して結果をまとめる。"
+    },
+    {
+     "kind": "H",
+     "text": "全開発者向けに提供⁠ 、 モデル⁠ ・ ツール⁠ ・ 実行環境に応じて課金"
+    },
+    {
+     "kind": "P",
+     "text": "パブリックベータは全開発者を対象に提供する。Agents API自体の利用に追加料金はなく、使用するモデルのトークンとツールに応じた料金が発生する。OpenAI提供のサンドボックスを使う場合は、コンテナの標準料金も適用される。各料金は APIの料金ページ で案内している。"
+    },
+    {
+     "kind": "P",
+     "text": "OpenAIは、利用を始める開発者向けに クイックスタート を公開している。ベータ期間中は開発者のフィードバックを基に改善を進め、一般提供を目指す。"
+    }
+   ],
+   "checkedAt": 1789097402428,
+   "etag": "",
+   "hash": "352405cbe5f43938",
+   "id": "a671bfa727be",
+   "imageUrl": "https://gihyo.jp/assets/images/ICON/2026/3039_openai-agents-api-public-beta.png",
+   "key": "https://gihyo.jp/article/2026/09/openai-agents-api-public-beta",
+   "lastModified": "",
+   "publishedAt": 1789090980000,
+   "summary": "OpenAIは9月10日、クラウド上でAIエージェントを構築・実行する「Agents API」をパブリックベータとして公開した。Codexを支えるエージェントの実行基盤をAPI経由で提供し、モデルの呼び出しやツール利用の制御、長時間のセッション管理をOpenAIが引き受ける。",
+   "title": "OpenAI、Agents APIをパブリックベータ公開 ——Codexの実行基盤でクラウドエージェントを構築",
+   "updatedAt": 1789097402428,
+   "url": "https://gihyo.jp/article/2026/09/openai-agents-api-public-beta?utm_source=feed"
+  },
   "https://gihyo.jp/article/2026/09/ossdb-various-news0133": {
    "bodyBlocks": [
     {
@@ -4663,11 +4759,11 @@
  },
  "listing": {
   "https://gihyo.jp/feed/rss2": {
-   "checkedAt": 1789077280028,
-   "etag": "W/\"6aa31b40-7a6ce\"",
-   "lastModified": "Thu, 10 Sep 2026 21:04:00 GMT"
+   "checkedAt": 1789097404104,
+   "etag": "W/\"6aa36fa0-7ae09\"",
+   "lastModified": "Fri, 11 Sep 2026 03:04:00 GMT"
   }
  },
  "siteId": "gihyo",
- "updatedAt": 1789077326843
+ "updatedAt": 1789097448204
 }
