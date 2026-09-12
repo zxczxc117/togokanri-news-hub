@@ -1379,7 +1379,7 @@
      "text": "開発者の未来は「承認疲弊」？ AIエージェントが従来のガバナンスを破壊する理由 Dockerは、自律的に動作するAIエージェントを前提とした新たなセキュリティフレームワーク「3C」を提唱した。エージェント実行層でのガバナンスを実現する新たな指針になるという。"
     }
    ],
-   "checkedAt": 1789097613368,
+   "checkedAt": 1789210780351,
    "etag": "",
    "hash": "0e9c5640b95a7fa4",
    "id": "d216648492ab",
@@ -1389,7 +1389,7 @@
    "publishedAt": 1789081200000,
    "summary": "Anthropicは「Claude Code」のデフォルトモードを、都度承認から「自動」に切り替える。1053人を対象にした対照実験では、危険なコマンドを検知した割合が人のレビューを大きく上回ったという。",
    "title": "「危険コマンド停止率、AIは89％、人間だと14％」 Claude Codeが「自動モード」をデフォルトにした理由",
-   "updatedAt": 1789097613368,
+   "updatedAt": 1789210780351,
    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/11/news018.html"
   },
   "https://atmarkit.itmedia.co.jp/ait/articles/2609/11/news038.html": {
@@ -2189,7 +2189,7 @@
      "text": "関連リンク"
     }
    ],
-   "checkedAt": 1789097613368,
+   "checkedAt": 1789210780351,
    "etag": "",
    "hash": "50fcb17ca80b97d8",
    "id": "59a2a1bfaa38",
@@ -2199,7 +2199,7 @@
    "publishedAt": 1789079400000,
    "summary": "日立製作所は、熟練者の経験やノウハウなどをAIで形式知化し、設計ナレッジとして蓄積／活用する「設計ナレッジシステム」の提供を開始した。3D CADデータの設計ルール違反を自動チェックする機能も備え、設計業務の効率化や品質向上、技術継承を支援する。",
    "title": "日立、熟練者の知見をAIで形式知化 3D CADの設計ルール違反も自動検出",
-   "updatedAt": 1789097613368,
+   "updatedAt": 1789210780351,
    "url": "https://monoist.itmedia.co.jp/mn/articles/2609/11/news027.html"
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/07/2000001205": {
@@ -2549,107 +2549,107 @@
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/10/2000001378": {
    "bodyBlocks": [],
-   "checkedAt": 1789183924296,
+   "checkedAt": 1789210780351,
    "etag": "",
    "hash": "4b1bae4df2141ac9",
    "id": "a3ec2af2b925",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/10/2000001378/10006055/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/10/2000001378",
-   "lastModified": "Sat, 12 Sep 2026 02:45:42 GMT",
+   "lastModified": "Sat, 12 Sep 2026 10:45:45 GMT",
    "publishedAt": 1789028179000,
    "summary": "「人生で初めてAIが面接に来た」――AIベンチャーKOWRO（コヲロ、東京都港区）の原田祐二CEOは、自身のXアカウントでこのような動画を公開した。",
    "title": "まさかの「AIが面接に来た」 話し方に“違和感” AIベンチャー代表が動画公開し注意喚起",
-   "updatedAt": 1789183924296,
+   "updatedAt": 1789210780351,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/10/2000001378/"
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/10/2000001381": {
    "bodyBlocks": [],
-   "checkedAt": 1789183924296,
+   "checkedAt": 1789210780351,
    "etag": "",
    "hash": "0706b06d9df651b3",
    "id": "27052a585a28",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/10/2000001381/10006071/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/10/2000001381",
-   "lastModified": "Sat, 12 Sep 2026 02:45:42 GMT",
+   "lastModified": "Sat, 12 Sep 2026 10:45:45 GMT",
    "publishedAt": 1789032188000,
    "summary": "「Googleはもはやフロンティアモデルを持っていない」というX上の意見に対してGoogle DeepMindのエンジニアが「最新モデルはセキュリティでMythos超え」だと反論した。",
    "title": "“Google弱体化説”にDeepMindエンジニアが反論 「最新モデルはセキュリティでMythos超え」、「Gemini 4」にも言及",
-   "updatedAt": 1789183924296,
+   "updatedAt": 1789210780351,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/10/2000001381/"
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001391": {
    "bodyBlocks": [],
-   "checkedAt": 1789183924296,
+   "checkedAt": 1789210780351,
    "etag": "",
    "hash": "82651d97bb854fda",
    "id": "dc6db5569fd2",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/11/2000001391/10006107/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001391",
-   "lastModified": "Sat, 12 Sep 2026 02:45:42 GMT",
+   "lastModified": "Sat, 12 Sep 2026 10:45:45 GMT",
    "publishedAt": 1789083545000,
    "summary": "",
    "title": "ChatGPT Work、質問するだけで社内データ分析・グラフやダッシュボードも作る「Data agent」",
-   "updatedAt": 1789183924296,
+   "updatedAt": 1789210780351,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001391/"
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001394": {
    "bodyBlocks": [],
-   "checkedAt": 1789183924296,
+   "checkedAt": 1789210780351,
    "etag": "",
    "hash": "ca8d88ee7410d0f7",
    "id": "1758e94f08c1",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/11/2000001394/10006118/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001394",
-   "lastModified": "Sat, 12 Sep 2026 02:45:42 GMT",
+   "lastModified": "Sat, 12 Sep 2026 10:45:45 GMT",
    "publishedAt": 1789086683000,
    "summary": "OpenAIのティボー・ソティオ氏（通称Tibo）は新モデル「GPT-6 Astra」の需要拡大に対応するため、最上位プランの新規受付を停止すると発表した。",
    "title": "ChatGPT、最上位プランの新規受付を一時停止 「Astra」需要対応のため 既存加入者には影響なし",
-   "updatedAt": 1789183924296,
+   "updatedAt": 1789210780351,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001394/"
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001400": {
    "bodyBlocks": [],
-   "checkedAt": 1789183924296,
+   "checkedAt": 1789210780351,
    "etag": "",
    "hash": "49c39d239c7029d9",
    "id": "f3d4e8436691",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/11/2000001400/10005839/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001400",
-   "lastModified": "Sat, 12 Sep 2026 02:45:42 GMT",
+   "lastModified": "Sat, 12 Sep 2026 10:45:45 GMT",
    "publishedAt": 1789094001000,
    "summary": "AIが全社員の役割を担うNECの新組織「コーポレートAI・Workforce部門」。実態や狙いを同社の小玉浩氏が語った。",
    "title": "NECが明かす「AIだけの部署」の実態 AI同士で1on1、ストレスチェックで“悩み”も可視化",
-   "updatedAt": 1789183924296,
+   "updatedAt": 1789210780351,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001400/"
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001402": {
    "bodyBlocks": [],
-   "checkedAt": 1789183924296,
+   "checkedAt": 1789210780351,
    "etag": "",
    "hash": "a77426e0f887be26",
    "id": "f37a58541fa5",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/11/2000001402/10006159/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001402",
-   "lastModified": "Sat, 12 Sep 2026 02:45:42 GMT",
+   "lastModified": "Sat, 12 Sep 2026 10:45:45 GMT",
    "publishedAt": 1789097646000,
    "summary": "フィジカルAI・ロボットのデータファクトリー「J-HRTI 関東データファクトリー」が千葉県習志野市内で稼働を開始した。運営するのは業種の異なる民間5社のコンソーシアム「J-HRTI」で、集めたデータは参画企業が共同で使う。実際、データはどう集められているのか。実機写真を基に解説する。",
    "title": "フィジカルAI向け「データ収集工場」に\"潜入\" 実機写真で学習データ生成の流れを解説",
-   "updatedAt": 1789183924296,
+   "updatedAt": 1789210780351,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001402/"
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001405": {
    "bodyBlocks": [],
-   "checkedAt": 1789183924296,
+   "checkedAt": 1789210780351,
    "etag": "",
    "hash": "31937dfb3fdbc5d2",
    "id": "33bafa581952",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/11/2000001405/10006164/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001405",
-   "lastModified": "Sat, 12 Sep 2026 02:45:42 GMT",
+   "lastModified": "Sat, 12 Sep 2026 10:45:45 GMT",
    "publishedAt": 1789099892000,
    "summary": "Sakana AIは、複数のAIモデルを組み合わせてタスクをこなすAI「Sakana Fugu」の最新版「Fugu Ultra v2」「Fugu Max」を発表した。",
    "title": "Sakana AI、一部「GPT-6 Astra」「Fable 5.1」超えうたうFugu最新版 連携先に「両モデルは含まず」",
-   "updatedAt": 1789183924296,
+   "updatedAt": 1789210780351,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001405/"
   },
   "https://www.itmedia.co.jp/business/articles/2609/07/news075.html": {
@@ -3587,7 +3587,7 @@
      "text": "松尾豊東大教授が明かす 日本企業が「ChatGPTでDX」すべき理由 松尾豊東大教授が「生成AIの現状と活用可能性」「国内外の動きと日本のAI戦略」について講演した。"
     }
    ],
-   "checkedAt": 1789097613368,
+   "checkedAt": 1789210780351,
    "etag": "",
    "hash": "99ec812a3fef66ec",
    "id": "f3f91561002f",
@@ -3597,7 +3597,7 @@
    "publishedAt": 1789077600000,
    "summary": "業績絶好調の独立系インフラベンダー・ネットワンシステムズが、自ら上場を廃止しSCSK傘下に入る「攻めの統合」を決断した。身売りではなく、自らの手で次世代IT企業へと進化するための戦略的ディールだ。インフラ（NI）とアプリ（SI）の壁を壊しワンストップ化を目指す両社。文化の異なる大企業同士がいかに融合し事業領域を拡大するのか。最先端拠点「netone valley」で田中拓也COOに直撃した。",
    "title": "好業績なのに“上場廃止” なぜネットワンはSCSKとの「攻めの統合」に賭けたのか",
-   "updatedAt": 1789097613368,
+   "updatedAt": 1789210780351,
    "url": "https://www.itmedia.co.jp/business/articles/2609/11/news020.html"
   },
   "https://www.itmedia.co.jp/business/articles/2609/11/news030.html": {
@@ -3727,7 +3727,7 @@
      "text": "関連リンク"
     }
    ],
-   "checkedAt": 1789097613368,
+   "checkedAt": 1789210780351,
    "etag": "",
    "hash": "8c43293077ce2ba6",
    "id": "c0a621b72158",
@@ -3737,7 +3737,7 @@
    "publishedAt": 1789077600000,
    "summary": "AIのトークン利用料金は90％下落しているのに、支出が増加する――こうしたAIコストを巡る議論では「ジェボンズのパラドックス」が注目されている。どのような考え方なのか。",
    "title": "「AI利用料は90％下落、でも支出増」の怪――AIコスト問題で注目の「ジェボンズのパラドックス」から考える",
-   "updatedAt": 1789097613368,
+   "updatedAt": 1789210780351,
    "url": "https://www.itmedia.co.jp/business/articles/2609/11/news030.html"
   },
   "https://www.itmedia.co.jp/business/articles/2609/11/news043.html": {
@@ -3991,7 +3991,7 @@
      "text": "「情シスはまだ実力の1割しか発揮していない」 AIリストラ時代のキャリアを考える 「クビにはならないが、専門性に合う仕事が消滅する」――。過去の技術転換期に起きたことは、AI時代にも起こり得る。ガートナーの亦賀忠明氏にAI時代にIT部門が果たすべき役割と、個人としてのキャリア構築の在り方を聞いた。"
     }
    ],
-   "checkedAt": 1789097613368,
+   "checkedAt": 1789210780351,
    "etag": "",
    "hash": "8b54e235795fe8e8",
    "id": "69df217ce1e4",
@@ -4001,7 +4001,7 @@
    "publishedAt": 1789081200000,
    "summary": "業務の約30％をAIエージェントに任せているNTTドコモソリューションズのIT運用部門。同部門が、AI活用に取り組む中で、日報や週報での「パワポ文書」を禁止したのはなぜか。一見、デジタル化に逆行するようにも見える施策の狙いを聞いた。",
    "title": "業務の30％をAIエージェントがこなすIT運用部門、なぜ「パワポ文書」を禁止したのか？",
-   "updatedAt": 1789097613368,
+   "updatedAt": 1789210780351,
    "url": "https://www.itmedia.co.jp/enterprise/articles/2608/20/news009.html"
   },
   "https://www.itmedia.co.jp/enterprise/articles/2609/07/news005.html": {
@@ -4623,7 +4623,7 @@
      "text": "関連リンク"
     }
    ],
-   "checkedAt": 1789097613368,
+   "checkedAt": 1789210780351,
    "etag": "",
    "hash": "6e4728433af371b5",
    "id": "b5775a4d2286",
@@ -4633,7 +4633,7 @@
    "publishedAt": 1789081200000,
    "summary": "ITRの調査によると、国内のAIガバナンス・リスク管理市場は2025年度に前年度の10倍に拡大した。AIブームの中でも、比較的注目度が高くなかったこの領域が急成長している理由とは。",
    "title": "たった1年で10倍に急拡大 “一見地味”なAIガバナンス・リスク管理市場がなぜ？",
-   "updatedAt": 1789097613368,
+   "updatedAt": 1789210780351,
    "url": "https://www.itmedia.co.jp/enterprise/articles/2609/11/news026.html"
   },
   "https://www.itmedia.co.jp/news/article/2609/06/2000001202": {
@@ -4773,72 +4773,72 @@
   },
   "https://www.itmedia.co.jp/news/article/2609/11/2000001390": {
    "bodyBlocks": [],
-   "checkedAt": 1789183924296,
+   "checkedAt": 1789210780351,
    "etag": "",
    "hash": "2561af9fe62a0b62",
    "id": "8c1f2b07b6a4",
    "imageUrl": "https://www.itmedia.co.jp/news/article/ogp/2609/11/2000001390/10006105/2048",
    "key": "https://www.itmedia.co.jp/news/article/2609/11/2000001390",
-   "lastModified": "Sat, 12 Sep 2026 02:48:23 GMT",
+   "lastModified": "Sat, 12 Sep 2026 10:50:53 GMT",
    "publishedAt": 1789081999000,
    "summary": "Anthropicは、自社AI「Claude」の悪用事例をまとめた脅威レポートを公開した。生物兵器の設計や国家機関による世論操作や反体制派監視、通常兵器開発への利用を検知、遮断したと発表。中国AI企業による組織的なモデル抽出（蒸留）の実態も報告し、危険な転用への警戒を強めている。",
    "title": "Anthropic、AI悪用レポートを公開 中国AI企業の「蒸留」、各国政府の監視・世論操作、生物兵器につながり得る研究を列挙",
-   "updatedAt": 1789183924296,
+   "updatedAt": 1789210780351,
    "url": "https://www.itmedia.co.jp/news/article/2609/11/2000001390/"
   },
   "https://www.itmedia.co.jp/news/article/2609/11/2000001392": {
    "bodyBlocks": [],
-   "checkedAt": 1789183924296,
+   "checkedAt": 1789210780351,
    "etag": "",
    "hash": "07b36b2ec29fe8dc",
    "id": "ebf2b9944de1",
    "imageUrl": "https://www.itmedia.co.jp/news/article/ogp/2609/11/2000001392/10006111/2048",
    "key": "https://www.itmedia.co.jp/news/article/2609/11/2000001392",
-   "lastModified": "Sat, 12 Sep 2026 02:48:23 GMT",
+   "lastModified": "Sat, 12 Sep 2026 10:50:53 GMT",
    "publishedAt": 1789085441000,
    "summary": "OpenAIは、金融機関向けAI「ChatGPT for Financial Services」を発表した。最新モデル「GPT-6 Astra」を基盤に、主要な金融データセットを標準で内蔵。財務分析や顧客向け資料作成を支援し、既存の契約データとの連携やMicrosoft Officeテンプレートの社内配布にも対応する。",
    "title": "OpenAI、金融機関向け「ChatGPT for Financial Services」 金融データ搭載し「GPT-6 Astra」で分析",
-   "updatedAt": 1789183924296,
+   "updatedAt": 1789210780351,
    "url": "https://www.itmedia.co.jp/news/article/2609/11/2000001392/"
   },
   "https://www.itmedia.co.jp/news/article/2609/11/2000001396": {
    "bodyBlocks": [],
-   "checkedAt": 1789183924296,
+   "checkedAt": 1789210780351,
    "etag": "",
    "hash": "819443853a7b50d8",
    "id": "8920fab40dc7",
    "imageUrl": "https://www.itmedia.co.jp/news/article/ogp/2609/11/2000001396/10006124/2048",
    "key": "https://www.itmedia.co.jp/news/article/2609/11/2000001396",
-   "lastModified": "Sat, 12 Sep 2026 02:48:23 GMT",
+   "lastModified": "Sat, 12 Sep 2026 10:50:53 GMT",
    "publishedAt": 1789088593000,
    "summary": "Amazon Adsは、OpenAIと提携して「ChatGPT」上での広告配信に対応すると発表した。広告主はAmazon DSPを通じ、会話画面下にテキストや画像広告を出稿できるようになる。まずは米国の成人無料プラン向けパイロットとして開始し、配信面の制御はOpenAIのシステムが担う。",
    "title": "Amazon、OpenAIと広告で提携 Amazon DSPの広告主が「ChatGPT」内に広告出稿可能に",
-   "updatedAt": 1789183924296,
+   "updatedAt": 1789210780351,
    "url": "https://www.itmedia.co.jp/news/article/2609/11/2000001396/"
   },
   "https://www.itmedia.co.jp/news/article/2609/11/2000001399": {
    "bodyBlocks": [],
-   "checkedAt": 1789183924296,
+   "checkedAt": 1789210780351,
    "etag": "",
    "hash": "59118d2430934d21",
    "id": "5c274b722478",
    "imageUrl": "https://www.itmedia.co.jp/news/article/ogp/2609/11/2000001399/10006136/2048",
    "key": "https://www.itmedia.co.jp/news/article/2609/11/2000001399",
-   "lastModified": "Sat, 12 Sep 2026 02:48:23 GMT",
+   "lastModified": "Sat, 12 Sep 2026 10:50:53 GMT",
    "publishedAt": 1789092371000,
    "summary": "Googleは、Windows向けデスクトップアプリ「Gemini app for Windows」を公開した。Windows 10および11に対応し、UIは日本語をサポートする。［Alt］＋［Space］で作業画面上に重ねて呼び出せるほか、自律型AIエージェント「Gemini Spark」や画像・動画生成もPC上で利用できる（一部は有料プランが必要）。Mac版は4月にリリース済み。",
    "title": "Windows用「Gemini」アプリ提供開始 画面上に重ねて作業を中断せず利用可能に",
-   "updatedAt": 1789183924296,
+   "updatedAt": 1789210780351,
    "url": "https://www.itmedia.co.jp/news/article/2609/11/2000001399/"
   }
  },
  "listing": {
   "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml": {
-   "checkedAt": 1789183926002,
-   "etag": "\"3024-65b40544e3739-gzip\"",
-   "lastModified": "Sat, 12 Sep 2026 02:55:10 GMT"
+   "checkedAt": 1789210781901,
+   "etag": "\"3024-65b469da25d6f-gzip\"",
+   "lastModified": "Sat, 12 Sep 2026 10:25:10 GMT"
   }
  },
  "siteId": "itmedia_ait",
- "updatedAt": 1789183939520
+ "updatedAt": 1789210810126
 }

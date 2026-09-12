@@ -183,7 +183,7 @@
      "text": "linux-firmwareパッケージの細分化 （26. 04で取り込まれた 「linux-firmware-qualcomm-graphics」 などのような、 デバイスごとに細分化されたfirmwareパッケージ） が、 24. 04 LTSでも 利用できる ようになりました。特に大規模なインストール環境において、 システム更新に伴うネットワーク負荷を下げるために利用できるでしょう。"
     }
    ],
-   "checkedAt": 1789097402428,
+   "checkedAt": 1789210619509,
    "etag": "",
    "hash": "9d9e60bcc12d475c",
    "id": "2754d858a2fe",
@@ -193,7 +193,7 @@
    "publishedAt": 1789086360000,
    "summary": "stonkingのSnapshot 3が無事にリリースされています。",
    "title": "Ubuntu 26.10（stonking）の開発; Snapshot 3とinitrd肥大への対応、 germidiff、 壁紙の確定",
-   "updatedAt": 1789097402428,
+   "updatedAt": 1789210619509,
    "url": "https://gihyo.jp/admin/clip/01/ubuntu-topics/202609/11?utm_source=feed"
   },
   "https://gihyo.jp/admin/serial/01/ubuntu-recipe/0925": {
@@ -3679,7 +3679,7 @@
      "text": "GPT-Live-1の音声部分の料金は1分当たり0. 05ドル。 ドキュメント によると、音声セッションの時間に応じて秒単位で課金され、バックエンドのモデルとツールの利用料は別途発生する。"
     }
    ],
-   "checkedAt": 1789097402428,
+   "checkedAt": 1789210619509,
    "etag": "",
    "hash": "7e2b6cf8909fbc19",
    "id": "6fd13c1e41cb",
@@ -3689,7 +3689,7 @@
    "publishedAt": 1789094580000,
    "summary": "OpenAIは9月10日、音声モデル「GPT-Live-1」のAPI提供を開始した。開発者は、発話中もユーザーの声を聞き取り、割り込みや依頼の変更に対応する音声エージェントを構築できる。",
    "title": "OpenAI、GPT-Live-1をAPIで提供開始 ——発話中の割り込みや依頼の変更に対応",
-   "updatedAt": 1789097402428,
+   "updatedAt": 1789210619509,
    "url": "https://gihyo.jp/article/2026/09/gpt-live-1-api?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/home-local-llm-guide": {
@@ -4279,7 +4279,7 @@
      "text": "OpenAIは、利用を始める開発者向けに クイックスタート を公開している。ベータ期間中は開発者のフィードバックを基に改善を進め、一般提供を目指す。"
     }
    ],
-   "checkedAt": 1789097402428,
+   "checkedAt": 1789210619509,
    "etag": "",
    "hash": "352405cbe5f43938",
    "id": "a671bfa727be",
@@ -4289,7 +4289,7 @@
    "publishedAt": 1789090980000,
    "summary": "OpenAIは9月10日、クラウド上でAIエージェントを構築・実行する「Agents API」をパブリックベータとして公開した。Codexを支えるエージェントの実行基盤をAPI経由で提供し、モデルの呼び出しやツール利用の制御、長時間のセッション管理をOpenAIが引き受ける。",
    "title": "OpenAI、Agents APIをパブリックベータ公開 ——Codexの実行基盤でクラウドエージェントを構築",
-   "updatedAt": 1789097402428,
+   "updatedAt": 1789210619509,
    "url": "https://gihyo.jp/article/2026/09/openai-agents-api-public-beta?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/ossdb-various-news0133": {
@@ -4811,11 +4811,11 @@
  },
  "listing": {
   "https://gihyo.jp/feed/rss2": {
-   "checkedAt": 1789183751640,
-   "etag": "W/\"6aa4c120-7b279\"",
-   "lastModified": "Sat, 12 Sep 2026 03:04:00 GMT"
+   "checkedAt": 1789210621371,
+   "etag": "W/\"6aa51580-7b279\"",
+   "lastModified": "Sat, 12 Sep 2026 09:04:00 GMT"
   }
  },
  "siteId": "gihyo",
- "updatedAt": 1789183793948
+ "updatedAt": 1789210665394
 }

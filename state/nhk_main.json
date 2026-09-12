@@ -1,35 +1,5 @@
 {
  "articles": {
-  "https://news.web.nhk/newsweb/na/nd-20260908de49034": {
-   "bodyBlocks": [],
-   "checkedAt": 1788904679662,
-   "etag": "",
-   "hash": "b2d5ffbda97c2bf1",
-   "id": "a25c9a33605c",
-   "imageUrl": "",
-   "key": "https://news.web.nhk/newsweb/na/nd-20260908de49034",
-   "lastModified": "",
-   "publishedAt": 1788903042000,
-   "summary": "今回の大雨の影響で各地で被害が出ています。\n各地の状況をまとめています。",
-   "title": "【動画】名古屋 大雨で道路冠水や地下鉄駅の浸水 被害状況は",
-   "updatedAt": 1788904679662,
-   "url": "https://news.web.nhk/newsweb/na/nd-20260908de49034"
-  },
-  "https://news.web.nhk/newsweb/na/nd-20260908de49138": {
-   "bodyBlocks": [],
-   "checkedAt": 1788951767408,
-   "etag": "",
-   "hash": "252c559b9dbc04a2",
-   "id": "23bec3149ac8",
-   "imageUrl": "",
-   "key": "https://news.web.nhk/newsweb/na/nd-20260908de49138",
-   "lastModified": "",
-   "publishedAt": 1788937711000,
-   "summary": "ネパールと中国の国境付近で大規模な土石流が発生してから、9日で2週間です。被災地ではいまも行方が分からない人たちの捜索が続き、ネパール政府は、今回の災害の一因と指摘される地球温暖化への対策の強化と国際…",
-   "title": "ネパール土石流 発生から2週間 温暖化への対応求める声も",
-   "updatedAt": 1788951767408,
-   "url": "https://news.web.nhk/newsweb/na/nd-20260908de49138"
-  },
   "https://news.web.nhk/newsweb/na/nd-20260908de49169": {
    "bodyBlocks": [],
    "checkedAt": 1788951767408,
@@ -44,21 +14,6 @@
    "title": "アメリカ 共和党が9日から異例の党大会 トランプ大統領前面に",
    "updatedAt": 1788951767408,
    "url": "https://news.web.nhk/newsweb/na/nd-20260908de49169"
-  },
-  "https://news.web.nhk/newsweb/na/nd-20260908de49178": {
-   "bodyBlocks": [],
-   "checkedAt": 1788924874866,
-   "etag": "",
-   "hash": "6c61802c95b6cc08",
-   "id": "f954e599e6af",
-   "imageUrl": "",
-   "key": "https://news.web.nhk/newsweb/na/nd-20260908de49178",
-   "lastModified": "",
-   "publishedAt": 1788924629000,
-   "summary": "東京 葛飾区で、上智大学の女子学生が殺害され、自宅が放火された事件は未解決のまま、9日で30年となりました。遺族や警視庁は、自宅の跡地に花を手向けるとともに、改めて情報の提供を呼びかけました。",
-   "title": "上智大生殺害放火事件 未解決のまま30年 情報提供を呼びかけ",
-   "updatedAt": 1788924874866,
-   "url": "https://news.web.nhk/newsweb/na/nd-20260908de49178"
   },
   "https://news.web.nhk/newsweb/na/nd-20260909de49198": {
    "bodyBlocks": [],
@@ -75,21 +30,6 @@
    "updatedAt": 1788951767408,
    "url": "https://news.web.nhk/newsweb/na/nd-20260909de49198"
   },
-  "https://news.web.nhk/newsweb/na/nd-20260909de49205": {
-   "bodyBlocks": [],
-   "checkedAt": 1788904679662,
-   "etag": "",
-   "hash": "e4f733e6cd4ea53e",
-   "id": "9494ac56d891",
-   "imageUrl": "",
-   "key": "https://news.web.nhk/newsweb/na/nd-20260909de49205",
-   "lastModified": "",
-   "publishedAt": 1788902972000,
-   "summary": "金利のある世界が本格化する中、金融大手各社は、預金の相続に関する手続きの利便性を向上させたり、銀行口座にひも付くクレジットカードのポイント還元率を高めたりするなど、預金獲得を目指して個人向けサービスを…",
-   "title": "大手金融グループ 個人向けサービス強化で預金獲得目指す",
-   "updatedAt": 1788904679662,
-   "url": "https://news.web.nhk/newsweb/na/nd-20260909de49205"
-  },
   "https://news.web.nhk/newsweb/na/nd-20260909de49220": {
    "bodyBlocks": [],
    "checkedAt": 1788951767408,
@@ -104,36 +44,6 @@
    "title": "【動画】名古屋 大雨 23人けが 路上で動けない車両200台以上",
    "updatedAt": 1788951767408,
    "url": "https://news.web.nhk/newsweb/na/nd-20260909de49220"
-  },
-  "https://news.web.nhk/newsweb/na/nd-20260909de49243": {
-   "bodyBlocks": [],
-   "checkedAt": 1788924874866,
-   "etag": "",
-   "hash": "d5518af8fe3b1a4a",
-   "id": "14da8dcf83e3",
-   "imageUrl": "",
-   "key": "https://news.web.nhk/newsweb/na/nd-20260909de49243",
-   "lastModified": "",
-   "publishedAt": 1788918567000,
-   "summary": "香川県三豊市は河川の氾濫と土砂災害が発生するおそれが高まっているとして、9日午前8時40分に市内全域の2万6468世帯、5万9254人に避難指示を出しました。\n危険な場所から全員避難するよう呼びかけ…",
-   "title": "香川 三豊 市内全域に避難指示 河川氾濫と土砂災害のおそれ",
-   "updatedAt": 1788924874866,
-   "url": "https://news.web.nhk/newsweb/na/nd-20260909de49243"
-  },
-  "https://news.web.nhk/newsweb/na/nd-20260909de49247": {
-   "bodyBlocks": [],
-   "checkedAt": 1788924874866,
-   "etag": "",
-   "hash": "cb57eea02c1249fb",
-   "id": "a439550fc451",
-   "imageUrl": "",
-   "key": "https://news.web.nhk/newsweb/na/nd-20260909de49247",
-   "lastModified": "",
-   "publishedAt": 1788921927000,
-   "summary": "中東地域を管轄するアメリカ中央軍は、イラン側から艦艇を狙ったミサイル攻撃を受けたとしてイランの原油タンカー5隻を攻撃し、一方、イランの革命防衛隊は報復として、ヨルダンにあるアメリカ軍基地を弾道ミサイル…",
-   "title": "米軍がイランのタンカー攻撃 イランは米軍基地にミサイル攻撃",
-   "updatedAt": 1788924874866,
-   "url": "https://news.web.nhk/newsweb/na/nd-20260909de49247"
   },
   "https://news.web.nhk/newsweb/na/nd-20260909de49272": {
    "bodyBlocks": [],
@@ -812,17 +722,17 @@
   },
   "https://news.web.nhk/newsweb/na/nd-20260912de49856": {
    "bodyBlocks": [],
-   "checkedAt": 1789183940996,
+   "checkedAt": 1789210811474,
    "etag": "",
-   "hash": "d2510f3d89f68048",
+   "hash": "ccf042e60f466db5",
    "id": "8cb36fd72e4a",
    "imageUrl": "",
    "key": "https://news.web.nhk/newsweb/na/nd-20260912de49856",
    "lastModified": "",
-   "publishedAt": 1789182889000,
-   "summary": "北海道の大雪山系の十勝岳では規模の大きい火山性地震が増加していて、気象台は12日、午前9時半に火口周辺警報を発表し、噴火警戒レベルを2から「入山規制」を示す3に引き上げました。火口からおおむね3キロの…",
+   "publishedAt": 1789203840000,
+   "summary": "北海道の大雪山系の十勝岳では先月以降、振幅の大きな火山性地震が複数回発生していて、気象台は12日午前、噴火警戒レベルを「2」から入山規制を示す「3」に引き上げました。火口からおおむね3キロの範囲では大…",
    "title": "北海道 十勝岳 噴火警戒レベル3に引き上げ 入山規制",
-   "updatedAt": 1789183940996,
+   "updatedAt": 1789210811474,
    "url": "https://news.web.nhk/newsweb/na/nd-20260912de49856"
   },
   "https://news.web.nhk/newsweb/na/nd-20260912de49864": {
@@ -899,15 +809,105 @@
    "title": "石川 大雨の被災地向かうボランティアの出発式",
    "updatedAt": 1789183940996,
    "url": "https://news.web.nhk/newsweb/na/nd-20260912de49871"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260912de49880": {
+   "bodyBlocks": [],
+   "checkedAt": 1789210811474,
+   "etag": "",
+   "hash": "b5b5724b3f979b0e",
+   "id": "aa97b808c621",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260912de49880",
+   "lastModified": "",
+   "publishedAt": 1789192140000,
+   "summary": "アメリカのFRB＝連邦準備制度理事会は、15日から金融政策を決める会合を開きます。\nイラン情勢を背景に原油価格が再び上昇する中、金融市場ではFRBがインフレの再加速を抑えるためおよそ3年ぶりとなる利…",
+   "title": "FRB利上げ観測強まる トランプ大統領は利下げ圧力",
+   "updatedAt": 1789210811474,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260912de49880"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260912de49891": {
+   "bodyBlocks": [],
+   "checkedAt": 1789210811474,
+   "etag": "",
+   "hash": "0c7f2ad57c8f23a8",
+   "id": "2ed5ba08cbf3",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260912de49891",
+   "lastModified": "",
+   "publishedAt": 1789202700000,
+   "summary": "日本維新の会の藤田共同代表は、高市政権の発足当初から閣僚に加え、副大臣や政務官の起用についても打診があったとした上で、今回の内閣改造ではこれに応じる考えを示しました。",
+   "title": "維新 藤田共同代表“閣僚に加え副大臣・政務官の打診応じる”",
+   "updatedAt": 1789210811474,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260912de49891"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260912de49892": {
+   "bodyBlocks": [],
+   "checkedAt": 1789210811474,
+   "etag": "",
+   "hash": "485b12cbe1cd9175",
+   "id": "d64153b69acc",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260912de49892",
+   "lastModified": "",
+   "publishedAt": 1789204080000,
+   "summary": "中道改革連合の小川代表は、党の分裂によって立憲民主党出身者と公明党出身者に分かれるものの、衆議院で統一会派を組み、連携を維持しながら政権と対じしていく考えを重ねて強調しました。",
+   "title": "中道 小川代表“衆議院で統一会派結成 政権と対じ”",
+   "updatedAt": 1789210811474,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260912de49892"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260912de49897": {
+   "bodyBlocks": [],
+   "checkedAt": 1789210811474,
+   "etag": "",
+   "hash": "137a1ece3e361891",
+   "id": "a91e59a639b8",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260912de49897",
+   "lastModified": "",
+   "publishedAt": 1789204020000,
+   "summary": "SNSの動画の自動再生や過去の閲覧履歴から予測したコンテンツの表示など中毒性のある機能から子どもの利用者を守るとする新たな法律がアメリカ西部カリフォルニア州で成立しました。",
+   "title": "カリフォルニア州 SNSやAIから子ども守る州法成立",
+   "updatedAt": 1789210811474,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260912de49897"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260912de49899": {
+   "bodyBlocks": [],
+   "checkedAt": 1789210811474,
+   "etag": "",
+   "hash": "d2156fe7dec49a1b",
+   "id": "e020120c0e14",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260912de49899",
+   "lastModified": "",
+   "publishedAt": 1789206360000,
+   "summary": "ホルムズ海峡を避けて原油を輸送するルートとなっているサウジアラビアのパイプラインが攻撃を受け、操業を一時停止しました。\nさらにイランの支援を受ける中東イエメンの反政府勢力は、紅海にある要衝の島を制圧…",
+   "title": "ホルムズ海峡の代替ルートで情勢不安定化 市場への影響懸念",
+   "updatedAt": 1789210811474,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260912de49899"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260912de49900": {
+   "bodyBlocks": [],
+   "checkedAt": 1789210811474,
+   "etag": "",
+   "hash": "cdf4a080e62a8a03",
+   "id": "fb643d8c7541",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260912de49900",
+   "lastModified": "",
+   "publishedAt": 1789206000000,
+   "summary": "12日夕方、実業団のトップ選手が出場する陸上の全日本実業団選手権が開かれていた京都市の西京極陸上競技場で、「体調の悪い人が複数いる」と消防に通報がありました。\nこれまでに10人程度が病院に搬送された…",
+   "title": "全日本実業団選手権の会場で食中毒か 10人程度搬送 京都",
+   "updatedAt": 1789210811474,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260912de49900"
   }
  },
  "listing": {
   "https://www.nhk.or.jp/rss/news/cat0.xml": {
-   "checkedAt": 1789183942925,
-   "etag": "W/\"83d1ce65e3a15028559377ffea5b610d\"",
-   "lastModified": "Sat, 12 Sep 2026 03:24:28 GMT"
+   "checkedAt": 1789210812756,
+   "etag": "W/\"5cc048278dc3468427c609dd318c4dc6\"",
+   "lastModified": "Sat, 12 Sep 2026 10:38:12 GMT"
   }
  },
  "siteId": "nhk_main",
- "updatedAt": 1789183942926
+ "updatedAt": 1789210812757
 }
