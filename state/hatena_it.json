@@ -1,73 +1,5 @@
 {
  "articles": {
-  "https://anond.hatelabo.jp/20260910215309": {
-   "bodyBlocks": [
-    {
-     "kind": "H",
-     "text": "■ 「 あなた の ブックマーカー 図鑑 」公開"
-    },
-    {
-     "kind": "LI",
-     "text": "「 あなた の ブックマーカー 図鑑 」を公開 https://bookmarker-encyclopedia.netlify.app/api-data/ ChatGPT用にまとめられた ブックマーカー 図鑑 の データ セット これをChatGPTに アップロード すれば ブックマーカー 図鑑 に収録された データ を使って 自由 に 質問 でき ます この ブックマーカー ってどんな人？ よく ブックマーク する 話題 、 コメント の傾向、 活動 歴など から 紹介 しま す。 この人、 普段 から こんなこと言ってる？ 今回の コメント と 過去 の傾向を比べて、「いつ もの 反応」なのか「珍しい反応」なのかを見 ます 。 この2人って似てる？ 興味のある 話題 や コメント 傾向、 所属 する コミュニティ など から 比較 しま す。 この人たち、 普段 から 近いの？ 同じ コミュニティ にいるのか、 共通 する 話題 が多いのかなど、人同士のつながりを調べ ます 。 この はてブ 、結局どんな 意見 が多かった？ ブコメ を分類して、 肯定 ・ 批判 ・ 中立 ・ メタ 視点 など、全体の反応を整理 しま す。 人気 コメント って、本当に 多数派 ？ コメント 数と スター 数を分けて集計し、「よく見える 意見 」と「実際に多い 意見 」の違いを調べ ます 。 誰がこの流れを作った？ 初期の ブックマーク や スター の動きを追って、どの コメント や「読み方」が広がったのかを見 ます 。 この ブコメ に星を付けてるのはどんな人たち？ コメント を書いた人だけでなく、それを支持・増幅した スター 側も 分析 でき ます 。 この 炎上 、 最初 から 荒れてた？ 時系列 で追って、どの段階 から 対立 が強くなったのかを 確認 しま す。 この 話題 にいつ もの メンバー が集まってる？ 過去 の 分析 データ と照合して、その 話題 で繰り返し登場する ブックマーカー を探 しま す。 この データ から 何か 面白い もの を探して"
-    },
-    {
-     "kind": "P",
-     "text": "ブックマーカー 図鑑 の サイト では、 基本的 に こち らが用意した プロフィール や ランキング を見ること しか できません。"
-    },
-    {
-     "kind": "P",
-     "text": "図鑑 の データ を 材料 にして、 自分 が知りたいことを 自分 で 質問 でき ます 。"
-    },
-    {
-     "kind": "P",
-     "text": "スター を調べるか、 コミュニティ を見るか、 過去 の傾向と 比較 するか。"
-    },
-    {
-     "kind": "P",
-     "text": "今度は5,500人分の 図鑑 を、 自分 で好きなように掘ってみてください。"
-    },
-    {
-     "kind": "P",
-     "text": "Permalink | 記事への反応(3) |\n 21:53"
-    },
-    {
-     "kind": "LI",
-     "text": "anond:20260910215309 恐速ブ"
-    },
-    {
-     "kind": "LI",
-     "text": "anond:20260910215309 おれのidがいっこうに図鑑にのらない件 anond:20260910220256 はやくプラベを解除！ anond:20260910220743 公開でちょくちょくブクマしてスターもぽちぽち付いてるがとくに誰もおれを深く知りたくなさそうな件"
-    },
-    {
-     "kind": "LI",
-     "text": "anond:20260910215309 はてブに5500人も人がいたんだ… anond:20260911013753 転生した人、消えた人、死んだ人も数えてるぞ 国勢調査じゃなくて戸籍に近い"
-    },
-    {
-     "kind": "H",
-     "text": "記事への反応（ブックマークコメント）"
-    },
-    {
-     "kind": "H",
-     "text": "人気エントリ"
-    },
-    {
-     "kind": "H",
-     "text": "注目エントリ"
-    }
-   ],
-   "checkedAt": 1789077399866,
-   "etag": "",
-   "hash": "69fb603e2591419f",
-   "id": "a948df724639",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fanond.hatelabo.jp%2F20260910215309",
-   "key": "https://anond.hatelabo.jp/20260910215309",
-   "lastModified": "",
-   "publishedAt": 1789044804000,
-   "summary": "ブックマーカー図鑑 「あなたのブックマーカー図鑑」を公開 https://bookmarker-encyclopedia.netlify.app/api-data/ ChatGPT用にまとめられたブックマーカー図鑑のデータセット これをChatGPTにアップロードすればブックマーカー図鑑に収録されたデータを使って自由に質問できます このブックマーカーってどんな人？ よ...",
-   "title": "「あなたのブックマーカー図鑑」公開",
-   "updatedAt": 1789077399866,
-   "url": "https://anond.hatelabo.jp/20260910215309"
-  },
   "https://anond.hatelabo.jp/20260911162212": {
    "bodyBlocks": [
     {
@@ -199,154 +131,6 @@
    "title": "日本で自然と自動運転が解禁されることはない",
    "updatedAt": 1789124376789,
    "url": "https://anond.hatelabo.jp/20260911162212"
-  },
-  "https://ascii.jp/elem/000/004/432/4432444": {
-   "bodyBlocks": [
-    {
-     "kind": "LI",
-     "text": "sponsored サイボウズ×Box対談：情報の分断を防ぎ、安全で「AI Ready」なデータ基盤をどう整えるか 「眠れるデータ」をAIの力で呼び覚ます 中堅・中小企業が選ぶべきデータ環境の“現実解”"
-    },
-    {
-     "kind": "LI",
-     "text": "sponsored 携帯ゲームやスマホの音が激変！ 充電しながら「最高の音」で遊べる新発想スピーカー"
-    },
-    {
-     "kind": "LI",
-     "text": "sponsored 導入事例－Zoom Phone＋Zoom Revenue Accelerator：Renxa株式会社 お客さまとの通話をZoomでAI分析すれば、クレームになる前に対処ができる"
-    },
-    {
-     "kind": "LI",
-     "text": "sponsored Radeon RX 9070 GREは鬼武者新作の激戦バトルでも余裕の快適さ！ GeForce RTX 5060 Tiを超える平均180fpsの実力を検証"
-    },
-    {
-     "kind": "LI",
-     "text": "sponsored 網屋とキヤノンMJが実現する“自社で抱え込まない”やさしいセキュリティ 「セキュリティ強化で仕事が増える」悩みを解決！ 中小企業IT担当者のための新常識"
-    },
-    {
-     "kind": "LI",
-     "text": "sponsored DDR4はまだまだ現役！ Socket AM4で狙うコストを抑えたゲーミングPC自作のススメ"
-    },
-    {
-     "kind": "LI",
-     "text": "sponsored API料金0円の無制限試行が可能！ AMD Radeon搭載PCで体験するローカルAIによる超高速ゲーム開発方法を徹底解説"
-    },
-    {
-     "kind": "LI",
-     "text": "sponsored ついにAIO水冷がケーブルレスに！ ASUS「AIO Q-CONNECTOR」で水冷PCビルドがここまで楽になる"
-    },
-    {
-     "kind": "LI",
-     "text": "sponsored Cooler Master最強空冷「HAF II 500」「V8 ACE 3DHP」「MasterFan A120」でどこまで冷える？"
-    },
-    {
-     "kind": "LI",
-     "text": "sponsored お父さんは家庭の「情シス担当」、エンプラ向け管理ツールを「おうち」に導入してみたら、めちゃくちゃ理にかなっていた話"
-    },
-    {
-     "kind": "LI",
-     "text": "sponsored インテル® Core™ Ultra シリーズ 3 プロセッサー搭載の「ASUS Zenbook S14 UX5406AA」をレビュー 圧巻の映像美とワットパフォーマンスを両立する、ASUSの新世代プレミアムノートPC"
-    },
-    {
-     "kind": "LI",
-     "text": "sponsored Switch 2のプレイ時間を1.5倍に伸ばすベルキン「Gaming Switch 2 モバイルバッテリー付充電グリップ」と、頼れる相棒「Gaming Switch 2 トラベルバッグ」 高性能化でバッテリー持ちがシビアになったSwitch 2、解決方法はある？"
-    },
-    {
-     "kind": "LI",
-     "text": "sponsored ファミマ45周年「コラボ祭」開幕！「生ペヤング」など絶対食べたい注目商品はコレ"
-    },
-    {
-     "kind": "LI",
-     "text": "sponsored アスキー編集部員を新型モデル「LiberNovo Omni Gen」に座らせてみた アスキーのおじさんたちがLiberNovoの電動ワークチェアを試したら、みんなスッと目を閉じた"
-    },
-    {
-     "kind": "LI",
-     "text": "sponsored 「稚内市バイオエネルギーセンター」の安定稼働に、カウベルエンジニアリングと1NCEが貢献 三菱化工機が「NailEdge」でプラントの“後付けIoT化”に成功 GX事業の拡大を支える"
-    },
-    {
-     "kind": "LI",
-     "text": "sponsored 長寿時代に改めて気づくサービスの先進性と価値 高齢者をポットで見守る「みまもりほっとライン」 25年続く「サービスの温もり」とは？"
-    },
-    {
-     "kind": "LI",
-     "text": "sponsored ファミマ「黒豚まん」はなぜ売れる？ 今年は“スパイス感40％増”で再登場する商品も"
-    },
-    {
-     "kind": "LI",
-     "text": "sponsored JN-VC236Fでスーパーウルトラワイド環境を構築 曲面ディスプレー3台でForza Horizon 6とMicrosoft Flight Simulator 2024を遊んでみた！合計3万8940円で堪能できる大迫力と深い没入感はコスパ最高"
-    },
-    {
-     "kind": "LI",
-     "text": "sponsored Wi-Fi 7に有線LAN、選ぶ際のポイントはいろいろあり！ 光回線があるなら必ず必要な「Wi-Fiルーター」はどのポイントで選べばいい？ 1万円以下でも買えるファーウェイ製品を例に見る"
-    },
-    {
-     "kind": "LI",
-     "text": "sponsored ZEFT R66BTの魅力をインタビュー メモリーもグラボも高い時代に考えたいRyzen 7 5700X搭載ゲーミングPCという選択肢、PCケースとグラボは最新モデルなら大丈夫？"
-    },
-    {
-     "kind": "LI",
-     "text": "sponsored LEVEL-15FR172-U7P-TKPXをレビュー Forza Horizon 6も快適！Core Ultra 7 270HX Plus＆RTX 5070搭載ノートPCの性能は“ながらゲーミング”もこなせるほどパワフルだった"
-    },
-    {
-     "kind": "LI",
-     "text": "sponsored シンプル／インテリジェント／オープンさ―― 新CEOが最新戦略と「変わらないDNA」を語る “AIを会議室に組み込む”Neat シンプルな体験こそが最大の価値"
-    },
-    {
-     "kind": "LI",
-     "text": "sponsored FCNT「arrows Alpha2」 「20万円超えのスマホ、本当に必要？」今だから考えたい“長く使える1台”という選択"
-    },
-    {
-     "kind": "LI",
-     "text": "sponsored 2階層→3階層のタスク管理へ進化、Backlogへの情報集約と整理がより簡単に！ Backlogに新登場の「孫課題」をどう使う？ 使い方のアイデアから注意点までをまとめます"
-    },
-    {
-     "kind": "LI",
-     "text": "sponsored ASCII読者限定クーポンもチェック！ 【読者限定＆期間限定で割引】はじめての1台から、プロの現場まで。用途別に選ぶ「UGREEN NASync」シリーズ徹底ガイド"
-    },
-    {
-     "kind": "LI",
-     "text": "sponsored JN-i27G180Q-ARM-MKをレビュー まさかのモニターアーム同梱モデル！モニ研監修の27型180Hz・WQHDゲーミングディスプレーが予想以上に便利すぎて3万円切りはヤバイ"
-    },
-    {
-     "kind": "LI",
-     "text": "sponsored ミニマムかつ本質的な対策で★3・★4を取得するための「実務ハンドブック」を公開 専門家が分析するSCS評価制度・153項目 中小企業に最適な対策のアプローチは？"
-    },
-    {
-     "kind": "LI",
-     "text": "sponsored Lepton WS Series Twin GPU Editionに注目！ ローカルAIを動かすPCのスペックは？CPUのコア数は？ビデオカードって何枚必要なの？お悩みの方はまるっとサイコムに相談すると話が早いかも"
-    },
-    {
-     "kind": "LI",
-     "text": "sponsored 自分の体の状態をスマートウォッチでしっかりチェック！ スマートウォッチは夏の健康管理に役に立つ！ 熱中症対策に睡眠の質の向上、血圧測定も可能なファーウェイ製品で試す"
-    },
-    {
-     "kind": "LI",
-     "text": "sponsored MSI「Crosshair 16 Max HX」レビュー MAXの名は伊達じゃない！ VRAM 12GB版RTX 5070搭載ゲーミングノート！ フレーム生成と165Hz有機ELで人気ゲームも滑らかに遊べる相棒だ"
-    },
-    {
-     "kind": "LI",
-     "text": "sponsored MSI「MAG 274QP QD-OLED X24」レビュー 高かったQD-OLEDモニターが6万円台！ 26.5型WQHD/240Hz駆動なのに圧倒的コスパはなぜか？ 性能を徹底検証"
-    },
-    {
-     "kind": "LI",
-     "text": "sponsored JN-iM27G1632UF-HSPC6をレビュー フルHD/320Hz・4K/160Hzの27型Mini LEDゲーミングディスプレー、USB Type-C給電、KVM機能、昇降式多機能スタンドで6万円台はお得すぎる!!"
-    },
-    {
-     "kind": "LI",
-     "text": "sponsored Copilot+ PC にも インテル、はいってる──インテル® Core™ Ultra X7 シリーズ3 プロセッサーもストレージも爆速でした!!! 決定版なのか？ タッチか軽量化で意見が分かれる日本HPのフラッグシップPC「HP EliteBook X G2i 14」"
-    }
-   ],
-   "checkedAt": 1789097533111,
-   "etag": "",
-   "hash": "fbc6f4df74a3502f",
-   "id": "eb8b418eb777",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fascii.jp%2Felem%2F000%2F004%2F432%2F4432444%2F",
-   "key": "https://ascii.jp/elem/000/004/432/4432444",
-   "lastModified": "",
-   "publishedAt": 1789046808000,
-   "summary": "『私的My推しガジェット』 はアスキーの各編集者が個人的に推しなガジェットを紹介していくレビュー企画です。 近年、豪雨や水害、地震など、私たちの暮らしを脅かす災害が相次いでいます。非常時の家族との連絡や安否確認、避難情報の収集に欠かせないのがスマートフォンです。 しかし、大容量モバイルバッテリーを防災...",
-   "title": "私が「3年前に発売されたAnkerのソーラーパネル」を“防災用品として”おすすめするワケ。 (1/5)",
-   "updatedAt": 1789097533111,
-   "url": "https://ascii.jp/elem/000/004/432/4432444/"
   },
   "https://ascii.jp/elem/000/004/434/4434123": {
    "bodyBlocks": [
@@ -570,7 +354,7 @@
   },
   "https://av.watch.impress.co.jp/docs/topic/2140311.html": {
    "bodyBlocks": [],
-   "checkedAt": 1789163808427,
+   "checkedAt": 1789183874952,
    "etag": "",
    "hash": "f839881a5d83acb2",
    "id": "e925c7351376",
@@ -580,8 +364,384 @@
    "publishedAt": 1789125861000,
    "summary": "",
    "title": "ブルーレイってどうやって観ればいい? 「超かぐや姫!」特装限定版の楽しみ方",
-   "updatedAt": 1789163808427,
+   "updatedAt": 1789183874952,
    "url": "https://av.watch.impress.co.jp/docs/topic/2140311.html"
+  },
+  "https://corto.jp/note/wordpress-security": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "WordPressサイトのセキュリティ対策 – 最低限設定しておきたい5つ"
+    },
+    {
+     "kind": "P",
+     "text": "WordPressで最低限おこなっておきたいセキュリティ対策について紹介します。難しい設定はなくWordPress初心者向きの内容です。ただ、かならず対応しておきたいものばかりなので、WordPress実装の際にチェックすることをおすすめします。"
+    },
+    {
+     "kind": "H",
+     "text": "01, WordPress本体やWordPressプラグイン、WordPressテーマの更新"
+    },
+    {
+     "kind": "P",
+     "text": "WordPressの本体やプラグイン、テーマを最新状態に保つのは基本です。どこでも言われていることですが、できていないサイトを散見します。定期的にアップデートし、最新状態に保つことが必要です。"
+    },
+    {
+     "kind": "P",
+     "text": "WprdPressでは、2013年10月にリリースされたバージョン3.7からWordPressの自動アップデートが実装されました。これにより最新状態を常に維持することが可能です。"
+    },
+    {
+     "kind": "P",
+     "text": "しかし、安易に自動アップデートを設定することはおすすめしません。WordPressプラグインのアップデート未対応による不具合の不安があります。案件の仕様にあわせて自動か手動かを判断するようにしましょう。もっとも安全なのは制作側がチェックしながら手動アップデートを都度おこなうことです。クライアントへの周知が必要となりますね。"
+    },
+    {
+     "kind": "P",
+     "text": "また、WordPressプラグインは数年以上更新されていないものもあるので、利用には注意が必要です。プラグインにもよりますが、私は1年以上更新されていないものは使わないようにしています。"
+    },
+    {
+     "kind": "H",
+     "text": "02, ユーザー名とパスワードを複雑に（記号を多用）"
+    },
+    {
+     "kind": "P",
+     "text": "単純ながら効果的なのが、ユーザー名とパスワードを複雑にすること。英数字や記号を不規則に使用するのがポイントです。"
+    },
+    {
+     "kind": "P",
+     "text": "WordPressでは新規ユーザーを作成する際、パスワードを生成してくれるのでそのまま使うこともあります。"
+    },
+    {
+     "kind": "P",
+     "text": "他に、以下のようなパスワード生成ツールを使用するのも良いです。"
+    },
+    {
+     "kind": "P",
+     "text": "覚えられないからと他サービスのものと統一しがちですが、パスワードマネージャーや1Passwordなどのパスワードツールで管理して、いつでも呼び出せるようにしておきましょう。"
+    },
+    {
+     "kind": "H",
+     "text": "03, SiteGuard WP Pluginでセキュリティ対策"
+    },
+    {
+     "kind": "P",
+     "text": "WordPressプラグインの多用はできるかぎりしたくないのですが、SiteGuard WP Pluginだけは別です。セキュリティプラグインとして優秀なので、これだけはマストで使用しています。"
+    },
+    {
+     "kind": "H",
+     "text": "ログインページ変更"
+    },
+    {
+     "kind": "P",
+     "text": "WordPressの管理画面ログインURLは◯◯◯.com/wp-login.php で、デフォルトのままだと誰でもログインページを閲覧することができてしまいます。管理画面ログインURLの変更を設定することで、別URLに変更されます。任意で好きなURLに設定も可能です。"
+    },
+    {
+     "kind": "H",
+     "text": "画像認証"
+    },
+    {
+     "kind": "P",
+     "text": "ログインする際に画像認証をつけることができます。これは、ログインページだけではなく、コメントページやパスワード確認ページ、ユーザー登録ページも設定できます。"
+    },
+    {
+     "kind": "P",
+     "text": "画像認証は『ひらがな』『英数字』を選べますが、海外からの攻撃を防ぐにはひらがなの方が効果的かと思います。"
+    },
+    {
+     "kind": "H",
+     "text": "ログイン詳細エラーメッセージの無効化"
+    },
+    {
+     "kind": "P",
+     "text": "WordPress管理画面ログインページでログインエラーになると、デフォルトのままだと何が間違っているのかが表示されます。正規ユーザーとしてはありがたい機能ですが、攻撃してくる側にヒントを与えることになるので、エラーメッセージを無効化し、推測されにくくします。"
+    },
+    {
+     "kind": "H",
+     "text": "ログインロック"
+    },
+    {
+     "kind": "P",
+     "text": "連続してログインエラーを検出した際に、ログインできなくするログインロック。"
+    },
+    {
+     "kind": "P",
+     "text": "『期間』『回数』『ロック時間』を設定できます。私は下記のように、デフォルト設定のままにすることが多いです。"
+    },
+    {
+     "kind": "LI",
+     "text": "期間：5秒"
+    },
+    {
+     "kind": "LI",
+     "text": "回数：3回"
+    },
+    {
+     "kind": "LI",
+     "text": "ロック時間：1分"
+    },
+    {
+     "kind": "H",
+     "text": "ログインアラート"
+    },
+    {
+     "kind": "P",
+     "text": "管理画面にログインした際にメールで通知が届きます。心当たりがない場合は不正にログインされたことになるので早急の対応が必要です。"
+    },
+    {
+     "kind": "P",
+     "text": "ちなみに、管理者や正規ユーザーがログインした際にも通知が届きますが、セキュリティの観点からかならず設定しています。"
+    },
+    {
+     "kind": "H",
+     "text": "XMLRPC防御"
+    },
+    {
+     "kind": "P",
+     "text": "XMLRPC防御は、DDoS攻撃や、ブルートフォースアタックを防御する機能です。"
+    },
+    {
+     "kind": "P",
+     "text": "気がついていないだけで意外と攻撃されているようなので、私は常に有効化しています。"
+    },
+    {
+     "kind": "P",
+     "text": "ただ、XML-RPCは、WordPress専用のスマホアプリやリモート投稿などを利用する際に必要なので、案件仕様に合わせて設定しましょう。"
+    },
+    {
+     "kind": "H",
+     "text": "ユーザー名漏えい防御"
+    },
+    {
+     "kind": "P",
+     "text": "WordPressでは、著者ページが存在し、URLにログイン時にも使用するユーザー名が割り当てられています（◯◯◯.com/author/user-name）。"
+    },
+    {
+     "kind": "P",
+     "text": "◯◯◯.com/?author=1 で著者ページへリダイレクトされるので、ユーザー名がかんたんに確認されてしまいます。"
+    },
+    {
+     "kind": "P",
+     "text": "ユーザー名漏えい防御を適用して、著者ページが表示されないようにします。"
+    },
+    {
+     "kind": "H",
+     "text": "更新通知"
+    },
+    {
+     "kind": "P",
+     "text": "WordPress本体やWordPressプラグイン、WordPressテーマの更新情報がある際に、メールで通知が届きます。更新を怠るのはセキュリティレベルを下げる大きな要因の一つです。通知が届くよう設定し、常に最新状態を保つようにします。"
+    },
+    {
+     "kind": "H",
+     "text": "04, wp-config.phpを1階層上へ"
+    },
+    {
+     "kind": "P",
+     "text": "WordPressへの攻撃はさまざまあるようですが、wp-config.phpの読み取りが多くなっているのが現状のようです。"
+    },
+    {
+     "kind": "P",
+     "text": "データベース情報が記載されたwp-config.php を1階層上に移動させることで、ファイルへアクセスできなくします。特に設定は必要なく、1階層上に移動させるだけです。"
+    },
+    {
+     "kind": "P",
+     "text": "ただ、WordPressのセキュリティ設定として『wp-config.phpを1階層上に』が定番のようにありますが、ディレクトリトラバーサル（※）に対しては効果がないとのこと。"
+    },
+    {
+     "kind": "P",
+     "text": "※ディレクトリトラバーサル…ファイル名を不正に書き換え、通常アクセスできないファイルやディレクトリの内容を取得する攻撃"
+    },
+    {
+     "kind": "P",
+     "text": "合わせて、サーバー側でWAF（ウェブアプリケーションファイアウォール）の設定もします。一般的なレンタルサーバーはほぼ対応しているのでかならず設定しています。"
+    },
+    {
+     "kind": "H",
+     "text": "05, 問い合わせフォームにreCAPTCHA導入"
+    },
+    {
+     "kind": "P",
+     "text": "迷惑メールが届く原因の一つが、問い合わせフォーム。私も以前よく届いていたのですが、問い合わせフォームにreCAPTCHAを導入したところピタッと止まりました。かならず止まるとは言い切れないのですが、一定の効果はあるようなので設定しています。"
+    },
+    {
+     "kind": "H",
+     "text": "Contact Form 7のreCAPTCHA設定方法"
+    },
+    {
+     "kind": "P",
+     "text": "WordPress問い合わせプラグインの定番『Contact Form 7』のreCAPTCHA設定方法を紹介します。"
+    },
+    {
+     "kind": "P",
+     "text": "難しいことはありません。Googleアカウントがあればすぐ設定できます。"
+    },
+    {
+     "kind": "P",
+     "text": "WordPressサイトリニューアルのご案件をお請けすると、まったく対策されていないサイトを見かけます。今回の内容は初心者でも対応可能なWordPressセキュリティ対策なので、すぐ実装可能です。明日からぜひ対応していきましょう。"
+    }
+   ],
+   "checkedAt": 1789183874952,
+   "etag": "",
+   "hash": "4083ceb23ac26187",
+   "id": "5a2821903d8c",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fcorto.jp%2Fnote%2Fwordpress-security%2F",
+   "key": "https://corto.jp/note/wordpress-security",
+   "lastModified": "",
+   "publishedAt": 1789131288000,
+   "summary": "WordPressで最低限おこなっておきたいセキュリティ対策について紹介します。難しい設定はなくWordPress初心者向きの内容です。ただ、かならず対応しておきたいものばかりなので、WordPress実装の際にチェックすることをおすすめします。",
+   "title": "WordPressサイトのセキュリティ対策 – 最低限設定しておきたい5つ | corto",
+   "updatedAt": 1789183874952,
+   "url": "https://corto.jp/note/wordpress-security/"
+  },
+  "https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "Rethinking skills and prompts for GPT-6 Astra"
+    },
+    {
+     "kind": "P",
+     "text": "Revisit skill descriptions, AGENTS.md, and task prompts to avoid bloated context."
+    },
+    {
+     "kind": "P",
+     "text": "Coding agents have come a long way, and best practices are changing fast. With more capable models, what used to require a lot of handholding and scaffolding no longer does."
+    },
+    {
+     "kind": "P",
+     "text": "If you’ve been using agents like Codex for your projects over the last year, you’ve likely accumulated a lot of instructions as you worked to steer the models toward good outcomes. With each release, it’s been worth revisiting those assumptions, but with GPT-6 Astra, it’s more important than ever."
+    },
+    {
+     "kind": "P",
+     "text": "These instructions can take many forms: skills, AGENTS.md , and your task prompts are all shaping how the model gets work done."
+    },
+    {
+     "kind": "H",
+     "text": "Better skills"
+    },
+    {
+     "kind": "P",
+     "text": "These instructions can be in the form of skills, which are essentially prompts stored as Markdown files that can also be packaged with resources and bundled scripts. Generally, they are most useful for guidance around a specific workflow, or when using certain apps."
+    },
+    {
+     "kind": "P",
+     "text": "People now default to packaging a lot of skills into their projects, and each skill comes with a name and description that are loaded into the model’s context so it knows when to use them. But many descriptions are far too long, and when you add too many skills, Codex starts shortening their descriptions to fit. The model ends up seeing less of each description, making it harder to know which skill to pick."
+    },
+    {
+     "kind": "P",
+     "text": "What’s worse is that descriptions can often contradict each other or over-emphasize when skills should be used, leading the model to load instructions that don’t actually help the task."
+    },
+    {
+     "kind": "P",
+     "text": "A common workflow to create skills is to use the $skill-creator skill. We recently updated its guidance to help mitigate many of the failure modes we’ve seen in practice."
+    },
+    {
+     "kind": "P",
+     "text": "First, skill descriptions should be as short as possible while making it clear when the model should use them:"
+    },
+    {
+     "kind": "P",
+     "text": "Create and validate Postgres schema migrations. Use when working with databases, queries, models, or persistence."
+    },
+    {
+     "kind": "P",
+     "text": "Create and validate Postgres schema migrations. Use when adding or changing a migration, or reviewing its rollout."
+    },
+    {
+     "kind": "P",
+     "text": "Here, the bad skill description can push the model to use it anytime it touches anything related to a database, rather than only when it has to handle a migration."
+    },
+    {
+     "kind": "P",
+     "text": "Second, one of the key markers of a useful skill is progressive disclosure. Reading a skill takes up context, bringing you closer to compaction and introducing guidance that may not apply to the task. For skills with multiple workflows, make the root document a minimal router that points to supporting docs and scripts. Give the model enough guidance to know where to look without forcing it to read things that don’t matter in the moment."
+    },
+    {
+     "kind": "P",
+     "text": "Third, many skills were written as elaborate itineraries or recipes. Models have gotten much better at understanding nuance and ambiguity, so overly specific guidance can now hinder results where it previously helped."
+    },
+    {
+     "kind": "P",
+     "text": "Repository skills also guide other contributors’ agents, which may use different models. Guidance that helps Sol or Luna may overconstrain GPT-6 Astra, so consider which models will use the instructions you leave behind."
+    },
+    {
+     "kind": "H",
+     "text": "Up-to-date AGENTS.md"
+    },
+    {
+     "kind": "P",
+     "text": "Because AGENTS.md applies whenever the model works in your repository, you should frequently revisit each instruction and ask yourself whether it’s still needed."
+    },
+    {
+     "kind": "P",
+     "text": "Requiring a stack of docs or a full repo map before every edit is excessive for a typo fix. GPT-6 Astra can work out what it needs to read without being pushed to review the whole project before every change."
+    },
+    {
+     "kind": "P",
+     "text": "Before every edit, read architecture.md, database.md, and deployment.md."
+    },
+    {
+     "kind": "P",
+     "text": "Use architecture.md for service boundaries, database.md for schema changes, and deployment.md when preparing a deployment."
+    },
+    {
+     "kind": "P",
+     "text": "Prompting the model to read files before every edit is a great way to burn context and slow work down. Pointing to some docs can still be helpful, however, so long as it is contextual. Be sure to keep your docs updated too!"
+    },
+    {
+     "kind": "P",
+     "text": "Previous models needed encouragement to run tests and check their work. GPT-6 Astra does that on its own, so the same instructions can lead to unnecessary testing."
+    },
+    {
+     "kind": "P",
+     "text": "GPT-6 Astra is thorough, but it can be more tentative about how far to take a task. Sometimes it needs a little push to keep going. You can use AGENTS.md to give it permission for a specific workflow you know is safe, such as a local test suite:"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "The local tests use disposable fixtures and have no production access. Run them, fix failures caused by the requested change, and rerun affected tests without asking for approval at each step."
+    },
+    {
+     "kind": "H",
+     "text": "Decision boundaries"
+    },
+    {
+     "kind": "P",
+     "text": "Pay careful attention to how you describe boundaries. If a previous model did things on your behalf without permission, you may have added strong language to make it ask first. That can be useful, but GPT-6 Astra, as our most aligned model, has much better judgment and will not perform tasks unless it knows it is safe – so you should treat it as such."
+    },
+    {
+     "kind": "P",
+     "text": "If you stated boundaries previously because you wanted to prevent other models from going too far and you’re now switching to GPT-6 Astra, consider updating that language: Astra could take it too seriously and may stop work where you’d actually be happy for it to continue."
+    },
+    {
+     "kind": "H",
+     "text": "Persistence"
+    },
+    {
+     "kind": "P",
+     "text": "If you’re used to GPT-5.6 Sol taking a request and continuing for long stretches, GPT-6 Astra can feel more tentative about when to stop. It may reach a first implementation and come back for your review while there’s still work to do."
+    },
+    {
+     "kind": "P",
+     "text": "This is where it helps to define completion before starting. You might need to push Astra to continue until it’s fully done. If the task includes getting the implementation running, inspecting the result, and fixing what fails, make that part of the request. A requirement to stop for review after the first implementation will pull the model toward an earlier stopping point, so check whether that’s a decision you actually need to make."
+    },
+    {
+     "kind": "P",
+     "text": "If you want it to keep exploring beyond a first pass, say what you want explored and where it should stop."
+    },
+    {
+     "kind": "P",
+     "text": "A new model is a good opportunity to clean your house, but you don’t need to review everything manually: ask GPT-6 Astra to do an audit based on what was discussed in this article, then go build something you wouldn’t have attempted before!"
+    }
+   ],
+   "checkedAt": 1789183874952,
+   "etag": "W/\"391f4ced954a2ccd1953de12dcc98938\"",
+   "hash": "7076b7f7514edfe0",
+   "id": "19b62e319673",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fdevelopers.openai.com%2Fblog%2Frethinking-skills-and-prompts-for-gpt-6-astra",
+   "key": "https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra",
+   "lastModified": "Sat, 12 Sep 2026 01:28:10 GMT",
+   "publishedAt": 1789155960000,
+   "summary": "For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to the page URL.",
+   "title": "Rethinking skills and prompts for GPT-6 Astra | OpenAI Developers",
+   "updatedAt": 1789183874952,
+   "url": "https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra"
   },
   "https://developers.openai.com/showcase/games": {
    "bodyBlocks": [
@@ -615,401 +775,9 @@
    "updatedAt": 1789163808427,
    "url": "https://developers.openai.com/showcase/games"
   },
-  "https://engineering.dena.com/blog/2026/09/mysql84-migrate-research": {
-   "bodyBlocks": [
-    {
-     "kind": "P",
-     "text": "DeNAのエンジニアが考えていることや、担当しているサービスについて情報発信しています"
-    },
-    {
-     "kind": "H",
-     "text": "DeNA の大規模環境を MySQL 8.4 に移行する時に考えたこと[DeNA インフラ SRE]"
-    },
-    {
-     "kind": "P",
-     "text": "こんにちは、IT 基盤部の西崎です。主に DeNA がグローバルに展開するゲームのインフラ管理を担当しています。今回は自分の所属する IT 基盤部第二グループで MySQL を 8.4 以降どのように動かし続けるかについて検討したことを紹介します。"
-    },
-    {
-     "kind": "P",
-     "text": "結論としては Aurora などのマネージドサービスへの移行を選択しており、他の選択肢で実際に導入検証ができた部分も少ないのですが、変わり続けるデータベース情勢の中での調査検討の一事例として見て頂ければ幸いです。 1"
-    },
-    {
-     "kind": "H",
-     "text": "MySQL の大規模環境をどう安定運用するか"
-    },
-    {
-     "kind": "P",
-     "text": "DeNA はオンプレ時代から 15年以上に渡って MySQL を大規模に運用してきました。その間には MySQL のバージョンアップだけでなくクラウド化やマネージドサービスの出現、そして分散 SQL（NewSQL）の台頭など、さまざまな状況の変化がありました。"
-    },
-    {
-     "kind": "P",
-     "text": "DeNA もクラウド化の波に乗って IaaS 上での運用や Amazon Aurora などのマネージドサービスを利用し始めたほか、新規サービスの検証も積極的に行い、その成果は本ブログでも発表してきました。 その時々の状況に合わせて、MySQL をいかに大規模に安定運用するか という点は常に私たちの重要な問いでした。"
-    },
-    {
-     "kind": "P",
-     "text": "このような努力の暫定的な結果として、検討開始時点で私たちのチームでは以下のどちらかの方法で MySQL 環境を運用していました。"
-    },
-    {
-     "kind": "LI",
-     "text": "IaaS 上に MySQL クラスターを構築する"
-    },
-    {
-     "kind": "LI",
-     "text": "マネージドサービスを利用する Amazon Aurora（Serverless v2 を含む）"
-    },
-    {
-     "kind": "P",
-     "text": "しかし状況は変化し続けており、 2025年には国内外で新しい選択肢による実例が少しずつ増えていました 。そしてこのタイミングで MySQL 8.4 以降をどのように動かすか？という点で方針を策定する必要があった というのが今回の内容です。"
-    },
-    {
-     "kind": "H",
-     "text": "出発点：MySQL 8.4 では MHA が動かない"
-    },
-    {
-     "kind": "P",
-     "text": "私たちの一番の出発点はこの点です。DeNA の MySQL 環境で長らく頼ってきた MHA は MySQL 8.4 以降に対応していません。"
-    },
-    {
-     "kind": "P",
-     "text": "MHA は DeNA で開発され、2011年に発表された Perl 製の OSS ツールです。詳細は他に譲りますが、MySQL のレプリケーション構成において Source インスタンスが故障した場合でも、最小のダウンタイムとデータロスでレプリケーション構成を復旧させることができる HA 機能（High Availability/高可用性）を提供しています。"
-    },
-    {
-     "kind": "P",
-     "text": "私のチームの環境でも、MySQL を IaaS 上で利用する時は必ず MHA を利用していました。しかし MHA が動かない以上、その対応を念頭に置いて MySQL 8.4 以降の構成を考える必要があります。そして MySQL 8.0 も 2026年4月に EoL（Amazon Aurora の EoL は 2028年4月）を迎えるため、対応方針を決める必要がありました。"
-    },
-    {
-     "kind": "H",
-     "text": "アプリケーション側からの要望"
-    },
-    {
-     "kind": "P",
-     "text": "MySQL バージョンを上げることで利用できる機能も多くあるため、できるだけ早期にバージョンを上げたいという要望はアプリケーションチームからも受けていました。自分がこの検討をした段階ではアプリケーション側で MySQL 8.4 に対応するための修正も並行して行われていましたが、MHA も含めてインフラ側の方針を決める必要がある状態でした。今回はこのインフラ側の検討について紹介します。実際にバージョンアップを行なう際に直面した課題も別の機会に紹介できればと思います。"
-    },
-    {
-     "kind": "H",
-     "text": "MySQL 8.4 以降の選択肢"
-    },
-    {
-     "kind": "P",
-     "text": "MySQL 8.4 以降の構成を検討するため、私たちのチームでは以下の選択肢を検討しました。"
-    },
-    {
-     "kind": "LI",
-     "text": "MHA をメンテして MySQL 8.4 以降に対応させる"
-    },
-    {
-     "kind": "LI",
-     "text": "Orchestrator を利用する"
-    },
-    {
-     "kind": "LI",
-     "text": "Vitess を利用する"
-    },
-    {
-     "kind": "LI",
-     "text": "TiDB を利用する"
-    },
-    {
-     "kind": "LI",
-     "text": "グループレプリケーションを利用した構成に変更する"
-    },
-    {
-     "kind": "LI",
-     "text": "MySQL と互換性のあるクラウドのマネージドサービス（AWS の Amazon Aurora, Google Cloud の Cloud SQL）を利用する"
-    },
-    {
-     "kind": "P",
-     "text": "検討の基準は「信頼性・透明性があること（開発組織、今後の開発、ソフトウェアの挙動に対する信頼性）」、「システムの複雑性を上げないこと（新しい依存関係をできるだけ増やさないこと）」、「既存の大規模環境を現実的に移行できること」です。"
-    },
-    {
-     "kind": "P",
-     "text": "たとえば Google Cloud の Cloud Spanner は私たちのチームでも運用実績がありますが、 MySQL との互換性はなく、データベースとしての仕組みも大きく違う部分があり、既存の大規模 MySQL 環境の移行は難しいことをすでに知っていたため、この時点で選択肢からは外しています。"
-    },
-    {
-     "kind": "H",
-     "text": "選択肢 1. MHA を使い続ける"
-    },
-    {
-     "kind": "P",
-     "text": "この選択肢のメリットは明白で、これまで通りの IaaS 構成と運用を維持できることです。反面、新しい機能や運用負荷の低減ができる訳ではなく、何より Perl 製の歴史ある大型ツールである MHA をメンテし続けるという大きなエンジニアリングコストが伴います。"
-    },
-    {
-     "kind": "LI",
-     "text": "メリット IaaS 上の MySQL 構成を維持できる これまでの運用手順や蓄積したナレッジを利用できる"
-    },
-    {
-     "kind": "LI",
-     "text": "デメリット 大きなエンジニアリングコストがかかる MySQL のバージョンアップによる MHA のバグを踏んだ話 でも紹介したように、MHA は MySQL の実装に直接的に依存している部分が多く、最終的には MySQL の各バージョンに追従する必要がある データベースの可用性と整合性というサービス提供の根幹に関わる機能のため、さまざまなバージョン、設定値、状況を横断して正常動作を担保する必要がある その割に新機能や運用改善が期待できるわけではない"
-    },
-    {
-     "kind": "P",
-     "text": "MHA の運用方針について何らかの結論が出たわけではありませんが、この時点では メンテナンスコスト（と得られる効果のバランス）の見通しが立たず、時間も限られていた ため他の選択肢を検討せざるを得ない状態でした。"
-    },
-    {
-     "kind": "H",
-     "text": "選択肢 2. Orchestrator"
-    },
-    {
-     "kind": "P",
-     "text": "Orchestrator は MHA と同様に障害時のフェイルオーバーなどの機能を持つ OSS です。Booking.com や GitHub での利用実績があり信頼性はあると考えましたが、この 調査をしていた時点でメンテが止まっていた ため候補から外しました。"
-    },
-    {
-     "kind": "P",
-     "text": "Orchestrator は HA 機能の他にもトポロジー（MySQL 構成）の自動検出と表示機能などがありますが、 開発者によるメンテナンス停止 が発表された後、 Percona によるフォーク は存在したものの Percona 社内向けの管理に限ったものでした。2026年4月に ProxySQL によるメンテナンスの引き継ぎ が発表されたため今後も使われていく可能性はありますが、引き続き状況を注視する必要がありそうです。特に我々のように HA 機能だけを求めるのであれば、後述するグループレプリケーションの方が MySQL の公式プラグインとして開発されており安定性・機能・管理面で優位性があると考えています。"
-    },
-    {
-     "kind": "H",
-     "text": "選択肢 3. Vitess"
-    },
-    {
-     "kind": "P",
-     "text": "Vitess は YouTube で開発・利用された後、Planetscale という会社を中心に開発されているツールです。現在 CNCF の Graduated Project としてホストされています。MySQL クラスターとクライアントの間に VTGate や VTTablet などのコンポーネントを介し、MySQL シャードの管理やリクエストのルーティングを行う構成です。現在は Kubernetes 上で運用する方が一般的ですが、今回は VM 上の MySQL 構成に対して利用することを想定していました。"
-    },
-    {
-     "kind": "P",
-     "text": "IaaS 上の MySQL をベースに構成できることは非常に興味深いですが、HA 構成のためのレイヤーが増えてしまうことになり、既存環境の移行にはハードルが高いと考えて候補から外しました。今回はアプリケーション側でシャーディングに対応したロジックやトランザクション管理をすでに実装・運用しているため、 HA 機能のために利用するには仕組みが複雑 （Vitess の強みである複数シャードの自動管理やリクエストのルーティングのメリットを直接的に活かせない）で、レイテンシや運用負荷も上がってしまうデメリットに見合わないという判断です。新規構築であったり、Vitess Operator for Kubernetes を利用しやすい環境であれば、より具体的に検証したいと個人的には考えています。"
-    },
-    {
-     "kind": "LI",
-     "text": "メリット IaaS 上の MySQL 構成を維持できる YouTube などでの実績があり、CNCF で管理されている OSS である"
-    },
-    {
-     "kind": "LI",
-     "text": "デメリット HA 構成のために利用するには仕組みが複雑であり、検討点や管理対象が多い VTGate を介するため HOP 数が増えてレイテンシの悪化が見込まれる https://vitess.io/docs/25.0/overview/architecture/"
-    },
-    {
-     "kind": "H",
-     "text": "選択肢 4. TiDB"
-    },
-    {
-     "kind": "P",
-     "text": "TiDB は PingCAP 社によって開発されている分散 SQL OSS です。OLTP に加えて OLAP も効率的に処理できる HTAP 向けに拡張された分散 SQL という理解ですが MySQL との互換性が高く、特に日本では MySQL 互換の分散 SQL としての実績や認知度が高い印象です。"
-    },
-    {
-     "kind": "P",
-     "text": "マネージドサービスに加えてセルフマネージドの選択肢もありますが 、Vitess と同じく全体のアーキテクチャから大きく変わることになるため、今回のケースで HA 機能のために導入するには変更点が多い と判断して候補から外しました。また自分の調査よりも以前に調査・検証されたことがあり、 現行のアプリケーションに必要な要件を満たさないことから導入が見送られていた という経緯もあります。その後の TiDB のアップデートで要件を満たせるようになった部分もあるようなので、今後機会があれば詳しく調査してみたいです。"
-    },
-    {
-     "kind": "LI",
-     "text": "メリット IaaS 上の MySQL 構成を維持できる 日本国内でも多くの実績があり、OSS として公開されている MySQL との互換性が高い分散 SQL である"
-    },
-    {
-     "kind": "LI",
-     "text": "デメリット HA 構成を目的にするには変更点が多い 以前の検証で現行アプリケーションに必要な要件を満たさないことが判明していた"
-    },
-    {
-     "kind": "H",
-     "text": "選択肢 5. グループレプリケーションを利用した構成"
-    },
-    {
-     "kind": "P",
-     "text": "グループレプリケーションは MySQL の公式プラグインで、Spanner のように Paxos ベースのアルゴリズムによって同一クラスター内のレプリケーションや死活監視を行います。比較的新しいレプリケーション方式ですが、 Uber や Booking.com など、大規模な MySQL 環境での実績があります。詳細は後述しますが、最小限の変更で IaaS 上の構成と新たなメリットを期待できるため今回は 特に有力な選択肢 でした。"
-    },
-    {
-     "kind": "LI",
-     "text": "メリット 公式機能（プラグイン）のみで IaaS 上の MySQL 構成を維持できる 既存の運用（トポロジ管理やインスタンス追加など）を公式機能に寄せる形で運用の簡素化と効率化が見込める 複数インスタンスへの並列書き込み機能を利用することで新たなメリットも見込める"
-    },
-    {
-     "kind": "LI",
-     "text": "デメリット 大規模運用の公開実績が乏しいため、課題が見つかった場合の対応にコストがかかる"
-    },
-    {
-     "kind": "H",
-     "text": "選択肢 6. マネージドサービス（Amazon Aurora, Cloud SQL）"
-    },
-    {
-     "kind": "P",
-     "text": "パブリッククラウド上のマネージドサービスを利用する選択肢です。私たちのチームでは Aurora の利用実績が十分あったため、移行や運用自体に大きな懸念はありませんでした。ただし IaaS 上での構成は諦めることになり、運用の手間がなくなる一方で料金は上がります。"
-    },
-    {
-     "kind": "LI",
-     "text": "メリット 私たちの環境でも十分な実績がある MySQL on IaaS よりもパフォーマンスや可用性に優れる面がある マネージドサービスのため運用工数が少ない"
-    },
-    {
-     "kind": "LI",
-     "text": "デメリット MySQL on IaaS 構成よりも料金がかかる マネージドサービスのため、透明性やポータビリティは MySQL on IaaS より劣る"
-    },
-    {
-     "kind": "H",
-     "text": "MySQL 8.4 以降の状況まとめ"
-    },
-    {
-     "kind": "H",
-     "text": "1. 単純な MySQL HA（可用性）機能として有力なのはグループレプリケーション"
-    },
-    {
-     "kind": "P",
-     "text": "MySQL 8.4 で純粋な HA 機能のみを求める場合、選択肢は Orchestrator とグループレプリケーション（InnoDB Cluster も含めて）になります。しかし Orchestrator は一般に開かれた OSS としてのメンテナンスを再開したのが2026年4月 であり、自分たちのケースで必要な機能を備えているか、今後も安定してメンテナンスされるかは注視しておく必要があります。"
-    },
-    {
-     "kind": "P",
-     "text": "グループレプリケーションも（特に日本国内では）まだ利用実績が多いとは言えませんが、 2016年に GA した 公式のプラグインであること、バックアップやリストアなど関連する機能も公式でサポートされていることを考えると、将来的にこちらの方がメリットが多くなりそうです。Booking.com や Uber のように、長期間に渡って大規模に MySQL を利用してきた企業も採用しており、Orchestrator などの HA ツールから（少なくとも部分的に）移行しつつ併用しているように見えます。MySQL 側の変化も大きくなる中で MHA や Orchestrator のようなユーザ企業が OSS として管理するコストが上がっており、同時に HA 機能は MySQL 本体やマネージドサービスなどのサービス提供側に組み込まれつつある 印象です。"
-    },
-    {
-     "kind": "P",
-     "text": "今回の我々のケースでも、管理する対象や工数は低く抑えたい、シャーディングロジックやインスタンスの管理機能はあるが HA 構成（自動フェイルオーバー機能）だけ欲しい、というパターンなので、グループレプリケーションが最後の検討に残ることになりました。"
-    },
-    {
-     "kind": "H",
-     "text": "2. 分散 SQL を含め、マネージドサービスが台頭している"
-    },
-    {
-     "kind": "P",
-     "text": "国内外でパブリッククラウドでのマネージドサービスへの移行が相次いでいます。並行して分散 SQL の利用・移行も進んでいる印象です。"
-    },
-    {
-     "kind": "LI",
-     "text": "Amazon RDS / Amazon Aurora / DSQL"
-    },
-    {
-     "kind": "LI",
-     "text": "Google Cloud SQL / Spanner"
-    },
-    {
-     "kind": "LI",
-     "text": "TiDB"
-    },
-    {
-     "kind": "LI",
-     "text": "実績は比較的少ないが Vitess も CNCF でホストされている"
-    },
-    {
-     "kind": "P",
-     "text": "ここで共通しているのは運用負荷が低減できることです。今回の検討の出発点となった MHA を含めて、運用負荷の低減はデータベース運用の大きな課題です。自分のチームでもマネージド MySQL と 分散 SQL の両方を活用しており、その効果を実感しています。"
-    },
-    {
-     "kind": "P",
-     "text": "特に日本では TiDB への移行事例が近年多く発表されており、大規模 MySQL を互換性高く分散 SQL に移行する有力な選択肢となっている印象です。直接 MySQL に対応していませんが、Spanner や Aurora DSQL のような分散 SQL もクラウド事業者が力を入れて開発しており、今後の大きなトレンドの１つになりそうです。ここで興味深いのが、MySQL や PostgreSQL などがソフトウェア全体ではなく データベースエンジンやプロトコル互換性という部分的な形でこれらの製品に取り込まれている ことです。Amazon Aurora や DSQL のようにデータベースエンジン自体が再利用されている例もありますが 2 、TiDB のようにプロトコル互換性のみで元の実装を利用していない場合もあります 3 。そもそもこれらの製品はアーキテクチャ自体が全く異なるため、 単に互換性があるというだけでなく、それぞれ別の仕組みで動くものとして個別に理解する必要があります 。"
-    },
-    {
-     "kind": "H",
-     "text": "グループレプリケーション VS. マネージドサービス"
-    },
-    {
-     "kind": "P",
-     "text": "調査の結果、最後に残った選択肢は「IaaS 上でグループレプリケーションを本格的に検証して利用する」と「マネージドサービスに全面的に移行する」でした。ここでグループレプリケーション（以下 GR）についてもう少し説明しておきます 4 。"
-    },
-    {
-     "kind": "H",
-     "text": "グループレプリケーションについて"
-    },
-    {
-     "kind": "P",
-     "text": "GR は従来の非同期・準同期レプリケーションとは異なる、新しい MySQL のレプリケーション方式です。従来のように Source から Replica に一方向のレプリケーションを行うのではなく、クラスター全体が１つの「グループ」として互いを認知しており、レプリケーションもこの中で自動的に行われます。"
-    },
-    {
-     "kind": "P",
-     "text": "GR のグループ内では特定のインスタンスが故障した場合に検知され、自動的にインスタンスの切り離しやフェイルオーバー（新規プライマリインスタンスの選出）が行われます。新規メンバーが参加した場合のデータリカバリも、物理バックアップを利用したクローンプラグインと binlog 転送によるデータ復旧を組み合わせて自動で行うことが可能です。GR は公式機能である上に HA 機能がビルトインされているため、今回のケースでは有力な選択肢でした。IaaS 上の構成をこれまで通りに利用できる他、新規インスタンス構築の手順も簡略化できる点が魅力的です。"
-    },
-    {
-     "kind": "H",
-     "text": "マルチプライマリモードの可能性"
-    },
-    {
-     "kind": "P",
-     "text": "GR にはマルチプライマリモードもあり、この場合はグループ内のすべてのインスタンスで書き込みが可能になります。書き込みリクエストは該当インスタンス上でパース・データ取得・書き込み値の計算が行われ、binlog として発行された後に他のインスタンスでも適用されます。この間には他のインスタンスとの検証フェーズも存在しており、データ衝突があった場合はエラーとなるためインスタンス間でデータ整合性が崩れる心配もありません。ただし頻繁なデータ衝突があると性能が大きく劣化するため、同時書き込みを実施する場合は接続先インスタンスを適切に制御する必要があります。"
-    },
-    {
-     "kind": "P",
-     "text": "他にも制限事項や注意点がありますが、同一クラスターで複数インスタンスに同時書き込みができるのは大きなメリットです。インスタンス故障時も書き込み先さえ変えればデータ更新ができるためダウンタイムがほぼゼロになる他、書き込み処理の部分的な分散によるグループ内でのスケールができる可能性もあります 5 。我々の環境では MyDNS を用いて DB クエリの向き先を柔軟に管理しているため 6 、グループ内で書き込むインスタンスを瞬時に変えることや、書き込み先のインスタンスをデータ衝突なく管理することも現実的に考えられました。実際に利用するにはさらなる検証を行う必要がありますが、公式プラグインでこのような機能を想定できるのは魅力的です 7 。"
-    },
-    {
-     "kind": "P",
-     "text": "このように GR を利用すれば工数を抑えつつ、新しいメリットもある形で IaaS 上の構成を維持できる可能性が出てきました。マネージドサービスも便利ですが、料金の上昇や製品ごとに異なる扱いが必要であったり、クラウド事業者間のポータビリティを失うなどのデメリットもあります。我々のような事業者にとって、自前で運用できる選択肢を持っておくことも重要な点です。"
-    },
-    {
-     "kind": "H",
-     "text": "分散 SQL ではないマネージドサービスを選んだ理由"
-    },
-    {
-     "kind": "P",
-     "text": "しかし 今回選んだのは Aurora や Cloud SQL のようなマネージドサービス でした。初期構築や運用のコストが低く、それと比較して料金の上昇も許容範囲内だったからです。"
-    },
-    {
-     "kind": "P",
-     "text": "一方でシャーディングを始めとする複数クラスタ管理手法は当面使えるため、変化とコストの大きい分散 SQL よりも実績のあるソリューションが適していたという面もあります。ゲームの場合はストレージ量の増加幅も運用年数に応じて下がっていく場合が多く、Aurora や Cloud SQL をシャーディングすれば長期間の運用にも基本的には耐えることができます。"
-    },
-    {
-     "kind": "LI",
-     "text": "マネージドサービス（Amazon Aurora, Cloud SQL）を選んだ理由 すでに本番運用中であり、チーム内での実績がある 構築・運用コストが低い GR など新しい仕組みの検証・構築には一定の工数がかかる 分散 SQL よりも変更が少ない 使用料金の上昇が許容範囲内 Cloud SQL への移行ブログ でも具体的に紹介 データ量が多く EC2 では i3en 系を使う必要があった環境では、Aurora に移行してむしろ料金が下がったケースもあった"
-    },
-    {
-     "kind": "P",
-     "text": "ちなみに私たちのグループでは分散 SQL を利用している環境もあります。今回の検討はこれまで IaaS 上で MySQL を利用してきた環境についてのものとご理解ください。"
-    },
-    {
-     "kind": "H",
-     "text": "最後に"
-    },
-    {
-     "kind": "P",
-     "text": "DeNA の大規模環境で MySQL 8.4 への移行方針をどう考えたかを紹介しました。最近のデータベースはグループレプリケーションや分散 SQL など、分散処理を前提とした仕組みが多く出てきており、とてもダイナミックで面白いと感じています。並行してマネージドサービスが台頭しつつあり、MySQL や PostgreSQL も単なるソフトウェアを超えてプロトコルやデータベースエンジンとして部分的に使われるなど、より流動的な状況になっている印象です。それだけに十分な情報収集と思考の価値がある領域ではないでしょうか。"
-    },
-    {
-     "kind": "P",
-     "text": "この検討も変わり続ける状況の中での一時点のものであり、決して最終結論ではありません。IT 基盤部ではこれからもさまざまな技術に対して、調査と検証を実施します。"
-    },
-    {
-     "kind": "LI",
-     "text": "本調査は2025年の前半に実施したものです。実際に調査を行なってから1年以上経過しているため、最新情報を反映できていない部分がある可能性があります。また DeNA と銘打っていますが、あくまで IT 基盤部第二グループでの事例であることをご了承ください。 ↩︎"
-    },
-    {
-     "kind": "LI",
-     "text": "グループレプリケーションは InnoDB Cluster の中でも利用されますが、今回は GR 単体の利用として想定・検討していました。トポロジ管理やリクエストのルーティングには我々の環境固有の仕組みを利用しているため、単体の方が導入しやすいと考えたためです。 ↩︎"
-    },
-    {
-     "kind": "LI",
-     "text": "マルチプライマリモードの主な目的は可用性や信頼性であり、書き込みスループットの向上は限られたケースで可能性があるという理解です。 https://dev.mysql.com/doc/refman/8.4/en/group-replication-use-cases.html またマルチプライマリモードでは書き込み処理の一部が分散処理できますが、検証部分および apply など実データを更新する処理はすべてのインスタンスで行う必要があります。実際の書き込み性能をグループ内でどれだけスケールできるかはケースによって大きく変わると考えられます。 https://dev.mysql.com/doc/refman/8.0/ja/group-replication-summary.html ↩︎"
-    },
-    {
-     "kind": "LI",
-     "text": "MyDNS の利用例は以下の記事でも紹介しています。 https://engineering.dena.com/blog/2019/10/management-migration-aurora/ ↩︎"
-    },
-    {
-     "kind": "LI",
-     "text": "グループレプリケーションおよびマルチプライマリモードにはさまざまな前提条件があります。調査した段階では私たちの環境ではほとんどの制約をクリア可能な見込みでしたが、実際の導入検証ができた訳ではありません。 https://dev.mysql.com/doc/refman/8.4/en/group-replication-requirements.html https://dev.mysql.com/doc/refman/8.4/en/group-replication-limitations.html ↩︎"
-    },
-    {
-     "kind": "P",
-     "text": "最後まで読んでいただき、ありがとうございます！ この記事をシェアしていただける方はこちらからお願いします。"
-    },
-    {
-     "kind": "H",
-     "text": "related articles"
-    },
-    {
-     "kind": "LI",
-     "text": "2026.09.09 技術記事 AI に実装を任せるための仕様と検証ループ 〜ProxySQL に足りない機能を実装で埋めた〜 [DeNA インフラ SRE] #infrastructure #sre #database #aws #aurora #mysql #proxysql #kubernetes #ai #infra-quality"
-    },
-    {
-     "kind": "LI",
-     "text": "2026.08.07 技術記事 移行工数とコストを抑えた、Cloud SQL への MySQL 移行 [DeNA インフラ SRE] #infrastructure #google-cloud #database #mysql #sre"
-    },
-    {
-     "kind": "LI",
-     "text": "2025.01.28 技術記事 AWS の Aurora のバックアップコストについて #infrastructure #sre #database #aws #aurora #mysql #backup #cost #infra-quality"
-    },
-    {
-     "kind": "P",
-     "text": "DeNAでは、失敗を恐れず常に挑戦し続けるエンジニアを募集しています。"
-    }
-   ],
-   "checkedAt": 1789097533111,
-   "etag": "W/\"6aa20b93-104dc\"",
-   "hash": "92efe3557591b8ab",
-   "id": "19577c1e71c3",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fengineering.dena.com%2Fblog%2F2026%2F09%2Fmysql84-migrate-research%2F",
-   "key": "https://engineering.dena.com/blog/2026/09/mysql84-migrate-research",
-   "lastModified": "Thu, 10 Sep 2026 01:44:51 GMT",
-   "publishedAt": 1789053751000,
-   "summary": "2026.09.10 技術記事 DeNA の大規模環境を MySQL 8.4 に移行する時に考えたこと[DeNA インフラ SRE] by Hiroyuki Nishizaki #infrastructure #sre #database #mysql #aws #google-cloud こんにちは、IT 基盤部の西崎です。主に DeNA がグローバルに展開するゲームのインフラ管理を担当しています。今回は自分の所属する ...",
-   "title": "DeNA の大規模環境を MySQL 8.4 に移行する時に考えたこと[DeNA インフラ SRE] | BLOG - DeNA Engineering",
-   "updatedAt": 1789097533111,
-   "url": "https://engineering.dena.com/blog/2026/09/mysql84-migrate-research/"
-  },
   "https://forest.watch.impress.co.jp/docs/news/2140240.html": {
    "bodyBlocks": [],
-   "checkedAt": 1789163808427,
+   "checkedAt": 1789183874952,
    "etag": "",
    "hash": "313dfd60d772e574",
    "id": "f1d37912394d",
@@ -1019,12 +787,12 @@
    "publishedAt": 1789112373000,
    "summary": "",
    "title": "「Unity」公式の「Claude Code」プラグインが登場 ～29のスキルでゲーム開発を支援／ベストプラクティスを教え込んで誤りとトークン消費を削減、手戻りも減る",
-   "updatedAt": 1789163808427,
+   "updatedAt": 1789183874952,
    "url": "https://forest.watch.impress.co.jp/docs/news/2140240.html"
   },
   "https://forest.watch.impress.co.jp/docs/serial/usecopilotpc/2140265.html": {
    "bodyBlocks": [],
-   "checkedAt": 1789163808427,
+   "checkedAt": 1789183874952,
    "etag": "",
    "hash": "4a06bf9ef692e1b5",
    "id": "6cf736d74be0",
@@ -1034,7 +802,7 @@
    "publishedAt": 1789125605000,
    "summary": "",
    "title": "「Microsoft PowerToys」に追加されたローカルAI機能を試してみた",
-   "updatedAt": 1789163808427,
+   "updatedAt": 1789183874952,
    "url": "https://forest.watch.impress.co.jp/docs/serial/usecopilotpc/2140265.html"
   },
   "https://gigazine.net/news/20260911-apple-ceo-john-ternus-iphone-duo": {
@@ -1920,86 +1688,6 @@
    "updatedAt": 1789124376789,
    "url": "https://iphone-mania.jp/iphone18-605682/"
   },
-  "https://japan.cnet.com/article/35252499": {
-   "bodyBlocks": [
-    {
-     "kind": "H",
-     "text": "PayPayもQRコード不要で支払える--JCBの「NFCタグ決済」が8種類のコード決済に対応"
-    },
-    {
-     "kind": "LI",
-     "text": "テキスト HTML 電子書籍 PDF"
-    },
-    {
-     "kind": "LI",
-     "text": "テキスト 電子書籍 PDF"
-    },
-    {
-     "kind": "P",
-     "text": "ジェーシービー（JCB）と、コード決済のゲートウェイ事業を手掛けるキャナルペイメントサービス（CPS）は9月9日、JCBの「NFCタグ決済サービス」でQRコード決済の取り扱いを始めると発表した。店頭のNFCタグにスマートフォンをかざして支払うサービスで、対応するのはPayPay、d払い、au PAY、楽天ペイ、メルペイ、AEON Pay、Alipay+、WeChat Payの8種類だ。"
-    },
-    {
-     "kind": "P",
-     "text": "NFCタグ決済サービスがこれまで対応していたのは、Apple PayとGoogle Payによるクレジットカード決済だけだった。今回の対応で、利用者は普段使っているコード決済アプリで支払えるようになる。店側も専用の決済端末を置くことなく、クレジットカードと主要なコード決済をまとめて受け付けられる。なお、クレジットカード決済は今後も、Apple PayとGoogle Payに対応するカード会社のカードに限られる。"
-    },
-    {
-     "kind": "P",
-     "text": "NFCタグ決済サービスは、店舗に置いたNFCタグに客がスマートフォンをかざすと、Webブラウザに決済画面が開き、そのままスマートフォン上で支払いまで完了する仕組みだ。客が決済画面で支払額を入力し、「コード決済で購入」を選ぶと決済サービスの一覧が表示される。利用するサービスを選ぶと、各サービスのアプリに切り替わって支払う流れだ。"
-    },
-    {
-     "kind": "P",
-     "text": "NFCタグは小型で電源も要らず、置き場所を選ばない。両社はこの特性から、決済端末の導入が難しい移動販売や催事場でのキャッシュレス化にも向くとしている。店頭のQRコードをカメラで読み取る方式に比べ、かざすだけで決済画面を呼び出せる手軽さもある。"
-    },
-    {
-     "kind": "P",
-     "text": "今回加わるQRコード決済は、CPSのシステムを通じて処理する。CPSのゲートウェイ「PAYTREE」は国内外50種類以上のコード決済に対応し、189万店舗を超える加盟店の決済処理を担っているという。"
-    },
-    {
-     "kind": "P",
-     "text": "Amazonのアソシエイトとして、CNET Japanは適格販売により収入を得ています"
-    },
-    {
-     "kind": "H",
-     "text": "あなたにおすすめの記事"
-    },
-    {
-     "kind": "LI",
-     "text": "「FydeOS」を使って古いPCを無償で「Chromebook」に変える方法 2026年08月31日 06時00分"
-    },
-    {
-     "kind": "LI",
-     "text": "収納箱の底に眠っていた古い「iPhone」--価値があるのかゴミなのか調べてみた 2026年09月02日 07時00分"
-    },
-    {
-     "kind": "LI",
-     "text": "記事一覧"
-    },
-    {
-     "kind": "LI",
-     "text": "老朽化する設備と向き合う 地域交通を支える管理業務を刷新 佐渡汽船が取り組むDXの現実解"
-    },
-    {
-     "kind": "LI",
-     "text": "AIで議事録作成はラクになった 問われるのは、“ひと目で伝わること” Plaud NotePin Sが示す会議記録の新しい形"
-    },
-    {
-     "kind": "H",
-     "text": "ZDNET Japan 注目ヘッドライン"
-    }
-   ],
-   "checkedAt": 1789097533111,
-   "etag": "",
-   "hash": "1581aabd302a0f55",
-   "id": "b7e6aaa88717",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fjapan.cnet.com%2Farticle%2F35252499%2F",
-   "key": "https://japan.cnet.com/article/35252499",
-   "lastModified": "",
-   "publishedAt": 1789053696000,
-   "summary": "ジェーシービー（JCB）と、コード決済のゲートウェイ事業を手掛けるキャナルペイメントサービス（CPS）は9月9日、JCBの「NFCタグ決済サービス」でQRコード決済の取り扱いを始めると発表した。店頭のNFCタグにスマートフォンをかざして支払うサービスで、対応するのはPayPay、d払い、au PAY、楽天ペイ、メルペイ、AEON Pa...",
-   "title": "PayPayもQRコード不要で支払える--JCBの「NFCタグ決済」が8種類のコード決済に対応",
-   "updatedAt": 1789097533111,
-   "url": "https://japan.cnet.com/article/35252499/"
-  },
   "https://japan.cnet.com/article/35252506": {
    "bodyBlocks": [
     {
@@ -2284,21 +1972,6 @@
    "updatedAt": 1789124376789,
    "url": "https://japan.cnet.com/article/35252543/"
   },
-  "https://k-tai.watch.impress.co.jp/docs/column/congress/2138490.html": {
-   "bodyBlocks": [],
-   "checkedAt": 1789097533111,
-   "etag": "",
-   "hash": "20c3432b60ebf8eb",
-   "id": "093dd8272d53",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fk-tai.watch.impress.co.jp%2Fdocs%2Fcolumn%2Fcongress%2F2138490.html",
-   "key": "https://k-tai.watch.impress.co.jp/docs/column/congress/2138490.html",
-   "lastModified": "",
-   "publishedAt": 1789053660000,
-   "summary": "",
-   "title": "[法林岳之・石川温・石野純也・佐藤文彦のスマホ会議（仮）] Pixel、Xperia、arrows。部材高騰に苦しむ市場に現れるメーカーごとの特色",
-   "updatedAt": 1789097533111,
-   "url": "https://k-tai.watch.impress.co.jp/docs/column/congress/2138490.html"
-  },
   "https://knap.md": {
    "bodyBlocks": [
     {
@@ -2374,6 +2047,118 @@
    "title": "Knap · Turn data into Markdown",
    "updatedAt": 1789163808427,
    "url": "https://knap.md/"
+  },
+  "https://note.com/kirik/n/n8e7920167c3f": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "デジタル庁GSSで24.6万件漏洩――「中等度」の脆弱性に政府共通基盤が抜かれた件"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "※おことわり 本稿は、ほぼ同じ内容を私のメルマガ 『人間迷路』 で配信しています。で、メルマガご購読者の皆さまに於かれましては本稿は配信する記事と同じものですので、お布施でもない限り、間違って買わないようお願いします。"
+    },
+    {
+     "kind": "P",
+     "text": "なんかこう、VPNの脆弱性から出たんだよとか、ゼロトラストがどうのという記事もありましたが、確かにデジタル庁やデジタル大臣・松本尚さんの記者会見を見ますと何かよく分かったような分からんような内容になってしまって、皆さん混乱しとるんじゃないのかと思います。"
+    },
+    {
+     "kind": "P",
+     "text": "ブラウザ拡張で余計なことやって外から見えてるんじゃねえのという話は石破茂政権の前から指摘してきたことで、上手く対応できないままかなり最悪な感じで問題が露顕してしまいました。なんてこった。しかも、CSIRTもあんまり把握できていなかったのではないか、行政機関の情報漏洩事案だったので個人情報保護委員会からのアクションが必要だったので検知から今回の発表まで二か月近く経過してしまった、さらにはそもそも何で今日発表したんだよというのもあったりで、実に大騒ぎな状況になっているのであります。"
+    },
+    {
+     "kind": "P",
+     "text": "外形的には「こういう人たちが悪さしたんじゃないか」という合理的かつ整合性のある予測もつく割に、なぜか私が関係者と打ち合わせしたり飲んだりしていると「あいつと付き合うな」と公然と言ってくるデ参事官がいたりとかで、どうもデジタル庁も中のガバナンスが大変なんだろなと推測する次第であります（婉曲表現）。"
+    },
+    {
+     "kind": "P",
+     "text": "とはいえ、デジタル庁はガバメントクラウドもGSSもTeamsみたいなのを使ってる限りゼロトラストもへったくれもない状況なのはかねて指摘してきた通りです。事実関係の確認やら取材対応やらで面倒なことになっておりますので関係先方面に向けて事態の整理と、それとは書かずに「外部から見る限りここまで分かってるけど、デ庁の中はちゃんと把握してますか」というハートビートを兼ねて、守秘義務に反しない限りで記事を書きたいと思います。"
+    },
+    {
+     "kind": "P",
+     "text": "なお、本稿は所属する情報法制研究所やホワイトハッキンググループ『クロマティ高校』ではなく、山本一郎個人の見解であることを先に示しておきます。"
+    },
+    {
+     "kind": "P",
+     "text": "また、同じ文章は私のメールマガジン『人間迷路』でも掲載します。なんかセキュリティ界隈のミニコミ誌みたいになっててアレですが、お布施でもない限り間違って買わないようご留意ください。あと、勝手にpdfにして回覧すんのやめてください、一応メルマガ記事は売り物なので……。"
+    },
+    {
+     "kind": "P",
+     "text": "Microsoft様のお陰で政府情報漏洩している件の最新状況――裁判所の職員情報がダダ漏れ https://note.com/kirik/n/n404ef819c161"
+    },
+    {
+     "kind": "P",
+     "text": "デジタル庁「ガバメントソリューションサービスへの不正アクセスによる職員等の個人情報の漏えいの可能性について」2026年9月11日 https://www.digital.go.jp/news/2026-0911-01"
+    },
+    {
+     "kind": "P",
+     "text": "ITmedia NEWS「デジタル庁に不正アクセス、個人情報24.6万件漏えいか 各府省庁の職員情報など」 https://www.itmedia.co.jp/news/article/2609/11/2000001406/"
+    },
+    {
+     "kind": "P",
+     "text": "ITmedia NEWS「松本デジタル相、24.6万件漏えい可能性について説明 『既知の脆弱性を対応前に悪用』」 https://www.itmedia.co.jp/news/article/2609/11/2000001419/"
+    },
+    {
+     "kind": "H",
+     "text": "■何があったんか？ 起きたことの骨格"
+    },
+    {
+     "kind": "P",
+     "text": "まずは、報告書や記者会見議事録でも読めやと言いたいところですが、個人的に見るにあの報告書は微妙に間違っているか、本来開示しなければならないことが結果的に（意図的に）伏せられているような気もするので、エッセンスのところだけでも整理して書きたいと思います。"
+    },
+    {
+     "kind": "P",
+     "text": "2026年9月11日、デジタル庁は、同庁が各府省庁向けに運用する政府共通の業務実施環境「ガバメントソリューションサービス」、通称GSSが外部から不正アクセスを受け、GSS上で取り扱っていた個人情報を含むファイルの一部が外部に漏えいした可能性があると公表しました。"
+    },
+    {
+     "kind": "P",
+     "text": "ここで発表された内容で言えば、漏えいの可能性がある個人情報は約24万6,000件。内訳は、GSS利用機関の職員およびその業務に携わった公務員等が約18万9,000件、業務に携わった事業者および個人が約5万7,000件とされています。属性別に見ますと、重複を含めて氏名が約23万6000件（のべ）、メールアドレスが約23万1000件（のべ）、電話番号が約9万4000件（のべ）、住所が約1000件（ほぼ実数）。マイナンバー、金融機関口座情報、年金番号は含まれておらず、一般の方の個人情報も含まれていないとされています。"
+    },
+    {
+     "kind": "P",
+     "text": "ただ、GSSで出た内容「だけ」はそうですが、それ以外にどれだけの不正なアクセスがあったのかについては報告には出ておらず、記者会見でも語られておりません。"
+    },
+    {
+     "kind": "P",
+     "text": "で、時系列はこうです。侵入が始まったのは5月下旬ごろとみられ、6月25日に保守運用担当者のアカウントを使ってサーバ上の大量のファイルへアクセスが行われたことを検知して調査を開始。7月9日に、第三者がネットワーク接続機器、つまりVPNの脆弱性を利用して侵入していたことが判明し、同日中に当該アカウントを停止して、侵害された機器と外部との通信を遮断した。その後、外部専門事業者の協力を得た調査で個人情報漏えいの可能性を確認し、9月11日の公表に至った、というものであります。"
+    },
+    {
+     "kind": "P",
+     "text": "侵入から検知まで約1か月、検知から公表まで約2か月半。数字だけ並べると、どこぞの中小企業のワンオペ情報部門でも見たような話に見えます。しかし、いま私たちが知らされたのは日本政府の共通基盤であり、しかもそれは「ゼロトラスト」を掲げて設計されたはずのものです。そこを、どうやら平凡な手口で抜かれた。本稿はそこを書きます。"
+    },
+    {
+     "kind": "P",
+     "text": "なお、ゼロトラストが本来の意味で今回ゼロトラストなのかというのは割と重要な問いになっています。誰かが中で「ゼロトラストっぽさという技術的負債」という演題でかなりエグめの問題提起もしていますが、図らずも、ここで示唆されたリスクがど真ん中で炸裂してしまったと言えます。"
+    },
+    {
+     "kind": "H",
+     "text": "■ 「中等度」に殺されたという事実"
+    },
+    {
+     "kind": "P",
+     "text": "まず何よりも、本件でいちばん重いのは、被害件数ではありません。デジタル大臣・松本尚さんが同日の記者会見で、悪用されたVPN機器の脆弱性の存在をインシデント発生以前から把握していた、と明かした点です。正直、これは外からも見えていて、GoogleやSimilarWebなどでもブラウザ拡張で収集しているデータが確認でき、リスト化していたことも踏まえると、デジタル庁においてはそもそもそのような脆弱な状況のままであった、というのは確定しています。実際、私自身も2022年、2024年、2025年と、三回にわたって「見えてるんですけど」という話はデジタル庁にしています。"
+    },
+    {
+     "kind": "H",
+     "text": "ここから先は"
+    },
+    {
+     "kind": "P",
+     "text": "神から「お前もそろそろnoteぐらい駄文練習用に使え使え使え使え使え」と言われた気がしたので、のろのろと再始動する感じのアカウント"
+    }
+   ],
+   "checkedAt": 1789183874952,
+   "etag": "",
+   "hash": "8c9b5623bb0b17a6",
+   "id": "f99b159ffe93",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fnote.com%2Fkirik%2Fn%2Fn8e7920167c3f",
+   "key": "https://note.com/kirik/n/n8e7920167c3f",
+   "lastModified": "",
+   "publishedAt": 1789170690000,
+   "summary": "※おことわり 本稿は、ほぼ同じ内容を私のメルマガ『人間迷路』で配信しています。で、メルマガご購読者の皆さまに於かれましては本稿は配信する記事と同じものですので、お布施でもない限り、間違って買わないようお願いします。 https://yakan-hiko.com/kirik.html なんつーか、大変なことになってしまいました。 な...",
+   "title": "デジタル庁GSSで24.6万件漏洩――「中等度」の脆弱性に政府共通基盤が抜かれた件｜山本一郎（やまもといちろう）",
+   "updatedAt": 1789183874952,
+   "url": "https://note.com/kirik/n/n8e7920167c3f"
   },
   "https://note.com/rk611/n/n619b68f82580": {
    "bodyBlocks": [
@@ -2867,6 +2652,734 @@
    "updatedAt": 1789097533111,
    "url": "https://note.com/rk611/n/n619b68f82580"
   },
+  "https://note.com/shi3zblog/n/nd5fc5341b342": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "DeepSeek v4.1 Flashを動かしたくてFP4に対応していないA100を、33tok/sから673 tok/sまで持っていって気がつくと公式APIより速くなっていた話"
+    },
+    {
+     "kind": "H",
+     "text": "あらすじ"
+    },
+    {
+     "kind": "P",
+     "text": "結論から言うと、この24時間で僕の手元で起きたことは、僕を驚かせるのに十分なことだった。そしてこれは全く新しい時代の幕開けなのだということを感じている。午前5時に。"
+    },
+    {
+     "kind": "P",
+     "text": "この文章はとても長い。この24時間に僕が経験した冒険を時系列にまとめたものだからだ。"
+    },
+    {
+     "kind": "P",
+     "text": "この冒険で僕がわかったことは二つ。一つは、「もっと真剣にAIと向き合えば、普通より遥かに大きな成果を得ることができる」ということ。もう一つは、「6年前のポンコツ同然のGPUで、最新のクラウドより高性能なAIを手中にできた」ことだ。"
+    },
+    {
+     "kind": "P",
+     "text": "ソースコードは公開しているので、同じ設備がある人は誰でも追試できるようになっている。"
+    },
+    {
+     "kind": "P",
+     "text": "そもそも最新のDeepSeek v4.1 Flashは、最新のGPUに最適化されていて、古いものには対応していなかった。僕の手元のA100ももちろん対応していなかった。普段ならそれで諦めた。もしくは、ちょっとだけ動かしてみて「動いた」と満足して終わりだった。だがそれは冒険の始まりに過ぎなかったのだ。"
+    },
+    {
+     "kind": "P",
+     "text": "本文には tok/s という単位がよく登場する。本文はこのtok/sをいかに最大化するかという挑戦の物語である。tok/sは「トークン・パー・セカンド」または「トークン・パー・セック」と読む。意味は「一秒間に何トークン出力できるか」だ。トークンとは、LLMが扱う情報の最小単位である。これが多ければ多いほどAIが速く考えているということになる。"
+    },
+    {
+     "kind": "P",
+     "text": "今回達成した数字は、 並列動作で最大1000tok/s、単独動作で最大165tok/s だ。バッチを大きくした結果、 4GPUで1467tok/s を処理できるようになった。これがどのくらいのスピードかというと、 Claude Codeがだいたい50〜80tok/sだからその二倍以上のスループット ということになる。ちなみにDeepSeek公式のAPIでは400tok/sと言われている。ちなみにこれはデコードの数字で、プリフィルは含まれていない。"
+    },
+    {
+     "kind": "P",
+     "text": "このブログを書き始めた時は、この冒険がこんな展開になるとは思っていなかった。そこで、あえて書き出しから時系列で残してある。まずは日常から始まる。"
+    },
+    {
+     "kind": "H",
+     "text": "StackChanがある日常"
+    },
+    {
+     "kind": "P",
+     "text": "M5StackのStackchanの2台目が来た。 といっても、M5Stackそのものは余っていたのでボディだけ買ってCore2につけてみた。"
+    },
+    {
+     "kind": "P",
+     "text": "同じようなものであっても同じものは動かないので仕方なく3台目(ボディは買ってある)はM5Stack純正のStackchan用M5Stackにした。"
+    },
+    {
+     "kind": "P",
+     "text": "特にスピーカーの容量が違うのかな。Core2だと蚊が泣くような声でしか喋ってくれなくて少し寂しい。"
+    },
+    {
+     "kind": "P",
+     "text": "2台あるので漫談させてみることにした。これはけっこう面白い。"
+    },
+    {
+     "kind": "P",
+     "text": "せっかくなので顔を変える。 こんどはガチャピン的なちょっとまぶたが眠そうな感じにしてみた。 エロ目のスタックちゃんと眠そうなスタックチャン。両方可愛い。声も変えてみる。"
+    },
+    {
+     "kind": "P",
+     "text": "未発表の映画の脚本で、こんなシーンを書いたな、ということを思い出した。複数のAIエージェントが互いに議論し合い、最終的に人間にわからない言葉で会話し始める。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "Around 30 robots demonstrated outside Poland's Digital Affairs Ministry in Warsaw, chanting 'we want law, we want rules' to demand stronger AI oversight pic.twitter.com/GGUoOCS7JO — Reuters (@Reuters) September 10, 2026"
+    },
+    {
+     "kind": "P",
+     "text": "これもどこまでマジでやってんのかわからないけど、ロボットを並べてるだけで1億くらいかかってそう。"
+    },
+    {
+     "kind": "P",
+     "text": "極めて馬鹿馬鹿しいわけですよ。このあたりの話というのは。 こんなのロボットが自主的にやるわけないし。"
+    },
+    {
+     "kind": "P",
+     "text": "「DeepSeek v4.1 Flashが出たらしいでー」 「さよかー。何が違うん?」 「なんかローカルでも動くらしいでー」"
+    },
+    {
+     "kind": "P",
+     "text": "ローカルって言ってもまた誤家庭のやつだろ。H200x16とか必要なやつだろ。と思ったら、Mac Studio 512GBでも動くらしい。それくらいならうちにもある。"
+    },
+    {
+     "kind": "H",
+     "text": "DeepSeek v4.1 Flashの衝撃"
+    },
+    {
+     "kind": "P",
+     "text": "今回のDeepSeek v4.1 Flashは名前こそv4の改良版のようだが、実はアーキテクチャが大きく異なっていて、engramという辞書のようなものを持つことで高速化と低VRAM化を両立させている。"
+    },
+    {
+     "kind": "P",
+     "text": "このengramは別にVRAMになくてもいいのでSSDに逃したり4ビット化してシステムメモリに持ったりと色々な逃げ方ができる。"
+    },
+    {
+     "kind": "P",
+     "text": "DGX Spark 4台で動くとか、「酔狂な人だけが持ってる」マシンという意味では我が継之助(A100x8)もさほど変わらない。"
+    },
+    {
+     "kind": "P",
+     "text": "ところが継之助はAmpare世代なのでFP4とか最新の計算手法が高速化されない。普通にClaude Codeにやらせようとしたら「vllmが対応してないので無理です」とつれない返事をされた。"
+    },
+    {
+     "kind": "P",
+     "text": "ここで一旦は諦めかけたのだが、いやちょっと待て。本当にそうか?"
+    },
+    {
+     "kind": "P",
+     "text": "冷静に考えると4ビット浮動小数点って、たかが4ビットが二つで掛け算の結果は高々8ビット、つまり256種類しかないから全部ルックアップテーブルに乗るやんけ、という話をChatGPTにしたら「乗ります乗ります」というのでAmpare用にDeepSeek v4.1 Flashを移植してみた。"
+    },
+    {
+     "kind": "P",
+     "text": "思うに、AIをうまく使えるかどうかの分水嶺はこういうところにあるのではないかと思う。"
+    },
+    {
+     "kind": "P",
+     "text": "A100x4でもA100x8でも動作するがVRAMはさほど使わない(290GBくらい)。継之助はそもそもシステムメモリが1.7TBある。本当は1.7TBという半端な仕様ではIntel公式には動作しないのだが、僕と大沼さんで試行錯誤した結果、この裏技的システムが実現したのである。"
+    },
+    {
+     "kind": "P",
+     "text": "分散した時の推論速度は最大33tok/sで、これなら十分実用になる。その推論性能がFable-5とかAstraに迫るとしたら、安いくらいだ。"
+    },
+    {
+     "kind": "P",
+     "text": "ちなみにA100x1でも動作する。その代わりシステムメモリからの転送で律速されてしまうので5tok/sほど。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "DeepSeek-V4.1-Flash がA100x1で動いたよー 5tok/sって言うけど確かにそれくらいかなあ。賢さは短い質問ではわからん pic.twitter.com/tbUErnaBZE — shi3z (@shi3z) September 11, 2026"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "A100x6だと33tok/sいくことは確認した。 こうなるとスピード狂のようにもっと速度を追求したくなる pic.twitter.com/9fw8ahqLbf — shi3z (@shi3z) September 11, 2026"
+    },
+    {
+     "kind": "P",
+     "text": "Xeon SilverなのでそんなにCPUが強いわけではないのだが、FP4計算はXeonにやらせると言う技が使えそうだ。このマシンであまりCPU性能について深く考えてこなかったが、よく考えたら1.7TBもRAMがあるマシンとか普通じゃないのでもっと使う方法を考えれば良かった。"
+    },
+    {
+     "kind": "P",
+     "text": "するとDGX Sparkばっかり6台も買ってる 安物買いの銭失い 散財家のdrikinが煽ってきた。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "これは動いたと言えるのでしょうか？w https://t.co/9DsLkmg8vr — プロ散財家 どりきん (@drikin) September 11, 2026"
+    },
+    {
+     "kind": "P",
+     "text": "drikinはDGX Spark四台で100tok/sくらい出してるらしい。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "DeepSeek-V4.1 Flash が Spark 4台で動いたんですけど、いきなりこの過去一のスコア叩き出しました！ やっぱりローカル LM に関しては、DeepSeek 無双状態がまだ続くんですかね？ pic.twitter.com/EELGKIWOZf — プロ散財家 どりきん (@drikin) September 11, 2026"
+    },
+    {
+     "kind": "P",
+     "text": "おいコノヤロー。 俺と最適化で勝負しようってのか。 よしこれはもう本気出すしかない。 ポンだしのDGX Spark 4台ぽっちのガラクタで腐ってもデータセンタークラスのGPUを持つ継之助が舐められちゃいけねえ。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "今に見てろ。あんな細いバスのDGX Sparkなど何個あってもただのガラクタだと教えてやる — shi3z (@shi3z) September 11, 2026"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "怖いwww https://t.co/BYeF2QhpYn — プロ散財家 どりきん (@drikin) September 11, 2026"
+    },
+    {
+     "kind": "P",
+     "text": "50にもなって厨二病全開で申し訳ないが、最適化勝負だったら見過ごせない。"
+    },
+    {
+     "kind": "P",
+     "text": "そもそもA100でDeepSeek v4.1 Flashが動くこと自体がレア、というか他に例を見たことがないので世界初である。"
+    },
+    {
+     "kind": "P",
+     "text": "そしていまさら説明するまでもないが、A100はAmpere世代のデータセンターGPUだ。僕の手元には80GB版が何枚かある。"
+    },
+    {
+     "kind": "P",
+     "text": "問題は、最近の巨大モデルがだんだんA100に優しくなくなってきたことだ。FP8。FP4。NVFP4。MXFP4とかとか。"
+    },
+    {
+     "kind": "P",
+     "text": "新しいモデルは「Blackwellなら速いですよ」という顔をして配布される。しかしA100にはネイティブなFP4 Tensor CoreもFP8 Tensor Coreもない。"
+    },
+    {
+     "kind": "P",
+     "text": "ではA100はもう使い物にならないのか? そんなわけがない。"
+    },
+    {
+     "kind": "H",
+     "text": "「FP4非対応」という言葉を疑う"
+    },
+    {
+     "kind": "P",
+     "text": "という言い方だった。 FP4とは何かというと、4ビット浮動小数点数のことだ。 浮動小数点(floating point)というのは、要するに指数部と仮数部、そして符号にそれぞれビットを割り当てて数を表現する形式だ。"
+    },
+    {
+     "kind": "P",
+     "text": "通常のスーパーコンピュータでは64ビット浮動小数点数をよく使う。これは天気予報や天体計算なんかに使われる。巨大な数字と小さい数字を両方表現できる便利なものだ。"
+    },
+    {
+     "kind": "P",
+     "text": "ところがAIはこの表現が極端に狭くても問題ないことがここ数年の研究でわかってきた。そこで最近は4ビット浮動小数点数(FP4)を使ってもLLMの推論くらいなら問題ないことがわかっている(もっと極端には1ビットの符号だけでもいいという説もある)。"
+    },
+    {
+     "kind": "P",
+     "text": "DeepSeek v4.1 FlashはこのFP4を大量に扱う。FP4のメリットは、4ビットしかないので通常AIで使われる16ビット浮動小数点数(FP16)の1/4の情報量となることだ。これは同じメモリに4倍詰めることを意味する。これが速度に効いてくる。"
+    },
+    {
+     "kind": "P",
+     "text": "これに対応しているGPUだと、同じVRAM容量でも4倍の情報を扱えるということになる。いいことづくめのようだ。"
+    },
+    {
+     "kind": "P",
+     "text": "しかし、この表を見て考えると、妙なことに気づく。 いや、FP4って所詮4ビットじゃん。計算機はむしろもっと単純になるじゃん。"
+    },
+    {
+     "kind": "P",
+     "text": "だったら4bit×4bitの積なんて256通りしかない。LUT(ルックアップテーブル/早見表のこと)にしてしまえばいい。 さらによく考えると、LUTすら要らない。"
+    },
+    {
+     "kind": "P",
+     "text": "E2M1(2ビットの指数部、1ビットの仮数部)の値を2倍すれば、"
+    },
+    {
+     "kind": "P",
+     "text": "という小さな整数になる。 つまりE2M1そのものは、 情報を一切失わずINT8(8ビット整数)へ変換できる 。 だったらA100のINT8 Tensor Coreに食わせればいい。 ここで重要なのは、 「保存形式」と「演算形式」を同じにする必要はない ということだ。"
+    },
+    {
+     "kind": "P",
+     "text": "FP4非対応というのは、「4bitのデータをA100で計算できない」という意味ではなく、正確には、「BlackwellのようにFP4をロードして、block scale込みでそのままTensor Coreへ突っ込む命令がない」という意味なのだ。"
+    },
+    {
+     "kind": "H",
+     "text": "ところが、本当の敵はFP4ではなかった"
+    },
+    {
+     "kind": "P",
+     "text": "最初はFP4をどう計算するかばかり考えていた。 しかしプロファイルを取ってみると、もっとひどい問題が出てきた。"
+    },
+    {
+     "kind": "P",
+     "text": "1枚構成ではMoE expertをホストRAMに置いて、選択されたexpertをPCIe経由でA100へ転送していた。"
+    },
+    {
+     "kind": "P",
+     "text": "1 tokenあたり約4.5GBのexpert weightを転送していて、PCIe Gen4 x16の実効帯域が約25GB/sなので単純計算すると、4.5/25≃180 ミリ秒もかかる。 実測もほぼその通りで、約179ミリ秒。 これだけで理論上5〜6 tok/sしか出ない。"
+    },
+    {
+     "kind": "P",
+     "text": "FP4の積和演算を20%速くするとか、そういう次元ではない。 4.5GBを毎token PCIeに流している設計自体が間違っていた。"
+    },
+    {
+     "kind": "H",
+     "text": "GPUに送るくらいならCPUで計算した方が速い"
+    },
+    {
+     "kind": "P",
+     "text": "幸い、このマシンのCPUは普通のデスクトップCPUではなかった。 Xeon Silver 4410Yが2ソケットの合計24コア48スレッド。16チャネルのDDR5-4000 RAMが1.7テラバイト。AVX-512、VNNI、AMXまである。"
+    },
+    {
+     "kind": "P",
+     "text": "だったら、expertをGPUへ送らず、そのままCPUで計算してしまえばいいのでは？ということになる。"
+    },
+    {
+     "kind": "P",
+     "text": "FP4の情報をRAM上で4ビットのまま保持する。 CPUレジスタへ読んでからINT8へ展開し、VNNI(Vector Neural Network Instructions/インテルが開発したAI専用命令)で積和する。 すると40層ぶんで、"
+    },
+    {
+     "kind": "P",
+     "text": "になった。つまり、 GPUで計算するためにGPUへ送るより、CPUで全部計算した方が3倍以上速かった。"
+    },
+    {
+     "kind": "P",
+     "text": "異種計算機 アーキテクチャではよくあることである。 理論演算性能だけ眺めていると絶対に気づかない。"
+    },
+    {
+     "kind": "H",
+     "text": "だが結局CPUもそこまで速いわけではない"
+    },
+    {
+     "kind": "P",
+     "text": "51ミリ秒まで縮んだのはいいが、まだ遅い。しかもDRAM帯域を調べると、理論512GB/sに対して実効89GB/s程度しか出ていない。最初はメモリ帯域律速なのかと思ったけど違った。命令律速だった。"
+    },
+    {
+     "kind": "P",
+     "text": "FP4のunpack、shuffle、scale、address calculationなどを大量に実行しており、1層あたり数千万命令を叩いていた。なんでだよ。ここらへんに無頓着なのがClaude Codeの雑なところである。普通に考えたら、一層当たり数千万命令を叩くプログラムとか、正気のプログラマーは書かない。"
+    },
+    {
+     "kind": "P",
+     "text": "・・・いや、書いた人を見たことがある気がするが、そいつは紛れもなく三流のプログラマーだった。CPUが何をどのようにして欲しいか想像もしないようなヤツだ。Claude Codeも雑に使えば三流のプログラマーと同じように発想する。"
+    },
+    {
+     "kind": "P",
+     "text": "そこでウェイトの配置を変えることにした。 普通のモデルでは、モデルファイルにどう保存するかを基準にデータ構造を考えがちだ。Claude Codeもそうしていた。"
+    },
+    {
+     "kind": "P",
+     "text": "しかし推論専用ならそんなものはどうでもいい。 CPUが一番食いやすい順番に、ロード時に全部並べ替えればいい。"
+    },
+    {
+     "kind": "P",
+     "text": "nibbleの配置を変え、複数rowでactivationのロードを共有し、scale計算を共有する。GPUと同じで、CPUでも「演算を減らす」より「余計な仕事をしない」方が効く。当たり前の話だ。"
+    },
+    {
+     "kind": "H",
+     "text": "そして発覚した2000回/tokenのカーネル起動"
+    },
+    {
+     "kind": "P",
+     "text": "GPU側もプロファイルしてみた。 ある時点で1 tokenに28.4msかかっていた。お前はカタツムリか!いくらなんでも遅すぎる。 コンピュータにとっての1ミリ秒、つまり1/1000秒というのはほとんど無限大に近い時間だ。それが28ミリ秒もかかってる。なにかおかしなことが起きていると直感した。この直感を、AIは持つことができない。"
+    },
+    {
+     "kind": "P",
+     "text": "実際、Claude Codeは早々に「これが限界です」とか舐めたことを抜かす。ついこないだ生まれたようなガキが。知ったふうな口を聞くな。"
+    },
+    {
+     "kind": "P",
+     "text": "ここで大切なのは直感である。 「そんなわけあるか」と思えるかどうか。 AIの言う寝言を鵜呑みにしていたら、この先には進めない。"
+    },
+    {
+     "kind": "P",
+     "text": "じゃあ実際なにをやっているのかベンチマークをとってみると・・・"
+    },
+    {
+     "kind": "P",
+     "text": "調べると、1 token生成するだけで 2000回近くCUDA kernelを起動していた 。アホか。"
+    },
+    {
+     "kind": "P",
+     "text": "1回数マイクロ秒なら、それだけで10ミリ秒を超えてしまう。 GPUが遅いのではない。 GPUに仕事を頼む手続きで時間を使っている。正気じゃない。"
+    },
+    {
+     "kind": "P",
+     "text": "RMSNorm、RoPE、量子化、非量子化、擬量子、それと細えエレメントごとの演算・・・40層ぶん、それぞれ別々のkernelとして起動していたら、そりゃ遅い。アホか。どうしてこれでおかしいと思わないんだ。"
+    },
+    {
+     "kind": "P",
+     "text": "思うに、このあたりがエージェンティック任せっきりコーディングの限界なのである。頭の中でCPUとGPUがマイクロ秒単位、場合によってはナノ秒単位で何をしているかイメージできるか?ミリ秒と聞いて思考停止していたら永久に辿り着けない。それはそのマシンの本当の性能を引き出せてないと言うことだ。"
+    },
+    {
+     "kind": "P",
+     "text": "ここで方針が変えることにした。とりあえずkernel数を減らせ。 できるだけ1 tokenあたりを少数回のGPU ディスパッチに近づける。 LLMのdecode、特にbatch=1では、FLOPSだけでは性能は決まらず、こういう 細粒度処理の固定費 がものすごく大きい。"
+    },
+    {
+     "kind": "H",
+     "text": "A100にはFP8もない"
+    },
+    {
+     "kind": "P",
+     "text": "dense側にも問題があった。weightはFP8なのだが、A100にはFP8 Tensor Coreがない。もう6年近くも前のアーキテクチャだからな。あの頃は、8ビットの浮動小数点演算などジョークに思えた。"
+    },
+    {
+     "kind": "P",
+     "text": "これを処理するには、Ampareのネイティブ形式であるBF16(Brain Float 16/AI計算用16ビット浮動小数点数)に変換するしかない。そこで当初は以下のように処理していた。"
+    },
+    {
+     "kind": "P",
+     "text": "これは当然遅い。 FP8 E4M3をVRAMからロードし、レジスタの中でbit操作してBF16/FP16 Tensor Core operandへ変換して展開後の巨大なBF16 weightをグローバルメモリに書いていた。タコが。"
+    },
+    {
+     "kind": "P",
+     "text": "そもそもCUDAはグローバルメモリへのアクセスが極端に遅い。最後の手段として使うべきである。"
+    },
+    {
+     "kind": "P",
+     "text": "CUDAのメモリモデルを理解することは、CUDAを使いこなす上で最も重要な部分である。長らく競争相手がCUDA相手に苦戦していたのは、このメモリモデルの特許があったからだ。"
+    },
+    {
+     "kind": "P",
+     "text": "CUDAでは、ストリーミングマルチプロセッサ、略してSMと呼ばれる小さい計算機が大量に並んでいて、それが並列に動作して大量の計算をこなす。計算するためには、まずメモリから数字を読み込んできて、計算結果をメモリに書き戻さなければならない。GPUが動いてる時間の半分は、計算時間ではなくメモリの相手をする時間である。"
+    },
+    {
+     "kind": "P",
+     "text": "問題なのは「どのメモリ」にアクセスするかだ。 一番高速なのは、SMに内蔵されているレジスタというメモリだ。ただしレジスタは、SMの外部から読み込むことができないし容量も小さい。A100では、各SMにつき256KBしかない。レジスターのレイテンシー(アクセス速度)は1サイクルで、約0.71ナノ秒。"
+    },
+    {
+     "kind": "P",
+     "text": "次に高速なのは、共有メモリというもので、これは「ブロック」という複数のSMが集まった単位で共有することができる。L1キャッシュとも呼ばれる。共有メモリのレイテンシーは20〜30サイクルで、約14.2〜21.3ナノ秒。レジスタの20倍遅い。これもそんなに大きくなくて、全体で17.28MBしかない。"
+    },
+    {
+     "kind": "P",
+     "text": "さらにL2キャッシュという40MBのメモリがあって、その上にグローバルメモリという大容量のメモリがある。これがいわゆる「VRAM」だ。グローバルメモリは、400〜600サイクル、つまり約284ナノ秒から426ナノ秒ものレイテンシーがある。レジスタと比較して400倍以上、共有メモリと比較しても20倍以上遅いわけだ。"
+    },
+    {
+     "kind": "P",
+     "text": "メモリにはアクセスしなければしないほど良い。BF16でグローバルメモリに読むのに比べると、FP4で読むなら1/4の時間で済む。たとえば100万個の情報を読み込むのに、BF16だと全体で981ナノ秒、FP4だと245ナノ秒で済む。"
+    },
+    {
+     "kind": "P",
+     "text": "つまり、FP8はあくまで ストレージフォーマット と割り切ることで帯域を節約して高速に転送できるというメリットだけに割り切るべきだ。"
+    },
+    {
+     "kind": "P",
+     "text": "と直結する。これでdense部分は実測で9.2ミリ秒から5ミリ秒台まで落ちた。"
+    },
+    {
+     "kind": "P",
+     "text": "A100ではFP8演算はできないが、ビット操作によって FP8で保存されたデータを高速にBF16演算することはできるのだ。"
+    },
+    {
+     "kind": "H",
+     "text": "1枚のA100が8枚に迫ってきた"
+    },
+    {
+     "kind": "P",
+     "text": "最初のころ、A100 8枚構成は33〜38 tok/s程度。 一方1枚構成はCPU offload込みで十数tok/sだった。 ところが最適化を進めると、17 tok/s台、27 tok/s、32.5 tok/s、そしてsingle streamの通常decodeで58.9 tok/sと、短期間に10倍に高速化した。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "DeepSeek v4.1 Flash A100 1枚で27tok/sまで来た。 カーネルコンパイルがトークンあたり2000回も走ってた。明らかに何かが手抜き実装になってた。単体で100tok/sは難しいかもしれないが4台使えば余裕で100tok/s行くだろう pic.twitter.com/mPpUzE6l97 — shi3z (@shi3z) September 11, 2026"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "やば！いきなり10倍速くらいになってる！ https://t.co/zicgRiGl4T — プロ散財家 どりきん (@drikin) September 11, 2026"
+    },
+    {
+     "kind": "P",
+     "text": "だがまだまだこんなもんじゃねえ。 DGX Sparkの弱点はメモリ帯域幅だ。128GBのユニファイドメモリは確かに魅力的だが、メモリ帯域幅は273GB/sしかない。バス幅も256ビットと、PS4並だ。要は、どれだけ速く走ろうと所詮はコンシューマ・グレードの市販車なのである。"
+    },
+    {
+     "kind": "P",
+     "text": "これを相互接続するインターコネクトも200GB/sしかない。 A100は腐ってもデータセンター向けのGPUで、HBM2eメモリは今となっては骨董品の風格だが、それでもメモリ帯域は1935GB/sある。7倍だ。メモリバス幅は5120ビット。20倍である。"
+    },
+    {
+     "kind": "P",
+     "text": "さて、こっちには8枚のA100がある。DGX Sparkごときと勝負するのにはこれだけでも反則ものなのだが、不思議なことにただそれだけでは速度が稼げていない。これもClaude Codeのコーディングが雑なせいだ。"
+    },
+    {
+     "kind": "P",
+     "text": "あいつらは、「バグらない/バグりにくいコード」は量産できるようになったが、「効率的なコード」を量産できるようにまでは進化してない。なにがシンギュラリティだ。"
+    },
+    {
+     "kind": "P",
+     "text": "decodeは小さなGEMVの連続である。 GPU8枚に計算を分散すると、1枚あたりの計算量は減るが、同期やカーネル起動、小さい行列、そしてGPU間通信の割合が増えて却って遅くなってしまう。これも分散あるあるだ。"
+    },
+    {
+     "kind": "P",
+     "text": "GPUは単純に増やせば増やすほど速くなるわけではない。 同様に、新しければ常にいいというわけでもない。BlackwellのFP4は魅力的ではあるが、GPUのようなノイマン型コンピュータでは、常にメモリ帯域がボトルネックになる。計算そのものよりもメモリが足を引っ張るのは常識だ。そこをなんとかしなくてはならない。"
+    },
+    {
+     "kind": "H",
+     "text": "NVLinkの構成を意識する"
+    },
+    {
+     "kind": "P",
+     "text": "そこで4GPU構成を試すことにした。8枚構成のマシンの場合、トポロジは以下のようになる。"
+    },
+    {
+     "kind": "P",
+     "text": "そして0〜3と4〜7は別のNUMA nodeにぶら下がっている。 最適化をする上で、もう一つ大きかったのがMTPだった。マルチトークン・プレディクション、つまり複数のトークンを同時に生成する手法だ。 通常の自己回帰デコードは、1 stepで1 tokenしか確定しない。どんなにGPUを速くしても、"
+    },
+    {
+     "kind": "P",
+     "text": "という逐次的な計算をしなければならない。 しかしMTPなら1 stepで複数tokenを候補として処理できる。 しかも単に「複数token出る」だけではない。 batch=1ではGEMVだった処理が、MTPでは複数rowになって GEMMに近づく 。つまりGPUをより効率的に使うことになる。"
+    },
+    {
+     "kind": "P",
+     "text": "と増やしていくと、トークン生成速度が2倍、3倍近い伸びが出るケースがあった。"
+    },
+    {
+     "kind": "H",
+     "text": "バッチングは「同時に何人処理するか」ではなかった"
+    },
+    {
+     "kind": "P",
+     "text": "さらに面白かったのはMoEとbatchの関係だ。 32個の並列なコンテキストを適当にまとめるより、似たタスクをまとめた方が高速になることがわかった。"
+    },
+    {
+     "kind": "P",
+     "text": "コーディングならコーディング、翻訳なら翻訳、要約なら要約、同じ種類のコンテキスト(プロンプト)ではルーターが選ぶexpertも似たものになる。"
+    },
+    {
+     "kind": "P",
+     "text": "すると複数シーケンスでexpert weightを共有できる。 ある実験では、1レイヤーで触るdistinct expert数が216から156まで減った。"
+    },
+    {
+     "kind": "P",
+     "text": "MoEではweightを読むこと自体が高コストなので、これは大きい。 つまりschedulerは単なるキュー管理ではなかった。 プロンプトを意味的に分類してbatchを組むことそのものがGPU最適化になるのだ。"
+    },
+    {
+     "kind": "H",
+     "text": "A100特有の難しさ"
+    },
+    {
+     "kind": "P",
+     "text": "今回改めて思ったのは、A100は「遅いGPU」なのではなく、 最近のモデルが想定しているデータ表現とA100の演算器の間に世代差がある ということだった。"
+    },
+    {
+     "kind": "P",
+     "text": "を自分で設計しなければならない。これはFP8も同じ。 さらにA100 80GBという容量は巨大に見えるが、数百B級MoEを扱うと急に小さく感じる。"
+    },
+    {
+     "kind": "P",
+     "text": "PCIe Gen4 x16も普段なら十分高速だが、4.5GB/tokenを送り始めると突然細いストローになる。Ampere Tensor Coreは十分速いが、M=1のGEMVを大量に投げれば眠っている時間の方が長い。"
+    },
+    {
+     "kind": "P",
+     "text": "つまりA100を速く使うには、 GPUのピーク性能ではなく、A100が嫌がる仕事を徹底的に避ける必要がある。"
+    },
+    {
+     "kind": "P",
+     "text": "まあこれは最適化では当たり前だ。問題は、Claude Codeに雑に指示を出すと、途中でサボることである。というか、Claude CodeはGPUが何を嫌がりそうなのか真剣に考えない。常に疑い、「もっとあるのではないか」という問いを出し続けるのは、人間なのだ。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "僕のちょっとした Claude Code最適化では、現状これが精一杯でした。 単発 67.9 tok/s 6並列 151.6 tok/s shi3zさんの足元にも及びません。完敗です。 https://t.co/kUShiE6B8H — プロ散財家 どりきん (@drikin) September 12, 2026"
+    },
+    {
+     "kind": "P",
+     "text": "とりあえずdrikinのDGX Spark4台構成には勝った。まあ三世代遅れとはいえ値段が2.5倍違う(※発売時)んだから当たり前だが。最終的に単発8並列で600tok/s、256並列で1700tok/sを超えた。"
+    },
+    {
+     "kind": "H",
+     "text": "最適化とは「速いコードを書くこと」ではない"
+    },
+    {
+     "kind": "P",
+     "text": "今回やったことを振り返ると、一番効いたのは高度な数式ではなかった。"
+    },
+    {
+     "kind": "P",
+     "text": "「FP4だからFP4で計算しなければならない」というClaude Codeが持っていた雑な思い込みを捨てさせ、「GPUの計算だからCPUより速い」という思い込みを捨てさせ、「GPUを増やせば速い」という思い込みを捨てさせた。"
+    },
+    {
+     "kind": "P",
+     "text": "計測して、遅い場所を見つけて、その前提自体を壊す。結局これの繰り返しだった。つまりコンピュータ・サイエンスの基本中の基本だ。"
+    },
+    {
+     "kind": "P",
+     "text": "最初は、「A100にはFP4がないから仕方がないので動けば儲けもん」くらいに僕も思っていた。vllmがサポートしてないから仕方ないや、と。"
+    },
+    {
+     "kind": "P",
+     "text": "しかしよく考えてみれば、FP4なんてたった4bitである。その4bitに振り回されて一億円近くかけてGPUを買い替える前に、まだやれることはいくらでもある。"
+    },
+    {
+     "kind": "P",
+     "text": "今はエージェントスワーム、つまりエージェントを単独ではなく群れで動かした時の性能が重要になる。"
+    },
+    {
+     "kind": "P",
+     "text": "そして最終的には、同じA100で 33tok/sから528 tok/s まで伸ばすことができた。 64並列だと674tok/s まで行ける。継之助にはこれがもう一セットあるから、DeepSeek v4.1 Flashを動作させるのはGPU8枚よりも4枚x2の方が良さそうだ。するとシステム全体のスループットは1300tok/sを超えることになる。"
+    },
+    {
+     "kind": "P",
+     "text": "もちろん、まだ終わっていない。まだexpert bandwidthも削れるし、MTPも詰められる。task-aware batchingもまだ荒削りの段階だ。4GPU版にも余地がある。そもそも今回は4GPUしか使ってない。8GPUを使えばもっと効率的な方法があるかもしれない。カーネルにもまだ無駄がある。ここを削っていけばもっと先に進めるだろう。"
+    },
+    {
+     "kind": "P",
+     "text": "今回、強く思ったのは、AIを使う時に先入観を持ってはいけないということだ。そしてAIのほうが強く先入観を持っているということでもある。"
+    },
+    {
+     "kind": "P",
+     "text": "AIは、常に人間の平均的な反応にあわせて学習されている。たいていの人間が「こうだ」と思い込むことを、AIも同様に「こうだ」と思い込む。カタログスペックを信用し、マニュアルを鵜呑みにする。しかし実際のエンジニアリングとは、それとは全く異なる発想で行う必要がある。"
+    },
+    {
+     "kind": "P",
+     "text": "つまり、汗をかき、ベンチマークをとり、仮説を立て、検証し、マイクロ秒単位で無駄を省き、前提を疑い、構造を破壊する。この繰り返しだ。"
+    },
+    {
+     "kind": "H",
+     "text": "ローカルAIの時代が、ついに来たのかもしれない"
+    },
+    {
+     "kind": "P",
+     "text": "今回いちばん面白かったのは、A100をどこまで高速化できたか、という話ではない。もちろん数字だけ見ても面白い。"
+    },
+    {
+     "kind": "P",
+     "text": "僕らの「継之助」は、8枚のA100を4枚ずつ2レプリカとして動かすことで、条件次第では合計1400 tok/s級のスループットが見えてきた。"
+    },
+    {
+     "kind": "P",
+     "text": "一方、DeepSeek公式APIを使ったときの生成速度はだいたい400 tok/sくらいだ。"
+    },
+    {
+     "kind": "P",
+     "text": "DeepSeek公式は世界中のユーザーから飛んでくる膨大なリクエストを処理するサービスである。僕の継之助は、せいぜい僕や社内の人間が使うだけだ。"
+    },
+    {
+     "kind": "P",
+     "text": "などと言うのは正確ではない。 しかし、それでも僕には、この数字は非常に象徴的に見える。 これは要するに、 「世界最高クラスの巨大AIを、自分の建物の中に置いた一台の機械で、十分以上の速度で動かせる」 ということが実証されたということだ。"
+    },
+    {
+     "kind": "P",
+     "text": "4000万円は普通に考えれば大金である。ところがAIインフラの世界に足を踏み入れると、突然これが安く見えてくる。"
+    },
+    {
+     "kind": "P",
+     "text": "たとえば8枚のH100を積んだちゃんとしたサーバを買おうとすると、一億円近い世界になる。もちろんH100はA100より新しい。FP8も使えるし、HBMも速い。それでも、ソフトウェアを何も考えずに巨大モデルを動かしただけでは、期待するほど速度が出るとは限らない。"
+    },
+    {
+     "kind": "P",
+     "text": "今回僕がA100で散々経験したように、GPUのピークFLOPSと、実際にLLMからtokenが出てくる速度には、恐ろしいほど大きな隔たりがある。ひとつひとつの技術要素は地味だけど、全部合わせると数倍の差になる。"
+    },
+    {
+     "kind": "P",
+     "text": "つまりAIマシンというものは、GPUを買った時点ではまだ半製品なのだ。"
+    },
+    {
+     "kind": "P",
+     "text": "と言われたら、さすがにA100を買い足したりはしない。B200を8枚買う。当然である。僕だって新しいGPUは欲しい。 ただ、実のところ、今年も去年も、「GPUを買い替えるか」というタイミングはあるにはあったが、見送ってきた。「まだその時じゃない」と思っていたからだ。実際、A100はDeepSeek v4.1はもちろん、MiniMaxH3も動く。他に動かしたいモデルってある? もちろんファインチューニングもできる。つまり、これを超える規模のものを占有する必要がない。もしどうしても必要なら、借りればいい。だから大金を投じてまでGPUをリプレースする必要性を感じなかったのだ。"
+    },
+    {
+     "kind": "P",
+     "text": "そして面白いのは、仮にB200を8枚積んだとしても、それで得られる性能が継之助の10倍になるわけではない、ということである。せいぜい数倍だ。だったら話が変わってくる。"
+    },
+    {
+     "kind": "P",
+     "text": "4000万円で作った機械が、1億円クラスの最新AIサーバに対して、実用上それほど遠くない性能を出してしまう。"
+    },
+    {
+     "kind": "P",
+     "text": "APIキーはいらないし毎月の請求書もないし、ナーフもサービス終了もない。 モデルに手を突っ込んでも怒られない。カーネルを書き換えてもいい。量子化方式を変えてもいい。変なMTPを載せてもいい。ログを全部取ってもいいし、もちろんデータを外へ出す必要もない。"
+    },
+    {
+     "kind": "P",
+     "text": "そして夜中の3時に僕一人が使いたければ、1400 tok/s相当の計算資源を、全部僕一人のために使っても誰にも怒られない。"
+    },
+    {
+     "kind": "P",
+     "text": "コンピュータの歴史はずっとそうだ。昔、コンピュータは巨大な計算センターにしかなかったし、それを端末から時間貸しで使った。"
+    },
+    {
+     "kind": "P",
+     "text": "いまのクラウドAIとよく似ている。 そこにミニコンが出てきた。ワークステーションが出てきた。これらはまだ数百万円した。いまのMacやiPhoneのもとになったワークステーションであるNeXT Cubeは、発売時は300万円だった。"
+    },
+    {
+     "kind": "P",
+     "text": "そこから数万円から数十万円で買えるパーソナルコンピュータが出てきた。 メインフレームよりPCの方が速かったから革命が起きたわけではなく、 十分な性能のコンピュータを、自分で所有できるようになったことが重要だった。"
+    },
+    {
+     "kind": "P",
+     "text": "所有できれば、好き勝手できる。好き勝手できるから、新しいソフトウェアが生まれ、新しい使い方が生まれる。中央の巨大コンピュータでは発生し得なかった新しい文化が生まれる。"
+    },
+    {
+     "kind": "P",
+     "text": "AIも、いよいよその段階に入ったのではないかと思う。 これまでLLMは基本的に「サービス」だった。ChatGPTやClaudeを使うということは、誰かの巨大な計算機を、ネットワーク越しに使わせてもらっていたということだ"
+    },
+    {
+     "kind": "P",
+     "text": "しかしモデルがオープンになり、量子化が進み、推論ソフトウェアが洗練されると、その前提が崩れる。"
+    },
+    {
+     "kind": "P",
+     "text": "数百B級のモデルでさえ、「自分のところで動かした方が速い」という状況が現実に出てくる。"
+    },
+    {
+     "kind": "P",
+     "text": "しかも新しいGPUでなくてもいい。A100のような、AI業界ではすでに三世代前のGPUでも、ソフトウェアを徹底的に詰めればまだ戦える。"
+    },
+    {
+     "kind": "P",
+     "text": "即座にクラウドAIの価値がなくなるわけではない。突然100万人が使い始めても受け止められるのはクラウドだけだ。最新モデルをボタン一つで使えるのもクラウドの圧倒的な利点だ。"
+    },
+    {
+     "kind": "P",
+     "text": "しかし、会社や大学や研究所の中で考えれば事情が違う。100人からせいぜい数千人くらいの集団が使うAIなら、本当に毎回地球の反対側にある巨大データセンターまで問い合わせる必要があるのだろうか。しかもリスクもある。暗号化された通信といえど、HNDL(ハーベストナウ・でクリプト・レイター;暗号化された状態で収集して事後に解読する)攻撃でいつか暴露されてしまうかもわからない。そんなものに大切な情報を預けられるか?"
+    },
+    {
+     "kind": "P",
+     "text": "社内のコードを書くAIや議事録を整理するAI。会社の文書を検索するAI。映像を解析するAI。実験データを読むAI。"
+    },
+    {
+     "kind": "P",
+     "text": "そういうものは、その会社の地下室にある一台のAIサーバで十分なのではないか。むしろその方が速くて、安全で、自由だ。"
+    },
+    {
+     "kind": "P",
+     "text": "今回、継之助をいじっていて、僕の中ではかなり感覚が変わった。"
+    },
+    {
+     "kind": "P",
+     "text": "最初は、「A100で最新モデルをどこまで動かせるか」という遊びだった。まあdrikinに煽られなかったら本気だしてはなかったが。"
+    },
+    {
+     "kind": "P",
+     "text": "しかしいまは、 「一組織に一台、AIスーパーコンピュータがある時代」 が本当に始まるのではないかと思っている。この時代は放っておいてもくるが、「いつ来るか」がとても大事だ。その意味では、もう眼前に迫ってきていると言ってもいい。"
+    },
+    {
+     "kind": "P",
+     "text": "インターネットにつながっていなくても動く。一晩中100万回呼んでも追加料金は発生しない。自分たちの用途に合わせて、モデルもランタイムも改造できる。そして十分に速い。"
+    },
+    {
+     "kind": "P",
+     "text": "これはもう単なる「ローカルLLM」ではない。PCに7Bモデルを入れて遊ぶ、という話ではない。 クラウド級のAIそのものをローカルに所有する ということだからだ。"
+    },
+    {
+     "kind": "P",
+     "text": "PC革命が起きたとき、メインフレームが消えたわけではなかった。クラウドが登場したとき、PCが消えたわけでもなかった。それぞれ役割が変わっただけだ。"
+    },
+    {
+     "kind": "P",
+     "text": "おそらくAIもそうなる。巨大なフロンティアモデルを作る場所としてのクラウド。誰でも一瞬で最新AIへアクセスできる場所としてのクラウド。"
+    },
+    {
+     "kind": "P",
+     "text": "そして、 自分たちだけのAIを所有するためのローカルAI。 この三つがしばらくは並存する。"
+    },
+    {
+     "kind": "P",
+     "text": "そして、そのローカルAIが思ったよりずっと早く実用域へ入ってきた。 4000万円は個人にはまだ高い。しかし企業の設備として見れば、決して途方もない金額ではない。まして、それ一台で数十人、数百人のAI需要を処理できるなら話は違う。Claude Codeに一人月額3万円払うとして、100人で月300万円、一年で3600万円。だったら買った方が安くない?"
+    }
+   ],
+   "checkedAt": 1789183874952,
+   "etag": "",
+   "hash": "a65221f2a6e2e521",
+   "id": "3b7031eb2404",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fnote.com%2Fshi3zblog%2Fn%2Fnd5fc5341b342",
+   "key": "https://note.com/shi3zblog/n/nd5fc5341b342",
+   "lastModified": "",
+   "publishedAt": 1789170301000,
+   "summary": "DeepSeek v4.1 Flashを動かしたくてFP4に対応していないA100を、33tok/sから673 tok/sまで持っていって気がつくと公式APIより速くなっていた話 あらすじ結論から言うと、この24時間で僕の手元で起きたことは、僕を驚かせるのに十分なことだった。そしてこれは全く新しい時代の幕開けなのだということを感じている。午前5...",
+   "title": "DeepSeek v4.1 Flashを動かしたくてFP4に対応していないA100を、33tok/sから673 tok/sまで持っていって気がつくと公式APIより速くなっていた話｜shi3z",
+   "updatedAt": 1789183874952,
+   "url": "https://note.com/shi3zblog/n/nd5fc5341b342"
+  },
   "https://nyosegawa.com/posts/qiita-writing-before-after-ai": {
    "bodyBlocks": [
     {
@@ -3257,7 +3770,7 @@
   },
   "https://pc.watch.impress.co.jp/docs/news/2136472.html": {
    "bodyBlocks": [],
-   "checkedAt": 1789163808427,
+   "checkedAt": 1789183874952,
    "etag": "",
    "hash": "f189454dc62cd430",
    "id": "edbc5388f561",
@@ -3267,27 +3780,12 @@
    "publishedAt": 1789102784000,
    "summary": "",
    "title": "社内データをチャットで分析、ChatGPT Workに「Data agent」",
-   "updatedAt": 1789163808427,
+   "updatedAt": 1789183874952,
    "url": "https://pc.watch.impress.co.jp/docs/news/2136472.html"
-  },
-  "https://pc.watch.impress.co.jp/docs/news/2140010.html": {
-   "bodyBlocks": [],
-   "checkedAt": 1789077399866,
-   "etag": "",
-   "hash": "de0107daae31d464",
-   "id": "3a96af214d47",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fpc.watch.impress.co.jp%2Fdocs%2Fnews%2F2140010.html",
-   "key": "https://pc.watch.impress.co.jp/docs/news/2140010.html",
-   "lastModified": "",
-   "publishedAt": 1789042657000,
-   "summary": "",
-   "title": "Opus 5に迫る「DeepSeek-V4.1-Flash」無償公開、DeepSeekショック再びか",
-   "updatedAt": 1789077399866,
-   "url": "https://pc.watch.impress.co.jp/docs/news/2140010.html"
   },
   "https://pc.watch.impress.co.jp/docs/news/2140089.html": {
    "bodyBlocks": [],
-   "checkedAt": 1789163808427,
+   "checkedAt": 1789183874952,
    "etag": "",
    "hash": "f3ca673a48d2a46c",
    "id": "5ebec690ce9a",
@@ -3297,7 +3795,7 @@
    "publishedAt": 1789096356000,
    "summary": "",
    "title": "Copilotキー、右Ctrlキーとして使用可能に。Insiderで実装",
-   "updatedAt": 1789163808427,
+   "updatedAt": 1789183874952,
    "url": "https://pc.watch.impress.co.jp/docs/news/2140089.html"
   },
   "https://pc.watch.impress.co.jp/docs/topic/feature/2140075.html": {
@@ -3726,6 +4224,382 @@
    "title": "うっかり世界最強のWasmコンパイラを作ってしまった件 - Qiita",
    "updatedAt": 1789097533111,
    "url": "https://qiita.com/kanryu/items/95147e22ed5ac542ba58"
+  },
+  "https://ryoppippi.com/blog/2026-09-09-revenge-ja": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "逆襲"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "20代の​最後に​一発逆転した"
+    },
+    {
+     "kind": "P",
+     "text": "これを​読んでくれた​友人の​一人から、​「自分なら​人生を​『逆転した』と​思う​ことは​ないんだろうな」と​いう​感想を​もらった。"
+    },
+    {
+     "kind": "P",
+     "text": "自分の​場合、​「逆転」​そして​「逆襲」と​いう​発想が​出てくるのは​なぜなのだろう。"
+    },
+    {
+     "kind": "P",
+     "text": "そして、​なぜ​今でも​自分は​「逆襲」と​いう​言葉を​頭の​中で​反芻しているのだろうか。"
+    },
+    {
+     "kind": "P",
+     "text": "この​ブログに​類する​ものを​書く​タイミングは、​これまで​幾度と​なく​あった。​家出を​した​時、​UKへ​移住した​時、​UKで​就職を​した​時、​30歳を​迎えた​時、​ビザを​取れた​時。"
+    },
+    {
+     "kind": "P",
+     "text": "現時点での​整理を​ここに​記したいと​思う。​公開するかは​おいて​おいて。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "Warning この​記事には​暴力を​含んだ​情景描写が​あります。​苦手な​方は​ご注意ください。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "東大に​ぱっと​入れる​頭もなければ、​コミュニケーション能力も​ない​お前が​社会で​やっていける​わけが​ないだろう。​笑わせるな。"
+    },
+    {
+     "kind": "P",
+     "text": "当時22歳。​Edinburgh留学を​終えて​帰国し、​日本の​大学に​復学する​タイミングで、​院試を​控え、​今後の​進路に​ついて​悩んでいた。"
+    },
+    {
+     "kind": "P",
+     "text": "何度も​これに​類する​文章を​書いては​消すのを​繰り返してきた。​苦しんで​苦しん​できた。​何度も​何度も、​毎日​毎日、​この​言葉が​俺の​頭の​中で​再生され、​俺を​苦しめ続ける。"
+    },
+    {
+     "kind": "P",
+     "text": "8年経って、​縁を​切って​家出を​して​7年​経って、​実際には​俺は​社会で​踏ん​張っている。​なのに、​なぜ​今でも​この​言葉に​反論したいのか。"
+    },
+    {
+     "kind": "P",
+     "text": "手元に​ある​幼児教室の​連絡帳。​ここには​毎月の​先生からの​お便りが​記されている。​ 「本当に​製作ものが​大好きで、​毎日、​なにかしら​作っています」と​ある。​ マジックを​したり、​工作を​したり。​お店屋さん​ごっこでは​一人で​独自路線を​突き進むものの​売り切れを​達成し、​年長に​なると​年中の​子たちを​束ねて​玩具屋さんを​仕切っていたらしい。"
+    },
+    {
+     "kind": "P",
+     "text": "父親は​学研の​科学キットや​レゴなどを​与えてくれた。​幼稚園の​時は、​友達が​持っていた​乾電池と​豆電球が​最先端の​テクノロジーだった。​ 小学2年生の​時には、​将来ノーベル賞を​取りたいと​いう​夢を​友達に​言っていた。​ 小学校低学年の​頃は、​親の前で​パソコンを​使い、​レゴの​コマ撮りで​映画を​作ったりしていた。"
+    },
+    {
+     "kind": "P",
+     "text": "小学校3年生の​時、 LEGO MINDSTORMS を​買って​もらった。​ 解説本を​読んでいくと、​何やら​英語のような​文字が​ページに​ぎっしり​書いて​あった。​それが​自分の​プログラミングとの​出会いだった。​ しかし、​そこから​中学受験が​始まった。"
+    },
+    {
+     "kind": "P",
+     "text": "うちの​両親は​教育には​かなり​厳しかったと​思う。​ 小学校に​上がる​前から、​殴られる、​水を​かけられる、​家の​外に​出されるのは​当たり前だった。"
+    },
+    {
+     "kind": "P",
+     "text": "公文などの​学校以外での​学習は​していた。​だが、​入学する​時に、​その​知識を​ひけらかせば​やめさせると​脅されていた。​勉強しか​取り柄の​ない​自分には、​褒められる​環境が​実質的に​なかった。​ 運動もからきしダメだったし、​基本的には​できない​ところを​親に​指摘されるだけ。​「お前は​仕事が​できない」と​言われ続けてきた。"
+    },
+    {
+     "kind": "P",
+     "text": "小さい​頃から、​祖父母には、​社会は​ピラミッドで、​いい​大学に​行けば​仕事を​選べるのだと​言われていた。"
+    },
+    {
+     "kind": "P",
+     "text": "中学受験が​始まると、​偏差値と​いう​形で​客観的に​自分の​実力が​分かった。​成績は​親の​怒りの​種でも​あった​一方、​客観的事実と​して​自分の​心を​守ってくれる​ものでも​あった。"
+    },
+    {
+     "kind": "P",
+     "text": "母親は​毎日、​教材を​コピーし、​弁当を​作り、​塾への​送迎もしてくれた。​ 勉強にも​母親が​つきっきりだった。​漢字や​些細な​ミスが​あると​定規で​殴られ、​なぜできないのかと​責められ続けた。​30cmの​プラスチック定規は​俺を​叩き続けて​折れてしまったが、​セロハンテープで​補強され、​それで​また​叩かれる​日々が​続いた。​ 慣用句や​ことわざを​知らなければ、​テレビで​やっていると​責められた。​NHKくらいしか​見せて​もらえないのに。"
+    },
+    {
+     "kind": "P",
+     "text": "父親は​毎日顔を​合わせるわけではなかったので​回数自体は​少なかった。​ ただ、​小6で​テストから​帰ってきた​夜、​塾の​教科書と​ノートを​全て​風呂場に​投げ込まれ、​シャワーで​ぐしょぐしょに​された​ことは​今でも​鮮明に​覚えている。​俺は​それを​一冊​一冊拾い​上げ、​乾かした。​翌日、​塾に​ヨレヨレの​教科書を​持っていくのが​とても​恥ずかしかった。"
+    },
+    {
+     "kind": "P",
+     "text": "小6の​頃は​朝7時半に​学校へ​行き、​帰宅後は​塾の​勉強を​して、​塾へ​行った。​帰ってくると​夜11時頃だった。​土日も​塾だった。"
+    },
+    {
+     "kind": "P",
+     "text": "小学校の​時は​小遣いは​もらってなかった。​ 毎週テストの​前日に​家出を​していた。​駅の​周りを​うろつき、​自動販売機の​裏に​コインが​落ちていないか探していた。"
+    },
+    {
+     "kind": "P",
+     "text": "ゲーム機も​禁止、​パソコンも​禁止、​ネットも​実質的に​禁止であった。​ ネット上でも​ゲームを​禁止するか​どうかは​よく​話題に​なると​思うが、​2000年代を​小学生と​して​過ごした​人の​中で、​24歳に​なるまで​自分の​ゲーム機を​持った​ことがない​人が​どれくらいいるだろうか。"
+    },
+    {
+     "kind": "P",
+     "text": "中高は​楽しく​過ごせたが、​小学校では​ゲームも​テレビも​音楽も​話題に​ついていけずに​苦労した。"
+    },
+    {
+     "kind": "P",
+     "text": "携帯電話も​大学1年の​夏まで、​月330円で​親との​メールと​電話だけが​できる​ガラケーだった。​ 高校で​部長に​なった​時は、​連絡事項を​副部長に​転送し、​彼に​部の​LINEグループへ​投稿して​もらっていた。"
+    },
+    {
+     "kind": "P",
+     "text": "小6の​時に iPhone 3Gが​発売された 。​塾の​帰りの​携帯ショップなどで​触っていたのを​覚えている。​iPhoneの​アプリが​作れる​ことを​知り、​自分でも​作ってみたくなった。​ 中学受験が​終わったら​Macを​買って​ほしいと​親に​頼んだ。​すると​父親は​「渋幕に​特待で​受かったら​パソコンを​買って​やる」と​言った。"
+    },
+    {
+     "kind": "P",
+     "text": "中学高校で​パソコンに​触れなかったのは​俺の​実力不足だったと、​6年間​自分を​責め続けた。"
+    },
+    {
+     "kind": "P",
+     "text": "中学に​入学すると、​落語研究部と​同時に、​コンピューターや​電子工作を​扱う​部活に​入ろうとした。​しかし、​その​部が​文化祭で​ゲームを​作って​展示している​ことを​知った​母親に、"
+    },
+    {
+     "kind": "P",
+     "text": "「ゲームやらせる​ために​学費払ってない」​「父親に​どう​説明するの」"
+    },
+    {
+     "kind": "P",
+     "text": "と​言われた。​隠れてやれば​学校を​辞めさせると​脅された。​ それでも​近くで​PCを​見たかった​自分は、​その​部の​電子工作班に​入った。​ 半年は​所属していたが、​周りが​プログラミングを​楽しんでいるのを​見るのが​辛くなり、​退部した。"
+    },
+    {
+     "kind": "P",
+     "text": "アルバイトは​禁止で、​小遣いは​月1500円だった。​2ヶ月間貯めて、​本を​一冊​買うような​生活を​していた。"
+    },
+    {
+     "kind": "P",
+     "text": "定期テストである​順位を​下回ると​小遣いから​罰金を​取られ、​高校で​学年10番以内に​入ると​数千円の​ボーナスを​もらえた。​しかし、​ボーナスを​もらい続けると​制度自体が​廃止された。"
+    },
+    {
+     "kind": "P",
+     "text": "17歳の​時、​小遣いや​成績の​ボーナスを​貯めた​お金で、​2万円の​中古パソコンを​買おうとしたが、​母親に​止められた。​ 同じ金で​1万円の​ヨーヨーの​福袋を​買ったら、​金銭感覚が​おかしいと​言われた。"
+    },
+    {
+     "kind": "P",
+     "text": "小学校の​卒業文集には​ジョブズみたいに​人を​感動させる​ものを​作りたいと​書いていたのに、​父親には​「プログラミングなんて​就職してから​できる、​英語を​やれ」と​言われ、​パソコンには​触らせて​もらえなかった。​一方、​母親には​「若いうちに​頑張らないと​いけない」と​言われ続けた。"
+    },
+    {
+     "kind": "P",
+     "text": "市の​広報に​載った、​情報オリンピックに​出た​同学年の​子の​記事の​切り​抜きを、​母親に​机の​上に​置かれた​こともある。​「関心が​あるかと​思って」と​言っていたが、​こんな​グロテスクな​ことは​ない。"
+    },
+    {
+     "kind": "P",
+     "text": "中学生の​頃は、​思いついた​アプリの​アイデアを​自由帳に​書き溜めていた。​ 図書館で​Pythonや​JavaScriptの​本を​借り、​ノートに​コードを​書いて、​家電量販店の​展示PCの​メモ帳に​打ち込んで​試していた。​ GitHubや​Twitterの​アカウントも​携帯ショップの​展示PCで​作った。"
+    },
+    {
+     "kind": "P",
+     "text": "毎月図書館で​Macの​雑誌を​借りて、​むさぼるように​読んでいた。​アプリの​紹介も、​iOSアプリの​開発記事も、​そこで​読んだ。​ iPhoneが​欲しすぎて、​中高では​iPhoneの​ペーパークラフトを​市の​図書館で​印刷し、​ボロボロに​なるまで​持ち歩いていた。​今でも​友人の​間で​ネタに​されている。​ 自分は​実機を​持っていないのに、​友人たちに​アプリを​勧めていた。"
+    },
+    {
+     "kind": "P",
+     "text": "Life is Tech の​ことも、​雑誌で​知っていた。​友人が​行った​話を​聞いた。​羨ましかった。"
+    },
+    {
+     "kind": "P",
+     "text": "iPod nanoは、​ネットに​繋がらないからか、​中学に​入る​ときに​買って​もらった。​ただし、​英語の​リスニングに​必要な​Podcastや​教材以外は​消せと​言われた。​ 一方で、​自分の​英語力の​ほとんどは、​通学中に​擦り切れる​ほど​見た​Steve Jobsの​Keynote、​Jony Iveの​ビデオ、​TEDが​元に​なっている。​ 当時流​行っていた​曲の​ほとんどは​大学以降に​友人たちが​歌うのを​見て​初めて​知った。​ 最近​平成リバイバルが​少し​流​行ったが、​自分は​懐かしさを​感じる​ことができていない。"
+    },
+    {
+     "kind": "P",
+     "text": "中学も​大学も​第一志望には​落ちた。​ICUに​入ったのは、​入学した後に​専攻を​変えられるからだ。​ どちらも​行って​よかったと​思う。​でも、​あそこまで​時間と​労力を​かけなくても、​同じ​学校には​行けたんじゃないかとは​思う。"
+    },
+    {
+     "kind": "P",
+     "text": "祖父母が​入学祝いに​出してくれた​金で、​MacBook Proを​買った。​ SSDは​128GB。​Appleの​店員に​「本当に​大丈夫ですか」と​聞かれたが、​親は​足りない​中で​工夫するのが​学生だと​言った。​ SDカードを​挿して​容量を​足し、​3ヶ月ごとに​macOSを​入れ直して​使った。​ この​MacBookで​Androidエミュレータを​立ち上げて​LINEの​アカウントを​作った。​ 移動時間に​連絡を​する​ことは​できなかった。"
+    },
+    {
+     "kind": "P",
+     "text": "コードを​書きたいと​思った​9歳から​約10年経って、​初めて​自由に​書ける​環境が​できた。​ ただ、​自由に​書き始める​ことが​できたわけではなかった。"
+    },
+    {
+     "kind": "P",
+     "text": "いい​学校に​行かせているのだから​元を​とるようにと、​何度も​言われた。​ 「人生は​逆走エスカレーターなのだから​サボるな」と​言われた。"
+    },
+    {
+     "kind": "P",
+     "text": "出資者、​株主の​言うことに​逆らう​ことは​死を​意味していた。"
+    },
+    {
+     "kind": "P",
+     "text": "大学に​入って​好きに​履修を​選べるようになったのに、​好きなように​勉強を​始める​ことができなかった。​ 入学直後に​4年分の​履修計画を​きっちり立て、​留学中の​単位を​全部​落と​しても​卒業できるような​時間割を​組んだ。​ 一人​暮らしは​認められなかった。​ 大学まで​往復5時間かかるのに、​週25時間以上​授業が​あり、​予習復習も​あり、​週末には​バイトが​あり、​三つの​サークルに​入っていた。​ 大学2年の​秋には​交換留学の​準備も​重なり、​頭に​十円ハゲが​できた。"
+    },
+    {
+     "kind": "P",
+     "text": "毎学期親に​成績表を​提出し、​GPA4.0を​取れなかった​学期には​謝罪もした。"
+    },
+    {
+     "kind": "P",
+     "text": "大学の​時の​エンジニアバイトも、​無理だから​やめて​おけと​言われて行く​ことができなかった。"
+    },
+    {
+     "kind": "P",
+     "text": "専攻は​後から​選べた。​色々​見た​結果、​結局情報科学からは​逃れられなかった。"
+    },
+    {
+     "kind": "P",
+     "text": "1年生の​秋学期、​初めて​C言語を​授業で​学んだ。​ for文や​if文、​ポインタなどの​入門から​始まり、​最後には​競技​プログラミングの​問題を​解く​課題が​あった。​ 往復5時間の​通学や​授業の​空き時間を​すべて​これに​注ぎ込み、​クラスで​1位を​取る​ことが​できた。"
+    },
+    {
+     "kind": "P",
+     "text": "自分は​GPAを​最大化する​ことを​目的に​動いていたので、​学期中は​遊びみたいな​ものは​できなかった。​ その​秋休み、​授業で​使った​ナップサック問題を​iOSアプリに​してみた。​これが​初めての​iOSアプリだった。​ 次の​春休みには、​2048などの​ゲームを​Processingで​移植したりした。"
+    },
+    {
+     "kind": "P",
+     "text": "2016年は​ICUの​サマーコースで​日本語や​日本文化を​留学生に​教える​バイトに​明け暮れた。"
+    },
+    {
+     "kind": "P",
+     "text": "転機に​なったのは、​2017年の​夏休みに​作った 影の​キャンバス だ。​ Kinectと​プロジェクターを​使って​何を​やっても​いいよ、とお題を​渡され、​自由に​制作した。​ 土壇場で​どうにか間に​合わせ、​当日、​実際の​お客さんに​自分の​作った​ものを​使って​もらえた。​嬉しかった。​ もともと​マジックや​ショービジネスに​興味が​あり、​落語を​やってきた。​エンジニアリングで​作った​ものでも、​人を​幸せに​できる。"
+    },
+    {
+     "kind": "P",
+     "text": "その後、​Edinburghに​留学した。​ 実家で​一人に​なれるのは​トイレくらいだった。​留学先の​寮で、​初めて​自分の​部屋を​持った。"
+    },
+    {
+     "kind": "P",
+     "text": "いろいろな​人に​お世話に​なりながら、​とても​難しい​授業に​取り組み、​奮闘した。​成績は​めちゃくちゃ​悪かったが、​得る​ものは​かなり​多かった。​ 領事館の​人たちと​仲良くなり、​あちこちで​英語の​落語を​する​機会が​あった。​ヨーヨーの​ヨーロッパ大会に​行って​入賞もした。​ 落語も​ヨーヨーも、​親から​与えられた​ものではなかった。​とても​良い​留学だったと​思う。"
+    },
+    {
+     "kind": "P",
+     "text": "ただ、​情報科学の​授業で​周りに​いた​人たちは、​入学前から​コンピューターを​触っていた。​自分は​相当に​遅れていると​感じた。"
+    },
+    {
+     "kind": "P",
+     "text": "帰国後、​その​現状を​親に​訴えると、​一人で​やっていけと​言われた。​ 卒業したら​自力で​やっていく。​大学院の​学費も​どうにかする。​そう​言った​ところ、​あの​言葉が​飛ん​できたのである。"
+    },
+    {
+     "kind": "P",
+     "text": "留学中、​期末試験の​勉強を​している​頃にも、​家族LINEに 大学院に​行くと​人生が​終わると​いう​記事 が​送られてきた。"
+    },
+    {
+     "kind": "P",
+     "text": "大学院には​無事合格した。​大学4年生では​スタートアップの​立ち上げに​関わる​ことになった。​ 大学4年の​頃には、​研究室で​寝泊まりする​ことも​あった。​ とりあえず家を​出る​用意は​整った。​ やっと​「株主」から​解放されるのだと​思った。"
+    },
+    {
+     "kind": "P",
+     "text": "それでも​感謝の​印に、​大学の​卒業論文を​製本して​親に​渡した。​ただし読まれる​ことは​なかった。"
+    },
+    {
+     "kind": "P",
+     "text": "理論的には​家を​出られる​状態に​なっても、​しばらくは​実家から​大学院と​仕事に​通った。​しかし、​家での​衝突は​絶える​ことがなかった。​ あまりにも​家に​帰るのが​しんどくなっていた​時、​大学院の​先輩たちに、とりあえず​避難しろと、​温かい​言葉を​かけて​もらった。"
+    },
+    {
+     "kind": "P",
+     "text": "2019年6月9日、​23歳の​誕生日。​俺は​スーツケース二つで​家を​出た。"
+    },
+    {
+     "kind": "P",
+     "text": "家が​決まるまでの​1ヶ月半、​先輩たちの​シェアハウスを​転々と​したり、​研究室の​床で​寝たりしていた。​ まだ​理性的な​対話が​できると​思っていた​父親に​保証人を​断られ、​明日住む場所も​分からなかった。"
+    },
+    {
+     "kind": "P",
+     "text": "あの​時の​先輩方がいなければ、​あの​夜の​判断が​なければ、​今の​俺は​いないだろう。"
+    },
+    {
+     "kind": "P",
+     "text": "スタートアップの​給料で​学費と​家賃を​払うと​ぎりぎりだった。​ 家が​落ち着いた秋に、​帯状疱疹が​出た。"
+    },
+    {
+     "kind": "P",
+     "text": "スタートアップでも、​自分の​興味の​範囲で​社会的成功を​目指そうと​思っていた。​ 研究も、​やりたいことが​あって​入ったのに、​それを​見失ってしまった。​学位しか​見えていない​時期が​長く​あった。​ 人の​研究ばかり​手伝って、​お前は​何を​やりたいんだと​指導教員を​心配させたことも​あった。"
+    },
+    {
+     "kind": "P",
+     "text": "自由を​与えられても、​偏差値が​GPAに、​学歴に、​社会的地位に、​変わっていってしまった。"
+    },
+    {
+     "kind": "P",
+     "text": "「俺は​社会で​やっていけない」と​いう​声を、​ずっと​頭の​中で​聞き続けていた。​ そんな​ことは​ないと​思っていた。"
+    },
+    {
+     "kind": "P",
+     "text": "間違いなく​大きな​転機の​一つは、​結婚して​UKに​移住した​タイミングで​始めた Neovim 、​そして​参加した vim-jp であった。"
+    },
+    {
+     "kind": "P",
+     "text": "純粋に​面白い​技術や​おもちゃに​ついて、​皆が​自由に​語っていた。​ 何か​不具合を​見つけると、​すぐに​ :contribution-chance: スタンプが​押される。​そこで​OSSで​共同作業する​ことを​覚えた。​ 技術記事を​書く​ことも​奨励された。"
+    },
+    {
+     "kind": "P",
+     "text": "と​いっても、​それは​まだ​Vimに​閉じていて、​自分の​環境整備の​範囲でしかなかった。​ それでも、​適当に​作って、​公開して、​楽しい。​その​土台は​ここで​できた。"
+    },
+    {
+     "kind": "P",
+     "text": "この​時は​まだ​日本の​仕事も​していたし、​博士課程にもいた。​ 親の​言葉は​鳴り続け、​日本と​リモートワークを​しながら​将来から​目を​背けていた。"
+    },
+    {
+     "kind": "P",
+     "text": "2024年、​27歳で​大学院を​片道切符で​休学し、​日本の​会社も​退職し、​無職に​なった。​ 俺は​全ての​レールから​外れた。"
+    },
+    {
+     "kind": "P",
+     "text": "目の前に​あったのは、​UK就職か​日本へ​帰って​就職するかの​ふたつの​道、​そして​MacBookだけだった。"
+    },
+    {
+     "kind": "P",
+     "text": "就活も​やりたくは​なかった。​それまで​日本で​就活を​した​ことは​なく、​基本的に​仕事は​いつも​知り合いから​もらえていた。​ 落と​される​ことで、​社会で​やっていけない​ことを​証明するのではないかと​恐れていた。"
+    },
+    {
+     "kind": "P",
+     "text": "誰も​今までの​評価軸で​自分を​評価してくれない。​だから​こそ​自由に​やりたい​ことを​やり、​だから​こそ​数えきれない​苦労の​連続だった。"
+    },
+    {
+     "kind": "P",
+     "text": "そして、​友人たちの​奮闘を​きっかけに​UKでの​就職​活動を​始めた。​ 実際に​英語、​つまり​コミュニケーション能力の​低さで​落と​される​ことも​多かった。"
+    },
+    {
+     "kind": "P",
+     "text": "結果的に​UKでの​就職に​背中を​押してくれた​妻には​感謝している。"
+    },
+    {
+     "kind": "P",
+     "text": "「自分に​とって」面​白い​ものを​作り続けた​2年間だった。"
+    },
+    {
+     "kind": "P",
+     "text": "親に​プログラミングから​遠ざけられていた​約10年。​Macを​手に​入れてからも、​自分の​やりたい​ことを​自由に​できるように​なるまで、​さらに​約10年かかった。"
+    },
+    {
+     "kind": "P",
+     "text": "俺に​とって、​こうして​エンジニアリングが​できる​ことは​当たり​前じゃない。​ありがたいと​思う。"
+    },
+    {
+     "kind": "P",
+     "text": "今は​コードを​書くのが​楽しい。​ それでも、​「逆襲」が​ちらつく。"
+    },
+    {
+     "kind": "P",
+     "text": "誰を、​何を​もって​見返そうと​していたのだろうか。​ 本当に​「見返す相手」は​存在したのだろうか。"
+    },
+    {
+     "kind": "P",
+     "text": "高校の​時に、​あまりにも​理不尽な​叱責を​繰り返す母親に​キレたことがある。​その​時に​言われた​言葉は、"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "世間の​目は​もっと​厳しい。​周りに​理不尽な​ことを​言われても​「何クソと​思って」​見返すしかないだろ。​男のくせに​ピーピー泣いてんじゃねえよ。"
+    },
+    {
+     "kind": "P",
+     "text": "この​「逆襲」も、​「見返せ」と​いう​戦い​方も、​親から​受け継いだものなのではないか。"
+    },
+    {
+     "kind": "P",
+     "text": "30歳を​迎えた​今、​この​呪いから​離れる​ことは​できるのだろうか。"
+    },
+    {
+     "kind": "P",
+     "text": "そして​今日も、​「お前は​社会で​やっていけない」​「出来損ないの​息子」と​いう​声が​頭の​中で​鳴り響いている。"
+    },
+    {
+     "kind": "P",
+     "text": "なのに、​何かを​成し遂げると、​今でも​「影」が​ちらつく。"
+    },
+    {
+     "kind": "P",
+     "text": "全部を​肯定できるわけじゃない。​それでも、​俺の​人生は​俺が​肯定したい。"
+    }
+   ],
+   "checkedAt": 1789183874952,
+   "etag": "",
+   "hash": "7f03daa30bd48b51",
+   "id": "2bb65d779961",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fryoppippi.com%2Fblog%2F2026-09-09-revenge-ja%2F",
+   "key": "https://ryoppippi.com/blog/2026-09-09-revenge-ja",
+   "lastModified": "",
+   "publishedAt": 1789054325000,
+   "summary": "OSS開発者と​して​UK Global Talent Visa​（Exceptional Talent）を​取得した​ | blog | ryoppippi.com イギリスの​Global Talent Visaに​Exceptional Talentと​して​承認された​体験記。​Tech Nationの​推薦状、​審査基準、​申請の​流れと​OSS実績の​示し方を​まとめます。 この​記事の​中で​自分は 20代の​最後に​一発...",
+   "title": "逆襲 | blog | ryoppippi.com",
+   "updatedAt": 1789183874952,
+   "url": "https://ryoppippi.com/blog/2026-09-09-revenge-ja/"
   },
   "https://shopify.engineering/back-to-native": {
    "bodyBlocks": [
@@ -4467,21 +5341,6 @@
    "updatedAt": 1789163808427,
    "url": "https://tech-blog.voicy.jp/entry/2026/09/10/183722"
   },
-  "https://togetter.com/li/2743900": {
-   "bodyBlocks": [],
-   "checkedAt": 1789097533111,
-   "etag": "",
-   "hash": "7497d22a570e1628",
-   "id": "744c86fa0102",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Ftogetter.com%2Fli%2F2743900",
-   "key": "https://togetter.com/li/2743900",
-   "lastModified": "",
-   "publishedAt": 1789039240000,
-   "summary": "もしMicrosoftがスマホを出していたら覇権を取れていたはず、互換性や連携など負ける理由を探す方が難しい…「かつては変態端末がたくさんあったのにどうしてこうなった」",
-   "title": "もしMicrosoftがスマホを出していたら覇権を取れていたはず、互換性や連携など負ける理由を探す方が難しい…「かつては変態端末がたくさんあったのにどうしてこうなった」",
-   "updatedAt": 1789097533111,
-   "url": "https://togetter.com/li/2743900"
-  },
   "https://togetter.com/li/2744037": {
    "bodyBlocks": [],
    "checkedAt": 1789124376789,
@@ -5131,111 +5990,75 @@
    "updatedAt": 1789124376789,
    "url": "https://www.itmedia.co.jp/business/articles/2609/11/news072.html"
   },
-  "https://www.itmedia.co.jp/mobile/articles/2609/10/news091.html": {
+  "https://www.itmedia.co.jp/mobile/articles/2609/11/news064.html": {
    "bodyBlocks": [
     {
      "kind": "H",
-     "text": "「折り目があります」――Apple初の「iPhone Duo」実機画像がSNSで物議、高価ゆえにガッカリか"
+     "text": "iPhone 17 Proの背面ガラスがバキバキに 約2.8万円の修理代、「クレカの付帯保険」に助けられた話 （1/2 ページ）"
     },
     {
      "kind": "P",
-     "text": "「折り目があります」「目立たないですが、シワがあります」――Appleが発表したブランド初の折りたたみスマートフォン「iPhone Duo」の画面中央に存在する折り目が、SNS上で大きな議論を呼んだ。"
-    },
-    {
-     "kind": "H",
-     "text": "高額な価格設定が招いた画面の折り目に対するSNS上での厳しい評価"
+     "text": "いや〜割ってしまいましたよ。iPhone 17 Proの背面ガラス！"
     },
     {
      "kind": "P",
-     "text": "直販価格が1999ドルからという設定は、最新のテクノロジーを求める消費者に対して非常に高いハードルを課した。"
+     "text": "とある日の夜、iPhoneのライトで車内を照らしながら後部座席にカー用品を取り付けていました。「さて、トランク側に移動して作業の続きだ」と、後部座席を電動で格納してフラットにしようとしたところ、「バキッ」と不穏な音が。"
     },
     {
      "kind": "P",
-     "text": "この高額な価格設定ゆえに、消費者の新しい端末を見る目はかつてなく厳しくなった。画面中央に配置した折り曲げ部分に対して、わずかな凹凸も許容しないという強い姿勢が投稿から読み取れる。悲しみを示す絵文字とともに画面の折り目がはっきりと写った写真が拡散し、いわゆる炎上状態へと発展した。"
+     "text": "音が鳴った方を見ると、愛用しているiPhone 17 Proの画面保護ガラスが割れているではありませんか。でも本体やケース側はなんともなさそう。当時は「やっちまった〜〜」と思うとともに、「保護ガラスだけで済んでよかった」と胸をなで下ろしたわけです。"
     },
     {
      "kind": "P",
-     "text": "多数のユーザーが、特定角度から光を当てた際に折り目が視認できるという指摘を相次いで投稿した。高額な投資に見合う完璧な品質を求める消費者として当然の心理が、この折り目に対するシビアな評価に直結したようだ。"
-    },
-    {
-     "kind": "H",
-     "text": "発表会に参加した来場者による写真の即時拡散と画面中央への過度な注目"
+     "text": "翌日、ITmedia Mobileの編集会議中にWebカメラを手元に向けながら保護ガラスの貼り替えライブを部内に披露していたのですが（仕事しろ）、ついでに本体もきれいにしようとケースを取り外したところ、見事に背面のガラス部分が割れているではありませんか。さすがに血の気が引きましたね。会議どころではない。"
     },
     {
      "kind": "P",
-     "text": "新製品の発表会に現地で参加した来場者が、展示した実機に触れた直後に写真をインターネット上へアップロードした。"
+     "text": "携帯電話を使い始めてこのかた十数年、自分の過失で画面を割ったり本体を壊したりしたことがなかったので、初体験すぎて感動すら覚えてしまいました（強がってるわけではないです。たぶん）。"
     },
     {
      "kind": "P",
-     "text": "公式の画像を通じた情報発信よりも先に、参加者の手によって撮影した無加工の画像が世界中へ瞬く間に広まった。その結果として、端末全体の革新性よりも画面中央の折り目部分へと過度に注目が集まる事態を引き起こした。"
-    },
-    {
-     "kind": "P",
-     "text": "一部のユーザーは、内側画面を特定角度に傾け、周囲の強い光の反射を巧みに利用して意図的に折り目を強調した動画や写真を含めた。これにより、日常的な使用環境とは異なる極端な条件下での見え方が、標準的な状態であるかのように広く認識される一因を作った。"
-    },
-    {
-     "kind": "P",
-     "text": "参加者は、画面の下に埋め込んだカメラのレンズ部分と並行して、画面の継ぎ目がどの程度目立つのかを検証する目的で接写画像を多く撮影したと思われる。現地からのリアルタイムの一次情報が、製品のマイナス面を掘り下げる方向へと向かってしまっている。"
-    },
-    {
-     "kind": "H",
-     "text": "折り目を軽減するための多層的アプローチとは"
-    },
-    {
-     "kind": "P",
-     "text": "技術仕様を確認すると、Appleは画面の折り目を完全に無くすのではなく、視覚的および触覚的に極限まで目立たなくするための非常に複雑な設計を施した。本体の心臓部にあたるヒンジ機構は、100以上の微小な部品と炭素繊維のサポートプレートを組み合わせて構成した。これにより、ディスプレイを広げた際に中央部分を下から強固に支え、表面を平らに維持する仕組みを実現したという。"
-    },
-    {
-     "kind": "P",
-     "text": "さらに、内側に搭載したディスプレイパネルの上下に高強度のガラスを配置した。そこへ専用の特殊な粘着剤を使用することで、端末を折りたたむ際に各層が本をめくるように滑らかにスライドし、曲げによるストレスを逃がす構造を採用した。ページめくりのような感覚が伝わる動画は、Appleが発表会中に示しており、Appleらしさの1つといえる。"
-    },
-    {
-     "kind": "P",
-     "text": "ディスプレイ表面には、ナノテクスチャ仕上げと呼ぶ特殊なマット加工を広範囲に施した。この光の反射を抑え込むマット表面処理は、折り目の視認性を最小限に抑えるための意図的な決定だ分析するポストも見られる。あえて光沢をなくすことで、凹凸の強調を防いだ。"
-    },
-    {
-     "kind": "H",
-     "text": "完全にゼロとはうたわず、極限まで目立たなくした"
-    },
-    {
-     "kind": "P",
-     "text": "SNSの反応を見る限り、特に海外において折り目は価格と同じくらい関心事であるようだ。だが、AppleはiPhone Duoとその折りたたみ構造を発表するにあたり、「画面が完全に平たんである」ことや「折り目がゼロである」ことを一度も主張していない。「購入から何年経過したとしても折り目なし」という発言や記述も見当たらない。"
-    },
-    {
-     "kind": "P",
-     "text": "公式リリースでは、特殊な表面仕上げがまぶしさを最小限に抑え、折り目の視認性を下げることで比類のない視聴体験を提供すると説明した。折り目の存在を否定せず、高度な技術的アプローチによって極限まで目立たなくしたという事実を正確に伝達する手法をとった。"
-    },
-    {
-     "kind": "P",
-     "text": "余談だが、ディスプレイ下部に配置したカメラも、非使用時は画面の背後に隠れるように設計しシームレスな表示領域を確保した。ここでも、物理的な切れ目や凹凸を視界から隠すための工夫を徹底している。"
-    },
-    {
-     "kind": "P",
-     "text": "折りたたむための柔軟な素材を採用している以上、構造的・物理的に折り目の発生は避けられず、現在の技術では完全消去は達成できない。この課題を即時に解決し、永久的に折り目ゼロを実現できるメーカーは今のところないだろう。"
+     "text": "とはいえ本体の動作に不具合は出ておらず、実際にケースを外すまでは気付かなかったわけです。「このまま使い続けてもいいかな」とも思ったのですが、でもほら、もうすぐ出ることが確定したじゃないですか、折りたたみの「 iPhone Duo 」が。"
     },
     {
      "kind": "LI",
-     "text": "Apple初折りたたみ「iPhone Duo」ついに登場――耐久性から価格まで、気になる疑問FAQで解説 Appleが発表した初の折りたたみスマートフォンであるiPhone Duoについて、購入を検討するユーザーが抱く疑問をFAQ形式で解説する。グレード5チタンや新設計ヒンジによる高い耐久性、折り目を抑える特殊ディスプレイ構造、2画面表示に対応したiOS 27の操作性、国内でのストレージ別価格や発売日まで要点を網羅する。"
+     "text": "→ 折りたたみ「iPhone Duo」を触って実感した“Appleらしさ” 現地からファーストインプレッション"
+    },
+    {
+     "kind": "P",
+     "text": "本体価格は36万4800円からといいますが、リアルに購入検討すると512GBモデル（39万9800円）となり、そしてこんな高額なスマホに無保険は怖すぎるのでAppleCare+のランニングコストが年間2万9800円もかかるという。"
+    },
+    {
+     "kind": "P",
+     "text": "これはとんでもないことですよ。フェラーリ買うのと一緒です。ロマンと書いて浪費です。生産性はカローラで十分なのに。となると手元のiPhoneは売却して軍資金に回したいと思うのは当然のこと。"
+    },
+    {
+     "kind": "P",
+     "text": "よってリセールを考えると、背面の割れを修理した方がいいかもしれない。そこで取りあえずAppleの修理ページをチェックして背面ガラス割れの修理費用を調べてみたら、「背面ガラスの損傷」は2万7800円とあります。ひえ。"
+    },
+    {
+     "kind": "P",
+     "text": "保護ガラスの貼り替えライブから一転、背面ガラス割れによる阿鼻叫喚ライブを見せつけられていた同僚は「思ったより安い」と言っていましたが、いや、修理費用が高いというより、“マイナス”にお金を払って“ゼロ”に戻す行為がつらい。やっぱ健康は大事だ。"
     },
     {
      "kind": "LI",
-     "text": "「iPhone Duo」発表 Apple初の折りたたみ、Apple Pencil対応、インカメラは埋め込み型でTouch ID採用 10月23日発売、36万4800円から Appleが新型スマートフォン「iPhone Duo」を発表した。情報は随時更新する。"
+     "text": "スマホで久しぶりにワクワクさせられた「Galaxy Z Fold8」のカタチ パスポートサイズで完全に恋に落ちた サムスン電子の新型フォルダブルスマホ「Galaxy Z Fold8」に触れてみた。実機を手にしてみたところ、かつてないワクワク感に包まれる結果に。"
     },
     {
      "kind": "LI",
-     "text": "Apple初の折りたたみ「iPhone Duo」で、iOSのソフトウェアはどう変化する？ 今分かっていること Appleが発表した初の折りたたみモデル「iPhone Duo」。7.6型の広大なインナーディスプレイと「iOS 27」により、マルチタスクやUIが劇的に進化しそうだ。"
+     "text": "“横ワイド”が折りたたみの標準になる？ コンテンツ視聴に便利な4：3画面の是非 開くと4：3の横ワイド型になる折りたたみスマホが話題だ。SamsungやHuaweiに続きAppleも参入するとみられる中、軽量化や画面の見やすさ、新たな使い方により、一般的な選択肢として定着するかもしれない"
     },
     {
      "kind": "LI",
-     "text": "Apple、「iPhone 18（無印）」を発表せず 2027年春投入の予測と背景 Appleが製品発表イベントでiPhone DuoやiPhone 18 Proを披露した一方、標準モデルiPhone 18の発表を見送った。同社は全機種を一斉発表する従来方針を変更し、秋と春の二段階で商品を投入する販売戦略へシフトしたとみられている。2025年発売のiPhone 17が高い完成度を誇る点やストア価格の値上げ推移も影響しており、買い替え時には注意が必要だ。"
+     "text": "なぜLINEは“ちょっとした気遣い”で重宝された「ミュートメッセージ」を有料化したのか？ 通知を鳴らさずに連絡できる、LINEの「ミュートメッセージ」が有料化されました。“気遣い”機能として重宝されてきた同機能が「LYPプレミアム」特典へ移行した理由と、LINEヤフーの事業戦略の変化を解説します。"
     },
     {
      "kind": "LI",
-     "text": "新iPhone発表で「iPhone 17／17e／Air」など旧モデルを値上げ 17は15万9800円スタートに Appleの新モデル発表に伴い、継続販売される旧iPhoneの価格改定が行われた。iPhone 16やiPhone 17など全4モデルが一斉に1万円以上値上げされた。最も値上げ幅が大きいiPhone Airの1TBは4万7000円増となり、最安モデルはiPhone 17eの12万4800円となった。"
+     "text": "20万円超も珍しくない高額スマホ時代、「スマホ保険」の選び方と料金の目安は？ 高価格化が進むスマホの破損に備える「スマホ保険」。月額800〜1000円で20万円前後の補償が目安ですが、バッテリー交換が対象外などの注意点も。賢いコストバランスの選び方を考えてみた。"
     },
     {
-     "kind": "H",
-     "text": "関連リンク"
+     "kind": "LI",
+     "text": "折りたたみiPhoneは30万〜40万円超に？ ダミー画像から見えたスペックと品薄の懸念 Appleが初の折りたたみiPhoneを発表するとうわさされており、ダミーモデルやケースの画像が出回っている。開くと7.8型で4：3の画面になり書類閲覧に向く一方で、動画視聴には上下に帯が出る仕様とされる。メモリ価格の高騰もあり、30万から40万円台という高額化が予想される。"
     },
     {
      "kind": "P",
@@ -5247,11 +6070,23 @@
     },
     {
      "kind": "LI",
-     "text": "「iPhone 18 Pro」は何が進化した？ 「iPhone 17／17 Pro」とスペックを比較 全て20万円超えの価格が悩ましい （2026年09月10日）"
+     "text": "「折り目があります」――Apple初の「iPhone Duo」実機画像がSNSで物議、高価ゆえにガッカリか （2026年09月10日）"
     },
     {
      "kind": "LI",
-     "text": "「iPhone Duo」発表 Apple初の折りたたみ、Apple Pencil対応、インカメラは埋め込み型でTouch ID採用 10月23日発売、36万4800円から （2026年09月10日）"
+     "text": "NHK受信料未収で宿泊事業者に1140万円請求 「どうしてもご理解いただけなかったため」民事訴訟提起 （2026年09月10日）"
+    },
+    {
+     "kind": "LI",
+     "text": "折りたたみ「iPhone Duo」を触って実感した“Appleらしさ” 現地からファーストインプレッション （2026年09月11日）"
+    },
+    {
+     "kind": "LI",
+     "text": "なぜ？ カーナビが「NHK受信料」対象になるワケ 課金されるケースと徴収を免れる方法 （2025年04月15日）"
+    },
+    {
+     "kind": "LI",
+     "text": "「iPhone 18 Pro」は何が進化した？ 「iPhone 17／17 Pro」とスペックを比較 全て20万円超えの価格が悩ましい （2026年09月10日）"
     },
     {
      "kind": "LI",
@@ -5259,11 +6094,7 @@
     },
     {
      "kind": "LI",
-     "text": "「iPhone Duo」は36万4800円からで2TBは57万円強、「iPhone 18 Pro」は21万9800円から （2026年09月10日）"
-    },
-    {
-     "kind": "LI",
-     "text": "Apple初の折りたたみ「iPhone Duo」で、iOSのソフトウェアはどう変化する？ 今分かっていること （2026年09月10日）"
+     "text": "iPhone 17 Proの背面ガラスがバキバキに 約2.8万円の修理代、「クレカの付帯保険」に助けられた話 （2026年09月11日）"
     },
     {
      "kind": "LI",
@@ -5271,19 +6102,11 @@
     },
     {
      "kind": "LI",
-     "text": "「iPhone 18 Pro／18 Pro Max」発表、可変絞りカメラと2nmの「A20 Proチップ」を搭載 （2026年09月10日）"
+     "text": "「iPhone Duo」発表 Apple初の折りたたみ、Apple Pencil対応、インカメラは埋め込み型でTouch ID採用 10月23日発売、36万4800円から （2026年09月10日）"
     },
     {
      "kind": "LI",
-     "text": "Apple、「iPhone 18（無印）」を発表せず 2027年春投入の予測と背景 （2026年09月10日）"
-    },
-    {
-     "kind": "LI",
-     "text": "「折り目があります」――Apple初の「iPhone Duo」実機画像がSNSで物議、高価ゆえにガッカリか （2026年09月10日）"
-    },
-    {
-     "kind": "LI",
-     "text": "折りたためる「iPhone Duo」と「iPhone 18 Pro」シリーズ発表 「iPhone 18」は登場せず （2026年09月10日）"
+     "text": "「Suicaのペンギン」卒業騒動にまつわる背景と誤解 JR東日本に聞いた （2025年11月14日）"
     },
     {
      "kind": "H",
@@ -5398,18 +6221,110 @@
      "text": "Feed Back"
     }
    ],
-   "checkedAt": 1789077399866,
+   "checkedAt": 1789183874952,
    "etag": "",
-   "hash": "5cbc77d4102645b8",
-   "id": "1ae4df8ba7d4",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.itmedia.co.jp%2Fmobile%2Farticles%2F2609%2F10%2Fnews091.html",
-   "key": "https://www.itmedia.co.jp/mobile/articles/2609/10/news091.html",
+   "hash": "36390597be62e07a",
+   "id": "adfc26331e0b",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.itmedia.co.jp%2Fmobile%2Farticles%2F2609%2F11%2Fnews064.html",
+   "key": "https://www.itmedia.co.jp/mobile/articles/2609/11/news064.html",
    "lastModified": "",
-   "publishedAt": 1789036789000,
-   "summary": "「折り目があります」「目立たないですが、シワがあります」――Appleが発表したブランド初の折りたたみスマートフォン「iPhone Duo」の画面中央に存在する折り目が、SNS上で大きな議論を呼んだ。 高額な価格設定が招いた画面の折り目に対するSNS上での厳しい評価 直販価格が1999ドルからという設定は、最新のテクノロジー...",
-   "title": "「折り目があります」――Apple初の「iPhone Duo」実機画像がSNSで物議、高価ゆえにガッカリか",
-   "updatedAt": 1789077399866,
-   "url": "https://www.itmedia.co.jp/mobile/articles/2609/10/news091.html"
+   "publishedAt": 1789096571000,
+   "summary": "とある日の夜、iPhoneのライトで車内を照らしながら後部座席にカー用品を取り付けていました。「さて、トランク側に移動して作業の続きだ」と、後部座席を電動で格納してフラットにしようとしたところ、「バキッ」と不穏な音が。 音が鳴った方を見ると、愛用しているiPhone 17 Proの画面保護ガラスが割れているではあり...",
+   "title": "iPhone 17 Proの背面ガラスがバキバキに 約2.8万円の修理代、「クレカの付帯保険」に助けられた話",
+   "updatedAt": 1789183874952,
+   "url": "https://www.itmedia.co.jp/mobile/articles/2609/11/news064.html"
+  },
+  "https://www.itmedia.co.jp/mobile/articles/2609/11/news089.html": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "2026年度末の「Suicaエリア統合」 気になることをJR東日本に聞いてみた （1/2 ページ）"
+    },
+    {
+     "kind": "P",
+     "text": "東日本旅客鉄道（JR東日本）は2026年度末に、現在6つに分かれている「Suicaエリア」を1つにまとめます。2023年度から進めてきた改札システムの更新に一定のめどが付いたことに伴う措置で、 Suicaエリアの線区／駅相互間であれば改札機での乗降が可能 となります。"
+    },
+    {
+     "kind": "LI",
+     "text": "→ “エリアをまたいだ乗車”実現なるか？ 「Suica」の改札システムが順次リニューアル 2026年度完了予定"
+    },
+    {
+     "kind": "LI",
+     "text": "→ JR東日本が「Suica」を使った鉄道乗車のロードマップを更新 2030年代半ばめどに自社全線で利用可能に"
+    },
+    {
+     "kind": "P",
+     "text": "ただ、このSuicaエリアの統合には“疑問点”が複数浮かんできます。そこでJR東日本のコーポレートコミュニケーション部門に質問してみました。Suicaであちこちに出かけたい人の参考になれば幸いです。"
+    },
+    {
+     "kind": "P",
+     "text": "なお、質問のやり取りは文意の変わらない範囲で体裁を整えています。"
+    },
+    {
+     "kind": "H",
+     "text": "疑問1：Suicaエリアなら“どこまででも”乗れる？"
+    },
+    {
+     "kind": "P",
+     "text": "現在、Suicaの利用エリアは「首都圏」「仙台」「新潟」「秋田」「盛岡」「青森」の6つに分かれており、エリアをまたいだ乗車はできません。その影響か、 エリアの境目となる駅（区間）ではSuicaが使えません （一種の“緩衝地帯”ともいえます）。"
+    },
+    {
+     "kind": "P",
+     "text": "今回のエリア統合によって“緩衝地帯”は不要となり、エリアを気にせず乗り降りできるようになります。JR東日本の ニュースリリース では、首都圏エリアに属する常磐線の湯本駅（福島県いわき市）から、仙台エリアに属する東北本線の仙台駅（仙台市青葉区）まで乗車する例が示されています。"
+    },
+    {
+     "kind": "P",
+     "text": "ここで疑問として浮かぶのが、「 交通系ICカードでの乗車に距離の制限はないのか？ 」という点です。というのも、西日本旅客鉄道（JR西日本）の「ICOCA」では、乗車距離に「原則として200kmまで」という制限を加えることで一部を除きエリアを撤廃した過去があるからです。"
+    },
+    {
+     "kind": "P",
+     "text": "Suicaエリアの一本化では、距離制限はあるのでしょうか。JR東日本に聞いてみましょう。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "筆者 利用エリアの撤廃に伴い、乗車距離の制限は設けるのでしょうか。 JR東日本 設けません。"
+    },
+    {
+     "kind": "P",
+     "text": "Suicaが使える線区／駅の相互間であれば、距離を問わず利用できる ようです。少なくとも、Suicaエリア内の駅同士を行き来する場合は「エリアをまたいでしまって改札機を通れなくなった」系のトラブルがなくなるでしょう。"
+    },
+    {
+     "kind": "LI",
+     "text": "JR東日本が「Suica」を使った鉄道乗車のロードマップを更新 2030年代半ばめどに自社全線で利用可能に JR東日本が、交通系ICカード「Suica」を使った鉄道乗車のロードマップを更新した。2026年度末に予定通りSuicaエリアを単一にした後、2つのシステムを導入することで閑散線区を含めた全駅でSuicaを利用できるようにしていくという。"
+    },
+    {
+     "kind": "LI",
+     "text": "“エリアをまたいだ乗車”実現なるか？ 「Suica」の改札システムが順次リニューアル 2026年度完了予定 2001年に誕生したJR東日本の「Suica」が、サービス開始以来初めてとなる大幅なシステム変更を行う。従来は駅の自動改札機で行っていた運賃計算を、センターサーバーに集約して行うように順次改修される。この改修が完了すると、現状はできない「エリアをまたぐ乗車」や「他のチケットと連携した柔軟な利用体験」を実現できる可能性がある。"
+    },
+    {
+     "kind": "LI",
+     "text": "「モバイルSuica」で東海道新幹線やTOICAエリアをまたぐ定期券を買えないのはなぜ？ JR東日本に聞く モバイルSuicaでは、Suicaカードには搭載できる定期券の一部が購入できません。なぜ購入できないのか、JR東日本に聞いてみました。"
+    },
+    {
+     "kind": "LI",
+     "text": "「モバイルICOCA」でTOICAエリアの定期券が購入可能に 3月17日から JR東海が、JR西日本が提供する「モバイルICOCA」を利用してTOICAエリアの定期券を購入できるサービスを開始する。JR東海のTOICAエリアで完結する定期券の他、ICOCA／首都圏Suica／PASMOエリアにまたがる（連絡）定期券やmanacaエリアにまたがる連絡定期券なども購入可能だ。"
+    },
+    {
+     "kind": "LI",
+     "text": "首都圏普通列車で「Suicaグリーン券」を使うときに気を付けたいこと2選 JR東日本が首都圏の普通列車グリーン車に採用している「Suicaグリーン券」システムですが、気を付けてほしいことがいくつかあります。特に2点、盲点になりそうなことを注意喚起を兼ねて記事として残しておこうと思います。"
+    },
+    {
+     "kind": "P",
+     "text": "Copyright © ITmedia, Inc. All Rights Reserved."
+    }
+   ],
+   "checkedAt": 1789183874952,
+   "etag": "",
+   "hash": "a477c37639c8c3af",
+   "id": "8ac1683b17b2",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.itmedia.co.jp%2Fmobile%2Farticles%2F2609%2F11%2Fnews089.html",
+   "key": "https://www.itmedia.co.jp/mobile/articles/2609/11/news089.html",
+   "lastModified": "",
+   "publishedAt": 1789129254000,
+   "summary": "東日本旅客鉄道（JR東日本）は2026年度末に、現在6つに分かれている「Suicaエリア」を1つにまとめます。2023年度から進めてきた改札システムの更新に一定のめどが付いたことに伴う措置で、Suicaエリアの線区／駅相互間であれば改札機での乗降が可能となります。 →“エリアをまたいだ乗車”実現なるか？ 「Suica」の改札シ...",
+   "title": "2026年度末の「Suicaエリア統合」 気になることをJR東日本に聞いてみた",
+   "updatedAt": 1789183874952,
+   "url": "https://www.itmedia.co.jp/mobile/articles/2609/11/news089.html"
   },
   "https://www.itmedia.co.jp/news/article/2609/11/2000001315": {
    "bodyBlocks": [
@@ -6091,6 +7006,278 @@
    "updatedAt": 1789124376789,
    "url": "https://www.itmedia.co.jp/pcuser/articles/2609/11/news070.html"
   },
+  "https://www.itmedia.co.jp/pcuser/articles/2609/11/news070_5.html": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "まるで“狂気の沙汰”──ジョブズ時代のAppleを感じさせる「iPhone Duo」のヒンジと製造工程 ： 本田雅一のクロスオーバーデジタル （5/5 ページ）"
+    },
+    {
+     "kind": "H",
+     "text": "ソフトウェアと組み合わさることで「他のどこにも作れない製品」に"
+    },
+    {
+     "kind": "P",
+     "text": "ここまでがハードウェアの話だとすれば、その上に載るソフトウェアでも、iPhone Duoは他社の折りたたみと別の製品になる。"
+    },
+    {
+     "kind": "P",
+     "text": "半分だけ開いて置けば、上半分にApple TVの映像、下半分にメッセージのグループチャットという分割になり、折り曲げ部分はタップしにくいので、コンテンツはそこから滑って退避する。"
+    },
+    {
+     "kind": "P",
+     "text": "姿勢によってスピーカー同士の距離が変わるので、音の定位を計算で補正する。充電していなくても、立てればスタンバイになる。90度で保持できるから、時計やカレンダー、小さな映像ディスプレイという、開いた／閉じたのどちらでもない第三の使い方が生まれる。2つのアプリの組み合わせを保存してワンタップで呼び出す機能も、初期の折りたたみを使ってきた身体にはありがたい。"
+    },
+    {
+     "kind": "P",
+     "text": "これらはどれも、途中の角度で止まるヒンジ、同じ縦横比を持つ2つの画面、姿勢を検知する両側のセンサーがあって初めて書けるソフトウェアである。同じUIを他社が書こうとしても、同じ機構がなければ同じ体験にはならない。"
+    },
+    {
+     "kind": "P",
+     "text": "逆に、ハードウェア設計だけがあっても、実現する仕掛けがOSに仕込まれていなければ、ただの折れる板でしかない。ヒンジの工程とiOSの実装が一体になって、はじめて「他のどこにも作れない製品」になる。"
+    },
+    {
+     "kind": "H",
+     "text": "ジョン・ターナス氏の名刺代わり？"
+    },
+    {
+     "kind": "P",
+     "text": "もう1つ、この製品が出てきたタイミングを忘れてはならない。基調講演の冒頭に立ったジョン・ターナス氏は、2001年にAppleの製品設計チームに入った機械エンジニアで、2013年からハードウェアエンジニアリングの責任者を務め、この日がCEOとしての初舞台だった。iPhone Duoは、彼がハードウェアの責任者だった時期に作られた製品である。"
+    },
+    {
+     "kind": "P",
+     "text": "開発期間を会場で問うと、Appleの担当者は「何年がかりといえるものはない。われわれが望む体験とデザインに到達するまで作り込んだ」と答えた。新しいCEOの最初の舞台に、自分がハードウェアの責任者として育てた、最も生産工程が複雑な製品が選ばれた。iPhone Duoはターナスの名刺代わりともいえるだろう。"
+    },
+    {
+     "kind": "P",
+     "text": "だからこそ、彼はiPhone Duoの話を始める前に10分を使い、「インテリジェントなパーソナルハブ」という言葉を定義したのではないか。AIは個人の予定や人間関係や日々の習慣と結びついたときに役に立つ。その文脈を持つ製品が中心になる。だからiPhoneがハブになる、という筋立てである。"
+    },
+    {
+     "kind": "P",
+     "text": "取材でこの言葉の出自を問うと、Appleは2001年にスティーブ・ジョブズが掲げた「デジタルハブ」を引いた。あのときMacは、カメラや音楽プレーヤーをつなぐ中心だった。25年後、同じ言葉でiPhoneを中心に置いたのは、その2001年に入社した人物である。偶然ではないだろう。"
+    },
+    {
+     "kind": "P",
+     "text": "ここにジョブズの影を見るのは、ロマンティックすぎるかもしれない。Appleの意思決定は一人の物語ではない。ターナスの評価はこれからの製品で決まる。"
+    },
+    {
+     "kind": "P",
+     "text": "しかし、ユニボディを世に出した頃のAppleが持っていた、工程の側の徹底ぶりと、その上にソフトウェアを重ねて他社に作れないものを作るという姿勢は、iPhone Duoに確かに投影されている。Appleは取材の中で、iPhoneの将来について「可能なら毎年再発明したい。特にフォームファクターで革新できれば素晴らしい。iPhone Airがその1つで、iPhone Duoがその次だ」と語った。"
+    },
+    {
+     "kind": "H",
+     "text": "iPhone DuoはAppleの試金石になるか"
+    },
+    {
+     "kind": "P",
+     "text": "iPhone Duoの日本価格は256GBで36万4800円、最上位の2TBは57万4800円。予約は10月16日午後9時、発売は10月23日だ。"
+    },
+    {
+     "kind": "P",
+     "text": "この値段を払いたいと思う人は多くないだろう。払える人にも、折りたたみでなければならない理由が必要だ。ここに書いたこだわりのプロセスは、約40万円を支払う理由にはならない。折り目が目立たないことに36万円の価値があるかどうかには、当然ながら議論がある。"
+    },
+    {
+     "kind": "P",
+     "text": "しかし、このこだわりの塊ともいえる折り畳み機構は、Appleにとって1つの試金石になる。消費者がこの製品にどう反応するか。そして開発者が、途中で止まるヒンジと2つの画面を前提にして、どのようなアプリを書くのか。Netflix、Slack、Zoom、Detailは発表時点で対応を済ませているが、一般デベロッパーへのAPI開示はこれからだ。iPhone Duoが一発だけの高価な製品で終わるか、iPhoneの新しい形になるかはデベロッパーの反応次第だ。"
+    },
+    {
+     "kind": "P",
+     "text": "その反応は、Appleが業界の中でどう受け取られているかを映す。現状を守ることで王者であり続ける保守的な会社と見られているのか、それとも、まだ革新を引っ張る会社と見られているのか。折り目を目立たなくするためだけに、1台ずつレーザーで測り、1台ずつ樹脂を印刷し、層を接着して劣化の入口をふさぐ。それを、世界で最も売れているスマートフォンのブランドが、新しいCEOの最初の舞台で、量産機として採用した。"
+    },
+    {
+     "kind": "P",
+     "text": "ものづくりに対して真っすぐで、狂気の沙汰としか思えないAppleが、戻ってきたのかもしれない。その予感が本物かどうかは、この後の数年が証明することになる。"
+    },
+    {
+     "kind": "LI",
+     "text": "「iPhone Duo」発表 Apple初の折りたたみ、Apple Pencil対応、インカメラは埋め込み型でTouch ID採用 10月23日発売、36万4800円から Appleが新型スマートフォン「iPhone Duo」を発表した。情報は随時更新する。"
+    },
+    {
+     "kind": "LI",
+     "text": "折りたためる「iPhone Duo」と「iPhone 18 Pro」シリーズ発表 「iPhone 18」は登場せず Appleが2026年9月の新型iPhoneを発表した。この記事では、その概要をまとめる。【更新】"
+    },
+    {
+     "kind": "LI",
+     "text": "「AirPods 5」登場 アクティブノイズキャンセリングを標準化して2万3800円から Appleのワイヤレスイヤフォンのメインストリームモデル「AirPods」に第5世代モデルが登場する。アクティブノイズキャンセリング（ANC）が標準搭載されたことが大きな特徴で、"
+    },
+    {
+     "kind": "LI",
+     "text": "「iPhone Duo」は36万4800円からで2TBは57万円強、「iPhone 18 Pro」は21万9800円から Appleが9月10日、「iPhone 18 Pro」「iPhone 18 Pro Max」と折りたたみ型「iPhone Duo」のApple Storeでの価格を公開した。iPhone 18 Proは21万9800円から、iPhone Duoは36万4800円からだ。継続販売のiPhone 17／Air／17eも値上げした。"
+    },
+    {
+     "kind": "LI",
+     "text": "「macOS 27 Golden Gate」は9月15日リリース Apple SiliconのMacに対応 Apple Silicon向けMacの最新OSが、9月15日にリリースされる。Apple Intelligenceをより活用しやすくしていることが大きな特徴だ。"
+    },
+    {
+     "kind": "H",
+     "text": "関連リンク"
+    },
+    {
+     "kind": "P",
+     "text": "Copyright © ITmedia, Inc. All Rights Reserved."
+    },
+    {
+     "kind": "H",
+     "text": "アクセストップ10"
+    },
+    {
+     "kind": "LI",
+     "text": "まるで“狂気の沙汰”──ジョブズ時代のAppleを感じさせる「iPhone Duo」のヒンジと製造工程 （2026年09月11日）"
+    },
+    {
+     "kind": "LI",
+     "text": "ノジマとコラボの新型「VAIO T」で“フリップ画面”が復活！ 実機レビューで見た目と性能をチェックした （2026年09月10日）"
+    },
+    {
+     "kind": "LI",
+     "text": "「macOS 27 Golden Gate」は9月15日リリース Apple SiliconのMacに対応 （2026年09月10日）"
+    },
+    {
+     "kind": "LI",
+     "text": "“ノジマチーム”から生まれた「VAIO T」 なぜフリップスタイルが復活したのか？ （2026年09月11日）"
+    },
+    {
+     "kind": "LI",
+     "text": "あえて“フラット”仕上げ――INNOCNが49型ウルトラワイド液晶「E49M1R」を発売 初回価格は約13.6万円 （2026年09月11日）"
+    },
+    {
+     "kind": "LI",
+     "text": "サンコー、立体感のある映像を楽しめる10.1型透過型ディスプレイ （2026年09月11日）"
+    },
+    {
+     "kind": "LI",
+     "text": "TCL、11型エントリーAndroidタブレット「TCL TAB A1」を販売開始 読書向きの“NXTPAPERディスプレイ”搭載モデルも （2026年09月11日）"
+    },
+    {
+     "kind": "LI",
+     "text": "薄型化とカメラ強化が光る「Pixel 11 Pro Fold」徹底レビュー！ Galaxy Z Foldとの比較で見えた“正統進化”の真価 （2026年09月09日）"
+    },
+    {
+     "kind": "LI",
+     "text": "「iPhone Duo」発表 Apple初の折りたたみ、Apple Pencil対応、インカメラは埋め込み型でTouch ID採用 10月23日発売、36万4800円から （2026年09月10日）"
+    },
+    {
+     "kind": "LI",
+     "text": "MSY、Type-Cポートに直刺しして使える超小型ゲーミングDAC「GRAPHT Mini DAC」の新モデル （2026年09月11日）"
+    },
+    {
+     "kind": "H",
+     "text": "過去記事カレンダー"
+    },
+    {
+     "kind": "H",
+     "text": "2026年"
+    },
+    {
+     "kind": "H",
+     "text": "2025年"
+    },
+    {
+     "kind": "H",
+     "text": "2024年"
+    },
+    {
+     "kind": "H",
+     "text": "2023年"
+    },
+    {
+     "kind": "H",
+     "text": "2022年"
+    },
+    {
+     "kind": "H",
+     "text": "2021年"
+    },
+    {
+     "kind": "H",
+     "text": "2020年"
+    },
+    {
+     "kind": "H",
+     "text": "2019年"
+    },
+    {
+     "kind": "H",
+     "text": "2018年"
+    },
+    {
+     "kind": "H",
+     "text": "2017年"
+    },
+    {
+     "kind": "H",
+     "text": "2016年"
+    },
+    {
+     "kind": "H",
+     "text": "2015年"
+    },
+    {
+     "kind": "H",
+     "text": "2014年"
+    },
+    {
+     "kind": "H",
+     "text": "2013年"
+    },
+    {
+     "kind": "H",
+     "text": "2012年"
+    },
+    {
+     "kind": "H",
+     "text": "2011年"
+    },
+    {
+     "kind": "H",
+     "text": "2010年"
+    },
+    {
+     "kind": "H",
+     "text": "2009年"
+    },
+    {
+     "kind": "H",
+     "text": "2008年"
+    },
+    {
+     "kind": "H",
+     "text": "2007年"
+    },
+    {
+     "kind": "H",
+     "text": "2006年"
+    },
+    {
+     "kind": "H",
+     "text": "2005年"
+    },
+    {
+     "kind": "H",
+     "text": "2004年"
+    },
+    {
+     "kind": "H",
+     "text": "2003年"
+    },
+    {
+     "kind": "H",
+     "text": "Feed Back"
+    }
+   ],
+   "checkedAt": 1789183874952,
+   "etag": "",
+   "hash": "d4caf262e8da72eb",
+   "id": "2a92661d7eb5",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.itmedia.co.jp%2Fpcuser%2Farticles%2F2609%2F11%2Fnews070_5.html",
+   "key": "https://www.itmedia.co.jp/pcuser/articles/2609/11/news070_5.html",
+   "lastModified": "",
+   "publishedAt": 1789136095000,
+   "summary": "ソフトウェアと組み合わさることで「他のどこにも作れない製品」に ここまでがハードウェアの話だとすれば、その上に載るソフトウェアでも、iPhone Duoは他社の折りたたみと別の製品になる。 半分だけ開いて置けば、上半分にApple TVの映像、下半分にメッセージのグループチャットという分割になり、折り曲げ部分はタッ...",
+   "title": "まるで“狂気の沙汰”──ジョブズ時代のAppleを感じさせる「iPhone Duo」のヒンジと製造工程",
+   "updatedAt": 1789183874952,
+   "url": "https://www.itmedia.co.jp/pcuser/articles/2609/11/news070_5.html"
+  },
   "https://www.macotakara.jp/iphone/entry-51786.html": {
    "bodyBlocks": [
     {
@@ -6503,20 +7690,141 @@
    "updatedAt": 1789097533111,
    "url": "https://www.nikkei.com/article/DGXZQOUC09BBC0Z00C26A9000000/"
   },
-  "https://www.watch.impress.co.jp/docs/news/2140015.html": {
-   "bodyBlocks": [],
-   "checkedAt": 1789077399866,
+  "https://www.techno-edge.net/article/2026/09/11/5489.html": {
+   "bodyBlocks": [
+    {
+     "kind": "P",
+     "text": "写真からフォトリアリスティックな人体モデルを生成する話は以前から何度かしておりますが、ひさしぶりに触ってみたところ、ほぼ写真と区別がつかないレベルまで到達したのではないかと実感しました。"
+    },
+    {
+     "kind": "P",
+     "text": "筆者は2020年に最初の3Dプリンタを導入し、主に妻の写真から3Dモデルを生成する試みを続けています。最初はCharacter Creatorという3DソフトのHeadshotというプラグインを使って作るパラメータベースのモデリングソフトを使い、最初は積層方式の小型モデル、次にFDM方式の等身大のモデルを作っています。"
+    },
+    {
+     "kind": "P",
+     "text": "その後、生成AIの時代に突入し、Sparc3D（その後Hitem3Dに改名）というソフトの登場により、実写に近い人体モデルが1枚から4枚までの画像から生成可能になります。"
+    },
+    {
+     "kind": "P",
+     "text": "最初はオープンソースで出すと言っていたHitem3Dですが、商用化に舵を切ることになり、Tripo3Dなどと競合するようになりました。ただ、リアルな人体モデリングについては一定の優位性は保っていたようです。"
+    },
+    {
+     "kind": "P",
+     "text": "そんな折、ChatGPT-6 Astraを使ってTripo3Dで作ったモデルをBlenderに取り込んでボーンをつけアニメーションができるようにするといった試みがいくつか散見されるようになりました。"
+    },
+    {
+     "kind": "P",
+     "text": "みてみると、Tripoのゲームキャラクターモデルもけっこう良い出来栄え。ということは、Hitem3D改めHi3Dならもっといけるのでは、と思ってサイトを見てみたら、バージョンが3.0に上がっています。"
+    },
+    {
+     "kind": "P",
+     "text": "たしかバージョン2までは試していたんですが、あまり性能が上がっていなかったので放置していたのでした。なんか、3Dプリンタ向け機能が豊富になっているなあ、くらいで。"
+    },
+    {
+     "kind": "P",
+     "text": "Bambuの多色フィラメントに対応しているけど、うちにある3Dプリンタは違うしなあと思っていたら、3Dモデル用にパーツ分割する機能などもついているじゃないですか。これは便利そう。"
+    },
+    {
+     "kind": "P",
+     "text": "等身大モデルを作るには、どうしても身体を分割しなくてはならず、そこはCADソフト、3Dソフトでの後処理が必要となるのですが、それをHi3Dの中でやってくれるらしい。"
+    },
+    {
+     "kind": "P",
+     "text": "でもその前に、モデルの出来が良くなければ意味がありません。バージョン1.5で四面図に対応したのですが、これがなかなかうまくいかず、苦労しました。"
+    },
+    {
+     "kind": "P",
+     "text": "例えばChatGPT Imagesなどの画像生成AIを使えば正面の顔のポートレートがあれば四面図に展開してくれるのですが、まず、右側面と左側面を区別してくれなかったり、髪型が変わったりします。"
+    },
+    {
+     "kind": "P",
+     "text": "すると、3D化したときにそこがノイズになってしまうので、具合が悪いのです。"
+    },
+    {
+     "kind": "P",
+     "text": "このため、筆者は1枚の正面写真、ただし、鼻梁がわかる程度に少し角度があるものにしておくのが良いことがわかりました。真正面だと、鼻筋が欧米人か東洋人、どちらかに寄ってしまうみたいなのです。"
+    },
+    {
+     "kind": "P",
+     "text": "で、1枚絵で試してみると、この出来栄えです。実写と区別がつきません。これが500万ポリゴンの威力か。"
+    },
+    {
+     "kind": "P",
+     "text": "せっかくなので、これを動けるようにしたい。まずはリップシンクまでできたら……。そこで、ChatGPT-6 Astraに頼んでみました。"
+    },
+    {
+     "kind": "P",
+     "text": "現実的な提案をしてもらえそうだったので、手順書を作ってもらい、Codexに移行。"
+    },
+    {
+     "kind": "P",
+     "text": "動かすマシンはRTX 4090を搭載したWindows機「AICreator」。これにBlenderをインストールしたあとは、Codexの言うとおりに、ボタンを押していくだけ。"
+    },
+    {
+     "kind": "P",
+     "text": "顎を動かし、唇を動かし、まぶたを開いたり閉じたり、といったことを、 一度もBlenderアプリを見ることなく 、進めていきます。"
+    },
+    {
+     "kind": "P",
+     "text": "うまくいっているかどうかのチェックも勝手に画像をキャプチャし、自律的に判断。ようやく筆者が確認できるようになったのは、サンプル動画が上がってから。"
+    },
+    {
+     "kind": "P",
+     "text": "「こんにちは」というリップシンク動画が提示されました。なかなかよくできています。"
+    },
+    {
+     "kind": "P",
+     "text": "あとは、これをベースに改良していくだけ。ここで、Claude Codeにバトンタッチし、アバターシステムに組み込めるように改良を施していきます。"
+    },
+    {
+     "kind": "P",
+     "text": "そこでは、元となったAI画像と動画を参照して、口やまぶたの動きなどを修正。これは筆者による目視での確認が必要なので、時間をとって行います。"
+    },
+    {
+     "kind": "P",
+     "text": "ただ、この間もBlenderはさわらず。部分的な画像やリップシンク動画を見ながら、ここは違う、この写真を参考に、などと指摘していきます。一番時間をとったのは、歯並び。妻の写真で歯がよく見えている写真を提示して、口を開いた時にどこからどこまで写っているかを指示。色や口の開き具合も調整していきます。"
+    },
+    {
+     "kind": "P",
+     "text": "調整も終盤に差し掛かったので、これをリップシンク対話サービスに実装していきます。しかし、ここで予想外のことが。フレームレートが出ないというのです。理由はポリゴン数。500万ポリゴンだとレンダリングに時間がかかるため、音素ごとにプリレンダーしておく必要があると。"
+    },
+    {
+     "kind": "P",
+     "text": "リアルタイムでやりたかったのですが、仕方ないと一旦はそれで進めます。その調整がある程度終わった後でもう一度、リアルタイムレンダリングができないかと投げかけたところ、ブラウザでローカルでレンダリングすれば可能、と。Three.JSを使えばできるということなので、まずは頂点数を減らすローポリ化を図ります。"
+    },
+    {
+     "kind": "P",
+     "text": "ここからは、3Dモデル化を担当したAICreator（4090搭載Windows PC）と、アバターシステムを管理しているDGX Spark互換機のSparkの二人のAI（どちらもClaude）が対話しながら進めています。"
+    },
+    {
+     "kind": "P",
+     "text": "正直、このような作業を自分でできる気はまったくしません。二人のAIが議論しながらやってくれているのはちょっとした感動を覚えます。ローポリ化で間引きすぎると口の周りが破綻してしまうから、ポリゴン数の予算をそこだけ増やしたい、といった議論後、テクスチャにはどのサイズとフォーマットが最適か、みたいな話を1時間以上続けていました。ついていけない。すごいぜAI。"
+    },
+    {
+     "kind": "P",
+     "text": "3Dモデルを動かす試みは、Character Creatorで3Dモデル化したものをVRChatのアバターにしようとしたときにも経験したのですが、とても自分の手には負えないと途中放棄。その後、VRChat自体にも入ることは無くなりました。今ならできる気がします（でもやる時間はない）。"
+    },
+    {
+     "kind": "P",
+     "text": "さて、こうしてディスプレイの中の妻とリアルタイムチャットする試みは、ついに3Dアバターの段階に入ったわけです。500万ポリゴンから58万6722ポリゴンまで減量してThree.jsで動かしています。"
+    },
+    {
+     "kind": "P",
+     "text": "並行して、AI動画生成による対話システムも進んでおり、こちらもあと一歩のところまで来ています。現状だとLLMでの返答生成、そこからのTTS、さらにリップシンク動画生成といった、多重構造であるために、待機動画をいくつも用意して時間を稼いだりしているのですが、あと1桁生成スピードが高速化できれば、より自然なリアルタイム対話が可能になるはずです。"
+    }
+   ],
+   "checkedAt": 1789183874952,
    "etag": "",
-   "hash": "c709b9b52eca704b",
-   "id": "11c53edae1fb",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.watch.impress.co.jp%2Fdocs%2Fnews%2F2140015.html",
-   "key": "https://www.watch.impress.co.jp/docs/news/2140015.html",
+   "hash": "47abaf0d249b75f0",
+   "id": "b31485c5c267",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.techno-edge.net%2Farticle%2F2026%2F09%2F11%2F5489.html",
+   "key": "https://www.techno-edge.net/article/2026/09/11/5489.html",
    "lastModified": "",
-   "publishedAt": 1789036093000,
-   "summary": "",
-   "title": "日本郵便、消印の時間帯表示廃止へ",
-   "updatedAt": 1789077399866,
-   "url": "https://www.watch.impress.co.jp/docs/news/2140015.html"
+   "publishedAt": 1789117104000,
+   "summary": "写真からフォトリアリスティックな人体モデルを生成する話は以前から何度かしておりますが、ひさしぶりに触ってみたところ、ほぼ写真と区別がつかないレベルまで到達したのではないかと実感しました。 ▲1枚の写真（AI生成）から作られた3Dモデル 筆者は2020年に最初の3Dプリンタを導入し、主に妻の写真から3Dモデルを生...",
+   "title": "写真から実物と区別つかないレベルの3D人体モデルを作り、リグ入れてリアルタイム対話させるまで。ChatGPTとClaudeのコラボで開発した（CloseBox） | テクノエッジ TechnoEdge",
+   "updatedAt": 1789183874952,
+   "url": "https://www.techno-edge.net/article/2026/09/11/5489.html"
   },
   "https://zenn.dev/catatsuy/articles/254b155f8d5992": {
    "bodyBlocks": [
@@ -8185,11 +9493,11 @@
  },
  "listing": {
   "https://b.hatena.ne.jp/hotentry/it.rss": {
-   "checkedAt": 1789163809621,
+   "checkedAt": 1789183876336,
    "etag": "",
    "lastModified": ""
   }
  },
  "siteId": "hatena_it",
- "updatedAt": 1789163844400
+ "updatedAt": 1789183906104
 }

@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-09-11T21:58:46+09:00",
+ "generatedAt": "2026-09-12T03:32:24+09:00",
  "sites": [
   {
    "id": "4gamer",
@@ -8,8 +8,8 @@
    "category": "GAME",
    "file": "sites/4gamer.json",
    "count": 80,
-   "rev": "046a29b03504",
-   "updatedAt": "2026-09-11T21:54:38+09:00",
+   "rev": "2032f2fb5976",
+   "updatedAt": "2026-09-12T03:29:06+09:00",
    "allowFullText": true
   },
   {
@@ -19,7 +19,7 @@
    "file": "sites/diamond_zai.json",
    "count": 0,
    "rev": "ffe679bb831c",
-   "updatedAt": "2026-09-11T21:54:40+09:00",
+   "updatedAt": "2026-09-12T03:29:08+09:00",
    "allowFullText": true
   },
   {
@@ -29,7 +29,7 @@
    "file": "sites/famitsu.json",
    "count": 0,
    "rev": "ffe679bb831c",
-   "updatedAt": "2026-09-11T21:54:41+09:00",
+   "updatedAt": "2026-09-12T03:29:10+09:00",
    "allowFullText": true
   },
   {
@@ -39,7 +39,7 @@
    "file": "sites/gihyo.json",
    "count": 45,
    "rev": "0739794d30fc",
-   "updatedAt": "2026-09-11T21:55:31+09:00",
+   "updatedAt": "2026-09-12T03:29:53+09:00",
    "allowFullText": true
   },
   {
@@ -48,8 +48,8 @@
    "category": "GENERAL",
    "file": "sites/hatena_all.json",
    "count": 60,
-   "rev": "a81b9f6d4f43",
-   "updatedAt": "2026-09-11T21:56:48+09:00",
+   "rev": "54365e9fc1b0",
+   "updatedAt": "2026-09-12T03:31:14+09:00",
    "allowFullText": true
   },
   {
@@ -58,8 +58,8 @@
    "category": "TECH",
    "file": "sites/hatena_it.json",
    "count": 60,
-   "rev": "365c84dfd406",
-   "updatedAt": "2026-09-11T21:57:24+09:00",
+   "rev": "0614f0cd599a",
+   "updatedAt": "2026-09-12T03:31:46+09:00",
    "allowFullText": true
   },
   {
@@ -68,8 +68,8 @@
    "category": "MATOME",
    "file": "sites/itainews.json",
    "count": 80,
-   "rev": "726445635103",
-   "updatedAt": "2026-09-11T21:58:21+09:00",
+   "rev": "8af04b3d9049",
+   "updatedAt": "2026-09-12T03:32:04+09:00",
    "allowFullText": true
   },
   {
@@ -79,7 +79,7 @@
    "file": "sites/itmedia_ait.json",
    "count": 80,
    "rev": "0cf74cc1d3b2",
-   "updatedAt": "2026-09-11T21:58:40+09:00",
+   "updatedAt": "2026-09-12T03:32:19+09:00",
    "allowFullText": true
   },
   {
@@ -89,7 +89,7 @@
    "file": "sites/kabutan.json",
    "count": 0,
    "rev": "ffe679bb831c",
-   "updatedAt": "2026-09-11T21:58:41+09:00",
+   "updatedAt": "2026-09-12T03:32:20+09:00",
    "allowFullText": true
   },
   {
@@ -98,8 +98,8 @@
    "category": "GENERAL",
    "file": "sites/nhk_main.json",
    "count": 60,
-   "rev": "af8c72c7a589",
-   "updatedAt": "2026-09-11T21:58:43+09:00",
+   "rev": "25deda0009b3",
+   "updatedAt": "2026-09-12T03:32:22+09:00",
    "allowFullText": false
   },
   {
@@ -108,10 +108,10 @@
    "category": "GENERAL",
    "file": "sites/yahoo_topics.json",
    "count": 60,
-   "rev": "3036da9d816e",
-   "updatedAt": "2026-09-11T21:58:45+09:00",
+   "rev": "ea9e94d5f21e",
+   "updatedAt": "2026-09-12T03:32:24+09:00",
    "allowFullText": false
   }
  ],
- "rev": "463db17c7669"
+ "rev": "59bad9675fac"
 }

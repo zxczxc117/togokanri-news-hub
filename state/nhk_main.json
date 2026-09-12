@@ -1,20 +1,5 @@
 {
  "articles": {
-  "https://news.web.nhk/newsweb/na/nd-20260908de48909": {
-   "bodyBlocks": [],
-   "checkedAt": 1788865347000,
-   "etag": "",
-   "hash": "c323d13980725e26",
-   "id": "5dc866b1a62c",
-   "imageUrl": "",
-   "key": "https://news.web.nhk/newsweb/na/nd-20260908de48909",
-   "lastModified": "",
-   "publishedAt": 1788862937000,
-   "summary": "秋雨前線や熱帯低気圧の影響で、東海では線状降水帯が発生し猛烈な雨が降っていて、愛知県と岐阜県を流れる庄内川では「レベル5氾濫特別警報」が発表されました。\n気象庁と国土交通省は周囲の状況を確認し、避難…",
-   "title": "庄内川 レベル5氾濫特別警報 東海で線状降水帯発生 最大警戒を",
-   "updatedAt": 1788865347000,
-   "url": "https://news.web.nhk/newsweb/na/nd-20260908de48909"
-  },
   "https://news.web.nhk/newsweb/na/nd-20260908de49034": {
    "bodyBlocks": [],
    "checkedAt": 1788904679662,
@@ -29,51 +14,6 @@
    "title": "【動画】名古屋 大雨で道路冠水や地下鉄駅の浸水 被害状況は",
    "updatedAt": 1788904679662,
    "url": "https://news.web.nhk/newsweb/na/nd-20260908de49034"
-  },
-  "https://news.web.nhk/newsweb/na/nd-20260908de49095": {
-   "bodyBlocks": [],
-   "checkedAt": 1788865347000,
-   "etag": "",
-   "hash": "e1f3d80a9d652ef4",
-   "id": "098bbfa2a200",
-   "imageUrl": "",
-   "key": "https://news.web.nhk/newsweb/na/nd-20260908de49095",
-   "lastModified": "",
-   "publishedAt": 1788861290000,
-   "summary": "熊本県嘉島町の「イオンモール熊本」で起きた大規模な爆発を受けて、経済産業省の審議会で、法令やガイドラインの見直しなど再発防止に向けた制度面での対応についての議論が始まりました。",
-   "title": "イオンモール熊本の爆発受け経産省で制度対応の検討始まる",
-   "updatedAt": 1788865347000,
-   "url": "https://news.web.nhk/newsweb/na/nd-20260908de49095"
-  },
-  "https://news.web.nhk/newsweb/na/nd-20260908de49099": {
-   "bodyBlocks": [],
-   "checkedAt": 1788865347000,
-   "etag": "",
-   "hash": "4d83adb2a522bba5",
-   "id": "6eef0ccc59df",
-   "imageUrl": "",
-   "key": "https://news.web.nhk/newsweb/na/nd-20260908de49099",
-   "lastModified": "",
-   "publishedAt": 1788865001000,
-   "summary": "気象庁と国土交通省は庄内川にレベル5氾濫特別警報を発表したことについて、午後7時20分から会見を開きました。",
-   "title": "愛知 岐阜 庄内川にレベル5氾濫特別警報 気象庁と国交省会見",
-   "updatedAt": 1788865347000,
-   "url": "https://news.web.nhk/newsweb/na/nd-20260908de49099"
-  },
-  "https://news.web.nhk/newsweb/na/nd-20260908de49121": {
-   "bodyBlocks": [],
-   "checkedAt": 1788865347000,
-   "etag": "",
-   "hash": "121825ab14f01e24",
-   "id": "c51c90ffc911",
-   "imageUrl": "",
-   "key": "https://news.web.nhk/newsweb/na/nd-20260908de49121",
-   "lastModified": "",
-   "publishedAt": 1788863487000,
-   "summary": "愛知県瀬戸市の消防によりますと、午後5時すぎの時点で住宅などが「床下浸水になっている」という通報がおよそ10件入っているということで、消防が確認を進めています。",
-   "title": "愛知 瀬戸 床下浸水の通報はおよそ10件 消防が確認進める",
-   "updatedAt": 1788865347000,
-   "url": "https://news.web.nhk/newsweb/na/nd-20260908de49121"
   },
   "https://news.web.nhk/newsweb/na/nd-20260908de49138": {
    "bodyBlocks": [],
@@ -120,36 +60,6 @@
    "updatedAt": 1788924874866,
    "url": "https://news.web.nhk/newsweb/na/nd-20260908de49178"
   },
-  "https://news.web.nhk/newsweb/na/nd-20260909de49187": {
-   "bodyBlocks": [],
-   "checkedAt": 1788904679662,
-   "etag": "",
-   "hash": "09a5fb3ef33db5cd",
-   "id": "eee07426975b",
-   "imageUrl": "",
-   "key": "https://news.web.nhk/newsweb/na/nd-20260909de49187",
-   "lastModified": "",
-   "publishedAt": 1788897300000,
-   "summary": "高市総理大臣は自民党の役員人事と内閣改造を行うにあたり、政権の骨格を維持し、政策を着実に推進していく体制の構築を重視しているものとみられます。一方、日本維新の会の議員も新たに入閣させる方針で、具体的な…",
-   "title": "自民党役員人事と内閣改造 政権骨格維持 維新ポスト調整も",
-   "updatedAt": 1788904679662,
-   "url": "https://news.web.nhk/newsweb/na/nd-20260909de49187"
-  },
-  "https://news.web.nhk/newsweb/na/nd-20260909de49197": {
-   "bodyBlocks": [],
-   "checkedAt": 1788904679662,
-   "etag": "",
-   "hash": "2c40192e1df965d6",
-   "id": "d4e9e92c8e32",
-   "imageUrl": "",
-   "key": "https://news.web.nhk/newsweb/na/nd-20260909de49197",
-   "lastModified": "",
-   "publishedAt": 1788899686000,
-   "summary": "日本でも人気がある韓国の美容医療アプリ「カンナムオンニ」を運営する会社は、日本の利用者4万8000人を含むおよそ22万人の利用者の個人情報が流出したと発表しました。",
-   "title": "韓国の美容医療アプリ 日本ユーザー約4万8000人の個人情報流出",
-   "updatedAt": 1788904679662,
-   "url": "https://news.web.nhk/newsweb/na/nd-20260909de49197"
-  },
   "https://news.web.nhk/newsweb/na/nd-20260909de49198": {
    "bodyBlocks": [],
    "checkedAt": 1788951767408,
@@ -164,21 +74,6 @@
    "title": "局地的に激しい雨 東海では線状降水帯発生のおそれ 厳重警戒を",
    "updatedAt": 1788951767408,
    "url": "https://news.web.nhk/newsweb/na/nd-20260909de49198"
-  },
-  "https://news.web.nhk/newsweb/na/nd-20260909de49200": {
-   "bodyBlocks": [],
-   "checkedAt": 1788904679662,
-   "etag": "",
-   "hash": "38cb7521a40c5ebf",
-   "id": "d18d70a5e479",
-   "imageUrl": "",
-   "key": "https://news.web.nhk/newsweb/na/nd-20260909de49200",
-   "lastModified": "",
-   "publishedAt": 1788898770000,
-   "summary": "ロシアとウクライナの和平協議が停滞するなか、ロシアのプーチン大統領とアメリカのトランプ大統領が電話会談を行いました。会談は仲介にあたるウィトコフ特使らによるロシアとウクライナへの訪問を踏まえたもので、…",
-   "title": "米ロ首脳電話会談 米大統領 ウクライナでの戦闘早期終結に意欲",
-   "updatedAt": 1788904679662,
-   "url": "https://news.web.nhk/newsweb/na/nd-20260909de49200"
   },
   "https://news.web.nhk/newsweb/na/nd-20260909de49205": {
    "bodyBlocks": [],
@@ -899,15 +794,120 @@
    "title": "プーチン大統領 制裁の西側諸国を批判 BRICSと関係強化に意欲",
    "updatedAt": 1789163921909,
    "url": "https://news.web.nhk/newsweb/na/nd-20260912de49842"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260912de49846": {
+   "bodyBlocks": [],
+   "checkedAt": 1789183940996,
+   "etag": "",
+   "hash": "c418ccb1dd59caac",
+   "id": "20dc00595cb4",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260912de49846",
+   "lastModified": "",
+   "publishedAt": 1789181460000,
+   "summary": "韓国軍は、北朝鮮が12日午前、日本海に向けて短距離弾道ミサイルを数回発射したと発表しました。北朝鮮は11日まで行われた日米韓3か国による共同訓練を非難していて、弾道ミサイルの発射は訓練への反発だとの見…",
+   "title": "韓国軍「北朝鮮が短距離弾道ミサイル発射」日米韓訓練に反発か",
+   "updatedAt": 1789183940996,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260912de49846"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260912de49856": {
+   "bodyBlocks": [],
+   "checkedAt": 1789183940996,
+   "etag": "",
+   "hash": "d2510f3d89f68048",
+   "id": "8cb36fd72e4a",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260912de49856",
+   "lastModified": "",
+   "publishedAt": 1789182889000,
+   "summary": "北海道の大雪山系の十勝岳では規模の大きい火山性地震が増加していて、気象台は12日、午前9時半に火口周辺警報を発表し、噴火警戒レベルを2から「入山規制」を示す3に引き上げました。火口からおおむね3キロの…",
+   "title": "北海道 十勝岳 噴火警戒レベル3に引き上げ 入山規制",
+   "updatedAt": 1789183940996,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260912de49856"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260912de49864": {
+   "bodyBlocks": [],
+   "checkedAt": 1789183940996,
+   "etag": "",
+   "hash": "3616db3011f28639",
+   "id": "3b7f51c8548a",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260912de49864",
+   "lastModified": "",
+   "publishedAt": 1789180620000,
+   "summary": "性犯罪の再犯防止策を強化していこうと、法務省は、仮釈放中の性犯罪の加害者などに、GPS機器を持たせて位置情報を把握する実証実験を、来年度にも始める方向で検討を進めています。",
+   "title": "仮釈放中の性犯罪者らにGPS所持の実証実験 来年度にも 法務省",
+   "updatedAt": 1789183940996,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260912de49864"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260912de49865": {
+   "bodyBlocks": [],
+   "checkedAt": 1789183940996,
+   "etag": "",
+   "hash": "949981853f450f37",
+   "id": "8f91b17c8a7b",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260912de49865",
+   "lastModified": "",
+   "publishedAt": 1789180260000,
+   "summary": "大リーグ、カブスの今永昇太投手がパイレーツ戦に先発し、6回を2失点と好投して2年ぶりのふた桁となる今シーズン10勝目をあげました。",
+   "title": "カブス 今永 6回2失点で10勝目 鈴木 3安打1打点",
+   "updatedAt": 1789183940996,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260912de49865"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260912de49866": {
+   "bodyBlocks": [],
+   "checkedAt": 1789183940996,
+   "etag": "",
+   "hash": "6a71b23c21bd40bb",
+   "id": "b1cafc011bdf",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260912de49866",
+   "lastModified": "",
+   "publishedAt": 1789180220000,
+   "summary": "内閣府の世論調査で、大地震や大雨などの災害が発生した場合、自宅近くの道路の寸断などに不安を感じると答えた人は67.8％に上りました。",
+   "title": "災害時 自宅近くの道路寸断など不安6割超 内閣府世論調査",
+   "updatedAt": 1789183940996,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260912de49866"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260912de49869": {
+   "bodyBlocks": [],
+   "checkedAt": 1789183940996,
+   "etag": "",
+   "hash": "fce895246ca209dd",
+   "id": "bb20ef9ec3f0",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260912de49869",
+   "lastModified": "",
+   "publishedAt": 1789179840000,
+   "summary": "北海道の大雪山系の十勝岳の噴火警戒レベルを「3」に引き上げたことを受け、気象庁は午前11時半から会見を開きました。",
+   "title": "十勝岳 噴火警戒レベル3 気象庁“危険な場所 立ち入らないで”",
+   "updatedAt": 1789183940996,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260912de49869"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260912de49871": {
+   "bodyBlocks": [],
+   "checkedAt": 1789183940996,
+   "etag": "",
+   "hash": "589661d581307a51",
+   "id": "d317674ae46a",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260912de49871",
+   "lastModified": "",
+   "publishedAt": 1789182180000,
+   "summary": "先月27日の記録的な大雨で被災した住宅から土砂を取り除く作業などを行うボランティアの出発式が、12日、石川県庁で行われました。",
+   "title": "石川 大雨の被災地向かうボランティアの出発式",
+   "updatedAt": 1789183940996,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260912de49871"
   }
  },
  "listing": {
   "https://www.nhk.or.jp/rss/news/cat0.xml": {
-   "checkedAt": 1789163923554,
-   "etag": "W/\"d369a070b3927e9fec58c9490cae4f23\"",
-   "lastModified": "Fri, 11 Sep 2026 21:51:55 GMT"
+   "checkedAt": 1789183942925,
+   "etag": "W/\"83d1ce65e3a15028559377ffea5b610d\"",
+   "lastModified": "Sat, 12 Sep 2026 03:24:28 GMT"
   }
  },
  "siteId": "nhk_main",
- "updatedAt": 1789163923555
+ "updatedAt": 1789183942926
 }
