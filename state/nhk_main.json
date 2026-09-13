@@ -1,20 +1,5 @@
 {
  "articles": {
-  "https://news.web.nhk/newsweb/na/nd-20260909de49377": {
-   "bodyBlocks": [],
-   "checkedAt": 1788991111303,
-   "etag": "",
-   "hash": "1762913242e6df52",
-   "id": "017d36c7793a",
-   "imageUrl": "",
-   "key": "https://news.web.nhk/newsweb/na/nd-20260909de49377",
-   "lastModified": "",
-   "publishedAt": 1788984153000,
-   "summary": "中道改革連合は、立憲民主党出身者と公明党出身者に分かれる方針を決め、結成から8か月で分裂することになりました。\n双方は、国会での勢力確保に向け衆議院で統一会派を組む方針で、連携を維持して政権に対じし…",
-   "title": "中道 立民・公明出身者で分裂へ 統一会派での連携維持が課題",
-   "updatedAt": 1788991111303,
-   "url": "https://news.web.nhk/newsweb/na/nd-20260909de49377"
-  },
   "https://news.web.nhk/newsweb/na/nd-20260909de49378": {
    "bodyBlocks": [],
    "checkedAt": 1789038069616,
@@ -60,21 +45,6 @@
    "updatedAt": 1789011275134,
    "url": "https://news.web.nhk/newsweb/na/nd-20260909de49403"
   },
-  "https://news.web.nhk/newsweb/na/nd-20260910de49413": {
-   "bodyBlocks": [],
-   "checkedAt": 1788991111303,
-   "etag": "",
-   "hash": "b39060b28b9b8591",
-   "id": "edef616e2a95",
-   "imageUrl": "",
-   "key": "https://news.web.nhk/newsweb/na/nd-20260910de49413",
-   "lastModified": "",
-   "publishedAt": 1788988618000,
-   "summary": "ロシアの大統領府の報道官はアメリカ、中国、ロシアの3か国の首脳会談がことし11月のAPEC＝アジア太平洋経済協力会議の首脳会議にあわせて開かれる可能性があると述べました。",
-   "title": "ロシア報道官 米中ロ3か国首脳会談 “可能性はある”",
-   "updatedAt": 1788991111303,
-   "url": "https://news.web.nhk/newsweb/na/nd-20260910de49413"
-  },
   "https://news.web.nhk/newsweb/na/nd-20260910de49414": {
    "bodyBlocks": [],
    "checkedAt": 1788991111303,
@@ -89,21 +59,6 @@
    "title": "ラスカー賞に睡眠研究の筑波大 柳沢教授らと中外製薬研究者3人",
    "updatedAt": 1788991111303,
    "url": "https://news.web.nhk/newsweb/na/nd-20260910de49414"
-  },
-  "https://news.web.nhk/newsweb/na/nd-20260910de49416": {
-   "bodyBlocks": [],
-   "checkedAt": 1788991111303,
-   "etag": "",
-   "hash": "85b430616abc013b",
-   "id": "8cf2c35ecd0f",
-   "imageUrl": "",
-   "key": "https://news.web.nhk/newsweb/na/nd-20260910de49416",
-   "lastModified": "",
-   "publishedAt": 1788984783000,
-   "summary": "中東のホルムズ海峡を巡り、アメリカとイランの攻撃の応酬で船舶を狙った攻撃が相次ぎ、さらなる応酬と被害が懸念されます。",
-   "title": "ホルムズ海峡巡る米イラン応酬で船舶への攻撃相次ぐ",
-   "updatedAt": 1788991111303,
-   "url": "https://news.web.nhk/newsweb/na/nd-20260910de49416"
   },
   "https://news.web.nhk/newsweb/na/nd-20260910de49426": {
    "bodyBlocks": [],
@@ -812,17 +767,17 @@
   },
   "https://news.web.nhk/newsweb/na/nd-20260912de49919": {
    "bodyBlocks": [],
-   "checkedAt": 1789250337645,
+   "checkedAt": 1789270413267,
    "etag": "",
-   "hash": "3b6050f4fee8ac5e",
+   "hash": "2adba09ed0748fa8",
    "id": "d1811323ec2d",
    "imageUrl": "",
    "key": "https://news.web.nhk/newsweb/na/nd-20260912de49919",
    "lastModified": "",
-   "publishedAt": 1789247094000,
+   "publishedAt": 1789268340000,
    "summary": "8月に千葉県を襲った記録的な豪雨では520余りの商店や事業所などが被災し、被害額はあわせて26億円余りにのぼることが県の調査で新たに分かりました。復旧に時間がかかり、1か月たっても事業を再開できない企…",
-   "title": "千葉豪雨 商店などの被害 529社で26億円余 再開できない企業も",
-   "updatedAt": 1789250337645,
+   "title": "千葉豪雨から1か月 商店や事業所などの被害 529社で26億円余り",
+   "updatedAt": 1789270413267,
    "url": "https://news.web.nhk/newsweb/na/nd-20260912de49919"
   },
   "https://news.web.nhk/newsweb/na/nd-20260912de49921": {
@@ -887,27 +842,72 @@
   },
   "https://news.web.nhk/newsweb/na/nd-20260913de49941": {
    "bodyBlocks": [],
-   "checkedAt": 1789250337645,
+   "checkedAt": 1789270413267,
    "etag": "",
-   "hash": "b29ce0bbfcab586c",
+   "hash": "890305d93a01918f",
    "id": "c9c836831cef",
    "imageUrl": "",
    "key": "https://news.web.nhk/newsweb/na/nd-20260913de49941",
    "lastModified": "",
-   "publishedAt": 1789249439000,
-   "summary": "世界のトップ選手を集めた陸上の国際大会がハンガリーのブダペストで行われ、女子やり投げの北口榛花選手が68メートル92の日本新記録をマークして優勝しました。",
+   "publishedAt": 1789257273000,
+   "summary": "世界のトップ選手を集めた陸上の国際大会がハンガリーで行われ、女子やり投げの北口榛花選手が日本新記録をマークして優勝しました。",
    "title": "陸上女子やり投げ 北口榛花 68メートル92の日本新記録",
-   "updatedAt": 1789250337645,
+   "updatedAt": 1789270413267,
    "url": "https://news.web.nhk/newsweb/na/nd-20260913de49941"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260913de49949": {
+   "bodyBlocks": [],
+   "checkedAt": 1789270413267,
+   "etag": "",
+   "hash": "dc909694a7e6d1e0",
+   "id": "644dca399b50",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260913de49949",
+   "lastModified": "",
+   "publishedAt": 1789267615000,
+   "summary": "今週行われる自民党の役員人事で、高市総理大臣は、国会対策委員長に岸田内閣で官房副長官を務めた村井英樹氏を起用する方向で調整に入りました。",
+   "title": "高市首相 村井英樹氏を国対委員長に起用調整 自民党役員人事",
+   "updatedAt": 1789270413267,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260913de49949"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260913de49953": {
+   "bodyBlocks": [],
+   "checkedAt": 1789270413267,
+   "etag": "",
+   "hash": "47dca9907748e904",
+   "id": "ddcbbabcb384",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260913de49953",
+   "lastModified": "",
+   "publishedAt": 1789268580000,
+   "summary": "ことし7月の熊本地震からの復旧や復興に向けた課題を把握しようと、熊本市で住民との意見交換会が開かれ、出席者から支援制度の周知や避難所の環境改善に向けた要望が出されました。",
+   "title": "熊本地震 被災市民のくらし再建・復興に向けた意見交換会",
+   "updatedAt": 1789270413267,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260913de49953"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260913de49955": {
+   "bodyBlocks": [],
+   "checkedAt": 1789270413267,
+   "etag": "",
+   "hash": "1e77e34151947f8f",
+   "id": "6363e0e49fc7",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260913de49955",
+   "lastModified": "",
+   "publishedAt": 1789269156000,
+   "summary": "超党派の国会議員でつくる日中友好議員連盟の若手議員が13日朝、中国・北京へ出発しました。日中関係が冷え込んでいる中、国際交流団体の幹部との会談などを通じて、関係改善に向けた糸口を探りたい考えです。",
+   "title": "日中友好議連 超党派若手が北京訪問 交流再開の糸口探る",
+   "updatedAt": 1789270413267,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260913de49955"
   }
  },
  "listing": {
   "https://www.nhk.or.jp/rss/news/cat0.xml": {
-   "checkedAt": 1789250339241,
-   "etag": "W/\"a7ebaa36a4a820311e44f7452d727212\"",
-   "lastModified": "Sat, 12 Sep 2026 21:48:53 GMT"
+   "checkedAt": 1789270415076,
+   "etag": "W/\"de0ef29ee1940800d7b585eb437706c2\"",
+   "lastModified": "Sun, 13 Sep 2026 03:29:22 GMT"
   }
  },
  "siteId": "nhk_main",
- "updatedAt": 1789250339242
+ "updatedAt": 1789270415077
 }

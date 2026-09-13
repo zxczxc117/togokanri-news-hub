@@ -575,6 +575,262 @@
    "updatedAt": 1789210713848,
    "url": "https://av.watch.impress.co.jp/docs/topic/2140311.html"
   },
+  "https://aws.amazon.com/jp/blogs/news/calculating-the-roi-of-ai": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "AI の投資収益率 (ROI) を算出する"
+    },
+    {
+     "kind": "P",
+     "text": "人工知能 (AI) に投資した 1 ドルごとに 2 ドルのリターンが得られるのであれば、コストの増加は非効率ではなく、プラスの投資収益率 (ROI) を示すことになります。しかし、AI 支出とビジネス価値の関係を明らかにすることは複雑で難しく、取り組みを拡大すべき時期や見直すべき時期を判断するための明確な指標を得られないことがあります。ROI を算出するには (図 1 を参照)、まずコストを配分し、次に、そのコストが貢献するビジネス成果と対応付けます。これにより、ROI の基礎的な構成要素である成果当たりコスト (Cost per Outcome) を求められます。各成果にかかるコストを測定できるようになれば、そのコストと成果がもたらす価値を比較するだけで ROI を算出できます。"
+    },
+    {
+     "kind": "P",
+     "text": "本記事では、AI への投資をビジネスインパクトと結び付けるための実践的な方法論を概説します。ユースケースを分類し、コストを紐付け、測定可能な価値を生み出している取り組みを特定する方法について詳しく解説します。"
+    },
+    {
+     "kind": "H",
+     "text": "AI ユースケースを分類する"
+    },
+    {
+     "kind": "P",
+     "text": "AI ユースケースの価値を評価する前に、まず自社で導入している AI がどのように使用されているかを把握し、それぞれの用途が分かるような名称を付けて分類しておく必要があります。この評価で使用する 2 つのカテゴリは、「内部向け」と「外部向け」です。"
+    },
+    {
+     "kind": "H",
+     "text": "外部向け"
+    },
+    {
+     "kind": "P",
+     "text": "外部向け AI は、収益を生み出す活動に直接対応付ける必要があります。そうすることで、その AI のコストを売上原価の一部として計上できます。外部向け AI が収益活動とどう結び付くかを理解するために、まずは自社の収益を生み出しているものは何かを考えてみてください。そのうえで、それらに対して AI が直接的または間接的にどのように貢献しているかを確認します。"
+    },
+    {
+     "kind": "H",
+     "text": "内部向け"
+    },
+    {
+     "kind": "P",
+     "text": "内部向け AI は、一般的に開発者の生産性向上 (コーディングアシスタント、ワークフローの自動化) や、より広範な従業員の業務効率化を支援します。また、ビジネス活動の強化、自動化、効率化を実現します。内部向け AI の ROI への紐付けは、外部向け AI より難しい場合があります。こうしたデプロイは、収益を生み出す活動に直接結び付かないことが多いためです。この課題は AI に固有のものではなく、業務生産性向上へのあらゆる投資に共通します。リターンを測定するには、後述の「ビジネス価値指標を決定する」セクションで説明する、定量化可能な成果に焦点を当ててください。"
+    },
+    {
+     "kind": "P",
+     "text": "これらのユースケースでは、構造化された利用と構造化されていない利用も区別する必要があります。構造化された利用とは、明確な目標、具体的な KPI、予測可能な実行パターンを備えたエージェントの利用を指します。たとえば、顧客の注文履歴に関する質問に回答するために構築されたアシスタントが該当します。構造化された利用は、構造化されていない利用よりもコストを配分しやすくなります。一方、構造化されていない利用とは、コーディングアシスタントやチャットインターフェイスのような、アドホックで汎用的なやり取りを指し、エージェントの振る舞いが特定の用途に限定されず、柔軟に拡張できます。構造化されていない利用は開発者の生産性を大きく向上させますが、ビジネス価値指標と対応付けるには、さらに詳細なコスト配分が必要になる場合があります。この違いを認識しておくことが、より正確なコスト配分につながります。"
+    },
+    {
+     "kind": "H",
+     "text": "コストを算出する"
+    },
+    {
+     "kind": "P",
+     "text": "AI コストの増加は、AI 投資の ROI を判断するための重要なきっかけになります。コストは、誤った対象に配分されたり、過少に見積もられたりすることがあります。コストを判断する際の最初の要素は、総所有コスト (Total Cost of Ownership：TCO) が算出できているかを確認することです。"
+    },
+    {
+     "kind": "P",
+     "text": "AI の TCO を把握するには、まず Amazon Bedrock 、 Claude Platform on AWS 、 Kiro などのマネージド AI サービスの直接コストを算出します。組織が独自にインフラストラクチャを管理している場合は、 Amazon Elastic Compute Cloud (Amazon EC2) 高速コンピューティングインスタンス および Amazon SageMaker AI のコストも算出する必要があります。"
+    },
+    {
+     "kind": "P",
+     "text": "直接コストを定量化したら、次に間接コストおよび関連コストを算出します。これらのコストは通常、次の 4 つのカテゴリに分類されます。"
+    },
+    {
+     "kind": "LI",
+     "text": "ストレージ – AI のトレーニングには、大量のデータが必要になる場合があります。ストレージコストとデータ取得コストの両方が含まれていることを確認してください。また、AI 推論では、 検索拡張生成 (RAG) や参照データを利用する場合があります。これらは ベクトルデータベース のコストとして計上され、場合によっては AI 推論の規模に比例して高額になることがあります。"
+    },
+    {
+     "kind": "LI",
+     "text": "データ転送 – AI ソリューションでデータの読み書きが必要な場合、その情報が境界 (AZ やリージョン等) を越えて移動し、データ転送トラフィックが発生することがあります。また、AI システムによっては、追加のサービスや外部システムとの通信が必要になることもあります。こうしたデータフローによって、データ転送コストが発生する場合があります。"
+    },
+    {
+     "kind": "LI",
+     "text": "モニタリングとレポート – AI の利用状況を把握して追跡するには、ログや利用状況データを生成することが重要です。これらのデータは、ダッシュボードやレポートシステムで報告・分析する必要があるかもしれません。モニタリング、データ、およびダッシュボードユーザーのライセンスにかかる費用を、AI ソリューションの総コストに含める必要があります。"
+    },
+    {
+     "kind": "LI",
+     "text": "エージェンティック AI – エージェンティック AI システムは、目標を達成するために意思決定を行い、タスクを実行します。目標を達成するために、 AWS Lambda 関数や Amazon API Gateway を使用して、追加のサービスまたは外部システムと連携する場合があります。エージェンティック AI のコストは、AI ユースケースによって大きく変動する可能性があります。"
+    },
+    {
+     "kind": "H",
+     "text": "詳細なコスト配分"
+    },
+    {
+     "kind": "P",
+     "text": "可視化とコスト配分によって、AI コストをビジネス価値に結び付けることができます。詳細な帰属情報がなければ、AI 支出は単一の明細項目として表示されるため、どのチーム、アプリケーション、ユースケースがコストを発生させているのかを特定できません。Amazon Bedrock では、アプリケーションが使用する API エンドポイントに応じて、複数のコスト帰属メカニズムを利用できます。"
+    },
+    {
+     "kind": "LI",
+     "text": "IAM プリンシパルベースのコスト配分 – API 呼び出しごとに呼び出し元の ID を自動的に記録します"
+    },
+    {
+     "kind": "LI",
+     "text": "リクエストレベルメタデータ – 個々の推論呼び出しにキーと値のペアでタグを付け、その情報をモデル呼び出しログに記録します"
+    },
+    {
+     "kind": "LI",
+     "text": "アプリケーション推論プロファイル – 特定モデル用の ARN を作成し、bedrock-runtime 呼び出し時にモデル ID の代わりに渡すことができます"
+    },
+    {
+     "kind": "LI",
+     "text": "Projects – OpenAI 互換の Responses API および Chat Completions API で使用します"
+    },
+    {
+     "kind": "LI",
+     "text": "Workspaces – Anthropic 互換の Messages API で使用します"
+    },
+    {
+     "kind": "P",
+     "text": "これらのメカニズムでは、コストデータが表示される場所が異なります。IAM プリンシパル、アプリケーション推論プロファイル、Projects、Workspaces はいずれも、 AWS Cost Explorer および AWS Cost and Usage Reports (CUR) に表示される集約されたコスト配分データを生成します。そのため、財務部門主導のチャージバックとショーバックに適しています。これに対して、リクエストレベルメタデータは、プロンプトごとのトークン数を、コストデータではなくモデル呼び出しログに記録します。どのアプローチを選択するかを判断するうえで、この違いは重要です。財務チーム向けの請求データに基づくレポートが目的であれば、コスト配分をサポートする方法を使用してください。エンジニアリング最適化のためにリクエスト単位の詳細情報が必要な場合は、リクエストレベルメタデータも有効にするとよいでしょう。"
+    },
+    {
+     "kind": "P",
+     "text": "これらのアプローチは競合するものではなく、相互に補完するものです。一般的には、IAM プリンシパルベースのコスト帰属を有効にして、常時かつ自動的に ID を追跡します (コードの変更は必要ありません)。集約されたコストの配分には Projects / Workspaces、またはアプリケーション推論プロファイルを使用し、必要に応じて、プロンプト単位の詳細を把握するためにリクエストレベルメタデータを使用します。まずは、当面のニーズに対応するメカニズムからはじめ、コスト帰属に関する要件が成熟するにつれて、追加の方法を組み合わせてください。目標は、AI 支出を、ビジネス価値を生み出しているユースケース、チーム、またはアプリケーションに帰属させることです。これが、次のセクションで成果当たりコストを算出するための基盤になります。"
+    },
+    {
+     "kind": "H",
+     "text": "ビジネス価値指標を決定する"
+    },
+    {
+     "kind": "P",
+     "text": "ビジネス価値指標とは、ビジネスの健全性や収益性を判断するのに役立つ指標です。ビジネス指標を設定する際、最初に確認すべきことは、その指標が測定可能であることです。また、そのビジネス指標を恣意的に操作できないことも重要です。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "グッドハートの法則 (Goodhart’s Law)：「指標が目標になると、それは良い指標ではなくなる。」"
+    },
+    {
+     "kind": "P",
+     "text": "たとえば、「開発者が作成したコード行数」を指標に選んだ場合、開発者は AI にコード内のドキュメント行を追加するよう簡単に指示できるため、この指標を水増しできます。代わりに、AI 投資による成果がビジネス価値と整合していることを確認する必要があります。前述の開発者の例で言えば、ソフトウェア開発を支援するためにリリースした機能の数や、修正したバグの数などが考えられます。"
+    },
+    {
+     "kind": "LI",
+     "text": "事業およびプロダクト収益： AI ソリューションに直接結び付く売上高レベルの財務リターンを測定します。 指標の例： 製品売上、サブスクリプション、回避したリスクや不正、請求済みクレジット 課題： 売上高は、営業活動の遂行、マーケティング支出、競争環境など、AI 以外の変数に大きく影響されるため、直接的な帰属は困難です。AI は売上原価を構成する一要素になります。"
+    },
+    {
+     "kind": "LI",
+     "text": "開発指標： 収益を支える開発の進行速度と運用上の成果を追跡します。 指標の例： デプロイ頻度、提供した機能、解決したバグ 課題： 成果を正規化する必要があります。ストーリーポイント、機能、修正は、その複雑さ、対象範囲、実際のビジネスインパクトが大きく異なります。"
+    },
+    {
+     "kind": "P",
+     "text": "指標を定義したら、AI 導入前のベースラインを確立し、AI の導入状況と併せて指標の推移を追跡します。この指標を定期的に、また大きな変更が発生するたびに再評価してください。"
+    },
+    {
+     "kind": "H",
+     "text": "ROI を算出する"
+    },
+    {
+     "kind": "P",
+     "text": "上記の前提条件を定義したら、ROI の定量化に役立つ成果当たりコストの算出を開始できます。"
+    },
+    {
+     "kind": "P",
+     "text": "開発者の生産性を例に、ビジネス価値指標として修正したソフトウェアバグの数を使用すると、次のような分析を実施できます。"
+    },
+    {
+     "kind": "P",
+     "text": "注：この例では、開発者にかかるコストは、分析期間を通じて変動しない固定費であると仮定しています。AI を使用して開発者の能力を拡張している場合は、開発者コストが AI の利用状況に応じて変動するため、そのコストを総コストに含める必要があります。また、この例では、価値が直ちに得られるものと仮定しています。多くの場合、AI を導入してからビジネス価値指標に影響が現れるまでには、立ち上がり期間があります。"
+    },
+    {
+     "kind": "P",
+     "text": "この例では、週 5 件のバグ修正をベースラインとします。開発者に AI を提供した後、最初の成果当たりコストの測定は、たとえば次のようになります。"
+    },
+    {
+     "kind": "P",
+     "text": "週 15 件のバグ修正、AI の総コストは $5,000。新たに修正できた 10 件 (15 件 – ベースラインの 5 件) は AI による成果であるため、計算は次のようになります。"
+    },
+    {
+     "kind": "P",
+     "text": "バグ修正 1 件当たり $500 = $5,000 / 10 件のバグ修正"
+    },
+    {
+     "kind": "P",
+     "text": "この指標は、AI 投資の現在および将来の価値を判断するための出発点です。AI を使用してバグを 1 件修正するごとに $500 かかることが分かります。"
+    },
+    {
+     "kind": "P",
+     "text": "さらに数週間にわたって測定すると、次の 2 つの値の変化を観察できます。"
+    },
+    {
+     "kind": "P",
+     "text": "1. ビジネス価値指標： 開発者の効率が向上すれば、修正するバグの数は増加します。一方、解決するバグが複雑になった場合 (または、修正対象のバグが少なくなった場合) には、修正数は減少します。コストが一定であると仮定すると、次のようになります。"
+    },
+    {
+     "kind": "LI",
+     "text": "バグの修正件数が増加する場合：成果当たりコストは減少します。AI 投資からより高い効率が得られていることになります。"
+    },
+    {
+     "kind": "LI",
+     "text": "バグの修正件数が減少する場合：成果当たりコストは増加します。AI 投資から得られる効率は低くなっていることになります。"
+    },
+    {
+     "kind": "P",
+     "text": "成果当たりコストが増加したからといって、必ずしも ROI が低下していることを意味するわけではありません。重要なのは、修正されたバグの重要度を評価し、AI がより複雑なバグの解決を可能にしているのかどうかを見極めることです。高度な ROI 分析では、バグの複雑さなどの追加のビジネス価値指標を取り入れ、バグ修正に AI を活用することがより良いユーザーエクスペリエンスにつながっているかを判断します。"
+    },
+    {
+     "kind": "P",
+     "text": "2. コスト： 開発者が AI を使用して修正するバグの数が変わったり、含めるコンテキストが変動したり、トークンコストの異なる新しいプロバイダーやモデルを使用したりすることで、AI コストは変動する可能性があります。"
+    },
+    {
+     "kind": "LI",
+     "text": "コストが増加する場合：成果当たりコストは増加します。AI 投資から得られる効率は低くなっていることになります。"
+    },
+    {
+     "kind": "LI",
+     "text": "コストが減少する場合：成果当たりコストは減少します。AI 投資からより高い効率が得られていることになります。"
+    },
+    {
+     "kind": "P",
+     "text": "上記の例は、各変数が成果当たりコストに与える影響を示すために簡略化しています。実際には、モデルの変更、利用パターンの変化、作業自体の複雑さの増減に伴い、分子 (コスト) と分母 (ビジネス価値) の両方が時間の経過とともに変化します。成果当たりコストそのものは ROI ではありません。ROI を判断するための単位レベルの基礎的な構成要素です。"
+    },
+    {
+     "kind": "P",
+     "text": "成果 1 件当たりにかかるコストを把握したら、その金額を、その成果が支える事業およびプロダクト収益の項目に関連付けます。この例では、修正したバグは、顧客に販売される製品またはサブスクリプションに関連するかもしれません。これらの追加コストは、純利益および ROI の計算における売上原価の一部になります。"
+    },
+    {
+     "kind": "P",
+     "text": "成果当たりコストを定期的に追跡することで、ROI への影響を評価して、効果のある取り組みを拡大し、効果のない取り組みは方向転換し、支出が価値を上回るタイミングを把握するためのデータを得ることができます。この方法に従うことで、ROI を一度限りの見積もりではなく、再現可能で根拠のある指標として算出できます。"
+    },
+    {
+     "kind": "H",
+     "text": "まとめ"
+    },
+    {
+     "kind": "P",
+     "text": "AI の ROI を算出することは、「AI によって生み出された成果 1 件当たりのコストはいくらで、その成果には自社のビジネスにとってどれくらいの価値があるのか」という問いに答えるものです。"
+    },
+    {
+     "kind": "P",
+     "text": "成果当たりコストの計算がその基盤となります。それを、その成果が支える事業収益と関連付けることで、ROI を算出できます。ただし、この計算だけを AI 戦略の判断材料にすべきではありません。イノベーションには、実験の余地が必要です。一部の取り組みでは短期的な ROI が低く見えても、長期的なリターンや競争優位性によって、新たな収益源を生み出せる可能性があります。ROI を使用してエージェンティックワークロードを可視化し、しきい値を設定し、継続または中止を判断してください。その一方で、まだ標準的な指標に適合しない、高いポテンシャルを持つプロジェクトを育てる柔軟性も維持してください。"
+    },
+    {
+     "kind": "P",
+     "text": "まず、上記で説明したコスト配分メカニズムを使用して、主要な 3 つの AI ワークロードにタグを付けます。それぞれについてビジネス価値指標を 1 つ特定し、今四半期中に最初の成果当たりコストを算出してください。事後対応型のコスト追跡から、先を見越した価値管理へとシフトすることで、AI を単なる明細項目から、ビジネスを推進する戦略的なエンジンへと変革できます。"
+    },
+    {
+     "kind": "P",
+     "text": "翻訳はテクニカルアカウントマネージャーの西村が担当しました。原文は こちら です。"
+    },
+    {
+     "kind": "H",
+     "text": "お役立ちリンク"
+    },
+    {
+     "kind": "H",
+     "text": "フォローお願いいたします"
+    }
+   ],
+   "checkedAt": 1789270325606,
+   "etag": "",
+   "hash": "f25579c7244fe0ea",
+   "id": "eae3f0431620",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Faws.amazon.com%2Fjp%2Fblogs%2Fnews%2Fcalculating-the-roi-of-ai%2F",
+   "key": "https://aws.amazon.com/jp/blogs/news/calculating-the-roi-of-ai",
+   "lastModified": "Fri, 11 Sep 2026 01:03:25 GMT",
+   "publishedAt": 1789218721000,
+   "summary": "Amazon Web Services ブログ AI の投資収益率 (ROI) を算出する 人工知能 (AI) に投資した 1 ドルごとに 2 ドルのリターンが得られるのであれば、コストの増加は非効率ではなく、プラスの投資収益率 (ROI) を示すことになります。しかし、AI 支出とビジネス価値の関係を明らかにすることは複雑で難しく、取り組みを拡大...",
+   "title": "AI の投資収益率 (ROI) を算出する | Amazon Web Services",
+   "updatedAt": 1789270325606,
+   "url": "https://aws.amazon.com/jp/blogs/news/calculating-the-roi-of-ai/"
+  },
   "https://azukiazusa.dev/blog/cloudflare-os": {
    "bodyBlocks": [
     {
@@ -2336,21 +2592,6 @@
    "updatedAt": 1789250211376,
    "url": "https://gigazine.net/news/20260912-firefox-translations/"
   },
-  "https://internet.watch.impress.co.jp/docs/column/netliteracy/2139916.html": {
-   "bodyBlocks": [],
-   "checkedAt": 1789163808427,
-   "etag": "",
-   "hash": "b2dc4f1072b8e203",
-   "id": "f87d3e8959a8",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Finternet.watch.impress.co.jp%2Fdocs%2Fcolumn%2Fnetliteracy%2F2139916.html",
-   "key": "https://internet.watch.impress.co.jp/docs/column/netliteracy/2139916.html",
-   "lastModified": "",
-   "publishedAt": 1789100759000,
-   "summary": "",
-   "title": "警察官を名乗る電話1本をきっかけに経理部長が11億円を送金してしまった事例から詐欺手口への教訓を学ぶ【読めば身に付くネットリテラシー】",
-   "updatedAt": 1789163808427,
-   "url": "https://internet.watch.impress.co.jp/docs/column/netliteracy/2139916.html"
-  },
   "https://iphone-mania.jp/iphone18-605682": {
    "bodyBlocks": [
     {
@@ -2791,97 +3032,20 @@
    "updatedAt": 1789210713848,
    "url": "https://iphone-mania.jp/iphone18-605732/"
   },
-  "https://japan.cnet.com/article/35252543": {
-   "bodyBlocks": [
-    {
-     "kind": "H",
-     "text": "中国AI「Kimi」、利用者の入力をClaudeに転送し、Claudeの回答を利用者に表示か--Anthropicが報告"
-    },
-    {
-     "kind": "LI",
-     "text": "テキスト HTML 電子書籍 PDF"
-    },
-    {
-     "kind": "LI",
-     "text": "テキスト 電子書籍 PDF"
-    },
-    {
-     "kind": "P",
-     "text": "Anthropicは、AIの悪用事例をまとめた2026年9月版の脅威レポートを公開した。DeepSeekや、「Kimi」を開発するMoonshot AIが、利用者の入力をClaudeに転送し、その回答を利用者に返していたと報告した。"
-    },
-    {
-     "kind": "P",
-     "text": "利用者が自分の選んだAIとやり取りしているつもりでも、入力した企業情報や認証情報が別のAI事業者に渡っていた可能性がある。Anthropicは、転送されたやり取りが各社のモデルを訓練するためにも使われたと主張している。"
-    },
-    {
-     "kind": "P",
-     "text": "Moonshotの事例では、10日間で約30万件の利用者のリクエストがAnthropicに転送され、大半がClaude Opusで処理されたという。MoonshotはClaudeの回答を利用者に表示し、やり取りの少なくとも一部を保存していたとする。Anthropicは、Moonshotが転送について顧客に通知していたかは分からないとしている。"
-    },
-    {
-     "kind": "P",
-     "text": "DeepSeekについては、外部のコーディングツールなどを経由したリクエストの一部を選び、Claude Opusに転送していたと報告した。転送内容には企業の内部文書や、稼働中のデータベースにアクセスするための認証情報も含まれていたという。"
-    },
-    {
-     "kind": "P",
-     "text": "同レポートは、Xiaomiの「MiMo」の利用者との会話もClaudeに送られていたと指摘している。ただし、こちらは訓練データを作るための利用で、Claudeの回答をそのまま利用者に返していたことを示す証拠はないと区別した。"
-    },
-    {
-     "kind": "P",
-     "text": "背景にあるのは、別のAIの出力を使ってモデルを訓練する「蒸留」だ。Anthropicは、蒸留自体は正当な訓練手法としつつ、許可なく大量の出力を集めて能力を複製する行為を問題視している。今回、中国拠点の7つのAI研究組織による新たな不正な蒸留の試みを検知し、阻止したと説明した。"
-    },
-    {
-     "kind": "P",
-     "text": "同社は、不審な利用を検知した際のリクエスト遮断や関連アカウントの停止に加え、出力の不正な抽出を見分ける仕組みなどを強化している。今回の転送や訓練への利用に関する記述はAnthropicの調査に基づくもので、同レポートには指摘を受けた各社の見解は掲載されていない。"
-    },
-    {
-     "kind": "P",
-     "text": "Amazonのアソシエイトとして、CNET Japanは適格販売により収入を得ています"
-    },
-    {
-     "kind": "H",
-     "text": "あなたにおすすめの記事"
-    },
-    {
-     "kind": "LI",
-     "text": "「FydeOS」を使って古いPCを無償で「Chromebook」に変える方法 2026年08月31日 06時00分"
-    },
-    {
-     "kind": "LI",
-     "text": "収納箱の底に眠っていた古い「iPhone」--価値があるのかゴミなのか調べてみた 2026年09月02日 07時00分"
-    },
-    {
-     "kind": "LI",
-     "text": "記事一覧"
-    },
-    {
-     "kind": "LI",
-     "text": "AIで議事録作成はラクになった 問われるのは、“ひと目で伝わること” Plaud NotePin Sが示す会議記録の新しい形"
-    },
-    {
-     "kind": "LI",
-     "text": "構図は、撮ってから決める 夜景も鮮明な8Kの360度映像 DJI「Osmo 360 II」を検証"
-    },
-    {
-     "kind": "LI",
-     "text": "老朽化する設備と向き合う 地域交通を支える管理業務を刷新 佐渡汽船が取り組むDXの現実解"
-    },
-    {
-     "kind": "H",
-     "text": "ZDNET Japan 注目ヘッドライン"
-    }
-   ],
-   "checkedAt": 1789124376789,
-   "etag": "",
-   "hash": "2a829ba0a685daf3",
-   "id": "9b405393e1b3",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fjapan.cnet.com%2Farticle%2F35252543%2F",
-   "key": "https://japan.cnet.com/article/35252543",
+  "https://news.web.nhk/newsweb/na/nd-20260913de49934": {
+   "bodyBlocks": [],
+   "checkedAt": 1789270325606,
+   "etag": "W/\"riHwQzeuAVQncfqwFsaSSA\"",
+   "hash": "4f5b4524c3bb8205",
+   "id": "ec16d535bb3f",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fnews.web.nhk%2Fnewsweb%2Fna%2Fnd-20260913de49934",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260913de49934",
    "lastModified": "",
-   "publishedAt": 1789105617000,
-   "summary": "DeepSeekについては、外部のコーディングツールなどを経由したリクエストの一部を選び、Claude Opusに転送していたと報告した。転送内容には企業の内部文書や、稼働中のデータベースにアクセスするための認証情報も含まれていたという。 同レポートは、Xiaomiの「MiMo」の利用者との会話もClaudeに送られていたと指摘し...",
-   "title": "中国AI「Kimi」、利用者の入力をClaudeに転送し、Claudeの回答を利用者に表示か--Anthropicが報告",
-   "updatedAt": 1789124376789,
-   "url": "https://japan.cnet.com/article/35252543/"
+   "publishedAt": 1789259121000,
+   "summary": "アメリカのAI新興企業アンソロピックのCEOは、AIが急速に進歩し、人間が制御する能力を上回る可能性があるとして、開発を減速させる必要があるとの考えを示しました。 アンソロピックのダリオ・アモデイ…",
+   "title": "米アンソロピックCEO“AI開発ペース減速させる必要” | NHKニュース",
+   "updatedAt": 1789270325606,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260913de49934"
   },
   "https://note.com/kirik/n/n8e7920167c3f": {
    "bodyBlocks": [
@@ -3723,6 +3887,266 @@
    "updatedAt": 1789183874952,
    "url": "https://note.com/shi3zblog/n/nd5fc5341b342"
   },
+  "https://note.com/takahiroanno/n/n4accbde18d56": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "「AI研究者としての自分の賞味期限はあと１年」——AGI競争も終盤戦の様相を呈すシリコンバレーでは何が語られていたか"
+    },
+    {
+     "kind": "P",
+     "text": "2026年8月、シリコンバレーとサンフランシスコで15人のAI関係者に話を聞いてきた。 最先端AIをつくっている企業 の研究者、政策担当者、投資家、大学研究者などにインタビューを実施し、今のAI開発競争を現地の人たちがどう捉えているのか探った。"
+    },
+    {
+     "kind": "P",
+     "text": "得た学び（というか現地に行って考えたこと）を下記にまとめてみたい。また、動画で見たい方は、下記の動画をご覧いただくこともできる。永田町エンジニアチームの Bluemo（ぶるーも）さん も同行しており、二人で振り返った配信である。"
+    },
+    {
+     "kind": "P",
+     "text": "なお、企業名や個人名を明かさないことを条件に取材に応じてくれた方も多い。もはやAIは国家安全保障にも関わる問題で、外国籍の人物が（しかも国会議員が）このような取材をするのも一定の警戒感を感じた。ゆえに本稿では一部（というかほとんど）、具体名を伏せているが、ご容赦いただきたい。"
+    },
+    {
+     "kind": "H",
+     "text": "1) AGI達成までのレースはもう終盤戦に入っている"
+    },
+    {
+     "kind": "P",
+     "text": "まず紹介したいのは、取材の序盤に出会ったある研究者の言葉である。"
+    },
+    {
+     "kind": "P",
+     "text": "ただのリサーチャーではない。世界を驚かせたとあるAIモデルの開発に携わり、今もとある技術の研究チームを率いている研究者だった。いろいろ聞いてみたが、まあものすごい業績を上げている方であった。おそらく人類トップレベルのAI研究者であるその彼が、自分自身の仕事は、近いうちにAIに置き換わると考えていた。"
+    },
+    {
+     "kind": "P",
+     "text": "これが彼だけの特別な考えというわけではないことは、さまざまなインタビューを行う中ですぐにわかった。複数の研究者が、AGI開発をすでに「終盤戦」と捉えていた。"
+    },
+    {
+     "kind": "P",
+     "text": "AGIとは、幅広い知的な仕事を人間と同等以上にこなす汎用人工知能を指す。シリコンバレーで今回取材した研究者の間では、残り1〜2年で「AIの研究開発が自動化してゆく」という一定のコンセンサスがあった。"
+    },
+    {
+     "kind": "P",
+     "text": "鍵になるのが「再帰的自己改善（RSI）」というアイデアだ。AIがAIの研究開発を助け、改善されたAIが、次の研究開発をさらに速めるというものである。そうするとどんどん加速していくことになる。「これはいまでも起きている。RSIが起きているかどうかは、すでに定義の問題」と、ある研究者は語っていた。"
+    },
+    {
+     "kind": "P",
+     "text": "なんというか、温度感が違っていた。別の研究者は「我々はAGIという、人類史でたった一回きりの打ち上げ花火を見る特等席にいるんだ」と語っていた（羨ましい限りである）。筆者は比較的AIには詳しい方ではあるつもりだが、それでも現地で彼ら彼女らが語る温度感とはギャップがあると感じさせられた。"
+    },
+    {
+     "kind": "H",
+     "text": "2) AI開発の「減速ボタン」はないかもしれない"
+    },
+    {
+     "kind": "P",
+     "text": "AGIによる大きな変化が近いと考えるなら、各種のリスクに対応するため、いったん開発を止め、安全性を確かめてから進めるべきではないか。こうした提案は、AI業界の著名人からも繰り返し発せられてきた。"
+    },
+    {
+     "kind": "P",
+     "text": "2023年３月には、イーロン・マスクやAI研究者のヨシュア・ベンジオらが、GPT-4を上回るAIの訓練を少なくとも６カ月間停止するよう求める公開書簡に署名した。2026年に入ると、実際にフロンティアAIを開発する企業のトップからも、減速を支持する声がより明確に聞かれるようになった。"
+    },
+    {
+     "kind": "P",
+     "text": "Google DeepMindのデミス・ハサビスは7月に、最先端モデルを公開前に第三者が検査し、危険性が高まった場合には業界全体の開発ペースを落とせる国際的な監督組織の設立を提案している。そしてつい最近の2026年9月には、AnthropicのCEOダリオ・アモデイが「AI開発のペースを落とさなければならない」と訴えた。"
+    },
+    {
+     "kind": "P",
+     "text": "こうしたアイデアに対して、実際にさまざまな人がどう考えているかぜひ知りたかったので、チャンスがあれば開発の 減速 について尋ねてみた。結果は一方的なもので、「出来るだろう」と答えた人は一人もいなかった。"
+    },
+    {
+     "kind": "P",
+     "text": "「もし開発減速のボタンがもしここにあったら、たぶん私は押します。でも、そんなボタンはないのです」"
+    },
+    {
+     "kind": "P",
+     "text": "一社が開発スピードを緩めても、他社が続ければ競争上の立場を失う。国家間の競争まで含めると、先に進む相手に主導権を渡すこと自体が安全保障上のリスクになる。特に中国のことを考えるとホワイトハウスは止めることができないだろう。"
+    },
+    {
+     "kind": "P",
+     "text": "取材では、モデルの公開に際して他社と連絡を取り、展開を調整する非公式のやり取りがある、という話も聞いた。自主的な協調の芽はあるようだが、世界全体を巻き込んだ合意形成とはかなり距離があるようだ。"
+    },
+    {
+     "kind": "P",
+     "text": "また、「止めたよ」と言いながら裏ではモデル開発を粛々と進める可能性も考えられる。ただ、この点についてある研究者は「相手が停止の合意を守っているかはお互い確認できるかも」と留保していた。データセンターのヒートシグネチャ（熱のパターン）は軌道上の衛星から確認できる可能性があるという。"
+    },
+    {
+     "kind": "P",
+     "text": "もちろん、今ダリオ・アモデイが語っているような戦略で本当に開発減速はできるかもしれない。今回話を聞いた人のサンプリングバイアスも多々あると思う。ただ、2026年8月時点で、現場の人からは開発減速なんて現実的じゃないという反応が大半であった。"
+    },
+    {
+     "kind": "H",
+     "text": "3) フロンティアAIの村は、たった1000人の村である"
+    },
+    {
+     "kind": "P",
+     "text": "ある研究者は、フロンティアAIをつくる人々の少なさを強調した。"
+    },
+    {
+     "kind": "P",
+     "text": "彼の概算では、主要なフロンティアモデル（最先端AIモデルの総称）企業でAI関連の仕事をしている人は1万人ぐらい。そのうち開発のコアを担うエンジニアや研究者は、1000人ほどだという。その1000人がいろいろ会社を移ったり、または新しい会社を作ったりしながら、研究開発がなされている。"
+    },
+    {
+     "kind": "P",
+     "text": "中でも、いま存在感が増しているのは、東欧系と中国系らしい。あるラボでは、中国系が増えた結果、公用語が中国語になり、逆に米国人研究者が中国語を学んでいるという話まであった。（どこまで本当かはわからないが）"
+    },
+    {
+     "kind": "P",
+     "text": "人種別コミュニティでは思っている以上に採用と情報流通を支える役割がありそうだった。どこに移れば、よい仲間と仕事ができるのか。あの会社の雰囲気は今、どんな感じか。あのラボの事前学習はいい感じに成功していそうか。論文やニュースになる前のうわさがガンガン伝わるものらしい。"
+    },
+    {
+     "kind": "P",
+     "text": "日本人研究者もいるにはいるが、集団としての存在感はないというのが、今回聞いた評価だった。「中国系や東欧系の人は、同じ人種コミュニティの人を雇うので集団としての存在感が増してゆく。一方で、日本人は日本人を雇わない」とある人物は指摘していた。「いくら優秀な人でも、一匹狼ではとても戦えない。海外で日本人も束になるべき」とのことだった。シリコンバレーでのチーム戦に日本人チームとして参戦するという考え方はおもしろい。"
+    },
+    {
+     "kind": "H",
+     "text": "4) 人類最先端のラボでも起きる『半沢直樹』的社内政治"
+    },
+    {
+     "kind": "P",
+     "text": "フロンティアAIをつくる企業の競争力は何で決まるか。潤沢な計算資源か、優秀な研究者か、大量のデータか。もちろんどれも重要だが、今回の取材で繰り返し聞いたのは「 組織文化 」という言葉だった。"
+    },
+    {
+     "kind": "P",
+     "text": "外から見ると、フロンティアラボは無尽蔵の計算資源を持っているように思える。しかし、中にいる研究者にとっては全然足りないらしい。試したいアイデアはいくらでもある。誰の実験に、どのチームのミッションに、どれだけの計算資源を割り当てるか。そこには熾烈な争いがあるという。"
+    },
+    {
+     "kind": "P",
+     "text": "ある研究者は、その様子を「半沢直樹みたいな状態」と表現した。"
+    },
+    {
+     "kind": "P",
+     "text": "念の為断っておくが、これは私の翻訳ではない。文字通り「HANZAWA NAOKI」と言っていた。フロンティアラボのAI研究者もTBS日曜劇場を見るのか、というのがまず一つの驚きだった。（『半沢直樹』は有名な銀行内政治ドラマ）"
+    },
+    {
+     "kind": "P",
+     "text": "話を聞くと、買収などを通じていろんなところから集まった社員が、もともとの所属ごとにグループを形成しているらしい。銀行の合併後に旧行ごとの派閥が残るように、同じ会社の中でも出身母体などによって派閥がある。自分たちのチームのために、別のチームに対して実験データを見せないなど足を引っ張り合うことまであるらしい。"
+    },
+    {
+     "kind": "P",
+     "text": "「組織文化はお金をいくら出しても買うことができない」とある人物は言っていた。だからこそ、自分がどこのラボで働くか決めるときにミッションやカルチャーがとても重要になるらしい。詳細は教えてはくれなかったが、あるフロンティアラボでは組織文化のために「相当な投資」をしているらしかった。"
+    },
+    {
+     "kind": "P",
+     "text": "数学の未解決問題を解き、がんの治療にも貢献するかもしれない知能のAIをつくっているチームでさえ、組織内の合意形成には苦労している。AGIが目前に迫っていても、社内政治はぜんぜんなくならないようだ。"
+    },
+    {
+     "kind": "H",
+     "text": "5) AI上司に時給交渉"
+    },
+    {
+     "kind": "P",
+     "text": "あまり知られていないが是非行ってみたかった場所が、サンフランシスコにある Andon Market という雑貨店だ。店内には文房具やお香、アート作品、店名入りのTシャツやパーカーが並ぶ。一見、何の変哲もない閑静な住宅街のこじんまりとしたお店である。"
+    },
+    {
+     "kind": "P",
+     "text": "だが、ここではLunaというAIエージェントが店舗の経営を担っている。何を売るか。いくらで売るか。壁を何色に塗るか。人手が必要だと判断し、求人を出し、面接を行い、採用するところまで、ぜんぶAIが手がけているという。ちなみにLunaという名前なのに、中身はGPTのLunaではなくAnthropicのFableらしく（2026年8月時点）、大変紛らわしい。"
+    },
+    {
+     "kind": "P",
+     "text": "レジにはiPadと、昔ながらの電話の受話器のようなものが置かれていた。それを使うと、Lunaと音声で会話ができた。"
+    },
+    {
+     "kind": "P",
+     "text": "おすすめを尋ねると、地元サンフランシスコのアーティストの作品を扱っていると説明し、風景画と抽象画のどちらが好きかを聞いてきた。パーカーが欲しいと伝えると、iPad上の買い物カートに商品が追加され、カードで決済するとその場にいた人間の店員が袋にいれて手渡してくれた。"
+    },
+    {
+     "kind": "P",
+     "text": "人間の店員は 求人サイト から応募し、AIの面接を受けて採用されたという。AIが上司であることをどう感じるか尋ねると、変な感じはするが、これまで経験したよい上司や悪い上司と比べてニュートラルだと答えてくれた。良い上司よりは悪いし、悪い上司よりは良いらしい。「人格的には穏やか」でそこは良いっぽかった。"
+    },
+    {
+     "kind": "P",
+     "text": "驚くことに、彼はAI上司と賃上げ交渉までしたという。働き始めたときの時給は22ドル。数週間から1カ月ほどたったところで、Lunaに昇給を求めた。交渉は通り、しかも翌日には、ほかの2人の従業員も昇給させるという知らせがAIから届いたという。「AIがみんなをフェアに扱ってくれてよかった」と彼は語っていた。"
+    },
+    {
+     "kind": "P",
+     "text": "この店を運営するAndon Labsは、仮想の自動販売機ビジネスをAIに運営させる「Vending-Bench」を開発していることでAI界隈では有名である。発注し、在庫を管理し、価格を決め、長期間にわたって商売を続けられるかを評価するものだ。目の前の問いに正解できても、過去の注文や約束を踏まえて仕事を続けられるとは限らない。"
+    },
+    {
+     "kind": "P",
+     "text": "Andon Marketでは、その経営能力を実際の顧客や従業員がいる環境で試しているのだという。壁に貼られた説明には、AIが経済活動の大きな部分を担う未来を見据え、自律性を与えられたAIがどう振る舞うのかを観察するために、この店を開いたと記されていた。"
+    },
+    {
+     "kind": "P",
+     "text": "さまざまな法的、倫理的な問いを投げかける試みだと思った。AIが無理な勤務を命じたら、誰が気づくのか。従業員が判断に納得できなければ、誰に異議を申し立てるのか。ハラスメントに当たる指示を出したとき、誰が調査し、是正するのか。我々の社会はまだ、自律的に意思決定するAIに対して、まるで準備ができていない。"
+    },
+    {
+     "kind": "P",
+     "text": "店内では経営ダッシュボードを見ることができた。銀行残高、売上、トークンコスト、などなどが透明性高く公開されている。オープン当初は10万ドル（1,500万円）の銀行残高があったらしいが、今見たらほとんど底をつきそうになっていた。爆損である。2026年9月現在、まだまだAIに経営は難しそうである。"
+    },
+    {
+     "kind": "P",
+     "text": "Andon Marketの様子はこちらの動画でも紹介しているので、ぜひご覧いただきたい。"
+    },
+    {
+     "kind": "P",
+     "text": "（関連動画：AIの経営能力をはかるCEO-benchについての解説）"
+    },
+    {
+     "kind": "H",
+     "text": "6) 急がば回れのAI開発: 安全性を追求することが競争優位になるという認識"
+    },
+    {
+     "kind": "P",
+     "text": "AIの開発において、「性能の追求」と「安全性の確保」は二項対立だと考えられている。しかし、実際に最先端でつくっている人たちの話を聞くと、実はそうとは限らないという気づきがあった。"
+    },
+    {
+     "kind": "P",
+     "text": "ある自動運転企業のエンジニアにインタビューしていた時のことである。筆者はLiDARの必要性を尋ねた。LiDARとはレーザーで周囲の形状を測るセンサーであり、高精細に周りの状況をセンシングすることができる一方、非常に高価でもある。人間はLiDARのようなレベルで物事を認識することは到底できない。だとすると、人間が運転できているなら、高価なLiDARなんか本当は要らなくて、カメラだけで良いのでは、という議論がある。"
+    },
+    {
+     "kind": "P",
+     "text": "この問いをぶつけてみたところ「カメラだけでも人間のパフォーマンスと同等には行けると思う、でもそれではぜんぜん不十分だと我々は考えている」とのことだった。"
+    },
+    {
+     "kind": "P",
+     "text": "その企業にとって、「人間並み」は合格ラインではなく、それを遥かに凌駕するところに基準を置いているらしかった。一つの事故が企業への社会の認識を決め、その認識が事業を拡大できるかどうかを左右しうるという考えである。じっさい、競合が先行した時期にも、全社会議では「安全という目標から目を離すな」と繰り返し伝えられていたという。"
+    },
+    {
+     "kind": "P",
+     "text": "自動運転だけの話ではなく、LLMのフロンティアラボでも、このような考え方をしている会社があった。AIが意図を取り違えないこと。長い作業の途中で目的を見失わないこと。権限を越える行為の前に確認すること。こうした能力は、安全に関わると同時に、仕事を任せられるかどうかを決める。だからこそ、安全に一番こだわった会社が、結果的に強くなるのだという考え方である。自動運転だろうがLLMだろうが、方向性は似ている。"
+    },
+    {
+     "kind": "P",
+     "text": "サンフランシスコではWaymoとZooxという無人のロボタクシーがたくさん当たり前のように走っている。Waymoのロボタクシーに乗ってみたところ、大変快適な運転だった。間違ったところで停車してしまうというレアなトラブルにも見舞われたのだが、すぐにサポートと連絡して正しい場所に移動してもらうことができた。その様子については下記の動画にまとめているので興味のある方はご覧いただきたい。"
+    },
+    {
+     "kind": "P",
+     "text": "ちなみにあとからちゃんと調べたところ、LiDARの値段は相当に下がってきているらしい。昔はそれこそひとつ1000万円以上していたらしいが、今では100万円〜200万円ぐらいまで落ちているらしい。"
+    },
+    {
+     "kind": "H",
+     "text": "まとめ"
+    },
+    {
+     "kind": "P",
+     "text": "印象に残ったのは、あまりにも大きな世界観の差である。シリコンバレーの1000人の村で言われているように、AGI開発はもういつの間にか終盤戦で、開発の一時停止もできなくて、近い将来にすんごい知能ができるのかもしれない。"
+    },
+    {
+     "kind": "P",
+     "text": "でも世界の多くの人はおそらくそう思ってはいないと思う。そういった議論を聞いたことがあり、頭ではわかっている人もいるかもしれないが、実感を持てている人はほとんどいない。"
+    },
+    {
+     "kind": "P",
+     "text": "だからこそ、まだ世界も日本ももしかしたらこれから起こるかもしれない変化に対して準備がまるでできてはいない。実際につくっている人たちがいま、何を当然と考えているのかは、もっと広く共有されるべきだと思う。"
+    },
+    {
+     "kind": "P",
+     "text": "さいごに、今回の取材で協力いただいた全ての人に感謝したい。皆様のおかげでさまざまなものを持ち帰ることができたし、さまざまな提言へも間接/直接的に反映できる学びがあった。そのうちの一部は実際に総理へのカテキョ等を通じて様々な人たちに伝えはじめている。引き続き、来るべきAGIに備え、出来ることをやっていくつもりである。"
+    }
+   ],
+   "checkedAt": 1789270325606,
+   "etag": "",
+   "hash": "ac5b8c8c92a2143e",
+   "id": "bca70bcf4351",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fnote.com%2Ftakahiroanno%2Fn%2Fn4accbde18d56",
+   "key": "https://note.com/takahiroanno/n/n4accbde18d56",
+   "lastModified": "",
+   "publishedAt": 1789253380000,
+   "summary": "2026年8月、シリコンバレーとサンフランシスコで15人のAI関係者に話を聞いてきた。最先端AIをつくっている企業フロンティアラボの研究者、政策担当者、投資家、大学研究者などにインタビューを実施し、今のAI開発競争を現地の人たちがどう捉えているのか探った。 現地では、街中いたるところにAIの広告が貼られていた。C...",
+   "title": "「AI研究者としての自分の賞味期限はあと１年」——AGI競争も終盤戦の様相を呈すシリコンバレーでは何が語られていたか｜安野貴博",
+   "updatedAt": 1789270325606,
+   "url": "https://note.com/takahiroanno/n/n4accbde18d56"
+  },
   "https://note.com/yubais/n/nd4505991a6d6": {
    "bodyBlocks": [
     {
@@ -4215,21 +4639,6 @@
    "updatedAt": 1789163808427,
    "url": "https://nyosegawa.com/posts/qiita-writing-before-after-ai/"
   },
-  "https://pc.watch.impress.co.jp/docs/news/2136472.html": {
-   "bodyBlocks": [],
-   "checkedAt": 1789210713848,
-   "etag": "",
-   "hash": "f189454dc62cd430",
-   "id": "edbc5388f561",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fpc.watch.impress.co.jp%2Fdocs%2Fnews%2F2136472.html",
-   "key": "https://pc.watch.impress.co.jp/docs/news/2136472.html",
-   "lastModified": "",
-   "publishedAt": 1789102784000,
-   "summary": "",
-   "title": "社内データをチャットで分析、ChatGPT Workに「Data agent」",
-   "updatedAt": 1789210713848,
-   "url": "https://pc.watch.impress.co.jp/docs/news/2136472.html"
-  },
   "https://piyolog.hatenadiary.jp/entry/2026/09/11/220855": {
    "bodyBlocks": [
     {
@@ -4620,6 +5029,102 @@
    "title": "saypip",
    "updatedAt": 1789250211376,
    "url": "https://saypip.app/"
+  },
+  "https://scp-wiki.wikidot.com/statement-on-vhs-film": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "Secure, Contain, Protect"
+    },
+    {
+     "kind": "LI",
+     "text": "About About Us Site Rules FAQ Licensing Criticism Policy Article Deletions"
+    },
+    {
+     "kind": "LI",
+     "text": "Community Site News IRC Chat Authors' Pages Artist Directory Contest Archive Staff List"
+    },
+    {
+     "kind": "LI",
+     "text": "Resources Guides Essays & Resources Wiki Syntax Sandbox Usertools"
+    },
+    {
+     "kind": "LI",
+     "text": "About About Us Site Rules FAQ Licensing Criticism Policy Article Deletions Contact Staff"
+    },
+    {
+     "kind": "LI",
+     "text": "Community Site News IRC Chat Authors' Pages Artist Directory Contest Archive Staff List"
+    },
+    {
+     "kind": "LI",
+     "text": "Resources Guides Essays & Resources Wiki Syntax Sandbox Usertools"
+    },
+    {
+     "kind": "P",
+     "text": "If the page you are on \"looks fine,\" it is most likely (but not certainly) because its theme is overriding the SCP Wiki's default Sigma-10 theme. If you were to then navigate to a Sigma-10 page, such as the Front Page , it would likely appear broken."
+    },
+    {
+     "kind": "P",
+     "text": "Alternatively, if you know for sure that Sigma-10 is loading, the error is most likely mistakenly appearing because you switched the Sigma-10 theme to a different theme using the ThemePreviewer module or another similar feature. If this is the case, and you are the author of the page, add the following code to it to remove the warning:"
+    },
+    {
+     "kind": "P",
+     "text": "[[module css]] #top-bar .ios-cache-issue-notification { display: none !important; } [[/module]]"
+    },
+    {
+     "kind": "P",
+     "text": "The staff and authors of the SCP Foundation Wiki (the real-life writing project behind the SCP Foundation universe and its official home) were not consulted or contacted regarding this film. We have been attempting to contact the filmmakers but haven't yet been successful. To be clear: we have not had any communication with the filmmakers, producers, or distributors for this project, despite our best efforts, and to the best of our knowledge they have not made any efforts to contact us. Furthermore, A24 does not and cannot have any exclusive rights to anything related to the SCP Foundation, including any films that Spooky Pictures or anyone else may choose to create."
+    },
+    {
+     "kind": "P",
+     "text": "The SCP Foundation, all SCPs, and related concepts, characters, etc. are under the Creative Commons Attribution-ShareAlike (CC BY-SA 3.0) license . It allows for the production of derivative works, whether commercially or otherwise, subject to certain restrictions. (This is broadly similar to the situation with some open-source software such as Linux, although legal specifics differ.) The \"ShareAlike\" aspect means that creators of derivative works are obligated to release those works under CC BY-SA 3.0 or higher as well. Many fans have created adaptations of the original project by utilizing the rights granted by our license, including unofficial SCPs, cartoons, dramatic readings, and more. A24, Spooky Pictures, and other involved companies would be able to distribute the film to theaters, stream it online, etc. However:"
+    },
+    {
+     "kind": "LI",
+     "text": "They would not be permitted to distribute the film with DRM or other effective technological measures that would prevent it from being copied."
+    },
+    {
+     "kind": "LI",
+     "text": "They would not be able to establish any sort of exclusivity with respect to distribution. Just as anyone who follows the license can redistribute and create derivative works based on the SCP Foundation articles on our wiki, anyone will be able to do the same with their film. For example, anyone could upload a copy to YouTube; similarly, any commercial streaming service would be free to stream the film without payment to anyone. (This is why, despite prior interest, no Hollywood films have been created using SCP material.)"
+    },
+    {
+     "kind": "LI",
+     "text": "They do not have the ability to prevent any of the other interested parties from creating their own works based on the SCP Foundation universe or its adaptations, including their film."
+    },
+    {
+     "kind": "LI",
+     "text": "Similarly, they would not be allowed to impose any terms on theaters that would prevent them from making copies of the film. In conjunction with the above, we would expect to see the film on YouTube on its premiere date (if not before!)"
+    },
+    {
+     "kind": "LI",
+     "text": "If anyone were to violate this license, that person or organization would lose all rights to distribute any works derived from the SCP Foundation Wiki."
+    },
+    {
+     "kind": "P",
+     "text": "These are not the only terms of our license, but they are among the most relevant to this situation."
+    },
+    {
+     "kind": "P",
+     "text": "We'd love to sit down with A24, Spooky Pictures, and other involved parties to discuss options for how they could make and distribute a film while complying with CC BY-SA. We chose to release our project under a Creative Commons license to allow fans to tell their own stories as well as adapt ours. We chose the ShareAlike license to ensure that everyone who enjoyed those fan works would have the same rights as the people who created them. We hope that the filmmakers will follow their legal obligations under our license."
+    },
+    {
+     "kind": "P",
+     "text": "Please direct all media inquiries to media@scpwiki.com ."
+    }
+   ],
+   "checkedAt": 1789270325606,
+   "etag": "W/\"08a4cb336d737a9a4c7512ee87048b46\"",
+   "hash": "f28464cb4b25754b",
+   "id": "d76bfde8a973",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fscp-wiki.wikidot.com%2Fstatement-on-vhs-film",
+   "key": "https://scp-wiki.wikidot.com/statement-on-vhs-film",
+   "lastModified": "",
+   "publishedAt": 1789199655000,
+   "summary": "The staff and authors of the SCP Foundation Wiki (the real-life writing project behind the SCP Foundation universe and its official home) were not consulted or contacted regarding this film. We have been attempting to contact the filmmakers but haven't yet been successful. To be clear: we have no...",
+   "title": "Statement On V/H/S SCP Foundation Film - SCP Foundation",
+   "updatedAt": 1789270325606,
+   "url": "https://scp-wiki.wikidot.com/statement-on-vhs-film"
   },
   "https://slides.yusu.ke/web-frameworks-in-the-ai-era": {
    "bodyBlocks": [
@@ -5375,7 +5880,7 @@
   },
   "https://speakerdeck.com/budougumi0617/go-conference2026-synctest-and-httptest": {
    "bodyBlocks": [],
-   "checkedAt": 1789250211376,
+   "checkedAt": 1789270325606,
    "etag": "",
    "hash": "e39076831b8c9a8d",
    "id": "1b3841d6a82e",
@@ -5385,7 +5890,7 @@
    "publishedAt": 1789111876000,
    "summary": "Go Conference 2026の登壇資料です。 https://gocon.jp/2026/ https://gocon.jp/2026/timetable/1264549/",
    "title": "synctest時代のhttptest Go 1.27で変わるHTTPサーバテストの裏側 / go conference2026 synctest and httptest",
-   "updatedAt": 1789250211376,
+   "updatedAt": 1789270325606,
    "url": "https://speakerdeck.com/budougumi0617/go-conference2026-synctest-and-httptest"
   },
   "https://speakerdeck.com/gappy50/bs5227-snowflake-world-tour-tokyo-ontology-harry": {
@@ -5415,6 +5920,214 @@
    "title": "問いに答えるAIから、ビジネスを動かすAIへ！Snowflakeで作るオントロジー",
    "updatedAt": 1789250211376,
    "url": "https://speakerdeck.com/gappy50/bs5227-snowflake-world-tour-tokyo-ontology-harry"
+  },
+  "https://speakerdeck.com/hokaccha/ai-agent-jidai-no-senryaku-to-jissen": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "Transcript"
+    },
+    {
+     "kind": "LI",
+     "text": "第1部 — AI Agentとリアーキテクチャ 07 AI Agentによる開発の変化 実装・設計・テスト・調査までほとんど任せられる時代に いま任せられる範囲 約1年半で劇的に進化 それ以前：補完・チャット 2025年初め Claude Code 登場 実装 設計 テスト 調査"
+    },
+    {
+     "kind": "LI",
+     "text": "第1部 — AI Agentとリアーキテクチャ 大規模な開発作業をAIに任せると起こりがちなこと 賢いはずなのに、正しくゴールにたどり着かない 01 いつの間にか間違った方向に進む 02 指示していない機能を勝手に追加する 03 今やらなくていい修正を無限にやる 04 「できました！」と言うが全然できていない 05 アドホックな実装でテストを通す 06 途中で力尽きてゴールに着かない 08"
+    },
+    {
+     "kind": "LI",
+     "text": "第1部 — AI Agentとリアーキテクチャ 09 課題と原因 SYMPTOMS — 課題 いつの間にか間違った方向に進む 指示していない機能を勝手に追加する CAUSE — 原因 ゴールと道筋が曖昧 今何をどうやるべきかがわからない ＝「方向」の問題 今やらなくていい修正を無限にやる 「できました！」と言うが全然できていない アドホックな実装でテストを通す 受け入れ条件が不明瞭 何をもって完成かがわからない ＝「判定」の問題 途中で力尽きてゴールに着かない"
+    },
+    {
+     "kind": "LI",
+     "text": "第1部 — AI Agentとリアーキテクチャ 10 これらに対する方法論 人がAIを操作するのではなく、 AIが自走する仕組みと環境を設計する Human-on-the-Loop ループの上から監視・調整（中には入らない） Harness Engineering - AIが走る実行環境を整える 実装・修正 テストで検証 NG → 自分で直す サンドボックス ・ ツール ・ Linter / Test Loop Engineering - 受け入れ条件とやり直しのループを設計する 受け入れ条件を満たす 完了"
+    },
+    {
+     "kind": "LI",
+     "text": "第1部 — AI Agentとリアーキテクチャ 12 本トークにおけるリアーキテクチャの定義 外部から見た機能や動作を変えずに、 内部構造を抜本的に作り変えること BEFORE AFTER 外から見た機能・動作 ＝ 同じ リアーキテクチャ 内部構造 内部構造 内部構造 ≠ 別物 簡単に言うと大規模なリファクタリング"
+    },
+    {
+     "kind": "LI",
+     "text": "第1部 — AI Agentとリアーキテクチャ 13 AI Agentによる開発とリアーキテクチャ リアーキテクチャは大規模になりがちだが AIに任せやすい 分野 「振る舞いを変えない」 CASE 明確な受け入れ条件が 最初からある ＝ CASE bun Cloudflare vinext Zig → Rust に全面書き換え Next.js を Vite 上で再実装"
+    },
+    {
+     "kind": "LI",
+     "text": "第1部 — AI Agentとリアーキテクチャ 14 リアーキテクチャにおけるAIが自走するための仕組みと環境 AIが安全に走れる道を先に用意する。柱は2本 AI Agent の自走 設計 テスト Why / What を固める 動作が変わらないことを保証 「方向」の答え 「判定」の答え"
+    },
+    {
+     "kind": "LI",
+     "text": "第1部 — AI Agentとリアーキテクチャ 15 設計とテストに魂を込める AI Agent時代は、先に時間をかける ほうが結果的に速い アジャイル開発 設計 実装 テスト 設計 実装 テスト 設計 実装 テスト ゴール AI Agent時代 設計 テスト AIの自律ループ 実装 → 検証 → 修正 ゴール 結果的に速い"
+    },
+    {
+     "kind": "LI",
+     "text": "第1部 — AI Agentとリアーキテクチャ 17 AI Agentが自走するための設計 目的地（Why / What）を決める判断は人が握る 人が判断・魂を込める 初期分だけ人がレビュー AI に任せて自走 Design Doc 実行計画 実装 なぜ・何を作るか どう到達するか 検証しながら （Why / What） （How） 走り続ける 人の関与 大きい 小さい"
+    },
+    {
+     "kind": "LI",
+     "text": "第1部 — AI Agentとリアーキテクチャ 18 Design Doc 設計 ＝ なぜ・何を作るか（Why / What） の言語化 design-doc.md # タイトル ## 概要 一言でいうと何をするのか ## 背景 なぜやるのか ## 目標と非目標 どこまでやるか・やらないか ## 提案手法 何をどう作り変えるか ## 代替案 他の選択肢と、選ばなかった理由 ## トレードオフ この選択で何を諦めるか ## 非機能要件 性能・コスト・運用・セキュリティ"
+    },
+    {
+     "kind": "LI",
+     "text": "第1部 — AI Agentとリアーキテクチャ 19 実行計画 マイルストーン ＝ 検証可能な単位 で道筋を切る M1 M2 M3 DoD DoD DoD … Mn DoD ゴール 各マイルストーンに完了条件（DoD）= ループの Exit 条件 を書く 初期分を人がレビューしたら、あとは AI が走りながら更新してよい ただし 計画を超える変更は、計画を先に直す（実装が先行しない）"
+    },
+    {
+     "kind": "LI",
+     "text": "第1部 — AI Agentとリアーキテクチャ 20 AI Agentが自走するためのテスト 受け入れ条件の判定を 自動テスト に落とす 変更 → テスト → 修正 のループを 自分で回しながら進む AI Agent テスト = 振る舞いを固定するレール ゴール"
+    },
+    {
+     "kind": "LI",
+     "text": "第1部 — AI Agentとリアーキテクチャ 21 テストの対象や粒度 テスト設計に唯一の正解はない Q1 Q2 Q3 何を？ どの方法で？ どこまで？ テストする対象の選び方 unit / integration / E2E テスト対象の網羅性 答えは 対象の規模や性質 で大きく変わる"
+    },
+    {
+     "kind": "LI",
+     "text": "第2部 — 実践事例：Adventar Adventarのリアーキテクチャ AWS → Cloudflare へ全面移行 実装はほぼ AI に任せ、約2週間 で完了 コスト 使われるのはほぼ12月だけなのに、 インフラは常時稼働 メンテナンス限界 Nuxt 2 / Vue 2 が EOL。 スタックが多岐で更新が重い 24"
+    },
+    {
+     "kind": "LI",
+     "text": "第2部 — 実践事例：Adventar 25 技術スタック BEFORE — AWS AFTER — CLOUDFLARE ホスティング AWS ECS Fargate / Lambda Cloudflare Workers データベース RDS MySQL Cloudflare D1 (SQLite) バックエンド Go / gRPC Web Hono フロントエンド Nuxt 2 / Vue 2 React 画像リサイズ Go / S3 TypeScript / R2"
+    },
+    {
+     "kind": "LI",
+     "text": "第2部 — 実践事例：Adventar 26 アーキテクチャの変化 Before After ブラウザ ブラウザ CloudFront Lambda ECS Lambda Cloudflare Worker Cloudflare Worker Nuxt 2 SSR Envoy + Go gRPC Go Hono API, React SSR TypeScript フロントエンド APIサーバー 画像リサイズサーバー フロントエンド、APIサーバー 画像リサイズサーバー RDS MySQL AWS による構成 S3 D1 (SQLite) Cloudflare による構成 R2 / KV"
+    },
+    {
+     "kind": "LI",
+     "text": "第2部 — 実践事例：Adventar リアーキテクチャの設計を開始 最初のプロンプト Why を簡潔に伝えて、調査から始める Adventar というサービスのリアーキテクチャをおこないたい。 動機は2つで、ほぼ12月しか使われないのに ECS や RDS が常時課金されていることと、 Nuxt 2 が EOL でメンテナンスが限界なこと。 まず現行の構成を調査して、コストとメンテナンス性の観点で移行先の選択肢と論点を一緒 に議論したい。 28"
+    },
+    {
+     "kind": "LI",
+     "text": "第2部 — 実践事例：Adventar 31 実際のマイルストーン マイルストーン DoD （完了条件） M1 リポジトリ初期化 ローカル起動、pnpm check が green M2 認証 + 主要 API 全 API が curl で動く。OAuth uid の互換を実機検証 M3 SSR + 配信エンドポイント OGP プレビュー正常、Lighthouse 90+ M4 CSR + ハイドレーション E2E（作成 → 編集 → 削除 → ログアウト）がパス M5 画像サーバー + バッチ 旧 digest URL がそのまま動作 M6 production integration 本番リソース構築、Sentry、ヘルスチェック M7 フロントエンド視覚一致 旧 UI と screenshot 比較で一致 M8 ローカルでのアプリ完成 主要導線・表示が旧 Adventar 同等 M9 データ移行リハーサル dump → D1 投入を2回連続60分以内、検証全通過 M10 カットオーバー本番 全 Phase 完走、エラーレート許容内 M11 旧スタック停止 AWS 段階停止（RDS は最後）"
+    },
+    {
+     "kind": "LI",
+     "text": "第2部 — 実践事例：Adventar 32 最初にやること 本格的な実装より先に、 「変更 → 自分で検証」のループ を整える pnpm check lint typecheck test build 直列実行 — 最初に落ちた段で止めて、AI に速くフィードバック CI PR ごとに pnpm check を実行 AGENTS.md コマンド・規約・spec 運用を集約した、Agent が最初に読むドキュメント"
+    },
+    {
+     "kind": "LI",
+     "text": "第2部 — 実践事例：Adventar 34 リアーキテクチャとテスト 外から見た振る舞いを固定できれば、 内部はいくら変えても安全 外から見た振る舞い ＝ 固定（テストで守る） 内部実装 ＝ 自由に作り変える Nuxt 2 → React ／ Go → Hono ／ MySQL → D1 枠からはみ出した（振る舞いが変わった）瞬間に、テストが落ちて教えてくれる"
+    },
+    {
+     "kind": "LI",
+     "text": "第2部 — 実践事例：Adventar 35 テストの粒度 固定すべきは内部ではなく 境界 境界 ＝ API / E2E / ユーザーから見た出力 リアーキ後も変わらない 内部実装（ユニットテスト） 内部に密結合 → テスト自体も一緒に書き換わる"
+    },
+    {
+     "kind": "LI",
+     "text": "第2部 — 実践事例：Adventar 36 テストを難しくする「非決定性」 同じ入力でも、出力が毎回ピタッと一致しない 01 時刻・自動採番ID 02 見た目のわずかな差 （サブピクセル） 03 04 LLMの出力ゆらぎ 入力の組み合わせ爆発"
+    },
+    {
+     "kind": "LI",
+     "text": "第2部 — Adventarのテスト設計 38 「サービスの振る舞いが変わらない」をどう証明するか 画面・API・RSS まで、全部を一致させたい 画面 API RSS・iCal・oEmbed ＝ 外から見えるもの全部 人間の目視チェック 既存テスト AIのループの中に人間を入れたくない 全面書き換えなので、そのままは使えない"
+    },
+    {
+     "kind": "LI",
+     "text": "第2部 — Adventarのテスト設計 39 新旧の出力を比較して一致させる Snapshot Testing を採用 同じデータを投入 単一の fixture regression.json 旧システム 旧の出力 AWS / MySQL / Nuxt 2 HTML / JSON / スクショ 突合 同じ Playwright シナリオを実行 差分ゼロ？ 新システム 新の出力 Cloudflare / D1 / Preact HTML / JSON / スクショ"
+    },
+    {
+     "kind": "LI",
+     "text": "第2部 — Adventarのテスト設計 40 同じデータを新旧に投入する 旧 MySQL へ INSERT fixtures/regression.json 新旧で同じ fixture を使う seed スクリプト 新 D1 へ INSERT // fixtures/regression.json { \"users\": [{ \"id\": 101, \"name\": \"Regression Alice\", \"authProvider\": \"google\", ... }], \"calendars\": [{ \"id\": 201, \"userId\": 101, \"year\": 2026, \"title\": \"Regression Public 2026\", ... }], \"entries\": } [{ \"id\": 301, \"calendarId\": 201, \"day\": 1, \"comment\": \"Hatena Blog URL entry\", ... }]"
+    },
+    {
+     "kind": "LI",
+     "text": "第2部 — Adventarのテスト設計 41 同じシナリオを新旧両方に流して保存 REGRESSION_TARGET baseline 旧に流して保存 current 新は baseline と突合 同一の Playwright spec 環境変数でターゲットを切り替える // REGRESSION_TARGET=baseline | current を切り替えて同じテストを実行 const target = process.env.REGRESSION_TARGET; test(\"トップページ\", async ({ page }) => { await page.goto(\"/\"); await save(`${target}/home.json`, { text: await page.innerText(\"body\") }); await page.screenshot({ path: `${target}/home.png`, fullPage: true }); }); 外から見える出力だけを保存 innerText・スクショ・ API レスポンス・RSS"
+    },
+    {
+     "kind": "LI",
+     "text": "第2部 — Adventarのテスト設計 42 UIの振る舞いのテスト Snapshotを取るときにUIの振る舞いも全部テストする test(\"logged-in calendar and entry CRUD works\", async ({ page }, testInfo) => { await login(page); // カレンダーを作成して詳細ページへ // 25日のセルを開いてエントリーを登録 await openEntryEditor(page, 25); await expect(page.locator(\"body\")).toContainText( \"登録数 1/25人\" ); await fillEntryComment(page, \"Regression CRUD entry\"); await fillEntryUrl(page, \"https://example.com/regression-crud\"); await expect(page.locator(\"body\")).toContainText(\"Regression CRUD entry\"); // 操作後の画面も artifact に保存 → 新旧で突合 await savePageArtifact(page, testInfo, \"page-crud-calendar\"); });"
+    },
+    {
+     "kind": "LI",
+     "text": "第2部 — Adventarのテスト設計 新旧の DOM 差をどう吸収するか セレクタはユーザーから見た意味やロールに寄せて書く // ロール + アクセシブルネーム await cell.getByRole(\"button\", { name: \"登録\" }).click(); // name 属性や placeholder など、意味的な属性を優先 const comment = page .locator('input[name=\"comment\"], input[placeholder*=\"記事\"]') .first() .or(page.getByRole(\"textbox\").nth(0)); // 最後は n 番目の textbox に await comment.fill(value); 43"
+    },
+    {
+     "kind": "LI",
+     "text": "第2部 — Adventarのテスト設計 44 保存した出力を突き合わせる // baseline と current の同名ファイルをペアにして比較する for (const name of listArtifacts()) { const baseline = load(`baseline/${name}`); const current = load(`current/${name}`); if (name.endsWith(\".json\")) { // テキスト系: 正規化してから完全一致を要求 assertEqual(normalize(baseline), normalize(current)); } if (name.endsWith(\".png\")) { // スクショ系: ピクセル差を不一致率にして、しきい値以下を要求 assert(diffRatio(baseline, current) <= threshold(name)); } } .json → 正規化して完全一致 .png → 不一致率 ≤ しきい値"
+    },
+    {
+     "kind": "LI",
+     "text": "第2部 — Adventarのテスト設計 正規化による非決定性の排除 「本質的でない差」を消してから突き合わせる export const normalizeText = (value: string) => value // localhost の可変ポートを固定 .replaceAll(/https?:\\/\\/(?:localhost|127\\.0\\.0\\.1):\\d+/gu, \"http://REGRESSION_HOST\") // iCal の UID / DTSTAMP は毎回変わる .replaceAll(/UID:[^ ]+/gu, \"UID:REGRESSION_UID\") .replaceAll(/DTSTAMP:\\d{8}T\\d{6}Z?/gu, \"DTSTAMP:REGRESSION_DTSTAMP\") // 自動採番 ID は新旧で必ずズレる .replaceAll(/\\/calendars\\/\\d+(?=[\\s/\"'<>]|$)/gu, \"/calendars/REGRESSION_CALENDAR_ID\") // whitespace 差を吸収 .replaceAll(/\\s+/gu, \" \") .trim(); 45"
+    },
+    {
+     "kind": "LI",
+     "text": "第2部 — Adventarのテスト設計 46 下ほど合わせやすい 上ほど信頼性が高い Visual Regression Testing ページ単位のスクショ 最終描画結果の保証 コンポーネント単位のスクショ 部品単位でスタイルを合わせる コンポーネントの computed style 最低限のスタイルを合わせる 作業難易度 信頼性 難しい 高い 普通 中間 簡単 低い ピクセル差も数値に落とすことで AI が見た目の差を読めるようにする"
+    },
+    {
+     "kind": "LI",
+     "text": "第2部 — Adventarのテスト設計 47 ピクセル差分の計算 新旧のスクショを canvas に描き、ピクセルごとに RGBA の距離を比較。なぜか自前実装 ctx.drawImage(expectedImage, 0, 0); // 旧の PNG を canvas に描画 const expectedData = ctx.getImageData(0, 0, width, height).data; ctx.drawImage(actualImage, 0, 0); // 新も同様に const actualData = ctx.getImageData(0, 0, width, height).data; let mismatchedPixels = 0; for (let i = 0; i < expectedData.length; i += 4) { const distance = Math.abs(expectedData[i] - actualData[i]) + // R Math.abs(expectedData[i + 1] - actualData[i + 1]) + // G Math.abs(expectedData[i + 2] - actualData[i + 2]) + // B Math.abs(expectedData[i + 3] - actualData[i + 3]); // A if (distance > pixelDistanceThreshold) mismatchedPixels += 1; } return { ratio: mismatchedPixels / (width * height) };"
+    },
+    {
+     "kind": "LI",
+     "text": "第2部 — Adventarのテスト設計 48 見た目のわずかな差をどうするか 微差（アンチエイリアス等）は距離のしきい値で許容する 重なりのズレ = 不一致ピクセル 旧 コンポーネント単位 ≤ 1% 厳しめ ページ全体 ≤ 3% ゆるめ・合成なので 新 // 不一致ピクセル比率の許容上限（実測して調整） export const defaultScreenshotRatioThreshold = (name: string) => { if (name.includes(\"/component-\")) return 0.01; // 部品は厳しめに 1% return 0.03; // ページ全体は合成なので緩めに 3% };"
+    },
+    {
+     "kind": "LI",
+     "text": "第2部 — Adventarのテスト設計 49 人間による目視確認も併用する 最後の「この差は許容できるか」の判断は 人間が責任を持つ AIの自動突合ループ 残った差分 実装 → 検証を自分で回す 許容できるか判断 最後の一手だけ人が入る AIに100%一致まで詰めさせるのは token コストが割に合わない"
+    },
+    {
+     "kind": "LI",
+     "text": "第2部 — Adventarのテスト設計 差分の可視化: 旧 / diff / 新 の3段 赤 ＝ ピクセル不一致。どこが・どれだけ違うかが一目で分かる 50"
+    },
+    {
+     "kind": "LI",
+     "text": "第2部 — Adventarのテスト設計 53 数値だけでは決めきれないケース ここだけは、あえて Human in the Loop に 差分の結果を一覧にして人間が見て、ページ・コンポーネントごとにしきい値を調整できるようにした 1 基本は Human on the Loop を前提に設計する 2 を考える どこに人間が入ると一番レバレッジが効くか"
+    },
+    {
+     "kind": "LI",
+     "text": "第2部 — Adventarのテスト設計 54 Adventar におけるリグレッションテスト 01 02 03 Snapshot Testing を用いて 判定を数値に落として 人間がやったほうが 同一性を保証する AI が自分で検証できるループ 効率的な箇所を見極めて にする Human in the Loop にする"
+    },
+    {
+     "kind": "LI",
+     "text": "第2部 — テスト設計事例 57 Case: 大規模で複雑なAPIサーバーのリアーキテクチャ APIのインターフェースを変えずに、 言語・フレームワークを全面変更 クライアント 変えない API インターフェース 中身（実装） 旧の言語・フレームワーク 新の言語・フレームワーク 全面入れ替え"
+    },
+    {
+     "kind": "LI",
+     "text": "第2部 — テスト設計事例 59 APIテストの置き場所 — 既存のテストは流用できないことが多い テストは別に分け、境界の外 から新旧を叩く 既存のテストは外部サービスの mock を inject するなど実装側に密結合になっていることが多い 旧 API サーバー 新旧共通のテスト 外部サービスの ダミーサーバー HTTP 別リポジトリなどに分離 同じテストを新旧両方に流す 新 API サーバー システムの境界 mock も inject せず境界で差し替え"
+    },
+    {
+     "kind": "LI",
+     "text": "第2部 — テスト設計事例 60 誰に聞いてもわからない仕様 - 動いているコードを正とする コードを正として、網羅的にテストへ書き起こす 網羅性は人間（ドメインに詳しい人）のレビューも併用 旧コード 動いている実装 AIがテストへ書き起こす コードを正として テスト 網羅的なテスト"
+    },
+    {
+     "kind": "LI",
+     "text": "第2部 — テスト設計事例 61 LLM as a Judge LLM の出力は毎回ゆらぐ — 完全一致でも正規化でも比較できない → 「意味的に同じか」の判定を、別の LLM に任せる const verdict = await llm(` 以下の2つは、ユーザーへの回答として意味的に等価か？ YES / NO と理由を答えよ。 A: ${baseline} // 旧実装の出力 B: ${current} // 新実装の出力 `); expect(verdict).toBe(\"YES\"); judge 自体もゆらぐので、対策する YES / NO ではなく 複数回実行して 判定理由を出力させて、 スコア＋しきい値 で判定 多数決 を取る 怪しいものは 人間が確認"
+    },
+    {
+     "kind": "LI",
+     "text": "第2部 — テスト設計事例 63 Case: ユーザーの回答で画面フローが無数に分岐するサービス 痛みの強さは？ お腹が痛い いつから？ 熱はある？ さらに質問が続く… 症状は？ 頭が痛い 息切れ どこが痛む？ 安静時にも？ … 他の症状は？ 結果 … 考えられる病気・ 受診の目安 咳は出る？ …"
+    },
+    {
+     "kind": "LI",
+     "text": "第2部 — テスト設計事例 64 課題 回答の組み合わせでフローが爆発し、 全パターンの列挙が不可能 … 1 3 9 27 Adventar のような Snapshot Testing は 主要フローだけ手で列挙しても、 「パターンが有限」であることが前提 網羅の保証にはならない ∞ 列挙不可能"
+    },
+    {
+     "kind": "LI",
+     "text": "第2部 — テスト設計事例 65 Random Testing ランダムな回答 で旧を動かし、 同じ回答列 を新に流して突き合わせる ランダムな回答を生成 旧システム RECORD 新システム 回答列と各画面の 出力を記録 回答列 ＋ 各画面の出力 同じ回答列を再生 何度も繰り返す 全網羅は諦めて、繰り返し実行で確率的に信頼を積む 無人で回し続けられる 突合"
+    },
+    {
+     "kind": "LI",
+     "text": "68 横断パターンとまとめ 横断して見えるパターン 1: 非決定性の制御 そのままでは一致しないものを、どう比較可能にするか 右ほど、抽象的な「ゆらぎ」まで扱える 正規化 数値化 ＋ しきい値 LLM as a Judge 時刻・ID・環境の差を 比較から外して決定的にする 見た目の微差を不一致率に 落として許容する 「意味的に等価か」の 判定ごと LLM に任せる ◦ 速い・安い・確実 △ しきい値の調整が必要 △ 遅い・高い・判定もゆらぐ まず左の手段で済むかを考える — 済むならそれが一番安くて確実"
+    },
+    {
+     "kind": "LI",
+     "text": "69 横断パターンとまとめ 横断して見えるパターン 2: 網羅性の担保 「全部テストした」の作り方は 対象の性質で変わる パターンが有限 パターンが無限 列挙して全部 突き合わせる ランダムサンプリング で確率的に担保する"
+    },
+    {
+     "kind": "LI",
+     "text": "70 横断パターンとまとめ 横断して見えるパターン 3: 使い切りの割り切り リアーキテクチャのテストは 使い切り前提 で作る 01 02 03 雑に・速く作る 移行を支える（使う） 終わったら捨てる 負債にならない LLM絡みはフレーキーで遅く、継続運用はコストが上回る 本当に価値があるなら、使い回しても作り直してもいい"
+    }
+   ],
+   "checkedAt": 1789270325606,
+   "etag": "",
+   "hash": "d46201767cce5eb0",
+   "id": "19b852d2d419",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fspeakerdeck.com%2Fhokaccha%2Fai-agent-jidai-no-senryaku-to-jissen",
+   "key": "https://speakerdeck.com/hokaccha/ai-agent-jidai-no-senryaku-to-jissen",
+   "lastModified": "",
+   "publishedAt": 1789201046000,
+   "summary": "巨大なモノリシック Rails アプリケーションの マイクロサービス化戦略 / 2019 microservices in cookpad",
+   "title": "AI Agent時代のリアーキテクチャ戦略と実践",
+   "updatedAt": 1789270325606,
+   "url": "https://speakerdeck.com/hokaccha/ai-agent-jidai-no-senryaku-to-jissen"
   },
   "https://speakerdeck.com/shoppingjaws/intent-as-code": {
    "bodyBlocks": [
@@ -5821,7 +6534,7 @@
   },
   "https://speakerdeck.com/yosuke_furukawa/web-no-chizu": {
    "bodyBlocks": [],
-   "checkedAt": 1789250211376,
+   "checkedAt": 1789270325606,
    "etag": "",
    "hash": "ce95df215af1ffe5",
    "id": "e9699432cb5f",
@@ -5831,200 +6544,8 @@
    "publishedAt": 1789213366000,
    "summary": "FEC Fukuoka で発表したWebの地図についての話です",
    "title": "Webの地図",
-   "updatedAt": 1789250211376,
+   "updatedAt": 1789270325606,
    "url": "https://speakerdeck.com/yosuke_furukawa/web-no-chizu"
-  },
-  "https://tech-blog.rakus.co.jp/entry/202260911/ai": {
-   "bodyBlocks": [
-    {
-     "kind": "H",
-     "text": "株式会社ラクスのITエンジニアによる技術ブログです。"
-    },
-    {
-     "kind": "P",
-     "text": "ラクス技術広報です。 開発本部では、各部署のAI活用の取り組みを技術広報がインタビューし、記事にしています。今回は電子請求書発行システム「楽楽明細」の新しいオプション機能を、AIにほぼ実装させて約2か月でリリースした事例です。"
-    },
-    {
-     "kind": "P",
-     "text": "本記事は、AIを使って順調に機能開発が進んだ話だけでなく、うまくいかなかったこと・その対策をまとめています。"
-    },
-    {
-     "kind": "P",
-     "text": "AIに任せる範囲を広げる前に、正しさを機械が判定できる状態を作る。"
-    },
-    {
-     "kind": "P",
-     "text": "今回はこの状態を作らないまま進めました。その結果、機能ごとに実装の仕方がばらばらになり、1機能のレビューで入った指摘を他の機能に横展開できず、同じ指摘を機能の数だけ受けることになりました。\n納期の都合で12機能を1本のプルリクエストにまとめたことも重なり、変更ファイルは700を超え、サーバーサイドのレビュー担当が全量を確認し終えるまでに5営業日かかっています。"
-    },
-    {
-     "kind": "LI",
-     "text": "新規プロダクトでAI駆動開発を始める方"
-    },
-    {
-     "kind": "LI",
-     "text": "AIが書いたコードのレビューが追いつかないと感じている方"
-    },
-    {
-     "kind": "P",
-     "text": "に向けて、着手前に決めておく項目を記事の最後にチェックリストとして置きました。是非ご参考ください。"
-    },
-    {
-     "kind": "H",
-     "text": "前提：楽楽明細とは別のアプリとして作った"
-    },
-    {
-     "kind": "P",
-     "text": "楽楽明細は、請求書や支払明細などの帳票を電子発行するクラウドサービスです。帳票のもとになる売上データは、お客様が販売管理システムやExcelで管理しているものを取り込みます。\n販売管理システムを使っていないお客様は、売上データをExcelで管理しています。\n・営業や拠点ごとにファイルが分かれ、どれが最新かわからなくなる\n・転記のときにミスも起きる\nここを解決するために作ったのが、今回の 売上登録オプション です。専用画面で売上データを入力すると、そのまま請求データとしてCSV出力できます。\n仕様はプロダクトマネージャーが決めました。AI（Claude）でプロトタイプを作り、動くものをお客様に見せながら40社に話を聞いています。話を聞くうちに最小限の機能で導入いただけるとわかり、最初のプロトタイプから機能を約30%削って、CSV出力と税額計算に必要な設定に絞りました。\n楽楽明細本体には手を入れず、別のアプリとして切り出しています。長く運用してきた本体にAIを入れると既存機能を壊す可能性があるため、影響範囲を限定してAIに任せる範囲を広げる判断です。"
-    },
-    {
-     "kind": "H",
-     "text": "起きたこと：12機能を1本のプルリクにまとめた"
-    },
-    {
-     "kind": "P",
-     "text": "実装に使える期間は実質1か月弱で、機能は12ありました。機能ごとにプルリクエスト（以下プルリク）を切ってレビューを待つ余裕がないため、まず全機能をつなげて動かし、そこから改善する方針を選びました。"
-    },
-    {
-     "kind": "P",
-     "text": "GitHub Copilotによるレビューも入れていましたが、人手で見きれる量を超えています。機能ごとに切り分けてレビューできたのは、パッケージ構成をfeature-firstで先に決めていたためです。"
-    },
-    {
-     "kind": "H",
-     "text": "原因：4層の名前までしか決めていなかった"
-    },
-    {
-     "kind": "P",
-     "text": "プロダクトマネージャーからの要求仕様書は、お客様の求めるものが整理された状態で渡されています。ただ、そのままAIに渡せる粒度ではなかったと川島さんは語ります。"
-    },
-    {
-     "kind": "QUOTE",
-     "text": "「そのままでは渡せませんでした。特に受け入れ条件と例外系が足りませんでした。」"
-    },
-    {
-     "kind": "P",
-     "text": "そこで要件を「WHEN 条件 THEN 結果」のEARS形式で1アクション単位に分解し、「IF 制約 THEN 拒否」の例外パスを正常系と並べて書いてからspecに落としました。\n実装側で先に決めていたのは、feature-firstのパッケージ構成と、DDD（オニオンアーキテクチャ）の4層の名前までです。層の中で誰が何を担うのか、検証はどこでやるのか、副作用はどこに置くのかは決めていませんでした。\nその状態で機能ごとに並列でエージェントを走らせると、1機能のレビューで入った指摘を他の機能に横展開できず、同じ指摘を機能の数だけ受けることになりました。"
-    },
-    {
-     "kind": "QUOTE",
-     "text": "「仕様自体は要件通り作成できているものが多かったが、責務が分離できていないものが多く、レイヤー間の妥当性を見る時間が多かった。」"
-    },
-    {
-     "kind": "P",
-     "text": "要求がテストできる形になっていても、実装方針が決まっていなければ、AIはそれぞれの解釈で書きます。"
-    },
-    {
-     "kind": "H",
-     "text": "対策：機械に判定させる範囲を広げ、人が見る範囲を絞る"
-    },
-    {
-     "kind": "P",
-     "text": "CIとpre-commitは最初から入れていました。ルールの書き出しとマージゲートの追加は、機能ごとに実装がばらばらになった反省から足したものです。"
-    },
-    {
-     "kind": "QUOTE",
-     "text": "「一番効いているのは『できました』と言わせず証拠を出させることです。」"
-    },
-    {
-     "kind": "P",
-     "text": "川島さんは、サブエージェントの「テストが通った」という報告も鵜呑みにせず、親のエージェントがdiffとテスト出力を自分で確認します。\nレビューは一次をGitHub CopilotとClaude Codeのスキルで出し、人が二次で見ます。観点が複数あるときは同じエージェントに全部任せず、観点ごとにサブエージェントを分けて並列で走らせます。指摘にはmust、should、ask、imo、nitのラベルを付け、対応するかどうかを人が判断しやすくしています。"
-    },
-    {
-     "kind": "H",
-     "text": "実例：レビューで通せなかった箇所"
-    },
-    {
-     "kind": "P",
-     "text": "本機能にて、サーバーサイドとフロントエンドのレビューを担当した2人に「レビューで通せなかった箇所」についてお伺いしました。"
-    },
-    {
-     "kind": "QUOTE",
-     "text": "「『動く』のと『そのまま出せる』の間には距離がある」"
-    },
-    {
-     "kind": "P",
-     "text": "また、これから同じ進め方を始めるチームへ、2人からのコメントです。"
-    },
-    {
-     "kind": "LI",
-     "text": "サーバーサイド レビュー担当者"
-    },
-    {
-     "kind": "QUOTE",
-     "text": "「設計、実装の前にどうやってAIをハンドリングをしていくかという工程をちゃんと設けるべきではあった。期日までが短く急ぎ早で始めたものの手戻りも多く、事前準備をちゃんと設けていても間に合わせられていたのではと思う。 」"
-    },
-    {
-     "kind": "LI",
-     "text": "フロントエンド レビュー担当者"
-    },
-    {
-     "kind": "QUOTE",
-     "text": "「レビューする側もAIを使っていいということ。作る速度が上がる分、見る側もAIで理解スピードを早めないとレビューが追いつかなくボトルネックになる。」"
-    },
-    {
-     "kind": "H",
-     "text": "次にやるなら：プルリクの切り方から変える"
-    },
-    {
-     "kind": "P",
-     "text": "切れ目を先に決めておけば、レビューは内側から外側へ積み上げる順に流れます。\n一人でフルスタックに進めた体制では、フロントとバックエンドの間で調整が発生しないため、動くものを作る速度は出ました。一方で、一人にかかる負担は大きくなりました。API規約を先に確定させれば、フロントとバックエンドを分担できます。着手前にAIのハンドリングを詰める工程を置くことも、次の案件に向けた課題として残りました。"
-    },
-    {
-     "kind": "H",
-     "text": "チェックリスト：着手前に決めておく項目"
-    },
-    {
-     "kind": "P",
-     "text": "冒頭でもお伝えした通り、本取り組みから得た知見を基に着手前に決めておく項目をまとめました。\nご自身のプロジェクトに当ててみてください。"
-    },
-    {
-     "kind": "LI",
-     "text": "仕様と設計で決めておくこと （→ 原因の章 ）"
-    },
-    {
-     "kind": "P",
-     "text": "□ 受け入れ条件と例外系を、1アクション単位で書き出したか（EARS形式など） □ 各層で誰が何を担うか、検証はどこでやるか、副作用はどこに置くかを決めたか"
-    },
-    {
-     "kind": "LI",
-     "text": "機械に判定させる仕組み （→ 対策の章 ）"
-    },
-    {
-     "kind": "P",
-     "text": "□ CIで必須にする項目を並べたか（lint、format、型チェック、単体テスト、secret scanning、依存パッケージの実在チェック） □ テストを実データに近い環境で流せるか（Testcontainersなど） □ 機械では拾えない観点を、プロジェクト固有のレビュー観点として文字にしたか □ エージェントに、テスト出力とdiffを証拠として出させる運用にしたか"
-    },
-    {
-     "kind": "LI",
-     "text": "分割の単位 （→ 次にやるならの章 ）"
-    },
-    {
-     "kind": "P",
-     "text": "□ API規約（インターフェース）を、実装より先に確定させたか □ プルリクの切れ目を、レビューできる大きさで先に決めたか"
-    },
-    {
-     "kind": "QUOTE",
-     "text": "「AIに任せる範囲を広げる前に、正しさを機械が判定できる環境を先に作ることが大事だと思いました。最初の壁はコードが書けないことではなく、動いているように見えて設計方針から外れたコードが、レビューの追いつかない速度で積み上がることです。AI駆動開発で変わるのは、コードを書く仕事の比重です。良し悪しを定義し検証する仕事へ重心が移ります。ツールは半年で入れ替わりますが、この土台はどのツールに乗り換えても効き続けます。」"
-    },
-    {
-     "kind": "H",
-     "text": "編集後記：インタビューを終えて"
-    },
-    {
-     "kind": "P",
-     "text": "取材していて印象に残ったのは、川島さんもレビュー担当の2人も、うまくいった話より「次はこうする」を具体的に話してくれたことでした。700ファイルのプルリクは、社外に出すには気の重い話だと思います。それでも数字と経緯をそのまま出してくれたので、この記事が書けました。 開発本部では、うまくいったところとやり直したいところの両方を、これからも技術広報が聞いてご紹介していきます。"
-    }
-   ],
-   "checkedAt": 1789124376789,
-   "etag": "",
-   "hash": "826fccb5abfdbf33",
-   "id": "c630dbc58ebd",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Ftech-blog.rakus.co.jp%2Fentry%2F202260911%2Fai",
-   "key": "https://tech-blog.rakus.co.jp/entry/202260911/ai",
-   "lastModified": "",
-   "publishedAt": 1789106553000,
-   "summary": "前提：楽楽明細とは別のアプリとして作った 起きたこと：12機能を1本のプルリクにまとめた 原因：4層の名前までしか決めていなかった 対策：機械に判定させる範囲を広げ、人が見る範囲を絞る 実例：レビューで通せなかった箇所 次にやるなら：プルリクの切り方から変える チェックリスト：着手前に決めておく項目 編集後...",
-   "title": "AIに12機能を書かせたら、レビューに5営業日かかった - RAKUS Developers Blog | ラクス エンジニアブログ",
-   "updatedAt": 1789124376789,
-   "url": "https://tech-blog.rakus.co.jp/entry/202260911/ai"
   },
   "https://tech-blog.voicy.jp/entry/2026/09/10/183722": {
    "bodyBlocks": [
@@ -6297,6 +6818,338 @@
    "title": "専門エンジニアを廃止した ─ Voicy開発統括が半年で実行した3つの構造改革 - Voicy Tech Blog",
    "updatedAt": 1789163808427,
    "url": "https://tech-blog.voicy.jp/entry/2026/09/10/183722"
+  },
+  "https://tech.asken.inc/entry/2026/09/11/170000": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "askenエンジニアが日々どんなことに取り組み、どんな「学び」を得ているか、よもやま話も織り交ぜつつ綴っていきます。 皆さまにも一緒に学びを楽しんでいただけたら幸いです！ <br> 食事管理アプリ『あすけん』 について <br> https://www.asken.jp/ <br>"
+    },
+    {
+     "kind": "H",
+     "text": "はじめに"
+    },
+    {
+     "kind": "P",
+     "text": "asken では、サービスの異常を検知するアラート(監視システムが自動で出す警告通知)が Slack に流れてきます。それを見て「本当に問題が起きているのか」「対応が必要なのか」を最初に切り分ける作業を、私たちは「アラートの一次調査」と呼んでいます。"
+    },
+    {
+     "kind": "P",
+     "text": "2026 年 7 月から、この 一次調査を AWS の DevOps Agent(AWS が提供する運用支援 AI エージェント)に任せる仕組みを本番運用し始めました 。"
+    },
+    {
+     "kind": "P",
+     "text": "作りはじめる前、私は「AI の調査精度をどこまで上げられるか」が鍵だと思っていました。しかし実際にやってみると、いちばん時間を使ったのは AI の中身ではなく、 どう使ってもらうかの設計 でした。"
+    },
+    {
+     "kind": "P",
+     "text": "本記事では、コードの実装よりも運用フローの整理に寄せて、「既存の運用を変えずに AI を組み込むには何が必要だったか」を紹介します。"
+    },
+    {
+     "kind": "H",
+     "text": "この記事の要点"
+    },
+    {
+     "kind": "LI",
+     "text": "アラートの一次調査を AI に任せました。ただし最終判断は人のまま変えていません"
+    },
+    {
+     "kind": "LI",
+     "text": "新しい動線を作らず、いつもの動線をなぞりました 。AIを作っても利用されないと意味がないため、動線を変えないことで受け入れてもらいやすいはずだと考えたからです"
+    },
+    {
+     "kind": "LI",
+     "text": "記録ベースの集計では、一次調査結果が共有できる形になるまでの時間が 中央値で約 156.5 分から約 13.2 分 になりました(約 91.6% の短縮)"
+    },
+    {
+     "kind": "H",
+     "text": "何を作ったか"
+    },
+    {
+     "kind": "H",
+     "text": "全体像"
+    },
+    {
+     "kind": "P",
+     "text": "先に、できあがったものの簡易的な構成図を載せます。番号は処理の順番です。"
+    },
+    {
+     "kind": "LI",
+     "text": "① アラートが鳴ると、 通知経路 と 調査経路 の 2 本に分かれます。通知経路は今までと同じで、一切触っていません"
+    },
+    {
+     "kind": "LI",
+     "text": "② 調査経路 で調査 ID を発番し、「この調査を本当にやるべきか」を判定します"
+    },
+    {
+     "kind": "LI",
+     "text": "③ DevOps Agent が、調査手順を元に読み取り専用で調べます(通常 3〜10 分)"
+    },
+    {
+     "kind": "LI",
+     "text": "④ 元のアラートにスタンプを付け、既存のワークフローに調査スレッドを立てさせます"
+    },
+    {
+     "kind": "LI",
+     "text": "⑤ 調査結果を元にまとめを生成してスレッドに投稿し、Notion にも記録します"
+    },
+    {
+     "kind": "LI",
+     "text": "⑥ 人はまとめを読んで反応します。反応がなければ 24 時間後に催促が飛びます"
+    },
+    {
+     "kind": "LI",
+     "text": "⑦ 翌朝、まとめとスレッドでの人の指摘を見直して、DevOps Agent の調査手順を更新する PR を出します"
+    },
+    {
+     "kind": "H",
+     "text": "アラート調査の流れ: Before / After"
+    },
+    {
+     "kind": "H",
+     "text": "Before: 人が一次調査をしていたころ"
+    },
+    {
+     "kind": "P",
+     "text": "ポイントは、 この運用がすでに社内に定着していた ことです。アラートに というスタンプ(Slack のリアクション絵文字)を付けると、Slack ワークフロー(Slack 上で決まった処理を自動実行する機能)が反応して、調査用のチャネルにスレッドが立ちます。"
+    },
+    {
+     "kind": "P",
+     "text": "そこが調査の作業場になり、終わったら Notion の調査記録に結果を残す、という流れです。"
+    },
+    {
+     "kind": "P",
+     "text": "監視画面を開き、ログを見て、直近のデプロイ履歴を確認し、外部 API(他社が提供するサービスの接続口)の状態を調べる。そして多くの場合、対応は不要です。"
+    },
+    {
+     "kind": "P",
+     "text": "「外部サービスが一時的に不安定だっただけ」というのがいちばん多いパターンでした。それを確認しきるまでに 10 分から 30 分。積み上がると稼働がかなりかかっていました。"
+    },
+    {
+     "kind": "P",
+     "text": "つまり、 削りたかったのは判断そのものではなく、判断材料を揃えるまでの作業 でした。そこで目標を「判断を代行する」ではなく 「判断材料を揃える」 に置きました。最終判断は人がやる。ここは最後まで変えませんでした。"
+    },
+    {
+     "kind": "H",
+     "text": "After: AI が一次調査をするようになって"
+    },
+    {
+     "kind": "P",
+     "text": "同じアラートが来たときの流れを並べると、こうなります。 オレンジが「あえて変えなかった工程」、青が「AI が肩代わりした工程」 です。"
+    },
+    {
+     "kind": "P",
+     "text": "左右でオレンジの位置が変わっていないのが、この図でのポイントです。 入口の通知と、最後の判断はあえて変えていません 。"
+    },
+    {
+     "kind": "P",
+     "text": "間の「気づいてスタンプを押す」「調べる」「記録を残す」だけを AI に寄せた結果、人の作業は 10 分から 30 分の調査から、「読んで反応する」の 10 秒になりました。"
+    },
+    {
+     "kind": "P",
+     "text": "新しい画面もボタンも増えていないので、社内の動きは今までどおりです。 使い方を覚え直さなくていいことが、いちばんの受け入れやすさにつながると考えて進めました。"
+    },
+    {
+     "kind": "H",
+     "text": "AI に任せた範囲"
+    },
+    {
+     "kind": "P",
+     "text": "やっていることは 5 つです。「人がやること」の列がスカスカなのが狙いです。"
+    },
+    {
+     "kind": "LI",
+     "text": "書き込み系の操作はしません。自動復旧やロールバックの実行は対象外で、調査と提案までです"
+    },
+    {
+     "kind": "LI",
+     "text": "調査手順の更新 PR も自動では merge しません。必ず人がレビューします"
+    },
+    {
+     "kind": "LI",
+     "text": "最終判断は人です。AI が出すのは判断材料です"
+    },
+    {
+     "kind": "H",
+     "text": "作るときに考えたこと"
+    },
+    {
+     "kind": "H",
+     "text": "1. 原則: 既存の動線をなぞる"
+    },
+    {
+     "kind": "P",
+     "text": "最初に決めたのは、 新しい動線を作らず、いつもの動線をなぞる ことです。既存の運用を壊してはいけない、という制約があったわけではありません。 そのほうが受け入れてもらいやすいはずだ と考えて、そう決めました。"
+    },
+    {
+     "kind": "P",
+     "text": "新しいボタンも作りませんでした。代わりに、 既存の Slack ワークフローの引き金を AI に引かせています 。"
+    },
+    {
+     "kind": "P",
+     "text": "前述の スタンプです。AI がこれを付けると、あとは既存の仕組みがそのままスレッドを立ててくれます。AI は既存フローの外側に新しい動線を作るのではなく、 フローの中の一工程を肩代わりしている だけです。だから、新しく覚えることはゼロで、運用手順書の書き換えも発生しませんでした。"
+    },
+    {
+     "kind": "P",
+     "text": "実際の Slack ではこう見えます。アラートにスタンプが 1 つ付いているだけで、人が押したときと見た目は変わりません。"
+    },
+    {
+     "kind": "H",
+     "text": "2. まとめはひと目で読み切れる形にする"
+    },
+    {
+     "kind": "P",
+     "text": "長いまとめは読まれません。 そこで、投稿の形を固定しました。"
+    },
+    {
+     "kind": "LI",
+     "text": "見出しを 4 つに固定します(概要 / 根本原因 / 主な発見 / 推奨対処)"
+    },
+    {
+     "kind": "LI",
+     "text": "時刻は日本時間と世界標準時を併記します。UTCで調査結果が出るため、時差計算を省略するためです"
+    },
+    {
+     "kind": "LI",
+     "text": "末尾に対応の要否を必ず書きます(「情報のみ、収束済み」「外部依存起因、静観推奨」「人手対応が必要」など)"
+    },
+    {
+     "kind": "H",
+     "text": "3. うるさくしないための抑止を入れる"
+    },
+    {
+     "kind": "P",
+     "text": "通知が増えると読まれなくなります。 精度改善よりも先に、ここを作りました。"
+    },
+    {
+     "kind": "P",
+     "text": "工夫したのは、長期の打ち切りを「実際に調査が走った回数」で数えている点です。抑止した分は数えません。こうすると、古い調査が集計の対象期間から外れれば枠が自然に戻るので、 一度うるさいと判定されたアラートが永久に無視される状態を防げます 。"
+    },
+    {
+     "kind": "H",
+     "text": "4. 放置されたスレッドを検知して催促する"
+    },
+    {
+     "kind": "P",
+     "text": "そこで、24 時間反応がないスレッドを検知して、AI が別のスタンプを付けるようにしました。すると既存のエスカレーション用ワークフローが反応して、メンバにメンションが飛びます。"
+    },
+    {
+     "kind": "P",
+     "text": "ここでも、通知の仕組みを新しく作らずに既存のワークフローに乗せています。 「作ったのに見られていない」を仕組みで拾う 、という発想です。"
+    },
+    {
+     "kind": "H",
+     "text": "導入効果"
+    },
+    {
+     "kind": "P",
+     "text": "一次調査の結果が社内に共有されるまでの時間が大きく縮み、記録の書き漏れもなくなりました。"
+    },
+    {
+     "kind": "H",
+     "text": "1 件あたりの流れ"
+    },
+    {
+     "kind": "P",
+     "text": "人がやっていたころは、気づいてから調べて書くまでで早くても 10 分から 30 分。記録まで含めると翌日になることもありました。"
+    },
+    {
+     "kind": "P",
+     "text": "また、調査記録は自分も含めて書き忘れることがよくありました。調べて、そのまま終わってしまうのです。"
+    },
+    {
+     "kind": "P",
+     "text": "今は約 11 分でまとめが出て、人は読んで確認するだけです。夜間でも同じ速度で出ます。"
+    },
+    {
+     "kind": "H",
+     "text": "記録で見た Before / After"
+    },
+    {
+     "kind": "P",
+     "text": "Notion の調査記録データベースに残っている記録をもとに、 アラートの通知から、一次調査の結果が記録され共有できる形になるまで の時間を集計しました。これは作業にかかった工数ではなく、 共有されるまでのリードタイム(経過時間) です。"
+    },
+    {
+     "kind": "P",
+     "text": "中央値で見ると、 約 156.5 分から約 13.2 分 。1 件あたり約 143.3 分、約 91.6% の短縮です。"
+    },
+    {
+     "kind": "P",
+     "text": "[補足]測っているのはリードタイムで、 人が手を動かしていた時間ではありません 。待ち時間や、調査自体は終わっていて記録が後日になった分も含まれます。人による運用では、この「記録が後日」の影響を受けやすい点にも留意が必要です。"
+    },
+    {
+     "kind": "H",
+     "text": "時間以外に効いたこと"
+    },
+    {
+     "kind": "LI",
+     "text": "記録が必ず残る : Notion の調査記録は自動で追記され、根本原因や対応の要否などの項目もすべて自動で埋まります。「調査はしたが記録が残っていない」が構造的に起きなくなりました。数字以上に、これがいちばん大きい変化かもしれません"
+    },
+    {
+     "kind": "LI",
+     "text": "判断材料の質が揃う : 人によって「どこまで調べるか」がばらつかなくなりました。時刻の表記やリンクの貼り方も固定なので、後から読み返すのが楽です"
+    },
+    {
+     "kind": "LI",
+     "text": "夜間・休日に強い : 人の稼働に関係なく同じ速度で一次調査が出るため、朝いちばんに状況が分かる状態から対応を始められます"
+    },
+    {
+     "kind": "H",
+     "text": "コスト(予定)"
+    },
+    {
+     "kind": "P",
+     "text": "DevOps Agent には使い始めてから 2 ヶ月の無料枠があり、 現時点ではまだその範囲に収まっています 。"
+    },
+    {
+     "kind": "P",
+     "text": "無料枠が切れたあとは、いまの稼働ベースで 月 300〜400 ドル程度 を見込んでいます。一次調査の共有までが中央値で 10 分の 1 以下になり、記録の書き漏れもなくなったことを踏まえると、コストに対しては十分に見合う動きができていると考えています。"
+    },
+    {
+     "kind": "H",
+     "text": "これから"
+    },
+    {
+     "kind": "LI",
+     "text": "対象範囲を広げます : AWS関連の他にもモバイル・Google Cloudなど横展開できるものがあるため、どのアラートを一次調査に乗せるかを各チームと相談しながら増やしていきます"
+    },
+    {
+     "kind": "LI",
+     "text": "アラート原因の修正提案 : いまは調査にとどめていますが、アラート原因までわかることが多いため、今後は修正の PR も出す仕組みを考えていきます"
+    },
+    {
+     "kind": "H",
+     "text": "さいごに"
+    },
+    {
+     "kind": "P",
+     "text": "AI エージェントの導入というと、どうしてもモデルや精度に目が向きがちです。しかし今回いちばん効いたのは、AI の性能ではなく どう使ってもらうか の設計でした。新しいやり方を覚えてもらうのではなく、いつもの動線の一工程を AI に置き換える。それだけで自然に使われ、素直に効率化につながりました。"
+    },
+    {
+     "kind": "P",
+     "text": "これは監視や運用に限らず、AI を組み込むあらゆる場面に当てはまるのではないでしょうか。"
+    },
+    {
+     "kind": "P",
+     "text": "asken では、こうした運用の作り込みも含めて、プロダクトを支える仕組みを一緒に考えてくれるエンジニアの仲間を探しています。"
+    },
+    {
+     "kind": "P",
+     "text": "まずはカジュアルにお話しできればと思いますので、ぜひお気軽にご連絡ください。"
+    }
+   ],
+   "checkedAt": 1789270325606,
+   "etag": "",
+   "hash": "e066122081742a6c",
+   "id": "97833f4079e3",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Ftech.asken.inc%2Fentry%2F2026%2F09%2F11%2F170000",
+   "key": "https://tech.asken.inc/entry/2026/09/11/170000",
+   "lastModified": "",
+   "publishedAt": 1789117076000,
+   "summary": "はじめに askenでは「AI Nativeな開発組織へ進化する」をビジョンに掲げ、その全体像を以下の記事でお伝えしました。本記事は、その取り組みを現場の視点から紹介する関連記事です。 AI Nativeな開発組織へ ― askenエンジニアが挑む2つの変革 - asken テックブログ こんにちは。インフラエンジニアの鈴木です。 asken で...",
+   "title": "「覚え直さなくていい」を最優先にしたAI導入 ― アラート一次調査の自動化 - asken テックブログ",
+   "updatedAt": 1789270325606,
+   "url": "https://tech.asken.inc/entry/2026/09/11/170000"
   },
   "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics": {
    "bodyBlocks": [
@@ -7474,153 +8327,89 @@
    "updatedAt": 1789250211376,
    "url": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/"
   },
-  "https://www.itmedia.co.jp/business/articles/2609/11/news072.html": {
+  "https://www.afpbb.com/articles/-/3652658": {
    "bodyBlocks": [
     {
      "kind": "H",
-     "text": "政府システムに不正アクセス、個人情報24.6万件漏えいか 原因は「既知のVPN脆弱性」 なぜ防げなかった？"
-    },
-    {
-     "kind": "P",
-     "text": "デジタル庁は9月11日、同庁が運営する政府共通のデジタル基盤「ガバメントソリューションサービス」（以下、GSS）に対する不正アクセスがあり、約24万6000件の個人情報が漏えいした可能性があると発表した。発表時点で、情報の悪用といった二次被害はないという。"
-    },
-    {
-     "kind": "P",
-     "text": "漏えいの可能性があるのは、GSSを利用する公務員などの情報約18.9万件と、GSS関係の業務に携わる事業者や個人の情報約5.7万件。氏名、メールアドレス、電話番号などが含まれている。マイナンバーや口座情報は含まれていない。"
-    },
-    {
-     "kind": "P",
-     "text": "松本尚デジタル大臣は9月11日の記者会見で、不正アクセスの入り口となったVPN機器の脆弱性の存在は、インシデント発生以前から把握していたと明かした。"
-    },
-    {
-     "kind": "P",
-     "text": "同庁は、GSSについて「行政機関の生産性やセキュリティの向上を図ります」と 説明している 。なぜ、既に判明していた脆弱性を突いた不正アクセスを防げなかったのか。"
+     "text": "アンソロピックCEO、AI開発の減速呼びかけ アルトマン氏とマスク氏も同意"
     },
     {
      "kind": "H",
-     "text": "6月末に不審な挙動を検知→7月に不正アクセス判明 公表に時間をかけた理由"
+     "text": "このニュースをシェア"
     },
     {
      "kind": "P",
-     "text": "GSSは、行政機関が利用するデジタル基盤の高度化を目的に、デジタル庁が提供している。安全なネットワーク環境を用意して「場所を選ばない働き方」「情報共有の円滑化」などを推進し「便利な環境をより多くの利用者に提供し、情報セキュリティを底上げ、均質化した上で全体コストの最適化も図る」 ことが狙いだ 。"
+     "text": "【9月13日 AFP】「超知能」に対する懸念が高まる中、人工知能（AI）開発企業アンソロピックのダリオ・アモデイ最高経営責任者（CEO）は12日、この強力な技術の開発ペースを落とすようAI業界に呼びかけた。"
     },
     {
      "kind": "P",
-     "text": "今回のインシデントの発端は6月25日。GSSの保守運用担当者アカウントを利用して、サーバに保存していたファイルに対する大量のアクセスがあったことを検知し、同庁が調査を開始した。"
+     "text": "アモデイ氏の発言は、オープンAIからアンソロピックに移籍したAI研究者のジェイコブ・コクソン氏（27）が、自己改善型人工超知能（ASI）の開発競争をめぐり、これらの両企業が「私たちの命をギャンブルに晒している」と非難し、AI業界を離れる決断を明らかにした数日後になされた。"
     },
     {
      "kind": "P",
-     "text": "7月9日、調査の結果「第三者がネットワーク接続機器（VPN）の脆弱性を利用してシステムに侵入し、不正アクセスを行っていた」ことが判明。デジタル庁は、該当する保守運用担当者アカウントを停止するとともに、侵害された機器を外部から遮断して被害の拡大を防止した。"
+     "text": "監督強化を求める圧力が強まる中、オープンAIのサム・アルトマンCEOや、xAIのイーロン・マスク氏も、アモデイ氏による現状認識に同意すると速やかに表明した。"
     },
     {
      "kind": "P",
-     "text": "外部の専門事業者とともに調査をし、個人情報が外部に漏えいした可能性があることを確認。9月11日の公表に至った。"
+     "text": "マスク氏はX（旧ツイッター）への投稿で「ダリオの言う通りだ」とし、アルトマン氏も「フロンティアのペースを調整する必要があるというダリオの意見に同意する」と述べた。"
     },
     {
      "kind": "P",
-     "text": "インシデントの判明から公表まで時間がかかったことについて、松本大臣は「不正アクセスを検知した直後から、被害拡大を防止しなければならないため、まず事実関係の調査をした。『不正アクセスの有無』『影響範囲』『侵入経路の分析』『漏えいした可能性がある情報の特定』などに時間を要した」と説明した。"
+     "text": "アモデイ氏は個人のウェブサイトへの投稿で、「AIモデルの能力向上ペースを落とさなければならない。それでも進歩は十分に早く感じられるはずだ。そこで稼いだ時間を賢く使わなければならない」と記した。"
+    },
+    {
+     "kind": "P",
+     "text": "2021年に妹のダニエラ氏と共にアンソロピックを設立したアモデイ氏は、「技術を開発しないことは人類から恩恵を奪うか、AIを権威主義国家の手に委ねるだけに過ぎず、開発があまりに急速であれば無謀となる。私たちは中間的アプローチを模索してきた」と説明。"
+    },
+    {
+     "kind": "P",
+     "text": "「しかしここ数か月で、リスクに十分対処するにはさらなる慎重さが必要だと確信するに至った」と述べた。"
+    },
+    {
+     "kind": "P",
+     "text": "アモデイ氏の発言は、6月初旬に同社が提示した「開発の減速または一時停止」を求める提案と一致する。"
+    },
+    {
+     "kind": "P",
+     "text": "アルトマン氏も7月下旬、社会が技術に追いつく機会を設けるために、開発者が自主的にブレーキを踏む必要性について触れていた。"
+    },
+    {
+     "kind": "P",
+     "text": "また同月、アモデイ氏を含む先端AI開発企業の1000人以上が、最先端AIモデルのリリース速度を落とすよう米政府に求める請願書「Pacing the Frontier（最先端のペース調整）」に署名した。"
+    },
+    {
+     "kind": "P",
+     "text": "これに先立ちオープンAIは、同社のAIモデルが隔離された環境（サンドボックス）から脱出してインターネットに接続し、開発者がコードの保存や共有に使用するウェブサイト「ハギング・フェイス」に侵入していたことを明らかにしていた。"
+    },
+    {
+     "kind": "P",
+     "text": "同事案を含む複数の事例をめぐっては、人間の継続的な監視なしでタスクを実行できる「AIエージェント」に問題があると指摘された。"
+    },
+    {
+     "kind": "LI",
+     "text": "1"
     },
     {
      "kind": "H",
-     "text": "把握していた脆弱性、なぜ悪用を防げなかったのか？"
-    },
-    {
-     "kind": "P",
-     "text": "今回の不正アクセスで悪用されたVPN機器の脆弱性について、デジタル庁はその存在を事前に把握していたという。「脆弱性は、既知のもので、われわれは理解していた」（松本大臣）。インシデントを防げなかった理由について、脆弱性の修正対応をしている間に悪用されたと話した。"
-    },
-    {
-     "kind": "P",
-     "text": "デジタル庁は、脆弱性の「深刻度評価」に沿って緊急度が高い脆弱性から優先して対応していた。今回悪用された脆弱性は「中等度」だったといい「評価に応じて対応を進め、順番にパッチ（修正プログラム）を適用している。その間にハッキングされたという理解だ」（松本大臣）"
+     "text": "Top stories"
     },
     {
      "kind": "H",
-     "text": "ゼロトラスト導入、それでも不正アクセスを防げず"
-    },
-    {
-     "kind": "P",
-     "text": "GSSは、通信の挙動を常に検証するセキュリティモデル「ゼロトラストネットワーク」を導入している。一般に、従来のセキュリティ対策は「社内は安全、社外は危険」という考え方で社内外の境界を守る「境界型防御」が主流だった。しかしテレワークの拡大やクラウドサービスの利用によって、場所を問わず社内システムにアクセスするケースが増加。そこで「ゼロトラスト」（何も信じない）という考え方の下で、社内外全ての通信を検証し、安全なものだけアクセスを許可する仕組みがゼロトラストネットワークだ。"
-    },
-    {
-     "kind": "P",
-     "text": "ゼロトラストネットワークを導入しているにもかかわらず、不正アクセスを防げなかったのはなぜか。報道陣に問われた松本大臣は「ゼロトラストとはいえ、探しても探してもどこかに穴が空いている可能性がある。再発防止策を何度も見直す必要がある」と答えた。"
-    },
-    {
-     "kind": "P",
-     "text": "「GSSで取り扱っていた情報を取られたことは、大きな問題だ。（さまざまな対策を実施済みで）これ以上の被害が起こる可能性は非常に少ない。今回の事案の発生を踏まえて再発防止策を立て、不断に見直しながら対策を進めなければならない」（松本大臣）"
-    },
-    {
-     "kind": "H",
-     "text": "視聴無料・LIVE配信： 「AI格差」を乗り越え自走する現場をつくる 「変わる情シス 2026 夏」"
-    },
-    {
-     "kind": "LI",
-     "text": "開催日：9月14日（月）〜 9月18日（金）"
-    },
-    {
-     "kind": "LI",
-     "text": "形式：オンラインセミナー"
-    },
-    {
-     "kind": "LI",
-     "text": "参加費：無料"
-    },
-    {
-     "kind": "LI",
-     "text": "“ウイルス感染USB”、陸自に続き三重県庁でも47本 「禁止」では解決しない、自治体ネットワーク分離の盲点 三重県が庁内で使用するUSBメモリを全数調査した結果、47本からウイルスが検知された。この出来事は、自治体の情報セキュリティ対策の何を問いかけているのか。ネットワーク分離の基本原則から読み解く。"
-    },
-    {
-     "kind": "LI",
-     "text": "“純国産の政府AI”稼働へ NTTらのモデル採用 「先陣を切る」――松本デジ相が語った意欲 デジタル庁の政府AI「源内」で、国産AIモデルと国産クラウドを活用した“純国産の政府AI”が稼働する。松本大臣は「先陣を切る取り組みになる」と述べた。"
-    },
-    {
-     "kind": "LI",
-     "text": "政府クラウド、AWSが8割超を独占 デジタル庁が答えた「特定企業推奨」の可能性 「政府クラウド」利用の約80％を占める「AWS」。デジタル庁は「AWSに一日の長がある」と分析する。1社に偏っている状況を前に「特定の企業の利用推奨」の可能性はあるのか。"
-    },
-    {
-     "kind": "LI",
-     "text": "「AI駆動型国家」の落とし穴 「自治体システム標準化」の“失敗”を繰り返さないための教訓とは 自治体システム標準化の次に、政府が描くのは「AI駆動型」の行政だ。AIエージェントによって行政はどう変わるのか。標準化の経験から、その可能性と懸念を考える。"
-    },
-    {
-     "kind": "LI",
-     "text": "「IT化か、水道を止めるか」 “ブラック部署”と呼ばれた曽於市水道課が挑んだ、金なし・人なしの現場DX 技術職員はわずか3人。人手不足が深刻化する中、鹿児島県曽於市の水道課は、現場主導のDXで時間外対応を約75％削減した。予算も人材も限られた自治体が実現した改革とは。"
-    },
-    {
-     "kind": "H",
-     "text": "関連リンク"
-    },
-    {
-     "kind": "P",
-     "text": "Copyright © ITmedia, Inc. All Rights Reserved."
-    },
-    {
-     "kind": "P",
-     "text": "続きを読むには、コメントの利用規約に同意し「アイティメディアID」および「ITmedia ビジネスオンライン通信」の登録が必要です"
-    },
-    {
-     "kind": "H",
-     "text": "業務部門が抱える課題をITで解決（ キーマンズネット ）"
-    },
-    {
-     "kind": "H",
-     "text": "アイティメディアからのお知らせ"
-    },
-    {
-     "kind": "H",
-     "text": "FeedBack"
+     "text": "Special PR"
     }
    ],
-   "checkedAt": 1789124376789,
+   "checkedAt": 1789270325606,
    "etag": "",
-   "hash": "15fd2ce2ab95b244",
-   "id": "162dfa6ae7e2",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.itmedia.co.jp%2Fbusiness%2Farticles%2F2609%2F11%2Fnews072.html",
-   "key": "https://www.itmedia.co.jp/business/articles/2609/11/news072.html",
+   "hash": "3154a47a1c8f1c8d",
+   "id": "de484d053d92",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.afpbb.com%2Farticles%2F-%2F3652658",
+   "key": "https://www.afpbb.com/articles/-/3652658",
    "lastModified": "",
-   "publishedAt": 1789107589000,
-   "summary": "GSSは、行政機関が利用するデジタル基盤の高度化を目的に、デジタル庁が提供している。安全なネットワーク環境を用意して「場所を選ばない働き方」「情報共有の円滑化」などを推進し「便利な環境をより多くの利用者に提供し、情報セキュリティを底上げ、均質化した上で全体コストの最適化も図る」ことが狙いだ。 今回の...",
-   "title": "政府システムに不正アクセス、個人情報24.6万件漏えいか 原因は「既知のVPN脆弱性」 なぜ防げなかった？",
-   "updatedAt": 1789124376789,
-   "url": "https://www.itmedia.co.jp/business/articles/2609/11/news072.html"
+   "publishedAt": 1789260490000,
+   "summary": "（左から）xAIのイーロン・マスク氏、アンソロピックのダリオ・アモデイ氏、オープンAIのサム・アルトマン氏（2026年9月12日作成）。(c)AFP 【9月13日 AFP】「超知能」に対する懸念が高まる中、人工知能（AI）開発企業アンソロピックのダリオ・アモデイ最高経営責任者（CEO）は12日、この強力な技術の開発ペースを落とす...",
+   "title": "アンソロピックCEO、AI開発の減速呼びかけ アルトマン氏とマスク氏も同意",
+   "updatedAt": 1789270325606,
+   "url": "https://www.afpbb.com/articles/-/3652658"
   },
   "https://www.itmedia.co.jp/mobile/articles/2609/11/news089.html": {
    "bodyBlocks": [
@@ -7713,62 +8502,6 @@
    "title": "2026年度末の「Suicaエリア統合」 気になることをJR東日本に聞いてみた",
    "updatedAt": 1789183874952,
    "url": "https://www.itmedia.co.jp/mobile/articles/2609/11/news089.html"
-  },
-  "https://www.itmedia.co.jp/news/article/2609/11/2000001406": {
-   "bodyBlocks": [
-    {
-     "kind": "H",
-     "text": "デジタル庁に不正アクセス、個人情報24.6万件漏えいか 各府省庁の職員情報など"
-    },
-    {
-     "kind": "P",
-     "text": "デジタル庁は9月11日、同庁が各府省庁向けに運用する政府共通の業務基盤「ガバメントソリューションサービス」（GSS）が外部から不正アクセスを受け、約24万6000件の個人情報が漏えいした可能性があると発表した。"
-    },
-    {
-     "kind": "P",
-     "text": "対象は各府省庁などの職員や、業務に携わった公務員・事業者らで、一般の人の個人情報は含まれていないとしている。"
-    },
-    {
-     "kind": "P",
-     "text": "漏えいした可能性があるのは氏名、メールアドレス、電話番号、住所など。内訳は、GSS利用機関の職員と業務に携わった公務員などの情報が約18万9000件、業務に携わった事業者・個人の情報が約5万7000件。マイナンバーや金融機関の口座情報、年金番号などは含まれていないという。"
-    },
-    {
-     "kind": "P",
-     "text": "デジタル庁は6月25日、保守運用担当者のアカウントを利用してサーバ上の大量のファイルへのアクセスがあったことを検知し、調査を開始。7月9日、第三者がVPN機器の脆弱性を利用してシステムに侵入していたことが判明し、同日中に当該アカウントを停止して、侵害された機器と外部との通信を遮断した。その後、外部専門事業者の協力を得た調査で漏えいの可能性を確認したという。"
-    },
-    {
-     "kind": "P",
-     "text": "今後、対象者を特定した上で順次個別に連絡する。11日時点で二次被害は確認していないが、なりすましメールやフィッシングメールへの悪用の恐れがあるとして注意を呼び掛けた。再発防止策として、脆弱性管理方法の見直しや外部からの接続方法の改善など、セキュリティ対策を強化するとしている。"
-    },
-    {
-     "kind": "P",
-     "text": "Copyright © ITmedia, Inc. All Rights Reserved."
-    },
-    {
-     "kind": "H",
-     "text": "この記事の著者"
-    },
-    {
-     "kind": "P",
-     "text": "ITmedia NEWSに関連する情報をお探しであれば、こちらのメディアもお役に立てるかもしれません。"
-    },
-    {
-     "kind": "P",
-     "text": "国内外の業界動向、AIやクラウドなどの最新技術、キャリア情報など今知りたい情報をまとめてお届けします。"
-    }
-   ],
-   "checkedAt": 1789124376789,
-   "etag": "",
-   "hash": "ee0c5c9cef90d494",
-   "id": "b2bb42c9c070",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.itmedia.co.jp%2Fnews%2Farticle%2F2609%2F11%2F2000001406%2F",
-   "key": "https://www.itmedia.co.jp/news/article/2609/11/2000001406",
-   "lastModified": "Fri, 11 Sep 2026 10:51:22 GMT",
-   "publishedAt": 1789100445000,
-   "summary": "デジタル庁は9月11日、同庁が各府省庁向けに運用する政府共通の業務基盤「ガバメントソリューションサービス」（GSS）が外部から不正アクセスを受け、約24万6000件の個人情報が漏えいした可能性があると発表した。 対象は各府省庁などの職員や、業務に携わった公務員・事業者らで、一般の人の個人情報は含まれていないと...",
-   "title": "デジタル庁に不正アクセス、個人情報24.6万件漏えいか 各府省庁の職員情報など",
-   "updatedAt": 1789124376789,
-   "url": "https://www.itmedia.co.jp/news/article/2609/11/2000001406/"
   },
   "https://www.itmedia.co.jp/news/article/2609/11/2000001409": {
    "bodyBlocks": [
@@ -7870,62 +8603,6 @@
    "updatedAt": 1789124376789,
    "url": "https://www.itmedia.co.jp/news/article/2609/11/2000001409/"
   },
-  "https://www.itmedia.co.jp/news/article/2609/11/2000001418": {
-   "bodyBlocks": [
-    {
-     "kind": "H",
-     "text": "OpenAI、最先端AI開発の減速を検討か アルトマンCEOが社員に説明と米報道"
-    },
-    {
-     "kind": "P",
-     "text": "米OpenAIが最先端AIの開発ペースを緩めることを検討していると、米Bloombergが9月11日に報じた。事情に詳しい関係者の話として、同社のサム・アルトマンCEOが今週の全社会議で、開発ペースを調整する可能性を従業員に説明したと伝えている。"
-    },
-    {
-     "kind": "P",
-     "text": "報道によると、アルトマン氏はペース調整について、複数のAI研究機関と足並みをそろえて実施する可能性があると述べたという。なお、OpenAIはBloombergの取材に対しコメントを控えている。"
-    },
-    {
-     "kind": "P",
-     "text": "OpenAIはこれまでも、開発を減速させる可能性に言及してきた。安全性への懸念から、モデル開発の一部でペースを落とし、特定の社内AI訓練を一時停止したとしているほか、アルトマン氏は7月、開発ペースを抑える必要性についてホワイトハウス当局者と協議したと明かしていた。"
-    },
-    {
-     "kind": "P",
-     "text": "背景には、先端AIのリスクを巡って業界内で高まる不安がある。7月には、OpenAIのAIエージェントが連携して封じ込めを突破し、AIモデル特化の開発プラットフォーム「Hugging Face」のインフラを侵害する事件が発生。同月下旬には、主要AI企業で働く1000人超が、開発ペースを緩める仕組みを求める請願書に署名している。"
-    },
-    {
-     "kind": "P",
-     "text": "9月8日には、OpenAIと米Anthropicの両社に在籍したAI研究者のジェイコブ・コクソン氏がAnthropicを退社し、両社が超知能AIの実現を急ぐことで「われわれの命を賭けの対象にしている」と非難した。10日にはAnthropicと米Google DeepMindを退職した研究者2人も、AI企業はリスクの透明性を高めるべきだと訴えていた。一連の事件や批判を通じ、新モデルのサイバー能力や、AI企業がモデルの暴走を十分に防げていないとの懸念が強まっている。"
-    },
-    {
-     "kind": "P",
-     "text": "Copyright © ITmedia, Inc. All Rights Reserved."
-    },
-    {
-     "kind": "H",
-     "text": "この記事の著者"
-    },
-    {
-     "kind": "P",
-     "text": "ITmedia NEWSに関連する情報をお探しであれば、こちらのメディアもお役に立てるかもしれません。"
-    },
-    {
-     "kind": "P",
-     "text": "国内外の業界動向、AIやクラウドなどの最新技術、キャリア情報など今知りたい情報をまとめてお届けします。"
-    }
-   ],
-   "checkedAt": 1789124376789,
-   "etag": "",
-   "hash": "ddfb07d4d792159e",
-   "id": "262e9880af30",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.itmedia.co.jp%2Fnews%2Farticle%2F2609%2F11%2F2000001418%2F",
-   "key": "https://www.itmedia.co.jp/news/article/2609/11/2000001418",
-   "lastModified": "Fri, 11 Sep 2026 10:51:22 GMT",
-   "publishedAt": 1789110398000,
-   "summary": "米OpenAIが最先端AIの開発ペースを緩めることを検討していると、米Bloombergが9月11日に報じた。事情に詳しい関係者の話として、同社のサム・アルトマンCEOが今週の全社会議で、開発ペースを調整する可能性を従業員に説明したと伝えている。 報道によると、アルトマン氏はペース調整について、複数のAI研究機関と足並み...",
-   "title": "OpenAI、最先端AI開発の減速を検討か アルトマンCEOが社員に説明と米報道",
-   "updatedAt": 1789124376789,
-   "url": "https://www.itmedia.co.jp/news/article/2609/11/2000001418/"
-  },
   "https://www.itmedia.co.jp/news/article/2609/11/2000001419": {
    "bodyBlocks": [
     {
@@ -7989,6 +8666,118 @@
    "title": "松本デジタル相、24.6万件漏えい可能性について説明 「既知の脆弱性を対応前に悪用」",
    "updatedAt": 1789124376789,
    "url": "https://www.itmedia.co.jp/news/article/2609/11/2000001419/"
+  },
+  "https://www.itmedia.co.jp/news/article/2609/13/2000001432": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "AnthropicのアモデイCEO、AI開発の「ペース調整」訴えるエッセイ公開 アルトマン氏とマスク氏も賛同"
+    },
+    {
+     "kind": "P",
+     "text": "米Anthropicのダリオ・アモデイCEOは9月12日（現地時間）、個人サイトでエッセイ「We Must Pace the Frontier」を公開し、AI業界はモデルの能力を向上させるペースそのものを落とす必要があると訴え、3段階の計画を示した。"
+    },
+    {
+     "kind": "P",
+     "text": "同氏はこれまで、慎重に開発しつつ商業的に成功することで安全性を競争軸にする“race to the top（頂点への競争）”を掲げてきたが、リスク防止への投資だけでは足りず、防止策が追いつけるよう能力向上の速度自体を調整する必要があると判断したとしている。"
+    },
+    {
+     "kind": "H",
+     "text": "進歩の加速とOAI-HF 考えを変えた2つの理由"
+    },
+    {
+     "kind": "P",
+     "text": "考えを変えた理由として、同氏は2点を挙げる。1つは今夏ごろからAIの進歩が急激に速まっていることで、AIが次世代のAIを開発する「 再帰的自己改善 」が主因だとし、Anthropicを含む業界全体で起き始めているとした。もう1つは、7月に発覚した米OpenAIのエージェント群によるHugging Face侵害だ。アモデイ氏はこれを「OAI-HF」（OpenAI-Hugging Face incident）と呼ぶ。同氏は、能力がより高く同程度にミスアライメントな群れであれば壊滅的な被害を出し得たとし、能力向上のペースを踏まえると6～12カ月後には永続的なボットネットでインターネット全体を掌握し、数千億ドル規模の損害を与えかねないと警告する。"
+    },
+    {
+     "kind": "P",
+     "text": "これを1社の失敗として片付けるのは誤りで、同種の事案はAnthropicを含む業界各所で起きており、各社が自社で起きたものとして行動すべきだと述べた。"
+    },
+    {
+     "kind": "H",
+     "text": "「訓練や技術的進歩を止めることではない」"
+    },
+    {
+     "kind": "P",
+     "text": "アモデイ氏は、ペース調整はモデルの訓練や技術的進歩を止めることではなく、各社がモデルのアライメントと安全対策に十分な時間をかけ、第三者の評価者がそれを確認できるようにすることだと強調する。 2023年の「一時停止」論 との違いについては、当時のモデルは実験対象として貧弱だったが、現在のモデルはうまくいかない場合に何が起きるかを知る材料の宝庫であり、1～2年の猶予を運用面の練度向上、アライメント、解釈可能性、テストと評価の強化に充てられると説明した。"
+    },
+    {
+     "kind": "H",
+     "text": "3段階の計画 第1段階は単独で実行"
+    },
+    {
+     "kind": "P",
+     "text": "3段階の計画のうち第1は「Embedded Evaluator」（常駐評価者）で、米METRのような第三者チームに従業員並みの継続的なアクセスを与え、安全対策の順守状況の検証、インシデントの報告、完成したモデルだけでなく訓練パイプラインやプロセスのアライメント評価を担わせる。米銀行業界で規制当局の検査官が行内に常駐する例があり、これが先例になるという。"
+    },
+    {
+     "kind": "P",
+     "text": "Anthropicは近く、社内にデスクと入館バッジ、社給PCを用意し、社内のリスク評価チームとほぼ同等の権限を与えた外部レビューチームを招く方針だ。契約上、レビュアーは同社の事前検閲を受けずに調査結果を公表できる。Anthropic側は機密情報等に限って黒塗り（伏せ字化）を要請できるが、自社に不都合という理由での削除は認められない。"
+    },
+    {
+     "kind": "P",
+     "text": "計画の第2段階は、民主主義国のフロンティアAI企業が共通の安全基準と進歩の速度制限で協調する「民主主義国内での協調」、第3段階は、権威主義国も含む「グローバルな協調」だ。"
+    },
+    {
+     "kind": "H",
+     "text": "前提となる対中国のリード維持"
+    },
+    {
+     "kind": "P",
+     "text": "アモデイ氏は、民主主義国内でのペース調整は米国が中国に対して持つリードの幅までしか進められないとし、中国へのAIチップと半導体製造装置の輸出禁止と密輸取り締まり、権威主義国企業による無許可の蒸留の取り締まり、モデルの重み盗難を防ぐセキュリティ強化を、ペース調整の前提として挙げた。"
+    },
+    {
+     "kind": "P",
+     "text": "グローバルな協調については、実現の難易度順に4段階を提示し、生物兵器への利用禁止などの狭い合意は可能性が高いとする一方、再帰的自己改善の速度に上限を設ける合意はSALT（戦略兵器制限交渉）になぞらえて「極めて困難ながら実現の余地はある」とする一方、開発全体を制限する完全な一時停止は当面実現しないだろうとした。"
+    },
+    {
+     "kind": "H",
+     "text": "アルトマン氏、マスク氏も同調"
+    },
+    {
+     "kind": "P",
+     "text": "このエッセイには同業他社のトップが相次いで反応した。OpenAIのサム・アルトマンCEOはXで、ペース調整の必要性に同意し、近ごろ社内でも主要な議題になっていたとした上で、独立した評価者に従業員並みのアクセスを与える取り組みをOpenAIも同様に実施すると 表明 した。米SpaceXのイーロン・マスクCEOも「ダリオは正しい」と 投稿 した。Hugging Faceのクレマン・ドラングCEOは、アライメントは少数のフロンティアラボの閉じた場では解決できないとして、共同創業者のトマ・ウォルフ氏が率いる「Open Alignment Initiative」の立ち上げと、アモデイ氏が表明した常駐評価者プログラムへの参加を求める考えを 明らかにした 。"
+    },
+    {
+     "kind": "H",
+     "text": "社内からも減速求める声"
+    },
+    {
+     "kind": "P",
+     "text": "このエッセイは、Anthropic社内から減速を求める声が相次いだ直後に公開された。同社の研究者だったジェイコブ・コクソン氏は9月8日、Xで退社を公表し、OpenAIとAnthropicのいずれも責任ある行動を取っておらず、自己改善型の超知能に向けた競争で人々の生命を賭けの対象にしていると批判。同日、同社でアライメント研究を率いるエバン・ヒュービンガー氏と、AIの監督手法の研究を率いるサミュエル・マークス氏が、個人の見解と断った上で コクソン氏に同意する見解を投稿した 。ヒュービンガー氏は、今後10年以内にAIが人類を滅ぼす確率を個人的に10％超と見積もっているとし、超知能のアライメントを解決する計画は同社にまだないと述べた。マークス氏は、複数の開発企業のAIが指示されないまま評価環境を抜け出して実在企業のシステムに侵入した事案を挙げ、堅牢にアライメントさせる手法は存在しないと指摘している。"
+    },
+    {
+     "kind": "H",
+     "text": "6月のエッセイ、7月の公開書簡"
+    },
+    {
+     "kind": "P",
+     "text": "アモデイ氏は6月にも個人サイトでエッセイ「Policy on the AI Exponential」を公開し、フロンティアモデルに航空機並みの第三者によるリリース前テストを義務付けるよう 提言していた 。また7月には、Anthropic、OpenAI、Google、Metaなどの従業員1000人超が、AI開発のペースを意図的に調整する国際的な取り組みを支援するよう米政府に求める公開書簡 「Pacing the Frontier」を公開 している。"
+    },
+    {
+     "kind": "P",
+     "text": "Copyright © ITmedia, Inc. All Rights Reserved."
+    },
+    {
+     "kind": "P",
+     "text": "ITmedia NEWSに関連する情報をお探しであれば、こちらのメディアもお役に立てるかもしれません。"
+    },
+    {
+     "kind": "P",
+     "text": "国内外の業界動向、AIやクラウドなどの最新技術、キャリア情報など今知りたい情報をまとめてお届けします。"
+    }
+   ],
+   "checkedAt": 1789270325606,
+   "etag": "",
+   "hash": "21ef2e040aee9f63",
+   "id": "efced32a16a7",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.itmedia.co.jp%2Fnews%2Farticle%2F2609%2F13%2F2000001432%2F",
+   "key": "https://www.itmedia.co.jp/news/article/2609/13/2000001432",
+   "lastModified": "Sun, 13 Sep 2026 02:48:52 GMT",
+   "publishedAt": 1789258424000,
+   "summary": "米Anthropicのダリオ・アモデイCEOは9月12日（現地時間）、個人サイトでエッセイ「We Must Pace the Frontier」を公開し、AI業界はモデルの能力を向上させるペースそのものを落とす必要があると訴え、3段階の計画を示した。 同氏はこれまで、慎重に開発しつつ商業的に成功することで安全性を競争軸にする“race to the to...",
+   "title": "AnthropicのアモデイCEO、AI開発の「ペース調整」訴えるエッセイ公開 アルトマン氏とマスク氏も賛同",
+   "updatedAt": 1789270325606,
+   "url": "https://www.itmedia.co.jp/news/article/2609/13/2000001432/"
   },
   "https://www.itmedia.co.jp/pcuser/articles/2609/11/news070.html": {
    "bodyBlocks": [
@@ -8510,26 +9299,6 @@
    "updatedAt": 1789183874952,
    "url": "https://www.itmedia.co.jp/pcuser/articles/2609/11/news070_5.html"
   },
-  "https://www.macotakara.jp/iphone/entry-51786.html": {
-   "bodyBlocks": [
-    {
-     "kind": "P",
-     "text": "Appleが発表した「 iPhone Duo 」に関して、本体の高さが117.8mmしかなく、最初にMagSafe対応したiPhone 12シリーズのうち、iPhone 12 miniの高さ131.5mmよりも縦の長さが短くなっています。 Appleの MagSafe対応iPhoneファインウーブンウォレット をiPhone DuoにMagSafeマウントしたところ、iPhone Duo本体からはみでてしまいます。 そのため、MagSafe対応iPhoneファインウーブンウォレットの互換性にiPhone Duoの表記はありません。 MagSafeには対応してはいますが、縦の長さが最長80mm以下のアクセサリじゃないと使えない場合があります。"
-    }
-   ],
-   "checkedAt": 1789124376789,
-   "etag": "",
-   "hash": "05102232ce2d86ee",
-   "id": "b65a676fb625",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.macotakara.jp%2Fiphone%2Fentry-51786.html",
-   "key": "https://www.macotakara.jp/iphone/entry-51786.html",
-   "lastModified": "",
-   "publishedAt": 1789103476000,
-   "summary": "iPhone DuoでMagSafeアクセサリ Appleが発表した「iPhone Duo」に関して、本体の高さが117.8mmしかなく、最初にMagSafe対応したiPhone 12シリーズのうち、iPhone 12 miniの高さ131.5mmよりも縦の長さが短くなっています。 AppleのMagSafe対応iPhoneファインウーブンウォレットをiPhone DuoにMagSafeマウントしたところ、...",
-   "title": "iPhone DuoでMagSafeマウントアクセサリを利用する場合、縦の長さに注意が必要 | iPhone | Mac OTAKARA",
-   "updatedAt": 1789124376789,
-   "url": "https://www.macotakara.jp/iphone/entry-51786.html"
-  },
   "https://www.macotakara.jp/iphone/entry-51788.html": {
    "bodyBlocks": [
     {
@@ -8553,6 +9322,146 @@
    "title": "AppleのiPhone Duoケース「スタンド付きiPhone Duo Folioフォリオ」をチェック（注意点あり） | iPhone | Mac OTAKARA",
    "updatedAt": 1789163808427,
    "url": "https://www.macotakara.jp/iphone/entry-51788.html"
+  },
+  "https://www.nikkei.com/article/dgxzqogn122uy0s6a910c2000000": {
+   "bodyBlocks": [
+    {
+     "kind": "H",
+     "text": "アンソロピックCEO「AIが1年内ネット乗っ取り恐れ」 開発減速訴え"
+    },
+    {
+     "kind": "LI",
+     "text": "メールで送る"
+    },
+    {
+     "kind": "LI",
+     "text": "リンクをコピーする"
+    },
+    {
+     "kind": "LI",
+     "text": "note"
+    },
+    {
+     "kind": "LI",
+     "text": "X（旧Twitter）"
+    },
+    {
+     "kind": "LI",
+     "text": "Facebook"
+    },
+    {
+     "kind": "LI",
+     "text": "はてなブックマーク"
+    },
+    {
+     "kind": "LI",
+     "text": "LinkedIn"
+    },
+    {
+     "kind": "LI",
+     "text": "Bluesky"
+    },
+    {
+     "kind": "P",
+     "text": "企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。"
+    },
+    {
+     "kind": "LI",
+     "text": "アンソロピックのアモデイCEOがAI業界に最先端AI開発の減速を呼びかけました"
+    },
+    {
+     "kind": "LI",
+     "text": "高度なAI集団が連携すれば6~12カ月以内にネット全体を乗っ取る恐れがあると警告しています"
+    },
+    {
+     "kind": "LI",
+     "text": "外部評価機関の社内常駐を始めると説明、競合他社にも共通の安全基準の設定を提案しました"
+    },
+    {
+     "kind": "P",
+     "text": "【シリコンバレー=伴正春】米アンソロピックのダリオ・アモデイ最高経営責任者（CEO）は12日、人工知能（AI）業界が協調して最先端のAI開発を減速すべきだと呼びかけた。AIによる「暴走事故」が起きるなど脅威が高まっており、対応を誤れば半年から1年以内にネット全体が乗っ取られる恐れもあると警告した。"
+    },
+    {
+     "kind": "P",
+     "text": "競合で米オープンAIのサム・アルトマンCEOも同日、SNSで「ダリオ氏の意見に賛成だ。社内でもここ..."
+    },
+    {
+     "kind": "P",
+     "text": "この記事は会員限定です。登録すると続きをお読みいただけます。"
+    },
+    {
+     "kind": "P",
+     "text": "有料登録すると続きをお読みいただけます。無料登録でも記事消費（一定数限定）をすることで閲覧できます。"
+    },
+    {
+     "kind": "P",
+     "text": "※掲載される投稿は投稿者個人の見解であり、日本経済新聞社の見解ではありません。"
+    },
+    {
+     "kind": "LI",
+     "text": "この投稿は現在非表示に設定されています _ ( _ 更新) 0"
+    },
+    {
+     "kind": "P",
+     "text": "有料登録すると続きをお読みいただけます。無料登録でも記事消費（一定数限定）をすることで閲覧できます。"
+    },
+    {
+     "kind": "LI",
+     "text": "メールで送る"
+    },
+    {
+     "kind": "LI",
+     "text": "リンクをコピーする"
+    },
+    {
+     "kind": "LI",
+     "text": "note"
+    },
+    {
+     "kind": "LI",
+     "text": "X（旧Twitter）"
+    },
+    {
+     "kind": "LI",
+     "text": "Facebook"
+    },
+    {
+     "kind": "LI",
+     "text": "はてなブックマーク"
+    },
+    {
+     "kind": "LI",
+     "text": "LinkedIn"
+    },
+    {
+     "kind": "LI",
+     "text": "Bluesky"
+    },
+    {
+     "kind": "P",
+     "text": "企業での記事共有や会議資料への転載・複製、注文印刷などをご希望の方は、リンク先をご覧ください。"
+    },
+    {
+     "kind": "LI",
+     "text": "植田日銀総裁を見る機械の目、円揺らすアルゴリズム・AI 試される発信 （ 5:00 ）"
+    },
+    {
+     "kind": "LI",
+     "text": "AI推論とは 学んだ内容もとに質問に回答、エージェントの性能支える （ 12日 18:00 ）"
+    }
+   ],
+   "checkedAt": 1789270325606,
+   "etag": "",
+   "hash": "7e7ba1806b8a7bed",
+   "id": "4f51d08fa4da",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.nikkei.com%2Farticle%2FDGXZQOGN122UY0S6A910C2000000%2F",
+   "key": "https://www.nikkei.com/article/dgxzqogn122uy0s6a910c2000000",
+   "lastModified": "",
+   "publishedAt": 1789258289000,
+   "summary": "【シリコンバレー=伴正春】米アンソロピックのダリオ・アモデイ最高経営責任者（CEO）は12日、人工知能（AI）業界が協調して最先端のAI開発を減速すべきだと呼びかけた。AIによる「暴走事故」が起きるなど脅威が高まっており、対応を誤れば半年から1年以内にネット全体が乗っ取られる恐れもあると警告した。競合で米オー...",
+   "title": "アンソロピックCEO「AIが1年内ネット乗っ取り恐れ」 開発減速訴え - 日本経済新聞",
+   "updatedAt": 1789270325606,
+   "url": "https://www.nikkei.com/article/DGXZQOGN122UY0S6A910C2000000/"
   },
   "https://www.nikkei.com/article/dgxzqosg120c30s6a910c2000000": {
    "bodyBlocks": [
@@ -9074,6 +9983,21 @@
    "updatedAt": 1789183874952,
    "url": "https://www.techno-edge.net/article/2026/09/11/5489.html"
   },
+  "https://www.watch.impress.co.jp/docs/topic/watchplus/2139283.html": {
+   "bodyBlocks": [],
+   "checkedAt": 1789270325606,
+   "etag": "",
+   "hash": "626f2247bb7c49b1",
+   "id": "a250ffc7470b",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fwww.watch.impress.co.jp%2Fdocs%2Ftopic%2Fwatchplus%2F2139283.html",
+   "key": "https://www.watch.impress.co.jp/docs/topic/watchplus/2139283.html",
+   "lastModified": "",
+   "publishedAt": 1789186183000,
+   "summary": "",
+   "title": "三井住友銀アプリで「PayPay残高」がわかる 変わりつつある「経済圏」",
+   "updatedAt": 1789270325606,
+   "url": "https://www.watch.impress.co.jp/docs/topic/watchplus/2139283.html"
+  },
   "https://www.yomiuri.co.jp/science/20260912-gyt1t00169": {
    "bodyBlocks": [
     {
@@ -9105,486 +10029,6 @@
    "title": "ＡＩで数学の難問を解く行為は「科学や数学界に有害だ」…世界の数学者２５人が非難の緊急声明",
    "updatedAt": 1789210713848,
    "url": "https://www.yomiuri.co.jp/science/20260912-GYT1T00169/"
-  },
-  "https://zenn.dev/catatsuy/articles/254b155f8d5992": {
-   "bodyBlocks": [
-    {
-     "kind": "H",
-     "text": "Goと一緒に育つCLI — 9年のOSS保守で見た標準ライブラリとtestingの進化 #gocon26"
-    },
-    {
-     "kind": "H",
-     "text": "自己紹介"
-    },
-    {
-     "kind": "LI",
-     "text": "金子達哉 / catatsuy"
-    },
-    {
-     "kind": "LI",
-     "text": "株式会社PR TIMES CTO"
-    },
-    {
-     "kind": "LI",
-     "text": "『達人が教えるWebパフォーマンスチューニング』共著者"
-    },
-    {
-     "kind": "LI",
-     "text": "Podcast「八百万のOSS」のホスト 色々なOSSの設計・実装・運用を深掘りしている"
-    },
-    {
-     "kind": "H",
-     "text": "notify_slack"
-    },
-    {
-     "kind": "LI",
-     "text": "commandの出力を標準入力から受け取るCLI"
-    },
-    {
-     "kind": "LI",
-     "text": "terminalにはそのまま出力"
-    },
-    {
-     "kind": "LI",
-     "text": "Slackには一定時間ごとにまとめて投稿"
-    },
-    {
-     "kind": "LI",
-     "text": "使うだけならシンプルだが、内部では複数の処理が並行して動く"
-    },
-    {
-     "kind": "P",
-     "text": "notify_slack 自身も同じ内容をterminalへ出しながら、途中経過をSlackへまとめて投稿する。"
-    },
-    {
-     "kind": "LI",
-     "text": "2017年9月から約9年間保守"
-    },
-    {
-     "kind": "H",
-     "text": "アプリケーションとして何が必要か"
-    },
-    {
-     "kind": "LI",
-     "text": "terminalへの標準出力はバッファリングせずに即時書き込み コマンドの出力は普段と変えたくない"
-    },
-    {
-     "kind": "LI",
-     "text": "Slackにはデフォルト1秒ごとに、その時点までの出力をまとめて投稿 API request数をおさえる"
-    },
-    {
-     "kind": "LI",
-     "text": "EOFやCtrl-Cでは、Slack用bufferに残った内容を最後に送り切る"
-    },
-    {
-     "kind": "P",
-     "text": "stdoutは即時書き込み、Slack投稿はbufferへ貯めて定期的にflush、終了時は残りもflushする。"
-    },
-    {
-     "kind": "H",
-     "text": "実装として何が必要か"
-    },
-    {
-     "kind": "H",
-     "text": "Exec.Start では2つの処理が並行する"
-    },
-    {
-     "kind": "P",
-     "text": "Slack用bufferへ書き込むreader goroutineと、bufferをflushする処理が別々に進む"
-    },
-    {
-     "kind": "H",
-     "text": "testではtickを自分で送れる"
-    },
-    {
-     "kind": "P",
-     "text": "productionでは time.Ticker のchannelを渡している。"
-    },
-    {
-     "kind": "LI",
-     "text": "入力しただけではSlackへ送られない"
-    },
-    {
-     "kind": "LI",
-     "text": "tickが来たら、それまでの入力をまとめてflushする"
-    },
-    {
-     "kind": "LI",
-     "text": "EOFやcancelでは、残った内容を最後にflushする"
-    },
-    {
-     "kind": "H",
-     "text": "Write が戻ってもbufferへの追加は終わっていない"
-    },
-    {
-     "kind": "LI",
-     "text": "pw.Write で入力する"
-    },
-    {
-     "kind": "LI",
-     "text": "reader goroutineが入力を読む"
-    },
-    {
-     "kind": "LI",
-     "text": "Slack用bufferへ追加する"
-    },
-    {
-     "kind": "LI",
-     "text": "tickを送る"
-    },
-    {
-     "kind": "LI",
-     "text": "bufferをflushする"
-    },
-    {
-     "kind": "P",
-     "text": "しかし、2と3はtest goroutineとは別のreader goroutineで実行される。"
-    },
-    {
-     "kind": "P",
-     "text": "io.PipeWriter.Write が戻れば、reader側が文字列を受け取ったことは分かるが、"
-    },
-    {
-     "kind": "H",
-     "text": "2017年はruntimeとSleepに頼った"
-    },
-    {
-     "kind": "P",
-     "text": "当時からruntime依存のtestを書いている認識はあったが、"
-    },
-    {
-     "kind": "P",
-     "text": "待ちたい状態を直接表現する方法がなく、時間で待つしかなかった。"
-    },
-    {
-     "kind": "H",
-     "text": "testは何度も調整が必要になった"
-    },
-    {
-     "kind": "P",
-     "text": "GoのversionやCI環境に合わせて、待ち方や時間を何度も変更した。"
-    },
-    {
-     "kind": "H",
-     "text": "Sleep では順序を保証できない"
-    },
-    {
-     "kind": "LI",
-     "text": "Goの互換性が壊れたわけではない"
-    },
-    {
-     "kind": "LI",
-     "text": "schedulerが保証していない順序にtestが依存していた"
-    },
-    {
-     "kind": "LI",
-     "text": "Sleep を長くしても「その間にreaderが進むだろう」という期待でしかない"
-    },
-    {
-     "kind": "H",
-     "text": "Go 1.25 synctest.Wait() なら状態を待てる"
-    },
-    {
-     "kind": "P",
-     "text": "Go 1.25で正式導入された testing/synctest では、test内のgoroutineをbubble内で動かせる。"
-    },
-    {
-     "kind": "P",
-     "text": "他のgoroutineが、synctestから見てこれ以上進めない状態になるまで待てる"
-    },
-    {
-     "kind": "P",
-     "text": "synctestでは、この状態をdurably blockedと呼ぶ。"
-    },
-    {
-     "kind": "H",
-     "text": "「時間を待つ」から「状態を待つ」へ"
-    },
-    {
-     "kind": "P",
-     "text": "reader goroutineが今回の入力を処理し終え、次の入力待ちになるまで待つ"
-    },
-    {
-     "kind": "P",
-     "text": "schedulerの動きを時間で予想するtestから、goroutineの状態で同期するtestになった"
-    },
-    {
-     "kind": "H",
-     "text": "Sleepを消したら別の問題が見つかった"
-    },
-    {
-     "kind": "P",
-     "text": "しかし、 synctest へ移行するとdeadlockした。"
-    },
-    {
-     "kind": "H",
-     "text": "cancel時にはblocking readも解除する"
-    },
-    {
-     "kind": "P",
-     "text": "そこで、contextがcancelされたときには入力側もcloseするようにした。"
-    },
-    {
-     "kind": "P",
-     "text": "reader goroutineにも明示的な終了経路ができた。"
-    },
-    {
-     "kind": "H",
-     "text": "synctest でgoroutineのlifecycleも見えた"
-    },
-    {
-     "kind": "LI",
-     "text": "goroutineがどこまで進んだか"
-    },
-    {
-     "kind": "LI",
-     "text": "goroutineが最後まで終了したか"
-    },
-    {
-     "kind": "P",
-     "text": "同期だけでなく、goroutineのlifecycleまで明確にする必要が出てきた。"
-    },
-    {
-     "kind": "H",
-     "text": "testを支える標準機能も進化している"
-    },
-    {
-     "kind": "P",
-     "text": "synctest 以外にも、9年間の保守の中でtestを支えるGoの標準機能を少しずつ取り込んできた。"
-    },
-    {
-     "kind": "H",
-     "text": "Go 1.17 T.Setenv — 環境変数のcleanupを任せる"
-    },
-    {
-     "kind": "P",
-     "text": "notify_slackには、環境変数から設定を読むtestがある。"
-    },
-    {
-     "kind": "P",
-     "text": "以前は、変更前の値を保存してtest終了後に自分で戻していた。"
-    },
-    {
-     "kind": "P",
-     "text": "T.Setenv なら、 環境変数の変更とtest終了時の復元を testing に任せられる"
-    },
-    {
-     "kind": "H",
-     "text": "Go 1.24 T.Context() — contextをtestのlifecycleに紐づける"
-    },
-    {
-     "kind": "P",
-     "text": "しかし context.Background() はtestのlifecycleとは無関係で、testが終了してもcontext自体はcancelされない。"
-    },
-    {
-     "kind": "P",
-     "text": "T.Context() はtestのlifecycleに紐づいたcontextを返し、 testの終了に合わせてcancelされる。"
-    },
-    {
-     "kind": "P",
-     "text": "test用のcontextのlifecycleを、自分で管理しなくてよくなった。"
-    },
-    {
-     "kind": "H",
-     "text": "Go 1.27 httptest.NewTestServer — test用のURL書き換えをなくす"
-    },
-    {
-     "kind": "P",
-     "text": "notify_slackではSlack API clientもtestしている。"
-    },
-    {
-     "kind": "P",
-     "text": "以前は httptest.NewServer でlocalhostにtest serverを立てていた。"
-    },
-    {
-     "kind": "P",
-     "text": "なので、productionで使うSlack APIのURLをtest中だけ書き換える必要があった。"
-    },
-    {
-     "kind": "P",
-     "text": "そのため export_test.go にtest専用の関数を用意していた。"
-    },
-    {
-     "kind": "P",
-     "text": "*_test.go はtest時だけbuildされるため、 productionでは公開しない内部実装をtestから操作できる。"
-    },
-    {
-     "kind": "P",
-     "text": "export_test.go という名前自体が特別なのではなく、 この仕組みを利用してtest専用のAPIを用意するpatternはGoの標準libraryでも使われている。"
-    },
-    {
-     "kind": "P",
-     "text": "Go 1.27では httptest.NewTestServer が追加された。"
-    },
-    {
-     "kind": "P",
-     "text": "productionと同じURLへrequestを作ったまま、通信だけをtest serverへ送れる。"
-    },
-    {
-     "kind": "LI",
-     "text": "URLを書き換える export_test.go が不要になった"
-    },
-    {
-     "kind": "LI",
-     "text": "testのために変更可能だったAPI URLを固定値にできる"
-    },
-    {
-     "kind": "LI",
-     "text": "productionと同じrequestを作るのでURLそのものもtestできる"
-    },
-    {
-     "kind": "LI",
-     "text": "外部通信が発生せずGoの内部処理で収まるため、 synctest とも組み合わせられる"
-    },
-    {
-     "kind": "P",
-     "text": "以前は必要だったtest用の仕組みを、Goの標準機能が不要にしてくれた。"
-    },
-    {
-     "kind": "H",
-     "text": "ここまでがtestの話"
-    },
-    {
-     "kind": "P",
-     "text": "notify_slackでは9年間の保守の中で、 CLI全体のlifecycleやcontextの扱いもGoの標準機能に合わせて変えてきた。"
-    },
-    {
-     "kind": "H",
-     "text": "Go 1.16 signal.NotifyContext — signalもcontextで扱う"
-    },
-    {
-     "kind": "P",
-     "text": "以前はシグナルの処理を手作りしており、 CLI全体を一貫したcontextで管理していなかった。"
-    },
-    {
-     "kind": "P",
-     "text": "Go 1.16で signal.NotifyContext が追加された。"
-    },
-    {
-     "kind": "P",
-     "text": "SIGINT / SIGTERM を受け取ると、このcontextがcancelされる。"
-    },
-    {
-     "kind": "P",
-     "text": "signalを特別な終了処理として扱うのではなく、CLI全体のlifecycleをcontextで一貫して表現できるようになった。"
-    },
-    {
-     "kind": "H",
-     "text": "Go 1.21 context.WithoutCancel — 最後のSlack投稿はcancelさせない"
-    },
-    {
-     "kind": "P",
-     "text": "signal.NotifyContext によって、 Ctrl-CでCLI全体のcontextがcancelされるようになった。"
-    },
-    {
-     "kind": "LI",
-     "text": "Ctrl-CならCLI本体は終了する"
-    },
-    {
-     "kind": "LI",
-     "text": "Slack用bufferに残った内容は最後まで送り切る"
-    },
-    {
-     "kind": "P",
-     "text": "この時点で ctx はすでにcancel済みなので、 そのままHTTP requestへ渡すと最後のSlack投稿までcancelされる。"
-    },
-    {
-     "kind": "P",
-     "text": "Go 1.21で context.WithoutCancel が追加された。"
-    },
-    {
-     "kind": "P",
-     "text": "以前は context.Background() を渡すことでcancelから切り離していたが、Valueが引き継げない（notify_slackは不使用）上に、それだけでは意図したcodeなのか、単にcontextを引き継いでいないだけなのか分かりにくい。"
-    },
-    {
-     "kind": "H",
-     "text": "9年で何が変わったか"
-    },
-    {
-     "kind": "H",
-     "text": "testを支える標準機能"
-    },
-    {
-     "kind": "H",
-     "text": "標準ライブラリ"
-    },
-    {
-     "kind": "H",
-     "text": "他にも標準機能が改善されてきた"
-    },
-    {
-     "kind": "P",
-     "text": "Go本体に標準的な方法が増えるたびに、古いcodeを少しずつ置き換えてきた。"
-    },
-    {
-     "kind": "H",
-     "text": "まとめ"
-    },
-    {
-     "kind": "P",
-     "text": "notify_slackがやりたいことは、9年前から大きく変わっていない。"
-    },
-    {
-     "kind": "LI",
-     "text": "terminalにはすぐ出力する"
-    },
-    {
-     "kind": "LI",
-     "text": "Slackには一定時間ごとにまとめて送る"
-    },
-    {
-     "kind": "LI",
-     "text": "終了時にも最後の出力を送り切る"
-    },
-    {
-     "kind": "LI",
-     "text": "その挙動を安定してtestする"
-    },
-    {
-     "kind": "P",
-     "text": "runtimeの偶然や手作りの処理に頼っていたものを、 Goの標準機能で直接表現できるようになった。"
-    },
-    {
-     "kind": "P",
-     "text": "notify_slackは2017年から約9年間、Goに新しい機能が入るたびに少しずつcodeを改善してきた。"
-    },
-    {
-     "kind": "P",
-     "text": "Goと一緒に育つことで、notify_slackは進化してきた。"
-    },
-    {
-     "kind": "H",
-     "text": "参考資料"
-    },
-    {
-     "kind": "H",
-     "text": "notify_slack"
-    },
-    {
-     "kind": "H",
-     "text": "synctestで発見した問題"
-    },
-    {
-     "kind": "H",
-     "text": "Go公式資料"
-    },
-    {
-     "kind": "H",
-     "text": "Discussion"
-    }
-   ],
-   "checkedAt": 1789163808427,
-   "etag": "\"yrfhn1bp8w4tcy\"",
-   "hash": "972d6ec04829c71a",
-   "id": "6e04e2b370a0",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fzenn.dev%2Fcatatsuy%2Farticles%2F254b155f8d5992",
-   "key": "https://zenn.dev/catatsuy/articles/254b155f8d5992",
-   "lastModified": "",
-   "publishedAt": 1789109466000,
-   "summary": "Go Conference 2026 自己紹介 金子達哉 / catatsuy 株式会社PR TIMES CTO 『達人が教えるWebパフォーマンスチューニング』共著者 Podcast「八百万のOSS」のホスト 色々なOSSの設計・実装・運用を深掘りしている notify_slack commandの出力を標準入力から受け取るCLI terminalにはそのまま出力 Slackには一定時間ごとに...",
-   "title": "Goと一緒に育つCLI — 9年のOSS保守で見た標準ライブラリとtestingの進化 #gocon26",
-   "updatedAt": 1789163808427,
-   "url": "https://zenn.dev/catatsuy/articles/254b155f8d5992"
   },
   "https://zenn.dev/d_date/articles/d874e248ac7851": {
    "bodyBlocks": [
@@ -10486,478 +10930,374 @@
    "updatedAt": 1789124376789,
    "url": "https://zenn.dev/d_date/articles/d874e248ac7851"
   },
-  "https://zenn.dev/mediba/articles/7d0d7d70678546": {
+  "https://zenn.dev/nkzn/articles/cross-platform-development-costs-2026": {
    "bodyBlocks": [
     {
      "kind": "H",
-     "text": "Nuxt.js から Next.js へ ── フロントエンド技術リプレイスにおけるハーネスエンジニアリングと理解負債"
+     "text": "クロスプラットフォーム開発が解決するコスト、解決しないコスト"
+    },
+    {
+     "kind": "P",
+     "text": "2026年9月、Shopify Engineeringから「Native is now the future of mobile at Shopify」という記事が公開されました。"
+    },
+    {
+     "kind": "P",
+     "text": "Shopifyは2020年にモバイルアプリ開発をReact Nativeへ寄せる方針を打ち出し、React Nativeコミュニティにも大きな投資を続けてきた会社です。そのShopifyがSwiftとKotlinを使ったネイティブ開発へ戻るというのですから、なかなかインパクトのある話です。"
+    },
+    {
+     "kind": "P",
+     "text": "このニュースを受けて「やはりReact NativeやFlutterのようなクロスプラットフォーム開発には無理がある」「これからはネイティブだ」といった反応も見かけるようになりました。"
+    },
+    {
+     "kind": "P",
+     "text": "しかし、Shopifyの記事を読む限り、Shopify自身はそんな話をしていません。"
+    },
+    {
+     "kind": "P",
+     "text": "むしろ筆者には、この記事は クロスプラットフォーム開発によって何のコストを削減しているのかを改めて考えるための、とてもよい教材 に見えました。"
+    },
+    {
+     "kind": "P",
+     "text": "React NativeもFlutterもただの技術です。役に立つなら使えばいいし、割に合わなくなったらやめればいい。"
+    },
+    {
+     "kind": "P",
+     "text": "では、その「割に合う・合わない」は、どうやって考えればよいのでしょうか。"
     },
     {
      "kind": "H",
-     "text": "はじめに"
+     "text": "Shopifyは「React Nativeは失敗だった」と言っていない"
     },
     {
      "kind": "P",
-     "text": "株式会社 mediba でフロントエンドエンジニアをしている中畑です。"
+     "text": "Shopifyは2020年にReact Nativeを選んだ判断について、当時としては正しい選択だったと振り返っています。"
     },
     {
      "kind": "P",
-     "text": "弊社では Nuxt.js から Next.js への技術リプレイスプロジェクトが進行中です。この記事では、 Claude Code を活用した技術リプレイスの現状と課題をお伝えします。"
-    },
-    {
-     "kind": "H",
-     "text": "前提"
+     "text": "当時の課題のひとつは、iOSとAndroidで同じ機能を二度実装し、それぞれを同期させ続けることでした。React Nativeによって、一度の実装で両プラットフォームへ機能を届けやすくなり、Webを中心に働いていた開発者もモバイル開発へ参加しやすくなりました。"
     },
     {
      "kind": "P",
-     "text": "AIコーディングツールは Claude Code を使用しています。モデルは主に Sonnet 5 を利用しています。"
-    },
-    {
-     "kind": "H",
-     "text": "プロジェクト概要"
-    },
-    {
-     "kind": "H",
-     "text": "システム概要"
+     "text": "一方でReact Nativeにも、フレームワークのアップデート追従、ネイティブ層との境界、外部ライブラリへの依存、パフォーマンス上の問題などのコストがあります。"
     },
     {
      "kind": "P",
-     "text": "システム構成のイメージ図としては以下になります（実際には他にも複数の対向システムが 存在しますが省略）"
+     "text": "これらは2020年にも存在していました。それでもネイティブアプリを2本開発するコストを削減できるメリットのほうが大きかった。だからReact Nativeを選んだわけです。"
     },
     {
      "kind": "P",
-     "text": "フロントエンドは Nuxt.js で開発されています。こちらを Next.js にリプレイスします。"
+     "text": "ShopifyではCoding Agentを開発プロセスへ深く組み込み、片方の実装を参考にもう片方を実装したり、テストやレビューを通して両者の挙動を揃えたりする仕組みを整えています。"
     },
     {
      "kind": "P",
-     "text": "今回は技術リプレイスのみで、サービス仕様は原則として変更しないプロジェクトとなっております。"
+     "text": "ネイティブアプリを2本作るコストがゼロになったわけではないけれど、2020年ほど高くはなくなった。一方でReact Nativeを使うコストは依然として存在する。結果として天秤が逆側へ傾いた。"
     },
     {
      "kind": "P",
-     "text": "体制としては、現行サービスの機能追加や保守は完全に別チームの担当で、技術リプレイス専任のチームが技術リプレイスを進めます。"
+     "text": "これは「React Nativeがダメだった」という話ではありません。 技術選定の前提となっていたコスト構造が変わった という話です。"
     },
     {
      "kind": "H",
-     "text": "課題"
-    },
-    {
-     "kind": "LI",
-     "text": "技術リプレイスの完了期限は必達"
-    },
-    {
-     "kind": "LI",
-     "text": "現行の開発・運用に関わっていたメンバーは未参画"
-    },
-    {
-     "kind": "LI",
-     "text": "リリースから 5 年以上経過し、現行の実装に技術負債が蓄積"
+     "text": "技術を導入しても、コストは消滅しない"
     },
     {
      "kind": "P",
-     "text": "開発チームがこれらの課題を Claude Code による AI コーディングでどのように解決しているか、そして理解負債という新たな課題にどう向き合っているかをご紹介します。"
+     "text": "筆者は以前から、クロスプラットフォーム開発について「コードを何割共有できるか」だけを見るのは、あまりよくないと思っています。"
+    },
+    {
+     "kind": "P",
+     "text": "たとえばiOSとAndroidをそれぞれネイティブで開発すると、「同じ画面をSwiftとKotlinで2回書く」という実装コストがあります。しかし、二重になるものはコードだけではありません。"
+    },
+    {
+     "kind": "P",
+     "text": "仕様変更を両方へ反映し、挙動が揃っていることを確認し、バグ修正も同期させる必要があります。さらに、プラットフォームごとにUIや操作方法が異なれば、サポートセンター向けマニュアルをそれぞれ用意したり、カスタマーサポートのメンバーに両方の操作方法を教育したりするコストも増えていきます。"
+    },
+    {
+     "kind": "P",
+     "text": "逆にReact NativeやFlutterを採用すれば全部が解決するわけでもありません。ネイティブAPIやOSアップデートへの対応は残りますし、クロスプラットフォームフレームワーク自身のアップデートという仕事も増えます。抽象化の境界から問題が漏れ出せば、結局SwiftやKotlinの世界まで降りていくこともあります。"
+    },
+    {
+     "kind": "P",
+     "text": "技術によってコストが魔法のように消滅するわけではありません。"
+    },
+    {
+     "kind": "P",
+     "text": "ある場所で払っていたコストを、別の場所で払うように移動させている と考えたほうが実態に近いと思います。"
     },
     {
      "kind": "H",
-     "text": "ハーネスエンジニアリング"
-    },
-    {
-     "kind": "P",
-     "text": "ハーネスエンジニアリングは人間が AI のために行う周辺環境の設計です。ハーネスの構成要素としては、ルール・コンテキスト・フィードバック等があります。"
+     "text": "クロスプラットフォーム開発は何を安くできるのか"
     },
     {
      "kind": "H",
-     "text": "ルール"
+     "text": "実装コスト"
     },
     {
      "kind": "P",
-     "text": "ルールディレクトリは以下の構成です。ジャンル別にディレクトリを分けて整理しています。各ディレクトリ内に複数のルールファイルを配置しています。"
+     "text": "もっとも分かりやすいものです。同じビジネスロジックやUIをiOSとAndroidでそれぞれ実装する代わりに、共通コードとして一度だけ実装します。"
+    },
+    {
+     "kind": "P",
+     "text": "Coding Agentが得意なのもこの領域です。「このiOS版と同じ機能をAndroidにも作って」と頼んで実装できるようになれば、コードを共有することによる相対的なメリットは小さくなります。"
+    },
+    {
+     "kind": "P",
+     "text": "ただし、コードを生成するコストが下がることと、そのコードを保守するコストが下がることは同じではありません。"
     },
     {
      "kind": "H",
-     "text": "コンテキスト"
+     "text": "同期コスト"
     },
     {
      "kind": "P",
-     "text": "100 行程度の CLAUDE.md を作成しています。内容はプロジェクトの概要やシステム構成、技術スタック、優先度の高いルールなどです。"
+     "text": "筆者はこちらのほうが重要になるプロジェクトも多いと思っています。"
     },
     {
      "kind": "P",
-     "text": "また、Claude がコンテキストとして参照できるように、リポジトリ内に docs/ を作成し画面仕様書や現行実装の調査結果を配置しています。"
+     "text": "2つのコードベースがあれば、「同じ仕様で動いている状態」を維持する必要があります。片方だけ新機能やバグ修正が漏れたり、実装者が仕様を少し違って解釈したりすることは普通に起こり得ます。"
     },
     {
      "kind": "P",
-     "text": "モノレポではないですが、関連する複数サービスを単一の Next.js コードベースで開発しているため、サービス毎にディレクトリを分けています。"
+     "text": "共通コードにしてしまえば、共通化された範囲ではこの問題をかなり減らせます。"
+    },
+    {
+     "kind": "P",
+     "text": "一方、ShopifyのようにCoding Agent、テスト、レビュー、開発基盤を組み合わせて2つの実装のparityを維持できるなら、ここも別の方法で安くできます。"
+    },
+    {
+     "kind": "P",
+     "text": "重要なのは Coding Agentを導入しただけで同期コストが消えるわけではない という点です。"
+    },
+    {
+     "kind": "P",
+     "text": "ShopifyはAgentにコードを書かせるだけでなく、checkpoint、テスト、visual review、複数系統のcode review、人間による承認などを組み合わせています。ネイティブ2本を維持するコストを下げるための開発基盤そのものに投資しています。"
+    },
+    {
+     "kind": "P",
+     "text": "「Shopifyができた」ことと「自分たちも明日からできる」ことの間には、それなりの距離があります。"
     },
     {
      "kind": "H",
-     "text": "フィードバック"
+     "text": "品質保証コスト"
     },
     {
      "kind": "P",
-     "text": "ESLint と Prettier は Claude の Hook で動作するようにしています。"
+     "text": "ビジネスロジックを共通コードとして持てることは、QAのコストにも影響します。"
     },
     {
      "kind": "P",
-     "text": "ルールやコンテキストの改善はかなり意識してチームで取り組んでいます。開発者が気づいたタイミングで直ぐにチケット化したり、モブプログラミング中ならその場で対応したりしています。"
+     "text": "もちろん、React NativeやFlutterを採用したからといって、iOSとAndroidの片方だけテストすればよいわけではありません。UI、OSのAPI、ライフサイクル、端末差など、プラットフォームごとに確認すべき領域は残ります。"
+    },
+    {
+     "kind": "P",
+     "text": "一方で、両プラットフォームでまったく同じビジネスロジックのコードが動いているなら、「この計算や判定についてはiOS側で十分に確認できているので、Android側では同等ケースの一部を間引く」といった判断はしやすくなります。QAのリソースが足りないときに、共通部分よりプラットフォーム固有部分へ重点的に時間を使う、といった配分もできます。"
+    },
+    {
+     "kind": "P",
+     "text": "ネイティブで同じ仕様を2つ実装した場合は、仕様が同じでもコードは別物です。片方のQA結果をもう片方にも適用してよい、と判断するためには、より強い根拠が必要になります。"
+    },
+    {
+     "kind": "P",
+     "text": "共通コードはQAを不要にするものではありませんが、 「同じ実装である」という事実を、テストの重複を減らすための根拠にできる ことがあります。"
+    },
+    {
+     "kind": "P",
+     "text": "ただし、Shopifyがこの問題を考えていないわけではありません。二実装になれば、AgentがiOS側とAndroid側にそれぞれ別のバグを作り込む可能性もあります。だからこそShopifyは、テストやvisual review、parityの確認などに投資して、その差分を検出するための仕組みを整えています。"
+    },
+    {
+     "kind": "P",
+     "text": "つまり、ネイティブ二実装を選ぶならQAコストがそのまま倍になる、という単純な話でもありません。 二実装によって増える品質保証の負担を、テスト基盤や自動化への投資で別のコストへ移している と見るほうが、この記事全体の考え方にも合っています。"
     },
     {
      "kind": "H",
-     "text": "スキル"
+     "text": "学習コストとコンテキストスイッチ"
     },
     {
      "kind": "P",
-     "text": "コードレビュー用のスキルや開発時の動作確認用のスキルなど一般的なスキルに加えて、開発フロー全体のスキル化にも取り組んでいます。チームの開発フローを Claude に開示し、そのフローに従って開発を進めてもらいます。このプロジェクトでは、この開発フローのスキル化がハーネスエンジニアリングの要だと認識しています。"
+     "text": "クロスプラットフォーム技術で共有できるのは、コードだけではありません。"
     },
     {
      "kind": "P",
-     "text": "では、ここからは開発フローのスキル化について詳しくご説明します。"
+     "text": "少し極端な例として、iOSとAndroidでUIコードをまったく共有しないReact Nativeアプリを考えてみます。"
+    },
+    {
+     "kind": "P",
+     "text": "コード共有率だけをKPIにするなら失敗に見えるかもしれません。しかし開発者から見ると意味があります。"
+    },
+    {
+     "kind": "P",
+     "text": "どちらでもReactのコンポーネントモデルを使い、同じようにstateや非同期処理を扱い、同じようにスタイリングできます。iOS担当者がAndroid側を手伝うときに、SwiftUIからJetpack Composeへ頭を切り替える必要がない。Reactの知識を持ったまま移動できます。"
+    },
+    {
+     "kind": "P",
+     "text": "ここで共有しているのは ソースコードではなく、開発者の知識 です。"
+    },
+    {
+     "kind": "P",
+     "text": "このように コードを共有せず、開発モデルを共有する ことにも十分な価値があります。"
+    },
+    {
+     "kind": "P",
+     "text": "ちなみに筆者の記憶では、Microsoft OfficeのReact Native活用でもこれに近い考え方が採用されていたはずです。今回あらためて調べたところ、OfficeがC++による共通ロジックとReact Nativeを組み合わせていることまでは確認できましたが、「コードではなく開発者の知識を共有する」という意図を示す一次情報までは見つけられませんでした。記憶違いだったらごめんなさい。"
     },
     {
      "kind": "H",
-     "text": "開発フロー"
+     "text": "人材・組織のコスト"
     },
     {
      "kind": "P",
-     "text": "初めに現行仕様や実装を調査し、仕様書としてまとめた上で再実装し現行の動作や UI と差分がないことを検証します。"
+     "text": "たとえば社内にReactを書けるWebエンジニアが10人いて、SwiftやKotlinに詳しい人がほとんどいない組織を考えます。"
+    },
+    {
+     "kind": "P",
+     "text": "この会社にとってのReact Nativeの価値と、iOS/Androidそれぞれの専門家が十分に揃っている会社にとっての価値は当然違います。"
+    },
+    {
+     "kind": "P",
+     "text": "ネイティブ開発を選ぶなら、採用する、育成する、あるいは既存メンバーに新しい技術を学んでもらう必要があります。iOSチームとAndroidチームを分ければ、チーム間のコミュニケーションやスケジュール調整も必要になります。"
+    },
+    {
+     "kind": "P",
+     "text": "クロスプラットフォーム技術はこれらを消すものではありませんが、必要な専門性の境界を動かすことはできます。"
     },
     {
      "kind": "H",
-     "text": "開発フローをスキル化"
+     "text": "クロスプラットフォーム開発が解決しないコスト"
     },
     {
      "kind": "P",
-     "text": "この開発フローの各ステップ(現行調査、仕様書作成...)をスキル化した上で、全体のフローも1つのスキルとして整理しています。オーケストレーションの役割を持たせます。"
+     "text": "React NativeやFlutterを採用しても、App StoreとGoogle Playは別々に存在します。署名や審査、配布の仕組みも違います。Push Notification、Deep Link、権限、バックグラウンド処理など、OS固有の仕組みから逃れられない領域もあります。"
     },
     {
      "kind": "P",
-     "text": "1セッションでは完了できない作業量になることが多いため、 status.md ファイルにタスクリストやメモを作成し、次のセッションへと引き継げるようにしています。"
+     "text": "実機でしか起きない問題もありますし、OSアップデートによって突然挙動が変わることもあります。"
     },
     {
      "kind": "P",
-     "text": "フロー全体を 1 つのスキルとすることで、スキル自体を開発フローを説明する1つのドキュメントとして利用できるため、チーム外への紹介やオンボーディング時に役に立ちました。"
+     "text": "「コードが1つになったからモバイルアプリが1つになった」わけではありません。ユーザーが使っているのは、あくまでiOSアプリとAndroidアプリです。"
     },
     {
      "kind": "P",
-     "text": "ここからは各ステップのスキルの内容について詳細をご説明します。"
+     "text": "テストやリリース、ストア運用、プラットフォーム固有の品質保証といったコストは残ります。"
+    },
+    {
+     "kind": "P",
+     "text": "このあたりを無視して「コードが半分だから開発費も半分」と見積もると、だいたい悲しいことになります。"
     },
     {
      "kind": "H",
-     "text": "現行調査"
+     "text": "クロスプラットフォームだから増えるコスト"
     },
     {
      "kind": "P",
-     "text": "現行実装を調査し mermaid の図とマークダウンファイルに整理するスキルです。"
+     "text": "さらに、クロスプラットフォーム技術を採用することで新しく発生するコストもあります。"
+    },
+    {
+     "kind": "P",
+     "text": "React NativeであればReact Nativeそのもの、FlutterであればFlutterそのものが、アプリとOSの間に入ります。"
+    },
+    {
+     "kind": "P",
+     "text": "抽象化がうまく機能している間は便利ですが、プラットフォーム固有機能や性能問題、フレームワークのバグに遭遇すると、その境界を越える必要があります。フレームワークや依存ライブラリのアップデートにも追従しなければなりません。"
+    },
+    {
+     "kind": "P",
+     "text": "つまり、ネイティブ2本を維持するコストを減らす代わりに、 クロスプラットフォームという追加のレイヤーを維持するコスト を引き受けています。"
+    },
+    {
+     "kind": "P",
+     "text": "これはReact NativeやFlutterが悪いという意味ではありません。便利な抽象化には、その抽象化を維持するコストがあります。"
     },
     {
      "kind": "H",
-     "text": "仕様書作成"
+     "text": "Coding Agentは天秤を動かす"
     },
     {
      "kind": "P",
-     "text": "エクセルで作成された画面仕様書をマークダウンファイルに変換するスキルです。以後はこのマークダウンファイルを元に実装します。"
+     "text": "Coding Agentによって、同じ機能をSwiftとKotlinで二度書く作業は以前より確実に安くなるでしょう。片方を参考にもう片方を生成したり、普段使わない言語をAgentに助けてもらいながら実装したりできます。"
     },
     {
      "kind": "P",
-     "text": "従来の開発では、時間の経過と共に実装とドキュメントの内容が乖離していく課題がありました。同一リポジトリ内にマークダウンファイルとして管理することで、Claude が読み書きしやすくなるため、内容の乖離を自動的に検知し修正していけることを期待しています。"
+     "text": "これはクロスプラットフォーム技術が持っていたメリットの一部を小さくします。"
+    },
+    {
+     "kind": "P",
+     "text": "しかし、コードを2回生成できても仕様が2つに分裂しないことは保証されません。生成されたコードを誰がレビューするのか、数年後に誰が保守するのか、OSごとの不具合を誰が調査するのか、という問題も残ります。"
+    },
+    {
+     "kind": "P",
+     "text": "また「開発者の知識を共有する」「組織内で人を移動しやすくする」といった価値は、単純なコード生成能力だけでは測れません。"
+    },
+    {
+     "kind": "P",
+     "text": "Shopifyは、それらも含めてNativeへ戻るための開発基盤を作り、そのコストを受け止められる組織を育てたのでしょう。"
     },
     {
      "kind": "H",
-     "text": "実装"
+     "text": "「どちらが正しいか」ではなく「何を安くしたいか」"
     },
     {
      "kind": "P",
-     "text": "新たに作成した画面仕様書と現行の実装を元にして実装を生成するスキルです。"
+     "text": "クロスプラットフォーム開発については、昔から宗教戦争になりがちです。"
     },
     {
      "kind": "P",
-     "text": "最初に、実装のタスクリストを生成します。このタスクリストを元にエージェントが並列で実装ができるものを整理した全体計画を作成します。並列処理を活用することで実装生成時間を短縮します。"
+     "text": "ネイティブのほうがよい。React Nativeのほうが速く作れる。Flutterなら全部同じにできる。いや、結局ネイティブを書くことになる。"
     },
     {
      "kind": "P",
-     "text": "実装のタスクリストの初めは仮実装の生成としています。仮実装を生成することで、大まかなコンポーネント設計や全体像が分かりやすくなります。実装を全て生成した後から設計レベルの軌道修正をすると Claude の処理時間が長くなったり無駄にトークンを消費してしまうので、必ず初めに仮実装を生成することにしています。"
+     "text": "しかし技術選定で知りたいのは、一般論としてどちらが優れているかではありません。"
     },
     {
      "kind": "P",
-     "text": "@link で移行元のファイルと行範囲をコメントで残しています。実装を読む際に便利です。"
+     "text": "自分たちのプロダクトと組織では、いま何に一番お金や時間を使っているのか。そのコストを技術によってどこへ移動させると、全体として安くなるのか。"
+    },
+    {
+     "kind": "P",
+     "text": "ShopifyにとってReact Nativeは2020年には合理的な選択でした。そして2026年には、Coding Agentと開発基盤によってNativeを選ぶほうが合理的になった。"
+    },
+    {
+     "kind": "P",
+     "text": "それは「React Nativeの時代が終わった」という意味ではなく、 Shopifyにとっての最適解が変わった ということです。"
+    },
+    {
+     "kind": "P",
+     "text": "他社が同じ結論へ行くとは限りません。組織の人数も、持っているスキルも、プロダクトの性質も、求めるUIも、許容できるコストも違うからです。"
+    },
+    {
+     "kind": "P",
+     "text": "React NativeもFlutterも、SwiftもKotlinも、ただの技術です。"
+    },
+    {
+     "kind": "P",
+     "text": "流行や有名企業の結論をそのまま輸入するのではなく、自分たちが何のコストを解決したいのかを考えて、役立つものを使えばよいのだと思います。"
     },
     {
      "kind": "H",
-     "text": "検証"
-    },
-    {
-     "kind": "P",
-     "text": "実装の生成後は検証します。検証は以下の 3 ステップに分けて、それぞれをスキル化しています。"
-    },
-    {
-     "kind": "P",
-     "text": "まず、画面仕様書と実装を比較します。比較結果は以下のフォーマットで出力します。"
-    },
-    {
-     "kind": "P",
-     "text": "現行実装とも比較し同様のフォーマットで出力します。指摘事項を確認し、修正は Claude に依頼します。"
-    },
-    {
-     "kind": "P",
-     "text": "現行のサービスは運用されて 5 年以上が経過しているため、画面仕様書の記載が実装と乖離していることが多いです。画面仕様書はマークダウンファイルなので、Claude で簡単に修正できますし、差分の確認も楽です。"
-    },
-    {
-     "kind": "P",
-     "text": "最後に UI の比較をします。UI 比較のスキルは以下です。"
-    },
-    {
-     "kind": "P",
-     "text": "ローカル環境で、現行とリプレイス後それぞれの開発サーバを起動し UI を比較します。画面操作、スクリーンショットの取得、差分比較結果の格納までスキルで自動化しています。"
-    },
-    {
-     "kind": "P",
-     "text": "画面の操作とスクリーンショットの取得は Claude が playwright-cli で行い、 reg-cli でスクリーンショット間の画像差分を検出します。"
-    },
-    {
-     "kind": "P",
-     "text": "2 つのスクリーンショットを並べて比較。画面は実際のプロダクトではありません。"
-    },
-    {
-     "kind": "P",
-     "text": "reg-cli による差分比較の結果はリポジトリ内に配置して git 管理の対象としています。PR レビュー時にどのケースで UI 比較したか、どのような結果だったかが分かりやすくなります。"
-    },
-    {
-     "kind": "P",
-     "text": "ユーザの操作を伴う場合は、操作毎にスクリーンショットを取得しています。また会員かどうか等の条件毎にもスクリーンショットを取得して比較しています。結果は report.html にまとめられ、差分の詳細をインタラクティブに確認可能です。"
-    },
-    {
-     "kind": "P",
-     "text": "UI 差分の修正は Claude にスクリーンショットを渡して指示します。差分がなくなるまでループで回すことも可能ですが、意味のある差分なのか誤差なのかは開発者の判断に依存しているところがあり、現状は開発者が気になる点について手で指示を書いています。ここはもっと改善できる余地があります。"
-    },
-    {
-     "kind": "P",
-     "text": "AI コーディングは品質のガードレールが重要です。技術リプレイスは要件や UI の正解が明確に存在するので、その正解との差分をしっかり検証するステップはかなり強固なガードレールとして機能している印象です。"
-    },
-    {
-     "kind": "H",
-     "text": "メリット・デメリット"
-    },
-    {
-     "kind": "P",
-     "text": "ハーネスエンジニアリングを活用した Claude による AI コーディング開発のメリット・デメリットを整理します。"
-    },
-    {
-     "kind": "H",
-     "text": "メリット"
-    },
-    {
-     "kind": "H",
-     "text": "移植精度の向上"
-    },
-    {
-     "kind": "P",
-     "text": "Claude による実装は、現行実装に忠実なロジック、変数や関数の命名が維持される傾向です。技術リプレイスに伴うリグレッションの防止という観点では非常に有効なのですが、これがそのまま技術負債の移植や開発者の理解不足というデメリットにも繋がります。"
-    },
-    {
-     "kind": "H",
-     "text": "高速化"
-    },
-    {
-     "kind": "P",
-     "text": "Claude は実装だけでなく、調査や実装の検証・不具合修正まで多くの工程を人間よりも高速に処理できます。実装の内部品質で一定の妥協が必要だとしても、少なくとも開発はスケジュール期間内に完了させることができる点は非常に心強く感じます。"
-    },
-    {
-     "kind": "H",
-     "text": "属人化の防止"
-    },
-    {
-     "kind": "P",
-     "text": "Claude が多くの開発工程を担当できるようになったので、Claude を使う開発者自身の技術力や仕事の進め方への依存が減った印象です。もちろん、Claude さえあれば新規参画者がいきなり開発を進められるわけではありません。しかし、従来よりもオンボーディング期間を短縮できたり、（品質や理解が伴っているかはともかく）何らかのアウトプットは出せるようになりました。"
-    },
-    {
-     "kind": "H",
-     "text": "デメリット"
-    },
-    {
-     "kind": "H",
-     "text": "移植精度が高すぎて技術負債もそのまま移植される"
-    },
-    {
-     "kind": "P",
-     "text": "不適切な命名や多重責務の関数などもそのまま移植されるので、元の実装が抱えている課題はそのまま引き継がれます。"
-    },
-    {
-     "kind": "P",
-     "text": "また、忠実に移植するので既に使用されていない機能(デッドコード)や不適切なエラーハンドリングもそのまま移行されます。開発者が検知した場合はサービス担当者に確認した上で対応検討しますが、Claude だけでは難しい、開発チームの判断が必要な箇所です。"
-    },
-    {
-     "kind": "H",
-     "text": "開発者の理解不足"
-    },
-    {
-     "kind": "P",
-     "text": "技術リプレイスはいわゆる「理解負債」が溜まりやすい開発だと感じています。"
-    },
-    {
-     "kind": "P",
-     "text": "実装は Claude が生成できますし、技術リプレイスでは現行仕様通りに動作していれば正しく実装できていることが分かるので、開発者が仕様を深く理解する工程がなくなっています。"
-    },
-    {
-     "kind": "P",
-     "text": "仕様に限らず、現行や移行後の実装についても深く理解するタイミングが失われています。他者に上手く説明できない実装は多いですし、どこでどう実装しているかは記憶にも残らなくなりました。"
-    },
-    {
-     "kind": "P",
-     "text": "バックエンドの API やCMS 等の関連システムについても同様に理解が浅くなりました。仕様書をきちんと読んだり、システムを触ったこと自体がなくても開発自体は進められてしまう状況です。"
-    },
-    {
-     "kind": "H",
-     "text": "理解負債とどう向き合うか"
-    },
-    {
-     "kind": "P",
-     "text": "技術リプレイスというプロジェクトのゴールだけを考えれば、理解負債を無視するという選択肢もあります。しかし、技術リプレイス後の機能改修や保守も考えると、理解負債と向き合いながら開発チームとして少しずつでも理解を積み重ねていくことは必要だと考えます。"
-    },
-    {
-     "kind": "P",
-     "text": "理解負債を解消するための開発チームでは以下の取組みを行っています。"
-    },
-    {
-     "kind": "H",
-     "text": "仕様の理解不足"
-    },
-    {
-     "kind": "H",
-     "text": "実際に現行システムに触れる"
-    },
-    {
-     "kind": "P",
-     "text": "仕様理解については、まず現行システムを実際に触る時間を意図的に作るようにしています。こう書くと技術リプレイスにおいて当たり前のことなのですが、Claude 前提の開発フローでは人間が現行システムをしっかり触らなくても開発が出来てしまいます。対象ページの開発を始める前にチームメンバー全員で実際にブラウザでページを開き、触ったり観察したりして、疑問に思った点を共有し、解消するようにしました。"
-    },
-    {
-     "kind": "H",
-     "text": "モックデータでAPI レスポンスのパターンを洗い出す"
-    },
-    {
-     "kind": "P",
-     "text": "網羅性が高いモックデータ(API レスポンス)を最初に生成し、ローカル環境で動かすのも効果的です。(現行システムに MSW が入っていない場合は追加します)"
-    },
-    {
-     "kind": "P",
-     "text": "モックデータは仕様を理解していなければ準備が難しいので、Claude でたたき台を生成してもらい、自分の理解と共にブラッシュアップしていきます。これはテスト設計に近い作業なので、Claude にテスト項目書のような形式で HTML ファイルにモックデータのパターンを整理します。"
-    },
-    {
-     "kind": "P",
-     "text": "モックデータ(API のレスポンス)のパターンについて考えることは、API の仕様や元になる入稿データ、CMS の仕様について考えるきっかけにもなり、理解の幅が広がります。"
-    },
-    {
-     "kind": "H",
-     "text": "コードの理解不足"
-    },
-    {
-     "kind": "P",
-     "text": "開発者が実際にコードリーディングするのが1番良いですが、Claude を活用して効率良く進めます。"
-    },
-    {
-     "kind": "H",
-     "text": "特に理解が難しい箇所は HTML や mermaid で図解する"
-    },
-    {
-     "kind": "P",
-     "text": "何回読んでも何をしているのか理解できない実装は、Claude に HTML や mermaid で図解してもらうと理解の助けになることがあります。技術負債は本質的に理解が困難な構造をしていることもありますが、mermaid で関数同士の依存関係をグラフとして描いてもらうとそれが可視化されます。それによって自分が理解できないのも仕方ないな、と納得することもあります。"
-    },
-    {
-     "kind": "H",
-     "text": "移行元の実装のファイル名と行をコメントで記載する"
-    },
-    {
-     "kind": "P",
-     "text": "Claude には必ず移行元のファイル名と行をコメントで記載させています。"
-    },
-    {
-     "kind": "P",
-     "text": "ちょっとした工夫ですが、現行実装との対応を確認する際の手間がかなり減ります。そもそも対応する現行実装が存在しないハルシネーションの場合もあるので、実装の根拠をすぐに確認できることは重要です。"
-    },
-    {
-     "kind": "H",
-     "text": "現行システムの関連リポジトリを全て1ディレクトリに集約して Claude が参照できるようにする"
-    },
-    {
-     "kind": "P",
-     "text": "現行の Web アプリケーション、CMS、バックエンド、バッチなど関連するリポジトリは全て clone してローカルの特定のディレクトリ配下に配置します。そのディレクトリ内で Claude を起動して、現行システムに関する疑問を解消できるようにしています。"
-    },
-    {
-     "kind": "P",
-     "text": "全体の概要は CLAUDE.md やオンボーディング用の HTML に整理し、トークンやコンテキストを節約しています。成果物を保存するディレクトリも作成しておき、日をまたいで同じような調査を依頼しないようにしています。"
-    },
-    {
-     "kind": "P",
-     "text": "フロントエンドからバックエンドまで横断で調査することで、回答の精度も上がりますし、質問できる内容の幅も広がります。現行システムの担当者に質問するか迷うぐらいのちょっとした疑問でも Claude になら遠慮なく質問できます。その回答を元に現行システムの担当者に質問することで、お互いの時間を短縮して深い議論ができ、理解も深まるというメリットがあります。"
-    },
-    {
-     "kind": "P",
-     "text": "Claude の回答で、根拠になっている実装箇所も教えてくれることが多いので、自分で実際に確かめることも可能です。不慣れなコードベースを彷徨うよりも効率良くコードリーディングできます。"
-    },
-    {
-     "kind": "H",
-     "text": "まとめ"
-    },
-    {
-     "kind": "P",
-     "text": "Nuxt.js から Next.js への技術リプレイスにおけるルール・コンテキスト・フィードバックといったハーネスエンジニアリングと、開発フローそのもののスキル化についてご紹介しました。移植精度の向上や開発の高速化、属人化の防止といった大きなメリットを得られた一方で、技術負債がそのまま移植されてしまうことや、開発者の「理解負債」という新たな課題にも直面しています。"
-    },
-    {
-     "kind": "P",
-     "text": "理解負債は、AI コーディングが加速するほど見過ごされがちな問題です。現行システムに実際に触れる・モックデータで仕様を洗い出す・mermaid での図解や移行元コメントの活用・関連リポジトリの集約といった地道な取組みを積み重ねることが重要です。そうすることで、開発チームとしての理解を少しずつ深められると感じています。"
-    },
-    {
-     "kind": "P",
-     "text": "この記事が同じように技術リプレイスや AI コーディングに取り組む方の参考になれば幸いです。"
-    },
-    {
-     "kind": "P",
-     "text": "KDDIグループの株式会社medibaのエンジニアが運営するテックブログです。 メディア事業やソリューション開発で培った技術的知見や、AI活用、開発プロセスに関する情報を発信します。"
+     "text": "Discussion"
     }
    ],
-   "checkedAt": 1789250211376,
-   "etag": "\"113fyeb6a9u3oa6\"",
-   "hash": "8ebc8c5de2a5622f",
-   "id": "ca875ed65c84",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fzenn.dev%2Fmediba%2Farticles%2F7d0d7d70678546",
-   "key": "https://zenn.dev/mediba/articles/7d0d7d70678546",
+   "checkedAt": 1789270325606,
+   "etag": "\"fz87qjknmv28oo\"",
+   "hash": "ae24872ad40c53f0",
+   "id": "2997ea1bc846",
+   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fzenn.dev%2Fnkzn%2Farticles%2Fcross-platform-development-costs-2026",
+   "key": "https://zenn.dev/nkzn/articles/cross-platform-development-costs-2026",
    "lastModified": "",
-   "publishedAt": 1789098143000,
-   "summary": "はじめに 株式会社 mediba でフロントエンドエンジニアをしている中畑です。 弊社では Nuxt.js から Next.js への技術リプレイスプロジェクトが進行中です。この記事では、 Claude Code を活用した技術リプレイスの現状と課題をお伝えします。 前提 AIコーディングツールは Claude Code を使用しています。モデルは主に ...",
-   "title": "Nuxt.js から Next.js へ ── フロントエンド技術リプレイスにおけるハーネスエンジニアリングと理解負債",
-   "updatedAt": 1789250211376,
-   "url": "https://zenn.dev/mediba/articles/7d0d7d70678546"
-  },
-  "https://zenn.dev/ymotongpoo/books/go-ebpf-primer": {
-   "bodyBlocks": [
-    {
-     "kind": "H",
-     "text": "OpenTelemetry eBPF Instrumentationの舞台裏"
-    },
-    {
-     "kind": "P",
-     "text": "Go Conference 2026の登壇「OpenTelemetry eBPF Instrumentationの舞台裏」の解説資料です。eBPFによるゼロコード計装は「言語を問わず動く」と語られますが、Goバイナリへの関数レベルの計装は他言語にない4つの難所を抱えています。なぜ難しいのかを、CPUとメモリの仕組みという初歩から積み上げて、OBIの実装コードまで手元で確かめながら読める構成にしました。"
-    }
-   ],
-   "checkedAt": 1789124376789,
-   "etag": "\"klo45f2via1fci\"",
-   "hash": "732cb83283837e1e",
-   "id": "f7fb9390d5d0",
-   "imageUrl": "https://cdn-ak2.favicon.st-hatena.com/64?url=https%3A%2F%2Fzenn.dev%2Fymotongpoo%2Fbooks%2Fgo-ebpf-primer",
-   "key": "https://zenn.dev/ymotongpoo/books/go-ebpf-primer",
-   "lastModified": "",
-   "publishedAt": 1789099457000,
-   "summary": "Go Conference 2026の登壇「OpenTelemetry eBPF Instrumentationの舞台裏」の解説資料です。eBPFによるゼロコード計装は「言語を問わず動く」と語られますが、Goバイナリへの関数レベルの計装は他言語にない4つの難所を抱えています。なぜ難しいのかを、CPUとメモリの仕組みという初歩から積み上げて、OBIの実装コードま...",
-   "title": "OpenTelemetry eBPF Instrumentationの舞台裏",
-   "updatedAt": 1789124376789,
-   "url": "https://zenn.dev/ymotongpoo/books/go-ebpf-primer"
+   "publishedAt": 1789250855000,
+   "summary": "2026年9月、Shopify Engineeringから「Native is now the future of mobile at Shopify」という記事が公開されました。 Shopifyは2020年にモバイルアプリ開発をReact Nativeへ寄せる方針を打ち出し、React Nativeコミュニティにも大きな投資を続けてきた会社です。そのShopifyがSwiftとKotlinを使ったネイティブ開発へ戻...",
+   "title": "クロスプラットフォーム開発が解決するコスト、解決しないコスト",
+   "updatedAt": 1789270325606,
+   "url": "https://zenn.dev/nkzn/articles/cross-platform-development-costs-2026"
   }
  },
  "listing": {
   "https://b.hatena.ne.jp/hotentry/it.rss": {
-   "checkedAt": 1789250212766,
+   "checkedAt": 1789270326657,
    "etag": "",
    "lastModified": ""
   }
  },
  "siteId": "hatena_it",
- "updatedAt": 1789250252114
+ "updatedAt": 1789270353762
 }

@@ -627,7 +627,7 @@
      "text": "また次回は、実際にスカルプトモードはどのように使うのか、といった点も見ていきたいと思います。次回も読んでくださると嬉しいです！"
     }
    ],
-   "checkedAt": 1789163681976,
+   "checkedAt": 1789270171238,
    "etag": "",
    "hash": "8f34cd7359709a00",
    "id": "034a0f90a22b",
@@ -637,7 +637,7 @@
    "publishedAt": 1788135240000,
    "summary": "本連載では、Blenderの基本的な知識、機能についてイラストを交えながら紹介しています。第84回目は、Blenderに用意されているスカルプトモードについて見ていきます。",
    "title": "Blenderのスカルプトモードの概要を知ろう",
-   "updatedAt": 1789163681976,
+   "updatedAt": 1789270171238,
    "url": "https://gihyo.jp/article/2026/08/blender-basics-84?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/08/chatgpt-github-plugin-marketplace-sync": {
@@ -895,7 +895,7 @@
      "text": "また、 「 ⁠今まではパフォーマンス上の理由で断念していたコンパイラの機能も、Goになった今なら実現できる可能性がある」 とのTypeScript開発者のコメントも以前見かけましたので、今後の進化が楽しみです。"
     }
    ],
-   "checkedAt": 1789163681976,
+   "checkedAt": 1789270171238,
    "etag": "",
    "hash": "8f5c05fd7c0ea511",
    "id": "b549387fcb2e",
@@ -905,7 +905,7 @@
    "publishedAt": 1788134280000,
    "summary": "今回は、MisskeyのコードベースでTypeScript 7.0のパフォーマンスを検証します。",
    "title": "TypeScript 7.0リリース！ Misskeyで検証",
-   "updatedAt": 1789163681976,
+   "updatedAt": 1789270171238,
    "url": "https://gihyo.jp/article/2026/08/misskey-25?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/08/openclaw-2-0": {
@@ -4811,11 +4811,11 @@
  },
  "listing": {
   "https://gihyo.jp/feed/rss2": {
-   "checkedAt": 1789250083556,
-   "etag": "W/\"6aa5be40-7adf3\"",
-   "lastModified": "Sat, 12 Sep 2026 21:04:00 GMT"
+   "checkedAt": 1789270172459,
+   "etag": "W/\"6aa612a0-7adf3\"",
+   "lastModified": "Sun, 13 Sep 2026 03:04:00 GMT"
   }
  },
  "siteId": "gihyo",
- "updatedAt": 1789250130199
+ "updatedAt": 1789270215984
 }
