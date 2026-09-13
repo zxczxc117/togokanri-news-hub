@@ -4811,11 +4811,11 @@
  },
  "listing": {
   "https://gihyo.jp/feed/rss2": {
-   "checkedAt": 1789297029785,
-   "etag": "W/\"6aa66700-7adf3\"",
-   "lastModified": "Sun, 13 Sep 2026 09:04:00 GMT"
+   "checkedAt": 1789336468861,
+   "etag": "W/\"6aa70fc0-7adf3\"",
+   "lastModified": "Sun, 13 Sep 2026 21:04:00 GMT"
   }
  },
  "siteId": "gihyo",
- "updatedAt": 1789297075863
+ "updatedAt": 1789336510859
 }
