@@ -183,7 +183,7 @@
      "text": "linux-firmwareパッケージの細分化 （26. 04で取り込まれた 「linux-firmware-qualcomm-graphics」 などのような、 デバイスごとに細分化されたfirmwareパッケージ） が、 24. 04 LTSでも 利用できる ようになりました。特に大規模なインストール環境において、 システム更新に伴うネットワーク負荷を下げるために利用できるでしょう。"
     }
    ],
-   "checkedAt": 1789297027544,
+   "checkedAt": 1789383505375,
    "etag": "",
    "hash": "9d9e60bcc12d475c",
    "id": "2754d858a2fe",
@@ -193,7 +193,7 @@
    "publishedAt": 1789086360000,
    "summary": "stonkingのSnapshot 3が無事にリリースされています。",
    "title": "Ubuntu 26.10（stonking）の開発; Snapshot 3とinitrd肥大への対応、 germidiff、 壁紙の確定",
-   "updatedAt": 1789297027544,
+   "updatedAt": 1789383505375,
    "url": "https://gihyo.jp/admin/clip/01/ubuntu-topics/202609/11?utm_source=feed"
   },
   "https://gihyo.jp/admin/serial/01/ubuntu-recipe/0925": {
@@ -555,190 +555,6 @@
    "title": "第926回 UbuntuからYAMAHA RTX830に設定したIKEv2に接続する",
    "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/admin/serial/01/ubuntu-recipe/0926?utm_source=feed"
-  },
-  "https://gihyo.jp/article/2026/08/chatgpt-github-plugin-marketplace-sync": {
-   "bodyBlocks": [
-    {
-     "kind": "P",
-     "text": "OpenAIのVaibhav Srivastav氏は2026年8月29日、Xへの投稿で、BusinessやEnterpriseなどのChatGPTプランで、ワークスペース管理者がGitHub上のプラグインマーケットプレイスを継続的に同期できるようになったと明らかにした。個人アカウントでは、すでにChatGPTデスクトップアプリからプラグインリポジトリを追加できる。"
-    },
-    {
-     "kind": "QUOTE",
-     "text": "GitHub plugin syncing is now available for ChatGPT workspaces, including Business and Enterprise. Admins can import a Codex or Claude marketplace from a public or private repo and share its plugins with their team. The workspace picks up changes daily, or sooner with Sync now,… pic. twitter. com/ yLLYkUdgdI — Vaibhav (VB) Srivastav (@reach_vb) August 29, 2026"
-    },
-    {
-     "kind": "H",
-     "text": "1日1回の自動同期と手動同期に対応"
-    },
-    {
-     "kind": "P",
-     "text": "ワークスペース管理者は、取り込むプラグインの一覧や参照先をJSON形式でまとめたマーケットプレイス設定ファイルを、GitHub上の公開・ 非公開リポジトリからインポートできる。操作は 「Workspace settings⁠ 」 ⁠→ 「 ⁠Plugins⁠ 」 ⁠→ 「 ⁠Add⁠ 」 ⁠→ 「 ⁠Import marketplace」 から行う。設定ファイルでは、別のGitHubリポジトリにあるプラグインも参照できる。ファイルがサブディレクトリにある場合はパスも指定する。 [1]"
-    },
-    {
-     "kind": "P",
-     "text": "ChatGPTは1日1回、インポート元のGitHubリポジトリに変更がないか確認し、プラグインを自動で更新する。管理者は 「Sync now」 を選び、次回の自動同期を待たずに手動で同期することもできる。この仕組みにより、プラグインを更新するたびにZIPアーカイブをアップロードする必要がなくなる。"
-    },
-    {
-     "kind": "P",
-     "text": "インポート時には、デフォルトブランチのほか、任意のブランチ、タグ、コミットを指定できる。継続的に更新を取り込む場合はブランチ、特定の版に固定する場合はコミットを使う。"
-    },
-    {
-     "kind": "H",
-     "text": "管理者向けの設定と注意点"
-    },
-    {
-     "kind": "P",
-     "text": "GitHubから同期されるのはプラグインの内容だけで、プラグインに含まれるアプリへの接続やアクセス権限は自動では設定されない。管理者はプラグインごとのインストールポリシーを設定し、必要なアプリが有効になっているか、メンバーが認証を済ませているかを確認する。"
-    },
-    {
-     "kind": "P",
-     "text": "GitHub上のマーケットプレイス設定ファイルに新しいプラグインを追加したり、そこから参照する既存プラグインを更新したりすると、次回の同期でワークスペースに反映される。このため、OpenAIはリポジトリへの変更をマージする前に内容を確認するよう求めている。既存プラグインの更新内容に問題がある場合、そのプラグインは最後に正常動作した版のまま維持される。その場合でも、ほかの更新に問題がなければ通常どおり反映される。"
-    }
-   ],
-   "checkedAt": 1789250082156,
-   "etag": "",
-   "hash": "81d152cb5a01ad0a",
-   "id": "70c44c252668",
-   "imageUrl": "https://gihyo.jp/assets/images/ICON/2026/3019_chatgpt-github-plugin-marketplace-sync.png",
-   "key": "https://gihyo.jp/article/2026/08/chatgpt-github-plugin-marketplace-sync",
-   "lastModified": "",
-   "publishedAt": 1788152220000,
-   "summary": "OpenAIのVaibhav Srivastav氏は2026年8月29日、Xへの投稿で、BusinessやEnterpriseなどのChatGPTプランで、ワークスペース管理者がGitHub上のプラグインマーケットプレイスを継続的に同期できるようになったと明らかにした。",
-   "title": "ChatGPT、Business／EnterpriseプランなどでGitHub上のプラグインマーケットプレイスを同期可能に",
-   "updatedAt": 1789250082156,
-   "url": "https://gihyo.jp/article/2026/08/chatgpt-github-plugin-marketplace-sync?utm_source=feed"
-  },
-  "https://gihyo.jp/article/2026/08/daily-linux-260831": {
-   "bodyBlocks": [
-    {
-     "kind": "P",
-     "text": "Debianプロジェクトは8月29日、数週間に渡ってプロジェクト内で議論されてきた AI/ LLMの利用ポリシー に関する一般決議 （General Resolution） の結果を発表した。最終的には全部で9つの案が選考の対象となったが、8月15日～28日にかけて行われたDebian開発者による投票の結果、Option 5の 「生成AIの責任ある利用 （Responsible Use of Generative AI⁠ ） ⁠」が選ばれ、これによりDebianプロジェクトにおけるAI/ LLMの貢献が公に認められることとなった。"
-    },
-    {
-     "kind": "LI",
-     "text": "Option 1 … 社会契約 （Social Contract） にもとづき、LLMによる貢献を禁止する （Ban LLM contributions from Debian via Social Contract）"
-    },
-    {
-     "kind": "LI",
-     "text": "Option 2 … 条件付きでAI支援による貢献を許可する （Allow AI-Assisted Contributions with conditions）"
-    },
-    {
-     "kind": "LI",
-     "text": "Option 3 … 可能な限りLLMを排除し、行動規範 （Code of Conduct） を更新する （Reject LLMs as far as practical, update Code of Conduct）"
-    },
-    {
-     "kind": "LI",
-     "text": "Option 4 … Debian固有の作業におけるAIによる貢献を受け入れる （Accept AI contributions for Debian specific work）"
-    },
-    {
-     "kind": "LI",
-     "text": "Option 5 … 生成AIの責任ある利用 （Responsible Use of Generative AI）"
-    },
-    {
-     "kind": "LI",
-     "text": "Option 6 … 生成AIに対する慎重なアプローチ （A cautious approach to generative AI）"
-    },
-    {
-     "kind": "LI",
-     "text": "Option 7 … Debianは人間によって作られる （Debian is created by humans ※Debianへの直接的な貢献は人間が行うが、貢献者が使うツールの制限はしない）"
-    },
-    {
-     "kind": "LI",
-     "text": "Option 8 … LMの利用を避ける: 気候破壊は容認できない （Avoid the use of LLM: climate destruction is a deal breaker ※LLMの利用は地球の生態系の破壊を加速させる→気候破壊につながる）"
-    },
-    {
-     "kind": "LI",
-     "text": "Option 9 … 上記のいずれでもない （None of the above）"
-    },
-    {
-     "kind": "P",
-     "text": "勝者となったOption 5の 「生成AIの責任ある利用」 では、基本的に開発者がAIを使用することを禁止はしないが、AIを使った結果についてはこれまでの開発と同様に 「人間が全面的に責任を負う」 ことが明記されている。ただし 「開発者がAI支援を受けて作成した貢献であるかどうかを開示することは望ましいが、それを義務付けることはしない」 ともあり、AI使用そのものを管理/監視する方針ではないようだ。"
-    },
-    {
-     "kind": "P",
-     "text": "また、AIによる成果物の著作権やライセンスに関しては 「多くの法的課題があることを認識している」 と認めたうえで、 「 ⁠今回の一般決議で未解決の法的問題を解決するつもりはなく、特定の立場を取るつもりもない。かわりに個人の判断と責任を尊重し、開発者が生成AIツールを組み込んだワークフローを設計/実装する際には適切な注意を払うことを求める」 としており、既存のルールと同様に 「法的に問題があるものをDebianには入れない」 責任は開発者が負うとしている。"
-    },
-    {
-     "kind": "P",
-     "text": "さらにセキュリティに関しても人間による監督と責任を重視しており、Debianプロジェクトの機密情報 （コミュニティやインフラに関する非公開情報など） を第三者のAIサービスに渡すことを禁じている。"
-    },
-    {
-     "kind": "QUOTE",
-     "text": "「本決議は、生成AIがDebianの貢献者にすでに求められている基準を超えて特別なルールの対象となるわけでも、それらの基準から免除されるわけでもないことを確認するものである。あらゆる貢献に対する責任は、それを提出した貢献者に帰属し、その貢献者は、技術的な品質、法的な許容性、およびDebianへの取り込みに対する適切性について責任を負い続ける」"
-    },
-    {
-     "kind": "P",
-     "text": "もっとも今回の 「生成AIの責任ある利用」 の容認に不満を表明するメンバーも少なくなく、たとえばDebian開発者のひとりであるAntoine Le Gonidecは 「Debianがファシストの支援を受けた技術を全面的に受け入れた」 「 ⁠クソくらえ （Fuck that⁠ ） ⁠ 」 ⁠ 「 ⁠信頼していたコミュニティにこれほど失望させられるなんて」 と強い言葉で今回の決定を非難し、プロジェクトから離脱することを表明している。"
-    },
-    {
-     "kind": "P",
-     "text": "議論が継続中とはいえ、AIコーディングが多くの開発者にとっての日常風景となった現在、Debianのように歴史ある大規模プロジェクトにおいて 「人間が最終的な責任を負うことを条件に、AIツールの利用を認める」 という基本方針が打ち出されたことはオープンソース開発における大きなマイルストーンとなりそうだ。"
-    }
-   ],
-   "checkedAt": 1789250082156,
-   "etag": "",
-   "hash": "af14a53b151bc28f",
-   "id": "1fd89fb236b0",
-   "imageUrl": "https://gihyo.jp/assets/images/ICON/2022/1897_linux_daily_new.png",
-   "key": "https://gihyo.jp/article/2026/08/daily-linux-260831",
-   "lastModified": "",
-   "publishedAt": 1788158220000,
-   "summary": "Debianプロジェクトは8月29日、数週間に渡ってプロジェクト内で議論されてきたAI/LLMの利用ポリシーに関する一般決議（General Resolution）の結果を発表した。",
-   "title": "Debian、「生成AIの責任ある使用」を容認へ",
-   "updatedAt": 1789250082156,
-   "url": "https://gihyo.jp/article/2026/08/daily-linux-260831?utm_source=feed"
-  },
-  "https://gihyo.jp/article/2026/08/openclaw-2-0": {
-   "bodyBlocks": [
-    {
-     "kind": "P",
-     "text": "OpenClaw開発チームは2026年8月30日、AIアシスタントOpenClawの新バージョンOpenClaw 2. 0をリリースした [1] 。OpenClaw史上最大規模のアップデートで、開発には新規569名を含む933名のコントリビューターが参加、1万6,000件以上のプルリクエストで構成されたとのこと。これまでマージされたプルリクエストの約50％を含むリリースとなった。"
-    },
-    {
-     "kind": "QUOTE",
-     "text": "OpenClaw 2. 0 has arrived https:// t. co/ 52iWXJQvCy — OpenClaw🦞 (@openclaw) August 31, 2026"
-    },
-    {
-     "kind": "P",
-     "text": "今回のアップデートはOpenClawとしては異例の約7週間ぶりのリリースとなる。これまでのアップデートでは、1、2日以内に新しいリリースが行われるようなスケジュールだったが、チームの大規模化にともないこれが見直され、既存のシステムを壊すことなく正しく動作することが確認されたうえで、大幅にアップデートしたリリースを提供することが可能となったという。"
-    },
-    {
-     "kind": "P",
-     "text": "アップデートはインストール、メッセージング、メモリ、スキル、モデル、自動化、ブラウザとネイティブアプリ、プラグイン、セキュリティなど、OpenClawのあらゆる部分に対して行われており、その他にも多くの細かい修正が含まれている。"
-    },
-    {
-     "kind": "P",
-     "text": "たとえば初回インストール時には、既存のChatGPTまたはClaudeのサブスクリプション、APIキー、ローカルモデルなど、ユーザーのコンピュータに既にインストールされているものを検知して開始できる。このため多くの初期設定項目を削除または簡素化でき、残りの項目は初期設定から除外することで、ユーザーはインストール後すぐに最初の会話を始めて、Clawに話しかけるだけで初期設定が完了できるようになった。"
-    },
-    {
-     "kind": "P",
-     "text": "また新しいWeb UIにより、ファイル、承認、設定、ライブ作業などをWeb上の会話として進めることができ、Clawの設定や動作状況の追跡、さまざまな作業をこれまでのように複数のツールを切り替えることなく進めることができる。"
-    },
-    {
-     "kind": "P",
-     "text": "さらにクラウドセッションをチーム内で共有することで、マルチプレイヤー環境が構築できるようになった。OpenClawがすでに把握しているコンテキストを維持したまま他のメンバーを作業に参加させることができるため、チーム内でOpenClawのタスクを共有し、共同作業を行ったり、作業を完全に引き継ぐことができる。"
-    },
-    {
-     "kind": "P",
-     "text": "詳しい新機能や修正点、特徴は リリースノート を参照。"
-    },
-    {
-     "kind": "P",
-     "text": "OpenClaw 2. 0はmacOS、Linux、Windowsで動作し、それぞれのOS用にインストーラーが用意されている。インストーラーの入手とインストール方法は ドキュメント を参照。システム要件としてNode. jsが必要で、Node 22. 22. 3+、24. 15+、または25. 9+～Node 26の動作が推奨されている。Nodeがインストールされていない場合、インストーラーはmacOSではNode 26、LinuxではNode 24 LTSがセットアップされる。またiOS、Androidアプリはそれぞれのアプリストアから入手可能。"
-    }
-   ],
-   "checkedAt": 1789250082156,
-   "etag": "",
-   "hash": "6af61487c58d613d",
-   "id": "ea1c35092268",
-   "imageUrl": "https://gihyo.jp/assets/images/ICON/2026/3021_openclaw-2-0.png",
-   "key": "https://gihyo.jp/article/2026/08/openclaw-2-0",
-   "lastModified": "",
-   "publishedAt": 1788162180000,
-   "summary": "OpenClaw開発チームは2026年8月30日、AIアシスタントOpenClawの新バージョンOpenClaw 2.0をリリースした。",
-   "title": "OpenClaw 2.0リリース ―インストール、メッセージング、メモリ機能、スキル、モデル、自動化など大幅に機能強化",
-   "updatedAt": 1789250082156,
-   "url": "https://gihyo.jp/article/2026/08/openclaw-2-0?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/aaif-mcp-a2a-briefing": {
    "bodyBlocks": [
@@ -3635,7 +3451,7 @@
      "text": "GPT-Live-1の音声部分の料金は1分当たり0. 05ドル。 ドキュメント によると、音声セッションの時間に応じて秒単位で課金され、バックエンドのモデルとツールの利用料は別途発生する。"
     }
    ],
-   "checkedAt": 1789297027544,
+   "checkedAt": 1789383505375,
    "etag": "",
    "hash": "7e2b6cf8909fbc19",
    "id": "6fd13c1e41cb",
@@ -3645,7 +3461,7 @@
    "publishedAt": 1789094580000,
    "summary": "OpenAIは9月10日、音声モデル「GPT-Live-1」のAPI提供を開始した。開発者は、発話中もユーザーの声を聞き取り、割り込みや依頼の変更に対応する音声エージェントを構築できる。",
    "title": "OpenAI、GPT-Live-1をAPIで提供開始 ——発話中の割り込みや依頼の変更に対応",
-   "updatedAt": 1789297027544,
+   "updatedAt": 1789383505375,
    "url": "https://gihyo.jp/article/2026/09/gpt-live-1-api?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/home-local-llm-guide": {
@@ -4315,7 +4131,7 @@
      "text": "OpenAIは、利用を始める開発者向けに クイックスタート を公開している。ベータ期間中は開発者のフィードバックを基に改善を進め、一般提供を目指す。"
     }
    ],
-   "checkedAt": 1789297027544,
+   "checkedAt": 1789383505375,
    "etag": "",
    "hash": "352405cbe5f43938",
    "id": "a671bfa727be",
@@ -4325,7 +4141,7 @@
    "publishedAt": 1789090980000,
    "summary": "OpenAIは9月10日、クラウド上でAIエージェントを構築・実行する「Agents API」をパブリックベータとして公開した。Codexを支えるエージェントの実行基盤をAPI経由で提供し、モデルの呼び出しやツール利用の制御、長時間のセッション管理をOpenAIが引き受ける。",
    "title": "OpenAI、Agents APIをパブリックベータ公開 ——Codexの実行基盤でクラウドエージェントを構築",
-   "updatedAt": 1789297027544,
+   "updatedAt": 1789383505375,
    "url": "https://gihyo.jp/article/2026/09/openai-agents-api-public-beta?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/ossdb-various-news0133": {
@@ -4584,6 +4400,98 @@
    "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/article/2026/09/ossdb-various-news0133?utm_source=feed"
   },
+  "https://gihyo.jp/article/2026/09/pnpm-12.4": {
+   "bodyBlocks": [
+    {
+     "kind": "P",
+     "text": "パッケージマネージャーpnpmのバージョン12. 4が2026年9月8日にリリースされた。JavaScriptのnpmパッケージに加え、RustとPythonの依存関係を同じワークスペースでインストールする実験的機能を追加した。ビルドやテストなどをまとめて実行する pnpm pipeline も追加されている。"
+    },
+    {
+     "kind": "H",
+     "text": "1回のインストールでJavaScript⁠ ・ Rust⁠ ・ Pythonの依存関係を取得"
+    },
+    {
+     "kind": "P",
+     "text": "インストールには pnpm install を使う。pnpmの公式Xアカウントでは、複数言語を使うリポジトリで、npmパッケージ、Rustのパッケージであるクレート、Pythonパッケージを並行してダウンロードできると紹介している。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "experimental: pnpm v12. 4 can install Rust and Python dependencies too. So in a multi-language repository you get js packages, crates, and pypi packages downloaded concurrently. https:// t. co/ L3laZrA832 — pnpm (@pnpmjs) September 11, 2026"
+    },
+    {
+     "kind": "P",
+     "text": "RustとPythonへの対応はデフォルトで無効になっており、利用する言語の設定を pnpm-workspace. yaml で有効にする。両方を利用する場合の設定は次のとおり。"
+    },
+    {
+     "kind": "P",
+     "text": "依存関係を追加する際は、クレート名に crate: 、Pythonパッケージ名に pypi: を付ける。たとえば、Rustのserdeは pnpm add crate:serde 、Pythonのhttpxは pnpm add pypi:httpx で追加できる。"
+    },
+    {
+     "kind": "P",
+     "text": "インストールをまとめても、依存関係の記録には各言語のファイルを使う。 Rustの依存関係 は Cargo. toml と Cargo. lock で管理し、 pnpm-lock. yaml とは分けて保持する。pnpmはソースを取得し、RustのビルドツールCargoから参照できるように .cargo/ config. toml を設定する。その後のコンパイルは cargo build で行う。"
+    },
+    {
+     "kind": "P",
+     "text": "Pythonの依存関係 については、pnpmが pyproject. toml を読み込み、解決した結果を pylock. toml に記録する。プロジェクトごとに仮想環境 .venv を用意し、 pnpm run や pnpm exec からその環境のコマンドを呼び出せる。pnpm自身が作成したものではない既存の .venv は変更しない。"
+    },
+    {
+     "kind": "P",
+     "text": "パッケージの保存には共通のストアを使い、一度取得したファイルを別のプロジェクトでも再利用する。RustとPythonでも、ロックファイルを変更せずにインストールする --frozen-lockfile や、ネットワークを使わない --offline に対応する。"
+    },
+    {
+     "kind": "H",
+     "text": "ビルドやテストをまとめて実行するpnpm pipeline"
+    },
+    {
+     "kind": "P",
+     "text": "新しい実験的コマンド pnpm pipeline は、ロックファイルを変更せずに依存関係をインストールした後、ワークスペース内のタスクを実行する。対象は、Gitの基準リビジョンからの変更で影響を受けたプロジェクトと、それらに依存するプロジェクトとなる。"
+    },
+    {
+     "kind": "P",
+     "text": "実行するタスクの組み合わせは、 pnpm-workspace. yaml の pipelines に名前を付けて定義する。たとえば default: [build, test] と設定すると、 pnpm pipeline でbuildとtestを実行できる。別の名前で定義した組み合わせは、 pnpm pipeline <名前> で指定する。タスクの実行順序は、 tasks の dependsOn で指定した依存関係で決まる。"
+    },
+    {
+     "kind": "P",
+     "text": "各タスクに出力ファイルを示す outputs を宣言すると、結果をキャッシュして再利用できる。ファイルを生成しないテストなども、 outputs: [] を指定すればキャッシュの対象になる。キャッシュが使える場合はタスクを再実行せず、出力ファイルを復元し、保存したログを再表示する。"
+    },
+    {
+     "kind": "P",
+     "text": "また、タスクが失敗しても処理を続け、1回の実行で複数の失敗を報告する。 pnpm pipeline --dry-run では、インストールやタスク実行を行わずにタスク間の依存関係を確認できる。"
+    },
+    {
+     "kind": "H",
+     "text": "対応プラットフォームを追加⁠ 、 更新時のキャッシュ処理も変更"
+    },
+    {
+     "kind": "P",
+     "text": "pnpm 12. 4では、Androidのarm64・ x64、FreeBSDのx64、Linuxのppc64le・ s390x・ RISC-V向けにバイナリを追加した。追加されたLinux向けバイナリはいずれもglibc環境が対象となる （ 対応プラットフォームの一覧 ⁠ ） ⁠。"
+    },
+    {
+     "kind": "P",
+     "text": "レジストリから取得するパッケージのメタデータは、URLのパスやスキームが異なるレジストリごとに分けて保存するようになった。これにより、別のレジストリのバージョン情報やダウンロード先URLが誤って使われるのを防ぐ。更新後の初回インストールではメタデータを再取得するが、パッケージストアは維持される。"
+    },
+    {
+     "kind": "P",
+     "text": "キャッシュ関連コマンドでは、 pnpm cache view がレジストリの完全なURLを表示するようになった。 pnpm cache list-registries や pnpm cache list の出力からディレクトリ名を解析するスクリプトは、変更に合わせた更新が必要になる。"
+    },
+    {
+     "kind": "P",
+     "text": "後続の 12. 4.1 では、AndroidでシステムのCA証明書が見つからずレジストリへの通信が失敗する不具合などを修正した。 nodeLinker: hoisted を使う環境で、再インストール時に既存のパッケージを取り込み直す問題にも対処している。"
+    }
+   ],
+   "checkedAt": 1789383505375,
+   "etag": "",
+   "hash": "983344207333f858",
+   "id": "a8aa16a6d033",
+   "imageUrl": "https://gihyo.jp/assets/images/ICON/2026/3043_pnpm-12.4.png",
+   "key": "https://gihyo.jp/article/2026/09/pnpm-12.4",
+   "lastModified": "",
+   "publishedAt": 1789363380000,
+   "summary": "パッケージマネージャーpnpmのバージョン12.4が2026年9月8日にリリースされた。",
+   "title": "pnpm 12.4リリース、RustとPythonの依存関係もまとめてインストール可能に",
+   "updatedAt": 1789383505375,
+   "url": "https://gihyo.jp/article/2026/09/pnpm-12.4?utm_source=feed"
+  },
   "https://gihyo.jp/article/2026/09/qwen3.8-max-0902": {
    "bodyBlocks": [
     {
@@ -4635,6 +4543,70 @@
    "title": "Qwen3.8-Maxのアップグレード版「Qwen3.8-Max-0902」登場、コーディング、エージェントタスク、マルチモーダル性能が大幅に向上",
    "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/article/2026/09/qwen3.8-max-0902?utm_source=feed"
+  },
+  "https://gihyo.jp/article/2026/09/safari-top-level-await": {
+   "bodyBlocks": [
+    {
+     "kind": "P",
+     "text": "WebKitは2026年9月2日、Safari 27でJavaScriptのtop-level awaitを仕様に完全準拠させたとする解説記事を公開した。モジュールの読み込みと実行を管理するモジュールローダーを作り直し、初期化前の値にアクセスしてエラーになる問題を修正した。 Safari 27 は現地時間9月14日にリリースされる。"
+    },
+    {
+     "kind": "P",
+     "text": "修正は 6月に公開されたSafari 27ベータ版の紹介記事 でも案内されており、今回の記事では実装を手がけたKai Tamkun氏が不具合の原因と修正の経緯を説明している。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "Top-level await is fixed in Safari for iOS 27 and macOS Golden Gate. Here's how I did it: https:// t. co/ UNHfzRRaaX — Kai 🖖🏻👁👄👁🤘🏻 (@heimskr64) September 2, 2026"
+    },
+    {
+     "kind": "H",
+     "text": "モジュールの初期化で非同期処理を待てるtop-level await"
+    },
+    {
+     "kind": "P",
+     "text": "top-level awaitは、JavaScriptのモジュールの最上位で、async関数で囲まずに await を書ける機能。ECMAScript 2022に取り込まれた。たとえば外部からデータを取得し、その結果を使ってモジュール内の値を初期化するときに使える。"
+    },
+    {
+     "kind": "P",
+     "text": "モジュールがtop-level awaitで非同期処理を待っている間は、それに依存するモジュールの実行も待機する。依存しない別のモジュールは、その間も実行を進められる。この仕組みにより、利用側のモジュールに初期化待ちの処理を別途書かずに、必要なデータがそろってから実行を始められる。"
+    },
+    {
+     "kind": "H",
+     "text": "初期化前のアクセスエラーを解消⁠ 、 ローダーをC++で再実装"
+    },
+    {
+     "kind": "P",
+     "text": "Safariは 2021年のSafari 15でtop-level awaitを導入した が、旧ローダーは非同期のモジュール実行を前提としないWHATWG Loader提案に基づいていた。その設計にtop-level awaitを追加したため、ECMAScript仕様が定める非同期実行の手順とのずれが生じていた。"
+    },
+    {
+     "kind": "P",
+     "text": "今回の解説記事では、同じモジュールを続けて動的に読み込む際の不具合を紹介している。初期化が終わる前に読み込みが完了した扱いになり、その後のアクセスでエラーが発生するという。"
+    },
+    {
+     "kind": "P",
+     "text": "そこでWebKitは、ECMAScript仕様で定めるアルゴリズムに沿って、モジュールローダーをC++で実装し直した。新ローダーでは、初期化が終わるまで読み込みの完了を待つようになった。 実装のプルリクエスト は4月14日にマージされた。"
+    },
+    {
+     "kind": "P",
+     "text": "この修正により、top-level awaitの対応が主要ブラウザーでそろう。 MDNの互換性情報 を見ると、対応済みのChrome、Edge、Firefoxに加え、Safariも27で対応となる。"
+    },
+    {
+     "kind": "P",
+     "text": "Tamkun氏によると、複雑な依存関係を持つモジュール群を自動生成して新ローダーを検証し、Node. jsで実行した場合と出力が一致することを確認している。ECMAScriptの適合性テスト集test262ではモジュール関連の全テストを通過し、ブラウザー間の互換性を検証するWeb Platform Testsでも、それまで失敗していた多数のテストが通るようになったという。"
+    }
+   ],
+   "checkedAt": 1789383505375,
+   "etag": "",
+   "hash": "3267e087e227c77a",
+   "id": "1b9e938e6273",
+   "imageUrl": "https://gihyo.jp/assets/images/ICON/2026/3044_safar-top-level-await.png",
+   "key": "https://gihyo.jp/article/2026/09/safari-top-level-await",
+   "lastModified": "",
+   "publishedAt": 1789365060000,
+   "summary": "WebKitは2026年9月2日、Safari 27でJavaScriptのtop-level awaitを仕様に完全準拠させたとする解説記事を公開した。",
+   "title": "Safari 27、top-level awaitの不具合を修正、モジュールローダーを刷新",
+   "updatedAt": 1789383505375,
+   "url": "https://gihyo.jp/article/2026/09/safari-top-level-await?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/toward-agi-era": {
    "bodyBlocks": [
@@ -4847,11 +4819,11 @@
  },
  "listing": {
   "https://gihyo.jp/feed/rss2": {
-   "checkedAt": 1789356694050,
-   "etag": "W/\"6aa76420-7b459\"",
-   "lastModified": "Mon, 14 Sep 2026 03:04:00 GMT"
+   "checkedAt": 1789383506704,
+   "etag": "W/\"6aa7b880-7b835\"",
+   "lastModified": "Mon, 14 Sep 2026 09:04:00 GMT"
   }
  },
  "siteId": "gihyo",
- "updatedAt": 1789356743651
+ "updatedAt": 1789383556610
 }

@@ -1796,6 +1796,110 @@
    "updatedAt": 1789356908983,
    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/13/news005.html"
   },
+  "https://atmarkit.itmedia.co.jp/ait/articles/2609/14/news037.html": {
+   "bodyBlocks": [
+    {
+     "kind": "P",
+     "text": "GitHubは2026年9月2日（米国時間）、AI技術や自律型エージェントが急速に普及するのに伴って開発現場に登場している新用語を整理、解説する技術ガイドを公式ブログで公開した。"
+    },
+    {
+     "kind": "P",
+     "text": "同社によると、開発現場ではAIツールの導入が進む一方、関連する新しい概念や専門用語が次々と登場し、開発者が混乱しやすい状況が生じているという。こうした新用語には、実践的な設計パターンを示すものや既存概念の言い換え、現在進行形で定義が形成されつつあるものが含まれる。"
+    },
+    {
+     "kind": "P",
+     "text": "開発者が押さえるべき主要な10用語の定義と実務における位置付けについて、以下のように解説している。"
+    },
+    {
+     "kind": "H",
+     "text": "顧客の現場でAI実装を支援する「フォワードデプロイドエンジニア」"
+    },
+    {
+     "kind": "P",
+     "text": "1つ目は、AI技術の普及に伴って脚光を浴びている職種「フォワードデプロイドエンジニア」（Forward Deployed Engineer：FDE）だ。この職種自体は従来存在していたが、AIエージェントの台頭によって新たな文脈で語られるようになっている。"
+    },
+    {
+     "kind": "P",
+     "text": "FDEは、顧客企業と直接向き合うカスタマーエンジニア、セールスエンジニア、ソリューションエンジニアに近い役割を持つ。顧客の現場環境に深く入り込み、技術製品を導入、適合させる支援を担う。"
+    },
+    {
+     "kind": "P",
+     "text": "AIに焦点を当てた現在の文脈においては、顧客企業の既存システムや開発パイプラインに、AIツール、自動化ワークフロー、自律型エージェントなどを円滑に統合する専門職としての役割が期待されているという。"
+    },
+    {
+     "kind": "H",
+     "text": "モデルの動作を制御・統合する実行環境「ハーネス」「ハーネスエンジニアリング」"
+    },
+    {
+     "kind": "P",
+     "text": "2つ目は、モデルの周辺環境全体を指す「ハーネス」（Harnesses）と「ハーネスエンジニアリング」（Harness Engineering）だ。AIモデル単体が生成する出力を除き、モデルを現場の開発ワークフローで役立たせるために周囲を取り囲む仕組み全般をハーネスと呼ぶ。"
+    },
+    {
+     "kind": "P",
+     "text": "具体的には、モデルが利用する各種ツールへの接続、アクセス権限の管理、メモリ、コンテキスト、オーケストレーション機能などが含まれる。名称は馬車や乗馬で使われる「馬具（ハーネス）」に由来する。奔放に走る性質を持つ馬（モデル）に、手綱や馬具を装着して方向性を安全に制御しながら推進力を生かすという比喩に基づいている。"
+    },
+    {
+     "kind": "H",
+     "text": "評価に基づいてエージェントを継続改善する「ヒルクライミング」"
+    },
+    {
+     "kind": "P",
+     "text": "3つ目の概念は、エージェントやハーネスの性能を反復的に高めていく改善プロセスを指す「ヒルクライミング（Hill Climbing）」。最適化アルゴリズムの用語に由来し、現在の状態から評価スコアが最も高くなる方向へとシステムを継続的に修正していく営みを表す。"
+    },
+    {
+     "kind": "P",
+     "text": "実務におけるヒルクライミングでは、まずエージェントの出力が期待通りの水準に達しているかどうかを評価する。その測定結果に基づいてハーネスを調整し、出力を段階的に向上させていく。"
+    },
+    {
+     "kind": "P",
+     "text": "例えば、Pull Requestのレビューを自動化するエージェントを運用する場合、実質的なバグを正しく検出できているか、提示された改善提案が開発者にとって有用かどうかを検証する。有用ではない場合はツールの構成を調整し、有用な提案を行える確率を徐々に高めていく作業が該当する。"
+    },
+    {
+     "kind": "H",
+     "text": "単発プロンプトから自律運用に移行する「ループエンジニアリング」"
+    },
+    {
+     "kind": "P",
+     "text": "4つ目は「ループエンジニアリング」（Loop Engineering）だ。AIエージェントで手動でプロンプトを入力し、単発のタスクを実行させる運用から脱却し、エージェントを取り巻く反復可能かつ自動化されたシステムを設計する手法を指す。"
+    },
+    {
+     "kind": "P",
+     "text": "例えば、毎朝開発者が手作業でエージェントを呼び出し、リポジトリに届いた新しい課題（Issue）の確認や要約、修正案の作成を依頼する運用は単発プロンプトの典型例だ。ループエンジニアリングでは、スケジュールに従って定期起動する自動化ループを構築する。新しい課題を自動取得してエージェントに渡し、生成された出力を検証した上で、処理が滞ったタスクのみを人間にエスカレーションする。同社はこれを、AIネイティブ環境における高機能な「cronジョブ」のような仕組みと表現している。"
+    },
+    {
+     "kind": "LI",
+     "text": "なぜAI企業は社内で「ソフトウェアエンジニア」と呼ばなくなったのか 広がる「MTS」と職種の未来 AnthropicやOpenAIでは、研究者とエンジニアをまたぐ共通の社内肩書きとして「Member of Technical Staff（技術スタッフの一員）」が使われている。元CTOたちが次々とこの肩書きに転じている現象から、肩書きが専門性を証明しなくなった時代に何が価値を決めるのかを考える。"
+    },
+    {
+     "kind": "LI",
+     "text": "Claude、Codex、Qwen……そのAI用語、どう読む？ 読み方クイズ30問 何となくこう読むものだと思っていたら、実は違っていた。そんな経験はないでしょうか。AI用語にも、意外な読み方をするものや、人によって読み方が分かれるものが少なくありません。その読み方が合っているか、全30問のクイズで確かめてみてください。"
+    },
+    {
+     "kind": "LI",
+     "text": "「AIがコードを書く時代、新職種FDEが需要増」 7割のエンジニアが思う理由 レバテックが2026年6月30日、ITエンジニアを対象に、AI時代の新たな職種「FDE」に関して意識調査を実施した結果を公表。回答者の68.3％が同職種に興味を持ち、72.0％が今後の需要増加を予測していることが明らかとなった。"
+    },
+    {
+     "kind": "LI",
+     "text": "「ハーネス」って結局、何？ みんな使い方が違うAIエージェント用語をHugging Faceが整理 AIエージェント分野で人によって意味が揺れる「ハーネス」「スキャフォールド」などの用語を、Hugging Faceが整理した。AIエージェントを正しく理解し議論するために押さえておきたい基本用語を初心者向けに解説する。"
+    },
+    {
+     "kind": "LI",
+     "text": "爆発的に普及する生成AIを支える「AIデータセンター」の役割を学ぼう IT用語の基礎の基礎を、初学者や非エンジニアにも分かりやすく解説する本連載、最終回となる第38回は「AIデータセンター」です。ITエンジニアの学習、エンジニアと協業する業務部門の仲間や経営層への解説にご活用ください。"
+    }
+   ],
+   "checkedAt": 1789383707100,
+   "etag": "",
+   "hash": "f0d35ab7dc833547",
+   "id": "2a351fa8ecee",
+   "imageUrl": "https://image.itmedia.co.jp/ait/articles/2609/14/cover_news037.jpg",
+   "key": "https://atmarkit.itmedia.co.jp/ait/articles/2609/14/news037.html",
+   "lastModified": "",
+   "publishedAt": 1789358400000,
+   "summary": "GitHubは、ソフトウェア開発の現場で急速に広がるAI関連の新用語を解説するガイドを公開した。「FDE」「ハーネス」「オープンウェイト」など、主要な10の用語を整理している。",
+   "title": "「FDE」「ハーネス」「オープンウェイト」って何？ AI時代に現場で飛び交う10用語をGitHubが整理",
+   "updatedAt": 1789383707100,
+   "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/14/news037.html"
+  },
   "https://kn.itmedia.co.jp/kn/article/2609/04/2000001139": {
    "bodyBlocks": [],
    "checkedAt": 1788818352702,
@@ -1888,17 +1992,17 @@
   },
   "https://kn.itmedia.co.jp/kn/article/2609/14/2000001421": {
    "bodyBlocks": [],
-   "checkedAt": 1789356908983,
+   "checkedAt": 1789383707100,
    "etag": "",
    "hash": "a7c118dab087f263",
    "id": "a3e7da6da844",
    "imageUrl": "https://kn.itmedia.co.jp/kn/article/ogp/2609/14/2000001421/10006222/2048",
    "key": "https://kn.itmedia.co.jp/kn/article/2609/14/2000001421",
-   "lastModified": "Mon, 14 Sep 2026 02:45:34 GMT",
+   "lastModified": "Mon, 14 Sep 2026 07:45:41 GMT",
    "publishedAt": 1789336800000,
    "summary": "Googleの「Gemini Notebook」が、資料を読むためのAIから、データ分析や成果物の作成までを任せられるツールへと変わりつつある。NotebookLMから何が変わったのか。2026年の主な機能追加と最新動向を整理する。",
    "title": "「Gemini Notebook」になって何が変わった？ NotebookLMからの変更点をおさらい",
-   "updatedAt": 1789356908983,
+   "updatedAt": 1789383707100,
    "url": "https://kn.itmedia.co.jp/kn/article/2609/14/2000001421/"
   },
   "https://monoist.itmedia.co.jp/mn/articles/2609/08/news009.html": {
@@ -2525,21 +2629,6 @@
    "updatedAt": 1789356908983,
    "url": "https://monoist.itmedia.co.jp/mn/articles/2609/14/news041.html"
   },
-  "https://www.itmedia.co.jp/aiplus/article/2609/07/2000001207": {
-   "bodyBlocks": [],
-   "checkedAt": 1788838447678,
-   "etag": "",
-   "hash": "bfa7667b78188ba3",
-   "id": "6676a4b023cc",
-   "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/07/2000001207/10005368/2048",
-   "key": "https://www.itmedia.co.jp/aiplus/article/2609/07/2000001207",
-   "lastModified": "Tue, 08 Sep 2026 02:45:29 GMT",
-   "publishedAt": 1788757857000,
-   "summary": "Tesla Japanが自動運転タクシー専用車両「Cybercab」を日本初公開。9月11日から東京・大阪・名古屋の4会場で「Cybercab Japan Tour」を開き、ハンドルもペダルもない2人乗りの実車を展示する。",
-   "title": "Teslaのロボタクシー「Cybercab」が日本で実車初公開 東京・大阪・名古屋で",
-   "updatedAt": 1788838447678,
-   "url": "https://www.itmedia.co.jp/aiplus/article/2609/07/2000001207/"
-  },
   "https://www.itmedia.co.jp/aiplus/article/2609/07/2000001217": {
    "bodyBlocks": [],
    "checkedAt": 1788904660208,
@@ -2872,78 +2961,93 @@
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001391": {
    "bodyBlocks": [],
-   "checkedAt": 1789356908983,
+   "checkedAt": 1789383707100,
    "etag": "",
    "hash": "82651d97bb854fda",
    "id": "dc6db5569fd2",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/11/2000001391/10006107/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001391",
-   "lastModified": "Mon, 14 Sep 2026 02:45:35 GMT",
+   "lastModified": "Mon, 14 Sep 2026 10:45:22 GMT",
    "publishedAt": 1789083545000,
    "summary": "",
    "title": "ChatGPT Work、質問するだけで社内データ分析・グラフやダッシュボードも作る「Data agent」",
-   "updatedAt": 1789356908983,
+   "updatedAt": 1789383707100,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001391/"
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001394": {
    "bodyBlocks": [],
-   "checkedAt": 1789356908983,
+   "checkedAt": 1789383707100,
    "etag": "",
    "hash": "ca8d88ee7410d0f7",
    "id": "1758e94f08c1",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/11/2000001394/10006118/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001394",
-   "lastModified": "Mon, 14 Sep 2026 02:45:35 GMT",
+   "lastModified": "Mon, 14 Sep 2026 10:45:22 GMT",
    "publishedAt": 1789086683000,
    "summary": "OpenAIのティボー・ソティオ氏（通称Tibo）は新モデル「GPT-6 Astra」の需要拡大に対応するため、最上位プランの新規受付を停止すると発表した。",
    "title": "ChatGPT、最上位プランの新規受付を一時停止 「Astra」需要対応のため 既存加入者には影響なし",
-   "updatedAt": 1789356908983,
+   "updatedAt": 1789383707100,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001394/"
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001400": {
    "bodyBlocks": [],
-   "checkedAt": 1789356908983,
+   "checkedAt": 1789383707100,
    "etag": "",
    "hash": "49c39d239c7029d9",
    "id": "f3d4e8436691",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/11/2000001400/10005839/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001400",
-   "lastModified": "Mon, 14 Sep 2026 02:45:35 GMT",
+   "lastModified": "Mon, 14 Sep 2026 10:45:22 GMT",
    "publishedAt": 1789094001000,
    "summary": "AIが全社員の役割を担うNECの新組織「コーポレートAI・Workforce部門」。実態や狙いを同社の小玉浩氏が語った。",
    "title": "NECが明かす「AIだけの部署」の実態 AI同士で1on1、ストレスチェックで“悩み”も可視化",
-   "updatedAt": 1789356908983,
+   "updatedAt": 1789383707100,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001400/"
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001402": {
    "bodyBlocks": [],
-   "checkedAt": 1789356908983,
+   "checkedAt": 1789383707100,
    "etag": "",
    "hash": "a77426e0f887be26",
    "id": "f37a58541fa5",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/11/2000001402/10006159/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001402",
-   "lastModified": "Mon, 14 Sep 2026 02:45:35 GMT",
+   "lastModified": "Mon, 14 Sep 2026 10:45:22 GMT",
    "publishedAt": 1789097646000,
    "summary": "フィジカルAI・ロボットのデータファクトリー「J-HRTI 関東データファクトリー」が千葉県習志野市内で稼働を開始した。運営するのは業種の異なる民間5社のコンソーシアム「J-HRTI」で、集めたデータは参画企業が共同で使う。実際、データはどう集められているのか。実機写真を基に解説する。",
    "title": "フィジカルAI向け「データ収集工場」に\"潜入\" 実機写真で学習データ生成の流れを解説",
-   "updatedAt": 1789356908983,
+   "updatedAt": 1789383707100,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001402/"
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001405": {
    "bodyBlocks": [],
-   "checkedAt": 1789356908983,
+   "checkedAt": 1789383707100,
    "etag": "",
    "hash": "31937dfb3fdbc5d2",
    "id": "33bafa581952",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/11/2000001405/10006164/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001405",
-   "lastModified": "Mon, 14 Sep 2026 02:45:35 GMT",
+   "lastModified": "Mon, 14 Sep 2026 10:45:22 GMT",
    "publishedAt": 1789099892000,
    "summary": "Sakana AIは、複数のAIモデルを組み合わせてタスクをこなすAI「Sakana Fugu」の最新版「Fugu Ultra v2」「Fugu Max」を発表した。",
    "title": "Sakana AI、一部「GPT-6 Astra」「Fable 5.1」超えうたうFugu最新版 連携先に「両モデルは含まず」",
-   "updatedAt": 1789356908983,
+   "updatedAt": 1789383707100,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001405/"
+  },
+  "https://www.itmedia.co.jp/aiplus/article/2609/14/2000001449": {
+   "bodyBlocks": [],
+   "checkedAt": 1789383707100,
+   "etag": "",
+   "hash": "66820d2e10d95864",
+   "id": "d78a10f4e962",
+   "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/14/2000001449/10006358/2048",
+   "key": "https://www.itmedia.co.jp/aiplus/article/2609/14/2000001449",
+   "lastModified": "Mon, 14 Sep 2026 10:45:22 GMT",
+   "publishedAt": 1789365549000,
+   "summary": "米トランプ大統領はAI規制論に対して「われわれはAIで中国をリードしており、その状態を維持したい」「ガードレールを設けることはできるが、実際に起こらないことを議論に持ち出す人々がいる」と述べた。",
+   "title": "米トランプ大統領、広がるAI規制論に反論 「中国へのリードを維持したい」",
+   "updatedAt": 1789383707100,
+   "url": "https://www.itmedia.co.jp/aiplus/article/2609/14/2000001449/"
   },
   "https://www.itmedia.co.jp/business/articles/2609/07/news075.html": {
    "bodyBlocks": [
@@ -4813,126 +4917,6 @@
    "updatedAt": 1788838447678,
    "url": "https://www.itmedia.co.jp/enterprise/articles/2609/07/news005.html"
   },
-  "https://www.itmedia.co.jp/enterprise/articles/2609/07/news040.html": {
-   "bodyBlocks": [
-    {
-     "kind": "P",
-     "text": "この記事は 会員限定 です。会員登録すると全てご覧いただけます。"
-    },
-    {
-     "kind": "P",
-     "text": "AIを社会インフラに実装する上で、安全を確保しつつ、いかにAIのコストを抑えるかが重要課題として浮上している。"
-    },
-    {
-     "kind": "P",
-     "text": "日立製作所（以下、日立）が2026年9月3〜4日に開催した「Hitachi Social Innovation Forum 2026 JAPAN」の9月3日の基調講演「フィジカルAIによる社会インフラ 〜日立の『デジタルインフラ』最前線〜」に同社の徳永俊昭氏（代表執行役 執行役社長 兼 CEO）が登壇し、フィジカルAIで社会インフラを革新するソリューション群「HMAX by Hitachi」（以下、HMAX）の拡充を発表した。"
-    },
-    {
-     "kind": "P",
-     "text": "HMAXは、鉄道やエネルギー、金融などの社会インフラへのフィジカルAI実装に向けて日立が提供するソリューション群だ。徳永氏は、同社が目指す社会インフラの姿として「AIによって自律進化するデジタルインフラ」を掲げ、AIの自律進化がもたらす未来を「人間社会が初めて目の当たりにする世界」と表現した。"
-    },
-    {
-     "kind": "P",
-     "text": "一方で、人が都度介入せずにAIが自律進化するデジタルインフラを実装する上では、AIによる計算コストやエネルギー消費が天文学的に跳ね上がり続けるリスクもあるとし、「これをいかに抑えつつ、現場のフロントラインワーカーの安全を損なわずにAIを実装するかが重要課題として挙がっている」と整理した。"
-    },
-    {
-     "kind": "P",
-     "text": "今回発表されたHMAXの新サービスはこれらの課題の解決を図るものだ。具体的には、データセンター事業者向けの「HMAX Data Center」、サイバーセキュリティの「HMAX Cyber」、現場データの基盤「HMAX Data Fabric」とAI運用の「HMAX AI Operations」、顧客の現場に伴走するエンジニア集団「Physical AI FDE Team」が新たに加わる。"
-    },
-    {
-     "kind": "P",
-     "text": "徳永氏はPhysical AI FDE Teamについて「暗黙知をAIレディなデータへと転換する」新サービスと説明。9月3日に開催された記者説明会では、同社の吉田順氏（HMAX＆AI推進センター本部長）がPhysical AI FDE Teamが「1人のスーパーマン」ではなくチーム体制を取る理由と、同社のFDEサービスの強みについて語った。"
-    },
-    {
-     "kind": "P",
-     "text": "（注1）日立は製造や建設、社会インフラなどの現場で働く従業員を「フロントラインワーカー」と呼ぶ。"
-    },
-    {
-     "kind": "H",
-     "text": "HMAXが拡充 4つの新サービスの中身は？"
-    },
-    {
-     "kind": "P",
-     "text": "HMAXの4つの新サービスのポイントは次の通りだ。"
-    },
-    {
-     "kind": "LI",
-     "text": "HMAX Data Center ： データセンターの電力、IT、冷却の各設備を横断して統合監視し、AIで障害を分析して運用改善につなげるソリューション群。第1弾として運用支援サービス「HARC for Data Center」（HARC：Hitachi Application Reliability Centers）を北米向けに提供する。日本では2027年1月に提供を開始する予定だ。同社の尾崎慎一氏（DC＆アドバンスドサービス推進本部 本部長）は「日立製品に限定せず、他社の設備も含めて統合管理する」と述べた"
-    },
-    {
-     "kind": "LI",
-     "text": "HMAX Cyber ： 攻撃を前提に、リスクの特定から監視、復旧までを支援するオペレーショナルレジリエンスサービス。同社の青山桃子氏（HMAX Cyber 筆頭White Hacker）は、Anthropicのセキュリティプログラム「Project Glasswing」で同社の先進AIモデル「Claude Mythos Preview」を使い、「社会インフラ向け大規模ソフトウェアの脆弱（ぜいじゃく）性検証を高速化できた」と報告した"
-    },
-    {
-     "kind": "LI",
-     "text": "HMAX Data Fabric、HMAX AI Operations ： HMAX Data Fabricは、現場のデータや熟練者の暗黙知をオントロジー（概念同士の関係を定義した知識体系）に基づいて体系化し、AIが活用できる知識資産として蓄積するデータ基盤。HMAX AI OperationsはAIの挙動を監視し、不適切な挙動を抑止する運用サービスだ。同社の佐佐木秀貴氏（HMAX事業推進室長）は、日立グループの従業員29万人が使う社内AI環境「Effibot Connect」の運用にこれらを既に適用していると説明した"
-    },
-    {
-     "kind": "LI",
-     "text": "Physical AI FDE Team ： HMAXの各ソリューションを顧客の現場に実装するため、FDE（Forward Deployed Engineer）がチームで伴走するエンジニアリングサービス"
-    },
-    {
-     "kind": "P",
-     "text": "4点目のPhysical AI FDE Teamについて、吉田氏は、チーム体制を取る理由をこう説明した。「一般的にFDEといえば、1人でスーパーマンのように動くイメージがある。だがフィジカルAIではITやOT、プロダクト、サイバーセキュリティなどの知識が必要で、1人で全ては担えない」"
-    },
-    {
-     "kind": "P",
-     "text": "FDEチームの後方には、グローバルパートナーとの連携拠点「FADC」（Frontier AI Deployment Center）を置く2段構えだ。顧客と向き合う時間が長いFDEは最新情報を得る機会が減りやすいため、FADCがAnthropic、Google、OpenAIなどから得た最新技術を前線のチームに供給する2段階の構造にしたという。吉田氏は「今メディアでは『なんちゃってFDE』という言い方もある」としつつ、「われわれはドメイン知識とものづくりの実績を生かし、胸を張ってFDEだと言えるサービスを提供したい」と語った。"
-    },
-    {
-     "kind": "H",
-     "text": "社会インフラを裏で支える「OS」としての覚悟"
-    },
-    {
-     "kind": "P",
-     "text": "徳永氏は基調講演で、フィジカルAIによって現場を革新するHMAXについて「社会インフラを動かす一大オペレーティングシステム（OS）と言える存在になる」と位置付けた。日立の黒川亮氏（HMAX戦略統括室長）はこの言葉を受けて、次のように語った。「『Windows 95』から『Windows 11』に至るまで進化を重ねてきたように、まずここから始める。OSは黒子（くろこ）だ」"
-    },
-    {
-     "kind": "P",
-     "text": "この日、記者説明会に登壇した6人は衣装を黒でそろえた。黒川氏によると、OSとして裏で支える姿勢を示すためだという。"
-    },
-    {
-     "kind": "P",
-     "text": "日立はLLMやロボットを自社開発するのではなく、NVIDIAやAnthropic、OpneAI、Microsoft、Google、Amazon Web Services（AWS）、Exelon、Architypeといった企業と協業している。黒川氏は顧客課題や社会課題の解決を「在りたき姿」と表現しつつ、パートナー企業の最先端の技術を採用しつつ、顧客課題に取り組む日立の在り方について次のように語った。"
-    },
-    {
-     "kind": "P",
-     "text": "「パートナー企業は非常に短期で最先端の製品で勝負をかけている。顧客が在りたき姿にたどり着くにはだいたい1年かかる。われわれは顧客の在りたき姿というのがまず絶対条件で、長期的にそれを実現していく」"
-    },
-    {
-     "kind": "LI",
-     "text": "日立はAX事業にどう臨む？ 徳永CEOの話から「成長につなげるための勘所」を探る 企業はAIトランスフォーメーション（AX）にどう取り組めばよいのか。日立のAX事業に臨む姿勢から、その勘所を探る。"
-    },
-    {
-     "kind": "LI",
-     "text": "“寿命超え”送配電設備をどう延命する？ 日立がエネルギーインフラ向けAIサービス「HMAX Energy」を提供開始 AI需要の拡大やデータセンター建設ラッシュが電力需要を押し上げる中、送配電設備の中には寿命を既に超えているものも多い。エネルギーインフラが抱える構造的課題に対応するため、日立と日立エナジーがAIサービス・ソリューション群「HMAX Energy」の提供を開始した。"
-    },
-    {
-     "kind": "LI",
-     "text": "日立、ミッションクリティカル領域におけるAI活用を支援 「Hitachi iQ Studio」の3つの特徴 日立製作所のグループ会社が、企業の基幹業務へのAI適用を支援する新プラットフォーム「Hitachi iQ Studio」の国内販売を開始した。ミッションクリティカル領域での展開を狙うこのソフトウェアの3つの特徴とは。"
-    },
-    {
-     "kind": "LI",
-     "text": "富士通がフィジカルAIを束ねる「OS」を開発中 カーネギーメロン大学との研究成果を組み込む 富士通と米カーネギーメロン大学がフィジカルAIの共同研究センターを設立した。成果は同社が開発を進める新基盤「Fujitsu Kozuchi Physical OS」に組み込む計画だ。OSを名乗るこの基盤は何を統合し、何を可能にするのか。"
-    },
-    {
-     "kind": "H",
-     "text": "関連リンク"
-    }
-   ],
-   "checkedAt": 1788778875598,
-   "etag": "",
-   "hash": "378594be31be99c3",
-   "id": "20ff251e131a",
-   "imageUrl": "https://image.itmedia.co.jp/enterprise/articles/2609/07/cover_news040.jpg",
-   "key": "https://www.itmedia.co.jp/enterprise/articles/2609/07/news040.html",
-   "lastModified": "",
-   "publishedAt": 1788750000000,
-   "summary": "「FDE」を名乗るサービスが次々に誕生する中、日立はフィジカルAIの実装を担うFDEをあえて「チーム」として構成する。「1人のスーパーマンでは足りない」理由とは。",
-   "title": "日立、フィジカルAIの4つの新サービスを発表 「なんちゃってFDE」で終わらせないアプローチとは",
-   "updatedAt": 1788778875598,
-   "url": "https://www.itmedia.co.jp/enterprise/articles/2609/07/news040.html"
-  },
   "https://www.itmedia.co.jp/enterprise/articles/2609/11/news026.html": {
    "bodyBlocks": [
     {
@@ -5112,102 +5096,102 @@
   },
   "https://www.itmedia.co.jp/news/article/2609/11/2000001390": {
    "bodyBlocks": [],
-   "checkedAt": 1789356908983,
+   "checkedAt": 1789383707100,
    "etag": "",
    "hash": "2561af9fe62a0b62",
    "id": "8c1f2b07b6a4",
    "imageUrl": "https://www.itmedia.co.jp/news/article/ogp/2609/11/2000001390/10006105/2048",
    "key": "https://www.itmedia.co.jp/news/article/2609/11/2000001390",
-   "lastModified": "Mon, 14 Sep 2026 03:00:22 GMT",
+   "lastModified": "Mon, 14 Sep 2026 10:51:25 GMT",
    "publishedAt": 1789081999000,
    "summary": "Anthropicは、自社AI「Claude」の悪用事例をまとめた脅威レポートを公開した。生物兵器の設計や国家機関による世論操作や反体制派監視、通常兵器開発への利用を検知、遮断したと発表。中国AI企業による組織的なモデル抽出（蒸留）の実態も報告し、危険な転用への警戒を強めている。",
    "title": "Anthropic、AI悪用レポートを公開 中国AI企業の「蒸留」、各国政府の監視・世論操作、生物兵器につながり得る研究を列挙",
-   "updatedAt": 1789356908983,
+   "updatedAt": 1789383707100,
    "url": "https://www.itmedia.co.jp/news/article/2609/11/2000001390/"
   },
   "https://www.itmedia.co.jp/news/article/2609/11/2000001392": {
    "bodyBlocks": [],
-   "checkedAt": 1789356908983,
+   "checkedAt": 1789383707100,
    "etag": "",
    "hash": "07b36b2ec29fe8dc",
    "id": "ebf2b9944de1",
    "imageUrl": "https://www.itmedia.co.jp/news/article/ogp/2609/11/2000001392/10006111/2048",
    "key": "https://www.itmedia.co.jp/news/article/2609/11/2000001392",
-   "lastModified": "Mon, 14 Sep 2026 03:00:22 GMT",
+   "lastModified": "Mon, 14 Sep 2026 10:51:25 GMT",
    "publishedAt": 1789085441000,
    "summary": "OpenAIは、金融機関向けAI「ChatGPT for Financial Services」を発表した。最新モデル「GPT-6 Astra」を基盤に、主要な金融データセットを標準で内蔵。財務分析や顧客向け資料作成を支援し、既存の契約データとの連携やMicrosoft Officeテンプレートの社内配布にも対応する。",
    "title": "OpenAI、金融機関向け「ChatGPT for Financial Services」 金融データ搭載し「GPT-6 Astra」で分析",
-   "updatedAt": 1789356908983,
+   "updatedAt": 1789383707100,
    "url": "https://www.itmedia.co.jp/news/article/2609/11/2000001392/"
   },
   "https://www.itmedia.co.jp/news/article/2609/11/2000001396": {
    "bodyBlocks": [],
-   "checkedAt": 1789356908983,
+   "checkedAt": 1789383707100,
    "etag": "",
    "hash": "819443853a7b50d8",
    "id": "8920fab40dc7",
    "imageUrl": "https://www.itmedia.co.jp/news/article/ogp/2609/11/2000001396/10006124/2048",
    "key": "https://www.itmedia.co.jp/news/article/2609/11/2000001396",
-   "lastModified": "Mon, 14 Sep 2026 03:00:22 GMT",
+   "lastModified": "Mon, 14 Sep 2026 10:51:25 GMT",
    "publishedAt": 1789088593000,
    "summary": "Amazon Adsは、OpenAIと提携して「ChatGPT」上での広告配信に対応すると発表した。広告主はAmazon DSPを通じ、会話画面下にテキストや画像広告を出稿できるようになる。まずは米国の成人無料プラン向けパイロットとして開始し、配信面の制御はOpenAIのシステムが担う。",
    "title": "Amazon、OpenAIと広告で提携 Amazon DSPの広告主が「ChatGPT」内に広告出稿可能に",
-   "updatedAt": 1789356908983,
+   "updatedAt": 1789383707100,
    "url": "https://www.itmedia.co.jp/news/article/2609/11/2000001396/"
   },
   "https://www.itmedia.co.jp/news/article/2609/11/2000001399": {
    "bodyBlocks": [],
-   "checkedAt": 1789356908983,
+   "checkedAt": 1789383707100,
    "etag": "",
    "hash": "59118d2430934d21",
    "id": "5c274b722478",
    "imageUrl": "https://www.itmedia.co.jp/news/article/ogp/2609/11/2000001399/10006136/2048",
    "key": "https://www.itmedia.co.jp/news/article/2609/11/2000001399",
-   "lastModified": "Mon, 14 Sep 2026 03:00:22 GMT",
+   "lastModified": "Mon, 14 Sep 2026 10:51:25 GMT",
    "publishedAt": 1789092371000,
    "summary": "Googleは、Windows向けデスクトップアプリ「Gemini app for Windows」を公開した。Windows 10および11に対応し、UIは日本語をサポートする。［Alt］＋［Space］で作業画面上に重ねて呼び出せるほか、自律型AIエージェント「Gemini Spark」や画像・動画生成もPC上で利用できる（一部は有料プランが必要）。Mac版は4月にリリース済み。",
    "title": "Windows用「Gemini」アプリ提供開始 画面上に重ねて作業を中断せず利用可能に",
-   "updatedAt": 1789356908983,
+   "updatedAt": 1789383707100,
    "url": "https://www.itmedia.co.jp/news/article/2609/11/2000001399/"
   },
   "https://www.itmedia.co.jp/news/article/2609/13/2000001432": {
    "bodyBlocks": [],
-   "checkedAt": 1789356908983,
+   "checkedAt": 1789383707100,
    "etag": "",
    "hash": "ed6703af081c059e",
    "id": "efced32a16a7",
    "imageUrl": "https://www.itmedia.co.jp/news/article/ogp/2609/13/2000001432/10006301/2048",
    "key": "https://www.itmedia.co.jp/news/article/2609/13/2000001432",
-   "lastModified": "Mon, 14 Sep 2026 03:00:22 GMT",
+   "lastModified": "Mon, 14 Sep 2026 10:51:25 GMT",
    "publishedAt": 1789254371000,
    "summary": "AnthropicのアモデイCEOは、AIの急速な自己改善や安全上の脅威を踏まえ、モデルの能力向上ペースを抑える3段階の計画を提言した。第三者の常駐評価者の導入や民主主義国間での協調を訴えている。これに対し、OpenAIのアルトマンCEOやマスク氏も同調し、同様の評価体制を導入する意向を示した。",
    "title": "AnthropicのアモデイCEO、AI開発の「ペース調整」訴えるエッセイ公開 アルトマン氏とマスク氏も賛同",
-   "updatedAt": 1789356908983,
+   "updatedAt": 1789383707100,
    "url": "https://www.itmedia.co.jp/news/article/2609/13/2000001432/"
   },
   "https://www.itmedia.co.jp/news/article/2609/14/2000001433": {
    "bodyBlocks": [],
-   "checkedAt": 1789356908983,
+   "checkedAt": 1789383707100,
    "etag": "",
    "hash": "3767688bf7e6c10c",
    "id": "d9fbbe4f252d",
    "imageUrl": "https://www.itmedia.co.jp/news/article/ogp/2609/14/2000001433/10006305/2048",
    "key": "https://www.itmedia.co.jp/news/article/2609/14/2000001433",
-   "lastModified": "Mon, 14 Sep 2026 03:00:22 GMT",
+   "lastModified": "Mon, 14 Sep 2026 10:51:25 GMT",
    "publishedAt": 1789341248000,
    "summary": "大統領科学技術諮問委員会のデビッド・サックス共同議長は、AnthropicとOpenAIのトップによるAI開発減速の提案を批判した。減速を望むなら規制や他者の許可を待たずに自ら実行すべきだと指摘。減速を条件に規制の枠組みを要求する姿勢は政治への脅迫に見えると述べ、利己的な動機を装うのをやめるよう求めた。",
    "title": "トランプ政権のサックス氏、AI「ペース調整」論に苦言 「規制がなければできないふりをやめろ」",
-   "updatedAt": 1789356908983,
+   "updatedAt": 1789383707100,
    "url": "https://www.itmedia.co.jp/news/article/2609/14/2000001433/"
   }
  },
  "listing": {
   "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml": {
-   "checkedAt": 1789356910853,
-   "etag": "\"3099-65b6890054cab-gzip\"",
-   "lastModified": "Mon, 14 Sep 2026 02:55:11 GMT"
+   "checkedAt": 1789383708792,
+   "etag": "\"3040-65b6ed9574780-gzip\"",
+   "lastModified": "Mon, 14 Sep 2026 10:25:11 GMT"
   }
  },
  "siteId": "itmedia_ait",
- "updatedAt": 1789356935553
+ "updatedAt": 1789383729954
 }
