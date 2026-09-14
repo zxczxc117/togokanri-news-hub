@@ -95,7 +95,7 @@
      "text": "Canonicalに寄せられたサポート依頼のうち、 「 ⁠OpenStack環境が突然機能しなくなった」 （ ⁠実際には各種プロビジョニングやスケーリングができなくなった） という事案からの 復旧について 。ある日突然OpenStack環境が制御を失い （ただし実際の各種ワーカー、 つまりデータプレーン側は正常に動作していたことが診断の結果判明⁠ ） ⁠、 しかもバックアップは恐ろしく古いものしかなく、 レストアすると 「現状を反映していない」 コントロールプレーンが復活してしまう可能性があるという状態から制御性を確保しなおすまでの流れと、 「 ⁠適切なバックアップと診断が重要」 という教訓が示されています。"
     }
    ],
-   "checkedAt": 1789250082156,
+   "checkedAt": 1789356692795,
    "etag": "",
    "hash": "1d5a7103a61f6929",
    "id": "750260cfd48c",
@@ -105,7 +105,7 @@
    "publishedAt": 1788486900000,
    "summary": "Ubuntu 26.04の最初のポイントリリース、26.04.1がリリースされています。",
    "title": "Ubuntu 26.04.1のリリース、stonking（Ubuntu 26.10）の開発; MynaのプロトタイプとOpenSSL 4、Rustトランジション、“Multipass”によるクラウドシミュレーション",
-   "updatedAt": 1789250082156,
+   "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/admin/clip/01/ubuntu-topics/202609/04?utm_source=feed"
   },
   "https://gihyo.jp/admin/clip/01/ubuntu-topics/202609/11": {
@@ -371,7 +371,7 @@
      "text": "Orvaはまだ非常に新しいプロジェクトであり、本番用途に使うかどうかは、慎重に判断する必要があるでしょう。とはいえ 「この処理のためだけにコンテナを1個作るのは面倒だな」 と感じる場面では非常に有用な、なかなか興味深いソフトウェアだと言えそうです。"
     }
    ],
-   "checkedAt": 1789250082156,
+   "checkedAt": 1789356692795,
    "etag": "",
    "hash": "e69601caf7ad18b0",
    "id": "f0b4bd03ed66",
@@ -381,7 +381,7 @@
    "publishedAt": 1788307920000,
    "summary": "AWS Lambdaのようなサービスはクラウド上で動作します。「⁠同じようなものを自宅サーバーや社内サーバーで動かせたら便利なのに」と思うこともあるでしょう。そこで今回は、セルフホスト可能なFaaSであるOrvaをUbuntu上で動かしてみます。",
    "title": "第925回 UbuntuでセルフホストFaaS「Orva」を使ってみよう",
-   "updatedAt": 1789250082156,
+   "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/admin/serial/01/ubuntu-recipe/0925?utm_source=feed"
   },
   "https://gihyo.jp/admin/serial/01/ubuntu-recipe/0926": {
@@ -543,7 +543,7 @@
      "text": "自分の手の届かないところを掻くための猫の手としての生成AIに可能性を感じました。"
     }
    ],
-   "checkedAt": 1789250082156,
+   "checkedAt": 1789356692795,
    "etag": "",
    "hash": "d4e8d03a5c8f5f3e",
    "id": "77bafee0c977",
@@ -553,92 +553,8 @@
    "publishedAt": 1788911820000,
    "summary": "今回はUbuntuからYAMAHA RTX830に設定したIKEv2に接続する方法を紹介します。",
    "title": "第926回 UbuntuからYAMAHA RTX830に設定したIKEv2に接続する",
-   "updatedAt": 1789250082156,
+   "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/admin/serial/01/ubuntu-recipe/0926?utm_source=feed"
-  },
-  "https://gihyo.jp/article/2026/08/blender-basics-84": {
-   "bodyBlocks": [
-    {
-     "kind": "P",
-     "text": "本連載では、Blenderの基本的な知識、機能についてイラストを交えながら紹介しています。第84回目は、Blenderに用意されているスカルプトモードについて見ていきます。"
-    },
-    {
-     "kind": "H",
-     "text": "スカルプトモードとは"
-    },
-    {
-     "kind": "P",
-     "text": "Blenderには、オブジェクトを配置する ［オブジェクトモード］ や、配置したオブジェクトをより細かく編集する ［編集モード］ など、いろいろなモードが用意されています。その中のひとつに ［スカルプトモード］ というものがあります。今回は、そんなスカルプトモードの概要について見ていきます。"
-    },
-    {
-     "kind": "P",
-     "text": "スカルプトモードとは、オブジェクトを粘土をこねるような感覚で形を作っていくモードになります。頂点を選択して動かして……といった操作ではなく、オブジェクトの表面を直接大胆に触って形作っていくことが可能です。"
-    },
-    {
-     "kind": "H",
-     "text": "こんな機能がある"
-    },
-    {
-     "kind": "P",
-     "text": "スカルプトモードでは、ブラシを使ってオブジェクトを形作っていきます。ブラシの種類はたくさんあり、ブラシごとにオブジェクトに与える影響が異なります。ここではブラシの効果をいくつか見ていきましょう。"
-    },
-    {
-     "kind": "H",
-     "text": "ドロー （Draw）"
-    },
-    {
-     "kind": "P",
-     "text": "ドローでは、なぞった表面が盛り上がります。何回もぐりぐりとこすることで、より盛り上がってきます。また、 ［ ⁠Ctrl］ を押しながら表面をなぞると、へこませることができます。"
-    },
-    {
-     "kind": "H",
-     "text": "グラブ （Grab）"
-    },
-    {
-     "kind": "P",
-     "text": "粘土のように、表面を掴んで引っ張ることで伸ばしたり、反対に押し込むことでへこませることができます。"
-    },
-    {
-     "kind": "H",
-     "text": "スムーズ （Smooth）"
-    },
-    {
-     "kind": "H",
-     "text": "クリースシャープ （Crease Sharp）"
-    },
-    {
-     "kind": "H",
-     "text": "しかし問題も…"
-    },
-    {
-     "kind": "P",
-     "text": "スカルプトモードを使うとき、設定で 「メッシュの数を増やすか増やさないか」 という項目があります。メッシュの数を増やさない設定で進めていくと、思ったように形を作っていくことが難しく感じる可能性があります。"
-    },
-    {
-     "kind": "P",
-     "text": "反対に、メッシュを自動的に増やしながら形作っていく設定にすれば、自分の想像したようにオブジェクトを変形していくことが可能です。しかし、際限なくメッシュが分割されていくので、かなりデータが重くなってしまう可能性があります。"
-    },
-    {
-     "kind": "P",
-     "text": "そんなときのために、 「 ⁠リポトロジー」 という作業を行うことがあります。リポトロジーについては、次回以降詳しく見ていく予定です。"
-    },
-    {
-     "kind": "P",
-     "text": "また次回は、実際にスカルプトモードはどのように使うのか、といった点も見ていきたいと思います。次回も読んでくださると嬉しいです！"
-    }
-   ],
-   "checkedAt": 1789270171238,
-   "etag": "",
-   "hash": "8f34cd7359709a00",
-   "id": "034a0f90a22b",
-   "imageUrl": "https://gihyo.jp/assets/images/ICON/2023/2156_blender-basics.png",
-   "key": "https://gihyo.jp/article/2026/08/blender-basics-84",
-   "lastModified": "",
-   "publishedAt": 1788135240000,
-   "summary": "本連載では、Blenderの基本的な知識、機能についてイラストを交えながら紹介しています。第84回目は、Blenderに用意されているスカルプトモードについて見ていきます。",
-   "title": "Blenderのスカルプトモードの概要を知ろう",
-   "updatedAt": 1789270171238,
-   "url": "https://gihyo.jp/article/2026/08/blender-basics-84?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/08/chatgpt-github-plugin-marketplace-sync": {
    "bodyBlocks": [
@@ -771,142 +687,6 @@
    "title": "Debian、「生成AIの責任ある使用」を容認へ",
    "updatedAt": 1789250082156,
    "url": "https://gihyo.jp/article/2026/08/daily-linux-260831?utm_source=feed"
-  },
-  "https://gihyo.jp/article/2026/08/misskey-25": {
-   "bodyBlocks": [
-    {
-     "kind": "P",
-     "text": "本連載は分散型マイクロブログ用オープンソースソフトウェアMisskeyの開発に関する紹介と、関連するWeb技術について解説を行っています。"
-    },
-    {
-     "kind": "P",
-     "text": "今回は、MisskeyのコードベースでTypeScript 7. 0のパフォーマンスを検証します。"
-    },
-    {
-     "kind": "H",
-     "text": "TypeScript 7. 0"
-    },
-    {
-     "kind": "P",
-     "text": "先日、 TypeScript 7. 0が正式リリースされました。"
-    },
-    {
-     "kind": "P",
-     "text": "コンパイラがGoで再実装され、並列処理が活用されるようになったことで大幅にパフォーマンスが向上しています。"
-    },
-    {
-     "kind": "P",
-     "text": "Misskeyのコードベースにおいては、ほぼ改修の必要なしに7. 0に移行することができました。"
-    },
-    {
-     "kind": "H",
-     "text": "ベンチマーク"
-    },
-    {
-     "kind": "P",
-     "text": "ベンチマークを紹介します。環境は以下のとおりです。"
-    },
-    {
-     "kind": "LI",
-     "text": "Misskey v2026. 7.0"
-    },
-    {
-     "kind": "LI",
-     "text": "TypeScript 6. 0.3 / TypeScript 7. 0.2"
-    },
-    {
-     "kind": "LI",
-     "text": "Node. js 26. 4.0 / pnpm 11. 21. 0"
-    },
-    {
-     "kind": "LI",
-     "text": "CPU: Intel Core i9-13900K"
-    },
-    {
-     "kind": "P",
-     "text": "結果は以下のようになりました。なお、値は5回実行した際の平均で、(純)とあるのはビルドプロセスの起動時間などを省いた純粋なコンパイラ内部の処理時間です。"
-    },
-    {
-     "kind": "P",
-     "text": "さらに、シングルスレッドモード （ --singleThreaded ） でコンパイラを使用すると、より省メモリ化しました。"
-    },
-    {
-     "kind": "P",
-     "text": "よって、Misskeyのコードベースでも公式発表にある 「概ね8〜12倍の高速化」 という参考値どおりの結果となり、大幅な高速化が確認できました。"
-    },
-    {
-     "kind": "P",
-     "text": "開発中は繰り返しビルドを行いますし、複雑な型の推論も行われるので、ここが高速化する恩恵は大きいです。"
-    },
-    {
-     "kind": "P",
-     "text": "さらに、わずかにメモリ使用量が減ったほか、シングルスレッドモードでは30%以上も省メモリ化したことも確認できました。"
-    },
-    {
-     "kind": "P",
-     "text": "シングルスレッドの場合、コンパイラの処理時間は筆者の環境では約3倍ほど遅くなりましたが(とはいっても6. 0よりは高速)、メモリの制約が厳しいCI上などでは現実的な選択肢になりそうです。"
-    },
-    {
-     "kind": "H",
-     "text": "APIについて"
-    },
-    {
-     "kind": "P",
-     "text": "TypeScript 7. 0では、現時点ではまだコンパイラのAPIの実装が完了しておらず、Vueファイル上での型チェックなど、APIを必要とする一部のユースケースではまだ7に移行できません。"
-    },
-    {
-     "kind": "P",
-     "text": "そのためMisskeyでは、バックエンドは7. 0、フロントエンドでは6. 0を使用しています。"
-    },
-    {
-     "kind": "P",
-     "text": "とはいえ7のAPI実装は鋭意開発中という感じなので、完全に移行できる日はそう遠くないと思います。"
-    },
-    {
-     "kind": "P",
-     "text": "最近では、 Content mappers という仕組みが提案・ 実装されました。"
-    },
-    {
-     "kind": "P",
-     "text": "Content mappersの詳細は割愛しますが、この概念の検討にあたってはまさにVueコンポーネントのような、TypeScriptを別の言語内に埋め込むようなユースケースでの使用が考慮されています。"
-    },
-    {
-     "kind": "P",
-     "text": "Content mappers含む公式APIがリリースされ次第、各種ライブラリでも7. 0対応が進むものと思われます。"
-    },
-    {
-     "kind": "H",
-     "text": "まとめ"
-    },
-    {
-     "kind": "P",
-     "text": "今回の検証で、TypeScript 7. 0でコンパイラが実際に約9倍高速化し、ビルドプロセスの起動などを含む開発者の実待ち時間では、約5倍の高速化が確認できました。"
-    },
-    {
-     "kind": "P",
-     "text": "7. 0時点ではAPIが提供されていないため、Vueコンポーネントなど一部のケースではまだ6. 0を使う必要があります。"
-    },
-    {
-     "kind": "P",
-     "text": "今後APIが実装され、7. 0に完全移行できれば更なる開発者体験の向上が期待できます。"
-    },
-    {
-     "kind": "P",
-     "text": "また、 「 ⁠今まではパフォーマンス上の理由で断念していたコンパイラの機能も、Goになった今なら実現できる可能性がある」 とのTypeScript開発者のコメントも以前見かけましたので、今後の進化が楽しみです。"
-    }
-   ],
-   "checkedAt": 1789270171238,
-   "etag": "",
-   "hash": "8f5c05fd7c0ea511",
-   "id": "b549387fcb2e",
-   "imageUrl": "https://gihyo.jp/assets/images/ICON/2023/2030_misskey.png",
-   "key": "https://gihyo.jp/article/2026/08/misskey-25",
-   "lastModified": "",
-   "publishedAt": 1788134280000,
-   "summary": "今回は、MisskeyのコードベースでTypeScript 7.0のパフォーマンスを検証します。",
-   "title": "TypeScript 7.0リリース！ Misskeyで検証",
-   "updatedAt": 1789270171238,
-   "url": "https://gihyo.jp/article/2026/08/misskey-25?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/08/openclaw-2-0": {
    "bodyBlocks": [
@@ -1175,7 +955,7 @@
      "text": "詳細・ アジェンダ： 公式サイト"
     }
    ],
-   "checkedAt": 1789250082156,
+   "checkedAt": 1789356692795,
    "etag": "",
    "hash": "c6a3bf8eede001d9",
    "id": "af624432aadd",
@@ -1185,7 +965,7 @@
    "publishedAt": 1788237000000,
    "summary": "Linux Foundation傘下のAgentic AI Foundation（AAIF）は2026年8月25日、日本の報道関係者を対象とするオンライン記者説明会を開催した。",
    "title": "AAIF、MCPのガバナンスとA2Aの現状、AIエージェントにオープン標準が必要な理由を説明 ——9月10・11日に「AGNTCon + MCPCon Japan 2026」を渋谷で開催",
-   "updatedAt": 1789250082156,
+   "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/article/2026/09/aaif-mcp-a2a-briefing?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/agent-router": {
@@ -1239,7 +1019,7 @@
      "text": "9月10日、11日に東京で開催されている AGNTCon + MCPCon Japan 2026 でも、AAIFのExecutive Directorを務めるMazin Gilbert氏がキーノート内でAgent Routerの参加を紹介した。"
     }
    ],
-   "checkedAt": 1789250082156,
+   "checkedAt": 1789356692795,
    "etag": "",
    "hash": "e10849aa5691c2fb",
    "id": "1bbe250c36d1",
@@ -1249,7 +1029,7 @@
    "publishedAt": 1789028340000,
    "summary": "Agentic AI Foundation（AAIF）は9月9日、オープンソースのAIゲートウェイ「Agent Router」（旧称：Envoy AI Gateway）の参加を発表した。",
    "title": "AAIF、Agent Routerの参加を発表 ——AIモデルとMCPツールへの接続を仲介するOSS",
-   "updatedAt": 1789250082156,
+   "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/article/2026/09/agent-router?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/ai-agent-platform-hidden-costs-01": {
@@ -1379,7 +1159,7 @@
      "text": "今回は、規制の厳しい業界でAIエージェントの断片化がなぜ起きるのか、そしてその難しさがオーケストレーションの層に潜んでいることを見てきました。個々のツール選びは、単独では合理的でも、積み重なれば統制の効かない乱立を招きます。これは、DevOpsが普及した時代に業界が一度通った道でもあります。後編では、この状況を踏まえて、 「 ⁠自社構築か、製品導入か」 を見極めるための3つの問いと、統合されたプラットフォームが実際に何をもたらすのかを解説します。"
     }
    ],
-   "checkedAt": 1789250082156,
+   "checkedAt": 1789356692795,
    "etag": "",
    "hash": "060491c7608c8e70",
    "id": "961a8e33cf46",
@@ -1389,7 +1169,7 @@
    "publishedAt": 1788394080000,
    "summary": "今回は前後編にわたり、金融や保険をはじめとする規制の厳しい業界の企業が、AIエージェントを導入するときに必ず突き当たる「自社で構築するか、製品を導入するか」という選択を取り上げます。前編では、なぜ社内でツールの断片化が進むのか、そしてAIエージェントの難しさがどこに潜んでいるのかを解説します。",
    "title": "AIエージェントプラットフォームに潜む見えないコスト［前編］",
-   "updatedAt": 1789250082156,
+   "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/article/2026/09/ai-agent-platform-hidden-costs-01?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/ai-agent-platform-hidden-costs-02": {
@@ -1523,7 +1303,7 @@
      "text": "前後編にわたり、規制の厳しい業界における 「自社構築か、製品導入か」 という選択について考えてきました。自社構築が報われるのは、要件が本当に自社固有で、規制対応をすべて背負う覚悟があり、長い時間軸を許容できる場合に限られます。多くの企業にとっては、統合されたプラットフォームを選ぶほうが、費用の面でも、規制対応の面でも、成果が出るまでの速さの面でも、現実的な答えになるはずです。肝心なのは、個別のツールを一つずつ選ぶことを続ける前に、早い段階でプラットフォームに一本化すると決め、収拾のつかない乱立を未然に防ぐことです。AIエージェントの導入にあたっても、DevOpsが普及した時代に学んだのと同じ規律が、私たちに問われています。"
     }
    ],
-   "checkedAt": 1789250082156,
+   "checkedAt": 1789356692795,
    "etag": "",
    "hash": "f7a60bf2614d1d8b",
    "id": "936703ff449e",
@@ -1533,7 +1313,7 @@
    "publishedAt": 1788999360000,
    "summary": "前編では、金融や保険をはじめとする規制の厳しい業界で、AIエージェントの断片化がなぜ起きるのか、そしてその難しさがオーケストレーションの層に潜んでいることを見てきました。後編では、判断の軸となる3つの問いと、規制の厳しい業界で使うプラットフォームに欠かせない要件を取り上げます。",
    "title": "AIエージェントプラットフォームに潜む見えないコスト［後編］",
-   "updatedAt": 1789250082156,
+   "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/article/2026/09/ai-agent-platform-hidden-costs-02?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/android-weekly-topics-260903": {
@@ -1631,7 +1411,7 @@
      "text": "2027年2月の適用開始に向けて、自社アプリのプロファイリングを今すぐ始め、問題のあるアセットやリーク箇所を解消していく姿勢が求められます。単なる規律の遵守にとどまらず、あらゆるユーザに軽快な操作感を提供する高品質なアプリへのアップデートを目指してください。"
     }
    ],
-   "checkedAt": 1789250082156,
+   "checkedAt": 1789356692795,
    "etag": "",
    "hash": "720ca8f12028a60d",
    "id": "c139f9e8ae67",
@@ -1641,7 +1421,7 @@
    "publishedAt": 1788394080000,
    "summary": "Googleがアプリに対して新しい品質要件を発表しました。今回追加された基準の中でもとくに開発者に大きな影響を与える要素が、動的メモリ使用量やビットマップ消費量に関する厳しい閾値の設定です。",
    "title": "Googleがアプリへの品質要件を刷新、メモリ削減義務化の詳細と対策",
-   "updatedAt": 1789250082156,
+   "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/article/2026/09/android-weekly-topics-260903?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/android-weekly-topics-260910": {
@@ -1747,7 +1527,7 @@
      "text": "今後の市場で端末を選ぶ際は、価格の数値だけでなく、RAM容量やディスプレイ、カメラ構成などに微細な調整が入っていないかを見極める視点が欠かせません。新品の最新モデルのみを追求するのではなく、型落ちのハイエンド機やリユース品を含めた幅広い選択肢から、自身の用途に見合った1台を探す姿勢がより重要になります。"
     }
    ],
-   "checkedAt": 1789250082156,
+   "checkedAt": 1789356692795,
    "etag": "",
    "hash": "cdc2bc344f256b89",
    "id": "1d1a782619c0",
@@ -1757,8 +1537,116 @@
    "publishedAt": 1788999300000,
    "summary": "Googleがアプリに対して新しい品質要件を発表しました。今回追加された基準の中でもとくに開発者に大きな影響を与える要素が、動的メモリ使用量やビットマップ消費量に関する厳しい閾値の設定です。",
    "title": "Qualcommのチップ値上げ波紋はスペック調整とリユース品の拡大か？",
-   "updatedAt": 1789250082156,
+   "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/article/2026/09/android-weekly-topics-260910?utm_source=feed"
+  },
+  "https://gihyo.jp/article/2026/09/blender-basics-85": {
+   "bodyBlocks": [
+    {
+     "kind": "P",
+     "text": "本連載では、Blender の基本的な知識、機能についてイラストを交えながら紹介しています。第85回目は、Blenderに用意されているスカルプトモードの実際の操作方法について見ていきます。"
+    },
+    {
+     "kind": "P",
+     "text": "今回は、 前回 に引き続きスカルプトモードに関する記事になります。"
+    },
+    {
+     "kind": "H",
+     "text": "スカルプトモードへ切り替える"
+    },
+    {
+     "kind": "P",
+     "text": "今回は、スカルプトモードで実際にどのように操作していくのか、といった部分を見ていきます。まずは、スカルプトモードへの切り替え方です。"
+    },
+    {
+     "kind": "P",
+     "text": "馴染みのある方法としては、画面左上にある ［オブジェクトモード］ をクリックし、表示されたメニューから ［スカルプトモード］ をクリックする方法があります。画面上部にあるワークスペースの切り替え欄から、 ［ ⁠スカルプト］ をクリックすることでも、モードを切り替えることができます。"
+    },
+    {
+     "kind": "H",
+     "text": "ブラシの強さや大きさ"
+    },
+    {
+     "kind": "P",
+     "text": "スカルプトモードに変更すると、画面左側と下側にさまざまなアイコンが表示されている状態になります。下側にはブラシの種類が表示されていて、その中から自分の用途にあったブラシを選択して使っていきます。"
+    },
+    {
+     "kind": "P",
+     "text": "これ以降は、デフォルトで選択されている ［Draw］ のブラシを使って説明していきます。ブラシが選択された状態で画面にカーソルを持っていくと、青い円が表示されます。この円の大きさが、そのままブラシの大きさを表しています。"
+    },
+    {
+     "kind": "P",
+     "text": "スカルプトモードでは、ブラシの大きさや強さなどを画面上部から設定できます。ブラシの大きさを大きくしてみると、青い円が大きくなったことがわかります。そして、ブラシのサイズが大きいと、その分大きな範囲の形を変えることができます。"
+    },
+    {
+     "kind": "P",
+     "text": "そして、強さは強くしただけブラシそれぞれの効果を強くできます。"
+    },
+    {
+     "kind": "H",
+     "text": "こんな便利な機能も"
+    },
+    {
+     "kind": "P",
+     "text": "スカルプトモードには、いろいろな便利な機能があります。ここでは3つ紹介したいと思います。"
+    },
+    {
+     "kind": "H",
+     "text": "ダイナミックトポロジー"
+    },
+    {
+     "kind": "P",
+     "text": "この機能は前回紹介しましたが、今回も取り上げておきます。ダイナミックトポロジーでは、ブラシでなぞった部分を自動的に細分化し、より思ったように形状を変化できます。"
+    },
+    {
+     "kind": "P",
+     "text": "画面右上に 「Dyntopo」 という項目があるので、ここでこの機能のオン/オフを切り替えます。デフォルトではオフになっています。クリックすると警告が出るので、 ［ ⁠OK］ を押すことで機能を使えるようになります。この状態でオブジェクトをなぞると、どんどん面の数が増えていき、形状が変化していきます。"
+    },
+    {
+     "kind": "H",
+     "text": "マスク機能"
+    },
+    {
+     "kind": "P",
+     "text": "ブラシを使って、どんどん形を変えていくときに 「この部分は形を変えたくないな」 という部分が出てくるはずです。そんなときはマスク機能を使いましょう。"
+    },
+    {
+     "kind": "P",
+     "text": "画面左側にあるアイコンの上から3つ目がマスクのアイコンです。このアイコンをクリックしてオブジェクトをなぞっていくと、表面が黒くなっていきます。この黒くなった部分がマスクされた箇所となり、ブラシでなぞっても形状が変化しないようになります。"
+    },
+    {
+     "kind": "P",
+     "text": "［Ctrl］ を押しながらドラッグすると、マスクされた部分を解除することも可能です。"
+    },
+    {
+     "kind": "H",
+     "text": "ミラー機能"
+    },
+    {
+     "kind": "P",
+     "text": "ミラー機能を使うと、選択した軸を対象に形状を変化させることができます。"
+    },
+    {
+     "kind": "P",
+     "text": "画面右上に蝶々のようなアイコンと ［X］ ［ ⁠Y］ ［ ⁠Z］ と書かれている箇所があります。X、Y、Zがそれぞれ対象となる軸です。試しに ［X］ をクリックして見ましょう。この状態でオブジェクトをなぞっていくと、X軸を対象とした反対側も同じように形状がかわっていくのがわかります。さきほど紹介したマスク機能でも、同様に軸を対象としてマスクをかけることができます。"
+    },
+    {
+     "kind": "P",
+     "text": "今回は、スカルプトモードでの操作方法を見ていきました。次回は、スカルプトモードを使っていると知らず知らずのうちに増えていくメッシュの整理する方法などを見ていく予定です。次回も読んでくださると嬉しいです！"
+    }
+   ],
+   "checkedAt": 1789356692795,
+   "etag": "",
+   "hash": "2da87e11b99cdbe9",
+   "id": "2f83ae6c3a13",
+   "imageUrl": "https://gihyo.jp/assets/images/ICON/2023/2156_blender-basics.png",
+   "key": "https://gihyo.jp/article/2026/09/blender-basics-85",
+   "lastModified": "",
+   "publishedAt": 1789345920000,
+   "summary": "第85回目は、Blenderに用意されているスカルプトモードの実際の操作方法について見ていきます。",
+   "title": "Blenderのスカルプトモードの操作方法を知ろう 〜ブラシの設定や便利なマスク機能など〜",
+   "updatedAt": 1789356692795,
+   "url": "https://gihyo.jp/article/2026/09/blender-basics-85?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/chatgpt-images-2.5": {
    "bodyBlocks": [
@@ -1827,7 +1715,7 @@
      "text": "APIで指定するモデルIDは、それぞれ gpt-image-2. 5-flare と gpt-image-2. 5-sunburst 。利用方法は 画像生成ガイド 、料金は API料金ページ で案内している。"
     }
    ],
-   "checkedAt": 1789250082156,
+   "checkedAt": 1789356692795,
    "etag": "",
    "hash": "a79a75327c3f0e77",
    "id": "67d8e0744827",
@@ -1837,7 +1725,7 @@
    "publishedAt": 1788920700000,
    "summary": "OpenAIは2026年9月8日、画像生成・編集モデル「ChatGPT Images 2.5」を発表した。",
    "title": "OpenAI、「ChatGPT Images 2.5」を発表 ——画像生成を高速化、画像への直接コメントにも対応",
-   "updatedAt": 1789250082156,
+   "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/article/2026/09/chatgpt-images-2.5?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/chatgpt-learning-writing-style": {
@@ -1859,7 +1747,7 @@
      "text": "この機能の利用を開始するにはWebでChatGPT Workを開き左メニューの 「設定⁠ 」 ⁠→ 「 ⁠パーソナライズ⁠ 」 ⁠ → 「 ⁠文章スタイルをセットアップ」 を選ぶか、直接 https:// chatgpt. com/?surface=work&writing_ style=setup にアクセスする。"
     }
    ],
-   "checkedAt": 1789250082156,
+   "checkedAt": 1789356692795,
    "etag": "",
    "hash": "e2c56698fc38c848",
    "id": "bca224d0ff90",
@@ -1869,7 +1757,7 @@
    "publishedAt": 1788828660000,
    "summary": "OpenAIは2026年9月8日、ChatGPT Workを日常使うアプリと連携させることでユーザーの文章スタイルを学習し、文章作成内容に反映させる機能を装備したことを発表した。",
    "title": "ChatGPT Workにユーザーの書く文章スタイルを学習して文書作成に反映させる機能が追加",
-   "updatedAt": 1789250082156,
+   "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/article/2026/09/chatgpt-learning-writing-style?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/chatgpt-work-data-agent": {
@@ -2015,7 +1903,7 @@
      "text": "組織のワークスペース管理者は 「Workspace settings > Plugins」 で、Dataを利用できるロールやグループを指定し、あらかじめインストールしておくこともできる。接続先のプラグインやアプリの設定に加え、接続先ごとの利用を許可するロールも管理する。データへの問い合わせには接続したアカウントの既存権限が適用され、テーブル・ 行・ 列単位の制限も引き継がれる。"
     }
    ],
-   "checkedAt": 1789250082156,
+   "checkedAt": 1789356692795,
    "etag": "",
    "hash": "5b2db147e1efe7fd",
    "id": "454edfa5b306",
@@ -2025,7 +1913,7 @@
    "publishedAt": 1789114860000,
    "summary": "OpenAIは2026年9月10日、ChatGPT Workの「Dataエージェント」の機能と活用事例を紹介した。利用者はChatGPT Workに「Data」プラグインを追加することで、社内データについて自然言語で質問し、分析結果やインタラクティブなダッシュボードを得られるようになる。",
    "title": "OpenAI、ChatGPT WorkのDataエージェントを紹介 ——自然言語で企業データを分析、ダッシュボードも作成",
-   "updatedAt": 1789250082156,
+   "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/article/2026/09/chatgpt-work-data-agent?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/chrome-two-week-release-cycle": {
@@ -2079,7 +1967,7 @@
      "text": "Safariは近年、iOSなどの大型更新にあわせて9月頃にメジャーバージョンを公開し、その後も年間を通じて機能更新を提供している （次期バージョンのSafari 27は、6月のWWDC26で ベータ版 が公開された⁠ ） ⁠。なお、最新のWebKitを先行して試せる開発者向けの Safari Technology Preview は、数週間ごとに更新されている。"
     }
    ],
-   "checkedAt": 1789250082156,
+   "checkedAt": 1789356692795,
    "etag": "",
    "hash": "186b7bfb2934a86a",
    "id": "cbd158f2a760",
@@ -2089,7 +1977,7 @@
    "publishedAt": 1788946620000,
    "summary": "Googleは9月8日、WebブラウザーChrome 153（安定版）を公開し、リリース周期を4週間から2週間へ短縮した。",
    "title": "Chrome、バージョン153を公開。2週間ごとのリリースに移行 ——EdgeとFirefoxもすでに2週間周期に",
-   "updatedAt": 1789250082156,
+   "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/article/2026/09/chrome-two-week-release-cycle?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/claude-code-ai-driven-development-01": {
@@ -2283,7 +2171,7 @@
      "text": "承認モードはShift+Tabで切り替えられ、ショートカットを忘れたら？ キーで一覧を確認してください。"
     }
    ],
-   "checkedAt": 1789250082156,
+   "checkedAt": 1789356692795,
    "etag": "",
    "hash": "8b35511b6063bf6d",
    "id": "7985cfefcc72",
@@ -2293,7 +2181,7 @@
    "publishedAt": 1788220920000,
    "summary": "本連載は2026年9月刊行予定の『Claude Codeで作って学ぶ AI駆動アプリ開発入門』から一部、抜粋・編集してお届けします。第1回目は、Claude Codeで指示を出すための対話モードの使いこなし方を解説します。複数行入力やキーボードショートカットなど、対話をもっと快適にする操作テクニックを身につけていきましょう。",
    "title": "Claude Codeの対話モードで会話を始めてみよう",
-   "updatedAt": 1789250082156,
+   "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/article/2026/09/claude-code-ai-driven-development-01?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/claude-code-ai-driven-development-02": {
@@ -2599,7 +2487,7 @@
      "text": "次回は、Claude Codeの対話モード内の操作や設定を行う 「スラッシュコマンド」 を紹介します。"
     }
    ],
-   "checkedAt": 1789250082156,
+   "checkedAt": 1789356692795,
    "etag": "",
    "hash": "02fc1146a9cdf130",
    "id": "9619613e0d8d",
@@ -2609,7 +2497,7 @@
    "publishedAt": 1788825960000,
    "summary": "本連載は2026年9月刊行予定の『Claude Codeで作って学ぶ AI駆動アプリ開発入門』から一部、抜粋・編集してお届けします。第2回目は、Claude Codeが情報を扱う仕組みである「コンテキスト」を説明した後、Claude Codeに指定したファイルを読み込ませる「@記法」について説明します。",
    "title": "Claude Codeの「コンテキスト」の仕組みとファイルの読み込ませ方を知ろう",
-   "updatedAt": 1789250082156,
+   "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/article/2026/09/claude-code-ai-driven-development-02?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/claude-commerce-agents": {
@@ -2675,7 +2563,7 @@
      "text": "参照実装では、安全策をプロンプトだけに委ねず、商品・ 価格の参照元や操作権限を実行基盤側でも制御する。認証・ 認可など、本番導入時に追加すべき対策の詳細は、リポジトリ内の 安全性に関する資料 で確認できる。"
     }
    ],
-   "checkedAt": 1789250082156,
+   "checkedAt": 1789356692795,
    "etag": "",
    "hash": "87e7ff418645cbcf",
    "id": "dba38ff001a1",
@@ -2685,7 +2573,7 @@
    "publishedAt": 1788414120000,
    "summary": "Anthropicは2026年9月2日、オンラインでの商品・サービスの購入と販売を支援するAIエージェントの開発用ブループリント「Claude Commerce Agents」を公開した。",
    "title": "Anthropic、商取引向けAIエージェントの設計図「Claude Commerce Agents」をオープンソースで公開",
-   "updatedAt": 1789250082156,
+   "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/article/2026/09/claude-commerce-agents?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/claude-fable-5.1-and-mythos-5.1": {
@@ -2799,7 +2687,7 @@
      "text": "防御的なセキュリティ業務を対象とするCyber Verification Programには、今後Mythosクラスのモデルを追加する予定。Life Sciences Verification Programでは、米国政府との協力の下で最初の参加者を受け入れており、対象とする生命科学コミュニティをさらに広げる計画としている。"
     }
    ],
-   "checkedAt": 1789250082156,
+   "checkedAt": 1789356692795,
    "etag": "",
    "hash": "2c1b71196dd2c330",
    "id": "0d063c8edadd",
@@ -2809,8 +2697,76 @@
    "publishedAt": 1788313080000,
    "summary": "Anthropicは2026年9月1日、AIモデル「Claude Fable 5.1」と「Claude Mythos 5.1」を発表した。",
    "title": "Anthropic、Claude Fable 5.1とMythos 5.1を発表",
-   "updatedAt": 1789250082156,
+   "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/article/2026/09/claude-fable-5.1-and-mythos-5.1?utm_source=feed"
+  },
+  "https://gihyo.jp/article/2026/09/claude-plugin-eval": {
+   "bodyBlocks": [
+    {
+     "kind": "P",
+     "text": "Anthropicは2026年9月11日、Claude Codeのプラグインやスキルの効果を評価するコマンド 「claude plugin eval」 を公式XアカウントのClaudeDevsで紹介した。テストケースの作成、実行、採点に加え、プラグインを読み込まない場合の結果とも比較できる。"
+    },
+    {
+     "kind": "P",
+     "text": "プラグインを使って望ましい結果が得られても、使わずに同じ結果が出るなら、その成功だけではプラグインの効果を判断しにくい。claude plugin evalでは、同じテストをプラグインあり・ なしの両方で実行し、スコアの差から、そのテストでプラグインがどの程度役立ったかを確認する。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "New in Claude Code: claude plugin eval See what value your plugin is adding, or if it needs more work. You can create test cases, run your plugin or skill against those test cases, score those runs, then run each case again without the plugin to see the differences. pic. twitter. com/ qfPU6WHueV — ClaudeDevs (@ClaudeDevs) September 11, 2026"
+    },
+    {
+     "kind": "H",
+     "text": "テストケースの作成から比較レポートまで"
+    },
+    {
+     "kind": "P",
+     "text": "利用にはClaude Codeのバージョン2. 1.269以降が必要となる。対象プラグインのフォルダーで claude plugin eval init を実行すると、テストを作成するためのClaudeとの対話セッションが開く。"
+    },
+    {
+     "kind": "P",
+     "text": "利用者が望ましい出力と望ましくない出力を説明し、実際に使うプロンプトをいくつか示すと、Claudeがテストケースと判定項目を作成する。Claudeは作成したテストを試験的に実行し、テスト全体を実行する場合の費用も見積もる。"
+    },
+    {
+     "kind": "P",
+     "text": "公式ドキュメント によると、回答が指定したパターンに一致するか、特定のツールを呼び出したかなどを判定項目として設定できる。別のAIモデルに出力を評価させる方法もある。"
+    },
+    {
+     "kind": "P",
+     "text": "テストケースの作成後は、ターミナルから claude plugin eval を実行する。デフォルトでは、各ケースをプラグインあり・ なしで3回ずつ実行し、それぞれの平均スコアを求める。ターミナルには両者のスコアがケースごとに並び、詳細はHTMLレポートで確認できる。"
+    },
+    {
+     "kind": "P",
+     "text": "サブスクリプション契約のあるclaude. aiアカウントでログインし、アーティファクト機能が使える場合は、レポートがclaude. ai上にも非公開で保存される。ローカルのファイルだけを残したい場合は、 --no-publish を指定できる。"
+    },
+    {
+     "kind": "H",
+     "text": "トークン消費と実行権限に注意"
+    },
+    {
+     "kind": "P",
+     "text": "評価では実際にモデルを呼び出すためトークンを消費し、契約プランの使用量またはAPI料金に計上される。ClaudeDevsは、本格的な実行の前に、実行回数を減らして試すことを勧めている。実行コマンドに --runs 1 を付けると、各テストケースをプラグインあり・ なしで1回ずつ実行する。ただし、結果にはばらつきがあるため、効果を判断する際はデフォルトの3回で結果を確かめるよう、ドキュメントでも案内している。"
+    },
+    {
+     "kind": "P",
+     "text": "また、処理を自動実行するフックや、外部ツール・ データと連携するMCPサーバーがプラグインに含まれる場合、これらは実行時に利用者の権限で動作する。このため、ClaudeDevsは信頼できるプラグインだけを評価するよう注意を促している。"
+    },
+    {
+     "kind": "P",
+     "text": "claude plugin eval による評価では、対象プラグインのMCPサーバーは自動では起動しない。評価時にMCPサーバーを起動するには、実行コマンドに --allow-real-servers などのオプションを付ける。さらに、そのサーバーが提供するツールの利用を --allow-tools で明示的に許可する 必要がある。"
+    }
+   ],
+   "checkedAt": 1789356692795,
+   "etag": "",
+   "hash": "18cc5b33276f57ed",
+   "id": "d1a8bfe76d89",
+   "imageUrl": "https://gihyo.jp/assets/images/ICON/2026/3042_claude-plugin-eval.png",
+   "key": "https://gihyo.jp/article/2026/09/claude-plugin-eval",
+   "lastModified": "",
+   "publishedAt": 1789353360000,
+   "summary": "Anthropicは2026年9月11日、Claude Codeのプラグインやスキルの効果を評価するコマンド「claude plugin eval」を公式XアカウントのClaudeDevsで紹介した。",
+   "title": "Anthropic、Claude Codeのプラグイン評価コマンド「claude plugin eval」を紹介",
+   "updatedAt": 1789356692795,
+   "url": "https://gihyo.jp/article/2026/09/claude-plugin-eval?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/cuda-rust": {
    "bodyBlocks": [
@@ -2831,7 +2787,7 @@
      "text": "GPUの利用モデルとしてSIMT （Single Instruction, Multiple Threads⁠ ） ⁠、およびTileの2つのモデル両方をRustで利用できる。SIMT用のRust生成バックエンドとして cuda-oxide [1] が、Tileベースのプログラミング基盤として cutile-rs （cuTile Rust） が、それぞれGitHub上で公開されている。cuda-oxideの詳しい解説は The cuda-oxide Book を、cutile-rsの詳細は cuTile Rustドキュメント を参照。"
     }
    ],
-   "checkedAt": 1789250082156,
+   "checkedAt": 1789356692795,
    "etag": "",
    "hash": "709ebf050ca68212",
    "id": "abd913128304",
@@ -2841,7 +2797,7 @@
    "publishedAt": 1789017240000,
    "summary": "NVIDIAは2026年9月8日、GPU向け並列計算プラットフォームCUDAにおいてRustによる開発を可能にする「CUDA Rust」を発表した。",
    "title": "NVIDIA、RustによるネイティブGPUプログラミングが可能となる「CUDA Rust」を発表",
-   "updatedAt": 1789250082156,
+   "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/article/2026/09/cuda-rust?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/daily-linux-260901": {
@@ -2867,7 +2823,7 @@
      "text": "Linusは 「このリリース （Linux 7. 3） の残り期間が順調に進むことを願おう。規模が小さく、何事もなく終わることを」 とコメントしているが、その願いどおりに開発が順調に進めば、Linux 7. 3は10月中旬 （10月18日あるいは25日ごろ） にリリースされるとみられる。"
     }
    ],
-   "checkedAt": 1789250082156,
+   "checkedAt": 1789356692795,
    "etag": "",
    "hash": "294392960cd3d1b3",
    "id": "07ce3309a48f",
@@ -2877,7 +2833,7 @@
    "publishedAt": 1788248160000,
    "summary": "Linus Torvaldsは8月30日、次期Linuxカーネル「Linux 7.3」の最初のリリース候補となる「Linux 7.3-rc1」を公開した。",
    "title": "Linux 7.3-rc1リリース、次世代ハードウェアのサポートが加速",
-   "updatedAt": 1789250082156,
+   "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/article/2026/09/daily-linux-260901?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/daily-linux-260904": {
@@ -2903,7 +2859,7 @@
      "text": "もっともGKHは 「明らかなバグ修正を断るつもりはなく、そうしたくもない」 と語っており、 「 ⁠ただ全部処理するには時間がかかるだけだ」 と、時間をかけてもバグ修正を進めていく姿勢を見せている。AI/ LLMツールはバグを発見する能力は大きく向上したが、 「 ⁠そのバグをいますぐ修正すべきか」 という優先順位までは付けてくれない。GKHが言う通り、少なくともLinux 7. 3はメンテナーにとって 「きびしいサイクル」 になることは間違いなさそうだ。"
     }
    ],
-   "checkedAt": 1789250082156,
+   "checkedAt": 1789356692795,
    "etag": "",
    "hash": "9b271177b641ef63",
    "id": "8f26239c42f2",
@@ -2913,7 +2869,7 @@
    "publishedAt": 1788507720000,
    "summary": "Linuxカーネルプロジェクトは10月中旬にリリース予定の「Linux 7.3」に向けて開発を進めているが、ここ数ヵ月に渡って議論されてきた“AIノイズ”の大量発生が、メンテナーにとってより大きな負荷となっているようだ。",
    "title": "“厳しいサイクルになりそうだ“ ―GKH、Linux 7.3開発サイクルの「AIノイズ」増加に警鐘",
-   "updatedAt": 1789250082156,
+   "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/article/2026/09/daily-linux-260904?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/daily-linux-260909": {
@@ -3003,7 +2959,7 @@
      "text": "オープンソースとして発展を遂げてきたLinuxカーネルはその原則にのっとり、すべてのデータを公開しており、誰からのアクセスも受け入れてきた。だがAI時代となった現在、AIツールによる貢献の是否や今回のAIイナゴによるデジタル蝗害など、かつてのプロジェクト運営ではぶつかることのなかった問題が増えつつある。単なるボット/クローラー対策とは異なる、AIと共存できるオープンソースの実現に向けて、さまざまなしくみを再設計する必要があるのかもしれない。"
     }
    ],
-   "checkedAt": 1789250082156,
+   "checkedAt": 1789356692795,
    "etag": "",
    "hash": "a9772c10c7a09a92",
    "id": "a108b6354b9a",
@@ -3013,7 +2969,7 @@
    "publishedAt": 1788936540000,
    "summary": "前回でも紹介したように、AIノイズ ―AI/LLMに由来する大量のパッチやバグ報告がLinuxカーネル開発メンテナーたちの労力を増大させており、カーネル開発のサイクルにも影響を及ぼしつつあるが、AIによる負荷に疲弊しているのはメンテナーだけではない。",
    "title": "深刻化する“サイバー蝗害”―Linuxカーネルソースに群がる貪欲で超非効率な「AIイナゴ」たち",
-   "updatedAt": 1789250082156,
+   "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/article/2026/09/daily-linux-260909?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/deepseek-v4.1-flash": {
@@ -3063,7 +3019,7 @@
      "text": "発表では、Hugging Face上の モデルページ と 技術レポート へのリンクも案内した。また、2000基のGPUとストレージクラスターを使う大規模導入を計画する組織に対し、相談を呼びかけている。"
     }
    ],
-   "checkedAt": 1789250082156,
+   "checkedAt": 1789356692795,
    "etag": "",
    "hash": "e2ee55dddfdc671e",
    "id": "0172e4ca1e09",
@@ -3073,7 +3029,7 @@
    "publishedAt": 1789098180000,
    "summary": "DeepSeekは2026年9月10日、画像を理解する機能を備えたAIモデル「DeepSeek-V4.1-Flash」を発表した。同社の新しいアーキテクチャを採用するモデル群の中で最小規模に当たる。",
    "title": "DeepSeek、画像理解に対応した「V4.1-Flash」を発表",
-   "updatedAt": 1789250082156,
+   "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/article/2026/09/deepseek-v4.1-flash?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/gemini-3-8-flash-and-3-8-flash-cyber": {
@@ -3135,7 +3091,7 @@
      "text": "また、Gemini 3. 8 Flash Cyberは新しい Fairwindプログラム を通じて信頼できる政府機関、インフラ事業者、ソフトウェア保守担当者に提供される。利用には Fairwindプログラムへのアクセス申請 が必要。"
     }
    ],
-   "checkedAt": 1789250082156,
+   "checkedAt": 1789356692795,
    "etag": "",
    "hash": "8b809faccdde0869",
    "id": "a1e10598a264",
@@ -3145,7 +3101,7 @@
    "publishedAt": 1788400260000,
    "summary": "Googleは2026年9月2日、同社の低コスト・実用モデルの最新バージョンとなるGemini 3.8 Flash、およびサイバーセキュリティモデルGemini 3.8 Flash Cyberをリリースした。",
    "title": "Google、Gemini 3.8 Flashと3.8 Flash Cyberをリリース ―コーディング、エージェントタスク、多段階推論を大幅に強化",
-   "updatedAt": 1789250082156,
+   "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/article/2026/09/gemini-3-8-flash-and-3-8-flash-cyber?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/gemini-app-for-windows": {
@@ -3179,7 +3135,7 @@
      "text": "Googleは、これらの追加機能をWindowsにも順次提供する予定としている。"
     }
    ],
-   "checkedAt": 1789250082156,
+   "checkedAt": 1789356692795,
    "etag": "",
    "hash": "9fb3aa5d67e9aa5c",
    "id": "5a676bdd5565",
@@ -3189,7 +3145,7 @@
    "publishedAt": 1789103340000,
    "summary": "Googleは9月10日、AIアシスタント「Gemini」のWindows向けアプリの提供開始を発表した。Windows 10とWindows 11に対応している。",
    "title": "Google、GeminiのWindowsアプリを提供開始",
-   "updatedAt": 1789250082156,
+   "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/article/2026/09/gemini-app-for-windows?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/github-cli-attach-flag": {
@@ -3231,7 +3187,7 @@
      "text": "この機能はGitHub. comの全プランで一般提供されている。利用するにはGitHub CLIをv2. 99. 0へ更新し、添付先リポジトリへの書き込み権限を持つ必要がある。GitHub Enterprise Serverは今回のリリースでは対象外となる。詳しい使い方は GitHub Docs で確認できる。"
     }
    ],
-   "checkedAt": 1789250082156,
+   "checkedAt": 1789356692795,
    "etag": "",
    "hash": "d1a29dbc7ca57756",
    "id": "80b3dacdede2",
@@ -3241,7 +3197,7 @@
    "publishedAt": 1788335220000,
    "summary": "GitHubは2026年9月1日、GitHub CLIにローカルの画像や動画をアップロードできる--attachフラグを追加したと発表した。",
    "title": "GitHub CLIに​-​-​​attachフラグ、コマンドラインからIssueやPull Requestへ画像・動画を添付可能に",
-   "updatedAt": 1789250082156,
+   "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/article/2026/09/github-cli-attach-flag?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/github-copilot-hydrafusion": {
@@ -3339,7 +3295,7 @@
      "text": "GitHubのCTO、Vladimir Fedorov氏は Xへの投稿 で、HydraFusionを、ローカル推論も取り込む将来の自動ルーティングの重要な構成要素として位置付けた。新モデルの登場や組み合わせ方の進歩が速く、手作業で最適な選択をすることはほぼ不可能だと述べている。"
     }
    ],
-   "checkedAt": 1789250082156,
+   "checkedAt": 1789356692795,
    "etag": "",
    "hash": "e0341f0a1d3db872",
    "id": "3579286e4a50",
@@ -3349,7 +3305,7 @@
    "publishedAt": 1788845880000,
    "summary": "GitHubは2026年9月4日、コーディングタスクに応じてAIモデルと処理の進め方を選ぶ「Project HydraFusion」を公式ブログで紹介した。",
    "title": "GitHub、Copilot CLIで複数AIモデルを使い分けてコスト削減を図る「Project HydraFusion」を研究プレビューで提供",
-   "updatedAt": 1789250082156,
+   "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/article/2026/09/github-copilot-hydrafusion?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/gonako": {
@@ -3375,7 +3331,7 @@
      "text": "「なでしこ3(Go版)」 はWindows、macOS、Linux上で動作する [1] 。インストールパッケージはGitHubからダウンロード可能。ソースコードもMITライセンスのもと、オープンソースとして公開されている。詳しいインストールについては GitHub上のドキュメント を参照。"
     }
    ],
-   "checkedAt": 1789250082156,
+   "checkedAt": 1789356692795,
    "etag": "",
    "hash": "03b9a4c4419005a7",
    "id": "2ff81c4e3855",
@@ -3385,7 +3341,7 @@
    "publishedAt": 1788852600000,
    "summary": "プログラマのクジラ飛行机（@kujirahand）氏は2026年9月7日、日本語プログラミング言語「なでしこ3」をGo言語で実装した「なでしこ3(Go版)」（通称：gonako）をリリースした。",
    "title": "日本語プログラミング言語「なでしこ3」のGo言語版がリリース ―単一バイナリを生成可能で高速動作",
-   "updatedAt": 1789250082156,
+   "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/article/2026/09/gonako?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/google-pics": {
@@ -3447,7 +3403,7 @@
      "text": "対象プランや提供地域、使用量上限などの詳細は Google Picsの提供条件 を、Google Workspaceの管理者設定は 管理者向けヘルプ を参照のこと。"
     }
    ],
-   "checkedAt": 1789250082156,
+   "checkedAt": 1789356692795,
    "etag": "",
    "hash": "7afccf18c09d67c0",
    "id": "267b4078a33a",
@@ -3457,7 +3413,7 @@
    "publishedAt": 1788328680000,
    "summary": "Googleは2026年9月1日、AI画像作成・編集ツール「Google Pics」の一般提供を順次開始した。",
    "title": "Google、AI画像作成・編集ツール「Google Pics」の一般提供を順次開始、オブジェクト単位の編集や画像内テキストの翻訳に対応",
-   "updatedAt": 1789250082156,
+   "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/article/2026/09/google-pics?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/gpt-6-astra": {
@@ -3599,7 +3555,7 @@
      "text": "We will give one banked reset for every day you don't have access to Astra on your paid ChatGPT plan, starting today. Team is moving mountains to give access as fast as we can. First one will land in ~ 3 hours. There is still time to create your account if you don't have one. — Tibo (@thsottiaux) September 3, 2026"
     }
    ],
-   "checkedAt": 1789250082156,
+   "checkedAt": 1789356692795,
    "etag": "",
    "hash": "45f6e297d9bb6ff5",
    "id": "b27c0a952f89",
@@ -3609,7 +3565,7 @@
    "publishedAt": 1788484140000,
    "summary": "OpenAIは2026年9月3日、新モデル「GPT-6 Astra」を発表した。",
    "title": "OpenAI、GPT-6 Astraを発表 ——PC操作の精度や速度を向上、サイバー能力は同社初の「重大」水準",
-   "updatedAt": 1789250082156,
+   "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/article/2026/09/gpt-6-astra?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/gpt-live-1-api": {
@@ -3955,7 +3911,7 @@
      "text": "このようなO(n 2 )のアルゴリズムを、サービスとして大規模に提供することを考えると、ITエンジニアとしては軽くめまいを覚えます。クラウドLLMが提供しようとしている 「均質で圧倒的なパワー」 は、このTransformerという巨大な大食漢を、想像もつかないほどの資本の力で養っていることで得られるものです。ローカルLLMを自ら運用し、その限界と構造的な弱点を実際に体感したからこそ、筆者はクラウドLLMのいびつな安さと、その裏にあるインフラのすごさに思いを馳せることができました。巨大な資本の力に頼るだけでなく、ローカルLLMの限界と向き合いつつハックし続けること。これからのエンジニアの、小さいけれどもユニークな 「差別化」 になるのかもしれません。それはそれとして、クラウドLLM提供企業の収益性・ 持続性については、ちょっと心配になってしまいますね。個人的にはTransformerとは別のアプローチに期待するところです。"
     }
    ],
-   "checkedAt": 1789250082156,
+   "checkedAt": 1789356692795,
    "etag": "",
    "hash": "8701dec1acc97973",
    "id": "a6bcbed9887a",
@@ -3965,8 +3921,88 @@
    "publishedAt": 1788220920000,
    "summary": "技術の進化により、ローカルLLMを個人のPCで動かすことも現実的になってきました。本稿では、ローカルLLMを手元で実際に動かしてみた知見をまとめます。快適に動かすための構成、性能と速度のトレードオフ、そして動かしてみて初めて見えてくるローカルLLMの現実がわかります。",
    "title": "自宅でローカルLLMを動かしてみた ローカルなら実現できる遊びとこだわり",
-   "updatedAt": 1789250082156,
+   "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/article/2026/09/home-local-llm-guide?utm_source=feed"
+  },
+  "https://gihyo.jp/article/2026/09/knap": {
+   "bodyBlocks": [
+    {
+     "kind": "P",
+     "text": "ObsidianのCEOを務めるSteph Ango氏 （kepano） は9月10日、データからMarkdownを生成するテンプレート言語 「 Knap 」 をXで紹介した。Obsidian Web Clipper向けに開発したテンプレートエンジンを独立したパッケージにしたもので、他のアプリへの組み込みやCLIでの利用に対応する。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "This is Knap. It's a new language I created that turns data into Markdown. The syntax should feel familiar and comes with wonderfully pleasant features to modify and format plain text. Knap is open source. Over a million people already use Knap directly or indirectly because it… pic. twitter. com/ 7GYTeGEkyk — kepano (@kepano) September 10, 2026"
+    },
+    {
+     "kind": "P",
+     "text": "Webページの内容をObsidianへ保存するWeb Clipperでは、テンプレートで保存する内容や形式を指定できる。Ango氏によると、Knapはこの用途から生まれており、直接・ 間接の利用を含めると、すでに100万人以上が使っているという。"
+    },
+    {
+     "kind": "H",
+     "text": "データとテンプレートを組み合わせてMarkdownを生成"
+    },
+    {
+     "kind": "P",
+     "text": "Knapには、元になるデータと、出力形式を記述したテンプレートを渡す。テンプレート内の変数へデータを埋め込み、フィルターで文字列や日付などを整形するほか、条件分岐や繰り返しで出力内容を制御する。"
+    },
+    {
+     "kind": "P",
+     "text": "たとえば、タイトルを表すJSONデータとして {\"title\": \"Knap\"} を用意する。このデータとテンプレート をKnapに渡すと、Markdownの見出し # Knap が出力される。ここでは、変数 title の値を、フィルター h1 で見出しに整形している。 フィルターは | で連結 でき、空白の除去、大文字への変換、Markdownの書式付けといった処理を順に適用できる。"
+    },
+    {
+     "kind": "P",
+     "text": "Ango氏は、Twig、Liquid、Jinja、Teraなどのテンプレート言語の利用経験がある人になじみやすい構文にしたと説明している。これらの言語との違いとして、フロントマター付きのMarkdown生成に向けた豊富な組み込みフィルターと、空白の扱いに関する既定値を挙げている。"
+    },
+    {
+     "kind": "P",
+     "text": "文書の先頭に日付やタグなどのメタデータを記述するフロントマターを生成する際には、 値をYAML形式に整える yaml フィルター を使える。たとえば、日付とタグを metadata にまとめたJSONデータ {\"metadata\": {\"date\": \"2026-09-10\", \"tags\": [\"news\", \"tools\"]}} を用意する。"
+    },
+    {
+     "kind": "P",
+     "text": "テンプレートでは、 metadata に yaml フィルターを適用し、その前後にフロントマターの区切りを表す --- を記述する。"
+    },
+    {
+     "kind": "P",
+     "text": "日付とタグがYAML形式に整形され、次のフロントマターが出力される。"
+    },
+    {
+     "kind": "P",
+     "text": "このほか、見出しやリンク、リスト、表などを作るフィルターも備える。"
+    },
+    {
+     "kind": "H",
+     "text": "JSON／ CSVからの一括作成やWebページの取り込みに利用"
+    },
+    {
+     "kind": "P",
+     "text": "CLIの利用にはNode. js 20以降が必要になる。 GitHubリポジトリ では、JSONファイルのデータをテンプレートへ渡し、結果をMarkdownファイルへ保存する例を案内している。"
+    },
+    {
+     "kind": "P",
+     "text": "この例では、 template. md に記述したテンプレートへ article. json のデータを渡し、生成結果を note. md に書き出す。複数の文書を作る場合は batch コマンドを使い、CSVの各行やJSON配列の各オブジェクトから、それぞれファイルを作成できる。"
+    },
+    {
+     "kind": "P",
+     "text": "Webページからの取り込みには、HTMLから本文やメタデータを抽出する Defuddle と組み合わせる方法もある。Defuddleの抽出結果をJSONとしてパイプでKnapへ渡すと、タイトルや本文などをテンプレートに沿ってMarkdownへ整形できる。"
+    },
+    {
+     "kind": "P",
+     "text": "KnapはMITライセンスのオープンソースとして公開されている。構文や出力を試すための Playground も用意され、データ、テンプレート、出力を見比べられる。"
+    }
+   ],
+   "checkedAt": 1789356692795,
+   "etag": "",
+   "hash": "d300bcf3280dddfe",
+   "id": "921c03cd86c5",
+   "imageUrl": "https://gihyo.jp/assets/images/ICON/2026/3041_knap.png",
+   "key": "https://gihyo.jp/article/2026/09/knap",
+   "lastModified": "",
+   "publishedAt": 1789352460000,
+   "summary": "ObsidianのCEOを務めるSteph Ango氏（kepano）は9月10日、データからMarkdownを生成するテンプレート言語「Knap」をXで紹介した。",
+   "title": "ObsidianのCEO、Markdown生成向けの「Knap」を紹介 ——Web Clipperから独立したテンプレート言語",
+   "updatedAt": 1789356692795,
+   "url": "https://gihyo.jp/article/2026/09/knap?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/meta-muse": {
    "bodyBlocks": [
@@ -4035,7 +4071,7 @@
      "text": "現在のMuse Secure VMでは、Metaの担当者によるデータアクセスを運用上のポリシーで制限しているものの、サービスの運営や安全確保などに必要なアクセスまで技術的に防ぐわけではない。Metaは、同社もVM内のデータにアクセスできないよう暗号技術で保護するMuse Confidential VMを年内に提供する計画を示している。"
     }
    ],
-   "checkedAt": 1789250082156,
+   "checkedAt": 1789356692795,
    "etag": "",
    "hash": "519cfb17f464577d",
    "id": "0d15eb159cb2",
@@ -4045,7 +4081,7 @@
    "publishedAt": 1788940740000,
    "summary": "Metaは9月8日、個人向けAIエージェント「Muse」を発表した。",
    "title": "Meta、個人向けAIエージェント「Muse」を米国で提供開始",
-   "updatedAt": 1789250082156,
+   "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/article/2026/09/meta-muse?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/mysql-rcn0278": {
@@ -4155,7 +4191,7 @@
      "text": "参考資料"
     }
    ],
-   "checkedAt": 1789250082156,
+   "checkedAt": 1789356692795,
    "etag": "",
    "hash": "152e733d31f01322",
    "id": "195046ae8b1e",
@@ -4165,7 +4201,7 @@
    "publishedAt": 1788220860000,
    "summary": "MySQL 9.7.0のリリースノートを見ていると、DATE型に関する修正がいくつかまとめて入っていることに気付きます。",
    "title": "第278回 MySQL 9.7で変わったDATE型の挙動を確認してみる",
-   "updatedAt": 1789250082156,
+   "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/article/2026/09/mysql-rcn0278?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/nvidia-to-acquire-hugging-face": {
@@ -4207,7 +4243,7 @@
      "text": "Super happy to officially announce that we are a̶c̶q̶u̶i̶r̶i̶n̶g̶ joining forces with @nvidia 🔥 Here is a more personal take: AI is at an inflection point. Open source AI can become less relevant in the coming years if the big closed labs run away with it, OR it can become the… pic. twitter. com/ mbLZt15Znv — Julien Chaumond (@julien_c) September 3, 2026"
     }
    ],
-   "checkedAt": 1789250082156,
+   "checkedAt": 1789356692795,
    "etag": "",
    "hash": "79df95b4b634e148",
    "id": "e085a01dcd5d",
@@ -4217,7 +4253,7 @@
    "publishedAt": 1788484860000,
    "summary": "2026年9月3日、NVIDIAによるHugging Faceの買収について両社が合意したことが発表された。",
    "title": "NVIDIAがHugging Faceを129億3030万ドルで買収へ",
-   "updatedAt": 1789250082156,
+   "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/article/2026/09/nvidia-to-acquire-hugging-face?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/openai-agents-api-public-beta": {
@@ -4535,7 +4571,7 @@
      "text": "上級者 （？） による 「こういう拡張してみた」 系"
     }
    ],
-   "checkedAt": 1789250082156,
+   "checkedAt": 1789356692795,
    "etag": "",
    "hash": "330b6873c43929e0",
    "id": "a54997e62538",
@@ -4545,7 +4581,7 @@
    "publishedAt": 1788220860000,
    "summary": "この連載はOSSコンソーシアム データベース部会のメンバーがオープンソースデータベースの毎月の出来事をお伝えしています。",
    "title": "第133回 連載12年目に突入、オープンソースカンファレンス京都報告、MySQLのステアリング・コミッティにJPMorganChaseとBooking. comが参画、PostgreSQLの多数の脆弱性が修正",
-   "updatedAt": 1789250082156,
+   "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/article/2026/09/ossdb-various-news0133?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/qwen3.8-max-0902": {
@@ -4587,7 +4623,7 @@
      "text": "明示的なキャッシュ読み取り：0. 17ドル/100万トークン"
     }
    ],
-   "checkedAt": 1789250082156,
+   "checkedAt": 1789356692795,
    "etag": "",
    "hash": "6772e9d841250080",
    "id": "a61f5ef83898",
@@ -4597,7 +4633,7 @@
    "publishedAt": 1788418800000,
    "summary": "Alibaba Qwenは2026年9月2日、AIモデルQwen3.8-Maxのアップグレード版スナップショット「Qwen3.8-Max-0902」をリリースした。",
    "title": "Qwen3.8-Maxのアップグレード版「Qwen3.8-Max-0902」登場、コーディング、エージェントタスク、マルチモーダル性能が大幅に向上",
-   "updatedAt": 1789250082156,
+   "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/article/2026/09/qwen3.8-max-0902?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/toward-agi-era": {
@@ -4715,7 +4751,7 @@
      "text": "同氏が求めるのは、こうした安全対策を強化して人間が自己改善の過程に関わり続けられるようにすることと、必要に応じて開発を遅らせるための協調を組み合わせること。現時点では、どの研究所も最大速度での規模拡大をこの先も長く続けられるほど、アラインメントと監視の課題を解決していないとみている。共通の安全基準が確立するまで自主的な減速が広がることに期待し、AI開発をめぐる国際協調を各国政府の優先課題にすべきだと述べた。"
     }
    ],
-   "checkedAt": 1789250082156,
+   "checkedAt": 1789356692795,
    "etag": "",
    "hash": "21bd9d79b482071d",
    "id": "8b55369f41fb",
@@ -4725,7 +4761,7 @@
    "publishedAt": 1788766440000,
    "summary": "OpenAIのGreg Brockman氏やMark Chen氏、NVIDIAのJensen Huang氏が、Xへの投稿でAGI（汎用人工知能）の到来や、その時代への移行に言及した。",
    "title": "NVIDIAのJensen Huang氏「AGIは到来した」、OpenAIからも「AGI時代に入りつつある」との声",
-   "updatedAt": 1789250082156,
+   "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/article/2026/09/toward-agi-era?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/zg": {
@@ -4795,7 +4831,7 @@
      "text": "最初のオープンソース版はコードとテキストを主な対象としている。今後はグラフ検索、検索結果の再ランキングや説明可能性の改善に加え、PDF、Word、PowerPointの処理、画像のOCR、レイアウト抽出、画像とテキストを横断して扱う機能などを計画している。詳細は 公式ロードマップ で確認できる。"
     }
    ],
-   "checkedAt": 1789250082156,
+   "checkedAt": 1789356692795,
    "etag": "",
    "hash": "78eeb7c86663a136",
    "id": "da58790c7c99",
@@ -4805,17 +4841,17 @@
    "publishedAt": 1788428940000,
    "summary": "AlibabaのベクトルデータベースZvecの開発チームは2026年8月28日、ローカル検索ツール「zg（zvec-grep）」をオープンソースとして公開した。",
    "title": "Alibaba、AIエージェントも利用できるローカル検索ツール「zg」をオープンソースとして公開",
-   "updatedAt": 1789250082156,
+   "updatedAt": 1789356692795,
    "url": "https://gihyo.jp/article/2026/09/zg?utm_source=feed"
   }
  },
  "listing": {
   "https://gihyo.jp/feed/rss2": {
-   "checkedAt": 1789336468861,
-   "etag": "W/\"6aa70fc0-7adf3\"",
-   "lastModified": "Sun, 13 Sep 2026 21:04:00 GMT"
+   "checkedAt": 1789356694050,
+   "etag": "W/\"6aa76420-7b459\"",
+   "lastModified": "Mon, 14 Sep 2026 03:04:00 GMT"
   }
  },
  "siteId": "gihyo",
- "updatedAt": 1789336510859
+ "updatedAt": 1789356743651
 }
