@@ -30,96 +30,6 @@
    "updatedAt": 1789383731473,
    "url": "https://news.web.nhk/newsweb/na/nd-20260910de49608"
   },
-  "https://news.web.nhk/newsweb/na/nd-20260912de49856": {
-   "bodyBlocks": [],
-   "checkedAt": 1789210811474,
-   "etag": "",
-   "hash": "ccf042e60f466db5",
-   "id": "8cb36fd72e4a",
-   "imageUrl": "",
-   "key": "https://news.web.nhk/newsweb/na/nd-20260912de49856",
-   "lastModified": "",
-   "publishedAt": 1789203840000,
-   "summary": "北海道の大雪山系の十勝岳では先月以降、振幅の大きな火山性地震が複数回発生していて、気象台は12日午前、噴火警戒レベルを「2」から入山規制を示す「3」に引き上げました。火口からおおむね3キロの範囲では大…",
-   "title": "北海道 十勝岳 噴火警戒レベル3に引き上げ 入山規制",
-   "updatedAt": 1789210811474,
-   "url": "https://news.web.nhk/newsweb/na/nd-20260912de49856"
-  },
-  "https://news.web.nhk/newsweb/na/nd-20260912de49891": {
-   "bodyBlocks": [],
-   "checkedAt": 1789210811474,
-   "etag": "",
-   "hash": "0c7f2ad57c8f23a8",
-   "id": "2ed5ba08cbf3",
-   "imageUrl": "",
-   "key": "https://news.web.nhk/newsweb/na/nd-20260912de49891",
-   "lastModified": "",
-   "publishedAt": 1789202700000,
-   "summary": "日本維新の会の藤田共同代表は、高市政権の発足当初から閣僚に加え、副大臣や政務官の起用についても打診があったとした上で、今回の内閣改造ではこれに応じる考えを示しました。",
-   "title": "維新 藤田共同代表“閣僚に加え副大臣・政務官の打診応じる”",
-   "updatedAt": 1789210811474,
-   "url": "https://news.web.nhk/newsweb/na/nd-20260912de49891"
-  },
-  "https://news.web.nhk/newsweb/na/nd-20260912de49892": {
-   "bodyBlocks": [],
-   "checkedAt": 1789210811474,
-   "etag": "",
-   "hash": "485b12cbe1cd9175",
-   "id": "d64153b69acc",
-   "imageUrl": "",
-   "key": "https://news.web.nhk/newsweb/na/nd-20260912de49892",
-   "lastModified": "",
-   "publishedAt": 1789204080000,
-   "summary": "中道改革連合の小川代表は、党の分裂によって立憲民主党出身者と公明党出身者に分かれるものの、衆議院で統一会派を組み、連携を維持しながら政権と対じしていく考えを重ねて強調しました。",
-   "title": "中道 小川代表“衆議院で統一会派結成 政権と対じ”",
-   "updatedAt": 1789210811474,
-   "url": "https://news.web.nhk/newsweb/na/nd-20260912de49892"
-  },
-  "https://news.web.nhk/newsweb/na/nd-20260912de49897": {
-   "bodyBlocks": [],
-   "checkedAt": 1789210811474,
-   "etag": "",
-   "hash": "137a1ece3e361891",
-   "id": "a91e59a639b8",
-   "imageUrl": "",
-   "key": "https://news.web.nhk/newsweb/na/nd-20260912de49897",
-   "lastModified": "",
-   "publishedAt": 1789204020000,
-   "summary": "SNSの動画の自動再生や過去の閲覧履歴から予測したコンテンツの表示など中毒性のある機能から子どもの利用者を守るとする新たな法律がアメリカ西部カリフォルニア州で成立しました。",
-   "title": "カリフォルニア州 SNSやAIから子ども守る州法成立",
-   "updatedAt": 1789210811474,
-   "url": "https://news.web.nhk/newsweb/na/nd-20260912de49897"
-  },
-  "https://news.web.nhk/newsweb/na/nd-20260912de49899": {
-   "bodyBlocks": [],
-   "checkedAt": 1789210811474,
-   "etag": "",
-   "hash": "d2156fe7dec49a1b",
-   "id": "e020120c0e14",
-   "imageUrl": "",
-   "key": "https://news.web.nhk/newsweb/na/nd-20260912de49899",
-   "lastModified": "",
-   "publishedAt": 1789206360000,
-   "summary": "ホルムズ海峡を避けて原油を輸送するルートとなっているサウジアラビアのパイプラインが攻撃を受け、操業を一時停止しました。\nさらにイランの支援を受ける中東イエメンの反政府勢力は、紅海にある要衝の島を制圧…",
-   "title": "ホルムズ海峡の代替ルートで情勢不安定化 市場への影響懸念",
-   "updatedAt": 1789210811474,
-   "url": "https://news.web.nhk/newsweb/na/nd-20260912de49899"
-  },
-  "https://news.web.nhk/newsweb/na/nd-20260912de49900": {
-   "bodyBlocks": [],
-   "checkedAt": 1789210811474,
-   "etag": "",
-   "hash": "cdf4a080e62a8a03",
-   "id": "fb643d8c7541",
-   "imageUrl": "",
-   "key": "https://news.web.nhk/newsweb/na/nd-20260912de49900",
-   "lastModified": "",
-   "publishedAt": 1789206000000,
-   "summary": "12日夕方、実業団のトップ選手が出場する陸上の全日本実業団選手権が開かれていた京都市の西京極陸上競技場で、「体調の悪い人が複数いる」と消防に通報がありました。\nこれまでに10人程度が病院に搬送された…",
-   "title": "全日本実業団選手権の会場で食中毒か 10人程度搬送 京都",
-   "updatedAt": 1789210811474,
-   "url": "https://news.web.nhk/newsweb/na/nd-20260912de49900"
-  },
   "https://news.web.nhk/newsweb/na/nd-20260912de49908": {
    "bodyBlocks": [],
    "checkedAt": 1789250337645,
@@ -735,6 +645,21 @@
    "updatedAt": 1789443371111,
    "url": "https://news.web.nhk/newsweb/na/nd-20260915de50224"
   },
+  "https://news.web.nhk/newsweb/na/nd-20260915de50254": {
+   "bodyBlocks": [],
+   "checkedAt": 1789509461230,
+   "etag": "",
+   "hash": "a802730105911fc0",
+   "id": "05f2497440c9",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260915de50254",
+   "lastModified": "",
+   "publishedAt": 1789470633000,
+   "summary": "2026年の「都道府県地価調査」の結果が公表され、全国の地価の平均は2025年に比べてプラス1.5％と5年連続で上昇しました。\n堅調な住宅需要に加え、インバウンドが増加している長野県白馬村など観光地…",
+   "title": "地価調査 全国で5年連続上昇 住宅地商業地とも需要堅調の中で",
+   "updatedAt": 1789509461230,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260915de50254"
+  },
   "https://news.web.nhk/newsweb/na/nd-20260915de50259": {
    "bodyBlocks": [],
    "checkedAt": 1789470242455,
@@ -870,6 +795,21 @@
    "updatedAt": 1789470242455,
    "url": "https://news.web.nhk/newsweb/na/nd-20260915de50391"
   },
+  "https://news.web.nhk/newsweb/na/nd-20260915de50399": {
+   "bodyBlocks": [],
+   "checkedAt": 1789509461230,
+   "etag": "",
+   "hash": "30950a048350709f",
+   "id": "dfb1f43e8807",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260915de50399",
+   "lastModified": "",
+   "publishedAt": 1789472640000,
+   "summary": "南下している秋雨前線の影響で、西日本の太平洋側を中心に激しい雨が降っています。前線は16日、本州の南岸に停滞するため、東日本の太平洋側を中心に、16日も雨雲が発達するおそれがあります。\n気象庁は土砂災…",
+   "title": "前線南下 16日にかけ大気不安定 熱帯低気圧の動向にも注意",
+   "updatedAt": 1789509461230,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260915de50399"
+  },
   "https://news.web.nhk/newsweb/na/nd-20260915de50409": {
    "bodyBlocks": [],
    "checkedAt": 1789470242455,
@@ -899,15 +839,75 @@
    "title": "アメリカ軍が宇宙に兵器配備“政府高官が初めて認める”米報道",
    "updatedAt": 1789470242455,
    "url": "https://news.web.nhk/newsweb/na/nd-20260915de50416"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260915de50454": {
+   "bodyBlocks": [],
+   "checkedAt": 1789509461230,
+   "etag": "",
+   "hash": "93dbe779b814aa3d",
+   "id": "00c8a039d87c",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260915de50454",
+   "lastModified": "",
+   "publishedAt": 1789505940000,
+   "summary": "高市総理大臣は、政権が掲げる重要政策を推進するため、16日、自民党の役員人事を、17日、内閣改造を行います。\n党役員人事では麻生副総裁や鈴木幹事長ら執行部のほとんどを留任させる意向で、引き続き、政権…",
+   "title": "高市首相 党役員人事 執行部ほぼ留任固める 政権安定狙いか",
+   "updatedAt": 1789509461230,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260915de50454"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260915de50455": {
+   "bodyBlocks": [],
+   "checkedAt": 1789509461230,
+   "etag": "",
+   "hash": "164da354c2155da1",
+   "id": "f7772a9c876f",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260915de50455",
+   "lastModified": "",
+   "publishedAt": 1789506300000,
+   "summary": "政府が15日に閣議決定した食料品の消費税減税の大綱では、来年4月から税率を1％に引き下げるとしていますが、外食は10％のままです。\n大綱では、外食の事業者にテイクアウトの導入支援などを行うとしていま…",
+   "title": "消費税減税 小規模事業者が税率変化に対応できるか課題",
+   "updatedAt": 1789509461230,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260915de50455"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260916de50456": {
+   "bodyBlocks": [],
+   "checkedAt": 1789509461230,
+   "etag": "",
+   "hash": "4bdb94630395323a",
+   "id": "b258159e8ba1",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260916de50456",
+   "lastModified": "",
+   "publishedAt": 1789504800000,
+   "summary": "福岡県議会は、正副議長ポストをめぐり金銭授受問題を調査する第三者委員会を、17日、設置する方向で調整を進めています。\n県も、高額な海外活動などを調べる第三者委員会を近く設置する方針で、県議会をめぐる…",
+   "title": "福岡県議会 金銭授受問題調査の第三者委員会 17日に設置へ",
+   "updatedAt": 1789509461230,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260916de50456"
+  },
+  "https://news.web.nhk/newsweb/na/nd-20260916de50457": {
+   "bodyBlocks": [],
+   "checkedAt": 1789509461230,
+   "etag": "",
+   "hash": "71285f73a804a1b0",
+   "id": "d6796d1e2cf0",
+   "imageUrl": "",
+   "key": "https://news.web.nhk/newsweb/na/nd-20260916de50457",
+   "lastModified": "",
+   "publishedAt": 1789506360000,
+   "summary": "15日、鳥取県沖を飛行していた航空自衛隊の大型無人偵察機、「グローバルホーク」が海上に墜落した事故で、自衛隊は現場の海域から機体を回収するとともに地上装置との間の通信履歴を分析して事故の原因を調べる方…",
+   "title": "空自の無人偵察機墜落 機体回収と通信履歴分析で原因調査",
+   "updatedAt": 1789509461230,
+   "url": "https://news.web.nhk/newsweb/na/nd-20260916de50457"
   }
  },
  "listing": {
   "https://www.nhk.or.jp/rss/news/cat0.xml": {
-   "checkedAt": 1789470243823,
-   "etag": "W/\"66e5f4dddc1254a9cad7b4c69e44bc18\"",
-   "lastModified": "Tue, 15 Sep 2026 10:27:14 GMT"
+   "checkedAt": 1789509463002,
+   "etag": "W/\"a2dd83cb197f409d1038f6f8fd6cc710\"",
+   "lastModified": "Tue, 15 Sep 2026 21:32:13 GMT"
   }
  },
  "siteId": "nhk_main",
- "updatedAt": 1789470243824
+ "updatedAt": 1789509463003
 }

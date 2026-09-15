@@ -4411,11 +4411,11 @@
  },
  "listing": {
   "https://gihyo.jp/feed/rss2": {
-   "checkedAt": 1789470012611,
-   "etag": "W/\"6aa90a00-7c4aa\"",
-   "lastModified": "Tue, 15 Sep 2026 09:04:00 GMT"
+   "checkedAt": 1789509284593,
+   "etag": "W/\"6aa9b2c0-7c4aa\"",
+   "lastModified": "Tue, 15 Sep 2026 21:04:00 GMT"
   }
  },
  "siteId": "gihyo",
- "updatedAt": 1789470062008
+ "updatedAt": 1789509326891
 }
