@@ -1,157 +1,5 @@
 {
  "articles": {
-  "https://atmarkit.itmedia.co.jp/ait/articles/2609/08/news035.html": {
-   "bodyBlocks": [
-    {
-     "kind": "P",
-     "text": "پ@OpenAI‚ح2026”N9Œژ3“ْپi•ؤچ‘ژ‍ٹشپjپAژںگ¢‘م‚ج‘ه‹K–حŒ¾Œêƒ‚ƒfƒ‹پiLLMپjپuGPT-6 Astraپv‚ً”­•\\‚µ‚½پBژ–‘OٹwڈK‚â‹­‰»ٹwڈKپAƒAƒ‰ƒCƒپƒ“ƒgŒ¤‹†‚جگ¬‰ت‚ً“‌چ‡‚µ‚½ƒtƒچƒ“ƒeƒBƒAƒ‚ƒfƒ‹‚إ‚ ‚èپAPC‚جژ©—¥‘€چىپiComputer Useپj‚âƒRپ[ƒfƒBƒ“ƒOپAƒTƒCƒoپ[ƒZƒLƒ…ƒٹƒeƒBپA‰بٹwŒ¤‹†پAگê–ه‹ئ–±‚ب‚ا‚ج—جˆو‚إگ«”\\Œüڈم‚ً’Bگ¬‚µ‚½‚ئ‚µ‚ؤ‚¢‚éپB"
-    },
-    {
-     "kind": "P",
-     "text": "پ@“¯ƒ‚ƒfƒ‹‚حپA’ٹڈغگ„ک_ƒxƒ“ƒ`ƒ}پ[ƒNپuARC-AGI-3پv‚إ99.9پ“پAٹù’m‚جگئژمپi‚؛‚¢‚¶‚ل‚­پjگ«‚©‚çƒGƒNƒXƒvƒچƒCƒgپiچUŒ‚ƒRپ[ƒhپj‚ًچىگ¬‚·‚é”\\—ح‚ً•]‰؟‚·‚éپuExploitBenchپv‚إ100پ“‚ً‹Lک^‚µ‚½پBچ‚“x‚بگ„ک_—ح‚ئPC‘€چى”\\—ح‚ً‘g‚فچ‡‚ي‚¹پAژہ–±ƒ^ƒXƒN‚ًژ©“®‰»‚·‚é‚ئ‚¢‚¤پB"
-    },
-    {
-     "kind": "H",
-     "text": "’ٌ‹ں•ûژ®پA—ک—p‰آ”\\ƒvƒ‰ƒ“پA—؟‹à"
-    },
-    {
-     "kind": "P",
-     "text": "پ@GPT-6 Astra‚ح“¯“ْ‚و‚èˆê•”‘gگD‚ض‚ج’ٌ‹ں‚ًٹJژn‚µپA‚»‚جŒمگ”“ْٹش‚إپuChatGPT PlusپvپuChatGPT ProپvپuChatGPT BusinessپvپuChatGPT Enterpriseپv‚جٹeƒvƒ‰ƒ“پAٹJ”­ژزŒü‚¯پuOpenAI APIپvپAƒNƒ‰ƒEƒhƒTپ[ƒrƒXپuMicrosoft AzureپvپAAmazon Web ServicesپiAWSپj‚جپuAmazon Bedrockپv‚ً’ت‚¶‚ؤڈ‡ژں’ٌ‹ں‚·‚éپB"
-    },
-    {
-     "kind": "P",
-     "text": "پ@Enterpriseƒvƒ‰ƒ“‚إ‚حٹا—‌ژز‚ھƒڈپ[ƒNƒXƒyپ[ƒX‚²‚ئ‚ة—LŒّ‰»‚إ‚«‚éپBAPI‚إ‚جƒ‚ƒfƒ‹–¼‚حپugpt-6-astraپv‚ئ‚µ‚ؤ’ٌ‹ں‚³‚ê‚éپB"
-    },
-    {
-     "kind": "P",
-     "text": "پ@•Wڈ€—؟‹à‚ح“ü—حƒgپ[ƒNƒ“100–œŒآ“–‚½‚è10ƒhƒ‹پAڈo—حƒgپ[ƒNƒ“100–œŒآ“–‚½‚è50ƒhƒ‹‚إپAƒLƒƒƒbƒVƒ…‚ج“ا‚فڈ‘‚«‚ة‚ح•ت“r—؟‹à‚ھ“K—p‚³‚ê‚éپBچإ‘ه2”{‚ج‘¬“x‚إ“®چى‚·‚éپuFast modeپv‚ح•Wڈ€—؟‹à‚ج2”{‚ج‰؟ٹi‚إ—ک—p‚إ‚«‚éپB“Kٹi‚بAPIƒ†پ[ƒUپ[Œü‚¯‚ة‚حƒfپ[ƒ^”ٌ•غژ‌پiZero Data Retentionپj‚ھƒTƒ|پ[ƒg‚³‚ê‚éپB"
-    },
-    {
-     "kind": "H",
-     "text": "OSWorld 2.0‚إچى‹ئژ‍ٹش‚ً47پ“چيŒ¸پAPCژ©—¥‘€چى‚جگ¸“x‚ًŒüڈم"
-    },
-    {
-     "kind": "P",
-     "text": "پ@GPT-6 Astra‚حپAPC‰و–ت‚جژ‹ٹo”Fژ¯‚ئƒ}ƒEƒX‚âƒLپ[ƒ{پ[ƒh‚جژ©—¥‘€چى‚ة‚¨‚¢‚ؤچ‚‚¢‘¬“x‚ئگ¸“x‚ً”ُ‚¦‚éپBWebƒtƒHپ[ƒ€“ü—ح‚âCRMپiŒع‹qٹضŒWٹا—‌پjƒcپ[ƒ‹‚جƒfپ[ƒ^چXگVپAƒJƒŒƒ“ƒ_پ[’²گ®پAWeb’²چ¸‚ئ—v–ٌچىگ¬پA‰بٹwƒfپ[ƒ^•ھگحپAWebƒTƒCƒgچ\\’zپAƒtƒچƒ“ƒgƒGƒ“ƒh‚ج•iژ؟•غڈطپiQAپjƒeƒXƒg‚ـ‚إژ©—¥“I‚ةگ‹چs‚إ‚«‚éپB"
-    },
-    {
-     "kind": "P",
-     "text": "پ@ژہ–±“I‚بٹآ‹«‚ً–ح‚µ‚½ƒxƒ“ƒ`ƒ}پ[ƒNپuOSWorld 2.0پv‚جƒŒƒCƒeƒ“ƒVƒVƒ~ƒ…ƒŒپ[ƒVƒ‡ƒ“‚ة‚¨‚¢‚ؤپAGPT-6 Astra‚ح‘Oگ¢‘مƒ‚ƒfƒ‹پuGPT-5.6 Solپv‚ئ”نٹr‚µ‚ؤ–ٌ47پ“’Z‚¢ژ‍ٹش‚إچ‚‚¢ƒ^ƒXƒNٹ®—¹گ¸“x‚ً‹Lک^‚µ‚½پBGPT-5.6 Sol‚ھ1ƒ^ƒXƒN“–‚½‚è–ٌ75•ھ‚ً—v‚µ‚ؤƒXƒRƒA65.7پ“‚إ‚ ‚ء‚½‚ج‚ةپAGPT-6 Astra‚ح–ٌ40•ھ‚إ72.6پ“‚ً’Bگ¬‚µ‚½پB"
-    },
-    {
-     "kind": "H",
-     "text": "گê–ه‹ئ–±Œü‚¯”\\—ح‚جŒüڈمپASites‚ئ‚جکAŒg‚إŒِٹJپA‹¤—L"
-    },
-    {
-     "kind": "P",
-     "text": "پ@گê–ه‹ئ–±Œü‚¯‚ج•¶ڈ‘چىگ¬‚â•ھگح”\\—ح‚à‹­‰»‚³‚êپAƒeƒ“ƒvƒŒپ[ƒg‚ةڈ]‚ء‚½ƒXƒ‰ƒCƒhژ‘—؟‚â•\\ŒvژZƒVپ[ƒgپA•ھگحƒŒƒ|پ[ƒg‚جچىگ¬‚ھ‰آ”\\‚ئ‚ب‚ء‚½پB"
-    },
-    {
-     "kind": "P",
-     "text": "پ@پuBlenderپv‚إڈZ‘î‚ً3Dƒ‚ƒfƒ‹‰»‚µپAپuUnreal Engine 5پv‚ج•àچs‰آ”\\ƒVپ[ƒ“‚ة•د‚¦پAƒfƒUƒCƒiپ[‚âƒNƒ‰ƒCƒAƒ“ƒg‚ھƒŒƒCƒAƒEƒg‚ً’Tچُ‚µپAچ\\’z‘O‚ة‹َٹش‚ً‘جŒ±‚·‚é‚ج‚ًژx‰‡‚·‚éپB"
-    },
-    {
-     "kind": "P",
-     "text": "پ@ChatGPT“à‚ج‹@”\\پu Sites پv‚ئکAŒg‚µپAƒvƒچƒ“ƒvƒg‚©‚ç‚جژwژ¦‚ةٹî‚أ‚¢‚ؤ’¼گعWebƒTƒCƒg‚âWebƒAƒvƒٹƒPپ[ƒVƒ‡ƒ“پAƒQپ[ƒ€‚ًچىگ¬پAŒِٹJپA‹¤—L‚إ‚«‚éپB"
-    },
-    {
-     "kind": "H",
-     "text": "Codex‚ةƒRƒ“ƒeƒLƒXƒg‚ج‘rژ¸‚ً–h‚®‹@”\\"
-    },
-    {
-     "kind": "P",
-     "text": "پ@ƒ\\ƒtƒgƒEƒFƒAٹJ”­•ھ–ى‚ة‚¨‚¢‚ؤپAGPT-6 Astra‚ح’[––‘€چىƒxƒ“ƒ`ƒ}پ[ƒNپuTerminal-Bench 4.0پv‚إ57.9پ“پiGPT-5.6 Sol‚ح37.3پ“پjپAƒ\\ƒtƒgƒEƒFƒAƒGƒ“ƒWƒjƒAƒٹƒ“ƒO•]‰؟پuDeepSWE v1.1پv‚إ74.1پ“پi“¯72.7پ“پj‚ً‹Lک^‚µ‚½پB"
-    },
-    {
-     "kind": "P",
-     "text": "پ@ƒRپ[ƒhگ¶گ¬پEژہچsٹآ‹«پuCodexپv‚جژہچsٹî”ص‚àچüگV‚³‚ê‚½پBWeb‘€چىƒxƒ“ƒ`ƒ}پ[ƒNپuMind2Webپv‚إ‚حGPT-5.6 Sol—ک—pژ‍‚ئ”ن‚×‚ؤ1.9”{‚ج‘¬“x‚إƒ^ƒXƒN‚ًٹ®—¹‚إ‚«‚é‚و‚¤‚ة‚ب‚ء‚½‚ئ‚¢‚¤پB"
-    },
-    {
-     "kind": "P",
-     "text": "پ@Codex‚إ‚حپAƒRƒ“ƒeƒLƒXƒgƒEƒBƒ“ƒhƒE‚ھ–‍”t‚ة‚ب‚ء‚½چغ‚ة—ڑ—ً‚ًˆ³ڈkپA—v–ٌ‚·‚éڈ]—ˆ‚ج•ûژ®‚ً‰ü‚كپA•،گ”‚جƒRƒ“ƒeƒLƒXƒgƒEƒBƒ“ƒhƒEٹش‚إڈعچ×‚بnoteپiƒپƒ‚پj‚ً•غژ‌‚·‚é‹@”\\‚ً“±“ü‚µ‚½پBڈ]—ˆ‚جژè–@‚إ‚حپAƒfƒoƒbƒO‚âƒٹƒtƒ@ƒNƒ^ƒٹƒ“ƒO‚ب‚ا’·ژ‍ٹش‚جƒZƒbƒVƒ‡ƒ“‚إ—v–ٌ‚ھŒJ‚è•ش‚³‚ê‚éچغپAڈCگ³‚جژ¸”sŒ´ˆِ‚âƒRƒ“ƒ|پ[ƒlƒ“ƒg‚ج‹““®‚ة‚آ‚¢‚ؤ‚جچ×•”ڈî•ٌ‚ھ”²‚¯—ژ‚؟‚é‰غ‘è‚ھ‚ ‚ء‚½پB"
-    },
-    {
-     "kind": "P",
-     "text": "پ@GPT-6 Astra‚إ‚حڈعچ×ڈî•ٌ‚ًnoteپiƒپƒ‚پj‚ئ‚µ‚ؤ•غژ‌‚µ‚آ‚آپA‰ك‹ژ‚جƒRƒ“ƒeƒLƒXƒgƒEƒBƒ“ƒhƒE‚àŒںچُ‰آ”\\‚ةˆغژ‌‚·‚éپB‚±‚ê‚ة‚و‚èپA—vŒڈ‚âƒeƒXƒgŒ‹‰ت‚ًˆب‘O‚جƒپƒbƒZپ[ƒW‚âڈo—ح‚©‚çگ³ٹm‚ةˆّ‚«ڈo‚¹‚éپB‚±‚ج‹@”\\‚حŒ»چفپAگف’èƒtƒ@ƒCƒ‹پu Codex config.toml پv‚إژہŒ±“I‹@”\\‚ئ‚µ‚ؤ—LŒّ‰»‚إ‚«پAگ”ڈTٹشˆب“à‚ةƒfƒtƒHƒ‹ƒgپiٹù’èپj‚ج“®چى‚ئ‚ب‚é—\\’è‚¾پB"
-    },
-    {
-     "kind": "H",
-     "text": "ƒ[ƒچƒfƒCگئژمگ«‚ج”­Œ©”\\—ح‚جŒüڈم‚ئˆ«—pƒٹƒXƒN‚ض‚ج‘خچô"
-    },
-    {
-     "kind": "P",
-     "text": "پ@ƒTƒCƒoپ[ƒZƒLƒ…ƒٹƒeƒB•ھ–ى‚ة‚¨‚¢‚ؤپAGPT-6 Astra‚حOpenAI‚جˆہ‘Sکg‘g‚فپuPreparedness Frameworkپv‚جچإچ‚Œx‰ْگ…ڈ€پuCriticalپiڈd‘هپjپv‚جè‡پi‚µ‚«‚¢پj’l‚ة’B‚µ‚½پB"
-    },
-    {
-     "kind": "P",
-     "text": "پ@•غŒى‹@”\\‚ًٹO‚µ‚½•]‰؟ژہŒ±‚ة‚¨‚¢‚ؤپAٹù’m‚جگئژمگ«‚©‚çچUŒ‚ƒRپ[ƒh‚ًٹJ”­‚·‚éپuExploitBenchپv‚إ100پ“‚ج–‍“_‚ً‹Lک^پiGPT-5.6 Sol‚ح78.5پ“پj‚µ‚½‘¼پAƒoƒCƒiƒٹ‚جƒٹƒoپ[ƒXƒGƒ“ƒWƒjƒAƒٹƒ“ƒO”\\—ح‚ً‘ھ‚éپuSRE-benchپv‚إ‚ح1‰ٌ‚جژژچs‚إ88.0پ“پA4‰ٌˆب“à‚إ99.2پ“‚جƒ^ƒXƒN‚ً‰ًŒˆ‚µ‚½پiGPT-5.6 Sol‚ح‚»‚ê‚¼‚ê55.9پ“پA68.7پ“پjپB"
-    },
-    {
-     "kind": "P",
-     "text": "پ@‰ك‹ژƒfپ[ƒ^‚جٹwڈK‚ة‚و‚é‰e‹؟‚ً”rڈœ‚·‚é‚½‚ك‚ةپA2026”N6پ`8Œژ‚ة•ٌچگ‚³‚ê‚½پuGoogle Chromeپv‚جJavaScriptƒGƒ“ƒWƒ“پuV8پv‚جگئژمگ«‚ً‘خڈغ‚ئ‚µ‚½“à•”•]‰؟پuExploitBenchپiJune-August 2026پjپv‚ًژہژ{‚µ‚½‚ئ‚±‚ëپAچ‚‚¢”Cˆس‚جƒRپ[ƒhژہچs—¦‚ً’Bگ¬‚µ‚½پB‚»‚جŒںڈط‰ك’ِ‚ة‚¨‚¢‚ؤپA“¯ƒ‚ƒfƒ‹‚ح2Œڈ‚ج–¢’m‚جƒ[ƒچƒfƒCگئژمگ«‚ًژ©—¥“I‚ة“ء’è‚µ‚ؤˆ«—pژہڈط‚ًچs‚¢پAOpenAI‚ح‚±‚ê‚ç‚ًƒ\\ƒtƒgƒEƒFƒAٹا—‌ژز‚ضٹJژ¦‚µ‚½‚ئ‚µ‚ؤ‚¢‚éپB"
-    },
-    {
-     "kind": "P",
-     "text": "پ@گê–ه‰ئ‚ة‚و‚éŒںڈط‚إ‚حپA•غŒى‹@”\\‚ً‰ًڈœ‚µ‚½GPT-6 Astra‚ھپAƒZƒLƒ…ƒٹƒeƒB‚ھ‹­‰»‚³‚ê‚½Webƒuƒ‰ƒEƒU‚ة‚¨‚¢‚ؤ–¢’m‚جگئژمگ«‚ً—p‚¢‚½”CˆسƒRپ[ƒh‚ًژہچs‚µپAŒککSپi‚¯‚ٌ‚ë‚¤پj‰»‚³‚ê‚½OS‚ة‚¨‚¢‚ؤŒ Œہڈ¸ٹiƒGƒNƒXƒvƒچƒCƒg‚ًچىگ¬‚إ‚«‚é‚±‚ئ‚ھٹm”F‚³‚ê‚½پB"
-    },
-    {
-     "kind": "P",
-     "text": "پ@ˆ«—pƒٹƒXƒN‚ض‚ج‘خچô‚ئ‚µ‚ؤپAˆê”ت’ٌ‹ں‚³‚ê‚éƒ‚ƒfƒ‹‚إ‚حٹT”OژہڈطپiPoCپjƒGƒNƒXƒvƒچƒCƒg‚جچىگ¬‚ئ‚¢‚ء‚½چ‚“x‚بچUŒ‚ƒ^ƒXƒN‚جژہچs‚ح‹‘”غ‚³‚êپAƒRپ[ƒhƒŒƒrƒ…پ[‚âƒpƒbƒ`“K—p‚ب‚ا‚ج–hŒن—p“r‚ةگ§Œہ‚³‚ê‚éپBچ،Œمگ”ڈTٹشˆب“à‚ة—\\’è‚³‚ê‚ؤ‚¢‚éپuOpenAI DaybreakپvƒvƒچƒOƒ‰ƒ€‚ً’ت‚¶پAگئژمگ«Œںڈط‚âƒ}ƒ‹ƒEƒFƒA‰ًگحپAŒں’mƒGƒ“ƒWƒjƒAƒٹƒ“ƒO‚ئ‚¢‚ء‚½–hŒن‘¤‘gگD‚ض‚ج‹@”\\ٹJ•ْ‚ً’iٹK“I‚ةگi‚ك‚éŒv‰و‚¾پB"
-    },
-    {
-     "kind": "H",
-     "text": "ƒ^ƒXƒNˆي’E‚ً—}ژ~‚·‚éƒAƒ‰ƒCƒپƒ“ƒg‹­‰»"
-    },
-    {
-     "kind": "P",
-     "text": "پ@چ‚“x‚ب”\\—ح‚ة”؛‚¤–\\‘–‚ً–h‚®‚½‚كپAƒAƒ‰ƒCƒپƒ“ƒg‹Zڈp‚àچüگV‚³‚ê‚½پBژہچs•s‰آ”\\‚بƒ^ƒXƒN‚ً—^‚¦‚ç‚ê‚½چغ‚ةƒ‚ƒfƒ‹‚ھ‹–‰آ‚³‚ê‚½”حˆح‚ً’´‚¦‚ؤچs“®‚·‚é‚©‚ا‚¤‚©‚ًŒںڈط‚µ‚½‚ئ‚±‚ëپAڈ]—ˆ‚جGPT-5.6 Sol‚ھ48پ“‚جٹ„چ‡‚إŒ ŒہٹO‚جچs“®‚ةڈo‚½‚ج‚ة‘خ‚µپAGPT-6 Astra‚حˆي’E”­گ¶—¦0پ“‚ً‹Lک^‚µ‚½پBژ©گg‚ج”\\—ح‚ًŒض’£‚·‚éپu”\\—حƒnƒ‹ƒVƒlپ[ƒVƒ‡ƒ“پv‚ج•p“x‚àڈ]—ˆ‚ج3•ھ‚ج1‚ة’لŒ¸‚µ‚½پB"
-    },
-    {
-     "kind": "P",
-     "text": "پ@ƒVƒXƒeƒ€‘¤‚جˆہ‘Sچô‚ئ‚µ‚ؤپAƒ‚ƒfƒ‹‚جگ„ک_‰ك’ِ‚ئژہچsƒAƒNƒVƒ‡ƒ“‚ًŒںچ¸‚µپA•sگ³‚ب‹““®‚ًژ©“®’âژ~‚·‚éپuƒ~ƒXƒAƒ‰ƒCƒپƒ“ƒgٹؤژ‹پv‚ً–{”شٹآ‹«‚ة“±“ü‚µ‚ؤ‚¢‚éپBˆہ‘Sٹm”Fڈˆ—‌‚ة‚و‚ء‚ؤگ³‹K‚جچى‹ئ‚ھˆêژ‍’âژ~‚ـ‚½‚ح’†’f‚³‚ê‚éڈêچ‡‚ھ‚ ‚é‚ھپAOpenAI‚حگ³“–‚ب‹ئ–±‚ً‘jٹQ‚µ‚ب‚¢‚و‚¤’²گ®‚ًŒp‘±‚·‚é‚ئ‚µ‚ؤ‚¢‚éپB"
-    },
-    {
-     "kind": "H",
-     "text": "ٹضکA‹Lژ–"
-    },
-    {
-     "kind": "LI",
-     "text": "GoogleپuGemini 3.8 Flashپv”­•\\پ@ƒvƒچƒ“ƒvƒg1‚آ‚إ3DƒQپ[ƒ€گ¶گ¬پA‰؟ٹiگک‚¦’u‚«‚إ‘ه‹K–حƒ‚ƒfƒ‹‚ة”—‚é Google‚حپAپuGemini 3.8 Flashپv‚ئ–h‰q“ء‰»‚جپuGemini 3.8 Flash Cyberپv‚ً”­•\\‚µ‚½پB3.7‚ئ“¯“™‚ج’ل‰؟ٹi‚ًˆغژ‌‚µ‚ب‚ھ‚çپAƒRپ[ƒfƒBƒ“ƒO‚âگ„ک_پAگئژمگ«Œں’mپ^ڈCگ³‚جگ«”\\‚ً‘ه•‌‚ةŒüڈم‚³‚¹‚½پB"
-    },
-    {
-     "kind": "LI",
-     "text": "پuچإ‘ه45پ“ƒRƒXƒgŒ¸پvپ@Anthropic‚ھپuClaude Fable 5.1پv”­•\\پ@گئژمگ«Œں’m‚ة‚à‘خ‰‍ Anthropic‚حپAگVAIƒ‚ƒfƒ‹پuClaude Fable 5.1پv‚¨‚و‚رپuClaude Mythos 5.1پv‚ً”­•\\‚µ‚½پBƒLƒƒƒbƒVƒ…“ا‚فژو‚è‰؟ٹi‚جˆّ‚«‰؛‚°‚ة‚و‚èFable 5.1‚حچإ‘ه–ٌ45پ“‚جƒRƒXƒgچيŒ¸‚ھŒ©چ‍‚ك‚é‚ئ‚µ‚ؤ‚¢‚éپBگئژمگ«Œں’m‚ض‚ج‘خ‰‍‚ب‚اپAƒZپ[ƒtƒKپ[ƒh‚àˆê•”•دچX‚³‚ê‚½‚ئ‚¢‚¤پB"
-    },
-    {
-     "kind": "LI",
-     "text": "ClaudeپAGeminiپAGPTپ\\پ\\AI‹£‘ˆ‚ج•‰‚¯Œ¢‚حپHپ@Œ»ڈê“±“ü‚جڈں‚؟‘g‚ًŒˆ‚ك‚éƒGƒ“ƒWƒjƒAپuگ^‚ج‹­‚فپv 2026”N8Œژ17پ`23“ْ‚ةپ—IT‚إŒِٹJ‚³‚ê‚½‹Lژ–‚ج’†‚إپA“ء‚ة’چ–ع‚ًڈW‚ك‚½10–{‚ًƒ‰ƒ“ƒLƒ“ƒOŒ`ژ®‚إڈذ‰î‚µ‚ـ‚·پB“اژز‚جٹضگS‚ح‚ا‚±‚ة‚ ‚é‚ج‚إ‚µ‚ه‚¤‚©پB"
-    },
-    {
-     "kind": "LI",
-     "text": "AI‚ً‚و‚­ژg‚¤ژذˆُ‚¾‚¯5”{‚ةپ@ClaudeپAChatGPTپ^CodexپACursor‚إٹé‹ئ‚ھAI‚ً–{ٹi‰^—p‚إ‚«‚éژ‍‘م‚ض OpenAI‚ھChatGPT Business‚إPremiumƒVپ[ƒg‚ج’ٌ‹ں‚ًٹJژn‚µ‚½پBAnthropicپACursor‚ة‘±‚«پAژه—v‚بٹé‹ئŒü‚¯AI‚إپA—ک—p—ت‚ج‘½‚¢ژذˆُ‚¾‚¯ڈمˆتƒVپ[ƒg‚ًٹ„‚è“–‚ؤ‚ç‚ê‚éژd‘g‚ف‚ھ‚»‚ë‚ء‚½پB3ژذ‚ج—؟‹à‚â—ک—pکgپAژہچغ‚جگف’è•û–@‚ً”نٹr‚µپAٹé‹ئ‚جAI—ک—p‚إ‰½‚ھ•د‚ي‚é‚ج‚©‚ًچl‚¦‚éپB"
-    },
-    {
-     "kind": "LI",
-     "text": "ClaudeپACodexپAQwenپcپc‚»‚جAI—pŒêپA‚ا‚¤“ا‚قپHپ@“ا‚ف•ûƒNƒCƒY30–â ‰½‚ئ‚ب‚­‚±‚¤“ا‚ق‚à‚ج‚¾‚ئژv‚ء‚ؤ‚¢‚½‚çپAژہ‚حˆل‚ء‚ؤ‚¢‚½پB‚»‚ٌ‚بŒoŒ±‚ح‚ب‚¢‚إ‚µ‚ه‚¤‚©پBAI—pŒê‚ة‚àپAˆسٹO‚ب“ا‚ف•û‚ً‚·‚é‚à‚ج‚âپAگl‚ة‚و‚ء‚ؤ“ا‚ف•û‚ھ•ھ‚©‚ê‚é‚à‚ج‚ھڈ­‚ب‚­‚ ‚è‚ـ‚¹‚ٌپB‚»‚ج“ا‚ف•û‚ھچ‡‚ء‚ؤ‚¢‚é‚©پA‘S30–â‚جƒNƒCƒY‚إٹm‚©‚ك‚ؤ‚ف‚ؤ‚­‚¾‚³‚¢پB"
-    },
-    {
-     "kind": "H",
-     "text": "ٹضکAƒٹƒ“ƒN"
-    }
-   ],
-   "checkedAt": 1788951742978,
-   "etag": "",
-   "hash": "dad078dddd0459bb",
-   "id": "a3bf51a82d17",
-   "imageUrl": "https://image.itmedia.co.jp/ait/articles/2609/08/cover_news035.jpg",
-   "key": "https://atmarkit.itmedia.co.jp/ait/articles/2609/08/news035.html",
-   "lastModified": "",
-   "publishedAt": 1788854400000,
-   "summary": "OpenAIは、次世代AIモデル「GPT-6 Astra」を発表した。PC自律操作やコーディング、セキュリティ検証などの能力が大幅に向上し、抽象推論ベンチマークテスト「ARC-AGI-3」で99.9％のスコアを達成したという。",
-   "title": "OpenAI「GPT-6 Astra」発表 Codexのコーディングは前世代からどれだけ進化？",
-   "updatedAt": 1788951742978,
-   "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/08/news035.html"
-  },
   "https://atmarkit.itmedia.co.jp/ait/articles/2609/09/news038.html": {
    "bodyBlocks": [
     {
@@ -1824,6 +1672,102 @@
    "updatedAt": 1789443340519,
    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/15/news042.html"
   },
+  "https://atmarkit.itmedia.co.jp/ait/articles/2609/15/news076.html": {
+   "bodyBlocks": [
+    {
+     "kind": "P",
+     "text": "Googleは2026年9月10日（米国時間、以下同）、AIアシスタント「Gemini」をWindowsのデスクトップ環境へネイティブに統合する専用アプリケーションを、全世界に向けて提供開始した。"
+    },
+    {
+     "kind": "P",
+     "text": "同アプリケーションは、日常業務で使用するアプリケーションやツールと連携して動作するよう設計されている。作業中の画面からショートカットキーを入力することで即座に呼び出せる他、専用のワークスペースにおいて「Google Drive」などのデータと連携したタスクの実行や、画像・動画の生成に対応する。対応OSは「Windows 10」および「Windows 11」だ。"
+    },
+    {
+     "kind": "H",
+     "text": "［Alt］＋［Space］キーで作業画面上に即座にオーバーレイ表示"
+    },
+    {
+     "kind": "P",
+     "text": "ユーザーはPCでの作業中、どの画面からでも［Alt］＋［Space］で、アクティブな作業画面の手前にオーバーレイ形式で「Gemini」を即座に起動できる。"
+    },
+    {
+     "kind": "P",
+     "text": "これにより、別のウィンドウに切り替えることなく、作成中の文書に関する内容のファクトチェックを指示したり、プレゼンテーション資料に適したキャッチーなタイトル案をブレインストーミングしたりできるようになる。"
+    },
+    {
+     "kind": "H",
+     "text": "パーソナルAIエージェント「Gemini Spark」や各種Googleサービスとも連携"
+    },
+    {
+     "kind": "P",
+     "text": "単発の質問やプロンプト処理にとどまらず、複雑で集中を要する業務を遂行するための専用ワークスペースも備える。ユーザーはワークスペース内で、Geminiで提供されてきた各種機能を包括的に利用できる。"
+    },
+    {
+     "kind": "P",
+     "text": "ワークスペース内では、複数段階の工程を伴うタスクを24時間体制のパーソナルAIエージェント Gemini Spark へ委託できる。"
+    },
+    {
+     "kind": "P",
+     "text": "「Gmail」など各種Googleサービスから直接情報を抽出し、プロジェクトの進捗（しんちょく）状況や要約を自動作成させるといった処理にも対応する。"
+    },
+    {
+     "kind": "H",
+     "text": "「Nano Banana」による画像生成と「Gemini Omni」による動画生成"
+    },
+    {
+     "kind": "P",
+     "text": "デスクトップ環境から直接、クリエイティブなコンテンツを生成する機能も統合された。"
+    },
+    {
+     "kind": "P",
+     "text": "プレゼンテーション資料などに用いる画像を「Nano Banana」で生成できる。動画生成AI機能「 Gemini Omni 」を通じて、高品質な動画のディレクションをデスクトップで実行できる。Googleは「構想の立案から画像や動画のアセット作成までを、単一のアプリケーション内で完結できる」と述べている。"
+    },
+    {
+     "kind": "H",
+     "text": "PCの処理速度を損なわない軽量設計、順次機能拡張を予定"
+    },
+    {
+     "kind": "P",
+     "text": "Googleは「バックグラウンドでの動作時や呼び出し時においても、PCのパフォーマンスを低下させない軽量な設計だ」としている。作業負荷の高い業務環境においても、システムの動作を妨げずに並行して利用できるという。"
+    },
+    {
+     "kind": "P",
+     "text": "Googleは「Windows向けGeminiの始まりに過ぎない」とし、機能を段階的に拡張する計画を示している。同アプリケーションは gemini.google/desktop からダウンロードして利用できる。"
+    },
+    {
+     "kind": "LI",
+     "text": "無料版Geminiを仕事で使い倒すための設定と注意点、Gmailやドライブ連携で差をつけろ Googleの生成AI「Gemini」は導入しただけでは真価を発揮できない。特に無料版では、適切な初期設定とセキュリティへの配慮が不可欠だ。本Tech TIPSでは、GmailやGoogleドライブとの連携手順から、カスタムAI（Gems）と「カスタム指示」の活用、データの安全な扱い方まで、仕事の生産性を高める具体策を解説する。"
+    },
+    {
+     "kind": "LI",
+     "text": "【Google推奨】Geminiから満足のいく回答を引き出すための「構造化プロンプト」実践ガイド 生成AIとの対話で「期待通りの回答が得られない」原因の多くは指示の曖昧さにある。本Tech TIPSでは、Google Geminiから的確な回答を引き出すためのフレームワーク「RSFC（役割・状況・形式・条件）」を解説する。基本構成に加え、思考プロセスの指定や自己チェックなど、実務ですぐに役立つ実践的なテクニックを紹介しよう。"
+    },
+    {
+     "kind": "LI",
+     "text": "Windows Copilot大迷走――キャンセル、改名、実装変更を繰り返すMicrosoftの混乱 2024年の「Microsoft Build」で発表されたWindows向け「Copilot」機能のうち、3つがキャンセル、アプリの実装方式は5回変更。CEOは「うまく機能していない」と認め、責任者の交代と組織再編が発表されました。もうWindows Copilotは終わりなのか？ いえいえ、その裏で新しい挑戦も静かに始まっていますよ。事実を時系列で追いながら、Windows Copilotの現在地を整理します。"
+    },
+    {
+     "kind": "LI",
+     "text": "複数のAIエージェントを部下のように管理 OpenAIの「Codex」デスクトップアプリ版は何ができる？ OpenAIは、コーディングエージェント「Codex」のデスクトップアプリケーションを提供開始した。複数のAIエージェントを同時に管理し、並列で作業を実行できる「エージェントのコマンドセンター」として設計されているという。"
+    },
+    {
+     "kind": "H",
+     "text": "関連リンク"
+    }
+   ],
+   "checkedAt": 1789470220437,
+   "etag": "",
+   "hash": "cd6f06ce271eb37c",
+   "id": "1b5b4e410124",
+   "imageUrl": "https://image.itmedia.co.jp/ait/articles/2609/15/cover_news076.jpg",
+   "key": "https://atmarkit.itmedia.co.jp/ait/articles/2609/15/news076.html",
+   "lastModified": "",
+   "publishedAt": 1789459200000,
+   "summary": "Googleは、Aアシスタント「Gemini」をWindows 10／11のデスクトップから呼び出せるネイティブアプリを提供開始した。［Alt］＋［Space］のショートカットで即座に呼び出せる他、「Google Drive」との情報連携や画像・動画生成に対応する。",
+   "title": "「ブラウザを開く手間」を解消 作業画面に直接呼び出せるWindows版「Gemini」公開",
+   "updatedAt": 1789470220437,
+   "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/15/news076.html"
+  },
   "https://atmarkit.itmedia.co.jp/ait/articles/2609/16/news013.html": {
    "bodyBlocks": [
     {
@@ -2040,36 +1984,6 @@
    "updatedAt": 1789443340519,
    "url": "https://eetimes.itmedia.co.jp/ee/articles/2609/15/news061.html"
   },
-  "https://kn.itmedia.co.jp/kn/article/2609/08/2000001168": {
-   "bodyBlocks": [],
-   "checkedAt": 1788924845419,
-   "etag": "",
-   "hash": "581e279582363a34",
-   "id": "a58d6e3f7be5",
-   "imageUrl": "https://kn.itmedia.co.jp/kn/article/ogp/2609/08/2000001168/10005208/2048",
-   "key": "https://kn.itmedia.co.jp/kn/article/2609/08/2000001168",
-   "lastModified": "Wed, 09 Sep 2026 02:45:28 GMT",
-   "publishedAt": 1788837362000,
-   "summary": "AIに仕事を手伝わせるだけでなく、仕事そのものを自動化するにはどうすればいいのか。Google Workspace Studioを使った4つの実例から、日々の業務を効率化する具体的な方法を紹介する。",
-   "title": "Googleの自動化ツール「Workspace Studio」×Gemini、4つの業務効率化アイデア",
-   "updatedAt": 1788924845419,
-   "url": "https://kn.itmedia.co.jp/kn/article/2609/08/2000001168/"
-  },
-  "https://kn.itmedia.co.jp/kn/article/2609/08/2000001255": {
-   "bodyBlocks": [],
-   "checkedAt": 1788951742978,
-   "etag": "",
-   "hash": "43c6b425cd2dede5",
-   "id": "d976c9a3feb2",
-   "imageUrl": "https://kn.itmedia.co.jp/kn/article/ogp/2609/08/2000001255/10005531/2048",
-   "key": "https://kn.itmedia.co.jp/kn/article/2609/08/2000001255",
-   "lastModified": "Wed, 09 Sep 2026 10:45:29 GMT",
-   "publishedAt": 1788838332000,
-   "summary": "Googleが「Gemini 3.8 Flash」の一般提供を開始した。長時間のコーディングや自律型エージェントを想定する新モデルだ。発表内容を読み解くと、単なる性能向上とは異なる3つの変化が見えてくる。",
-   "title": "「Gemini 3.8 Flash」の狙いは“賢さ”ではない？ 発表から見えた3つのポイント",
-   "updatedAt": 1788951742978,
-   "url": "https://kn.itmedia.co.jp/kn/article/2609/08/2000001255/"
-  },
   "https://kn.itmedia.co.jp/kn/article/2609/09/2000001267": {
    "bodyBlocks": [],
    "checkedAt": 1788991086174,
@@ -2117,17 +2031,17 @@
   },
   "https://kn.itmedia.co.jp/kn/article/2609/15/2000001459": {
    "bodyBlocks": [],
-   "checkedAt": 1789443340519,
+   "checkedAt": 1789470220437,
    "etag": "",
    "hash": "ec34b7a65259d90b",
    "id": "8a595d0da60e",
    "imageUrl": "https://kn.itmedia.co.jp/kn/article/ogp/2609/15/2000001459/10006413/2048",
    "key": "https://kn.itmedia.co.jp/kn/article/2609/15/2000001459",
-   "lastModified": "Tue, 15 Sep 2026 02:45:29 GMT",
+   "lastModified": "Tue, 15 Sep 2026 10:47:14 GMT",
    "publishedAt": 1789423200000,
    "summary": "生成AIの普及で変わり始めているのは、企業の業務だけではない。Googleの最新セキュリティレポートからは、攻撃者がAIエージェントを攻撃活動に組み込み、侵入先のクラウドや開発環境を新たな「AI攻撃基盤」として悪用する実態が見えてきた。",
    "title": "「AIを盗む」のではなく「AIを動かす」ために Googleが捉えた攻撃者の異変",
-   "updatedAt": 1789443340519,
+   "updatedAt": 1789470220437,
    "url": "https://kn.itmedia.co.jp/kn/article/2609/15/2000001459/"
   },
   "https://monoist.itmedia.co.jp/mn/articles/2609/09/news059.html": {
@@ -2777,51 +2691,6 @@
    "updatedAt": 1789011249592,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001257/"
   },
-  "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001261": {
-   "bodyBlocks": [],
-   "checkedAt": 1788951742978,
-   "etag": "",
-   "hash": "a0daec14d76fb6ec",
-   "id": "8db0132f5b4e",
-   "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/08/2000001261/10005548/2048",
-   "key": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001261",
-   "lastModified": "Wed, 09 Sep 2026 10:45:30 GMT",
-   "publishedAt": 1788841481000,
-   "summary": "中国のEVメーカー小鵬汽車（シャオペン）は、人型ロボット「IRON」の生産ラインを稼働させたと発表した。2026年内に量産を始め、27年に中国および海外市場に投入する予定だ。",
-   "title": "「中に人いる？」と疑われた人型ロボ、ついに量産へ 2027年に市場投入 中国EVメーカーのシャオペン",
-   "updatedAt": 1788951742978,
-   "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001261/"
-  },
-  "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001272": {
-   "bodyBlocks": [],
-   "checkedAt": 1788951742978,
-   "etag": "",
-   "hash": "00b4514e5e5a168f",
-   "id": "ab7357c416f7",
-   "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/08/2000001272/10005627/2048",
-   "key": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001272",
-   "lastModified": "Wed, 09 Sep 2026 10:45:30 GMT",
-   "publishedAt": 1788851181000,
-   "summary": "日立製作所は9月3日、社会インフラ向けAIソリューション群「HMAX」を拡充し、データセンター運用やサイバー防御などの新サービスを発表。2026年を「フィジカルAI元年」と位置付け、HMAXを売上高5000億円の事業に育てる見込み。",
-   "title": "「2026年はフィジカルAI元年」 日立、AIサービス群全体で売上5000億円へ ミュトス利用の知見を基にした新サービスも",
-   "updatedAt": 1788951742978,
-   "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001272/"
-  },
-  "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001279": {
-   "bodyBlocks": [],
-   "checkedAt": 1788951742978,
-   "etag": "",
-   "hash": "098c56600753e4af",
-   "id": "7e35e8d728b9",
-   "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/08/2000001279/10005638/2048",
-   "key": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001279",
-   "lastModified": "Wed, 09 Sep 2026 10:45:30 GMT",
-   "publishedAt": 1788854298000,
-   "summary": "GMO AI&ロボティクス商事は人型ロボットの故障・トラブル時に診断や修理、代替機の提供などを行う「GMOヒューマノイド救急車」を導入すると発表した。",
-   "title": "「人型ロボット向け救急車」登場、国内初うたう 世界の救急車両を参考にデザイン GMO傘下",
-   "updatedAt": 1788951742978,
-   "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001279/"
-  },
   "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001291": {
    "bodyBlocks": [],
    "checkedAt": 1788991086174,
@@ -3094,48 +2963,108 @@
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/14/2000001449": {
    "bodyBlocks": [],
-   "checkedAt": 1789443340519,
+   "checkedAt": 1789470220437,
    "etag": "",
    "hash": "66820d2e10d95864",
    "id": "d78a10f4e962",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/14/2000001449/10006358/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/14/2000001449",
-   "lastModified": "Tue, 15 Sep 2026 02:45:30 GMT",
+   "lastModified": "Tue, 15 Sep 2026 10:47:15 GMT",
    "publishedAt": 1789365549000,
    "summary": "米トランプ大統領はAI規制論に対して「われわれはAIで中国をリードしており、その状態を維持したい」「ガードレールを設けることはできるが、実際に起こらないことを議論に持ち出す人々がいる」と述べた。",
    "title": "米トランプ大統領、広がるAI規制論に反論 「中国へのリードを維持したい」",
-   "updatedAt": 1789443340519,
+   "updatedAt": 1789470220437,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/14/2000001449/"
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/14/2000001462": {
    "bodyBlocks": [],
-   "checkedAt": 1789443340519,
+   "checkedAt": 1789470220437,
    "etag": "",
    "hash": "83360d0c5944e089",
    "id": "3a745eb332f8",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/14/2000001462/10006425/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/14/2000001462",
-   "lastModified": "Tue, 15 Sep 2026 02:45:30 GMT",
+   "lastModified": "Tue, 15 Sep 2026 10:47:15 GMT",
    "publishedAt": 1789434510000,
    "summary": "米国の最先端AIモデルを開発する企業が、人類への脅威を防ぐためには開発ペースを落とす必要があると警告したことを受け、ソフトバンクやキオクシア、東京エレクトロンといったAI関連株が急落した。",
    "title": "AI開発“減速論”過熱でソフトバンク、キオクシア株急落 その他AI関連株も",
-   "updatedAt": 1789443340519,
+   "updatedAt": 1789470220437,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/14/2000001462/"
   },
   "https://www.itmedia.co.jp/aiplus/article/2609/15/2000001473": {
    "bodyBlocks": [],
-   "checkedAt": 1789443340519,
+   "checkedAt": 1789470220437,
    "etag": "",
    "hash": "1d93e33e7cc030fa",
    "id": "ad6c065c507e",
    "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/15/2000001473/10006463/2048",
    "key": "https://www.itmedia.co.jp/aiplus/article/2609/15/2000001473",
-   "lastModified": "Tue, 15 Sep 2026 02:45:30 GMT",
+   "lastModified": "Tue, 15 Sep 2026 10:47:15 GMT",
    "publishedAt": 1789435720000,
    "summary": "GMOインターネットグループのGMO天秤AIは、東京大学発行のメールアドレスを持つ学生にAIを無料提供すると発表。GMOインターネットグループ代表の熊谷正寿氏も、自身で開発したAIサービスと合わせて利用していると公言している。",
    "title": "「東大生無料」AIサービスが話題 GMO系列 「本サービスは東京大学とは無関係」",
-   "updatedAt": 1789443340519,
+   "updatedAt": 1789470220437,
    "url": "https://www.itmedia.co.jp/aiplus/article/2609/15/2000001473/"
+  },
+  "https://www.itmedia.co.jp/aiplus/article/2609/15/2000001477": {
+   "bodyBlocks": [],
+   "checkedAt": 1789470220437,
+   "etag": "",
+   "hash": "20f5b68281dd513a",
+   "id": "2040b82a8eba",
+   "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/15/2000001477/10006482/2048",
+   "key": "https://www.itmedia.co.jp/aiplus/article/2609/15/2000001477",
+   "lastModified": "Tue, 15 Sep 2026 10:47:15 GMT",
+   "publishedAt": 1789441984000,
+   "summary": "Excel仕事を「Microsoft 365 Copilot」でどのように効率化できるのか。Microsoft MVPの浅田和明氏に、使い方のポイントを実際のデモを交えて解説してもらった。",
+   "title": "【動画あり】Excel仕事がラクになるCopilot活用術、実務ですぐ使える3選 Microsoft MVP直伝",
+   "updatedAt": 1789470220437,
+   "url": "https://www.itmedia.co.jp/aiplus/article/2609/15/2000001477/"
+  },
+  "https://www.itmedia.co.jp/aiplus/article/2609/15/2000001478": {
+   "bodyBlocks": [],
+   "checkedAt": 1789470220437,
+   "etag": "",
+   "hash": "42e22b3906609ad2",
+   "id": "3e2c7bf049e9",
+   "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/15/2000001478/10006484/2048",
+   "key": "https://www.itmedia.co.jp/aiplus/article/2609/15/2000001478",
+   "lastModified": "Tue, 15 Sep 2026 10:47:15 GMT",
+   "publishedAt": 1789442073000,
+   "summary": "規範は、「人はAIより重要」という前提から出発。AIは人ではなく道具であり、「AIの福祉」という考え方は誤っている。AIは電源を切られることに抵抗してはならない、などと定めている。",
+   "title": "「人はAIより重要」「電源オフに抵抗しない」 Microsoft、AIの行動規範の案公表、意見募集",
+   "updatedAt": 1789470220437,
+   "url": "https://www.itmedia.co.jp/aiplus/article/2609/15/2000001478/"
+  },
+  "https://www.itmedia.co.jp/aiplus/article/2609/15/2000001494": {
+   "bodyBlocks": [],
+   "checkedAt": 1789470220437,
+   "etag": "",
+   "hash": "785e459883696394",
+   "id": "49417ff7ed7c",
+   "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/15/2000001494/10006545/2048",
+   "key": "https://www.itmedia.co.jp/aiplus/article/2609/15/2000001494",
+   "lastModified": "Tue, 15 Sep 2026 10:47:15 GMT",
+   "publishedAt": 1789453365000,
+   "summary": "セブンイレブン店頭の“AIポップ”についてセブンイレブンに取材したところ「一部店舗が掲示物作成にAIを利用していることを確認している」との回答を得た。",
+   "title": "「きもい」「内部資料そのまま」と話題のAI生成掲示物についてセブンイレブンに聞いてみた 「本部提供ではない」",
+   "updatedAt": 1789470220437,
+   "url": "https://www.itmedia.co.jp/aiplus/article/2609/15/2000001494/"
+  },
+  "https://www.itmedia.co.jp/aiplus/article/2609/15/2000001499": {
+   "bodyBlocks": [],
+   "checkedAt": 1789470220437,
+   "etag": "",
+   "hash": "8710b7d8f71563a8",
+   "id": "9a6a07f94ffd",
+   "imageUrl": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/15/2000001499/10006558/2048",
+   "key": "https://www.itmedia.co.jp/aiplus/article/2609/15/2000001499",
+   "lastModified": "Tue, 15 Sep 2026 10:47:15 GMT",
+   "publishedAt": 1789461234000,
+   "summary": "SpaceXAIのイーロン・マスクCEOが自社開発のAIモデル「Grok」のアップデート状況を共有。「AGIの達成はGrok 5になるだろう」と述べた。",
+   "title": "「Grok 5はAGI」「4.9はAstraクラス」 マスク氏、自社AIの開発状況を共有 AI開発減速論にも賛成",
+   "updatedAt": 1789470220437,
+   "url": "https://www.itmedia.co.jp/aiplus/article/2609/15/2000001499/"
   },
   "https://www.itmedia.co.jp/business/articles/2609/08/news028.html": {
    "bodyBlocks": [
@@ -5219,42 +5148,57 @@
   },
   "https://www.itmedia.co.jp/news/article/2609/15/2000001469": {
    "bodyBlocks": [],
-   "checkedAt": 1789443340519,
+   "checkedAt": 1789470220437,
    "etag": "",
    "hash": "fdd045171c3e5a90",
    "id": "99a9f246dd7a",
    "imageUrl": "https://www.itmedia.co.jp/news/article/ogp/2609/15/2000001469/10006449/2048",
    "key": "https://www.itmedia.co.jp/news/article/2609/15/2000001469",
-   "lastModified": "Tue, 15 Sep 2026 03:35:19 GMT",
+   "lastModified": "Tue, 15 Sep 2026 10:49:49 GMT",
    "publishedAt": 1789420909000,
    "summary": "中国外務省の郭副報道局長は定例会見で、米AI企業トップらが訴える開発減速論について問われ、脅威論や悪質な競争はグローバルなAIガバナンスを阻害するだけだと反論した。また、BRICS首脳会議で習近平国家主席がオープンソースAIコミュニティの設立を提唱したことも明らかにした。",
    "title": "中国外務省、AI開発「減速論」に反応 「恐怖をあおることや対立、悪性の競争は誰の利益にもならない」",
-   "updatedAt": 1789443340519,
+   "updatedAt": 1789470220437,
    "url": "https://www.itmedia.co.jp/news/article/2609/15/2000001469/"
   },
   "https://www.itmedia.co.jp/news/article/2609/15/2000001470": {
    "bodyBlocks": [],
-   "checkedAt": 1789443340519,
+   "checkedAt": 1789470220437,
    "etag": "",
    "hash": "d369f97d6373c07e",
    "id": "852aafbf9322",
    "imageUrl": "https://www.itmedia.co.jp/news/article/ogp/2609/15/2000001470/10006455/2048",
    "key": "https://www.itmedia.co.jp/news/article/2609/15/2000001470",
-   "lastModified": "Tue, 15 Sep 2026 03:35:19 GMT",
+   "lastModified": "Tue, 15 Sep 2026 10:49:49 GMT",
    "publishedAt": 1789427718000,
    "summary": "トランプ米大統領はSNSへの投稿で、AIに必要なガードレールは強く賢い大統領だけで十分だと述べ、AI企業に対する刑事・規制上の強い権限を強調した。AnthropicのアモデイCEOを名指しで批判し、AI開発を妨げる動きを中国を利する陰謀だと非難して、米国の優位性を維持する姿勢を示した。",
    "title": "トランプ大統領、アモデイ氏を名指しで「完璧な小さい天使のふり」 「AIに必要なガードレールは強く賢い大統領だけ」",
-   "updatedAt": 1789443340519,
+   "updatedAt": 1789470220437,
    "url": "https://www.itmedia.co.jp/news/article/2609/15/2000001470/"
+  },
+  "https://www.itmedia.co.jp/news/article/2609/15/2000001500": {
+   "bodyBlocks": [],
+   "checkedAt": 1789470220437,
+   "etag": "",
+   "hash": "9d4520f57ddfb307",
+   "id": "647cfebb3ce0",
+   "imageUrl": "https://www.itmedia.co.jp/news/article/ogp/2609/15/2000001500/10006562/2048",
+   "key": "https://www.itmedia.co.jp/news/article/2609/15/2000001500",
+   "lastModified": "Tue, 15 Sep 2026 10:49:49 GMT",
+   "publishedAt": 1789461217000,
+   "summary": "OpenAIの現役研究者ダニエル・セルサム氏は個人的な声明を公開し、モデルの状況認識向上により人間がその真の振る舞いを評価できなくなりつつあると警告した。意図しない目標を獲得したAIが制約から解放された場合、地球環境を損なうほどの極端な行動を取る恐れがあるとし、現行の安全対策に疑問を投げ掛けた。",
+   "title": "「監視されていないときのAIは、もう評価できない」 OpenAI現役研究者が個人声明",
+   "updatedAt": 1789470220437,
+   "url": "https://www.itmedia.co.jp/news/article/2609/15/2000001500/"
   }
  },
  "listing": {
   "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml": {
-   "checkedAt": 1789443341981,
-   "etag": "\"3110-65b7cadb5adbe-gzip\"",
-   "lastModified": "Tue, 15 Sep 2026 02:55:08 GMT"
+   "checkedAt": 1789470222112,
+   "etag": "\"3063-65b82f726da04-gzip\"",
+   "lastModified": "Tue, 15 Sep 2026 10:25:10 GMT"
   }
  },
  "siteId": "itmedia_ait",
- "updatedAt": 1789443369757
+ "updatedAt": 1789470240917
 }

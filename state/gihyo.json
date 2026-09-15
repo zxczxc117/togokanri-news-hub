@@ -183,7 +183,7 @@
      "text": "linux-firmwareパッケージの細分化 （26. 04で取り込まれた 「linux-firmware-qualcomm-graphics」 などのような、 デバイスごとに細分化されたfirmwareパッケージ） が、 24. 04 LTSでも 利用できる ようになりました。特に大規模なインストール環境において、 システム更新に伴うネットワーク負荷を下げるために利用できるでしょう。"
     }
    ],
-   "checkedAt": 1789383505375,
+   "checkedAt": 1789470011329,
    "etag": "",
    "hash": "9d9e60bcc12d475c",
    "id": "2754d858a2fe",
@@ -193,7 +193,7 @@
    "publishedAt": 1789086360000,
    "summary": "stonkingのSnapshot 3が無事にリリースされています。",
    "title": "Ubuntu 26.10（stonking）の開発; Snapshot 3とinitrd肥大への対応、 germidiff、 壁紙の確定",
-   "updatedAt": 1789383505375,
+   "updatedAt": 1789470011329,
    "url": "https://gihyo.jp/admin/clip/01/ubuntu-topics/202609/11?utm_source=feed"
   },
   "https://gihyo.jp/admin/serial/01/ubuntu-recipe/0925": {
@@ -555,234 +555,6 @@
    "title": "第926回 UbuntuからYAMAHA RTX830に設定したIKEv2に接続する",
    "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/admin/serial/01/ubuntu-recipe/0926?utm_source=feed"
-  },
-  "https://gihyo.jp/article/2026/09/aaif-mcp-a2a-briefing": {
-   "bodyBlocks": [
-    {
-     "kind": "P",
-     "text": "Linux Foundation傘下のAgentic AI Foundation （AAIF） は2026年8月25日、日本の報道関係者を対象とするオンライン記者説明会を開催した。AAIF CTOのManik Surtani氏、AAIFエグゼクティブディレクターのMazin Gilbert氏、Linux Foundation日本担当バイスプレジデントの福安徳晃氏が登壇し、AIエージェントの特徴、オープン標準とオープンソースの役割、MCPのガバナンスとA2Aの現状、日本企業が持つデータの可能性を語った。"
-    },
-    {
-     "kind": "P",
-     "text": "あわせて、本番運用を見据えたAIエージェントの技術カンファレンス 「 AGNTCon + MCPCon Japan 2026 」 の開催も案内した。"
-    },
-    {
-     "kind": "H",
-     "text": "AIエージェントを特徴づける 「自律ループ」"
-    },
-    {
-     "kind": "P",
-     "text": "AAIF CTOのManik Surtani氏は、推論とツール利用を組み合わせた一連の処理に着目し、AIエージェントの特徴を説明した。"
-    },
-    {
-     "kind": "P",
-     "text": "以前のAIシステムでは、人間が処理の手順をあらかじめ定める必要があった。しかし現在の大規模言語モデル （LLM） は、明示的にプログラムされていない状況でも次の行動を推論し、APIの呼び出しやWeb検索、コードの作成・ 実行、外部システムとの連携まで行えるようになっている。"
-    },
-    {
-     "kind": "P",
-     "text": "こうした推論能力と外部システムを操作する能力を組み合わせることで、AIエージェントは、推論、計画、行動、観察・ 学習を繰り返す。Surtani氏は、この処理を 「自律ループ」 と呼んだ。タスクによっては数分から数時間にわたって動作し、サブエージェントへ権限や作業を委譲することもある。"
-    },
-    {
-     "kind": "P",
-     "text": "AIエージェントは、航空券の予約、メール送信、コード実行、送金など、現実に影響する操作も実行する。Surtani氏は、単発の応答を返すモデルとは異なり、長時間にわたって判断と行動を繰り返すため、誤りが生じた場合のリスクも大きいと述べている。"
-    },
-    {
-     "kind": "H",
-     "text": "「エージェントのインターネット」 を支える3つの条件"
-    },
-    {
-     "kind": "P",
-     "text": "続いてSurtani氏は、異なるベンダーや業界のエージェントが相互に接続し、タスクを委譲しながら動く将来像を 「エージェントのインターネット」 と表現した。"
-    },
-    {
-     "kind": "P",
-     "text": "このネットワークを成立させる条件として、誰でも実装できるオープンプロトコル、単一の管理主体から個別の許可を得なくても参加・ 拡張できるアーキテクチャ、特定企業に所有されない中立的なガバナンスの3点を挙げた。TCP/ IPやHTTP、HTMLなどのオープンプロトコルと、中立的な標準化団体がWebの拡大を支えたように、AIエージェントにもこの3つの条件を満たす基盤が必要になるとの考えを示した。"
-    },
-    {
-     "kind": "P",
-     "text": "オープン標準がなければ、エージェントとツール、データベース、外部サービスの組み合わせごとに個別の接続コードを開発・ 保守しなければならない。Surtani氏は、金融、医療、物流、行政などの重要な業務へAIエージェントの利用が広がるなか、その基盤を少数企業が所有・ 管理するリスクも挙げている。"
-    },
-    {
-     "kind": "H",
-     "text": "AIエコシステムの5層構造とAAIFの対象領域"
-    },
-    {
-     "kind": "P",
-     "text": "そのうえで、Surtani氏はAIの技術スタックを、ハードウェアインフラ、ソフトウェアインフラ、基盤モデルや推論を含むインテリジェンス、エージェントプラットフォーム、ユーザーアプリケーションの5層に整理した。"
-    },
-    {
-     "kind": "P",
-     "text": "第3層の動向として、Surtani氏は、効率化と価格低下によってかえって利用量が増える 「ジェボンズのパラドックス」 が、AIトークンでも起きていると説明した。発表資料では、API料金が90%下落してきた一方、トークン利用量は50倍に増えているとしている。低コスト化が、長時間の推論やマルチエージェントシステムといった新たな需要を広げているという。"
-    },
-    {
-     "kind": "P",
-     "text": "AAIFは、このうち第4層のエージェントプラットフォームを主な対象としている。第4層には、エージェントの開発・ 実行環境、プロトコル、データと知識、ガバナンスと制御、可観測性と信頼性、信頼と安全性が含まれる。Surtani氏は、代表的なプロトコルとしてMCPを取り上げ、その普及状況を示した。"
-    },
-    {
-     "kind": "P",
-     "text": "発表資料によると、2026年7月時点で、MCPの主要SDKの月間ダウンロード数は約5億回で、 PulseMCPのディレクトリ にはMCPサーバーの情報が2万2,000件以上掲載されていたとのこと。また、MCP関連の全GitHubリポジトリのスター数は、累計約19万1,000に達している。"
-    },
-    {
-     "kind": "H",
-     "text": "8カ月で会員数が5倍に⁠ 、 AAIFの活動とガバナンス"
-    },
-    {
-     "kind": "P",
-     "text": "次に、AAIFエグゼクティブディレクターのMazin Gilbert氏が、AAIFの活動と主なオープンソースプロジェクトを紹介した。"
-    },
-    {
-     "kind": "P",
-     "text": "2025年12月に設立されたAAIFは、8カ月で会員数が5倍の約250社に増えているとし、Gilbert氏はLinux Foundation史上最速の成長だと述べている。企業がAAIFへ参画する理由として、オープン標準の開発、オープンソースプロジェクト、業界連携、ガバナンスと管理、コミュニティとイベント、教育・ 認証によるエコシステムの成長という6つの活動領域を挙げた。"
-    },
-    {
-     "kind": "P",
-     "text": "AAIFの公式サイト では、MCPとA2Aのほか、AGENTS. md、goose、agentgatewayを、AAIFが支援する主なオープンソースプロジェクトと標準として公開している。"
-    },
-    {
-     "kind": "H",
-     "text": "MCPの技術判断はメンテナーが行う"
-    },
-    {
-     "kind": "P",
-     "text": "AAIFによると、MCPプロジェクト内のガバナンスはAAIFから独立している。仕様の策定・ 管理責任と仕様書の所有権は、引き続きMCPプロジェクト側にある。技術的な意思決定は、リードメンテナー、コアメンテナー、メンテナーで構成されるMCPプロジェクトのステアリンググループが行っている。仕様変更はすべて公開の提案プロセスを通じて行われ、誰でも内容を閲覧し、提案や貢献ができる。"
-    },
-    {
-     "kind": "P",
-     "text": "AAIFのガバニングボードは、AAIF全体の予算管理や戦略的な投資判断、会員拡大、新規プロジェクトの承認などを行う。MCPの仕様について投票したり、プロジェクト内の技術判断に関与したりすることはないが、AAIFとしては法務対応や商標管理、認証・ 適合性プログラム、イベントなど、技術判断以外の面からMCPを支援している。こうした活動により、MCPの技術的な独立性を保ちながら、その成長と普及を後押ししている。"
-    },
-    {
-     "kind": "H",
-     "text": "AAIFにおける 「プロジェクト」 と 「ワーキンググループ」 の違い"
-    },
-    {
-     "kind": "P",
-     "text": "AAIFでは、MCPとA2Aを 「ワーキンググループ」 ではなく 「プロジェクト」 と位置付けている。"
-    },
-    {
-     "kind": "P",
-     "text": "MCPやA2Aのようなプロジェクトでは、メンテナーやコントリビューターがオープンプロトコルやソフトウェアそのものを設計・ 開発する。AAIFのワーキンググループは、複数の企業や専門家が特定領域の共通課題に取り組むフォーラムとして活動する。"
-    },
-    {
-     "kind": "P",
-     "text": "AAIFでは、AIエージェントに関する次の8つの技術ワーキンググループが活動している。"
-    },
-    {
-     "kind": "LI",
-     "text": "アイデンティティと信頼"
-    },
-    {
-     "kind": "LI",
-     "text": "正確性と信頼性"
-    },
-    {
-     "kind": "LI",
-     "text": "ワークフローと統合"
-    },
-    {
-     "kind": "LI",
-     "text": "エージェント型商取引"
-    },
-    {
-     "kind": "LI",
-     "text": "分類と定義"
-    },
-    {
-     "kind": "LI",
-     "text": "セキュリティとプライバシー"
-    },
-    {
-     "kind": "LI",
-     "text": "可観測性と追跡可能性"
-    },
-    {
-     "kind": "LI",
-     "text": "ガバナンス、リスク、規制との整合性"
-    },
-    {
-     "kind": "P",
-     "text": "Gilbert氏は、このうちエージェント型商取引を取り上げ、エージェントが商品を見つけて決済するまでの仕組みだけでなく、誤りが起きた場合の責任の所在も議論していると説明した。"
-    },
-    {
-     "kind": "H",
-     "text": "A2Aは 「Growth」 段階⁠ 、 x402は決済を扱う別の取り組み"
-    },
-    {
-     "kind": "P",
-     "text": "Gilbert氏は、 A2A を、異なる組織や技術で構築されたAIエージェントが、相手の機能を把握し、安全に通信してタスクを委譲・ 引き継ぐためのプロトコルとして紹介した。AAIFによると、コマースは想定用途の一つにすぎず、A2Aはコマース専用のプロトコルではないという。"
-    },
-    {
-     "kind": "P",
-     "text": "A2Aのバージョン1. 0は2026年3月に公開された。150以上の組織が支持・ 参加し、Microsoft、Google、AWSなどの主要クラウド事業者でも採用や実装が進んでいる。AAIFが定めるプロジェクトの発展段階では 「Growth （成長⁠ ） ⁠」に位置し、基本的な枠組みを整えたうえで、メンテナーが新機能を追加し、企業利用に必要な信頼性、安定性、拡張性の向上に取り組んでいる。"
-    },
-    {
-     "kind": "P",
-     "text": "AIエージェント関連の決済プロトコルとしては、HTTP上の支払いを標準化するx402がある。x402を推進する x402 Foundation はLinux Foundation傘下だが、AAIFとは別の組織となる。A2Aとx402では、目的もガバナンスも異なるとのこと。"
-    },
-    {
-     "kind": "H",
-     "text": "「現場のデータ」 を生かす日本企業のAI戦略"
-    },
-    {
-     "kind": "P",
-     "text": "Linux Foundation日本担当バイスプレジデントの福安徳晃氏は、AIの技術スタックがオープン化・ 共通化するほど、企業の競争力の源泉は独自に保有するデータへ移るとの見方を示した。"
-    },
-    {
-     "kind": "P",
-     "text": "日本には製造業をはじめとする現場で蓄積された質の高いデータがあると、福安氏は指摘した。大規模モデルの開発で投資額を競うのではなく、小型モデルを各種システムと連携させ、自社データの価値を引き出すことが、日本企業にとって有力な戦略になり得るという。"
-    },
-    {
-     "kind": "P",
-     "text": "福安氏は、製品やサービスのコスト構造を 「Shared Cost」 「 ⁠Cost」 「 ⁠Value」 の3領域に分けて説明した。 「 ⁠Shared Cost」 は汎用品、 「 ⁠Cost」 は事業に必要だが直接の差別化にはなりにくい共通基盤、 「 ⁠Value」 は顧客が対価を支払う独自価値を指している。ここでエージェント間の接続プロトコルなどを、1社で抱え込まず、業界で共同開発すべき 「Cost」 の例として挙げた。"
-    },
-    {
-     "kind": "P",
-     "text": "ただし、こうしたオープン標準を採用するだけでは、標準と各社のデータ形式、セキュリティ要件、業務ルールとの間に隔たりが残る。この差を埋めるデータ基盤、ガバナンス体制、接続ツール、検証・ 監視の仕組みが、各社の戦略的な投資領域になるとのこと。"
-    },
-    {
-     "kind": "P",
-     "text": "福安氏は、日本企業が完成した標準を受け取るだけでなく、策定段階から関与することが重要だと述べ、自社が強みを持つデータや業務要件を国際標準へ早い段階から反映できれば、将来の移行コストを抑えられるとの考えを示した。"
-    },
-    {
-     "kind": "H",
-     "text": "「AGNTCon + MCPCon Japan 2026」 の主なプログラム"
-    },
-    {
-     "kind": "P",
-     "text": "AAIFは、9月10日、11日に東京・ 渋谷で 「AGNTCon + MCPCon Japan 2026」 を開催する。公式プログラムでは、Adobe、Anthropic、Google、IBM、Microsoft、Red Hatなどのグローバル企業に加え、日立製作所、ソフトバンク、NTTなど日本企業の担当者も登壇を予定している。2日間にわたり、9トラックで40以上のセッションが行われる。"
-    },
-    {
-     "kind": "P",
-     "text": "セッションでは、信頼性の高いエージェントシステムの設計、オープンなエージェントスタックの構築、本番投入前の評価手法などが扱われる。MCPConのトラックでは、認可とアイデンティティ管理、通信方式 （トランスポート⁠ ） ⁠、タスクの開始から完了までの管理、大規模なMCP基盤の運用を取り上げる。"
-    },
-    {
-     "kind": "LI",
-     "text": "名称： AGNTCon + MCPCon Japan 2026"
-    },
-    {
-     "kind": "LI",
-     "text": "日時： 2026年9月10日 （木⁠ ） ⁠～11日 （金）"
-    },
-    {
-     "kind": "LI",
-     "text": "会場： ベルサール渋谷ガーデン （東京都渋谷区）"
-    },
-    {
-     "kind": "LI",
-     "text": "詳細・ アジェンダ： 公式サイト"
-    }
-   ],
-   "checkedAt": 1789443121933,
-   "etag": "",
-   "hash": "c6a3bf8eede001d9",
-   "id": "af624432aadd",
-   "imageUrl": "https://gihyo.jp/assets/images/ICON/2026/3022_aaif-mcp-a2a-briefing.png",
-   "key": "https://gihyo.jp/article/2026/09/aaif-mcp-a2a-briefing",
-   "lastModified": "",
-   "publishedAt": 1788237000000,
-   "summary": "Linux Foundation傘下のAgentic AI Foundation（AAIF）は2026年8月25日、日本の報道関係者を対象とするオンライン記者説明会を開催した。",
-   "title": "AAIF、MCPのガバナンスとA2Aの現状、AIエージェントにオープン標準が必要な理由を説明 ——9月10・11日に「AGNTCon + MCPCon Japan 2026」を渋谷で開催",
-   "updatedAt": 1789443121933,
-   "url": "https://gihyo.jp/article/2026/09/aaif-mcp-a2a-briefing?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/agent-router": {
    "bodyBlocks": [
@@ -2684,42 +2456,6 @@
    "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/article/2026/09/cuda-rust?utm_source=feed"
   },
-  "https://gihyo.jp/article/2026/09/daily-linux-260901": {
-   "bodyBlocks": [
-    {
-     "kind": "P",
-     "text": "Linus Torvaldsは8月30日、次期Linuxカーネル 「Linux 7. 3」 の最初のリリース候補となる 「Linux 7. 3-rc1」 を公開した。Linusは 「⁠ （ ⁠Linux 7. 3-rc1は） とくに際立ったところはない ―規模が大きいという点を除けばね」 とコメントしており、かなりの大きなサイズのカーネルになることを示唆している。"
-    },
-    {
-     "kind": "P",
-     "text": "Linux 7. 3では 「AMD Zen 6」 「 ⁠AMD DCN 6」 など次世代ハードウェアへの対応が大きく前進しており、とくにAMD DCN 6に関しては 「膨大な量のレジスタヘッダが含まれており、AMD GPU関連のコードとヘッダのダンプだけでrc1パッチ全体の1/ 3を占める」 （ ⁠Linus） という。"
-    },
-    {
-     "kind": "P",
-     "text": "Intelの新世代GPUである 「Intel Xe3P」 のサポートも進んでおり、Xe3PのNova Lake統合グラフィクスはデフォルトで有効化されている。このほかファイルシステム関連ではBtrfsの内部処理最適化によるパフォーマンス改善や、最新のNTFSドライバによるWindowsシステム圧縮 （WOF） の読み取りサポート、F2FSでのマルチデバイスにおけるフラッシュの並列処理などのアップデートが実施されている。"
-    },
-    {
-     "kind": "P",
-     "text": "また、Linuxカーネルを含むオープンソースプロジェクト界隈で拡がりつつある “ ⁠AI/ LLMツールによる貢献⁠ ” を大筋で認める動きから、Linux 7. 3ではAIが発見したバグの修正がカーネル開発の “ ⁠量⁠ ” を大幅に押し上げることも予想されている。"
-    },
-    {
-     "kind": "P",
-     "text": "Linusは 「このリリース （Linux 7. 3） の残り期間が順調に進むことを願おう。規模が小さく、何事もなく終わることを」 とコメントしているが、その願いどおりに開発が順調に進めば、Linux 7. 3は10月中旬 （10月18日あるいは25日ごろ） にリリースされるとみられる。"
-    }
-   ],
-   "checkedAt": 1789443121933,
-   "etag": "",
-   "hash": "294392960cd3d1b3",
-   "id": "07ce3309a48f",
-   "imageUrl": "https://gihyo.jp/assets/images/ICON/2022/1897_linux_daily_new.png",
-   "key": "https://gihyo.jp/article/2026/09/daily-linux-260901",
-   "lastModified": "",
-   "publishedAt": 1788248160000,
-   "summary": "Linus Torvaldsは8月30日、次期Linuxカーネル「Linux 7.3」の最初のリリース候補となる「Linux 7.3-rc1」を公開した。",
-   "title": "Linux 7.3-rc1リリース、次世代ハードウェアのサポートが加速",
-   "updatedAt": 1789443121933,
-   "url": "https://gihyo.jp/article/2026/09/daily-linux-260901?utm_source=feed"
-  },
   "https://gihyo.jp/article/2026/09/daily-linux-260904": {
    "bodyBlocks": [
     {
@@ -3083,6 +2819,62 @@
    "title": "GitHub CLIに​-​-​​attachフラグ、コマンドラインからIssueやPull Requestへ画像・動画を添付可能に",
    "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/article/2026/09/github-cli-attach-flag?utm_source=feed"
+  },
+  "https://gihyo.jp/article/2026/09/github-copilot-auto-model-selection": {
+   "bodyBlocks": [
+    {
+     "kind": "P",
+     "text": "GitHubは2026年9月14日、GitHub Copilotのモデル自動選択機能 「Auto」 に、コスト・ 品質・ 応答時間の重視度を調整する3つの選択肢を追加したと発表した。Visual Studio Code （VS Code⁠ ） ⁠、Copilot CLI、GitHub Copilot アプリで順次展開している。"
+    },
+    {
+     "kind": "P",
+     "text": "使用するAIモデルの選択で 「Auto」 を選ぶと、タスクに応じてモデルが自動で選ばれる。利用料金はAutoが選んだモデルに基づいて計算され、有料プランでは10％引きになる。"
+    },
+    {
+     "kind": "P",
+     "text": "今回、Autoの設定として3つの選択肢 （ティア） が加わった。GitHubはそれぞれの特徴を次のように説明している。"
+    },
+    {
+     "kind": "LI",
+     "text": "Efficiency ：コストの低さを優先する。素早く処理したい単純なタスクに適している。"
+    },
+    {
+     "kind": "LI",
+     "text": "Balance ：コスト・ 品質・ 応答時間を総合的に考慮する。日常的な作業に適している。"
+    },
+    {
+     "kind": "LI",
+     "text": "Intelligence ：品質を優先する。複雑なタスクを想定している。"
+    },
+    {
+     "kind": "P",
+     "text": "どのティアを選んでも、各ツールで候補となるモデルは共通する。Autoはプロンプトを個別に評価し、選択したティアに応じたモデルを決める。既存の関数に説明文 （docstring） を追加するような単純な作業では、Intelligenceを選んでいても、小型で効率のよいモデルが使われる場合がある。"
+    },
+    {
+     "kind": "P",
+     "text": "ただし、VS CodeのCopilot Chat、Copilot CLI、GitHub Copilot アプリでは、候補となるモデルが一部異なる。 公式の対応モデル表 によると、2026年9月15日時点のモデル候補は次のとおり。"
+    },
+    {
+     "kind": "P",
+     "text": "GPT-5. 3-Codexは、ほかに利用できるモデルがない場合の代替として説明されている。対応モデルは今後変更される場合がある。"
+    },
+    {
+     "kind": "P",
+     "text": "GitHubのドキュメント によると、AutoはすべてのCopilotプランで利用できる。ただし、Autoが選ぶモデルは、契約プランと管理者のポリシーで利用が認められたものに限られる。また、Copilot cloud agentもAutoに対応するものの、今回の3つのティアの提供対象には含まれず、候補となるモデルも異なる。"
+    }
+   ],
+   "checkedAt": 1789470011329,
+   "etag": "",
+   "hash": "2ef93bb9d0624cc4",
+   "id": "bf06b2c5ed11",
+   "imageUrl": "https://gihyo.jp/assets/images/article/2026/09/github-copilot-auto-model-selection/01.png",
+   "key": "https://gihyo.jp/article/2026/09/github-copilot-auto-model-selection",
+   "lastModified": "",
+   "publishedAt": 1789456320000,
+   "summary": "GitHubは2026年9月14日、GitHub Copilotのモデル自動選択機能「Auto」に、コスト・品質・応答時間の重視度を調整する3つの選択肢を追加したと発表した。",
+   "title": "GitHub Copilot、モデル自動選択「Auto」に3つのティアを追加 ——コストと品質の重視度を調整可能に",
+   "updatedAt": 1789470011329,
+   "url": "https://gihyo.jp/article/2026/09/github-copilot-auto-model-selection?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/github-copilot-hydrafusion": {
    "bodyBlocks": [
@@ -3519,7 +3311,7 @@
      "text": "GPT-Live-1の音声部分の料金は1分当たり0. 05ドル。 ドキュメント によると、音声セッションの時間に応じて秒単位で課金され、バックエンドのモデルとツールの利用料は別途発生する。"
     }
    ],
-   "checkedAt": 1789383505375,
+   "checkedAt": 1789470011329,
    "etag": "",
    "hash": "7e2b6cf8909fbc19",
    "id": "6fd13c1e41cb",
@@ -3529,7 +3321,7 @@
    "publishedAt": 1789094580000,
    "summary": "OpenAIは9月10日、音声モデル「GPT-Live-1」のAPI提供を開始した。開発者は、発話中もユーザーの声を聞き取り、割り込みや依頼の変更に対応する音声エージェントを構築できる。",
    "title": "OpenAI、GPT-Live-1をAPIで提供開始 ——発話中の割り込みや依頼の変更に対応",
-   "updatedAt": 1789383505375,
+   "updatedAt": 1789470011329,
    "url": "https://gihyo.jp/article/2026/09/gpt-live-1-api?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/knap": {
@@ -4187,7 +3979,7 @@
      "text": "OpenAIは、利用を始める開発者向けに クイックスタート を公開している。ベータ期間中は開発者のフィードバックを基に改善を進め、一般提供を目指す。"
     }
    ],
-   "checkedAt": 1789383505375,
+   "checkedAt": 1789470011329,
    "etag": "",
    "hash": "352405cbe5f43938",
    "id": "a671bfa727be",
@@ -4197,7 +3989,7 @@
    "publishedAt": 1789090980000,
    "summary": "OpenAIは9月10日、クラウド上でAIエージェントを構築・実行する「Agents API」をパブリックベータとして公開した。Codexを支えるエージェントの実行基盤をAPI経由で提供し、モデルの呼び出しやツール利用の制御、長時間のセッション管理をOpenAIが引き受ける。",
    "title": "OpenAI、Agents APIをパブリックベータ公開 ——Codexの実行基盤でクラウドエージェントを構築",
-   "updatedAt": 1789383505375,
+   "updatedAt": 1789470011329,
    "url": "https://gihyo.jp/article/2026/09/openai-agents-api-public-beta?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/pnpm-12.4": {
@@ -4279,7 +4071,7 @@
      "text": "後続の 12. 4.1 では、AndroidでシステムのCA証明書が見つからずレジストリへの通信が失敗する不具合などを修正した。 nodeLinker: hoisted を使う環境で、再インストール時に既存のパッケージを取り込み直す問題にも対処している。"
     }
    ],
-   "checkedAt": 1789383505375,
+   "checkedAt": 1789470011329,
    "etag": "",
    "hash": "983344207333f858",
    "id": "a8aa16a6d033",
@@ -4289,7 +4081,7 @@
    "publishedAt": 1789363380000,
    "summary": "パッケージマネージャーpnpmのバージョン12.4が2026年9月8日にリリースされた。",
    "title": "pnpm 12.4リリース、RustとPythonの依存関係もまとめてインストール可能に",
-   "updatedAt": 1789383505375,
+   "updatedAt": 1789470011329,
    "url": "https://gihyo.jp/article/2026/09/pnpm-12.4?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/qwen3.8-max-0902": {
@@ -4395,7 +4187,7 @@
      "text": "Tamkun氏によると、複雑な依存関係を持つモジュール群を自動生成して新ローダーを検証し、Node. jsで実行した場合と出力が一致することを確認している。ECMAScriptの適合性テスト集test262ではモジュール関連の全テストを通過し、ブラウザー間の互換性を検証するWeb Platform Testsでも、それまで失敗していた多数のテストが通るようになったという。"
     }
    ],
-   "checkedAt": 1789383505375,
+   "checkedAt": 1789470011329,
    "etag": "",
    "hash": "3267e087e227c77a",
    "id": "1b9e938e6273",
@@ -4405,7 +4197,7 @@
    "publishedAt": 1789365060000,
    "summary": "WebKitは2026年9月2日、Safari 27でJavaScriptのtop-level awaitを仕様に完全準拠させたとする解説記事を公開した。",
    "title": "Safari 27、top-level awaitの不具合を修正、モジュールローダーを刷新",
-   "updatedAt": 1789383505375,
+   "updatedAt": 1789470011329,
    "url": "https://gihyo.jp/article/2026/09/safari-top-level-await?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/toward-agi-era": {
@@ -4619,11 +4411,11 @@
  },
  "listing": {
   "https://gihyo.jp/feed/rss2": {
-   "checkedAt": 1789443123386,
-   "etag": "W/\"6aa8b5a0-7c221\"",
-   "lastModified": "Tue, 15 Sep 2026 03:04:00 GMT"
+   "checkedAt": 1789470012611,
+   "etag": "W/\"6aa90a00-7c4aa\"",
+   "lastModified": "Tue, 15 Sep 2026 09:04:00 GMT"
   }
  },
  "siteId": "gihyo",
- "updatedAt": 1789443169594
+ "updatedAt": 1789470062008
 }
