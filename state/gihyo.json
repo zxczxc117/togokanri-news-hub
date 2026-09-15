@@ -95,7 +95,7 @@
      "text": "Canonicalに寄せられたサポート依頼のうち、 「 ⁠OpenStack環境が突然機能しなくなった」 （ ⁠実際には各種プロビジョニングやスケーリングができなくなった） という事案からの 復旧について 。ある日突然OpenStack環境が制御を失い （ただし実際の各種ワーカー、 つまりデータプレーン側は正常に動作していたことが診断の結果判明⁠ ） ⁠、 しかもバックアップは恐ろしく古いものしかなく、 レストアすると 「現状を反映していない」 コントロールプレーンが復活してしまう可能性があるという状態から制御性を確保しなおすまでの流れと、 「 ⁠適切なバックアップと診断が重要」 という教訓が示されています。"
     }
    ],
-   "checkedAt": 1789356692795,
+   "checkedAt": 1789443121933,
    "etag": "",
    "hash": "1d5a7103a61f6929",
    "id": "750260cfd48c",
@@ -105,7 +105,7 @@
    "publishedAt": 1788486900000,
    "summary": "Ubuntu 26.04の最初のポイントリリース、26.04.1がリリースされています。",
    "title": "Ubuntu 26.04.1のリリース、stonking（Ubuntu 26.10）の開発; MynaのプロトタイプとOpenSSL 4、Rustトランジション、“Multipass”によるクラウドシミュレーション",
-   "updatedAt": 1789356692795,
+   "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/admin/clip/01/ubuntu-topics/202609/04?utm_source=feed"
   },
   "https://gihyo.jp/admin/clip/01/ubuntu-topics/202609/11": {
@@ -371,7 +371,7 @@
      "text": "Orvaはまだ非常に新しいプロジェクトであり、本番用途に使うかどうかは、慎重に判断する必要があるでしょう。とはいえ 「この処理のためだけにコンテナを1個作るのは面倒だな」 と感じる場面では非常に有用な、なかなか興味深いソフトウェアだと言えそうです。"
     }
    ],
-   "checkedAt": 1789356692795,
+   "checkedAt": 1789443121933,
    "etag": "",
    "hash": "e69601caf7ad18b0",
    "id": "f0b4bd03ed66",
@@ -381,7 +381,7 @@
    "publishedAt": 1788307920000,
    "summary": "AWS Lambdaのようなサービスはクラウド上で動作します。「⁠同じようなものを自宅サーバーや社内サーバーで動かせたら便利なのに」と思うこともあるでしょう。そこで今回は、セルフホスト可能なFaaSであるOrvaをUbuntu上で動かしてみます。",
    "title": "第925回 UbuntuでセルフホストFaaS「Orva」を使ってみよう",
-   "updatedAt": 1789356692795,
+   "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/admin/serial/01/ubuntu-recipe/0925?utm_source=feed"
   },
   "https://gihyo.jp/admin/serial/01/ubuntu-recipe/0926": {
@@ -543,7 +543,7 @@
      "text": "自分の手の届かないところを掻くための猫の手としての生成AIに可能性を感じました。"
     }
    ],
-   "checkedAt": 1789356692795,
+   "checkedAt": 1789443121933,
    "etag": "",
    "hash": "d4e8d03a5c8f5f3e",
    "id": "77bafee0c977",
@@ -553,7 +553,7 @@
    "publishedAt": 1788911820000,
    "summary": "今回はUbuntuからYAMAHA RTX830に設定したIKEv2に接続する方法を紹介します。",
    "title": "第926回 UbuntuからYAMAHA RTX830に設定したIKEv2に接続する",
-   "updatedAt": 1789356692795,
+   "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/admin/serial/01/ubuntu-recipe/0926?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/aaif-mcp-a2a-briefing": {
@@ -771,7 +771,7 @@
      "text": "詳細・ アジェンダ： 公式サイト"
     }
    ],
-   "checkedAt": 1789356692795,
+   "checkedAt": 1789443121933,
    "etag": "",
    "hash": "c6a3bf8eede001d9",
    "id": "af624432aadd",
@@ -781,7 +781,7 @@
    "publishedAt": 1788237000000,
    "summary": "Linux Foundation傘下のAgentic AI Foundation（AAIF）は2026年8月25日、日本の報道関係者を対象とするオンライン記者説明会を開催した。",
    "title": "AAIF、MCPのガバナンスとA2Aの現状、AIエージェントにオープン標準が必要な理由を説明 ——9月10・11日に「AGNTCon + MCPCon Japan 2026」を渋谷で開催",
-   "updatedAt": 1789356692795,
+   "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/article/2026/09/aaif-mcp-a2a-briefing?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/agent-router": {
@@ -835,7 +835,7 @@
      "text": "9月10日、11日に東京で開催されている AGNTCon + MCPCon Japan 2026 でも、AAIFのExecutive Directorを務めるMazin Gilbert氏がキーノート内でAgent Routerの参加を紹介した。"
     }
    ],
-   "checkedAt": 1789356692795,
+   "checkedAt": 1789443121933,
    "etag": "",
    "hash": "e10849aa5691c2fb",
    "id": "1bbe250c36d1",
@@ -845,7 +845,7 @@
    "publishedAt": 1789028340000,
    "summary": "Agentic AI Foundation（AAIF）は9月9日、オープンソースのAIゲートウェイ「Agent Router」（旧称：Envoy AI Gateway）の参加を発表した。",
    "title": "AAIF、Agent Routerの参加を発表 ——AIモデルとMCPツールへの接続を仲介するOSS",
-   "updatedAt": 1789356692795,
+   "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/article/2026/09/agent-router?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/ai-agent-platform-hidden-costs-01": {
@@ -975,7 +975,7 @@
      "text": "今回は、規制の厳しい業界でAIエージェントの断片化がなぜ起きるのか、そしてその難しさがオーケストレーションの層に潜んでいることを見てきました。個々のツール選びは、単独では合理的でも、積み重なれば統制の効かない乱立を招きます。これは、DevOpsが普及した時代に業界が一度通った道でもあります。後編では、この状況を踏まえて、 「 ⁠自社構築か、製品導入か」 を見極めるための3つの問いと、統合されたプラットフォームが実際に何をもたらすのかを解説します。"
     }
    ],
-   "checkedAt": 1789356692795,
+   "checkedAt": 1789443121933,
    "etag": "",
    "hash": "060491c7608c8e70",
    "id": "961a8e33cf46",
@@ -985,7 +985,7 @@
    "publishedAt": 1788394080000,
    "summary": "今回は前後編にわたり、金融や保険をはじめとする規制の厳しい業界の企業が、AIエージェントを導入するときに必ず突き当たる「自社で構築するか、製品を導入するか」という選択を取り上げます。前編では、なぜ社内でツールの断片化が進むのか、そしてAIエージェントの難しさがどこに潜んでいるのかを解説します。",
    "title": "AIエージェントプラットフォームに潜む見えないコスト［前編］",
-   "updatedAt": 1789356692795,
+   "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/article/2026/09/ai-agent-platform-hidden-costs-01?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/ai-agent-platform-hidden-costs-02": {
@@ -1119,7 +1119,7 @@
      "text": "前後編にわたり、規制の厳しい業界における 「自社構築か、製品導入か」 という選択について考えてきました。自社構築が報われるのは、要件が本当に自社固有で、規制対応をすべて背負う覚悟があり、長い時間軸を許容できる場合に限られます。多くの企業にとっては、統合されたプラットフォームを選ぶほうが、費用の面でも、規制対応の面でも、成果が出るまでの速さの面でも、現実的な答えになるはずです。肝心なのは、個別のツールを一つずつ選ぶことを続ける前に、早い段階でプラットフォームに一本化すると決め、収拾のつかない乱立を未然に防ぐことです。AIエージェントの導入にあたっても、DevOpsが普及した時代に学んだのと同じ規律が、私たちに問われています。"
     }
    ],
-   "checkedAt": 1789356692795,
+   "checkedAt": 1789443121933,
    "etag": "",
    "hash": "f7a60bf2614d1d8b",
    "id": "936703ff449e",
@@ -1129,7 +1129,7 @@
    "publishedAt": 1788999360000,
    "summary": "前編では、金融や保険をはじめとする規制の厳しい業界で、AIエージェントの断片化がなぜ起きるのか、そしてその難しさがオーケストレーションの層に潜んでいることを見てきました。後編では、判断の軸となる3つの問いと、規制の厳しい業界で使うプラットフォームに欠かせない要件を取り上げます。",
    "title": "AIエージェントプラットフォームに潜む見えないコスト［後編］",
-   "updatedAt": 1789356692795,
+   "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/article/2026/09/ai-agent-platform-hidden-costs-02?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/android-weekly-topics-260903": {
@@ -1227,7 +1227,7 @@
      "text": "2027年2月の適用開始に向けて、自社アプリのプロファイリングを今すぐ始め、問題のあるアセットやリーク箇所を解消していく姿勢が求められます。単なる規律の遵守にとどまらず、あらゆるユーザに軽快な操作感を提供する高品質なアプリへのアップデートを目指してください。"
     }
    ],
-   "checkedAt": 1789356692795,
+   "checkedAt": 1789443121933,
    "etag": "",
    "hash": "720ca8f12028a60d",
    "id": "c139f9e8ae67",
@@ -1237,7 +1237,7 @@
    "publishedAt": 1788394080000,
    "summary": "Googleがアプリに対して新しい品質要件を発表しました。今回追加された基準の中でもとくに開発者に大きな影響を与える要素が、動的メモリ使用量やビットマップ消費量に関する厳しい閾値の設定です。",
    "title": "Googleがアプリへの品質要件を刷新、メモリ削減義務化の詳細と対策",
-   "updatedAt": 1789356692795,
+   "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/article/2026/09/android-weekly-topics-260903?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/android-weekly-topics-260910": {
@@ -1343,7 +1343,7 @@
      "text": "今後の市場で端末を選ぶ際は、価格の数値だけでなく、RAM容量やディスプレイ、カメラ構成などに微細な調整が入っていないかを見極める視点が欠かせません。新品の最新モデルのみを追求するのではなく、型落ちのハイエンド機やリユース品を含めた幅広い選択肢から、自身の用途に見合った1台を探す姿勢がより重要になります。"
     }
    ],
-   "checkedAt": 1789356692795,
+   "checkedAt": 1789443121933,
    "etag": "",
    "hash": "cdc2bc344f256b89",
    "id": "1d1a782619c0",
@@ -1353,7 +1353,7 @@
    "publishedAt": 1788999300000,
    "summary": "Googleがアプリに対して新しい品質要件を発表しました。今回追加された基準の中でもとくに開発者に大きな影響を与える要素が、動的メモリ使用量やビットマップ消費量に関する厳しい閾値の設定です。",
    "title": "Qualcommのチップ値上げ波紋はスペック調整とリユース品の拡大か？",
-   "updatedAt": 1789356692795,
+   "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/article/2026/09/android-weekly-topics-260910?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/blender-basics-85": {
@@ -1451,7 +1451,7 @@
      "text": "今回は、スカルプトモードでの操作方法を見ていきました。次回は、スカルプトモードを使っていると知らず知らずのうちに増えていくメッシュの整理する方法などを見ていく予定です。次回も読んでくださると嬉しいです！"
     }
    ],
-   "checkedAt": 1789356692795,
+   "checkedAt": 1789443121933,
    "etag": "",
    "hash": "2da87e11b99cdbe9",
    "id": "2f83ae6c3a13",
@@ -1461,7 +1461,7 @@
    "publishedAt": 1789345920000,
    "summary": "第85回目は、Blenderに用意されているスカルプトモードの実際の操作方法について見ていきます。",
    "title": "Blenderのスカルプトモードの操作方法を知ろう 〜ブラシの設定や便利なマスク機能など〜",
-   "updatedAt": 1789356692795,
+   "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/article/2026/09/blender-basics-85?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/chatgpt-images-2.5": {
@@ -1531,7 +1531,7 @@
      "text": "APIで指定するモデルIDは、それぞれ gpt-image-2. 5-flare と gpt-image-2. 5-sunburst 。利用方法は 画像生成ガイド 、料金は API料金ページ で案内している。"
     }
    ],
-   "checkedAt": 1789356692795,
+   "checkedAt": 1789443121933,
    "etag": "",
    "hash": "a79a75327c3f0e77",
    "id": "67d8e0744827",
@@ -1541,7 +1541,7 @@
    "publishedAt": 1788920700000,
    "summary": "OpenAIは2026年9月8日、画像生成・編集モデル「ChatGPT Images 2.5」を発表した。",
    "title": "OpenAI、「ChatGPT Images 2.5」を発表 ——画像生成を高速化、画像への直接コメントにも対応",
-   "updatedAt": 1789356692795,
+   "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/article/2026/09/chatgpt-images-2.5?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/chatgpt-learning-writing-style": {
@@ -1563,7 +1563,7 @@
      "text": "この機能の利用を開始するにはWebでChatGPT Workを開き左メニューの 「設定⁠ 」 ⁠→ 「 ⁠パーソナライズ⁠ 」 ⁠ → 「 ⁠文章スタイルをセットアップ」 を選ぶか、直接 https:// chatgpt. com/?surface=work&writing_ style=setup にアクセスする。"
     }
    ],
-   "checkedAt": 1789356692795,
+   "checkedAt": 1789443121933,
    "etag": "",
    "hash": "e2c56698fc38c848",
    "id": "bca224d0ff90",
@@ -1573,7 +1573,7 @@
    "publishedAt": 1788828660000,
    "summary": "OpenAIは2026年9月8日、ChatGPT Workを日常使うアプリと連携させることでユーザーの文章スタイルを学習し、文章作成内容に反映させる機能を装備したことを発表した。",
    "title": "ChatGPT Workにユーザーの書く文章スタイルを学習して文書作成に反映させる機能が追加",
-   "updatedAt": 1789356692795,
+   "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/article/2026/09/chatgpt-learning-writing-style?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/chatgpt-work-data-agent": {
@@ -1719,7 +1719,7 @@
      "text": "組織のワークスペース管理者は 「Workspace settings > Plugins」 で、Dataを利用できるロールやグループを指定し、あらかじめインストールしておくこともできる。接続先のプラグインやアプリの設定に加え、接続先ごとの利用を許可するロールも管理する。データへの問い合わせには接続したアカウントの既存権限が適用され、テーブル・ 行・ 列単位の制限も引き継がれる。"
     }
    ],
-   "checkedAt": 1789356692795,
+   "checkedAt": 1789443121933,
    "etag": "",
    "hash": "5b2db147e1efe7fd",
    "id": "454edfa5b306",
@@ -1729,7 +1729,7 @@
    "publishedAt": 1789114860000,
    "summary": "OpenAIは2026年9月10日、ChatGPT Workの「Dataエージェント」の機能と活用事例を紹介した。利用者はChatGPT Workに「Data」プラグインを追加することで、社内データについて自然言語で質問し、分析結果やインタラクティブなダッシュボードを得られるようになる。",
    "title": "OpenAI、ChatGPT WorkのDataエージェントを紹介 ——自然言語で企業データを分析、ダッシュボードも作成",
-   "updatedAt": 1789356692795,
+   "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/article/2026/09/chatgpt-work-data-agent?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/chrome-two-week-release-cycle": {
@@ -1783,7 +1783,7 @@
      "text": "Safariは近年、iOSなどの大型更新にあわせて9月頃にメジャーバージョンを公開し、その後も年間を通じて機能更新を提供している （次期バージョンのSafari 27は、6月のWWDC26で ベータ版 が公開された⁠ ） ⁠。なお、最新のWebKitを先行して試せる開発者向けの Safari Technology Preview は、数週間ごとに更新されている。"
     }
    ],
-   "checkedAt": 1789356692795,
+   "checkedAt": 1789443121933,
    "etag": "",
    "hash": "186b7bfb2934a86a",
    "id": "cbd158f2a760",
@@ -1793,212 +1793,8 @@
    "publishedAt": 1788946620000,
    "summary": "Googleは9月8日、WebブラウザーChrome 153（安定版）を公開し、リリース周期を4週間から2週間へ短縮した。",
    "title": "Chrome、バージョン153を公開。2週間ごとのリリースに移行 ——EdgeとFirefoxもすでに2週間周期に",
-   "updatedAt": 1789356692795,
+   "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/article/2026/09/chrome-two-week-release-cycle?utm_source=feed"
-  },
-  "https://gihyo.jp/article/2026/09/claude-code-ai-driven-development-01": {
-   "bodyBlocks": [
-    {
-     "kind": "P",
-     "text": "Claude Codeは、CLI上で動くLLMによるAI開発支援ツールです。本連載は全4回を予定しています。実務経験1～3年程度のエンジニア向けに、対話モードでの会話の基本、コンテキストと＠記法、スラッシュコマンドとパーミッションの基本を解説し、最後に学んだ知識を総動員してアプリ開発をハンズオンで体験します。なお本連載は2026年9月刊行予定の 『 Claude Codeで作って学ぶ AI駆動アプリ開発入門 』 から一部、抜粋・ 編集してお届けします。"
-    },
-    {
-     "kind": "P",
-     "text": "第1回目は、Claude Codeで指示を出すための対話モードの使いこなし方を解説します。複数行入力やキーボードショートカットなど、対話をもっと快適にする操作テクニックを身につけていきましょう。"
-    },
-    {
-     "kind": "H",
-     "text": "テキスト入力をマスターしよう"
-    },
-    {
-     "kind": "P",
-     "text": "Claude Codeでは、1行の入力だけでなく複数行を一度に入力する方法も用意されています。"
-    },
-    {
-     "kind": "H",
-     "text": "単一行の入力と送信"
-    },
-    {
-     "kind": "P",
-     "text": "第2章で体験したとおり、テキストを入力してEnterキーを押すのが対話モードの基本操作です。短い質問や簡単な指示であれば、この操作だけで十分やり取りできます。"
-    },
-    {
-     "kind": "H",
-     "text": "複数行入力の方法"
-    },
-    {
-     "kind": "P",
-     "text": "短い指示であれば単一行の入力で十分ですが、実際の開発では1行に収まらない指示をしたくなる場面が出てきます。こうした状況のために、Claude Codeは複数行を一度に入力するいくつかの方法を用意していますので、それぞれ見ていきましょう。"
-    },
-    {
-     "kind": "H",
-     "text": "方法1⁠ ： \\ （バックスラッシュ） ＋ Enter （おすすめ）"
-    },
-    {
-     "kind": "P",
-     "text": "行末に \\ （バックスラッシュ） を入力してからEnterキーを押すと、送信されずに改行されます。"
-    },
-    {
-     "kind": "P",
-     "text": "この方法はどの環境でも確実に使えます。最初に覚えるなら、この方法がおすすめです。"
-    },
-    {
-     "kind": "H",
-     "text": "方法2⁠ ： Shift+Enter"
-    },
-    {
-     "kind": "P",
-     "text": "多くのチャットアプリでおなじみのShift+Enterも使えます。ただし、一部のターミナルでは /terminal-setup コマンドによる設定が必要です。"
-    },
-    {
-     "kind": "P",
-     "text": "Shift+Enterの対応状況は環境によって異なります [1] 。このコマンドは設定が必要な環境向けに用意されており、設定不要な環境ではコマンド自体が表示されません。"
-    },
-    {
-     "kind": "H",
-     "text": "方法3⁠ ： Option+Enter （Mac）"
-    },
-    {
-     "kind": "P",
-     "text": "Mac環境では、Option+Enterでも改行できます。iTerm2のターミナルであれば 「Settings⁠ 」 ⁠→ 「 ⁠Profiles⁠ 」 ⁠→ 「 ⁠Keys」 でLeft/ Right Option keyを 「Esc+」 に変更し、macOS標準のTerminal. appであれば 「Settings⁠ 」 ⁠→ 「 ⁠Profiles⁠ 」 ⁠→ 「 ⁠Keyboard」 で 「Use Option as Meta Key」 をオンにしてください。"
-    },
-    {
-     "kind": "H",
-     "text": "その他の方法⁠ ： テキストをペーストする"
-    },
-    {
-     "kind": "P",
-     "text": "別のテキストエディタやメモアプリで複数行のテキストを書いておき、コピー＆ペーストで入力欄に貼り付けることもできます。長い指示やコードブロック、ログを事前に整理してからペーストしたい場面で便利です。Claude Codeの対話モードの中で長文を直接入力していると、誤ってEnterキーを押してしまうこともありますので、あらかじめテキストを整理しておくと安心です。"
-    },
-    {
-     "kind": "H",
-     "text": "入力のキャンセルと編集を覚えよう"
-    },
-    {
-     "kind": "P",
-     "text": "テキスト入力の方法がわかったところで、次は入力ミスへの対処方法を覚えましょう。長い指示を入力している途中でやっぱりやめたい、さっき送った指示を少し修正したい、といった場面は日常的に発生します。キャンセルと編集の操作を覚えておくと、入力をゼロからやり直す手間がなくなります。"
-    },
-    {
-     "kind": "H",
-     "text": "入力中のテキストをクリアする"
-    },
-    {
-     "kind": "P",
-     "text": "複数行の長い指示を書いている途中で方針を変更したくなったときは、Ctrl+Uを押してください。入力中のテキストがすべてクリアされ、空の入力欄に戻ります。クリアしたテキストはCtrl+Yで貼り戻せるため、 「 ⁠いったんクリアして別の指示を送り、そのあと元の指示を呼び戻して続きを書く」 といった使い方ができます。"
-    },
-    {
-     "kind": "H",
-     "text": "上矢印キーでメッセージを編集する"
-    },
-    {
-     "kind": "P",
-     "text": "送信済みのメッセージを少し直して送り直したいときは、上矢印キー （↑） を押してください。直前に送った内容が入力欄に呼び出されます。繰り返し押すことで、さらに前のメッセージも順にたどれます。"
-    },
-    {
-     "kind": "P",
-     "text": "例えば、 「 ⁠TODOアプリにカテゴリ機能を追加して」 と送信した直後に、優先度機能を先に実装すべきだったと気づいたとしましょう。そのときは一度Ctrl+Cで処理を中断し、上矢印キーを押して内容を修正してから送り直すことができます。"
-    },
-    {
-     "kind": "H",
-     "text": "Ctrl+C と Ctrl+D の挙動の違い"
-    },
-    {
-     "kind": "P",
-     "text": "Claude Codeが何かを処理しているときや、対話モードを終了したいときに使うキーが複数あります。ポイントは、Ctrl+Cの挙動がClaude Codeの処理中かどうかで変わることです。以下の表で違いを整理しておきましょう。"
-    },
-    {
-     "kind": "P",
-     "text": "なお、Claude Codeが長い回答を生成しているときに処理を中断したい場合は、Ctrl+Cで止められます。処理が止まるだけで、対話モード自体は終了しません。"
-    },
-    {
-     "kind": "P",
-     "text": "対話モードを終了したいときはCtrl+Dを押してください。一度だけ押すと、以下のようなメッセージが表示されます。"
-    },
-    {
-     "kind": "P",
-     "text": "もう一度 Ctrl+Dを押すと、対話モードが終了して通常のターミナルに戻ります。なお、入力待ちの状態で Ctrl+Cを2回押しても同様に終了できますが、 「 ⁠中断はCtrl+C、終了はCtrl+D」 と覚えておくとわかりやすいです。"
-    },
-    {
-     "kind": "H",
-     "text": "確認動作の仕組みを知っておこう"
-    },
-    {
-     "kind": "P",
-     "text": "指示を送信すると、Claude Codeはファイルの作成やコマンドの実行に取りかかります。ただし、すべてが自動で進むわけではなく、実行前に 「本当に実行していいですか？」 という確認画面が表示されることがあります。この確認動作は、 「 ⁠承認モード」 という仕組みで管理されています。"
-    },
-    {
-     "kind": "P",
-     "text": "Shift+Tabキーを押すと、承認モードを順に切り替えられます。通常は変更前に確認を求める 「Manualモード」 ですが [2] 、また、操作の安全性をClaude Codeが自動で判定して承認・ ブロックを振り分ける 「auto mode」 にも切り替えられます。Auto-Acceptモードはセクション3. 6のハンズオンで実践します。"
-    },
-    {
-     "kind": "P",
-     "text": "以下は、一度だけShift+Tabキーを押したときの表示です。 「 ⁠accept edits on」 という表記が、Auto-Acceptモードに切り替わったことを示しています。"
-    },
-    {
-     "kind": "P",
-     "text": "さらにもう一度Shift+Tabキーを押すと、Planモードに切り替わります。 「 ⁠plan mode on」 という表記が、Planモードに切り替わったことを示しています。"
-    },
-    {
-     "kind": "P",
-     "text": "Planモードからもう一度 Shift+Tabキーを押すと、auto modeに切り替わります。Claude Codeが各操作の安全性を自動で判定し、ファイル編集などの安全な操作は自動で承認、破壊的な操作など危険性の高い操作は自動でブロックするモードです。 「 ⁠auto mode on」 という表記が、auto modeに切り替わったことを示しています。"
-    },
-    {
-     "kind": "H",
-     "text": "キーボードショートカットを使いこなそう"
-    },
-    {
-     "kind": "P",
-     "text": "Claude Codeでは指示と確認の繰り返しが何十回にもなるため、ショートカットで1つひとつの操作を速くできると、開発全体のテンポが良くなります。対話モードで使えるキーボードショートカットを整理しておきましょう。"
-    },
-    {
-     "kind": "H",
-     "text": "ショートカット一覧"
-    },
-    {
-     "kind": "P",
-     "text": "このセクションで登場したショートカットと、まだ紹介していないものを一覧にまとめました。すべてを一度に覚える必要はなく、必要なときにこの表を参照してください。"
-    },
-    {
-     "kind": "H",
-     "text": "Tab補完を活用する"
-    },
-    {
-     "kind": "P",
-     "text": "ショートカット一覧に含まれるTab補完も、日常的に活躍する機能です。スラッシュコマンドの入力時に特に便利で、Tab補完の使い方はセクション3. 4で詳しく紹介します [3] 。"
-    },
-    {
-     "kind": "H",
-     "text": "? キーで一覧を確認する"
-    },
-    {
-     "kind": "P",
-     "text": "どのショートカットが使えるか迷ったときは、? キーを押してください。利用可能なキーボードショートカットの一覧が表示されます。"
-    },
-    {
-     "kind": "H",
-     "text": "まとめ"
-    },
-    {
-     "kind": "P",
-     "text": "複数行入力では \\ + Enterが環境を問わず確実に使えます。入力のキャンセルにはCtrl+U、直前のメッセージの編集には上矢印キーを使いましょう。"
-    },
-    {
-     "kind": "P",
-     "text": "承認モードはShift+Tabで切り替えられ、ショートカットを忘れたら？ キーで一覧を確認してください。"
-    }
-   ],
-   "checkedAt": 1789356692795,
-   "etag": "",
-   "hash": "8b35511b6063bf6d",
-   "id": "7985cfefcc72",
-   "imageUrl": "https://gihyo.jp/assets/images/article/2026/09/claude-code-ai-driven-development-01/3-1-shortcuts-list-by-question-mark.png",
-   "key": "https://gihyo.jp/article/2026/09/claude-code-ai-driven-development-01",
-   "lastModified": "",
-   "publishedAt": 1788220920000,
-   "summary": "本連載は2026年9月刊行予定の『Claude Codeで作って学ぶ AI駆動アプリ開発入門』から一部、抜粋・編集してお届けします。第1回目は、Claude Codeで指示を出すための対話モードの使いこなし方を解説します。複数行入力やキーボードショートカットなど、対話をもっと快適にする操作テクニックを身につけていきましょう。",
-   "title": "Claude Codeの対話モードで会話を始めてみよう",
-   "updatedAt": 1789356692795,
-   "url": "https://gihyo.jp/article/2026/09/claude-code-ai-driven-development-01?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/claude-code-ai-driven-development-02": {
    "bodyBlocks": [
@@ -2303,7 +2099,7 @@
      "text": "次回は、Claude Codeの対話モード内の操作や設定を行う 「スラッシュコマンド」 を紹介します。"
     }
    ],
-   "checkedAt": 1789356692795,
+   "checkedAt": 1789443121933,
    "etag": "",
    "hash": "02fc1146a9cdf130",
    "id": "9619613e0d8d",
@@ -2313,8 +2109,228 @@
    "publishedAt": 1788825960000,
    "summary": "本連載は2026年9月刊行予定の『Claude Codeで作って学ぶ AI駆動アプリ開発入門』から一部、抜粋・編集してお届けします。第2回目は、Claude Codeが情報を扱う仕組みである「コンテキスト」を説明した後、Claude Codeに指定したファイルを読み込ませる「@記法」について説明します。",
    "title": "Claude Codeの「コンテキスト」の仕組みとファイルの読み込ませ方を知ろう",
-   "updatedAt": 1789356692795,
+   "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/article/2026/09/claude-code-ai-driven-development-02?utm_source=feed"
+  },
+  "https://gihyo.jp/article/2026/09/claude-code-ai-driven-development-03": {
+   "bodyBlocks": [
+    {
+     "kind": "P",
+     "text": "Claude Codeは、CLI上で動くLLMによるAI開発支援ツールです。本連載は全5回を予定しています。実務経験1～3年程度のエンジニア向けに、対話モードでの会話の基本、コンテキストと＠記法、スラッシュコマンドとパーミッションの基本を解説し、最後に学んだ知識を総動員してアプリ開発をハンズオンで体験します。なお本連載は2026年9月刊行の 『 Claude Codeで作って学ぶ AI駆動アプリ開発入門 』 から一部、抜粋・ 編集してお届けします。"
+    },
+    {
+     "kind": "P",
+     "text": "第3回目は、Claude Codeの対話モード内で使用する 「スラッシュコマンド」 の基本とよく使うコマンドを解説します。"
+    },
+    {
+     "kind": "H",
+     "text": "スラッシュコマンドとは"
+    },
+    {
+     "kind": "P",
+     "text": "ここからは、対話の流れそのものを操作する スラッシュコマンド について学んでいきましょう。スラッシュコマンドとは、対話モード内で / から始まるコマンドを入力して使う機能です。"
+    },
+    {
+     "kind": "P",
+     "text": "本書の第2章で紹介した claude や claude -c はターミナルで実行するシェルコマンドでした。Claude Codeの起動や、直前のセッションの再開に使うものです。一方、スラッシュコマンドは Claude Codeの対話モード内 で使います。コンテキストの確認、会話のリセット、モデルの切り替えなど、対話モード内の操作や設定を行うためのコマンドです。"
+    },
+    {
+     "kind": "P",
+     "text": "スラッシュコマンドは数十種類用意されていますが、すべてを覚える必要はありません。ここでは日常的に使うものを4つのカテゴリに分けて紹介します。残りのコマンドは/helpやTab補完で探せるので、必要なときに見つけられれば十分です。"
+    },
+    {
+     "kind": "H",
+     "text": "コンテキスト管理のコマンドを覚えよう"
+    },
+    {
+     "kind": "P",
+     "text": "連載の 第2回 で詳しく解説した、コンテキストウィンドウを管理するための3つのコマンドです。ここでは一覧として確認しておきましょう。"
+    },
+    {
+     "kind": "H",
+     "text": "セッション管理のコマンドを覚えよう"
+    },
+    {
+     "kind": "P",
+     "text": "/clear は現在の会話履歴をリセットするコマンドです。一方、セッション管理のコマンドは、セッションそのものを保存・ 再開・ 整理するためのものです。対話を終了するとセッションは自動的に保存されるため、 「 ⁠昨日の続きから始めたい」 「 ⁠後で再開するつもりだから名前をつけておきたい」 という場面で役立ちます。"
+    },
+    {
+     "kind": "H",
+     "text": "/resume は 「過去のセッションを再開する」"
+    },
+    {
+     "kind": "P",
+     "text": "/resume は、過去のセッション一覧を表示して、選択したセッションを再開するコマンドです。"
+    },
+    {
+     "kind": "P",
+     "text": "矢印キーで再開したいセッションを選び、Enterキーで再開します。各セッションには、最初に入力したプロンプトに基づいたタイトルが自動で付けられます。画面上部のSearch欄にキーワードを入力すると、タイトルで絞り込み検索もできます。昨日の作業の続きや、先週やっていた機能の実装に戻りたいときに使います。"
+    },
+    {
+     "kind": "H",
+     "text": "/rename は 「セッションに名前をつける」"
+    },
+    {
+     "kind": "P",
+     "text": "/resumeの一覧には対話の冒頭部分が表示されますが、それだけでは内容を思い出しにくいこともあります。/renameでセッションに名前をつけておくと、後から見つけやすくなります。"
+    },
+    {
+     "kind": "P",
+     "text": "セッションを後で再開する予定があるときに使います。 「 ⁠今日はここまでだけど、明日の続きに使いたい」 というセッションには /renameで名前をつけておきましょう。名前をつけたら /exit （またはCtrl+D） で作業を終えます。"
+    },
+    {
+     "kind": "H",
+     "text": "プロジェクト設定のコマンドを知っておこう"
+    },
+    {
+     "kind": "P",
+     "text": "コンテキスト管理とセッション管理は、会話の進行や履歴を操作するコマンドでした。続いて、プロジェクト全体の設定に関わるコマンドを見ていきましょう。"
+    },
+    {
+     "kind": "P",
+     "text": "これらのコマンドは CLAUDE. md と関連しています。CLAUDE. mdは、Claude Codeにプロジェクトのルールを伝える設定ファイルです （詳細は本書の第4章をご参照ください⁠ ） ⁠。ここではコマンドの概要をつかんでおきましょう。"
+    },
+    {
+     "kind": "H",
+     "text": "/init は 「CLAUDE. mdを自動生成する」"
+    },
+    {
+     "kind": "P",
+     "text": "CLAUDE. mdがないプロジェクトでは、Claude Codeはプロジェクトのルールを何も知らない状態で動きます。そこで最初に実行するのが /initです。プロジェクトのルートディレクトリで実行すると、CLAUDE. mdの雛形を自動生成してくれます。"
+    },
+    {
+     "kind": "P",
+     "text": "実行後、プロジェクトルートにCLAUDE. mdが作成され、プロジェクトの概要やよく使うコマンドなどの雛形が自動入力されます。"
+    },
+    {
+     "kind": "H",
+     "text": "/model は 「使用するAIモデルを切り替える」"
+    },
+    {
+     "kind": "P",
+     "text": "Claude Codeでは複数のAIモデルを切り替えて使えます。/modelコマンドで選択画面が表示されます [1] 。以下はMaxプランでの表示例です。"
+    },
+    {
+     "kind": "P",
+     "text": "矢印キーで選択してEnterキーを押すと、モデルが切り替わります。モデル名を直接指定して切り替えることも可能です。"
+    },
+    {
+     "kind": "P",
+     "text": "代表的なモデルは以下の4種類で、それぞれ性能・ 速度・ コストのバランスが異なります。最初はデフォルトのまま使い、必要に応じて切り替えてみましょう。"
+    },
+    {
+     "kind": "H",
+     "text": "情報確認のコマンドを使ってみよう"
+    },
+    {
+     "kind": "P",
+     "text": "ここまでの3カテゴリは何らかの 「操作」 を行うコマンドでした。最後のカテゴリは性質が異なり、Claude Code自体の状態を 確認する ためのコマンドです。"
+    },
+    {
+     "kind": "H",
+     "text": "/status は 「Claude Codeの状態を一覧表示する」"
+    },
+    {
+     "kind": "P",
+     "text": "現在のセッションの名前やID、作業ディレクトリ、ログイン方法、使用中のモデルなど一通りの情報をまとめて確認できるコマンドです。動作が不安定に感じたときや、設定を確認したいときに実行してみましょう。"
+    },
+    {
+     "kind": "P",
+     "text": "出力例に表示されている項目の中には、個別のコマンドで確認・ 設定できるものもあります。まずは /statusで全体を俯瞰し、気になる項目を個別に調べるという使い方ができます。"
+    },
+    {
+     "kind": "H",
+     "text": "/help は 「利用可能なコマンドの一覧を表示する」"
+    },
+    {
+     "kind": "P",
+     "text": "/help は、スラッシュコマンドの一覧と説明を表示するコマンドです。"
+    },
+    {
+     "kind": "P",
+     "text": "コマンド名が思い出せないときに使います。本セクションで紹介したコマンド以外にも多くのコマンドが用意されているので、一度 /helpを実行して眺めてみるのもよいでしょう。 「 ⁠コマンドを忘れたら /help」 という習慣をつけておくと便利です。"
+    },
+    {
+     "kind": "H",
+     "text": "/cost は 「トークン使用量の統計を表示する」"
+    },
+    {
+     "kind": "P",
+     "text": "/cost は、トークンの使用量とコストの統計を表示するコマンドです。API利用 （従量課金） の場合に、利用コストを把握したいときに使います [2] 。"
+    },
+    {
+     "kind": "H",
+     "text": "コマンド補完を活用しよう"
+    },
+    {
+     "kind": "P",
+     "text": "ここまで4つのカテゴリのコマンドを紹介しました。コマンド名をすべて覚える必要はありません。Claude Codeにはコマンドを素早く探すための補完機能が用意されています。"
+    },
+    {
+     "kind": "H",
+     "text": "Tab補完でコマンドを素早く入力する"
+    },
+    {
+     "kind": "P",
+     "text": "連載の 第1回目 でTab補完を紹介しましたが、スラッシュコマンドの入力で特に威力を発揮します。コマンドの最初の数文字を入力してTabキーを押すと、自動的に補完されます。"
+    },
+    {
+     "kind": "P",
+     "text": "正確なコマンド名を覚えていなくても、先頭の数文字さえわかれば十分です。"
+    },
+    {
+     "kind": "H",
+     "text": "「/」 を入力するだけで候補一覧が表示される"
+    },
+    {
+     "kind": "P",
+     "text": "対話モードで / を入力すると、利用可能なコマンドの候補一覧が表示されます。"
+    },
+    {
+     "kind": "P",
+     "text": "候補から用途に合わせたコマンドを見つけたら、そのまま続きを入力してTabで補完するか、矢印キーで選択してEnterキーで実行できます。"
+    },
+    {
+     "kind": "H",
+     "text": "まとめ"
+    },
+    {
+     "kind": "P",
+     "text": "スラッシュコマンドは用途別に4つのカテゴリに分けて覚えると整理しやすくなります。"
+    },
+    {
+     "kind": "LI",
+     "text": "コンテキスト管理: /context、/clear、/compact"
+    },
+    {
+     "kind": "LI",
+     "text": "セッション管理: /resume、/rename、/exit"
+    },
+    {
+     "kind": "LI",
+     "text": "プロジェクト設定: /init、/model"
+    },
+    {
+     "kind": "LI",
+     "text": "情報確認: /status、/help、/cost （API利用の場合）"
+    },
+    {
+     "kind": "P",
+     "text": "日常的に使う頻度が高いのは /clear・ /compact によるコンテキスト管理と、/resume によるセッション再開です。"
+    }
+   ],
+   "checkedAt": 1789443121933,
+   "etag": "",
+   "hash": "4ed9b41ceaf36e0f",
+   "id": "97630fcbaa98",
+   "imageUrl": "https://gihyo.jp/assets/images/ICON/2026/3045_claude-code-ai-driven-development-03.png",
+   "key": "https://gihyo.jp/article/2026/09/claude-code-ai-driven-development-03",
+   "lastModified": "",
+   "publishedAt": 1789431060000,
+   "summary": "本連載は2026年9月刊行の『Claude Codeで作って学ぶ AI駆動アプリ開発入門』から一部、抜粋・編集してお届けします。第3回目は、Claude Codeの対話モード内で使用する「スラッシュコマンド」の基本とよく使うコマンドを解説します。",
+   "title": "便利なスラッシュコマンドを使いこなそう",
+   "updatedAt": 1789443121933,
+   "url": "https://gihyo.jp/article/2026/09/claude-code-ai-driven-development-03?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/claude-commerce-agents": {
    "bodyBlocks": [
@@ -2379,7 +2395,7 @@
      "text": "参照実装では、安全策をプロンプトだけに委ねず、商品・ 価格の参照元や操作権限を実行基盤側でも制御する。認証・ 認可など、本番導入時に追加すべき対策の詳細は、リポジトリ内の 安全性に関する資料 で確認できる。"
     }
    ],
-   "checkedAt": 1789356692795,
+   "checkedAt": 1789443121933,
    "etag": "",
    "hash": "87e7ff418645cbcf",
    "id": "dba38ff001a1",
@@ -2389,7 +2405,7 @@
    "publishedAt": 1788414120000,
    "summary": "Anthropicは2026年9月2日、オンラインでの商品・サービスの購入と販売を支援するAIエージェントの開発用ブループリント「Claude Commerce Agents」を公開した。",
    "title": "Anthropic、商取引向けAIエージェントの設計図「Claude Commerce Agents」をオープンソースで公開",
-   "updatedAt": 1789356692795,
+   "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/article/2026/09/claude-commerce-agents?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/claude-fable-5.1-and-mythos-5.1": {
@@ -2503,7 +2519,7 @@
      "text": "防御的なセキュリティ業務を対象とするCyber Verification Programには、今後Mythosクラスのモデルを追加する予定。Life Sciences Verification Programでは、米国政府との協力の下で最初の参加者を受け入れており、対象とする生命科学コミュニティをさらに広げる計画としている。"
     }
    ],
-   "checkedAt": 1789356692795,
+   "checkedAt": 1789443121933,
    "etag": "",
    "hash": "2c1b71196dd2c330",
    "id": "0d063c8edadd",
@@ -2513,7 +2529,7 @@
    "publishedAt": 1788313080000,
    "summary": "Anthropicは2026年9月1日、AIモデル「Claude Fable 5.1」と「Claude Mythos 5.1」を発表した。",
    "title": "Anthropic、Claude Fable 5.1とMythos 5.1を発表",
-   "updatedAt": 1789356692795,
+   "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/article/2026/09/claude-fable-5.1-and-mythos-5.1?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/claude-plugin-eval": {
@@ -2571,7 +2587,7 @@
      "text": "claude plugin eval による評価では、対象プラグインのMCPサーバーは自動では起動しない。評価時にMCPサーバーを起動するには、実行コマンドに --allow-real-servers などのオプションを付ける。さらに、そのサーバーが提供するツールの利用を --allow-tools で明示的に許可する 必要がある。"
     }
    ],
-   "checkedAt": 1789356692795,
+   "checkedAt": 1789443121933,
    "etag": "",
    "hash": "18cc5b33276f57ed",
    "id": "d1a8bfe76d89",
@@ -2581,8 +2597,60 @@
    "publishedAt": 1789353360000,
    "summary": "Anthropicは2026年9月11日、Claude Codeのプラグインやスキルの効果を評価するコマンド「claude plugin eval」を公式XアカウントのClaudeDevsで紹介した。",
    "title": "Anthropic、Claude Codeのプラグイン評価コマンド「claude plugin eval」を紹介",
-   "updatedAt": 1789356692795,
+   "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/article/2026/09/claude-plugin-eval?utm_source=feed"
+  },
+  "https://gihyo.jp/article/2026/09/cline-desktop": {
+   "bodyBlocks": [
+    {
+     "kind": "P",
+     "text": "Cline Bot Inc.は2026年9月14日、オープンソースのコーディングエージェントClineのデスクトップ版 「Cline Desktop」 をベータ版として公開した。macOSおよびWindows上で動作する。"
+    },
+    {
+     "kind": "QUOTE",
+     "text": "Introducing Cline Desktop - a native interface for working with open weights models. Use with ClinePass and all our free models like DeepSeek-V4. 1-Flash, Musespark-1. 3, or BYOK with any provider! pic. twitter. com/ 7AZdHlVIa9 — Cline (@cline) September 14, 2026"
+    },
+    {
+     "kind": "P",
+     "text": "Clineはフリー版を含むさまざまなLLMをBYOK （Bring Your Own Key） で使い分けながら自律的にコーディングを進めることができるオープンソースのコーディングエージェント。これまで VS Codeの機能拡張 とCLI版 （ Cline CLI ） が提供されてきた。"
+    },
+    {
+     "kind": "P",
+     "text": "新たに発表されたデスクトップ版 「Cline Desktop」 は単独のアプリケーションとして動作し、エディタなど他の開発ツールを必要とせず、VS Code機能拡張やCLI版と同様のコーディングエージェントとしての機能をもつ。端末操作に慣れていないユーザにも使いやすいだけでなく、複数のエージェントを同時に稼働させることができ、1つのエージェントがコードを書き、もう1つはブラウザで調査を実行、さらに別の1つは反復タスクを処理する、といった利用が可能。コーディングだけでなくレポートの作成やドキュメント内容の確認、実行計画や履歴の追跡などさまざまなタスクに使用できる。"
+    },
+    {
+     "kind": "P",
+     "text": "既存のワークフローからの移行も簡単で、Cline CLIまたは機能拡張版でタスクを開始し、デスクトップアプリで引き継ぐことができるほか、Claude CodeやCodexなど他社のエージェントからタスクをインポートして、Cline Desktopで好きなモデルを使用して作業を続行することもできる。"
+    },
+    {
+     "kind": "P",
+     "text": "スケジュール機能を使ってエージェントに実行タスクと時間を指定し、朝のPRレビューや夜間のセキュリティスキャン、毎週のドキュメント更新といった定期的な作業を自動化することも可能。"
+    },
+    {
+     "kind": "P",
+     "text": "またWeb検索機能は作業中にも実行可能で、常に最新情報を元にトピックの調査やさまざまな実行選択肢の比較、意思決定のための確認などに役立てることができる。さらに音声入力を使えばアイデアについて話したり、難しい問題を説明したり、アプリから直接Clineに長い指示を出すことができ、これらを組み合わせると、情報収集や漠然とした考えを実行可能な形にするのに大きな助けになるという。"
+    },
+    {
+     "kind": "P",
+     "text": "さらに、カスタマイズメニューでツールやプラグイン、MCPサーバー、スキル等を管理できるほか、マーケットプレイスから新たにインストールすることができる。詳しい利用法は ドキュメント を参照。"
+    },
+    {
+     "kind": "P",
+     "text": "Cline Desktopは Cline Desktopのトップページ からインストールパッケージをダウンロードできるほか、ソースコードを含めたリソースが GitHub上で公開 されている。"
+    }
+   ],
+   "checkedAt": 1789443121933,
+   "etag": "",
+   "hash": "ca5ba7fe20e9d6bb",
+   "id": "941986693d63",
+   "imageUrl": "https://gihyo.jp/assets/images/ICON/2026/3047_cline-desktop.png",
+   "key": "https://gihyo.jp/article/2026/09/cline-desktop",
+   "lastModified": "",
+   "publishedAt": 1789440960000,
+   "summary": "Cline Bot Inc.は2026年9月14日、オープンソースのコーディングエージェントClineのデスクトップ版「Cline Desktop」をベータ版として公開した。macOSおよびWindows上で動作する。",
+   "title": "オープンソースのコーディングエージェントClineのデスクトップアプリ「Cline Desktop」が登場",
+   "updatedAt": 1789443121933,
+   "url": "https://gihyo.jp/article/2026/09/cline-desktop?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/cuda-rust": {
    "bodyBlocks": [
@@ -2603,7 +2671,7 @@
      "text": "GPUの利用モデルとしてSIMT （Single Instruction, Multiple Threads⁠ ） ⁠、およびTileの2つのモデル両方をRustで利用できる。SIMT用のRust生成バックエンドとして cuda-oxide [1] が、Tileベースのプログラミング基盤として cutile-rs （cuTile Rust） が、それぞれGitHub上で公開されている。cuda-oxideの詳しい解説は The cuda-oxide Book を、cutile-rsの詳細は cuTile Rustドキュメント を参照。"
     }
    ],
-   "checkedAt": 1789356692795,
+   "checkedAt": 1789443121933,
    "etag": "",
    "hash": "709ebf050ca68212",
    "id": "abd913128304",
@@ -2613,7 +2681,7 @@
    "publishedAt": 1789017240000,
    "summary": "NVIDIAは2026年9月8日、GPU向け並列計算プラットフォームCUDAにおいてRustによる開発を可能にする「CUDA Rust」を発表した。",
    "title": "NVIDIA、RustによるネイティブGPUプログラミングが可能となる「CUDA Rust」を発表",
-   "updatedAt": 1789356692795,
+   "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/article/2026/09/cuda-rust?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/daily-linux-260901": {
@@ -2639,7 +2707,7 @@
      "text": "Linusは 「このリリース （Linux 7. 3） の残り期間が順調に進むことを願おう。規模が小さく、何事もなく終わることを」 とコメントしているが、その願いどおりに開発が順調に進めば、Linux 7. 3は10月中旬 （10月18日あるいは25日ごろ） にリリースされるとみられる。"
     }
    ],
-   "checkedAt": 1789356692795,
+   "checkedAt": 1789443121933,
    "etag": "",
    "hash": "294392960cd3d1b3",
    "id": "07ce3309a48f",
@@ -2649,7 +2717,7 @@
    "publishedAt": 1788248160000,
    "summary": "Linus Torvaldsは8月30日、次期Linuxカーネル「Linux 7.3」の最初のリリース候補となる「Linux 7.3-rc1」を公開した。",
    "title": "Linux 7.3-rc1リリース、次世代ハードウェアのサポートが加速",
-   "updatedAt": 1789356692795,
+   "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/article/2026/09/daily-linux-260901?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/daily-linux-260904": {
@@ -2675,7 +2743,7 @@
      "text": "もっともGKHは 「明らかなバグ修正を断るつもりはなく、そうしたくもない」 と語っており、 「 ⁠ただ全部処理するには時間がかかるだけだ」 と、時間をかけてもバグ修正を進めていく姿勢を見せている。AI/ LLMツールはバグを発見する能力は大きく向上したが、 「 ⁠そのバグをいますぐ修正すべきか」 という優先順位までは付けてくれない。GKHが言う通り、少なくともLinux 7. 3はメンテナーにとって 「きびしいサイクル」 になることは間違いなさそうだ。"
     }
    ],
-   "checkedAt": 1789356692795,
+   "checkedAt": 1789443121933,
    "etag": "",
    "hash": "9b271177b641ef63",
    "id": "8f26239c42f2",
@@ -2685,7 +2753,7 @@
    "publishedAt": 1788507720000,
    "summary": "Linuxカーネルプロジェクトは10月中旬にリリース予定の「Linux 7.3」に向けて開発を進めているが、ここ数ヵ月に渡って議論されてきた“AIノイズ”の大量発生が、メンテナーにとってより大きな負荷となっているようだ。",
    "title": "“厳しいサイクルになりそうだ“ ―GKH、Linux 7.3開発サイクルの「AIノイズ」増加に警鐘",
-   "updatedAt": 1789356692795,
+   "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/article/2026/09/daily-linux-260904?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/daily-linux-260909": {
@@ -2775,7 +2843,7 @@
      "text": "オープンソースとして発展を遂げてきたLinuxカーネルはその原則にのっとり、すべてのデータを公開しており、誰からのアクセスも受け入れてきた。だがAI時代となった現在、AIツールによる貢献の是否や今回のAIイナゴによるデジタル蝗害など、かつてのプロジェクト運営ではぶつかることのなかった問題が増えつつある。単なるボット/クローラー対策とは異なる、AIと共存できるオープンソースの実現に向けて、さまざまなしくみを再設計する必要があるのかもしれない。"
     }
    ],
-   "checkedAt": 1789356692795,
+   "checkedAt": 1789443121933,
    "etag": "",
    "hash": "a9772c10c7a09a92",
    "id": "a108b6354b9a",
@@ -2785,7 +2853,7 @@
    "publishedAt": 1788936540000,
    "summary": "前回でも紹介したように、AIノイズ ―AI/LLMに由来する大量のパッチやバグ報告がLinuxカーネル開発メンテナーたちの労力を増大させており、カーネル開発のサイクルにも影響を及ぼしつつあるが、AIによる負荷に疲弊しているのはメンテナーだけではない。",
    "title": "深刻化する“サイバー蝗害”―Linuxカーネルソースに群がる貪欲で超非効率な「AIイナゴ」たち",
-   "updatedAt": 1789356692795,
+   "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/article/2026/09/daily-linux-260909?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/deepseek-v4.1-flash": {
@@ -2835,7 +2903,7 @@
      "text": "発表では、Hugging Face上の モデルページ と 技術レポート へのリンクも案内した。また、2000基のGPUとストレージクラスターを使う大規模導入を計画する組織に対し、相談を呼びかけている。"
     }
    ],
-   "checkedAt": 1789356692795,
+   "checkedAt": 1789443121933,
    "etag": "",
    "hash": "e2ee55dddfdc671e",
    "id": "0172e4ca1e09",
@@ -2845,7 +2913,7 @@
    "publishedAt": 1789098180000,
    "summary": "DeepSeekは2026年9月10日、画像を理解する機能を備えたAIモデル「DeepSeek-V4.1-Flash」を発表した。同社の新しいアーキテクチャを採用するモデル群の中で最小規模に当たる。",
    "title": "DeepSeek、画像理解に対応した「V4.1-Flash」を発表",
-   "updatedAt": 1789356692795,
+   "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/article/2026/09/deepseek-v4.1-flash?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/gemini-3-8-flash-and-3-8-flash-cyber": {
@@ -2907,7 +2975,7 @@
      "text": "また、Gemini 3. 8 Flash Cyberは新しい Fairwindプログラム を通じて信頼できる政府機関、インフラ事業者、ソフトウェア保守担当者に提供される。利用には Fairwindプログラムへのアクセス申請 が必要。"
     }
    ],
-   "checkedAt": 1789356692795,
+   "checkedAt": 1789443121933,
    "etag": "",
    "hash": "8b809faccdde0869",
    "id": "a1e10598a264",
@@ -2917,7 +2985,7 @@
    "publishedAt": 1788400260000,
    "summary": "Googleは2026年9月2日、同社の低コスト・実用モデルの最新バージョンとなるGemini 3.8 Flash、およびサイバーセキュリティモデルGemini 3.8 Flash Cyberをリリースした。",
    "title": "Google、Gemini 3.8 Flashと3.8 Flash Cyberをリリース ―コーディング、エージェントタスク、多段階推論を大幅に強化",
-   "updatedAt": 1789356692795,
+   "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/article/2026/09/gemini-3-8-flash-and-3-8-flash-cyber?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/gemini-app-for-windows": {
@@ -2951,7 +3019,7 @@
      "text": "Googleは、これらの追加機能をWindowsにも順次提供する予定としている。"
     }
    ],
-   "checkedAt": 1789356692795,
+   "checkedAt": 1789443121933,
    "etag": "",
    "hash": "9fb3aa5d67e9aa5c",
    "id": "5a676bdd5565",
@@ -2961,7 +3029,7 @@
    "publishedAt": 1789103340000,
    "summary": "Googleは9月10日、AIアシスタント「Gemini」のWindows向けアプリの提供開始を発表した。Windows 10とWindows 11に対応している。",
    "title": "Google、GeminiのWindowsアプリを提供開始",
-   "updatedAt": 1789356692795,
+   "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/article/2026/09/gemini-app-for-windows?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/github-cli-attach-flag": {
@@ -3003,7 +3071,7 @@
      "text": "この機能はGitHub. comの全プランで一般提供されている。利用するにはGitHub CLIをv2. 99. 0へ更新し、添付先リポジトリへの書き込み権限を持つ必要がある。GitHub Enterprise Serverは今回のリリースでは対象外となる。詳しい使い方は GitHub Docs で確認できる。"
     }
    ],
-   "checkedAt": 1789356692795,
+   "checkedAt": 1789443121933,
    "etag": "",
    "hash": "d1a29dbc7ca57756",
    "id": "80b3dacdede2",
@@ -3013,7 +3081,7 @@
    "publishedAt": 1788335220000,
    "summary": "GitHubは2026年9月1日、GitHub CLIにローカルの画像や動画をアップロードできる--attachフラグを追加したと発表した。",
    "title": "GitHub CLIに​-​-​​attachフラグ、コマンドラインからIssueやPull Requestへ画像・動画を添付可能に",
-   "updatedAt": 1789356692795,
+   "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/article/2026/09/github-cli-attach-flag?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/github-copilot-hydrafusion": {
@@ -3111,7 +3179,7 @@
      "text": "GitHubのCTO、Vladimir Fedorov氏は Xへの投稿 で、HydraFusionを、ローカル推論も取り込む将来の自動ルーティングの重要な構成要素として位置付けた。新モデルの登場や組み合わせ方の進歩が速く、手作業で最適な選択をすることはほぼ不可能だと述べている。"
     }
    ],
-   "checkedAt": 1789356692795,
+   "checkedAt": 1789443121933,
    "etag": "",
    "hash": "e0341f0a1d3db872",
    "id": "3579286e4a50",
@@ -3121,7 +3189,7 @@
    "publishedAt": 1788845880000,
    "summary": "GitHubは2026年9月4日、コーディングタスクに応じてAIモデルと処理の進め方を選ぶ「Project HydraFusion」を公式ブログで紹介した。",
    "title": "GitHub、Copilot CLIで複数AIモデルを使い分けてコスト削減を図る「Project HydraFusion」を研究プレビューで提供",
-   "updatedAt": 1789356692795,
+   "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/article/2026/09/github-copilot-hydrafusion?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/gonako": {
@@ -3147,7 +3215,7 @@
      "text": "「なでしこ3(Go版)」 はWindows、macOS、Linux上で動作する [1] 。インストールパッケージはGitHubからダウンロード可能。ソースコードもMITライセンスのもと、オープンソースとして公開されている。詳しいインストールについては GitHub上のドキュメント を参照。"
     }
    ],
-   "checkedAt": 1789356692795,
+   "checkedAt": 1789443121933,
    "etag": "",
    "hash": "03b9a4c4419005a7",
    "id": "2ff81c4e3855",
@@ -3157,7 +3225,7 @@
    "publishedAt": 1788852600000,
    "summary": "プログラマのクジラ飛行机（@kujirahand）氏は2026年9月7日、日本語プログラミング言語「なでしこ3」をGo言語で実装した「なでしこ3(Go版)」（通称：gonako）をリリースした。",
    "title": "日本語プログラミング言語「なでしこ3」のGo言語版がリリース ―単一バイナリを生成可能で高速動作",
-   "updatedAt": 1789356692795,
+   "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/article/2026/09/gonako?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/google-pics": {
@@ -3219,7 +3287,7 @@
      "text": "対象プランや提供地域、使用量上限などの詳細は Google Picsの提供条件 を、Google Workspaceの管理者設定は 管理者向けヘルプ を参照のこと。"
     }
    ],
-   "checkedAt": 1789356692795,
+   "checkedAt": 1789443121933,
    "etag": "",
    "hash": "7afccf18c09d67c0",
    "id": "267b4078a33a",
@@ -3229,7 +3297,7 @@
    "publishedAt": 1788328680000,
    "summary": "Googleは2026年9月1日、AI画像作成・編集ツール「Google Pics」の一般提供を順次開始した。",
    "title": "Google、AI画像作成・編集ツール「Google Pics」の一般提供を順次開始、オブジェクト単位の編集や画像内テキストの翻訳に対応",
-   "updatedAt": 1789356692795,
+   "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/article/2026/09/google-pics?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/gpt-6-astra": {
@@ -3371,7 +3439,7 @@
      "text": "We will give one banked reset for every day you don't have access to Astra on your paid ChatGPT plan, starting today. Team is moving mountains to give access as fast as we can. First one will land in ~ 3 hours. There is still time to create your account if you don't have one. — Tibo (@thsottiaux) September 3, 2026"
     }
    ],
-   "checkedAt": 1789356692795,
+   "checkedAt": 1789443121933,
    "etag": "",
    "hash": "45f6e297d9bb6ff5",
    "id": "b27c0a952f89",
@@ -3381,7 +3449,7 @@
    "publishedAt": 1788484140000,
    "summary": "OpenAIは2026年9月3日、新モデル「GPT-6 Astra」を発表した。",
    "title": "OpenAI、GPT-6 Astraを発表 ——PC操作の精度や速度を向上、サイバー能力は同社初の「重大」水準",
-   "updatedAt": 1789356692795,
+   "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/article/2026/09/gpt-6-astra?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/gpt-live-1-api": {
@@ -3464,282 +3532,6 @@
    "updatedAt": 1789383505375,
    "url": "https://gihyo.jp/article/2026/09/gpt-live-1-api?utm_source=feed"
   },
-  "https://gihyo.jp/article/2026/09/home-local-llm-guide": {
-   "bodyBlocks": [
-    {
-     "kind": "P",
-     "text": "『 Software Design 2026年9月号 』 の第1特集 「開発の新戦力 ローカルLLM」 から第2章 「自宅でローカルLLMを動かしてみた」 を公開します。本特集のほかの章では、現実的な活用法として、ローカルLLMとクラウドLLMの使い分け、ローカルLLM基盤の構築事例についても解説しています。ぜひ本誌にてご確認ください。"
-    },
-    {
-     "kind": "P",
-     "text": "本記事は、筆者が実際にローカルLLMを使用した経験を紹介することで、その追体験をしてもらいつつ、ローカルLLMに関する基礎知識や構成の具体的なケースを知ってもらうものです。"
-    },
-    {
-     "kind": "H",
-     "text": "筆者がローカルLLMに触れた経緯"
-    },
-    {
-     "kind": "P",
-     "text": "筆者が実際にローカルLLMを使い始めたのは、今から約3年前の2023年に遡ります。もともとは文章のベクトル検索などの、多次元ベクトルのクラスタリング問題に関心がありました。これは、自然言語で書かれた文章を、意味の近さを表す多次元の数値≒ベクトルに変換し、数学的に分類・ 検索しようという試みの一部です。そして、この文章を高度に数値化する技術が、LLMの基礎技術そのものでした。その過程で、文章のベクトル、すなわちembeddingを計算するのに、クラウドAPIのLLMではなく、ゲーム目的で購入したローカルのNVIDIA GeForce RTX 4070というGPUを搭載したグラフィックボードとオープンウェイトモデルを使えないかと考えたのがローカルLLMに触れるきっかけとなりました。そこからllama. cppやHugging Faceを知り、ファインチューニングをローカルで試してみるにまで至ります。"
-    },
-    {
-     "kind": "P",
-     "text": "このようにローカルLLMに触れるうち、RTX 4070の12GBというVRAMでは動かせるモデルが限られることに不満を抱くようになり、もう少し大きなVRAMのグラフィックボードが欲しくなりました。そこで購入したのがRadeon RX 7600 XTというAMD製のGPUを積んだVRAM 16GBのグラフィックボードです。選定理由は、NVIDIA （CUDA） 一強と言われる状況に疑問を抱き、AMD （ROCm） の現状を知っておきたいと考えたことが、大きな範囲を占めていました。"
-    },
-    {
-     "kind": "P",
-     "text": "ハードウェアに詳しい方には、ここまで挙げてきたグラフィックボードからもうおわかりかもしれませんが、筆者の好みはワットパフォーマンス （電力効率） 重視です。そのためハイエンドのグラフィックボードではなく、せいぜいミドルハイ止まりの選択となっています。価格が高騰した現在でも、10万円でお釣りがくるか来ないかという、比較的手が出しやすいものに惹かれます。"
-    },
-    {
-     "kind": "P",
-     "text": "筆者の現在の主な興味は、ローカルLLMとAIエージェントを組み合わせたコーディングにあります。このRX 7600 XTをFedoraのマシンに載せ、llama. cpp （llama-server） を自分でビルドして、OpenCodeと組み合わせ、さまざまなモデルを試すような使い方をしています。"
-    },
-    {
-     "kind": "H",
-     "text": "今ローカルLLMである理由"
-    },
-    {
-     "kind": "P",
-     "text": "具体的な話題に入る前にまず、筆者がなぜローカルLLMに注目するのかを解説します。"
-    },
-    {
-     "kind": "H",
-     "text": "「定額でトークン無制限」 時代の終焉"
-    },
-    {
-     "kind": "P",
-     "text": "いくつかの理由があるのですが、1番目に挙げるべきは 「定額でトークン無制限」 時代の 終焉 でしょう。これはクラウドLLMの利用形態として、長期的に計算リソースを占有する必要のあるエージェント型が多くなってきたことが関係していると考えています。エージェントとして利用されることで、クラウド側の計算リソースが占有されひっ迫し、リソースの追加のためにコストがかかっていることは、想像に難くありません。加えて昨今のニュースや経済状況を 俯瞰 してみると、多額の資金を必要とするAI提供企業に対して、投資家からの黒字化圧力が強まっている、という推測も成り立ちます。これでは 「定額でトークン無制限」 を維持できるわけがありません。"
-    },
-    {
-     "kind": "P",
-     "text": "またトークン単価こそ下がっていますが、タスク単位でのトークン消費量は劇的に上がっています。これはAIの能力や精度が、長大なコンテキストや思考 （reasoning） モデル、マルチエージェントなど、より多くのトークンを消費する手法によって向上したことによるものです。具体的な数字で言えば、単価は1/ 10になったが消費量は30倍になり、結果的にかかるコストが3倍になった、くらいの感覚です。"
-    },
-    {
-     "kind": "P",
-     "text": "ただしここで留意すべきは、コストが3倍になったとしても、クラウドLLMのほうが安いということです。ローカルLLMの調達・ 維持・ 管理コストに昨今の価格高騰を考えると、クラウドLLMの安さが際立ちます。さらに純粋に合理性を突き詰めて、速度や精度を加味すれば、ローカルLLMはクラウドLLMの代替とはなり得ません。"
-    },
-    {
-     "kind": "H",
-     "text": "オープンウェイトモデルの進化"
-    },
-    {
-     "kind": "P",
-     "text": "2番目の理由は、オープンウェイトモデルの能力が向上してきたことです。オープンウェイトモデルとは、AIが学習した結果のパラメータ （重み） を公開し、誰でも自由に利用・ 改変できるようにしたAIモデルのことです。2025年後半から、エージェントとして利用可能な性能を持ち、かつ16GBのVRAM上でもそれなりに機能するモデルが増えてきました。 「 ⁠それなりに機能する」 とは、 「 ⁠reasoningが機能し、精度が向上した」 とも言い換えられます。ほんの1、2年前までは、実用的なコーディングをさせようとすると、小さくとも50B以上の大きなモデルを動かす必要がありました。このようなモデルを動かすためには、32GBや48GBのVRAMが必要になり、価格や消費電力からちょっと手が出しにくいものでした。しかし、それよりも小さなVRAM 16GBほどのミドルサイズのモデルでは、単純なコード補完程度はできても、プロジェクトの文脈を理解して自律的に動くにはエージェントとしての賢さ≒精度が不足しており、すぐに思考のループに陥るなどして自壊してしまっていました。それが2025年後半を境に、モデルの構造の進化や効率的な量子化技術によって、要求スペックが劇的に引き下げられたのです。執筆時点での代表的なモデルとしては、gpt-oss-20b、Qwen3. 6-35B-A3B、gemma-4-26B-A4Bあたりでしょうか。またここで示したVRAM 16GBというのは、グラフィックボードとしてはミドルからミドルハイに相当する、比較的廉価で入手しやすいサイズ、というものです。つまりローカルLLMにおいて、コーディングエージェントが機能するようになってきたのが、まさに2026年現在なのです。"
-    },
-    {
-     "kind": "H",
-     "text": "ローカルLLMを使ってみること自体の価値"
-    },
-    {
-     "kind": "P",
-     "text": "また、蛇足かもしれませんが、もう1つだけそれらしい理由を挙げておきましょう。それは差別化です。今ITエンジニアの多くは、程度の差はあれどもその合理性に基づき、クラウドLLMを利用しています。しかしそこで最終的に成果を上げるのは、極論資本力にほかなりません。現状はまだエンジニアとしての経験がものを言う部分が大きいですが、お金さえ払えば誰でも同じような均質な成果を得られる未来は、一歩ずつ近づいています。そんな中で、ローカルLLMで得られる体験は、均質になりにくい≒差別化しやすい、ということが起こるかもしれません。これはロマンがある、ぜひ触れておきたい、そう思うのです。"
-    },
-    {
-     "kind": "H",
-     "text": "ローカルLLMの構成"
-    },
-    {
-     "kind": "P",
-     "text": "では、個人の環境で現実的に動かせるローカルLLMはどう構築したらよいのでしょう？ 基本的なローカルLLMの構成は、グラフィックボード （GPU⁠ ） ⁠、LLM推論エンジン、その上で動くオープンウェイトモデル、コーディングエージェントなどのAIアプリケーションの4つに分けられます （図1） 。以下ではこの4つを少し詳しく解説してみます。"
-    },
-    {
-     "kind": "H",
-     "text": "グラフィックボード"
-    },
-    {
-     "kind": "P",
-     "text": "グラフィックボードにおいて、比較的にVRAMが多く、入手しやすいのがVRAM 16GBのラインになります。LLMを扱ううえではメモリは多いほうが有利なのですが、16GBを越えると価格上昇が急になります。GPUの選択肢としてはNVIDIA製が優勢なのですが、用途を推論に限るのならばAMDが割安なので選択肢に入ります。AMDはソフトウェア環境の構築・ 維持、速度に少し難がありますが、それを考えても入手容易性は魅力と言えます。"
-    },
-    {
-     "kind": "P",
-     "text": "メモリサイズを優先するならば、Unified Memoryを採用している、Mac製品各種やNVIDIA DGX Sparkとその互換機も悪くない選択肢となるでしょう。Unified Memoryとは、CPUとGPUが高速なメモリを物理的に共有するしくみのことです。広大なメインメモリをそのままGPUから使えることで、速度はグラフィックボードに劣るものの、大きなモデルを動かすことができる技術です。また、ここで挙げたDGX Sparkは、そのUnified Memoryを採用した、コンパクトなデスクトップ型のAI開発向けのワークステーションです。通常のPCでは実現できない大容量と広帯域のメモリを、手元で静かに扱える機材として注目されています。さらに、このDGX Sparkと同じアーキテクチャをノートPCで使うための、RTX Sparkが発表され、2026年秋の発売が予定されています。こちらもおもしろい選択肢になるんじゃないかと期待しています。"
-    },
-    {
-     "kind": "P",
-     "text": "LLMの生成速度を重視する場合、NVIDIA RTX Pro Blackwellシリーズが最善の選択になるでしょう。ただしプロ用ということもあり、価格が100万円前後とお小遣いと言える範囲からは大きく逸脱するので、難しいところですね。"
-    },
-    {
-     "kind": "H",
-     "text": "LLM推論エンジン"
-    },
-    {
-     "kind": "P",
-     "text": "LLM推論エンジンとは、グラフィックボードやCPUの計算能力を活用し、モデルのウェイトデータを実際に読み込んでテキストの生成処理を行う、ローカルLLMにおける心臓部といえるソフトウェアです。いわば、モデルウェイトという映像データを実際の動画として画面に映す、再生プレイヤーのような役割だと考えるとわかりやすいでしょう。筆者がよく使っている推論エンジンはggml-org/ llama. cpp [1] です。これはC++で書かれた推論エンジンと、そのツール、コマンド群です。特にllama-serverコマンドは、OpenAI互換のAPIとチャットWeb UIサーバーを提供してくれます。Pythonのセットアップが不要でオープンモデルの推論が実行可能です。また各種のGPUにも対応しており、日に数度のリリースが行われて、代表的なアーキテクチャに対してはビルド済みバイナリが提供されています。"
-    },
-    {
-     "kind": "P",
-     "text": "競合にはOllama、LM Studio、Unsloth Studioなどがありますが、いずれもllama. cppをベースにGUIなどを追加したものです。さまざまなパラメータを調整したり、リモートで動作させたりすることを考えれば、個人的にはllama. cppを直接使うほうに軍配を上げます。"
-    },
-    {
-     "kind": "P",
-     "text": "llama. cppを利用するならば、モデルは公式に提供されている形式から、専用のGGUFフォーマットに変換する必要があります。ただ自分で変換する必要はなくて、変換済みのものがHugging Faceに多数公開されています。通常はそれらを使うだけでよいでしょう。オススメはUnslothによる量子化・ 変換済みモデルです。Unslothの量子化は、高い圧縮率によりモデルを小さくしながらも、精度低下を抑える高度な最適化が施されており、高い評価を受けています。"
-    },
-    {
-     "kind": "H",
-     "text": "オープンウェイトモデル"
-    },
-    {
-     "kind": "P",
-     "text": "すでに述べたとおり、2025年後半から、量子化込みでVRAM 16GBで動き、コーディングエージェントとしてそこそこ機能するモデルが増えてきました。代表例はQwen3. 6やGemma 4です。加えて2026年中盤にはGemma 4 MTP Draftersが登場し、精度を維持したまま生成速度向上が見込めるようになったのも、後押しになっていると感じています。筆者は、ある日ビルドした最新のllama. cppがMTP Drafterに対応し、これまでローカルLLMの弱点の1つだった、1文字ずつ出力されるのを観測できてしまうほど遅かった速度を、MTP Drafterがノーリスクで一気に数段階引き上げるのを目の当たりにしました。この技術的な躍進を手元で体感したときはちょっとした感動ものでした。"
-    },
-    {
-     "kind": "P",
-     "text": "執筆時点でVRAM 16GBで動くモデルは、gpt-oss-20b、Qwen3. 6-27B、Qwen3. 6-35B-A3B、gemma-4-26B-A4B-it、gemma-4-12B-itあたりとなります。Qwen3. 6-35B-A3BなどのMoE （Mixture of Experts） モデルは、20個前後のエキスパートをCPUへ逃がす必要があるので、メインメモリもそれなりに必要になります。32GBくらいあるとよいはずです。"
-    },
-    {
-     "kind": "P",
-     "text": "ローカルLLMのモデル選びは極論、モデル本来のパラメータサイズとそれを削る量子化 （圧縮率） のトレードオフになります。たとえば、量子化を施していないオリジナルの状態 （16ビット精度） で30Bのモデルを動かそうとすると、約60GBのVRAMが要求されるため、高価な機材が必須となります。そこで量子化によって、1パラメータを16ビットから4ビットや2ビットにまで圧縮し、全体としてサイズを1/ 4～1/ 8に削ることで、ようやく16GBのVRAMで動かせるようになります。当然、このような極端な圧縮を行えば、AIの賢さ≒精度は落ちますが、2025年後半以降のモデルの基礎能力と量子化技術の向上のおかげで、2ビットという極限まで削っても下がる精度は数ポイント程度に留まり、エージェントとして十分に実用的な精度を保てるようになりました。"
-    },
-    {
-     "kind": "H",
-     "text": "コーディングエージェント／ AIアプリケーション"
-    },
-    {
-     "kind": "P",
-     "text": "コーディングエージェントは、プロンプトで指示することで、ソフトウェアプロジェクトに対してさまざまな操作を実行することができます。企業により提供されるコーディングエージェントには、Claude Code、Codexなどがあります。"
-    },
-    {
-     "kind": "P",
-     "text": "オープンソースのコーディングエージェントにも、OpenCode、OpenHands、SWE-agents、Aider等々、複数の選択肢があります。オープンソースのコーディングエージェントは、AIのベンダーやモデルを自由に選べることから、ローカルLLMでの利用に適していると筆者は考えています。筆者は、その中でも特に自分が試してみたかった、Playwrightのテストエージェント機能が、OpenCodeに対応していたことから、OpenCode [2] を主に使っています。"
-    },
-    {
-     "kind": "H",
-     "text": "筆者のローカルLLM環境構成"
-    },
-    {
-     "kind": "P",
-     "text": "筆者が実際にローカルLLMを使っている構成はすでに示しましたが、ここで再度その詳細の紹介と、理由を説明します。"
-    },
-    {
-     "kind": "P",
-     "text": "ここまでで説明していなかった最も重要な点は、ローカルLLMサーバーを動かすマシンと、実作業を行うワークスペースのマシンを分けているという点です。つまりリモートでローカルLLMサーバーを動かしています （図2） 。こうやって書いてみるとややこしいですね。"
-    },
-    {
-     "kind": "P",
-     "text": "実作業にはWindowsのMSYS2環境を利用しています。リモートのローカルLLMサーバーは、LinuxディストリビューションのFedoraでllama-serverを動かしてLAN越しにアクセスしています。詳細な構成は次のとおりです。"
-    },
-    {
-     "kind": "LI",
-     "text": "作業用マシン OS：Windows 11＋MSYS2 （MSYSTEM=UCRT64） AIアプリケーション OpenCode （コーディングエージェント） その他、自作のアプリケーション複数 GPU：RTX 4070 CPU：Core i9-9900K RAM：64GB"
-    },
-    {
-     "kind": "LI",
-     "text": "ローカルLLMマシン OS：Fedora Linux 44 （Xfce） 推論エンジン：llama-server （ggml-org/ llama. cpp） 主な利用モデル unsloth/ Qwen3. 6-35B-A3B-MTP-GGUF [3] unsloth/ gemma-4-26B-A4B-it-qat-GGUF [4] unsloth/ gemma-4-12B-it-qat-GGUF [5] GPU：RX 7600 XT CPU：Ryzen 9 5950X RAM：128GB"
-    },
-    {
-     "kind": "P",
-     "text": "ローカルLLMを実行するマシンと、実作業用のマシンを分ける最大の利点は、長い時間がかかるタスクを実行している最中でも、実作業用のマシンに負荷がかからないことです。以前、作業用マシンのRTX 4070で推論作業を実行中に、そのままWebミーティングに参加してしまい、作業用マシンでのあらゆる作業がものすごく遅くなってしまったことがありました。この構成であればAIに作業させている間に、GPUを使うゲームももちろん快適に遊べますね。"
-    },
-    {
-     "kind": "P",
-     "text": "llama-serverはOpenAI互換のAPIを提供してくれるので、リモートでLLMを動かすことが簡単です。 リスト1 にOpenCodeでリモートのローカルLLMを利用する設定例を示します。"
-    },
-    {
-     "kind": "P",
-     "text": "この構成の弱点は、OpenCodeをWindowsのネイティブに近い環境で動かしていることです。OpenCodeは公式にはWSL内での実行を推奨しています。その推奨とは異なる環境で動かしていることで、AIが実行したツールが失敗し、余計な処理が必要になっているのを観測しています。いくつか取っている対策はあるのですが、公式に推奨されているWSL内で実行するほうが良い結果になりそうです。"
-    },
-    {
-     "kind": "P",
-     "text": "もちろんWSLの中で動かせば、問題なく動く可能性が高いのはわかっています。しかし、筆者は昔からWindows/ MSYS2のネイティブ環境をずっと使ってきました。自分が慣れ親しんだ環境でエージェントを動かし、その違いにより失敗するエージェントのケアをする。こういう倒錯した試行錯誤でこそ、エンジニアとしての本懐とも言える、奇妙な知的好奇心が満たされたりするものです。"
-    },
-    {
-     "kind": "H",
-     "text": "ローカルLLMを使った作例"
-    },
-    {
-     "kind": "P",
-     "text": "このようなローカルLLMを用いて、筆者がどのようなことをしてきたのかを紹介します。"
-    },
-    {
-     "kind": "H",
-     "text": "E2Eテストの自動設計⁠ ・ 自動作成"
-    },
-    {
-     "kind": "P",
-     "text": "まずはローカルLLMでPlaywrightのテストエージェントを使った話を紹介しましょう。Playwrightのテストエージェント （Playwright Test Agents [6] は、テストの設計、実装、維持をAIにやらせるための機能です。これを試したくてOpenCodeを採用した、というのはすでに書いたとおりです。テストエージェントは設計を担当するプランナー、実装を担当するジェネレータ、維持を担当するヒーラーの3つのサブエージェントから構成されています。"
-    },
-    {
-     "kind": "P",
-     "text": "導入は非常に簡単で、導入したいプロジェクトに対して次のコマンドでPlaywrightとテストエージェントをセットアップするだけです。"
-    },
-    {
-     "kind": "P",
-     "text": "ここで実際にやっていることは、前述の3つのサブエージェントを定義するファイルの作成です。その後OpenCodeを起動し、/initコマンドでAGENTS. mdを作ります。あとは各サブエージェントに対して指示を出すだけです。次のプロンプト例はプランナーを使って、拙作のnvgd [7] というDevOps向けのHTTPサーバーのUIの一部に対して、テストを計画・ 設計させたときのものです。"
-    },
-    {
-     "kind": "P",
-     "text": "このようなアバウトな指示でも、ローカルLLMがソースコードを読み取ってそれなりの計画を作ってくれました [8] （リスト2） 。"
-    },
-    {
-     "kind": "P",
-     "text": "このあとの手順はジェネレータに実装させ、エラーがあったらヒーラーに直させるという手順になります。ただ正直に言いますと、この後に一発で全部のテストケースを実装できたわけではありません。というのも、一度のセッションで全部実装させるには、現時点のローカルLLMでは精度と速度が足らず、何回もやりとりを繰り返すことになったためです。1セッションで実装するテストケースは1個ずつにする、というような工夫が要りそうです。LLM自体が万能の魔法ではないと実感することで、逆にどうすれば実用に耐えうる使い方ができるかという、設計を楽しむ余地が残されている、と考えることもできますね。"
-    },
-    {
-     "kind": "H",
-     "text": "翻訳専用モデルのクライアント"
-    },
-    {
-     "kind": "P",
-     "text": "次は、翻訳用にファインチューニングされたモデルをローカルLLMとして動かし、それにアクセスするクライアント、すなわち簡易なエージェントを作った作例です。使用したモデルはwebbigdata/ C3TR-Adapterで、これはGemma 2を日英・ 英日の翻訳に特化してファインチューニングしたモデルです [9] 。このモデルが公開されたのは約2年前なのですが、当時の筆者は飛びついてクライアントを作成しました。それがkoron/ c3tr-client [10] です。"
-    },
-    {
-     "kind": "P",
-     "text": "ここで注目してほしいのは反復翻訳機能です。ここで言う反復翻訳というのは、翻訳する際に相互に翻訳を繰り返して、翻訳後の文の内容を検証する一連の作業のことです。やっていることは、目的の言語への訳文の変化がなくなるまで相互に翻訳を繰り返すだけなのですが、あらためて考えてみるとAIにおける 「ハーネス」 にほかなりません。"
-    },
-    {
-     "kind": "P",
-     "text": "ちなみに最新のGemma 4では、ファインチューニングなしに翻訳が可能です。しかも140以上の言語に対応し、音声入力にも対応しているらしいです。本当にものすごく進化していますね。"
-    },
-    {
-     "kind": "P",
-     "text": "ローカルLLMは、クラウドLLMよりも速度は圧倒的に遅いですが、意外としっかりした振る舞いをします。しかし精度と速度の問題はあるので、本格的に利用するには、エージェントやそのハーネスの設計で工夫のしがいがありそうです。"
-    },
-    {
-     "kind": "H",
-     "text": "実際にローカルLLMを使ってみて⁠ 、 どう思ったか"
-    },
-    {
-     "kind": "P",
-     "text": "2026年7月の執筆時点において、実際にローカルLLMを使ってみて、筆者がどのように感じたかを書きます。"
-    },
-    {
-     "kind": "P",
-     "text": "まず何より、1年前に比べて、圧倒的にコードが書けるようになっていました。ローカルLLMとして動くreasoningモデル自体は、2025年の初頭から登場していました。しかし当初はいまいちだったと言わざるを得ません。でも今年は状況が一変しています。もちろんクラウドLLMに比べれば問題はあるものの、現時点でもはるかにコードが書けるようになっています。しかも、これまでの進歩の速度を考えれば、来年や再来年にはどうなってしまうのか、と期待をしてしまいます。"
-    },
-    {
-     "kind": "P",
-     "text": "次に、速度をはじめとした実利を求めると、NVIDIA製GPUと比べるとAMD製のGPUはやはり弱いと思い知らされます。特にCUDAというソフトウェア環境の充実は、NVIDIAの大きな強みです。AMDにおいてCUDAと同等のレイヤーになるのがROCmですが、CUDAほどには多くの環境に提供されておらず、自分でビルドが必要だったりと一手間余分に必要です。そのためか推論エンジンにおいてもROCmへの最適化などが遅れ、ハード性能だけではなくソフトウェアでも一歩劣っている状況が、2026年現在でも続いています。"
-    },
-    {
-     "kind": "P",
-     "text": "VRAMは32GBくらいあると、モデルの選択肢が広がり、遊べる≒試せることが増えそうです。16GBでは、強めの量子化を使っても20B程度までの中型モデルが、利用できる限界です。しかしオープンウェイトのモデルには、30Bから40Bのものもラインナップとして提供されがちです。そのあたりのモデルを試して比較したい、という気持ちになります。そこで今はNVIDIA RTX PRO 4500 Blackwellを購入するか迷い始めています。"
-    },
-    {
-     "kind": "P",
-     "text": "最後に、実際にローカルLLMを触ってみたことで、Transformerの構造的な弱点を実感できました。Transformerはその動作において、大きく分けてPrefillとDecodeという2つの段階から成っています。PrefillというのはTransformerが文字を出力し始める準備段階で、Decodeは実際に1文字ずつ出力する段階です。どちらもコンテキストが長くなると、コンテキスト長nに対して、O(n2)の計算量がかかり、非常に遅くなっていきます。"
-    },
-    {
-     "kind": "P",
-     "text": "KVキャッシュを利用していて、用途がチャットであれば、この計算量を実感することは少ないです。しかし特にコーディングエージェントでの利用で、ファイルを読んで一気にコンテキストが大きくなったときなどは、Prefillが終わって1文字目が出力≒Decodeされるまで、待ち時間は10分や20分にも至ります。マシンのファンは 唸 を上げ、熱い空気を吹き出します。しかし画面は通信中を示したまま静止しています。このローカルLLMにおける 「計算リソースの限界と 対峙 している時間」 は、クラウドLLMの裏側にある莫大なインフラの暴力、すなわち資本力を生々しく実感できる瞬間です。まぁ家事をしたり本を読んだり動画を観賞したりできちゃうんですけどね。"
-    },
-    {
-     "kind": "P",
-     "text": "このようなO(n 2 )のアルゴリズムを、サービスとして大規模に提供することを考えると、ITエンジニアとしては軽くめまいを覚えます。クラウドLLMが提供しようとしている 「均質で圧倒的なパワー」 は、このTransformerという巨大な大食漢を、想像もつかないほどの資本の力で養っていることで得られるものです。ローカルLLMを自ら運用し、その限界と構造的な弱点を実際に体感したからこそ、筆者はクラウドLLMのいびつな安さと、その裏にあるインフラのすごさに思いを馳せることができました。巨大な資本の力に頼るだけでなく、ローカルLLMの限界と向き合いつつハックし続けること。これからのエンジニアの、小さいけれどもユニークな 「差別化」 になるのかもしれません。それはそれとして、クラウドLLM提供企業の収益性・ 持続性については、ちょっと心配になってしまいますね。個人的にはTransformerとは別のアプローチに期待するところです。"
-    }
-   ],
-   "checkedAt": 1789356692795,
-   "etag": "",
-   "hash": "8701dec1acc97973",
-   "id": "a6bcbed9887a",
-   "imageUrl": "https://gihyo.jp/assets/images/ICON/2026/3008_sd202609.png",
-   "key": "https://gihyo.jp/article/2026/09/home-local-llm-guide",
-   "lastModified": "",
-   "publishedAt": 1788220920000,
-   "summary": "技術の進化により、ローカルLLMを個人のPCで動かすことも現実的になってきました。本稿では、ローカルLLMを手元で実際に動かしてみた知見をまとめます。快適に動かすための構成、性能と速度のトレードオフ、そして動かしてみて初めて見えてくるローカルLLMの現実がわかります。",
-   "title": "自宅でローカルLLMを動かしてみた ローカルなら実現できる遊びとこだわり",
-   "updatedAt": 1789356692795,
-   "url": "https://gihyo.jp/article/2026/09/home-local-llm-guide?utm_source=feed"
-  },
   "https://gihyo.jp/article/2026/09/knap": {
    "bodyBlocks": [
     {
@@ -3807,7 +3599,7 @@
      "text": "KnapはMITライセンスのオープンソースとして公開されている。構文や出力を試すための Playground も用意され、データ、テンプレート、出力を見比べられる。"
     }
    ],
-   "checkedAt": 1789356692795,
+   "checkedAt": 1789443121933,
    "etag": "",
    "hash": "d300bcf3280dddfe",
    "id": "921c03cd86c5",
@@ -3817,7 +3609,7 @@
    "publishedAt": 1789352460000,
    "summary": "ObsidianのCEOを務めるSteph Ango氏（kepano）は9月10日、データからMarkdownを生成するテンプレート言語「Knap」をXで紹介した。",
    "title": "ObsidianのCEO、Markdown生成向けの「Knap」を紹介 ——Web Clipperから独立したテンプレート言語",
-   "updatedAt": 1789356692795,
+   "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/article/2026/09/knap?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/meta-muse": {
@@ -3887,7 +3679,7 @@
      "text": "現在のMuse Secure VMでは、Metaの担当者によるデータアクセスを運用上のポリシーで制限しているものの、サービスの運営や安全確保などに必要なアクセスまで技術的に防ぐわけではない。Metaは、同社もVM内のデータにアクセスできないよう暗号技術で保護するMuse Confidential VMを年内に提供する計画を示している。"
     }
    ],
-   "checkedAt": 1789356692795,
+   "checkedAt": 1789443121933,
    "etag": "",
    "hash": "519cfb17f464577d",
    "id": "0d15eb159cb2",
@@ -3897,7 +3689,7 @@
    "publishedAt": 1788940740000,
    "summary": "Metaは9月8日、個人向けAIエージェント「Muse」を発表した。",
    "title": "Meta、個人向けAIエージェント「Muse」を米国で提供開始",
-   "updatedAt": 1789356692795,
+   "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/article/2026/09/meta-muse?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/must-pace-the-frontier": {
@@ -4036,95 +3828,215 @@
    "updatedAt": 1789422976116,
    "url": "https://gihyo.jp/article/2026/09/must-pace-the-frontier?utm_source=feed"
   },
-  "https://gihyo.jp/article/2026/09/mysql-rcn0278": {
+  "https://gihyo.jp/article/2026/09/mysql-rcn0279": {
    "bodyBlocks": [
     {
      "kind": "P",
-     "text": "MySQL 9. 7.0のリリースノート を見ていると、DATE型に関する修正がいくつかまとめて入っていることに気付きます。TIMEDIFF()、FROM_ DAYS()、DAYNAME()、ADDDATE()など、普段から使うことのある関数も含まれています。"
+     "text": "MySQL Group Replicationでは、新規メンバーの参加や障害からの復帰の際に、グループから離脱していた期間に発生したトランザクションの同期が必要になります。この同期処理を担うのがDistributed Recoveryです。"
     },
     {
      "kind": "P",
-     "text": "これらは WL#16895: Refactor DATE handling in server によるDATE型の扱いの見直しに関連する修正です。Worklogを見ると、サーバー内部でDATE値を扱う際に利用していたMYSQL_ TIMEを、DATE専用のDate_ valへ置き換えるリファクタリングのようです。"
+     "text": "Group Replicationの基礎知識についての過去の記事も参考にしてください。"
     },
     {
      "kind": "P",
-     "text": "内部実装の変更と聞くと、普段利用するSQLへの影響はあまりなさそうにも見えます。しかし、リリースノートには実際の関数の修正も複数挙がっています。ということで今回は、MySQL 8. 4.11とMySQL 9. 7.2を用意して、どのような挙動差があるのかを確認してみました。"
-    },
-    {
-     "kind": "P",
-     "text": "今回のsql_ modeは、MySQL 9. 4.11とMySQL 9. 7.2で同一です。"
-    },
-    {
-     "kind": "P",
-     "text": "設定の差ではなく、バージョン差として結果を比較します。"
+     "text": "動作はMySQL 9. 7.0の3ノード構成 （node1:3306、node2:3307、node3:3308） で行っています。"
     },
     {
      "kind": "H",
-     "text": "0年の日付演算"
+     "text": "Distributed Recoveryとは"
     },
     {
      "kind": "P",
-     "text": "まずは、リリースノートにも記載されている0年の日付演算です。今回は、日付演算の境界値として 0000-01-01 を用います。 0000-00-00 は、MySQLで特別な意味を持つゼロ日付です。普段のアプリケーションで0年の日付を明示的に使う機会は多くないと思いますが、境界値に対する日付演算の結果は気になるところです。0年1月1日と1月31日に1日を加算してみます。"
+     "text": "グループへの参加・ 復帰時、メンバーはまずRECOVERING状態になり、グループ内の他のメンバー （ドナー） からデータを受け取って状態を合わせます。この一連の仕組みをDistributed Recoveryと呼びます。"
     },
     {
      "kind": "P",
-     "text": "8. 4.11では、どちらも 0000-00-00 になりました。一方、9. 7.2では 0000-01-02 および 0000-02-01 となり、月またぎを含めて日付として計算した結果が返っています。"
+     "text": "Distributed Recoveryが発生するタイミングは主に以下のケースです。"
+    },
+    {
+     "kind": "LI",
+     "text": "新規ノードをグループに追加するとき"
+    },
+    {
+     "kind": "LI",
+     "text": "障害・ ネットワーク分断から復帰するとき"
+    },
+    {
+     "kind": "LI",
+     "text": "メンテナンスのために一時的にグループを離脱したノードを再参加させるとき"
     },
     {
      "kind": "P",
-     "text": "次に、TO_ DAYS()とFROM_ DAYS()の組み合わせも確認します。TO_ DAYS()は日付を通算日へ変換する関数で、FROM_ DAYS()は通算日を日付へ戻す関数です。"
+     "text": "いずれのケースでも、参加するメンバー （ジョイナー） はRECOVERING状態のまま自動的に同期を開始し、同期が完了するとONLINEに遷移します。"
     },
     {
      "kind": "P",
-     "text": "TO_ DAYS('0000-01-01') の結果は、両方とも1です。しかし、8. 4.11ではFROM_ DAYS(1)が 0000-00-00 となり、この値では変換の往復が成立していません。9. 7.2ではFROM_ DAYS(1)も 0000-01-01 を返すため、往復できるようになっています。"
+     "text": "RECOVERING状態のメンバーはグループのクォーラム （過半数の合意） にはカウントされますが、グループ参加時に super_ read_ only=ON が設定されるため、クライアントからの書き込みは受け付けられません。読み取りは可能ですが、データが途中までしか適用されていないため、古い値が返ることがあります。回復中のメンバーが長時間RECOVERING状態にとどまる場合、システム全体への影響を考慮して適切な対処が必要です。"
     },
     {
      "kind": "H",
-     "text": "DATEとDATETIMEを混ぜたTIMEDIFF()"
+     "text": "Distributed Recoveryの全体フロー"
     },
     {
      "kind": "P",
-     "text": "次に、TIMEDIFF()の引数にDATETIMEとDATEを混ぜた場合です。"
+     "text": "メンバーが START GROUP_ REPLICATION を実行してからONLINEになるまでの流れは以下の通りです。"
     },
     {
      "kind": "P",
-     "text": "8. 4.11では、どちらの式もNULLになりました。一方、9. 7.2では 36:00:00 と -36:00:00 が返ります。この結果から、今回のTIMEDIFF()ではDATE側がその日の 00:00:00 として扱われ、DATETIMEとの差分が計算されていることがわかります。"
+     "text": "回復に失敗した場合、メンバーはグループを自動的に離脱します。"
     },
     {
      "kind": "P",
-     "text": "8. 4系でTIMEDIFF()の結果がNULLかどうかを分岐に使っているSQLがあれば注意が必要です。今回のように、8. 4ではNULLだった式が、9. 7では時間差を返すようになります。"
+     "text": "フローの先頭ステップで、ジョイナーは自身の group_ replication_ applier チャンネルのrelay logを確認します。再参加の場合、グループを離脱する前にグループから受け取っていた未適用トランザクションがrelay logに残っている可能性があり、その場合はドナーへの接続前にこれらをまず適用します。"
+    },
+    {
+     "kind": "P",
+     "text": "以下は実際に3ノード構成 （node1:3306、node2:3307、node3:3308） のクラスタで、node3が離脱中に1件のトランザクションが発生した状態で再参加した際のエラーログです。"
+    },
+    {
+     "kind": "P",
+     "text": "UNTIL SQL_ AFTER_ GTIDS に記録されたGTID範囲が回復対象のトランザクション範囲です。このGTIDにジョイナーが追いつくとレプリケーションSQLスレッドが自動停止し、ドナー接続が解除されてONLINEに遷移します。"
     },
     {
      "kind": "H",
-     "text": "DATEをBIGINTへコピーしてみる"
+     "text": "回復方式の選択"
     },
     {
      "kind": "P",
-     "text": "続いて、DATE列の値をBIGINT列へINSERT ... SELECTした場合を確認します。"
-    },
-    {
-     "kind": "P",
-     "text": "8. 4.11では 20260823000000 、9. 7.2では 20260823 です。8. 4.11では、DATE値をINTEGER列へコピーする際にDATETIMEへ拡張され、時刻部分の00:00:00が付加されてから数値化されていました。9. 7.2では、このINSERT ... SELECTでDATE値がYYYYMMDD形式の数値として代入されます。日付を数値形式で外部システムへ連携している場合、これは比較的影響が出やすそうです。特に14桁の値を前提にしているCSV出力やETL処理がある場合は、アップグレード前に確認しておいた方がよいでしょう。"
-    },
-    {
-     "kind": "P",
-     "text": "必要な形式が決まっているなら、暗黙変換に任せない方が安全です。8桁のYYYYMMDDが必要な場合は CAST(d AS UNSIGNED) 、14桁のYYYYMMDD000000が必要な場合は CAST(DATE_ FORMAT(d, '%Y%m%d000000') AS UNSIGNED) のように明示できます。"
+     "text": "Distributed RecoveryにはBinlogベースとCloneベースの2つの回復方式があり、 START GROUP_ REPLICATION 後に自動的に選択されます。"
     },
     {
      "kind": "H",
-     "text": "補足⁠ ： DAYNAME()を数値演算に入れた場合"
+     "text": "Binlogベースの回復"
     },
     {
      "kind": "P",
-     "text": "DAYNAME()を数値演算に入れた場合も確認してみます。これはあまり実用的な式ではありませんが、9. 7で修正された挙動の一つです。"
+     "text": "group_ replication_ recovery チャンネルを通じてドナーから欠落トランザクションを受け取り、順次適用します。データファイルの転送もジョイナーの再起動も不要なため、差分が小さければ短時間で完了します。"
     },
     {
      "kind": "P",
-     "text": "なお、今回の検証環境ではlc_ time_ namesがen_ USのため、 DAYNAME('2026-08-23') はSundayを返します。DAYNAME()単体は、どちらのバージョンでも曜日名の Sunday を返しています。しかし8. 4.11では、DAYNAME()を数値演算に含めるとWEEKDAY()相当の値として評価され、日曜日を表す6が返ります。9. 7.2では曜日名の文字列を数値へ変換するため、0が返ります。"
+     "text": "State Transferの完了後、その間にグループで発生したトランザクションをバッファから適用し、すべて追いついた時点でONLINEに遷移します。"
     },
     {
      "kind": "P",
-     "text": "曜日番号が必要な場合は、DAYNAME()を数値へ変換するのではなく、最初からWEEKDAY()またはDAYOFWEEK()を利用すべきでしょう。なお、WEEKDAY()は月曜日を0、DAYOFWEEK()は日曜日を1として数えます。"
+     "text": "前提条件として、ドナー側に欠落トランザクションをカバーするbinlogが残っている必要があります。 binlog_ expire_ logs_ seconds の設定が短すぎるとbinlogが先に削除されてしまい、Cloneベースへのフォールバックが発生します。"
+    },
+    {
+     "kind": "H",
+     "text": "Cloneベースの回復"
+    },
+    {
+     "kind": "P",
+     "text": "MySQL Clone Pluginを使ってドナーのデータを新規メンバーに丸ごとコピーします。具体的には以下の順序で実行されます。"
+    },
+    {
+     "kind": "LI",
+     "text": "ドナーからデータファイルをCloneで転送"
+    },
+    {
+     "kind": "LI",
+     "text": "ジョイナーが自動的に再起動"
+    },
+    {
+     "kind": "LI",
+     "text": "再起動後、Clone中に発生した差分トランザクションをBinlogベースで補完"
+    },
+    {
+     "kind": "LI",
+     "text": "ONLINEに遷移"
+    },
+    {
+     "kind": "P",
+     "text": "この方式を有効にするには、Clone Pluginのインストールが必須です。ドナー・ ジョイナー双方にインストールされていない場合、 group_ replication_ clone_ threshold を設定してもCloneは実行されません。また、Clone中はジョイナーのデータファイルがドナーのスナップショットで完全に上書きされるため、ジョイナー側に既存データがある場合は消去される点に注意してください。"
+    },
+    {
+     "kind": "P",
+     "text": "Clone Pluginの基本的な使い方は 第127回 「CLONEプラグインを導入しよう」 でも紹介しています。"
+    },
+    {
+     "kind": "P",
+     "text": "Cloneを使うにあたって、以下の2点も必要です。"
+    },
+    {
+     "kind": "P",
+     "text": "group_ replication_ clone_ threshold のデフォルト値は GNO_ END 実質的に無効） です。つまり、デフォルト設定では閾値超過によるCloneの自動選択は発生しません。binlogがpurge済みの場合のみ、フォールバックとしてCloneが選ばれます。"
+    },
+    {
+     "kind": "P",
+     "text": "閾値を明示的に設定することで、大きな差分がある場合に積極的にCloneを使うことができます。"
+    },
+    {
+     "kind": "P",
+     "text": "このパラメータはGroup Replication実行中でも動的に変更可能ですが、現在進行中の回復には影響せず、次回以降の回復から反映されます。"
+    },
+    {
+     "kind": "P",
+     "text": "閾値を低くしすぎると、Clone実行中にグループ内のトランザクション数が閾値を超え続け、再起動後に再びCloneが起動するというループに陥るリスクがあります。閾値はClone操作にかかる時間内にグループで発生すると想定されるトランザクション数より十分大きい値に設定してください。"
+    },
+    {
+     "kind": "P",
+     "text": "また、Cloneベースを使う場合はジョイナーの自動再起動が発生します。サーバー設定 （ my. cnf ） として group_ replication_ start_ on_ boot=ON が設定されていると、再起動後に自動的にGroup Replicationが再開し、回復の後半フェーズ （差分のBinlog補完） に進みます。この設定がない場合は再起動後に手動で START GROUP_ REPLICATION を実行する必要があります。"
+    },
+    {
+     "kind": "H",
+     "text": "ドナー選択の仕組み"
+    },
+    {
+     "kind": "P",
+     "text": "ジョイナーがどのノードからデータを受け取るかは、ソースコード （ recovery_ state_ transfer. cc ） に実装されたドナー選択ロジックで決まります。"
+    },
+    {
+     "kind": "H",
+     "text": "選択基準"
+    },
+    {
+     "kind": "P",
+     "text": "以下の条件をすべて満たすメンバーがドナー候補になります。"
+    },
+    {
+     "kind": "LI",
+     "text": "ONLINE 状態であること"
+    },
+    {
+     "kind": "LI",
+     "text": "自分自身でないこと"
+    },
+    {
+     "kind": "LI",
+     "text": "バージョン互換性があること Binlogベース：ドナーのバージョンがジョイナー以下、または同じLTSバージョン Cloneベース：同じOSおよび同じMySQLリリースシリーズ"
+    },
+    {
+     "kind": "P",
+     "text": "候補が複数いる場合はランダムに接続を試みます。以下の例では、グループ起動時にnode2が参加した時点では自身を除くONLINEメンバーはnode1のみであったため、node1が選ばれます。node3が参加した時点ではnode1、node2が候補でしたが、ランダム選択の結果node1が選ばれました。"
+    },
+    {
+     "kind": "H",
+     "text": "再試行の流れ"
+    },
+    {
+     "kind": "P",
+     "text": "ドナーへの接続が失敗した場合、次の候補に切り替えながら再試行します。候補が尽きた場合は group_ replication_ recovery_ reconnect_ interval （デフォルト60秒） の間待機してからドナーリストを再構築し、再度試みます。"
+    },
+    {
+     "kind": "P",
+     "text": "group_ replication_ recovery_ retry_ count はドナーへの接続の 「総試行回数」 で、ドナーを切り替えるたびにカウントアップされます。デフォルトの10は 「10種類のドナーへの接続試行が上限」 であり、1つのドナーへのリトライ回数ではない点に注意が必要です。"
+    },
+    {
+     "kind": "P",
+     "text": "候補リストの再構築時には、グループ内の最新のメンバー状態を元にリストを作り直します。そのため、最初の試行でドナーが全滅した後に他のノードがONLINEになった場合、 reconnect_ interval 後の再試行で新たにドナーとして選ばれる可能性があります。"
+    },
+    {
+     "kind": "H",
+     "text": "回復失敗時"
+    },
+    {
+     "kind": "P",
+     "text": "State Transferの試行が group_ replication_ recovery_ retry_ count の上限に達すると、メンバーは自動的にグループを離脱します。以下は group_ replication_ recovery_ retry_ count = 2 の状態で誤った認証情報を設定し、node3を参加させた際の実際のエラーログです。"
+    },
+    {
+     "kind": "P",
+     "text": "グループを離脱した後、メンバーはERROR状態になります。この状態からの復帰には START GROUP_ REPLICATION の手動実行が必要です。根本的な原因 （認証情報の誤り／ binlogのpurge済み／ ドナーの不在など） を解消してから再参加させる必要があります。"
     },
     {
      "kind": "H",
@@ -4132,29 +4044,37 @@
     },
     {
      "kind": "P",
-     "text": "今回は、MySQL 8. 4.11と9. 7.2でDATE型に関する挙動を比較してみました。"
+     "text": "Distributed Recoveryは自動で完結しますが、成否は事前の設定に大きく左右されます。"
     },
     {
-     "kind": "P",
-     "text": "0年の日付演算やFROM_ DAYS()、DATETIMEとDATEを混ぜたTIMEDIFF()は、9. 7でより自然な結果を返すようになっています。一方で、DATEからBIGINTへの暗黙変換は、既存の連携処理に影響する可能性があります。WL#16895は内部実装のリファクタリングですが、SQLから見える結果にもきちんと差がありました。バージョンアップ時には、新機能だけでなく、今回のような細かな型変換や関数の結果も確認しておきたいところです。"
+     "kind": "LI",
+     "text": "binlogがpurge済みでClone Pluginも未インストールの場合、どちらの回復方式も使えず回復が失敗します。この組み合わせが最も避けるべき状態です"
+    },
+    {
+     "kind": "LI",
+     "text": "Cloneベースではジョイナーが自動再起動します。 group_ replication_ start_ on_ boot=ON を設定しておかないと、再起動後に差分補完フェーズへ自動で進まず手動介入が必要になります"
+    },
+    {
+     "kind": "LI",
+     "text": "回復に失敗したメンバーは自動的にグループを離脱してERROR状態になります。原因を解消してから START GROUP_ REPLICATION を手動実行してください"
     },
     {
      "kind": "H",
-     "text": "参考資料"
+     "text": "参考情報"
     }
    ],
-   "checkedAt": 1789356692795,
+   "checkedAt": 1789443121933,
    "etag": "",
-   "hash": "152e733d31f01322",
-   "id": "195046ae8b1e",
+   "hash": "210b63b4350a69c1",
+   "id": "8227b77d72fa",
    "imageUrl": "https://gihyo.jp/assets/images/ICON/2022/1898_mysql_rcn_new.png",
-   "key": "https://gihyo.jp/article/2026/09/mysql-rcn0278",
+   "key": "https://gihyo.jp/article/2026/09/mysql-rcn0279",
    "lastModified": "",
-   "publishedAt": 1788220860000,
-   "summary": "MySQL 9.7.0のリリースノートを見ていると、DATE型に関する修正がいくつかまとめて入っていることに気付きます。",
-   "title": "第278回 MySQL 9.7で変わったDATE型の挙動を確認してみる",
-   "updatedAt": 1789356692795,
-   "url": "https://gihyo.jp/article/2026/09/mysql-rcn0278?utm_source=feed"
+   "publishedAt": 1789430880000,
+   "summary": "MySQL Group Replicationでは、新規メンバーの参加や障害からの復帰の際に、グループから離脱していた期間に発生したトランザクションの同期が必要になります。",
+   "title": "第279回 MySQL Group ReplicationのDistributed Recoveryについて",
+   "updatedAt": 1789443121933,
+   "url": "https://gihyo.jp/article/2026/09/mysql-rcn0279?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/nvidia-to-acquire-hugging-face": {
    "bodyBlocks": [
@@ -4195,7 +4115,7 @@
      "text": "Super happy to officially announce that we are a̶c̶q̶u̶i̶r̶i̶n̶g̶ joining forces with @nvidia 🔥 Here is a more personal take: AI is at an inflection point. Open source AI can become less relevant in the coming years if the big closed labs run away with it, OR it can become the… pic. twitter. com/ mbLZt15Znv — Julien Chaumond (@julien_c) September 3, 2026"
     }
    ],
-   "checkedAt": 1789356692795,
+   "checkedAt": 1789443121933,
    "etag": "",
    "hash": "79df95b4b634e148",
    "id": "e085a01dcd5d",
@@ -4205,7 +4125,7 @@
    "publishedAt": 1788484860000,
    "summary": "2026年9月3日、NVIDIAによるHugging Faceの買収について両社が合意したことが発表された。",
    "title": "NVIDIAがHugging Faceを129億3030万ドルで買収へ",
-   "updatedAt": 1789356692795,
+   "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/article/2026/09/nvidia-to-acquire-hugging-face?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/openai-agents-api-public-beta": {
@@ -4279,262 +4199,6 @@
    "title": "OpenAI、Agents APIをパブリックベータ公開 ——Codexの実行基盤でクラウドエージェントを構築",
    "updatedAt": 1789383505375,
    "url": "https://gihyo.jp/article/2026/09/openai-agents-api-public-beta?utm_source=feed"
-  },
-  "https://gihyo.jp/article/2026/09/ossdb-various-news0133": {
-   "bodyBlocks": [
-    {
-     "kind": "P",
-     "text": "この連載は OSSコンソーシアム データベース部会のメンバーがオープンソースデータベースの毎月の出来事をお伝えしています。"
-    },
-    {
-     "kind": "H",
-     "text": "OSC京都での 「AIコーディングの普及で○○○は不要になる？」 の報告"
-    },
-    {
-     "kind": "P",
-     "text": "8月1日に開催された オープンソースカンファレンス 2026 Kyoto （OSC京都） において、 OSSコンソーシアムが企画セミナーを実施しました 。会場は毎年お世話になっている京都リサーチパーク （KRP） でした。OSSコンソーシアムが実施したセミナーは次のようなものです。"
-    },
-    {
-     "kind": "P",
-     "text": "AI技術 （LLM・ 生成AI・ AIエージェントなど） によってITエンジニアの仕事も変わりつつあります。AIコーディングやバイブコーディングがその代表でしょう。プログラミングが楽になる・ 不要になるというシンプルなものばかりではなく、もっとさまざまな影響がありそうです。そこでOSSコンソーシアム会員のそれぞれの専門領域から、その影響を探ってみようという企画です。たとえばノーコード開発ツールの代わりになるのか、データベースアクセスを行うシステム開発にはどのような影響があるのか、といった点です。"
-    },
-    {
-     "kind": "H",
-     "text": "〔ミニセミナー〕AIコーディングの普及でノーコードツールは不要になるか？"
-    },
-    {
-     "kind": "P",
-     "text": "ノーコード開発ツールであるプリザンターを展開している株式会社インプリムの内田太志さんの発表です。昨今では 「AIでシステム開発ができるからノーコード開発ツールは不要になるのでは？」 と内田さん本人が面と向かって言われることがあるそうです。ひところ 「SaaSの死」 が言われていたのと同じ文脈なのでしょう。そこで、内田さんの発表は、企業の業務システムを実現する際に 「AIコーディングとノーコード開発ツールのどちらかが勝ちでどちらかが負けるのか」 という点についての考察と遊び心のある漫画調のプレゼンでした。単純にどちらかが勝ち／ 負けではなくて、両立する世界が望ましい状態だろうというのが結論です。ノーコード開発ツールのメリットを活かして、もしくはそれを土台として、ノーコード開発ツールだけのときよりもスムーズな業務システム実現をAIコーディングが助けてくれるだろうということです。"
-    },
-    {
-     "kind": "P",
-     "text": "この点を実証するデモがセミナーの時間中にリアルタイムで実施されました。プリザンターはWebデータベース型のノーコード開発ツールに分類されます。そこで、プリザンターが持つ備品管理アプリをベースにして、まったく異なる分野ですが学校での授業出席データ管理アプリを作成することができました。"
-    },
-    {
-     "kind": "H",
-     "text": "〔ミニセミナー〕AIコーディングの普及でSQLは不要になるか？"
-    },
-    {
-     "kind": "P",
-     "text": "日本オラクル株式会社でMySQLやその他のOSSデータベースを担当している梶山隆輔の発表です。データベースを得意分野としているエンジニアには見過ごせない視点ですが、発表の冒頭で 「不要にはならない」 とあっさりと切り捨てています。世の中からSQLが不要になるわけではなく、AIコーディングの普及でSQLを学習する目的が変わりそうだという予測を示されました。それは 「エンジニアがSQLを知らなくていい」 という短絡的な意味とは少し違います。 「 ⁠SQL構文を憶えておくよりももっと違う能力が重要になる」 というメッセージです。たとえば、業務要件からAIに適切な指示を与えること、SQL実行結果の意味を説明すること、AIに適切な制約を与えることなどを例として示されました。"
-    },
-    {
-     "kind": "H",
-     "text": "〔クロストーク〕AIコーディングの普及で○○○は不要になる？"
-    },
-    {
-     "kind": "P",
-     "text": "上記で紹介したミニセミナー講師2名の他に、OSSコンソーシアムのメンバーである、株式会社アックスの竹岡尚三さん、株式会社デジタル・ ヒュージ・ テクノロジーの鵜川徹さんをパネリストとし、TISI株式会社 （当時） の溝口則行がモデレータとして加わった座談会です。"
-    },
-    {
-     "kind": "P",
-     "text": "冒頭、情報処理推進機構 （IPA） の研究員でもある溝口から、IPAが最近公開をした 「DX動向2026」 の中から、日本企業でのAI活用の実態調査の結果を紹介しました。"
-    },
-    {
-     "kind": "P",
-     "text": "続いて、モデレータが設定した論点についてのディスカッションです。最初はミニセミナーでの発表に賛成か否かの観点です。 「 ⁠ノーコード開発ツールは不要には ならない 」についてはおおむね賛成のパネリストが多い中で、ノーコード開発ツールの資産や制約を土台・ 条件にすることが本当に得策かどうかという懸念も示されました。"
-    },
-    {
-     "kind": "P",
-     "text": "「SQLの 学習は不要になる （必要性が変わる⁠ ） ⁠」ことについては、この主張自体にはみなさん賛成でした。ただ、 「 ⁠AIの時代に汎用のDBMS自体が必要なのか」 という過激な意見もあり、これはDBエンジニアには気になるところです。"
-    },
-    {
-     "kind": "P",
-     "text": "上記以外の観点として、たとえば組み込み分野など他の分野でのAIコーディングの影響について話し合いました。また、そもそも人が集まって作業を分担しているOSSの開発コミュニティやユーザーコミュニティも、AIの影響でその役割や期待することが変わりそうだという点についても話し合いました。 「 ⁠懇親会が無くならないようにコミュニティ活動は残ってほしい」 という意見については皆さん異論は無いようです。"
-    },
-    {
-     "kind": "H",
-     "text": "資料などはOSSコンソーシアムのWebサイトで"
-    },
-    {
-     "kind": "P",
-     "text": "以上は約1. 5時間のセミナーの要約です。ミニセミナーでの主張やデモの内容、クロストーク （座談会） での生々しい意見のすべてを文章にするのは困難です。 OSSコンソーシアムのWebページ でスライド資料を公開していますのでご参照ください。セミナーの様子の録画も近日中に同じページから公開の予定です。"
-    },
-    {
-     "kind": "H",
-     "text": "［MySQL］ 2026年8月の主な出来事"
-    },
-    {
-     "kind": "P",
-     "text": "8月は、オラクルの Oracle Critical Security Patch Update （CSPU） にともなうリリースが行われています。MySQLサーバーは緊急度の高い脆弱性が確認されなかったため8月分のCSPUの対象外のためリリースされていません。以下の製品とバージョンの組み合わせがリリースされています。"
-    },
-    {
-     "kind": "LI",
-     "text": "MySQL NDB Cluster 8. 0.48、8. 4.11 LTS、9. 7.2 LTS"
-    },
-    {
-     "kind": "LI",
-     "text": "MySQL Shell: 26. 7.1"
-    },
-    {
-     "kind": "LI",
-     "text": "MySQL Connector ODBC: 26. 7.1"
-    },
-    {
-     "kind": "P",
-     "text": "MySQL NDB Clusterは、イノベーション・ リリースの26. 7はCSPUの対象外です。また、上記に記載の無い製品もリリース対象外となっています。なお、MySQLコミュニティ版の8月分の脆弱性情報は MySQL Community Edition Security Advisory としてまとめられています。"
-    },
-    {
-     "kind": "H",
-     "text": "MySQL 26. 7イノベーション⁠ ・ リリース"
-    },
-    {
-     "kind": "P",
-     "text": "本連載の 第132回 の原稿締め切り後の7月28日に、 MySQL 26. 7.0 イノベーション・ リリース が、9. 7.1 LTSおよび8. 4.10 LTSとともにリリースされました。 MySQL NDB Clusterにも26. 7.0 イノベーション・ リリースがあり 、MySQL ShellやRouterなどのクライアント・ プログラムや接続部品であるConnectorsも26. 7.0がリリースされています。また、商用版でもこれらのバージョンが利用可能なほか、 クラウド版のMySQL HeatWaveもこれらのバージョンが提供 されています。"
-    },
-    {
-     "kind": "P",
-     "text": "このMySQL 26. 7は新しいバージョン番号形式である 「カレンダー形式」 でリリースされた最初のバージョンです。2026年7月のリリースということで26. 7となっています。今後は3つ目の桁の部分がリリースのたびに26. 7.0→26. 7.1７→26. 7.2のように増加していく予定となっています。26. 7はイノベーション・ リリースのためサポート期間は3ヵ月となり、3ヵ月後の オラクルのCritical Patch Update （CPU） のタイミングで修正パッチの提供は、最新のイノベーション・ リリースのバージョンのみとなります。"
-    },
-    {
-     "kind": "P",
-     "text": "MySQL 26. 7.0 イノベーション・ リリースの主な新機能は以下の通りです。"
-    },
-    {
-     "kind": "P",
-     "text": "その他の新機能や変更点は MySQL 26. 7.0 イノベーション・ リリースのリリースノート を参照してください。"
-    },
-    {
-     "kind": "P",
-     "text": "MySQL 26. 7 イノベーション・ リリースは、開発が順調であれば2028年4月にリリースされることになる次期LTS （Long-Term Support） まで、新機能の追加や古い機能の廃止、デフォルト設定の変更などが行われていきます。また、このバージョンから、 第132回 でも紹介している、 新しいコミュニティ・ ガバナンス・ モデル の元での開発が行われていきます。"
-    },
-    {
-     "kind": "H",
-     "text": "MySQLステアリング⁠ ・ コミッティのメンバー発表"
-    },
-    {
-     "kind": "P",
-     "text": "MySQLコミュニティ・ ガバナンス・ モデルでの、 MySQLコミュニティ版の開発の全体的かつ長期的な方針決定や統括を担うステアリング・ コミッティの初代のメンバーが発表 されました。これまで発表されていたオラクル、AWS、Google Cloudの3社に加えて、世界有数の金融機関であるJPMorganChaseにて2,000インスタンス以上のMySQLを運用するチームを率いるJenni Garvie （ジェニー・ ガーヴィー） 氏と、世界最大級のオンライン旅行サイトであるBooking. comで大規模なMySQLプラットフォームを含むSREとプラットフォームチームを率いるJenő Szabó （イェネー・ サボー） 氏が加わりました。8月5、6日に開催された第2回のMySQL コントリビューター・ サミットを経て、正式にステアリング・ コミッティが発足しました。今後のMySQL エコシステムに対して長期的な技術とコミュニティのガバナンスを担う重要なチームとなります。"
-    },
-    {
-     "kind": "H",
-     "text": "第2回MySQLコントリビューター⁠ ・ サミット"
-    },
-    {
-     "kind": "P",
-     "text": "MySQLコントリビューター・ サミット は、MySQLコミュニティの最新状況を共有し、新機能の提案や議論を行うイベントです。第2回は、8月5、6日にアメリカ コロラド州で開催され、オンラインでの参加も可能なハイブリッド形式でした。第1回から引き続き、ベクトル関連の新機能に関する議論が最も注目を集めたコンテンツでした。他にも数多くの新機能の提案が行われており、特にMySQLの特徴でもあるストレージ・ エンジンについては、 書き込み処理の高速化を狙うTidesDB や、 カラム型で高速な分析処理を可能とするDuckDBをサポートする提案 がされています。それぞれのプレゼンテーションは、上記のリンク先にPDFとして掲載されています。"
-    },
-    {
-     "kind": "P",
-     "text": "本連載の著者も、最新のUnicodeのCollation （照合） などのサポートを提案しており、今回のイベントでも15分間のプレゼンテーションを行いました。イベントでのプレゼンテーションは、 この提案のIssueに添付 してあります。オンラインでの講演中にも、Zoomのチャットで多くの議論が行われていました。基本的には多くの方が提案に同意してくれていた一方で、Unicodeやキャラクターセット関連については普段深く考えずに利用している方も多く、重要そうであることはわかるが影響範囲を正しく理解できていないケースも見られました。"
-    },
-    {
-     "kind": "P",
-     "text": "また、概要や提案に至った経緯は、MySQLコントリビューター・ サミット初日終了の約半日後に行われた 8月6日夕方に開催された 「帰ってきた！ MySQL Technology Cafe」 のページに掲載しています。MySQL Technology Caféでは、この実際の新機能の提案の経験をもとに、現時点でのGitHubを使ったコントリビューションの流れを解説しました。"
-    },
-    {
-     "kind": "P",
-     "text": "今後、日本からの新機能の提案や議論への参加が進むことを期待しています。"
-    },
-    {
-     "kind": "H",
-     "text": "［PostgreSQL］ 2026年8月の主な出来事"
-    },
-    {
-     "kind": "P",
-     "text": "8月には予定通りにサポート中メジャーバージョンのマイナーリリースがありました。また同時に次期メジャーバージョン19の新しいベータ版も登場。今月はこれらの情報をお伝えします。"
-    },
-    {
-     "kind": "H",
-     "text": "サポート中メジャーバージョン14～18で大量のセキュリティ脆弱性が修正される"
-    },
-    {
-     "kind": "P",
-     "text": "8月13日、サポート中のメジャーバージョンであるバージョン14からバージョン18の マイナーバージョンがリリース されました。マイナーリリースは発見された不具合の修正が中心で、この点は通常通りですが、今回は少し様子が異なります。CVE番号 （共通脆弱性識別子） が割り振られた脆弱性が28件も修正されてまとめてリリースされましたので、この部分を中心にお伝えします。"
-    },
-    {
-     "kind": "H",
-     "text": "次期メジャーバージョン19の3回目のベータ版がリリース"
-    },
-    {
-     "kind": "P",
-     "text": "上記の マイナーバージョンリリースと同じお知らせ で、次期メジャーバージョンであるPostgreSQL 19ベータ3のリリースも発表されました。ベータ2からの修正点・ 変更点はリリースのお知らせを参照してください。"
-    },
-    {
-     "kind": "H",
-     "text": "2021年にリリースされたバージョン14がまもなくサポート終了"
-    },
-    {
-     "kind": "P",
-     "text": "PostgreSQLのメジャーバージョンがサポートされる期間は、そのメジャーバージョンが最初にリリースされてから5年間です。今年の11月には、バージョン14がサポート終了となります。これも上記の マイナーバージョンリリースのお知らせ の中でサポート終了の注意喚起がされています。"
-    },
-    {
-     "kind": "H",
-     "text": "［Tsurugi］ 2026年8月の主な出来事"
-    },
-    {
-     "kind": "P",
-     "text": "超高速というTsurugiの特性を活かした実証実験が進められています。"
-    },
-    {
-     "kind": "H",
-     "text": "ワット⁠ ・ ビット構想実現に向けた次世代分散型AI処理インフラでの実証実験"
-    },
-    {
-     "kind": "P",
-     "text": "国立研究開発法人新エネルギー・ 産業技術総合開発機構 （NEDO） 主導のプロジェクト 「次世代インフラにおける低遅延分散処理技術の有効性検証に関する調査」 において、フォーミュラカーレース 「KYOJO CUP」 を舞台にした、ローカル5GおよびPhysical AIを活用した次世代リアルタイム映像配信システムの 実証実験を共同で開始します 。テレメトリーデータと4K映像が場内のCPUサーバーに転送され、超高速データベース （RDB） である劔 “ ⁠Tsurugi⁠ ” に格納されます。"
-    },
-    {
-     "kind": "P",
-     "text": "この実証実験では、Tsurugiをはじめとしてエンジニアがワクワクするさまざまな最先端テクノロジーが使われるようです。"
-    },
-    {
-     "kind": "LI",
-     "text": "国産の超高速RDBであるTsurugi"
-    },
-    {
-     "kind": "LI",
-     "text": "ローカル5G"
-    },
-    {
-     "kind": "LI",
-     "text": "APN （オールフォトニクスネットワーク） と光NIC"
-    },
-    {
-     "kind": "LI",
-     "text": "車載テレメトリーと映像を時刻同期させる超低遅延AIスコアリング"
-    },
-    {
-     "kind": "LI",
-     "text": "空間と時間のデータとしてバーチャル上に再現する時空間データ基盤"
-    },
-    {
-     "kind": "P",
-     "text": "なお、11月に開催予定のイベント 「Inter BEE 2026」 にて、この実証実験の発表を予定されているとのことです。"
-    },
-    {
-     "kind": "H",
-     "text": "2026年9月以降開催予定のセミナーやイベント⁠ 、 ユーザ会の活動"
-    },
-    {
-     "kind": "P",
-     "text": "イベントごとに利便性のあるオンライン開催や、従来通りのオンサイト （会場） 開催、またはハイブリットが混在するようになっています。興味を持たれて参加したいイベントの開催形態にご注意ください。"
-    },
-    {
-     "kind": "LI",
-     "text": "初心者による 「使ってみた/動かしてみた」 系"
-    },
-    {
-     "kind": "LI",
-     "text": "中級者による 「こういうノウハウ使ってる」 系"
-    },
-    {
-     "kind": "LI",
-     "text": "上級者 （？） による 「こういう拡張してみた」 系"
-    }
-   ],
-   "checkedAt": 1789356692795,
-   "etag": "",
-   "hash": "330b6873c43929e0",
-   "id": "a54997e62538",
-   "imageUrl": "https://gihyo.jp/assets/images/ICON/2022/1899_ossdb_vn_new.png",
-   "key": "https://gihyo.jp/article/2026/09/ossdb-various-news0133",
-   "lastModified": "",
-   "publishedAt": 1788220860000,
-   "summary": "この連載はOSSコンソーシアム データベース部会のメンバーがオープンソースデータベースの毎月の出来事をお伝えしています。",
-   "title": "第133回 連載12年目に突入、オープンソースカンファレンス京都報告、MySQLのステアリング・コミッティにJPMorganChaseとBooking. comが参画、PostgreSQLの多数の脆弱性が修正",
-   "updatedAt": 1789356692795,
-   "url": "https://gihyo.jp/article/2026/09/ossdb-various-news0133?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/pnpm-12.4": {
    "bodyBlocks": [
@@ -4667,7 +4331,7 @@
      "text": "明示的なキャッシュ読み取り：0. 17ドル/100万トークン"
     }
    ],
-   "checkedAt": 1789356692795,
+   "checkedAt": 1789443121933,
    "etag": "",
    "hash": "6772e9d841250080",
    "id": "a61f5ef83898",
@@ -4677,7 +4341,7 @@
    "publishedAt": 1788418800000,
    "summary": "Alibaba Qwenは2026年9月2日、AIモデルQwen3.8-Maxのアップグレード版スナップショット「Qwen3.8-Max-0902」をリリースした。",
    "title": "Qwen3.8-Maxのアップグレード版「Qwen3.8-Max-0902」登場、コーディング、エージェントタスク、マルチモーダル性能が大幅に向上",
-   "updatedAt": 1789356692795,
+   "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/article/2026/09/qwen3.8-max-0902?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/safari-top-level-await": {
@@ -4859,7 +4523,7 @@
      "text": "同氏が求めるのは、こうした安全対策を強化して人間が自己改善の過程に関わり続けられるようにすることと、必要に応じて開発を遅らせるための協調を組み合わせること。現時点では、どの研究所も最大速度での規模拡大をこの先も長く続けられるほど、アラインメントと監視の課題を解決していないとみている。共通の安全基準が確立するまで自主的な減速が広がることに期待し、AI開発をめぐる国際協調を各国政府の優先課題にすべきだと述べた。"
     }
    ],
-   "checkedAt": 1789356692795,
+   "checkedAt": 1789443121933,
    "etag": "",
    "hash": "21bd9d79b482071d",
    "id": "8b55369f41fb",
@@ -4869,7 +4533,7 @@
    "publishedAt": 1788766440000,
    "summary": "OpenAIのGreg Brockman氏やMark Chen氏、NVIDIAのJensen Huang氏が、Xへの投稿でAGI（汎用人工知能）の到来や、その時代への移行に言及した。",
    "title": "NVIDIAのJensen Huang氏「AGIは到来した」、OpenAIからも「AGI時代に入りつつある」との声",
-   "updatedAt": 1789356692795,
+   "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/article/2026/09/toward-agi-era?utm_source=feed"
   },
   "https://gihyo.jp/article/2026/09/zg": {
@@ -4939,7 +4603,7 @@
      "text": "最初のオープンソース版はコードとテキストを主な対象としている。今後はグラフ検索、検索結果の再ランキングや説明可能性の改善に加え、PDF、Word、PowerPointの処理、画像のOCR、レイアウト抽出、画像とテキストを横断して扱う機能などを計画している。詳細は 公式ロードマップ で確認できる。"
     }
    ],
-   "checkedAt": 1789356692795,
+   "checkedAt": 1789443121933,
    "etag": "",
    "hash": "78eeb7c86663a136",
    "id": "da58790c7c99",
@@ -4949,17 +4613,17 @@
    "publishedAt": 1788428940000,
    "summary": "AlibabaのベクトルデータベースZvecの開発チームは2026年8月28日、ローカル検索ツール「zg（zvec-grep）」をオープンソースとして公開した。",
    "title": "Alibaba、AIエージェントも利用できるローカル検索ツール「zg」をオープンソースとして公開",
-   "updatedAt": 1789356692795,
+   "updatedAt": 1789443121933,
    "url": "https://gihyo.jp/article/2026/09/zg?utm_source=feed"
   }
  },
  "listing": {
   "https://gihyo.jp/feed/rss2": {
-   "checkedAt": 1789422977361,
-   "etag": "W/\"6aa86140-7bad2\"",
-   "lastModified": "Mon, 14 Sep 2026 21:04:00 GMT"
+   "checkedAt": 1789443123386,
+   "etag": "W/\"6aa8b5a0-7c221\"",
+   "lastModified": "Tue, 15 Sep 2026 03:04:00 GMT"
   }
  },
  "siteId": "gihyo",
- "updatedAt": 1789423020502
+ "updatedAt": 1789443169594
 }
