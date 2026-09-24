@@ -7,9 +7,10 @@ name: collect-news
 
 on:
   schedule:
-    - cron: "50 21 * * *"
-    - cron: "20 3 * * *"
-    - cron: "50 10 * * *"
+    - cron: "0 0 1 * *"
+    #- cron: "50 21 * * *"
+    #- cron: "50 2 * * *"
+    #- cron: "0 8  * * *"
   workflow_dispatch:
     inputs:
       site:
